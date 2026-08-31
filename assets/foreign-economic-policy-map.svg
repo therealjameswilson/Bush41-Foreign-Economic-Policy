@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650" role="img" aria-labelledby="title desc">
+  <title id="title">Foreign economic policy source architecture, 1989 to 1992</title>
+  <desc id="desc">An archival network centered on presidential decision records and connected to trade, monetary policy, economic summits, transition economies, and strategic technology controls.</desc>
+  <rect width="900" height="650" fill="#163a59"/>
+  <g opacity="0.16" stroke="#dce7ed" stroke-width="1">
+    <path d="M0 104H900M0 208H900M0 312H900M0 416H900M0 520H900"/>
+    <path d="M112 0V650M224 0V650M336 0V650M448 0V650M560 0V650M672 0V650M784 0V650"/>
+  </g>
+  <g fill="none" stroke="#7da5bd" stroke-width="2" opacity="0.82">
+    <path d="M448 319C357 244 284 207 170 173"/>
+    <path d="M448 319C359 319 277 319 158 319"/>
+    <path d="M448 319C358 405 276 449 161 484"/>
+    <path d="M448 319C545 239 620 201 739 170"/>
+    <path d="M448 319C548 317 635 317 758 317"/>
+    <path d="M448 319C544 406 625 452 743 488"/>
+  </g>
+  <g fill="#f2f5f7" stroke="#a77724" stroke-width="4">
+    <circle cx="448" cy="319" r="86"/>
+  </g>
+  <g fill="#ffffff" font-family="Georgia, Times New Roman, serif" text-anchor="middle">
+    <text x="448" y="294" font-size="19" fill="#9a3740" font-family="Arial, sans-serif" font-weight="700">PRESIDENTIAL</text>
+    <text x="448" y="320" font-size="19" fill="#9a3740" font-family="Arial, sans-serif" font-weight="700">DECISION RECORD</text>
+    <text x="448" y="351" font-size="18" fill="#163a59">White House</text>
+    <text x="448" y="374" font-size="15" fill="#566472" font-family="Arial, sans-serif">NSC / EPC / CEA</text>
+  </g>
+  <g font-family="Arial, sans-serif">
+    <g transform="translate(57 118)">
+      <rect width="226" height="110" rx="6" fill="#ffffff" stroke="#d5dde4"/>
+      <rect width="8" height="110" rx="4" fill="#9a3740"/>
+      <text x="25" y="31" fill="#9a3740" font-size="13" font-weight="700">CHAPTER 1</text>
+      <text x="25" y="58" fill="#163a59" font-size="19" font-weight="700">Trade and Market Access</text>
+      <text x="25" y="83" fill="#566472" font-size="14">USTR / State / CEA</text>
+    </g>
+    <g transform="translate(43 264)">
+      <rect width="230" height="110" rx="6" fill="#ffffff" stroke="#d5dde4"/>
+      <rect width="8" height="110" rx="4" fill="#276252"/>
+      <text x="25" y="31" fill="#276252" font-size="13" font-weight="700">CHAPTER 2</text>
+      <text x="25" y="57" fill="#163a59" font-size="18" font-weight="700">Money, Debt, Institutions</text>
+      <text x="25" y="83" fill="#566472" font-size="14">Treasury / Federal Reserve / IFIs</text>
+    </g>
+    <g transform="translate(55 430)">
+      <rect width="232" height="110" rx="6" fill="#ffffff" stroke="#d5dde4"/>
+      <rect width="8" height="110" rx="4" fill="#a77724"/>
+      <text x="25" y="31" fill="#a77724" font-size="13" font-weight="700">CHAPTER 3</text>
+      <text x="25" y="58" fill="#163a59" font-size="19" font-weight="700">Economic Summits</text>
+      <text x="25" y="83" fill="#566472" font-size="14">Paris / Houston / London / Munich</text>
+    </g>
+    <g transform="translate(618 114)">
+      <rect width="228" height="110" rx="6" fill="#ffffff" stroke="#d5dde4"/>
+      <rect x="220" width="8" height="110" rx="4" fill="#276252"/>
+      <text x="18" y="31" fill="#276252" font-size="13" font-weight="700">CHAPTER 4</text>
+      <text x="18" y="58" fill="#163a59" font-size="18" font-weight="700">Transition Economies</text>
+      <text x="18" y="83" fill="#566472" font-size="14">Poland / USSR / Russia</text>
+    </g>
+    <g transform="translate(632 262)">
+      <rect width="228" height="110" rx="6" fill="#ffffff" stroke="#d5dde4"/>
+      <rect x="220" width="8" height="110" rx="4" fill="#9a3740"/>
+      <text x="18" y="31" fill="#9a3740" font-size="13" font-weight="700">CHAPTER 5</text>
+      <text x="18" y="56" fill="#163a59" font-size="17" font-weight="700">Strategic Trade and</text>
+      <text x="18" y="78" fill="#163a59" font-size="17" font-weight="700">Technology Controls</text>
+      <text x="18" y="99" fill="#566472" font-size="13">COCOM / exports / investment</text>
+    </g>
+    <g transform="translate(620 431)">
+      <rect width="229" height="110" rx="6" fill="#ffffff" stroke="#d5dde4"/>
+      <rect x="221" width="8" height="110" rx="4" fill="#a77724"/>
+      <text x="18" y="31" fill="#a77724" font-size="13" font-weight="700">BOUNDARY CONTROL</text>
+      <text x="18" y="58" fill="#163a59" font-size="18" font-weight="700">Cross-Volume Routing</text>
+      <text x="18" y="83" fill="#566472" font-size="14">NAFTA / regions / global issues</text>
+    </g>
+  </g>
+  <g fill="#a77724">
+    <circle cx="170" cy="173" r="7"/><circle cx="158" cy="319" r="7"/><circle cx="161" cy="484" r="7"/>
+    <circle cx="739" cy="170" r="7"/><circle cx="758" cy="317" r="7"/><circle cx="743" cy="488" r="7"/>
+  </g>
+  <text x="40" y="616" fill="#dce7ed" font-family="Arial, sans-serif" font-size="14" font-weight="700">SOURCE MAP / PROVISIONAL WORKING ARRANGEMENT</text>
+</svg>

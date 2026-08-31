@@ -1,0 +1,807 @@
+{
+  "checkedAt": "2026-08-31T22:24:42.989Z",
+  "total": 133,
+  "ok": 133,
+  "failed": 0,
+  "failures": [],
+  "results": [
+    {
+      "url": "https://catalog.archives.gov/id/2163561",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/2163561"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/312293887",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/312293887"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/312294079",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/312294079"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/428080101",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/428080101"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/428080649",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/428080649"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/428080829",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/428080829"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/428080831",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/428080831"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/428080833",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/428080833"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/428080835",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/428080835"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/428081135",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/428081135"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/428081745",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/428081745"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/428081749",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/428081749"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/428081771",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/428081771"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/428081773",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/428081773"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/428081775",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/428081775"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/428082021",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/428082021"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/428082275",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/428082275"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/428082277",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/428082277"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/428082281",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/428082281"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/428082283",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/428082283"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/428082491",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/428082491"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394967",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394967"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394968",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394968"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446396859",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446396859"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446396879",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446396879"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050566",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050566"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050567",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050567"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050583",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050583"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050584",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050584"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050586",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050586"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050593",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050593"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050631",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050631"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050650",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050650"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050652",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050652"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470429205",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470429205"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760921",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760921"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760944",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760944"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470761340",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470761340"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470761369",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470761369"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470761371",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470761371"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470761372",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470761372"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470761377",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470761377"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/492061797",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/492061797"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/492061798",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/492061798"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/492061965",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/492061965"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/492062321",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/492062321"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/492062323",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/492062323"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/492062325",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/492062325"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/492062327",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/492062327"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/492062328",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/492062328"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/492062331",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/492062331"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/492062335",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/492062335"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/492062348",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/492062348"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/492062363",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/492062363"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/492062366",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/492062366"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/492062472",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/492062472"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/492062473",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/492062473"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/492062476",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/492062476"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/492062479",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/492062479"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/492062480",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/492062480"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/boskin/nsc_mtg_473987122/41-bpr-cea-boskin_nsc_meetng-01113-004.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/boskin/nsc_mtg_473987122/41-bpr-cea-boskin_nsc_meetng-01113-004.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/boskin/nsc_mtg_473987122/41-bpr-cea-boskin_nsc_meetng-01113-006.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/boskin/nsc_mtg_473987122/41-bpr-cea-boskin_nsc_meetng-01113-006.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/boskin/nsc_mtg_473987122/41-bpr-cea-boskin_nsc_meetng-01113-008.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/boskin/nsc_mtg_473987122/41-bpr-cea-boskin_nsc_meetng-01113-008.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/boskin/nsc_mtg_473987122/41-bpr-cea-boskin_nsc_meetng-01113-011.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/boskin/nsc_mtg_473987122/41-bpr-cea-boskin_nsc_meetng-01113-011.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/boskin/nsc_mtg_473987122/41-bpr-cea-boskin_nsc_meetng-01113-012.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/boskin/nsc_mtg_473987122/41-bpr-cea-boskin_nsc_meetng-01113-012.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/boskin/nsc_mtg_473987122/41-bpr-cea-boskin_nsc_meetng-01113-015.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/boskin/nsc_mtg_473987122/41-bpr-cea-boskin_nsc_meetng-01113-015.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/boskin/nsc_mtg_473987122/41-bpr-cea-boskin_nsc_meetng-01113-019.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/boskin/nsc_mtg_473987122/41-bpr-cea-boskin_nsc_meetng-01113-019.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/boskin/nsc_mtg_473987122/41-bpr-cea-boskin_nsc_meetng-01113-033.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/boskin/nsc_mtg_473987122/41-bpr-cea-boskin_nsc_meetng-01113-033.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/boskin/nsc_mtg_473987122/41-bpr-cea-boskin_nsc_meetng-01113-048.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/boskin/nsc_mtg_473987122/41-bpr-cea-boskin_nsc_meetng-01113-048.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/boskin/nsc_mtg_473987122/41-bpr-cea-boskin_nsc_meetng-01113-051.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/boskin/nsc_mtg_473987122/41-bpr-cea-boskin_nsc_meetng-01113-051.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/boskin/nsc_mtg_473987122/41-bpr-cea-boskin_nsc_meetng-01169-001.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/boskin/nsc_mtg_473987122/41-bpr-cea-boskin_nsc_meetng-01169-001.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/boskin/nsc_mtg_473987122/41-bpr-cea-boskin_nsc_meetng-01169-002.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/boskin/nsc_mtg_473987122/41-bpr-cea-boskin_nsc_meetng-01169-002.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/boskin/nsc_mtg_473987122/41-bpr-cea-boskin_nsc_meetng-01169-006.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/boskin/nsc_mtg_473987122/41-bpr-cea-boskin_nsc_meetng-01169-006.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/boskin/nsc_mtg_473987122/41-bpr-cea-boskin_nsc_meetng-01169-009.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/boskin/nsc_mtg_473987122/41-bpr-cea-boskin_nsc_meetng-01169-009.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/boskin/nsc_mtg_473987122/41-bpr-cea-boskin_nsc_meetng-01169-010.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/boskin/nsc_mtg_473987122/41-bpr-cea-boskin_nsc_meetng-01169-010.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/taylor/briefing_books_2363649/41-bpr-cea-taylor_brief_bk-cf00502-001.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/taylor/briefing_books_2363649/41-bpr-cea-taylor_brief_bk-cf00502-001.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/tprg_misc_staff/tprg_misc_staff_486388768/41-bpr-cea-tprg_misc_stf-94001-004.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/tprg_misc_staff/tprg_misc_staff_486388768/41-bpr-cea-tprg_misc_stf-94001-004.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/tprg_misc_staff/tprg_misc_staff_486388768/41-bpr-cea-tprg_misc_stf-94001-005.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/tprg_misc_staff/tprg_misc_staff_486388768/41-bpr-cea-tprg_misc_stf-94001-005.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1989-05-30--Delors.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1989-05-30--Delors.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1989-07-15--First-Plenary-Session-Paris-Economic-Summit.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1989-07-15--First-Plenary-Session-Paris-Economic-Summit.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1990-04-24--Delors.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1990-04-24--Delors.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1990-07-09--Mitterrand-2.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1990-07-09--Mitterrand-2.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1990-07-10--Mitterrand-1.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1990-07-10--Mitterrand-1.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1990-07-10--Mitterrand-2.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1990-07-10--Mitterrand-2.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1990-07-11--Mitterrand.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1990-07-11--Mitterrand.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1990-11-13--Andreotti-2.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1990-11-13--Andreotti-2.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1991-07-15--Mitterrand.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1991-07-15--Mitterrand.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1991-07-16--Mitterrand-1.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1991-07-16--Mitterrand-1.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1991-07-16--Mitterrand-2.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1991-07-16--Mitterrand-2.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1991-07-17--Gorbachev.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1991-07-17--Gorbachev.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1991-07-17--Mitterrand.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1991-07-17--Mitterrand.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1991-11-09--Lubbers.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1991-11-09--Lubbers.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1992-07-07--Plenary-Session--1992-Munich-Economic-Summit.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1992-07-07--Plenary-Session--1992-Munich-Economic-Summit.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1992-07-07--Private-Plenary-Session--1992-Munich-Economic-Summit.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1992-07-07--Private-Plenary-Session--1992-Munich-Economic-Summit.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1992-07-08--Heads-of-Delegation-Meeting-with-Boris-Yeltsin.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1992-07-08--Heads-of-Delegation-Meeting-with-Boris-Yeltsin.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1992-07-08--Joint-Plenary-Session--1992-Munich-Economic-Summit.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1992-07-08--Joint-Plenary-Session--1992-Munich-Economic-Summit.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-017.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-017.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-018.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-018.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-014.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-014.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-015.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-015.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-017.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-017.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-002.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-002.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00973-009.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00973-009.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-014.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-014.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-016.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-016.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-30-90001-018.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-30-90001-018.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-42-90002-006.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-42-90002-006.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC-DC_Mtgs_312294079/41-bpr-nsc-hfiles-dc_mtgs-317-90021-005.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC-DC_Mtgs_312294079/41-bpr-nsc-hfiles-dc_mtgs-317-90021-005.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC-DC_Mtgs_312294079/41-bpr-nsc-hfiles-dc_mtgs-345-90022-004.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC-DC_Mtgs_312294079/41-bpr-nsc-hfiles-dc_mtgs-345-90022-004.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC-DC_Mtgs_312294079/41-bpr-nsc-hfiles-dc_mtgs-347_1-90022-006.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC-DC_Mtgs_312294079/41-bpr-nsc-hfiles-dc_mtgs-347_1-90022-006.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC-DC_Mtgs_312294079/41-bpr-nsc-hfiles-dc_mtgs-347_2-90022-007.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC-DC_Mtgs_312294079/41-bpr-nsc-hfiles-dc_mtgs-347_2-90022-007.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC-DC_Mtgs_312294079/41-bpr-nsc-hfiles-dc_mtgs-351-90022-012.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC-DC_Mtgs_312294079/41-bpr-nsc-hfiles-dc_mtgs-351-90022-012.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSDs_313189290/41-bpr-nsc-hfiles-nsd-39-90004-013.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSDs_313189290/41-bpr-nsc-hfiles-nsd-39-90004-013.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSDs_313189290/41-bpr-nsc-hfiles-nsd-53_2-90004-033.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSDs_313189290/41-bpr-nsc-hfiles-nsd-53_2-90004-033.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-22_1-90007-015.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-22_1-90007-015.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-22_2-90007-016.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-22_2-90007-016.pdf"
+    },
+    {
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v30",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://history.state.gov/historicaldocuments/frus1989-92v30"
+    },
+    {
+      "url": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.bush41library.gov/digital-research-room/about-textual-collections/memcons-and-telcons"
+    },
+    {
+      "url": "https://www.bush41library.gov/digital-research-room/finding-aid/foia/records-16-th-economic-summit-industrialized-nations-houston",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.bush41library.gov/digital-research-room/finding-aid/foia/records-16-th-economic-summit-industrialized-nations-houston"
+    },
+    {
+      "url": "https://www.bush41library.gov/digital-research-room/finding-aid/foia/records-negotiating-north-american-free-trade-agreement",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.bush41library.gov/digital-research-room/finding-aid/foia/records-negotiating-north-american-free-trade-agreement"
+    },
+    {
+      "url": "https://www.bush41library.gov/digital-research-room/finding-aid/foia/records-nicholas-f-brady-secretary-treasury-1988-1993",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.bush41library.gov/digital-research-room/finding-aid/foia/records-nicholas-f-brady-secretary-treasury-1988-1993"
+    },
+    {
+      "url": "https://www.bush41library.gov/digital-research-room/finding-aid/foia/records-structural-impediments-initiative-sii",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.bush41library.gov/digital-research-room/finding-aid/foia/records-structural-impediments-initiative-sii"
+    },
+    {
+      "url": "https://www.bush41library.gov/digital-research-room/finding-aid/foia/records-us-economic-assistance-poland-and-hungary",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.bush41library.gov/digital-research-room/finding-aid/foia/records-us-economic-assistance-poland-and-hungary"
+    },
+    {
+      "url": "https://www.bush41library.gov/digital-research-room/finding-aid/public-papers/exchange-reporters-1",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.bush41library.gov/digital-research-room/finding-aid/public-papers/exchange-reporters-1"
+    },
+    {
+      "url": "https://www.bush41library.gov/digital-research-room/finding-aid/public-papers/london-economic-summit-economic-declaration",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.bush41library.gov/digital-research-room/finding-aid/public-papers/london-economic-summit-economic-declaration"
+    },
+    {
+      "url": "https://www.bush41library.gov/digital-research-room/finding-aid/public-papers/message-congressional-leaders-transmitting-1991",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.bush41library.gov/digital-research-room/finding-aid/public-papers/message-congressional-leaders-transmitting-1991"
+    },
+    {
+      "url": "https://www.bush41library.gov/digital-research-room/finding-aid/public-papers/remarks-presenting-final-communique-houston",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.bush41library.gov/digital-research-room/finding-aid/public-papers/remarks-presenting-final-communique-houston"
+    },
+    {
+      "url": "https://www.bush41library.gov/digital-research-room/finding-aid/public-papers/statement-japan-united-states-relations",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.bush41library.gov/digital-research-room/finding-aid/public-papers/statement-japan-united-states-relations"
+    },
+    {
+      "url": "https://www.bush41library.gov/digital-research-room/finding-aid/public-papers/statement-japan-united-states-trade-negotiations",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.bush41library.gov/digital-research-room/finding-aid/public-papers/statement-japan-united-states-trade-negotiations"
+    },
+    {
+      "url": "https://www.bush41library.gov/digital-research-room/finding-aid/public-papers/statement-united-states-action-against-foreign",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.bush41library.gov/digital-research-room/finding-aid/public-papers/statement-united-states-action-against-foreign"
+    },
+    {
+      "url": "https://www.bush41library.gov/digital-research-room/finding-aid/public-papers/white-house-fact-sheet-north-american-free-trade",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.bush41library.gov/digital-research-room/finding-aid/public-papers/white-house-fact-sheet-north-american-free-trade"
+    },
+    {
+      "url": "https://www.bush41library.gov/digital-research-room/finding-aid/records-national-security-council-george-h-w-bush-administration",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.bush41library.gov/digital-research-room/finding-aid/records-national-security-council-george-h-w-bush-administration"
+    },
+    {
+      "url": "https://www.govinfo.gov/app/collection/ppp/president-41_Bush,%20George%20H.%20W.",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.govinfo.gov/app/collection/ppp/president-41_Bush,%20George%20H.%20W."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bush41-foreign-economic-policy",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:data": "node scripts/build-data.js",
+    "validate": "node scripts/validate-data.js",
+    "check:links": "node scripts/check-links.js",
+    "check": "node --check app.js && node --check scripts/build-data.js && node --check scripts/validate-data.js && node --check scripts/check-links.js && npm run validate"
+  }
+}

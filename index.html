@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="A provisional FRUS compiler workbench for Foreign Relations of the United States, 1989-1992, Volume XXX, Foreign Economic Policy."
+    >
+    <meta name="theme-color" content="#163a59">
+    <title>Foreign Economic Policy, 1989-1992 | FRUS Compiler Workbench</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#chronology">Skip to chronology</a>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Foreign Economic Policy compiler workbench home">
+        <span class="brand-mark" aria-hidden="true">30</span>
+        <span>Foreign Economic Policy</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#chronology">Chronology</a>
+        <a href="#chapters">Chapters</a>
+        <a href="#compiler">Compiler Desk</a>
+        <a href="#public-record">Public Record</a>
+        <a href="#sources">Sources</a>
+        <a href="#gaps">Gaps</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="kicker">FRUS 1989-1992, Volume XXX</p>
+          <h1 id="hero-title">Foreign Economic Policy</h1>
+          <p class="lede">
+            <span class="lede-desktop">A provisional, evidence-first register for documentary selection: presidential conversations,
+            economic-policy memoranda, NSC and Deputies Committee files, summit records, withdrawn items,
+            and high-value archival leads.</span>
+            <span class="lede-mobile">A provisional, evidence-first register of internal and public records for compiler review.</span>
+          </p>
+          <div class="hero-status" role="group" aria-label="Project status">
+            <span class="status-stamp">Being Researched</span>
+            <span class="status-stamp status-stamp-neutral">Provisional chapter plan</span>
+          </div>
+          <div class="hero-actions" role="group" aria-label="Primary actions">
+            <a class="button primary" href="#chronology">Open Chronology</a>
+            <a class="button secondary" href="data/records.csv" download>Download CSV</a>
+            <a class="button secondary" href="data/volume.json" download>Download JSON</a>
+          </div>
+          <p class="trust-note">
+            Claims stop where the evidence stops. Source Notes are separated from provisional drafts and
+            file-unit locators, and every record retains a direct official source link.
+          </p>
+        </div>
+
+        <aside class="brief visual-brief" aria-label="Volume scope and archival architecture">
+          <img
+            class="archive-map"
+            src="assets/foreign-economic-policy-map.svg"
+            alt="Source architecture map linking the White House, Treasury, State Department, USTR, international institutions, economic summits, transition economies, and strategic trade controls"
+            width="900"
+            height="650"
+          >
+          <div>
+            <p class="brief-label">Working scope</p>
+            <dl>
+              <div>
+                <dt>Official status</dt>
+                <dd>Being Researched</dd>
+              </div>
+              <div>
+                <dt>Arrangement</dt>
+                <dd>Five provisional chapters</dd>
+              </div>
+              <div>
+                <dt>Boundary control</dt>
+                <dd>NAFTA routed primarily to Volume XXXIII</dd>
+              </div>
+            </dl>
+          </div>
+        </aside>
+      </section>
+
+      <section class="stats" aria-label="Register summary">
+        <div>
+          <span id="stat-records">0</span>
+          <p>Candidate records</p>
+        </div>
+        <div>
+          <span id="stat-source-notes">0</span>
+          <p>Verified Source Notes</p>
+        </div>
+        <div>
+          <span id="stat-released">0</span>
+          <p>Released documents</p>
+        </div>
+        <div>
+          <span id="stat-withheld-pages">0</span>
+          <p>Known withheld pages</p>
+        </div>
+        <div>
+          <span id="stat-public">0</span>
+          <p>Public references</p>
+        </div>
+      </section>
+
+      <section class="section records-section chronology-section" id="chronology" aria-labelledby="chronology-title">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">First Working Section</p>
+            <h2 id="chronology-title">Declassified Document Chronology</h2>
+          </div>
+          <span class="status-stamp">Compiler register</span>
+        </div>
+        <p class="records-intro">
+          Released items, withdrawn documents, meeting packets, and file-unit leads appear in one date-ordered
+          register. Year-only file titles sort at the end of their stated year and are labeled accordingly.
+        </p>
+
+        <div class="records-tools" role="search" aria-label="Chronology filters">
+          <label class="search-field">
+            <span>Search</span>
+            <input id="record-search" type="search" placeholder="Title, topic, person, OA/ID, NAID">
+          </label>
+          <label>
+            <span>Chapter</span>
+            <select id="chapter-filter"></select>
+          </label>
+          <label>
+            <span>Record type</span>
+            <select id="type-filter"></select>
+          </label>
+          <label>
+            <span>Release state</span>
+            <select id="release-filter"></select>
+          </label>
+          <label>
+            <span>Source Note state</span>
+            <select id="source-note-filter"></select>
+          </label>
+          <label>
+            <span>Selection</span>
+            <select id="selection-filter"></select>
+          </label>
+          <button id="clear-filters" type="button">Reset</button>
+          <button id="download-filtered" class="download-filtered" type="button">Download Filtered CSV</button>
+          <p id="records-summary" class="records-summary" aria-live="polite">Loading register...</p>
+        </div>
+
+        <div id="records-root" class="records-root" aria-live="polite">
+          <p class="loading">Loading chronological records...</p>
+        </div>
+      </section>
+
+      <section class="section" id="chapters" aria-labelledby="chapters-title">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">Provisional Arrangement</p>
+            <h2 id="chapters-title">Working Chapters</h2>
+          </div>
+          <span class="status-stamp status-stamp-neutral">Not an official contents list</span>
+        </div>
+        <p class="records-intro" id="chapter-scope-note"></p>
+        <div id="chapter-grid" class="chapter-grid chapter-grid-five"></div>
+        <div class="boundary-band">
+          <div>
+            <p class="kicker">Boundary Queue</p>
+            <h3>Canada, Mexico, and NAFTA</h3>
+          </div>
+          <p id="boundary-note"></p>
+          <button type="button" id="show-boundary">Show boundary records</button>
+        </div>
+      </section>
+
+      <section class="section compiler-section" id="compiler" aria-labelledby="compiler-title">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">FRUS Compiler Desk</p>
+            <h2 id="compiler-title">Selection and Provenance Control</h2>
+          </div>
+          <span class="status-stamp">Human review required</span>
+        </div>
+        <p class="records-intro">
+          Source Note status describes the evidentiary basis for the citation, not the historical importance of
+          the document or its likelihood of final selection.
+        </p>
+        <div id="compiler-metrics" class="compiler-metrics" role="group" aria-label="Compiler metrics"></div>
+        <div class="method-grid">
+          <article class="method-panel method-verified">
+            <p class="record-type">Verified</p>
+            <h3>Source-image checked</h3>
+            <p>
+              The citation marker or equivalent source image, document classification, and item identity have
+              been checked. These entries expose copy-ready heading, dateline, and Source Note blocks.
+            </p>
+          </article>
+          <article class="method-panel method-draft">
+            <p class="record-type">Draft</p>
+            <h3>FRUS-style, pending confirmation</h3>
+            <p>
+              The note follows the published series pattern but depends on Catalog hierarchy or incomplete
+              online evidence. It must be confirmed against the original folder or citation marker.
+            </p>
+          </article>
+          <article class="method-panel method-locator">
+            <p class="record-type">Locator</p>
+            <h3>Folder-level discovery only</h3>
+            <p>
+              The entry identifies an official file unit or withdrawal-sheet item. It deliberately does not
+              present a document-level Source Note before boundaries, markings, and provenance are verified.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section statements-section" id="public-record" aria-labelledby="public-record-title">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">Reference Chronology</p>
+            <h2 id="public-record-title">Public Record</h2>
+          </div>
+          <span class="status-stamp status-stamp-neutral">Selective first pass</span>
+        </div>
+        <p class="records-intro">
+          Official public statements can establish chronology and public policy, but they do not substitute for
+          the internal record. NAFTA items remain visible as boundary references.
+        </p>
+        <div class="records-tools public-tools" role="search" aria-label="Public record filters">
+          <label class="search-field">
+            <span>Search</span>
+            <input id="public-search" type="search" placeholder="Title, topic, record type">
+          </label>
+          <label>
+            <span>Type</span>
+            <select id="public-type-filter"></select>
+          </label>
+          <button id="public-clear" type="button">Reset</button>
+          <p id="public-summary" class="records-summary" aria-live="polite">Loading public record...</p>
+        </div>
+        <div id="public-root" class="records-root"></div>
+      </section>
+
+      <section class="section source-section" id="sources" aria-labelledby="sources-title">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">Official Source Map</p>
+            <h2 id="sources-title">Collections and Finding Aids</h2>
+          </div>
+        </div>
+        <div id="source-grid" class="source-grid"></div>
+      </section>
+
+      <section class="section gap-section" id="gaps" aria-labelledby="gaps-title">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">Compiler Risk</p>
+            <h2 id="gaps-title">Gap Ledger</h2>
+          </div>
+          <span class="status-stamp">Open research work</span>
+        </div>
+        <p class="records-intro">
+          The register is intentionally candid about missing repositories, series, document-level audits, and
+          cross-volume routing decisions.
+        </p>
+        <div id="gap-root" class="gap-root"></div>
+      </section>
+
+      <section class="section download-section" id="downloads" aria-labelledby="downloads-title">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">Research Handoff</p>
+            <h2 id="downloads-title">Data and Method</h2>
+          </div>
+        </div>
+        <div class="download-grid">
+          <a href="data/records.csv" download>
+            <strong>Candidate register</strong>
+            <span>CSV with headings, datelines, status fields, provenance, and official links</span>
+          </a>
+          <a href="data/volume.json" download>
+            <strong>Full project data</strong>
+            <span>JSON with chapter definitions, records, source map, public references, and gaps</span>
+          </a>
+          <a href="data/public-references.csv" download>
+            <strong>Public references</strong>
+            <span>CSV of the initial Public Papers register</span>
+          </a>
+          <a href="reports/data-validation.json">
+            <strong>Validation report</strong>
+            <span>Machine-readable checks for chronology, Source Note state, links, and withheld extents</span>
+          </a>
+          <a href="reports/link-check.json">
+            <strong>Official link audit</strong>
+            <span>HTTP results for the unique Catalog, PDF, finding-aid, and Public Papers links</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Independent research aid for FRUS compilation. It is not an official publication of the Department of
+        State, the National Archives, or the George H.W. Bush Presidential Library.
+      </p>
+      <p>
+        Official volume status:
+        <a href="https://history.state.gov/historicaldocuments/frus1989-92v30">FRUS 1989-1992, Volume XXX</a>.
+      </p>
+    </footer>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script src="data/volume.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
