@@ -1635,15 +1635,15 @@ th {
 }
 
 .nsc-collection-tabs {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 4px;
   margin: 20px 0 18px;
-  overflow-x: auto;
   border-bottom: 1px solid var(--line);
 }
 
 .nsc-collection-tab {
-  flex: 0 0 auto;
+  min-width: 0;
   min-height: 44px;
   padding: 10px 14px 9px;
   color: var(--muted);
@@ -1651,7 +1651,8 @@ th {
   font-size: 0.86rem;
   font-weight: 900;
   letter-spacing: 0;
-  white-space: nowrap;
+  white-space: normal;
+  text-align: left;
   background: transparent;
   border: 0;
   border-bottom: 3px solid transparent;
@@ -1804,7 +1805,9 @@ th {
 }
 
 .nsc-file-row.marker-verified-with-handwritten-correction,
-.nsc-file-row.marker-verified-with-catalog-ID-mismatch {
+.nsc-file-row.marker-verified-with-catalog-ID-mismatch,
+.nsc-file-row.marker-verified-with-record-group-exception,
+.nsc-file-row.marker-verified-with-OCR-normalization {
   border-left-color: #a66a00;
   background: #fffaf0;
 }

@@ -196,6 +196,7 @@ function recordSearchText(record) {
     record.classification,
     record.naid,
     record.localId,
+    record.seriesTitle,
     record.sourceNote,
     record.archivalLocator,
     record.notes,
@@ -400,6 +401,8 @@ function markerLabel(status) {
     verified: "Opening marker verified",
     "verified with handwritten correction": "Marker verified; ID corrected by hand",
     "verified with catalog ID mismatch": "Marker verified; Catalog ID mismatch retained",
+    "verified with record-group exception": "Marker verified; donated-materials exception retained",
+    "verified with OCR normalization": "Marker verified; NARA OCR normalization retained",
     "not online": "No online PDF",
     "not present": "Opening marker not present",
   }[status] || status;
@@ -574,7 +577,7 @@ function renderNscCollection() {
     [
       activeNscCollection.fileUnits.length,
       "Catalog file units",
-      `${activeNscCollection.onlinePdfCount ?? activeNscCollection.fileUnits.filter((row) => row.pdfUrl).length} online PDFs`,
+      `${activeNscCollection.seriesCount ? `${activeNscCollection.seriesCount} component series; ` : ""}${activeNscCollection.onlinePdfCount ?? activeNscCollection.fileUnits.filter((row) => row.pdfUrl).length} online PDFs`,
     ],
     [
       activeNscCollection.candidateCount,
@@ -584,15 +587,17 @@ function renderNscCollection() {
     [
       activeNscCollection.markerVerified,
       "Opening markers verified",
-      `${activeNscCollection.markerCorrectedCount || 0} corrected by hand; ${activeNscCollection.markerMismatchCount || 0} marker/Catalog mismatches; ${activeNscCollection.markerExceptionCount} unavailable or incomplete`,
+      activeNscCollection.markerMetricDetail || `${activeNscCollection.markerCorrectedCount || 0} corrected by hand; ${activeNscCollection.markerMismatchCount || 0} marker/Catalog mismatches; ${activeNscCollection.markerExceptionCount} unavailable or incomplete`,
     ],
-    [formatByteSize(activeNscCollection.totalPdfBytes), "Online PDF corpus", "Official NARA digital objects"],
+    [formatByteSize(activeNscCollection.totalPdfBytes), "Online PDF corpus", activeNscCollection.corpusSizeNote || "Official NARA digital objects"],
   ];
   elements.nscMetrics.replaceChildren(...metrics.map(([value, title, detail]) => metric(value, title, detail)));
 
   const onlineRows = activeNscCollection.fileUnits.filter((row) => row.pdfUrl);
   const correctedRows = onlineRows.filter((row) => row.markerStatus === "verified with handwritten correction");
   const mismatchRows = onlineRows.filter((row) => row.markerStatus === "verified with catalog ID mismatch");
+  const recordGroupRows = onlineRows.filter((row) => row.markerStatus === "verified with record-group exception");
+  const ocrNormalizationRows = onlineRows.filter((row) => row.markerStatus === "verified with OCR normalization");
   const unverifiedRows = onlineRows.filter((row) => !isVerifiedMarker(row.markerStatus));
   const catalogOnlyRows = activeNscCollection.fileUnits.filter((row) => !row.pdfUrl);
   const exceptionParts = [];
@@ -608,6 +613,16 @@ function renderNscCollection() {
       `${mismatchIds} ${mismatchRows.length === 1 ? "retains a marker-to-Catalog Folder ID mismatch" : "retain marker-to-Catalog Folder ID mismatches"} in the ledger`,
     );
   }
+  if (recordGroupRows.length) {
+    exceptionParts.push(
+      `${recordGroupRows.map((row) => row.localId).join(" and ")} ${recordGroupRows.length === 1 ? "identifies Donated Historical Materials on its opening marker" : "identify Donated Historical Materials on their opening markers"}`,
+    );
+  }
+  if (ocrNormalizationRows.length) {
+    exceptionParts.push(
+      `${ocrNormalizationRows.map((row) => row.localId).join(" and ")} ${ocrNormalizationRows.length === 1 ? "retains a disclosed NARA OCR normalization" : "retain disclosed NARA OCR normalizations"}`,
+    );
+  }
   if (unverifiedRows.length) {
     exceptionParts.push(
       `${unverifiedRows.map((row) => row.localId).join(", ")} ${unverifiedRows.length === 1 ? "does" : "do"} not contain a complete opening marker`,
@@ -621,7 +636,7 @@ function renderNscCollection() {
     : "No opening-sheet exceptions were found in this online series.";
   elements.nscProvenanceTitle.textContent = activeNscCollection.provenanceTitle;
   elements.nscProvenanceSummary.textContent =
-    `${activeNscCollection.markerVerified} of ${onlineRows.length} online PDFs open with Bush Library provenance naming the record group, office, series, subseries, and folder. ${exceptionSummary}`;
+    `${activeNscCollection.markerVerified} of ${onlineRows.length} online PDFs open with Bush Library provenance naming ${activeNscCollection.markerFieldSummary || "the record group, office, series, subseries, and folder"}. ${exceptionSummary}`;
   elements.nscSeriesLink.href = activeNscCollection.catalogUrl;
 
   const candidates = activeNscCollection.candidateIds
@@ -684,6 +699,10 @@ function nscFileSearchText(row) {
     row.title,
     row.localId,
     row.naid,
+    row.seriesTitle,
+    row.markerRecordGroup,
+    row.markerSeries,
+    row.markerSubseries,
     row.chapter,
     row.routing,
     row.dateBasis,
@@ -773,13 +792,14 @@ function createNscFileUnitRow(row) {
   const meta = document.createElement("div");
   meta.className = "record-meta";
   [
+    row.seriesTitle,
     row.chapter,
     row.routing,
     markerLabel(row.markerStatus),
     row.pdfUrl
-      ? `${row.pdfPages ? `${row.pdfPages} ${plural(row.pdfPages, "page")}; ` : ""}${formatByteSize(row.pdfBytes)}`
+      ? `${row.pdfPages ? `${row.pdfPages} ${plural(row.pdfPages, "page")}; ` : ""}${row.pdfBytes ? formatByteSize(row.pdfBytes) : "Size unmeasured"}`
       : "Catalog only",
-  ].forEach((value) => meta.append(badge(value)));
+  ].filter(Boolean).forEach((value) => meta.append(badge(value)));
   const signals = document.createElement("div");
   signals.className = "nsc-signals";
   reviewSignalPairs(row).forEach(([labelText, value]) => {
@@ -855,6 +875,7 @@ function formatShortDate(value) {
 }
 
 function formatByteSize(bytes) {
+  if (!Number.isFinite(bytes) || bytes <= 0) return "Size unmeasured";
   if (bytes >= 1_073_741_824) return `${(bytes / 1_073_741_824).toFixed(2)} GiB`;
   return `${(bytes / 1_048_576).toFixed(1)} MiB`;
 }
@@ -959,9 +980,14 @@ function downloadFilteredNscCsv() {
     "dateBasis",
     "title",
     "localId",
+    "seriesNaid",
+    "seriesTitle",
     "chapter",
     "routing",
     "markerStatus",
+    "markerRecordGroup",
+    "markerSeries",
+    "markerSubseries",
     "hasOnlinePdf",
     "accessStatus",
     "pdfBytes",

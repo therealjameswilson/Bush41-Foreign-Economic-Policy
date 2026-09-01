@@ -1,0 +1,313 @@
+{
+  "generatedAt": "2026-09-01T04:37:44.985Z",
+  "collectionNaid": "4522156",
+  "expectedSeriesCount": 20,
+  "harvestedSeriesCount": 20,
+  "expectedFileUnits": 676,
+  "harvestedFileUnits": 676,
+  "onlinePdfCount": 676,
+  "candidateCount": 95,
+  "volumeReviewFileUnits": 66,
+  "boundaryReviewFileUnits": 29,
+  "candidateNaids": [
+    "366551712",
+    "366551714",
+    "366551716",
+    "366551718",
+    "366551723",
+    "366551724",
+    "366551990",
+    "366551660",
+    "366552131",
+    "366551661",
+    "366551795",
+    "366551992",
+    "366551662",
+    "366552163",
+    "366551687",
+    "366551663",
+    "366551910",
+    "366551799",
+    "366551911",
+    "366551664",
+    "366551688",
+    "366551860",
+    "366551801",
+    "366551802",
+    "366551803",
+    "366551912",
+    "366551665",
+    "366551689",
+    "366551744",
+    "366551745",
+    "366551807",
+    "366551871",
+    "366551890",
+    "366551913",
+    "366551997",
+    "366551666",
+    "366551747",
+    "366551808",
+    "366551809",
+    "366551667",
+    "366551729",
+    "366551914",
+    "366551999",
+    "366551691",
+    "366551668",
+    "366551915",
+    "366552000",
+    "366551669",
+    "366551750",
+    "366551916",
+    "366552001",
+    "366552002",
+    "366552003",
+    "366551692",
+    "366551753",
+    "366551812",
+    "366551917",
+    "366551951",
+    "366552005",
+    "366551670",
+    "366551918",
+    "366551955",
+    "366551693",
+    "366551864",
+    "366551919",
+    "366551959",
+    "366551671",
+    "366551920",
+    "366551961",
+    "366552008",
+    "366551695",
+    "366551921",
+    "366551672",
+    "366551759",
+    "366551970",
+    "366551922",
+    "366551974",
+    "366551815",
+    "366551979",
+    "366551761",
+    "366551674",
+    "366551675",
+    "366551700",
+    "366551676",
+    "366551677",
+    "366551678",
+    "366551702",
+    "366551679",
+    "366551703",
+    "366551681",
+    "366551682",
+    "366551704",
+    "366551683",
+    "366551684",
+    "366551705"
+  ],
+  "markerVerified": 676,
+  "markerRecordGroupExceptionCount": 1,
+  "markerOcrNormalizationCount": 1,
+  "markerExceptions": [],
+  "markerRecordGroupExceptions": [
+    {
+      "naid": "366551745",
+      "localId": "91117-008",
+      "title": "USSR Collapse: U.S.--Soviet Relations Thru 1991 (December 1989)",
+      "markerChecks": {
+        "marker": true,
+        "recordGroup": true,
+        "office": true,
+        "series": true,
+        "folderId": true,
+        "markerFolderId": "91117-008",
+        "catalogFolderId": "91117-008",
+        "markerRecordGroup": "Donated Historical Materials",
+        "markerOffice": "Scowcroft, Brent, Collection",
+        "markerSeries": "USSR Collapse Files",
+        "markerSubseries": "U.S - Soviet Relations Chronological Files",
+        "markerFolderTitle": "USSR Collapse: U.S - Soviet Relations Thru 1991 (December 1989)",
+        "catalogMismatch": "Opening marker says Donated Historical Materials; the other online folders say George H.W. Bush Presidential Records"
+      }
+    }
+  ],
+  "markerOcrNormalizations": [
+    {
+      "naid": "366551751",
+      "localId": "91118-005",
+      "title": "USSR Collapse: U.S.--Soviet Relations Thru 1991 (June 1990) [2]",
+      "markerChecks": {
+        "marker": true,
+        "recordGroup": true,
+        "office": true,
+        "series": true,
+        "folderId": true,
+        "markerFolderId": "91118-005",
+        "catalogFolderId": "91118-005",
+        "markerRecordGroup": "George H.W. Bush Presidential Records",
+        "markerOffice": "Scowcroft, Brent, Collection",
+        "markerSeries": "USSR Colfapse Files",
+        "markerSubseries": "U.S. - Soviet Relations Chronological Files",
+        "markerFolderTitle": "USSR Collapse: U.S - Soviet Relations Thru 1991 (June 1990) [2]",
+        "handwrittenCorrection": "NARA OCR reads 'USSR Colfapse Files'; Catalog series and folder title identify USSR Collapse Files"
+      }
+    }
+  ],
+  "pdfSizeMeasuredCount": 660,
+  "pdfSizeUnknownCount": 16,
+  "measuredPdfBytes": 15709430360,
+  "catalogDeclaredPdfBytes": 11618044469,
+  "pdfSizeMetadataMismatchCount": 406,
+  "unmeasuredPdfNaids": [
+    "366552097",
+    "366552291",
+    "366551774",
+    "366551861",
+    "366551870",
+    "366551950",
+    "366551733",
+    "366551734",
+    "366551736",
+    "366551771",
+    "366551760",
+    "366552238",
+    "366552186",
+    "366552188",
+    "366552045",
+    "366552118"
+  ],
+  "totalOcrCharacters": 67504920,
+  "workingDateNotEstablishedCount": 47,
+  "documentedDateOverrideNaids": [
+    "366551922",
+    "366552131",
+    "366552163"
+  ],
+  "parallelCopyContextCount": 43,
+  "seriesSummary": [
+    {
+      "naid": "74785770",
+      "title": "Brent Scowcroft Administrative Files",
+      "fileUnitCount": 62,
+      "catalogUrl": "https://catalog.archives.gov/id/74785770"
+    },
+    {
+      "naid": "74785834",
+      "title": "Brent Scowcroft Gulf War Article Files",
+      "fileUnitCount": 5,
+      "catalogUrl": "https://catalog.archives.gov/id/74785834"
+    },
+    {
+      "naid": "74785827",
+      "title": "Brent Scowcroft Media Articles Files",
+      "fileUnitCount": 43,
+      "catalogUrl": "https://catalog.archives.gov/id/74785827"
+    },
+    {
+      "naid": "74785758",
+      "title": "Brent Scowcroft Schedule Files",
+      "fileUnitCount": 48,
+      "catalogUrl": "https://catalog.archives.gov/id/74785758"
+    },
+    {
+      "naid": "74785753",
+      "title": "Brent Scowcroft Scheduled Calls Files",
+      "fileUnitCount": 49,
+      "catalogUrl": "https://catalog.archives.gov/id/74785753"
+    },
+    {
+      "naid": "4545955",
+      "title": "China Chronological Files",
+      "fileUnitCount": 15,
+      "catalogUrl": "https://catalog.archives.gov/id/4545955"
+    },
+    {
+      "naid": "4708326",
+      "title": "Chronological Files",
+      "fileUnitCount": 24,
+      "catalogUrl": "https://catalog.archives.gov/id/4708326"
+    },
+    {
+      "naid": "4708319",
+      "title": "Desert Shield and Desert Storm Files",
+      "fileUnitCount": 43,
+      "catalogUrl": "https://catalog.archives.gov/id/4708319"
+    },
+    {
+      "naid": "4545942",
+      "title": "German Reunification Files",
+      "fileUnitCount": 13,
+      "catalogUrl": "https://catalog.archives.gov/id/4545942"
+    },
+    {
+      "naid": "4545957",
+      "title": "Latin America Files",
+      "fileUnitCount": 40,
+      "catalogUrl": "https://catalog.archives.gov/id/4545957"
+    },
+    {
+      "naid": "4708328",
+      "title": "Meeting Files",
+      "fileUnitCount": 58,
+      "catalogUrl": "https://catalog.archives.gov/id/4708328"
+    },
+    {
+      "naid": "4545976",
+      "title": "Middle East Peace Process Files",
+      "fileUnitCount": 10,
+      "catalogUrl": "https://catalog.archives.gov/id/4545976"
+    },
+    {
+      "naid": "4545941",
+      "title": "Presidential Correspondence Files",
+      "fileUnitCount": 65,
+      "catalogUrl": "https://catalog.archives.gov/id/4545941"
+    },
+    {
+      "naid": "4545981",
+      "title": "Robert M. Gates Subject Files",
+      "fileUnitCount": 10,
+      "catalogUrl": "https://catalog.archives.gov/id/4545981"
+    },
+    {
+      "naid": "4708329",
+      "title": "Separate Communication Channel Files",
+      "fileUnitCount": 34,
+      "catalogUrl": "https://catalog.archives.gov/id/4708329"
+    },
+    {
+      "naid": "4708330",
+      "title": "Special Separate China Notes Files",
+      "fileUnitCount": 22,
+      "catalogUrl": "https://catalog.archives.gov/id/4708330"
+    },
+    {
+      "naid": "4708331",
+      "title": "Special Separate USSR Notes Files",
+      "fileUnitCount": 44,
+      "catalogUrl": "https://catalog.archives.gov/id/4708331"
+    },
+    {
+      "naid": "4545979",
+      "title": "Trip Report Files",
+      "fileUnitCount": 13,
+      "catalogUrl": "https://catalog.archives.gov/id/4545979"
+    },
+    {
+      "naid": "4708332",
+      "title": "USSR Chronological Files",
+      "fileUnitCount": 54,
+      "catalogUrl": "https://catalog.archives.gov/id/4708332"
+    },
+    {
+      "naid": "4545954",
+      "title": "USSR Collapse Files",
+      "fileUnitCount": 24,
+      "catalogUrl": "https://catalog.archives.gov/id/4545954"
+    }
+  ],
+  "duplicateNaids": [],
+  "duplicateLocalIds": [],
+  "sourceStyleReference": "https://history.state.gov/historicaldocuments/frus1989-92v31/d38"
+}

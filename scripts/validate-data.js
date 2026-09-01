@@ -390,6 +390,88 @@ if (!nscDcMeetings) {
   if (sortedCandidates.some((record, index) => record.id !== candidateRecords[index].id)) errors.push("NSC/DC Meetings candidates are not stored in chronological order");
 }
 
+const scowcroft = data.nscCollections?.find((collection) => collection.id === "scowcroft");
+if (!scowcroft) {
+  errors.push("Brent Scowcroft Papers collection is missing");
+} else {
+  if (data.nscCollections[1]?.id !== "scowcroft") errors.push("Scowcroft Papers is not the second collection tab");
+  if (scowcroft.naid !== "4522156" || scowcroft.fileUnits.length !== 676 || scowcroft.fileUnitCount !== 676) {
+    errors.push("Scowcroft collection identity or file-unit count changed");
+  }
+  if (scowcroft.seriesCount !== 20 || scowcroft.seriesSummary?.length !== 20) errors.push("Scowcroft series count is not 20");
+  if (scowcroft.seriesSummary?.reduce((total, series) => total + series.fileUnitCount, 0) !== 676) errors.push("Scowcroft series totals do not reconcile to 676 file units");
+  if (new Set(scowcroft.seriesSummary?.map((series) => series.naid)).size !== 20) errors.push("Duplicate Scowcroft series NAID");
+  if (scowcroft.onlinePdfCount !== 676 || scowcroft.catalogOnlyCount !== 0 || scowcroft.fileUnits.some((row) => !row.hasOnlinePdf)) {
+    errors.push("Scowcroft online/catalog-only totals changed");
+  }
+  if (scowcroft.markerVerified !== 676 || scowcroft.markerExceptionCount !== 0 || scowcroft.markerRecordGroupExceptionCount !== 1 || scowcroft.markerOcrNormalizationCount !== 1) {
+    errors.push("Scowcroft provenance-marker totals changed");
+  }
+  const markerStatuses = scowcroft.fileUnits.reduce((counts, row) => {
+    counts[row.markerStatus] = (counts[row.markerStatus] || 0) + 1;
+    return counts;
+  }, {});
+  if (markerStatuses.verified !== 674 || markerStatuses["verified with record-group exception"] !== 1 || markerStatuses["verified with OCR normalization"] !== 1) {
+    errors.push("Scowcroft marker-state distribution changed");
+  }
+  const recordGroupException = scowcroft.fileUnits.filter((row) => row.markerStatus === "verified with record-group exception");
+  if (recordGroupException.length !== 1 || recordGroupException[0].naid !== "366551745" || recordGroupException[0].markerRecordGroup !== "Donated Historical Materials") {
+    errors.push("Scowcroft donated-materials marker exception changed");
+  }
+  const ocrNormalization = scowcroft.fileUnits.filter((row) => row.markerStatus === "verified with OCR normalization");
+  if (ocrNormalization.length !== 1 || ocrNormalization[0].naid !== "366551751" || !/Colfapse/.test(ocrNormalization[0].markerSeries)) {
+    errors.push("Scowcroft opening-marker OCR normalization changed");
+  }
+  if (new Set(scowcroft.fileUnits.map((row) => row.naid)).size !== 676) errors.push("Duplicate Scowcroft file-unit NAID");
+  if (new Set(scowcroft.fileUnits.map((row) => row.localId)).size !== 676) errors.push("Duplicate Scowcroft OA/ID");
+  if (scowcroft.fileUnits.some((row) => !row.catalogUrl.startsWith("https://catalog.archives.gov/id/") || !row.pdfUrl.startsWith("https://catalog.archives.gov/medialz/"))) {
+    errors.push("Scowcroft ledger contains a nonofficial link");
+  }
+  if (scowcroft.fileUnits.some((row) => !Number.isInteger(row.ocrCharacterCount) || !Number.isInteger(row.economicSignals?.total))) {
+    errors.push("Scowcroft ledger lacks complete OCR signal accounting");
+  }
+  if (scowcroft.totalOcrCharacters !== 67504920 || scowcroft.fileUnits.reduce((total, row) => total + row.ocrCharacterCount, 0) !== 67504920) {
+    errors.push("Scowcroft OCR character total changed");
+  }
+  const measuredPdfRows = scowcroft.fileUnits.filter((row) => Number.isFinite(row.pdfBytes) && row.pdfBytes > 0);
+  const unmeasuredPdfRows = scowcroft.fileUnits.filter((row) => !Number.isFinite(row.pdfBytes) || row.pdfBytes <= 0);
+  if (scowcroft.pdfSizeMeasuredCount !== 660 || scowcroft.pdfSizeUnknownCount !== 16 || measuredPdfRows.length !== 660 || unmeasuredPdfRows.length !== 16) {
+    errors.push("Scowcroft served-PDF size coverage changed");
+  }
+  if (scowcroft.totalPdfBytes !== 15709430360 || measuredPdfRows.reduce((total, row) => total + row.pdfBytes, 0) !== 15709430360) {
+    errors.push("Scowcroft measured served-PDF byte total changed");
+  }
+  const sortedUnits = [...scowcroft.fileUnits].sort((a, b) => a.workingStartDate.localeCompare(b.workingStartDate) || a.workingEndDate.localeCompare(b.workingEndDate) || a.localId.localeCompare(b.localId));
+  if (sortedUnits.some((row, index) => row.naid !== scowcroft.fileUnits[index].naid)) errors.push("Scowcroft file units are not stored in working chronological order");
+  if (scowcroft.fileUnits.filter((row) => row.workingStartDate === "9999-12-31").length !== 47) errors.push("Scowcroft undated working-row count changed");
+  if (scowcroft.fileUnits.filter((row) => row.routing === "Volume XXX review").length !== 66) errors.push("Scowcroft direct-review routing count is not 66");
+  if (scowcroft.fileUnits.filter((row) => row.routing === "Boundary review").length !== 29) errors.push("Scowcroft boundary-review routing count is not 29");
+  if (scowcroft.fileUnits.filter((row) => row.routing === "Parallel-copy context").length !== 43) errors.push("Scowcroft parallel-copy context count is not 43");
+  if (scowcroft.candidateCount !== 95 || scowcroft.candidateIds.length !== 95 || scowcroft.auditedFolders.length !== 95) {
+    errors.push("Scowcroft review-candidate count is not 95");
+  }
+  if (scowcroft.candidateIds.some((id) => !ids.has(id))) errors.push("Scowcroft candidate ID is missing from the master chronology");
+  const candidateRecords = scowcroft.candidateIds.map((id) => data.records.find((record) => record.id === id)).filter(Boolean);
+  const routedNaids = new Set(scowcroft.fileUnits.filter((row) => ["Volume XXX review", "Boundary review"].includes(row.routing)).map((row) => row.naid));
+  const candidateNaids = new Set(candidateRecords.map((record) => record.naid));
+  if (routedNaids.size !== candidateNaids.size || [...routedNaids].some((naid) => !candidateNaids.has(naid))) errors.push("Scowcroft routed file units and chronology candidates do not match");
+  if (candidateRecords.some((record) => record.sourceNoteStatus !== "locator" || record.sourceNote || record.pageCount !== null)) {
+    errors.push("Scowcroft file-unit lead asserts unsupported document-level Source Note or page extent");
+  }
+  if (candidateRecords.some((record) => record.collectionId !== "scowcroft")) errors.push("Scowcroft candidate lacks its collection ID");
+  if (candidateRecords.some((record) => !record.archivalLocator.startsWith("George H.W. Bush Library, ") || !record.archivalLocator.includes("Brent Scowcroft Collection,") || !/OA\/ID \d+–\d{3},/.test(record.archivalLocator))) {
+    errors.push("Scowcroft archival locator does not follow the published FRUS collection form");
+  }
+  if (candidateRecords.filter((record) => record.selection === "Core").length !== 66) errors.push("Scowcroft candidate direct-review count is not 66");
+  if (candidateRecords.filter((record) => record.selection === "Boundary").length !== 29) errors.push("Scowcroft candidate boundary count is not 29");
+  const sortedCandidates = [...candidateRecords].sort((a, b) => a.sortDate.localeCompare(b.sortDate) || a.title.localeCompare(b.title));
+  if (sortedCandidates.some((record, index) => record.id !== candidateRecords[index].id)) errors.push("Scowcroft candidates are not stored in chronological order");
+  const correctedLatinAmerica = scowcroft.fileUnits.find((row) => row.naid === "366551922");
+  if (correctedLatinAmerica?.workingStartDate !== "1990-12-17" || correctedLatinAmerica?.workingEndDate !== "1991-02-08" || !/withdrawal inventory/i.test(correctedLatinAmerica?.dateBasis || "")) {
+    errors.push("Scowcroft Latin America chronology no longer preserves the opening-inventory correction");
+  }
+}
+
 const report = {
   checkedAt: new Date().toISOString(),
   records: data.records.length,
@@ -398,6 +480,7 @@ const report = {
   locators: data.records.filter((record) => record.sourceNoteStatus === "locator").length,
   withheldItems: data.records.filter((record) => record.releaseStatus === "Withheld").length,
   nscCollections: data.nscCollections?.length || 0,
+  scowcroftFileUnits: scowcroft?.fileUnits.length || 0,
   ifTransitionFileUnits: ifTransition?.fileUnits.length || 0,
   nsdFileUnits: nsd?.fileUnits.length || 0,
   nsrFileUnits: nsr?.fileUnits.length || 0,

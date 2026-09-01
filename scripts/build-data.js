@@ -21,6 +21,8 @@ const nsrCandidatesPath = path.join(root, "data", "nsr-candidates.json");
 const nsrFileUnitsPath = path.join(root, "data", "nsr-file-units.json");
 const ifTransitionCandidatesPath = path.join(root, "data", "if-transition-candidates.json");
 const ifTransitionFileUnitsPath = path.join(root, "data", "if-transition-file-units.json");
+const scowcroftCandidatesPath = path.join(root, "data", "scowcroft-candidates.json");
+const scowcroftFileUnitsPath = path.join(root, "data", "scowcroft-file-units.json");
 
 if (!fs.existsSync(westernEuropePath)) {
   throw new Error(`Missing source register: ${westernEuropePath}`);
@@ -39,7 +41,9 @@ if (
   !fs.existsSync(nsrCandidatesPath) ||
   !fs.existsSync(nsrFileUnitsPath) ||
   !fs.existsSync(ifTransitionCandidatesPath) ||
-  !fs.existsSync(ifTransitionFileUnitsPath)
+  !fs.existsSync(ifTransitionFileUnitsPath) ||
+  !fs.existsSync(scowcroftCandidatesPath) ||
+  !fs.existsSync(scowcroftFileUnitsPath)
 ) {
   throw new Error("Missing NSC candidate or file-unit source data");
 }
@@ -59,6 +63,8 @@ const nsrCandidates = JSON.parse(fs.readFileSync(nsrCandidatesPath, "utf8"));
 const nsrFileUnits = JSON.parse(fs.readFileSync(nsrFileUnitsPath, "utf8"));
 const ifTransitionCandidates = JSON.parse(fs.readFileSync(ifTransitionCandidatesPath, "utf8"));
 const ifTransitionFileUnits = JSON.parse(fs.readFileSync(ifTransitionFileUnitsPath, "utf8"));
+const scowcroftCandidates = JSON.parse(fs.readFileSync(scowcroftCandidatesPath, "utf8"));
+const scowcroftFileUnits = JSON.parse(fs.readFileSync(scowcroftFileUnitsPath, "utf8"));
 
 const meta = {
   id: "frus1989-92v30",
@@ -711,6 +717,12 @@ const sourceCollections = [
     url: "https://www.bush41library.gov/digital-research-room/finding-aid/records-national-security-council-george-h-w-bush-administration",
   },
   {
+    name: "Brent Scowcroft Papers",
+    owner: "National Archives Catalog",
+    role: "Complete 20-series, 676-file collection audit for presidential correspondence, conversations, chronological files, meeting copies, and foreign-economic-policy leads",
+    url: "https://catalog.archives.gov/id/4522156",
+  },
+  {
     name: "Timothy E. Deal Subject Files",
     owner: "National Archives Catalog",
     role: "Complete 134-file NSC international-economic series and provenance-controlled PDF set",
@@ -843,14 +855,14 @@ const gaps = [
     priority: "High",
     title: "Most online file units still lack document-boundary audits",
     scope: "Online NARA PDFs",
-    action: "Audit the 4 IF Transition, 33 NSD, 21 NSR, 79 NSC/Deputies Committee, 29 DC follow-up, and 35 NSC Meetings leads document by document, then continue the Tim Deal workflow across the remaining 131 file units: split documents, verify markings, deduplicate companion and parallel copies, and retain exact withdrawal extents.",
+    action: "Audit the 95 Scowcroft, 4 IF Transition, 33 NSD, 21 NSR, 79 NSC/Deputies Committee, 29 DC follow-up, and 35 NSC Meetings leads document by document, then continue the Tim Deal workflow across the remaining 131 file units: split documents, verify markings, deduplicate companion and parallel copies, and retain exact withdrawal extents.",
   },
   {
     id: "gap-memcons",
     priority: "High",
-    title: "Presidential conversations need a complete economic-content review",
+    title: "Presidential conversations need item-level promotion and canonical-copy matching",
     scope: "Memcons and telcons",
-    action: "Read every released Bush memcon and telcon for trade, debt, summit, transition, and strategic-economic content, including conversations not titled economically.",
+    action: "Split and read the individual documents in the 35 economically signaled Scowcroft presidential memcon and telcon folders, cross-check them against the Bush Library index and Presidential Memcon Files, and cite only the controlling archival copy after deduplication.",
   },
   {
     id: "gap-public-papers",
@@ -1125,6 +1137,44 @@ const ifTransitionDocumentRecords = ifTransitionCandidates.documents.map((candid
   };
 }).sort((a, b) => a.sortDate.localeCompare(b.sortDate) || a.title.localeCompare(b.title));
 
+const scowcroftUnitByNaid = new Map(scowcroftFileUnits.fileUnits.map((fileUnit) => [fileUnit.naid, fileUnit]));
+const scowcroftDocumentRecords = scowcroftCandidates.documents.map((candidate) => {
+  const fileUnit = scowcroftUnitByNaid.get(candidate.naid);
+  if (!fileUnit) throw new Error(`Scowcroft candidate ${candidate.naid} is missing from the full file-unit ledger`);
+  const title = fileUnit.title.replaceAll("--", "—").replaceAll(" - ", "—");
+  return {
+    id: `scowcroft-${candidate.naid}`,
+    date: candidate.date,
+    sortDate: candidate.sortDate || candidate.date,
+    datePrecision: candidate.datePrecision || "range",
+    displayDateLabel: candidate.displayDateLabel || "",
+    title,
+    heading: `Brent Scowcroft Collection File: ${title}`,
+    dateline: candidate.displayDateLabel || formatDateline(candidate.date),
+    type: "Brent Scowcroft collection file",
+    chapter: fileUnit.chapter,
+    selection: candidate.selection,
+    releaseStatus: "Online file unit; item audit pending",
+    pageCount: candidate.pageCount,
+    extentLabel: candidate.extentLabel,
+    classification: "Mixed; document-level audit required",
+    naid: candidate.naid,
+    localId: fileUnit.localId.replaceAll("-", "–"),
+    catalogUrl: fileUnit.catalogUrl,
+    pdfUrl: fileUnit.pdfUrl,
+    sourceNoteStatus: "locator",
+    sourceNoteBasis:
+      "Opening provenance marker and full NARA OCR checked; file-unit locator only pending document boundaries, terminal markings, release status, and canonical-copy review in the source images.",
+    sourceNote: undefined,
+    archivalLocator: fileUnit.archivalLocator,
+    topics: candidate.topics,
+    notes: candidate.notes,
+    seriesTitle: fileUnit.seriesTitle,
+    collectionId: "scowcroft",
+    provenanceMethod: "Opening PDF provenance marker and complete collection OCR",
+  };
+}).sort((a, b) => a.sortDate.localeCompare(b.sortDate) || a.title.localeCompare(b.title));
+
 const supersededLeadIds = new Set(
   [
     ...nscMeetingsDocumentRecords,
@@ -1147,6 +1197,7 @@ const allRecords = [
   ...nsdDocumentRecords,
   ...nsrDocumentRecords,
   ...ifTransitionDocumentRecords,
+  ...scowcroftDocumentRecords,
   ...remainingLeadRecords,
 ]
   .map((record) => {
@@ -1178,6 +1229,28 @@ const data = {
       candidateCsvUrl: "data/if-transition-candidates.csv",
       fileUnitsCsvUrl: "data/if-transition-file-units.csv",
       reportUrl: "reports/if-transition-harvest.json",
+    },
+    {
+      id: "scowcroft",
+      ...scowcroftFileUnits.collection,
+      statusLabel: "Complete Brent Scowcroft Papers collection audit",
+      intro:
+        `${scowcroftDocumentRecords.length} of the 676 Brent Scowcroft Papers file units are surfaced after complete 20-series hierarchy, OCR, and opening-marker review: 66 for direct Volume XXX review and 29 for cross-volume adjudication. All 676 official PDFs remain in the ledger. Served sizes total at least 15.7 GB across 660 PDFs; 16 PDF sizes were unavailable and no file-unit page total is asserted. Duplicate meeting, special-separate, schedule, and communication-channel copies remain visible without being promoted as separate candidates.`,
+      provenanceTitle: "Opening PDF provenance markers across all 20 series",
+      markerFieldSummary: "the record group or disclosed donated-materials exception, Brent Scowcroft Collection, series, supplied subseries, and folder",
+      markerMetricDetail: "1 donated-materials record-group exception; 1 NARA OCR normalization; 0 unverified",
+      corpusSizeNote: "Measured across 660 PDFs; 16 sizes unavailable",
+      candidateLabel: "Scowcroft files for review",
+      candidateTitle: "Volume XXX Scowcroft File Chronology",
+      auditScope: scowcroftCandidates.auditScope,
+      auditedFolders: scowcroftCandidates.auditedFolders,
+      candidateCount: scowcroftDocumentRecords.length,
+      candidateIds: scowcroftDocumentRecords.map((record) => record.id),
+      fileUnits: scowcroftFileUnits.fileUnits,
+      candidateMethodology: scowcroftCandidates.methodology,
+      candidateCsvUrl: "data/scowcroft-candidates.csv",
+      fileUnitsCsvUrl: "data/scowcroft-file-units.csv",
+      reportUrl: "reports/scowcroft-harvest.json",
     },
     {
       id: "nsd",
@@ -1334,6 +1407,76 @@ fs.writeFileSync(path.join(dataDir, "public-references.csv"), toCsv(publicRefere
   "topics",
   "selection",
   "url",
+]));
+fs.writeFileSync(path.join(dataDir, "scowcroft-candidates.csv"), toCsv(scowcroftDocumentRecords, [
+  "id",
+  "date",
+  "displayDateLabel",
+  "datePrecision",
+  "title",
+  "seriesTitle",
+  "heading",
+  "dateline",
+  "type",
+  "chapter",
+  "selection",
+  "releaseStatus",
+  "pageCount",
+  "extentLabel",
+  "classification",
+  "naid",
+  "localId",
+  "sourceNoteStatus",
+  "sourceNoteBasis",
+  "archivalLocator",
+  "topics",
+  "notes",
+  "catalogUrl",
+  "pdfUrl",
+]));
+fs.writeFileSync(path.join(dataDir, "scowcroft-file-units.csv"), toCsv(scowcroftFileUnits.fileUnits.map(flattenFileUnit), [
+  "naid",
+  "workingStartDate",
+  "workingEndDate",
+  "workingDateLabel",
+  "dateBasis",
+  "title",
+  "localId",
+  "seriesNaid",
+  "seriesTitle",
+  "chapter",
+  "routing",
+  "reviewTopics",
+  "reviewFocus",
+  "reviewKeyExtent",
+  "markerStatus",
+  "markerRecordGroup",
+  "markerSeries",
+  "markerSubseries",
+  "hasOnlinePdf",
+  "pdfPages",
+  "pdfBytes",
+  "catalogPdfBytes",
+  "pdfByteBasis",
+  "accessStatus",
+  "ocrCharacterCount",
+  "memosToPresident",
+  "memosToScowcroft",
+  "memorandaOfConversation",
+  "meetingRecords",
+  "withdrawalSheets",
+  "economicSignalTotal",
+  "economySignals",
+  "financeSignals",
+  "tradeSignals",
+  "assistanceSanctionsSignals",
+  "energySignals",
+  "agricultureSignals",
+  "treasurySignals",
+  "archivalLocator",
+  "provenanceStem",
+  "catalogUrl",
+  "pdfUrl",
 ]));
 fs.writeFileSync(path.join(dataDir, "if-transition-candidates.csv"), toCsv(ifTransitionDocumentRecords, [
   "id",
@@ -1724,7 +1867,7 @@ fs.writeFileSync(path.join(dataDir, "tim-deal-file-units.csv"), toCsv(timDealFil
 ]));
 
 console.log(
-  `Built ${allRecords.length} candidate records, ${ifTransitionFileUnits.fileUnits.length} IF Transition file units, ${nsdFileUnits.fileUnits.length} NSD file units, ${nsrFileUnits.fileUnits.length} NSR file units, ${nscDcFollowUpFileUnits.fileUnits.length} NSC/DC follow-up file units, ${nscDcMeetingsFileUnits.fileUnits.length} NSC/DC file units, ${nscMeetingsFileUnits.fileUnits.length} NSC Meeting file units, ${timDealFileUnits.fileUnits.length} Tim Deal file units, ${publicReferences.length} public references, and ${gaps.length} gap entries.`,
+  `Built ${allRecords.length} candidate records, ${scowcroftFileUnits.fileUnits.length} Scowcroft file units, ${ifTransitionFileUnits.fileUnits.length} IF Transition file units, ${nsdFileUnits.fileUnits.length} NSD file units, ${nsrFileUnits.fileUnits.length} NSR file units, ${nscDcFollowUpFileUnits.fileUnits.length} NSC/DC follow-up file units, ${nscDcMeetingsFileUnits.fileUnits.length} NSC/DC file units, ${nscMeetingsFileUnits.fileUnits.length} NSC Meeting file units, ${timDealFileUnits.fileUnits.length} Tim Deal file units, ${publicReferences.length} public references, and ${gaps.length} gap entries.`,
 );
 
 function toCsv(rows, fields) {

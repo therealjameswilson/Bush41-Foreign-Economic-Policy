@@ -15,9 +15,10 @@ The official volume is currently [Being Researched](https://history.state.gov/hi
 
 ## NSC staff files
 
-The collection workbench currently includes seven complete Catalog series:
+The collection workbench currently includes eight complete Catalog collections or series:
 
 - [National Security Council Institutional Files Transition Files](https://catalog.archives.gov/id/348937136): all 30 file units, all 30 official PDFs, and all 3,612 served-PDF pages. Every opening provenance marker, full OCR transcript, and withdrawal-sheet description was checked. The audit surfaces four deduplicated leads totaling 304 PDF pages: two direct Volume XXX leads and two boundary or compiler-context leads. The ledger preserves source-supported month and season labels instead of inventing day dates, and it records repeated copies of the retained-files memorandum without promoting them as separate candidates.
+- [Brent Scowcroft Papers](https://catalog.archives.gov/id/4522156): all 20 component series, all 676 file units, and all 676 official PDFs in working chronological order. The complete hierarchy, 67.5 million characters of NARA OCR, and every opening provenance marker were screened. The audit surfaces 95 file-level leads: 66 for direct Volume XXX review and 29 for cross-volume adjudication. Served sizes total at least 15.7 GB across 660 PDFs; 16 sizes were unavailable, so no complete page or byte extent is asserted. Duplicate meeting, special-separate, schedule, call-log, and communication-channel copies remain in the ledger without being promoted as separate candidates.
 - [H-Files - National Security Directive Files](https://catalog.archives.gov/id/313189290): all 108 file units, including 106 online PDFs and two Catalog-only units, totaling 5,243 served-PDF pages. Every online opening provenance marker, full OCR transcript, and withdrawal-sheet description was checked. The audit surfaces 33 pertinent files totaling 1,946 served-PDF pages: 11 direct Volume XXX leads and 22 cross-volume boundary leads. One review lead is itself Catalog-only and carries no asserted page extent. The ledger explicitly preserves 13 handwritten Folder ID corrections, nine opening-marker-to-Catalog ID mismatches, and seven working dates documented by withdrawal sheets or an action profile.
 - [H-Files - National Security Review Files](https://catalog.archives.gov/id/313189297): all 65 file units and all 65 official PDFs, totaling 3,024 served-PDF pages. Every opening provenance marker, full OCR transcript, and withdrawal-sheet description was checked. The audit surfaces 21 pertinent files totaling 1,114 PDF pages: 10 direct Volume XXX leads and 11 cross-volume boundary leads. The ledger explicitly preserves one handwritten Folder ID correction and two opening-marker-to-Catalog ID mismatches.
 - [H-Files - National Security Council/Deputies Committee Meetings Follow-up Files](https://catalog.archives.gov/id/312294094): all 112 file units and all 112 official PDFs, totaling 1,887 served-PDF pages. Every opening provenance sheet and full OCR transcript was checked. Withdrawal-sheet and content review surfaces 29 pertinent files totaling 628 PDF pages: 8 direct Volume XXX leads and 21 cross-volume boundary leads. Notes identify companion main meeting packets and preserve source-documented corrections to several Catalog or folder dates.
@@ -27,7 +28,9 @@ The collection workbench currently includes seven complete Catalog series:
 
 Collection tabs keep each series' candidate chronology, provenance accounting, filterable full-series ledger, official links, and CSV exports together. The same interface can accept additional NSC collections without collapsing their archival identities.
 
-The first page of each PDF is treated as the provenance authority, with discrepancies checked against the withdrawal sheets, Catalog record, and official digital-object path. A Source Note is marked verified only after that provenance and the document's terminal classification have been checked. The 4 IF Transition, 33 NSD, 21 NSR, 29 follow-up, 79 NSC/DC, and 35 NSC Meetings entries remain archival locators because the documents inside have not yet received that item-level review. One NSD review lead is Catalog-only, and one Tim Deal PDF lacks the opening marker; both remain catalog-derived locators. OCR-derived search hits are triage aids, not document-level findings; working dates are changed only where a withdrawal, action-profile, or meeting sheet in the official PDF supplies the date or corrects an evident folder error.
+The first page of each PDF is treated as the provenance authority, with discrepancies checked against the withdrawal sheets, Catalog record, and official digital-object path. A Source Note is marked verified only after that provenance and the document's terminal classification have been checked. The 95 Scowcroft, 4 IF Transition, 33 NSD, 21 NSR, 29 follow-up, 79 NSC/DC, and 35 NSC Meetings entries remain archival locators because the documents inside have not yet received that item-level review. One Scowcroft marker identifies Donated Historical Materials, one requires a disclosed NARA OCR normalization, one NSD review lead is Catalog-only, and one Tim Deal PDF lacks the opening marker. All remain explicitly qualified. OCR-derived search hits are triage aids, not document-level findings; working dates are changed only where a withdrawal, action-profile, or meeting sheet in the official PDF supplies the date or corrects an evident folder error.
+
+Scowcroft locators use the collection naming and archival order found in a [published FRUS Source Note](https://history.state.gov/historicaldocuments/frus1989-92v31/d38): George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, series, subseries where supplied, OA/ID, and folder. They are deliberately not presented as final Source Notes until a compiler verifies an individual document's heading, dateline, terminal classification, release status, exact extent, and controlling copy.
 
 ## Chapter plan
 
@@ -41,9 +44,10 @@ NAFTA and the central Canada/Mexico record are retained in a boundary queue beca
 
 ## Build and validate
 
-The checked-in site is static. To refresh the seven NSC series from NARA, then rebuild the generated data from the collection files and adjacent Western Europe presidential-conversation register:
+The checked-in site is static. To refresh the eight archival collection tabs from NARA, then rebuild the generated data from the collection files and adjacent Western Europe presidential-conversation register:
 
 ```sh
+npm run harvest:scowcroft
 npm run harvest:if-transition
 npm run harvest:nsd
 npm run harvest:nsr
