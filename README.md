@@ -15,8 +15,9 @@ The official volume is currently [Being Researched](https://history.state.gov/hi
 
 ## NSC staff files
 
-The collection workbench currently includes four complete Catalog series:
+The collection workbench currently includes five complete Catalog series:
 
+- [H-Files - National Security Review Files](https://catalog.archives.gov/id/313189297): all 65 file units and all 65 official PDFs, totaling 3,024 served-PDF pages. Every opening provenance marker, full OCR transcript, and withdrawal-sheet description was checked. The audit surfaces 21 pertinent files totaling 1,114 PDF pages: 10 direct Volume XXX leads and 11 cross-volume boundary leads. The ledger explicitly preserves one handwritten Folder ID correction and two opening-marker-to-Catalog ID mismatches.
 - [H-Files - National Security Council/Deputies Committee Meetings Follow-up Files](https://catalog.archives.gov/id/312294094): all 112 file units and all 112 official PDFs, totaling 1,887 served-PDF pages. Every opening provenance sheet and full OCR transcript was checked. Withdrawal-sheet and content review surfaces 29 pertinent files totaling 628 PDF pages: 8 direct Volume XXX leads and 21 cross-volume boundary leads. Notes identify companion main meeting packets and preserve source-documented corrections to several Catalog or folder dates.
 - [H-Files - National Security Council/Deputies Committee Meetings Files](https://catalog.archives.gov/id/312294079): all 492 file units, including 479 online PDFs and 13 catalog-only files. All 479 opening provenance sheets were checked; two Folder IDs are corrected by hand on the marker. A complete title and OCR sweep surfaces 79 pertinent files totaling 5,995 PDF pages: 47 direct Volume XXX leads and 32 cross-volume boundary leads.
 - [H-Files - National Security Council Meeting Files](https://catalog.archives.gov/id/312293887): all 90 file units, with all 90 opening provenance sheets verified. A title review and full-series economic OCR sweep surface 35 pertinent files totaling 1,854 PDF pages: 13 direct Volume XXX leads and 22 cross-volume boundary leads.
@@ -24,7 +25,7 @@ The collection workbench currently includes four complete Catalog series:
 
 Collection tabs keep each series' candidate chronology, provenance accounting, filterable full-series ledger, official links, and CSV exports together. The same interface can accept additional NSC collections without collapsing their archival identities.
 
-The first page of each PDF is treated as the provenance authority. A Source Note is marked verified only after that marker and the document's terminal classification have been checked. The 29 follow-up, 79 NSC/DC, and 35 NSC Meetings entries remain archival locators because the documents inside have not yet received that item-level review. One Tim Deal PDF lacks the opening marker and is kept as a catalog-derived locator. OCR-derived search hits are triage aids, not document-level findings; working dates are changed only where a withdrawal or meeting sheet in the official PDF supplies the date or corrects an evident folder error.
+The first page of each PDF is treated as the provenance authority, with discrepancies checked against the withdrawal sheets, Catalog record, and official digital-object path. A Source Note is marked verified only after that provenance and the document's terminal classification have been checked. The 21 NSR, 29 follow-up, 79 NSC/DC, and 35 NSC Meetings entries remain archival locators because the documents inside have not yet received that item-level review. One Tim Deal PDF lacks the opening marker and is kept as a catalog-derived locator. OCR-derived search hits are triage aids, not document-level findings; working dates are changed only where a withdrawal or meeting sheet in the official PDF supplies the date or corrects an evident folder error.
 
 ## Chapter plan
 
@@ -38,9 +39,10 @@ NAFTA and the central Canada/Mexico record are retained in a boundary queue beca
 
 ## Build and validate
 
-The checked-in site is static. To refresh the four NSC series from NARA, then rebuild the generated data from the collection files and adjacent Western Europe presidential-conversation register:
+The checked-in site is static. To refresh the five NSC series from NARA, then rebuild the generated data from the collection files and adjacent Western Europe presidential-conversation register:
 
 ```sh
+npm run harvest:nsr
 npm run harvest:nsc-dc-follow-up
 npm run harvest:nsc-dc-meetings
 npm run harvest:nsc-meetings

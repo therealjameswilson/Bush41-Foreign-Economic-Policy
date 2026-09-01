@@ -4,7 +4,9 @@ const fs = require("node:fs");
 const path = require("node:path");
 
 const root = path.resolve(__dirname, "..");
-const westernEuropePath = path.resolve(root, "../Bush41-Western-Europe/data/memcons.json");
+const westernEuropePath = process.env.WESTERN_EUROPE_MEMCONS_PATH
+  ? path.resolve(process.env.WESTERN_EUROPE_MEMCONS_PATH)
+  : path.resolve(root, "../Bush41-Western-Europe/data/memcons.json");
 const timDealCandidatesPath = path.join(root, "data", "tim-deal-candidates.json");
 const timDealFileUnitsPath = path.join(root, "data", "tim-deal-file-units.json");
 const nscMeetingsCandidatesPath = path.join(root, "data", "nsc-meetings-candidates.json");
@@ -13,6 +15,8 @@ const nscDcMeetingsCandidatesPath = path.join(root, "data", "nsc-dc-meetings-can
 const nscDcMeetingsFileUnitsPath = path.join(root, "data", "nsc-dc-meetings-file-units.json");
 const nscDcFollowUpCandidatesPath = path.join(root, "data", "nsc-dc-follow-up-candidates.json");
 const nscDcFollowUpFileUnitsPath = path.join(root, "data", "nsc-dc-follow-up-file-units.json");
+const nsrCandidatesPath = path.join(root, "data", "nsr-candidates.json");
+const nsrFileUnitsPath = path.join(root, "data", "nsr-file-units.json");
 
 if (!fs.existsSync(westernEuropePath)) {
   throw new Error(`Missing source register: ${westernEuropePath}`);
@@ -25,7 +29,9 @@ if (
   !fs.existsSync(nscDcMeetingsCandidatesPath) ||
   !fs.existsSync(nscDcMeetingsFileUnitsPath) ||
   !fs.existsSync(nscDcFollowUpCandidatesPath) ||
-  !fs.existsSync(nscDcFollowUpFileUnitsPath)
+  !fs.existsSync(nscDcFollowUpFileUnitsPath) ||
+  !fs.existsSync(nsrCandidatesPath) ||
+  !fs.existsSync(nsrFileUnitsPath)
 ) {
   throw new Error("Missing NSC candidate or file-unit source data");
 }
@@ -39,6 +45,8 @@ const nscDcMeetingsCandidates = JSON.parse(fs.readFileSync(nscDcMeetingsCandidat
 const nscDcMeetingsFileUnits = JSON.parse(fs.readFileSync(nscDcMeetingsFileUnitsPath, "utf8"));
 const nscDcFollowUpCandidates = JSON.parse(fs.readFileSync(nscDcFollowUpCandidatesPath, "utf8"));
 const nscDcFollowUpFileUnits = JSON.parse(fs.readFileSync(nscDcFollowUpFileUnitsPath, "utf8"));
+const nsrCandidates = JSON.parse(fs.readFileSync(nsrCandidatesPath, "utf8"));
+const nsrFileUnits = JSON.parse(fs.readFileSync(nsrFileUnitsPath, "utf8"));
 
 const meta = {
   id: "frus1989-92v30",
@@ -727,6 +735,12 @@ const sourceCollections = [
     url: "https://catalog.archives.gov/id/312294094",
   },
   {
+    name: "National Security Review Files",
+    owner: "National Archives Catalog",
+    role: "Presidential review directives, interagency studies, response papers, and withdrawal-sheet evidence for NSR 1 through NSR 30",
+    url: "https://catalog.archives.gov/id/313189297",
+  },
+  {
     name: "Houston Economic Summit FOIA",
     owner: "George H.W. Bush Presidential Library",
     role: "Selective released summit records; finding aid is not all-inclusive",
@@ -960,8 +974,51 @@ const nscDcFollowUpDocumentRecords = nscDcFollowUpCandidates.documents.map((cand
   };
 }).sort((a, b) => a.sortDate.localeCompare(b.sortDate) || a.title.localeCompare(b.title));
 
+const nsrUnitByNaid = new Map(nsrFileUnits.fileUnits.map((fileUnit) => [fileUnit.naid, fileUnit]));
+const nsrDocumentRecords = nsrCandidates.documents.map((candidate) => {
+  const fileUnit = nsrUnitByNaid.get(candidate.naid);
+  if (!fileUnit) throw new Error(`NSR candidate ${candidate.naid} is missing from the full file-unit ledger`);
+  const existing = existingLeadByNaid.get(candidate.naid) || {};
+  const title = fileUnit.title.replaceAll(" - ", "—");
+  return {
+    ...existing,
+    id: `lead-${candidate.naid}`,
+    date: candidate.date,
+    sortDate: candidate.sortDate || candidate.date,
+    title,
+    heading: `National Security Review File: ${title}`,
+    dateline: formatDateline(candidate.date),
+    type: "National Security Review file",
+    chapter: fileUnit.chapter,
+    selection: candidate.selection,
+    releaseStatus: "Online file unit; item audit pending",
+    pageCount: candidate.pageCount,
+    extentLabel:
+      candidate.extentLabel || `${candidate.pageCount} PDF pages; document-level release and withdrawal audit pending`,
+    classification: "Mixed; document-level audit required",
+    naid: candidate.naid,
+    localId: fileUnit.localId.replaceAll("-", "–"),
+    catalogUrl: fileUnit.catalogUrl,
+    pdfUrl: fileUnit.pdfUrl,
+    sourceNoteStatus: "locator",
+    sourceNoteBasis:
+      "Opening provenance marker and withdrawal-sheet descriptions checked in the official NARA PDF; file-unit locator only pending document-level source-image review.",
+    sourceNote: undefined,
+    archivalLocator: fileUnit.archivalLocator,
+    topics: candidate.topics,
+    notes: candidate.notes,
+    collectionId: "nsr",
+    provenanceMethod: "Opening PDF provenance marker and withdrawal sheets",
+  };
+}).sort((a, b) => a.sortDate.localeCompare(b.sortDate) || a.title.localeCompare(b.title));
+
 const supersededLeadIds = new Set(
-  [...nscMeetingsDocumentRecords, ...nscDcMeetingsDocumentRecords, ...nscDcFollowUpDocumentRecords].map((record) => record.id),
+  [
+    ...nscMeetingsDocumentRecords,
+    ...nscDcMeetingsDocumentRecords,
+    ...nscDcFollowUpDocumentRecords,
+    ...nsrDocumentRecords,
+  ].map((record) => record.id),
 );
 const remainingLeadRecords = leadRecords.filter((record) => !supersededLeadIds.has(record.id));
 
@@ -972,6 +1029,7 @@ const allRecords = [
   ...nscMeetingsDocumentRecords,
   ...nscDcMeetingsDocumentRecords,
   ...nscDcFollowUpDocumentRecords,
+  ...nsrDocumentRecords,
   ...remainingLeadRecords,
 ]
   .map((record) => {
@@ -985,6 +1043,25 @@ const data = {
   chapters,
   records: allRecords,
   nscCollections: [
+    {
+      id: "nsr",
+      ...nsrFileUnits.collection,
+      statusLabel: "H-Files National Security Review series",
+      intro:
+        `${nsrDocumentRecords.length} of the 65 National Security Review file units are surfaced after complete PDF, OCR, opening-marker, and withdrawal-sheet review: 10 for direct Volume XXX review and 11 for cross-volume adjudication. All 65 official PDFs remain visible in the ledger, including one handwritten Folder ID correction and two marker-to-Catalog ID mismatches.`,
+      provenanceTitle: "Opening PDF provenance markers and withdrawal sheets",
+      candidateLabel: "NSR files for review",
+      candidateTitle: "Volume XXX National Security Review Chronology",
+      auditScope: nsrCandidates.auditScope,
+      auditedFolders: nsrCandidates.auditedFolders,
+      candidateCount: nsrDocumentRecords.length,
+      candidateIds: nsrDocumentRecords.map((record) => record.id),
+      fileUnits: nsrFileUnits.fileUnits,
+      candidateMethodology: nsrCandidates.methodology,
+      candidateCsvUrl: "data/nsr-candidates.csv",
+      fileUnitsCsvUrl: "data/nsr-file-units.csv",
+      reportUrl: "reports/nsr-harvest.json",
+    },
     {
       id: "nsc-dc-follow-up",
       ...nscDcFollowUpFileUnits.collection,
@@ -1102,6 +1179,67 @@ fs.writeFileSync(path.join(dataDir, "public-references.csv"), toCsv(publicRefere
   "topics",
   "selection",
   "url",
+]));
+fs.writeFileSync(path.join(dataDir, "nsr-candidates.csv"), toCsv(nsrDocumentRecords, [
+  "id",
+  "date",
+  "title",
+  "heading",
+  "dateline",
+  "type",
+  "chapter",
+  "selection",
+  "releaseStatus",
+  "pageCount",
+  "extentLabel",
+  "classification",
+  "naid",
+  "localId",
+  "sourceNoteStatus",
+  "archivalLocator",
+  "notes",
+  "catalogUrl",
+  "pdfUrl",
+]));
+fs.writeFileSync(path.join(dataDir, "nsr-file-units.csv"), toCsv(nsrFileUnits.fileUnits.map((row) => ({
+  ...flattenFileUnit(row),
+  markerFolderId: row.markerChecks?.markerFolderId || "",
+  catalogFolderId: row.localId,
+  markerIdNote: row.markerChecks?.handwrittenCorrection || row.markerChecks?.catalogMismatch || "",
+})), [
+  "naid",
+  "workingStartDate",
+  "workingEndDate",
+  "dateBasis",
+  "title",
+  "localId",
+  "chapter",
+  "routing",
+  "markerStatus",
+  "markerFolderId",
+  "catalogFolderId",
+  "markerIdNote",
+  "hasOnlinePdf",
+  "pdfBytes",
+  "catalogPdfBytes",
+  "pdfByteBasis",
+  "accessStatus",
+  "memosToPresident",
+  "memosToScowcroft",
+  "memorandaOfConversation",
+  "meetingRecords",
+  "withdrawalSheets",
+  "economicSignalTotal",
+  "economySignals",
+  "financeSignals",
+  "tradeSignals",
+  "assistanceSanctionsSignals",
+  "energySignals",
+  "agricultureSignals",
+  "treasurySignals",
+  "archivalLocator",
+  "catalogUrl",
+  "pdfUrl",
 ]));
 fs.writeFileSync(path.join(dataDir, "nsc-dc-follow-up-candidates.csv"), toCsv(nscDcFollowUpDocumentRecords, [
   "id",
@@ -1305,7 +1443,7 @@ fs.writeFileSync(path.join(dataDir, "tim-deal-file-units.csv"), toCsv(timDealFil
 ]));
 
 console.log(
-  `Built ${allRecords.length} candidate records, ${nscDcFollowUpFileUnits.fileUnits.length} NSC/DC follow-up file units, ${nscDcMeetingsFileUnits.fileUnits.length} NSC/DC file units, ${nscMeetingsFileUnits.fileUnits.length} NSC Meeting file units, ${timDealFileUnits.fileUnits.length} Tim Deal file units, ${publicReferences.length} public references, and ${gaps.length} gap entries.`,
+  `Built ${allRecords.length} candidate records, ${nsrFileUnits.fileUnits.length} NSR file units, ${nscDcFollowUpFileUnits.fileUnits.length} NSC/DC follow-up file units, ${nscDcMeetingsFileUnits.fileUnits.length} NSC/DC file units, ${nscMeetingsFileUnits.fileUnits.length} NSC Meeting file units, ${timDealFileUnits.fileUnits.length} Tim Deal file units, ${publicReferences.length} public references, and ${gaps.length} gap entries.`,
 );
 
 function toCsv(rows, fields) {

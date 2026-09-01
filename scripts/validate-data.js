@@ -102,6 +102,56 @@ if (!nscMeetings) {
   if (sortedCandidates.some((record, index) => record.id !== candidateRecords[index].id)) errors.push("NSC Meetings candidates are not stored in chronological order");
 }
 
+const nsr = data.nscCollections?.find((collection) => collection.id === "nsr");
+if (!nsr) {
+  errors.push("National Security Review collection is missing");
+} else {
+  if (nsr.fileUnits.length !== 65 || nsr.fileUnitCount !== 65) errors.push("NSR file-unit count is not 65");
+  if (nsr.onlinePdfCount !== 65 || nsr.catalogOnlyCount !== 0) errors.push("NSR online/catalog-only totals changed");
+  if (nsr.totalPdfPages !== 3024) errors.push("NSR served-PDF page total is not 3,024");
+  if (nsr.markerVerified !== 65 || nsr.markerCorrectedCount !== 1 || nsr.markerMismatchCount !== 2 || nsr.markerExceptionCount !== 0) {
+    errors.push("NSR provenance-marker totals changed");
+  }
+  if (nsr.candidateCount !== 21 || nsr.candidateIds.length !== 21) errors.push("NSR review-candidate count is not 21");
+  if (nsr.auditedFolders.length !== 21) errors.push("NSR screened-folder count is not 21");
+  if (nsr.fileUnits.some((row) => !row.markerStatus.startsWith("verified"))) errors.push("NSR ledger contains an unverified opening marker");
+  if (nsr.fileUnits.some((row) => !Number.isInteger(row.economicSignals?.total))) errors.push("NSR ledger lacks economic OCR signals");
+  if (new Set(nsr.fileUnits.map((row) => row.naid)).size !== nsr.fileUnits.length) errors.push("Duplicate NSR NAID");
+  if (new Set(nsr.fileUnits.map((row) => row.localId)).size !== nsr.fileUnits.length) errors.push("Duplicate NSR OA/ID");
+  if (nsr.fileUnits.some((row) => !row.catalogUrl.startsWith("https://catalog.archives.gov/id/") || !row.pdfUrl.startsWith("https://catalog.archives.gov/medialz/"))) {
+    errors.push("NSR ledger contains a nonofficial link");
+  }
+  const markerStatuses = nsr.fileUnits.reduce((counts, row) => {
+    counts[row.markerStatus] = (counts[row.markerStatus] || 0) + 1;
+    return counts;
+  }, {});
+  if (markerStatuses.verified !== 62 || markerStatuses["verified with handwritten correction"] !== 1 || markerStatuses["verified with catalog ID mismatch"] !== 2) {
+    errors.push("NSR marker-state distribution changed");
+  }
+  const correctedMarker = nsr.fileUnits.filter((row) => row.markerStatus === "verified with handwritten correction");
+  if (correctedMarker.map((row) => row.naid).join(",") !== "446394935") errors.push("NSR handwritten Folder ID correction changed");
+  const markerMismatches = nsr.fileUnits.filter((row) => row.markerStatus === "verified with catalog ID mismatch");
+  if (markerMismatches.map((row) => row.naid).join(",") !== "446394932,446394934") errors.push("NSR marker-to-Catalog mismatch set changed");
+  const sortedUnits = [...nsr.fileUnits].sort((a, b) => a.workingStartDate.localeCompare(b.workingStartDate) || a.workingEndDate.localeCompare(b.workingEndDate) || a.localId.localeCompare(b.localId));
+  if (sortedUnits.some((row, index) => row.naid !== nsr.fileUnits[index].naid)) errors.push("NSR file units are not stored in chronological order");
+  if (nsr.fileUnits.filter((row) => row.routing === "Volume XXX review").length !== 10) errors.push("NSR direct-review routing count is not 10");
+  if (nsr.fileUnits.filter((row) => row.routing === "Boundary review").length !== 11) errors.push("NSR boundary-review routing count is not 11");
+  if (nsr.candidateIds.some((id) => !ids.has(id))) errors.push("NSR candidate ID is missing from the master chronology");
+  const candidateRecords = nsr.candidateIds.map((id) => data.records.find((record) => record.id === id)).filter(Boolean);
+  const routedNaids = new Set(nsr.fileUnits.filter((row) => row.routing !== "Series context").map((row) => row.naid));
+  const candidateNaids = new Set(candidateRecords.map((record) => record.naid));
+  if (routedNaids.size !== candidateNaids.size || [...routedNaids].some((naid) => !candidateNaids.has(naid))) errors.push("NSR routed file units and chronology candidates do not match");
+  if (candidateRecords.some((record) => record.sourceNoteStatus !== "locator" || record.sourceNote)) errors.push("NSR file-unit lead incorrectly asserts a document-level Source Note");
+  if (candidateRecords.some((record) => record.collectionId !== "nsr")) errors.push("NSR candidate lacks its collection ID");
+  if (candidateRecords.reduce((total, record) => total + record.pageCount, 0) !== 1114) errors.push("NSR review-file page total is not 1,114");
+  if (candidateRecords.filter((record) => record.selection === "Core").length !== 10) errors.push("NSR candidate direct-review count is not 10");
+  if (candidateRecords.filter((record) => record.selection === "Boundary").length !== 11) errors.push("NSR candidate boundary count is not 11");
+  if (candidateRecords.filter((record) => record.selection === "Core").reduce((total, record) => total + record.pageCount, 0) !== 487) errors.push("NSR direct-review page total is not 487");
+  if (candidateRecords.filter((record) => record.selection === "Boundary").reduce((total, record) => total + record.pageCount, 0) !== 627) errors.push("NSR boundary-review page total is not 627");
+  const sortedCandidates = [...candidateRecords].sort((a, b) => a.sortDate.localeCompare(b.sortDate) || a.title.localeCompare(b.title));
+  if (sortedCandidates.some((record, index) => record.id !== candidateRecords[index].id)) errors.push("NSR candidates are not stored in chronological order");
+}
+
 const nscDcFollowUp = data.nscCollections?.find((collection) => collection.id === "nsc-dc-follow-up");
 if (!nscDcFollowUp) {
   errors.push("NSC/DC Meetings Follow-Up collection is missing");
@@ -218,6 +268,7 @@ const report = {
   locators: data.records.filter((record) => record.sourceNoteStatus === "locator").length,
   withheldItems: data.records.filter((record) => record.releaseStatus === "Withheld").length,
   nscCollections: data.nscCollections?.length || 0,
+  nsrFileUnits: nsr?.fileUnits.length || 0,
   nscDcFollowUpFileUnits: nscDcFollowUp?.fileUnits.length || 0,
   nscDcMeetingFileUnits: nscDcMeetings?.fileUnits.length || 0,
   nscMeetingFileUnits: nscMeetings?.fileUnits.length || 0,

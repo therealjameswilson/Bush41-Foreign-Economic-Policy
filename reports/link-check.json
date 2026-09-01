@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-09-01T02:35:33.059Z",
-  "total": 1750,
-  "ok": 1750,
+  "checkedAt": "2026-09-01T03:09:09.944Z",
+  "total": 1877,
+  "ok": 1877,
   "blocked": 0,
   "failed": 0,
   "blockedResults": [],
@@ -36,6 +36,12 @@
       "ok": true,
       "status": 200,
       "finalUrl": "https://catalog.archives.gov/id/312294094"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/313189297",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/313189297"
     },
     {
       "url": "https://catalog.archives.gov/id/352220592",
@@ -194,6 +200,270 @@
       "finalUrl": "https://catalog.archives.gov/id/428082491"
     },
     {
+      "url": "https://catalog.archives.gov/id/446394923",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394923"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394924",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394924"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394925",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394925"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394926",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394926"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394927",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394927"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394928",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394928"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394929",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394929"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394930",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394930"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394931",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394931"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394932",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394932"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394933",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394933"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394934",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394934"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394935",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394935"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394936",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394936"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394937",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394937"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394938",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394938"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394939",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394939"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394940",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394940"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394941",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394941"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394942",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394942"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394943",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394943"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394944",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394944"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394945",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394945"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394946",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394946"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394947",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394947"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394948",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394948"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394949",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394949"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394950",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394950"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394951",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394951"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394952",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394952"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394953",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394953"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394954",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394954"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394955",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394955"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394956",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394956"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394957",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394957"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394958",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394958"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394959",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394959"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394960",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394960"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394961",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394961"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394962",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394962"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394963",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394963"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394964",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394964"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394965",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394965"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394966",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394966"
+    },
+    {
       "url": "https://catalog.archives.gov/id/446394967",
       "ok": true,
       "status": 200,
@@ -204,6 +474,120 @@
       "ok": true,
       "status": 200,
       "finalUrl": "https://catalog.archives.gov/id/446394968"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394969",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394969"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394970",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394970"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394971",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394971"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394972",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394972"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394973",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394973"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394974",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394974"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394975",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394975"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394976",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394976"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394977",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394977"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394978",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394978"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394979",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394979"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394980",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394980"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394981",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394981"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394982",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394982"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394983",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394983"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394984",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394984"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394985",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394985"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394986",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394986"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/446394987",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/446394987"
     },
     {
       "url": "https://catalog.archives.gov/id/446396859",
@@ -10394,6 +10778,210 @@
       "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSDs_313189290/41-bpr-nsc-hfiles-nsd-53_2-90004-033.pdf"
     },
     {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-1-90006-001.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-1-90006-001.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-10-90006-013.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-10-90006-013.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-11_1-90006-014.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-11_1-90006-014.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-11_2-90006-015.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-11_2-90006-015.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-11_3-90006-016.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-11_3-90006-016.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-11_4-90006-017.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-11_4-90006-017.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-11_5-90006-018.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-11_5-90006-018.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-12_1-90006-019.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-12_1-90006-019.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-12_2-90006-020.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-12_2-90006-020.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-12_3-90006-021.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-12_3-90006-021.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-12_4-90006-022.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-12_4-90006-022.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-12_5-90006-023.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-12_5-90006-023.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-13-90006-024.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-13-90006-024.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-14_1-90006-025.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-14_1-90006-025.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-14_2-90006-026.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-14_2-90006-026.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-14_3-90006-027.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-14_3-90006-027.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-14_4-90006-028.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-14_4-90006-028.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-14_5-90006-029.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-14_5-90006-029.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-14_6-90006-030.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-14_6-90006-030.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-15_1-90007-001.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-15_1-90007-001.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-15_2-90007-002.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-15_2-90007-002.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-16_1-90007-003.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-16_1-90007-003.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-16_2-90007-004.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-16_2-90007-004.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-17_1-90007-005.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-17_1-90007-005.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-17_2-90007-006.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-17_2-90007-006.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-17_3-90007-007.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-17_3-90007-007.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-18_1-90007-008.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-18_1-90007-008.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-18_2-90007-009.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-18_2-90007-009.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-18_3-90007-010.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-18_3-90007-010.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-18_4-90007-011.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-18_4-90007-011.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-19-90007-012.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-19-90007-012.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-2-90006-002.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-2-90006-002.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-20-90007-013.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-20-90007-013.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-21-90007-014.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-21-90007-014.pdf"
+    },
+    {
       "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-22_1-90007-015.pdf",
       "ok": true,
       "status": 200,
@@ -10404,6 +10992,180 @@
       "ok": true,
       "status": 200,
       "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-22_2-90007-016.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-23-90007-017.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-23-90007-017.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-24_1-90007-018.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-24_1-90007-018.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-24_2-90007-019.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-24_2-90007-019.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-25_1-90007-020.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-25_1-90007-020.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-25_2-90007-021.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-25_2-90007-021.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-26-90007-022.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-26-90007-022.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-27_1-90007-023.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-27_1-90007-023.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-27_2-90007-024.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-27_2-90007-024.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-28-90007-025.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-28-90007-025.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-29_1-90008-001.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-29_1-90008-001.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-29_2-90008-002.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-29_2-90008-002.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-29_3-90008-003.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-29_3-90008-003.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-29_4-90008-004.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-29_4-90008-004.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-29_5-90008-005.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-29_5-90008-005.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-29_6-90008-006.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-29_6-90008-006.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-29_7-90008-007.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-29_7-90008-007.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-29_8-90008-008.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-29_8-90008-008.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-29_9-90008-009.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-29_9-90008-009.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-3_1-90006-003.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-3_1-90006-003.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-3_2-90006-004.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-3_2-90006-004.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-30-90008-010.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-30-90008-010.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-4_1-90006-005.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-4_1-90006-005.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-4_2-90006-006.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-4_2-90006-006.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-5_1-90006-007.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-5_1-90006-007.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-5_2-90006-008.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-5_2-90006-008.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-6-90006-009.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-6-90006-009.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-7-90006-010.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-7-90006-010.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-8-90006-011.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-8-90006-011.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-9-90006-012.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-9-90006-012.pdf"
     },
     {
       "url": "https://history.state.gov/historicaldocuments/frus1989-92v30",

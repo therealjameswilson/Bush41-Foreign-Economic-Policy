@@ -1803,7 +1803,8 @@ th {
   background: #fff8f7;
 }
 
-.nsc-file-row.marker-verified-with-handwritten-correction {
+.nsc-file-row.marker-verified-with-handwritten-correction,
+.nsc-file-row.marker-verified-with-catalog-ID-mismatch {
   border-left-color: #a66a00;
   background: #fffaf0;
 }

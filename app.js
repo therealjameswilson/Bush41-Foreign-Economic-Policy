@@ -399,6 +399,7 @@ function markerLabel(status) {
   return {
     verified: "Opening marker verified",
     "verified with handwritten correction": "Marker verified; ID corrected by hand",
+    "verified with catalog ID mismatch": "Marker verified; Catalog ID mismatch retained",
     "not online": "No online PDF",
     "not present": "Opening marker not present",
   }[status] || status;
@@ -583,7 +584,7 @@ function renderNscCollection() {
     [
       activeNscCollection.markerVerified,
       "Opening markers verified",
-      `${activeNscCollection.markerCorrectedCount || 0} corrected by hand; ${activeNscCollection.markerExceptionCount} unavailable or incomplete`,
+      `${activeNscCollection.markerCorrectedCount || 0} corrected by hand; ${activeNscCollection.markerMismatchCount || 0} marker/Catalog mismatches; ${activeNscCollection.markerExceptionCount} unavailable or incomplete`,
     ],
     [formatByteSize(activeNscCollection.totalPdfBytes), "Online PDF corpus", "Official NARA digital objects"],
   ];
@@ -591,12 +592,20 @@ function renderNscCollection() {
 
   const onlineRows = activeNscCollection.fileUnits.filter((row) => row.pdfUrl);
   const correctedRows = onlineRows.filter((row) => row.markerStatus === "verified with handwritten correction");
+  const mismatchRows = onlineRows.filter((row) => row.markerStatus === "verified with catalog ID mismatch");
   const unverifiedRows = onlineRows.filter((row) => !isVerifiedMarker(row.markerStatus));
   const catalogOnlyRows = activeNscCollection.fileUnits.filter((row) => !row.pdfUrl);
   const exceptionParts = [];
   if (correctedRows.length) {
+    const correctedIds = correctedRows.map((row) => row.localId).join(" and ");
     exceptionParts.push(
-      `${correctedRows.map((row) => row.localId).join(" and ")} carry handwritten Folder ID corrections on the opening sheet`,
+      `${correctedIds} ${correctedRows.length === 1 ? "carries a handwritten Folder ID correction" : "carry handwritten Folder ID corrections"} on the opening sheet`,
+    );
+  }
+  if (mismatchRows.length) {
+    const mismatchIds = mismatchRows.map((row) => row.localId).join(" and ");
+    exceptionParts.push(
+      `${mismatchIds} ${mismatchRows.length === 1 ? "retains a marker-to-Catalog Folder ID mismatch" : "retain marker-to-Catalog Folder ID mismatches"} in the ledger`,
     );
   }
   if (unverifiedRows.length) {
@@ -612,7 +621,7 @@ function renderNscCollection() {
     : "No opening-sheet exceptions were found in this online series.";
   elements.nscProvenanceTitle.textContent = activeNscCollection.provenanceTitle;
   elements.nscProvenanceSummary.textContent =
-    `${activeNscCollection.markerVerified} of ${onlineRows.length} online PDFs open with Bush Library provenance naming the record group, office, series, subseries, OA/ID, and folder. ${exceptionSummary}`;
+    `${activeNscCollection.markerVerified} of ${onlineRows.length} online PDFs open with Bush Library provenance naming the record group, office, series, subseries, and folder. ${exceptionSummary}`;
   elements.nscSeriesLink.href = activeNscCollection.catalogUrl;
 
   const candidates = activeNscCollection.candidateIds
@@ -625,7 +634,7 @@ function renderNscCollection() {
   elements.nscCandidateDownload.href = activeNscCollection.candidateCsvUrl;
   elements.nscCandidateDownload.textContent = `Download ${activeNscCollection.candidateLabel.toLowerCase()} CSV`;
   elements.nscCandidateSummary.textContent = locatorCount
-    ? `${candidates.length} file-unit leads, ordered by meeting date: ${candidates.length - boundaryCount} for direct Volume XXX review and ${boundaryCount} for cross-volume adjudication. All ${locatorCount} remain archival locators until individual documents are checked in the source images.`
+    ? `${candidates.length} file-unit leads, ordered by working date: ${candidates.length - boundaryCount} for direct Volume XXX review and ${boundaryCount} for cross-volume adjudication. All ${locatorCount} remain archival locators until individual documents are checked in the source images.`
     : `${candidates.length} document-level candidates from ${activeNscCollection.auditedFolders.length} fully audited PDFs, ordered by document date. The chronology includes ${withheldCount} separately identified ${plural(withheldCount, "record")} that were not declassified.`;
   renderNscCandidates(candidates);
 

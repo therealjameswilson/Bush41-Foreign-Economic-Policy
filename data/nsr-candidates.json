@@ -1,0 +1,344 @@
+{
+  "auditScope": "Complete National Security Review series inventory with economic-policy and withdrawal-sheet screening",
+  "auditedFolders": [
+    "90006-003",
+    "90006-004",
+    "90006-005",
+    "90006-006",
+    "90006-007",
+    "90006-008",
+    "90006-013",
+    "90006-011",
+    "90006-024",
+    "90007-001",
+    "90007-002",
+    "90007-003",
+    "90007-004",
+    "90007-005",
+    "90007-006",
+    "90007-007",
+    "90007-015",
+    "90007-016",
+    "90007-020",
+    "90007-021",
+    "90008-010"
+  ],
+  "methodology": "All 65 file units were enumerated from the complete official NARA Catalog hierarchy. Every official PDF, opening provenance marker, full NARA OCR transcript, and withdrawal-sheet description was screened. The 21 entries below were selected for direct Volume XXX review or cross-volume adjudication because the folder exposes trade, finance, assistance, sanctions, energy, technology-transfer, export-control, industrial-security, or related economic-policy evidence. Page counts were read from the served official PDFs with Poppler pdfinfo; they are file-unit extents, not document extents. Where a withdrawal sheet states the extent of unavailable directives, memoranda, studies, or reports, that evidence is reported separately. These records remain archival locators until individual document headings, datelines, terminal markings, and release or withdrawal status are checked in the source images.",
+  "documents": [
+    {
+      "naid": "446394925",
+      "date": "1989-02-15",
+      "sortDate": "1989-02-15",
+      "pageCount": 74,
+      "extentLabel": "74 PDF pages; withdrawal sheets identify a 4-page Secret draft NSR and supporting review memoranda",
+      "selection": "Core",
+      "topics": [
+        "NSR-3",
+        "Soviet Union",
+        "Economic reform",
+        "Long-term strategy"
+      ],
+      "notes": "Direct Volume XXX review. The signed review directive treats Soviet domestic economic change as a central strategic variable. Screen its economic-policy questions and work-program material with the response file and with NSC Meeting file NAID 470760894; deduplicate the parallel NSR-3 copies before item-level promotion. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446394926",
+      "date": "1989-02-15",
+      "sortDate": "1989-02-15",
+      "pageCount": 58,
+      "extentLabel": "58 PDF pages; withdrawal sheets identify a 31-page Secret NSR-3 policy paper plus recommended-policy and near-term-initiative papers",
+      "selection": "Core",
+      "topics": [
+        "NSR-3",
+        "Soviet Union",
+        "Recommended policies",
+        "Global economic issues"
+      ],
+      "notes": "Direct Volume XXX review. This response file contains recommended policies, near-term initiatives, and the principal NSR-3 study. Compare it with the 31-page review and related documents in NSC Meeting file NAID 470760894 and Tim Deal file NAID 452050608. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446394927",
+      "date": "1989-02-15",
+      "sortDate": "1989-02-15",
+      "pageCount": 82,
+      "extentLabel": "82 PDF pages; withdrawal sheet identifies a 32-page Secret executive summary and a 9-page Secret draft Europe directive",
+      "selection": "Core",
+      "topics": [
+        "NSR-4",
+        "Eastern Europe",
+        "Economic reform",
+        "Economic leverage"
+      ],
+      "notes": "Direct Volume XXX review. The directive and review materials examine economic reform, differentiation, assistance, trade, credits, and other sources of U.S. leverage in Eastern Europe. Compare the later Europe directive material against the NSD series before retaining a separate copy. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446394928",
+      "date": "1989-02-15",
+      "sortDate": "1989-02-15",
+      "pageCount": 30,
+      "extentLabel": "30 PDF pages; withdrawal sheet identifies a 32-page Secret executive summary, a 6-page Secret Rice-Scowcroft meeting memorandum, and a 2-page Deputies Committee summary",
+      "selection": "Core",
+      "topics": [
+        "NSR-4",
+        "Eastern Europe",
+        "NSC meeting",
+        "Economic assistance"
+      ],
+      "notes": "Direct Volume XXX review. This companion file holds the NSR-4 study, presidential meeting preparation, and a Deputies Committee summary. Compare it with NSC Meeting file NAID 470760893 and retain only distinct copies or annotations. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446394929",
+      "date": "1989-02-15",
+      "sortDate": "1989-02-15",
+      "pageCount": 45,
+      "extentLabel": "45 PDF pages; withdrawal sheet identifies a 13-page Secret paper on European Unity and the 1992 Program",
+      "selection": "Core",
+      "topics": [
+        "NSR-5",
+        "European Community",
+        "EC 1992",
+        "Trade policy"
+      ],
+      "notes": "Direct Volume XXX review. The folder contains a discrete study of European unity and the EC 1992 program, making it a direct trade and market-access lead. Review it with the April 4 Europe NSC packet, NAID 470760893, and the Western Europe compilation. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446394930",
+      "date": "1989-02-15",
+      "sortDate": "1989-02-15",
+      "pageCount": 28,
+      "extentLabel": "28 PDF pages; withdrawal sheet identifies a 27-page Secret NSR-5 review, a 13-page Secret EC 1992 paper, and 8-page Top Secret NSC minutes",
+      "selection": "Core",
+      "topics": [
+        "NSR-5",
+        "European Community",
+        "EC 1992",
+        "Trade disputes"
+      ],
+      "notes": "Direct Volume XXX review. The NSR-5 response and repeated EC 1992 study address the economic implications of European integration. The file also carries April 5 U.S.-Soviet NSC minutes that should be deduplicated against NAID 470760894 rather than treated as a second meeting record. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446394935",
+      "date": "1989-02-22",
+      "sortDate": "1989-02-22",
+      "pageCount": 40,
+      "extentLabel": "40 PDF pages; withdrawal sheet identifies a 27-page Secret Persian Gulf review and documents the handwritten Folder ID correction",
+      "selection": "Boundary",
+      "topics": [
+        "NSR-10",
+        "Persian Gulf",
+        "Oil security",
+        "Energy policy"
+      ],
+      "notes": "Boundary review. The Persian Gulf review addresses oil supply, energy security, and the economic consequences of regional policy. Route the principal record against the Gulf volume. The opening marker says 90006-010; the first withdrawal sheet crosses that out and supplies the Catalog Folder ID 90006-013. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446394933",
+      "date": "1989-02-22",
+      "sortDate": "1989-02-22",
+      "pageCount": 95,
+      "extentLabel": "95 PDF pages; withdrawal sheets identify a 24-page Secret South Asia study and a 4-page Confidential Super 301 report, each represented in parallel copies",
+      "selection": "Core",
+      "topics": [
+        "NSR-8",
+        "South Asia",
+        "Super 301",
+        "Trade policy"
+      ],
+      "notes": "Direct Volume XXX review. The South Asia review file contains a separately identified Super 301 report in addition to the regional study. Screen that trade paper for Volume XXX while routing the principal regional policy record to the South Asia volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446394946",
+      "date": "1989-03-29",
+      "sortDate": "1989-03-29",
+      "pageCount": 59,
+      "extentLabel": "59 PDF pages; withdrawal sheets identify a 4-page Confidential NSR and multiple Confidential presidential and staff memoranda",
+      "selection": "Boundary",
+      "topics": [
+        "NSR-13",
+        "Counternarcotics",
+        "International programs",
+        "Program resources"
+      ],
+      "notes": "Boundary review. The initiating review and Scowcroft-Beers-Addis memoranda frame international counternarcotics programs, authorities, assistance, and resource choices. Route the principal policy record against the counternarcotics and regional volumes. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446394953",
+      "date": "1989-04-10",
+      "sortDate": "1989-04-10",
+      "pageCount": 73,
+      "extentLabel": "73 PDF pages; withdrawal sheet identifies 36-page and 35-page Secret South Africa review papers",
+      "selection": "Boundary",
+      "topics": [
+        "NSR-15",
+        "South Africa",
+        "Economic sanctions",
+        "Trade and investment"
+      ],
+      "notes": "Boundary review. The South Africa review weighs sanctions, trade, investment, and economic leverage. Route the principal regional decision record against the Africa volume while retaining distinct economic-policy analysis for Volume XXX review. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446394954",
+      "date": "1989-04-10",
+      "sortDate": "1989-04-10",
+      "pageCount": 131,
+      "extentLabel": "131 PDF pages; withdrawal sheet identifies a 12-page Confidential aid memorandum and three 36-page Secret review papers",
+      "selection": "Boundary",
+      "topics": [
+        "NSR-15",
+        "South Africa",
+        "Foreign assistance",
+        "Sanctions"
+      ],
+      "notes": "Boundary review. This response file combines successive South Africa review papers with a discrete memorandum on expanding aid for disadvantaged South Africans. Review sanctions and assistance items separately and deduplicate repeated studies from the first NSR-15 file. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446394955",
+      "date": "1989-06-07",
+      "sortDate": "1989-06-07",
+      "pageCount": 77,
+      "extentLabel": "77 PDF pages; withdrawal sheets identify a 4-page Confidential NSR, multiple budget-review memoranda, and an 11-page Secret overseas-staffing report",
+      "selection": "Boundary",
+      "topics": [
+        "NSR-16",
+        "Function 150",
+        "Foreign assistance",
+        "International affairs budget"
+      ],
+      "notes": "Boundary review. The directive reviews bilateral and multilateral assistance, international programs, their objectives, management, and FY 1991 resource choices. Route organization and overseas-staffing records against Volume II while retaining economic-assistance and budget strategy for Volume XXX review. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446394956",
+      "date": "1989-06-07",
+      "sortDate": "1989-06-07",
+      "pageCount": 54,
+      "extentLabel": "54 PDF pages; withdrawal sheets identify memoranda on stewardship and status of the 150 Account and a 3-page Confidential draft presidential memorandum",
+      "selection": "Boundary",
+      "topics": [
+        "NSR-16",
+        "Function 150",
+        "Budget stewardship",
+        "Foreign assistance"
+      ],
+      "notes": "Boundary review. This companion file follows the Function 150 review through budget stewardship, milestones, study organization, and a presidential memorandum on international-affairs themes for the 1990s. Compare organizational material with Volume II and retain distinct assistance or budget-policy decisions. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446394957",
+      "date": "1989-06-15",
+      "sortDate": "1989-06-15",
+      "pageCount": 25,
+      "extentLabel": "25 PDF pages; withdrawal sheet identifies a 7-page Secret NSR, a 36-page nuclear study, and an 18-page missile nonproliferation report",
+      "selection": "Core",
+      "topics": [
+        "NSR-17",
+        "Export controls",
+        "MTCR",
+        "Technology transfer"
+      ],
+      "notes": "Direct Volume XXX review. The signed NSR asks directly about nuclear, chemical, biological, and missile export controls, supplier coordination, the MTCR, and technology transfer. Review the directive as the clearest Volume XXX bridge while routing nonproliferation strategy against the arms-control volumes. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446394958",
+      "date": "1989-06-15",
+      "sortDate": "1989-06-15",
+      "pageCount": 39,
+      "extentLabel": "39 PDF pages; withdrawal sheets identify an 18-page Secret missile-policy report and related MTCR cooperation papers",
+      "selection": "Boundary",
+      "topics": [
+        "NSR-17",
+        "Missile proliferation",
+        "MTCR",
+        "Supplier controls"
+      ],
+      "notes": "Boundary review. The file documents presidential initiation of NSR-17 and the interagency missile-policy response. Screen export-control and supplier-regime passages for Volume XXX, then route the principal nonproliferation record against the arms-control volumes. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446394959",
+      "date": "1989-06-15",
+      "sortDate": "1989-06-15",
+      "pageCount": 30,
+      "extentLabel": "30 PDF pages; withdrawal sheets identify an 18-page Secret missile-policy report, a 2-page MTCR-effectiveness annex, and agency position papers",
+      "selection": "Boundary",
+      "topics": [
+        "NSR-17",
+        "MTCR",
+        "Technology transfer",
+        "Interagency positions"
+      ],
+      "notes": "Boundary review. This response file preserves agency positions on missile nonproliferation and an annex evaluating the MTCR. Deduplicate the repeated 18-page report from the second NSR-17 file and route the core security-policy record against the arms-control volumes. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446394967",
+      "date": "1990-01-12",
+      "sortDate": "1990-01-12",
+      "pageCount": 43,
+      "extentLabel": "43 PDF pages; withdrawal sheets identify Secret COCOM directives plus reports on machine tools, telecommunications sales, and technology transfer",
+      "selection": "Core",
+      "topics": [
+        "NSR-22",
+        "COCOM",
+        "Machine tools",
+        "Technology transfer"
+      ],
+      "notes": "Direct Volume XXX review. This is a direct strategic-trade lead. The file initiates the COCOM policy review and separately identifies machine-tool compliance, telecommunications sales, and intelligence studies of technology transfer to Eastern Europe. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446394968",
+      "date": "1990-01-12",
+      "sortDate": "1990-01-12",
+      "pageCount": 7,
+      "extentLabel": "7 PDF pages; withdrawal sheet identifies a 148-page Secret CJCS COCOM study and a 1-page Secret transmittal memorandum",
+      "selection": "Core",
+      "topics": [
+        "NSR-22",
+        "COCOM",
+        "Western technology",
+        "Military significance"
+      ],
+      "notes": "Direct Volume XXX review. The response file identifies the Joint Chiefs' assessment of the military significance of increased Eastern European and Soviet access to Western technology. Track the unavailable study as a high-priority declassification target. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446394972",
+      "date": "1990-04-04",
+      "sortDate": "1990-04-04",
+      "pageCount": 44,
+      "extentLabel": "44 PDF pages; withdrawal sheet identifies a 42-page report to the President and the signed 2-page Confidential NSR",
+      "selection": "Boundary",
+      "topics": [
+        "NSR-25",
+        "Industrial security",
+        "Technology protection",
+        "Economic competition"
+      ],
+      "notes": "Boundary review. The national industrial-security review links globalization, economic competition, technology leadership, and protection of classified industrial information. Route domestic security-administration material outside Volume XXX while retaining international economic and technology-protection analysis for adjudication. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446394973",
+      "date": "1990-04-04",
+      "sortDate": "1990-04-04",
+      "pageCount": 43,
+      "extentLabel": "43 PDF pages; withdrawal sheets identify a 35-page report, 48 pages of appendices, and presidential and staff memoranda",
+      "selection": "Boundary",
+      "topics": [
+        "NSR-25",
+        "Industrial security",
+        "Globalized industry",
+        "Technology leadership"
+      ],
+      "notes": "Boundary review. The response file contains the completed national industrial-security report, appendices, and the Scowcroft recommendation to the President. Compare it with the first NSR-25 folder and retain only distinct economic-security passages or presidential decisions. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446394987",
+      "date": "1992-06-15",
+      "sortDate": "1992-06-15",
+      "pageCount": 37,
+      "extentLabel": "37 PDF pages; withdrawal sheet identifies two parallel 22-page Secret Africa policy reports dated August 14, 1992",
+      "selection": "Boundary",
+      "topics": [
+        "NSR-30",
+        "Africa",
+        "Structural adjustment",
+        "Trade and investment"
+      ],
+      "notes": "Boundary review. The directive and August response explicitly address structural adjustment, economic reform, agriculture, trade policy, private investment, the World Bank, OECD coordination, and economic integration. Route the regional policy record against the Africa volume while preserving the economic-policy sections for Volume XXX review. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    }
+  ]
+}

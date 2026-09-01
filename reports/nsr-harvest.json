@@ -1,0 +1,115 @@
+{
+  "generatedAt": "2026-09-01T03:08:41.417Z",
+  "seriesNaId": "313189297",
+  "expectedFileUnits": 65,
+  "harvestedFileUnits": 65,
+  "onlinePdfCount": 65,
+  "catalogOnlyCount": 0,
+  "volumeReviewFileUnits": 10,
+  "boundaryReviewFileUnits": 11,
+  "volumeReviewNaids": [
+    "446394925",
+    "446394926",
+    "446394927",
+    "446394928",
+    "446394929",
+    "446394930",
+    "446394933",
+    "446394957",
+    "446394967",
+    "446394968"
+  ],
+  "boundaryReviewNaids": [
+    "446394935",
+    "446394946",
+    "446394953",
+    "446394954",
+    "446394955",
+    "446394956",
+    "446394958",
+    "446394959",
+    "446394972",
+    "446394973",
+    "446394987"
+  ],
+  "candidatePdfPages": 1114,
+  "volumeReviewPdfPages": 487,
+  "boundaryReviewPdfPages": 627,
+  "economicSignalThreshold": 20,
+  "economicSignalFileUnits": 45,
+  "markerVerified": 65,
+  "markerCorrectedCount": 1,
+  "markerMismatchCount": 2,
+  "markerCorrections": [
+    {
+      "naid": "446394935",
+      "localId": "90006-013",
+      "title": "NSR-10 - February 22, 1989 - U.S. Policy Toward the Persian Gulf",
+      "markerChecks": {
+        "marker": true,
+        "recordGroup": true,
+        "office": true,
+        "series": true,
+        "subseries": true,
+        "folderId": false,
+        "markerFolderId": "90006-010",
+        "catalogFolderId": "90006-013",
+        "handwrittenCorrection": "90006-010 to 90006-013"
+      }
+    }
+  ],
+  "markerCatalogMismatches": [
+    {
+      "naid": "446394932",
+      "localId": "90006-010",
+      "title": "NSR-7 - February 21, 1989 - Middle East Peace Process",
+      "markerChecks": {
+        "marker": true,
+        "recordGroup": true,
+        "office": true,
+        "series": true,
+        "subseries": true,
+        "folderId": false,
+        "markerFolderId": "90006-007",
+        "catalogFolderId": "90006-010",
+        "catalogMismatch": "90006-007 on the marker; 90006-010 in the Catalog and digital-object path"
+      }
+    },
+    {
+      "naid": "446394934",
+      "localId": "90006-012",
+      "title": "NSR-9 - February 22, 1989 - U.S. Policy Toward Libya",
+      "markerChecks": {
+        "marker": true,
+        "recordGroup": true,
+        "office": true,
+        "series": true,
+        "subseries": true,
+        "folderId": false,
+        "markerFolderId": "90006-009",
+        "catalogFolderId": "90006-012",
+        "catalogMismatch": "90006-009 on the marker; 90006-012 in the Catalog and digital-object path"
+      }
+    }
+  ],
+  "markerExceptions": [],
+  "totalPdfBytes": 532950824,
+  "totalPdfPages": 3024,
+  "pdfSizeMetadataMismatches": [
+    {
+      "naid": "446394975",
+      "catalogPdfBytes": 17697308,
+      "servedPdfBytes": 17697309
+    },
+    {
+      "naid": "446394976",
+      "catalogPdfBytes": 18813864,
+      "servedPdfBytes": 18813865
+    }
+  ],
+  "totalOcrCharacters": 4107040,
+  "documentedDateOverrideNaids": [],
+  "titleDateFallbackNaids": [],
+  "duplicateNaids": [],
+  "duplicateLocalIds": []
+}
