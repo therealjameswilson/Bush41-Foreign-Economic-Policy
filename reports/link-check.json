@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-09-01T05:16:57.579Z",
-  "total": 3533,
-  "ok": 3533,
+  "checkedAt": "2026-09-01T05:42:41.516Z",
+  "total": 3584,
+  "ok": 3584,
   "blocked": 0,
   "failed": 0,
   "blockedResults": [],
@@ -24,6 +24,12 @@
       "ok": true,
       "status": 200,
       "finalUrl": "https://catalog.archives.gov/id/2554817"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/2554819",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/2554819"
     },
     {
       "url": "https://catalog.archives.gov/id/312293887",
@@ -5310,6 +5316,156 @@
       "ok": true,
       "status": 200,
       "finalUrl": "https://catalog.archives.gov/id/446396917"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050387",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050387"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050388",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050388"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050389",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050389"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050390",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050390"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050391",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050391"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050392",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050392"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050393",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050393"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050394",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050394"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050395",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050395"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050396",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050396"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050397",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050397"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050398",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050398"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050399",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050399"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050400",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050400"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050401",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050401"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050402",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050402"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050403",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050403"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050404",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050404"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050405",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050405"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050406",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050406"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050407",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050407"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050408",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050408"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050409",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050409"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050410",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050410"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050411",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050411"
     },
     {
       "url": "https://catalog.archives.gov/id/452050508",
@@ -14904,6 +15060,156 @@
       "ok": true,
       "status": 200,
       "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1992-07-08--Joint-Plenary-Session--1992-Munich-Economic-Summit.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-001.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-001.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-002.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-002.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-003.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-003.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-004.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-004.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-005.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-005.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-006.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-006.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-007.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-007.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-008.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-008.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-009.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-009.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-010.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-010.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-011.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-011.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-012.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-012.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-013.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-013.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-014.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-014.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-015.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-015.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-016.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-016.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-017.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-017.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-018.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-018.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-019.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-019.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-020.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-020.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-021.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-021.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-022.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-022.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-023.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-023.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-024.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-024.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-025.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal-reiss/deal-reiss_eco_sum_2554819/41-bpr-nsc-deal-reiss-eco_sum-cf00186-025.pdf"
     },
     {
       "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-001.pdf",

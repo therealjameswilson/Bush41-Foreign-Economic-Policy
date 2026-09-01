@@ -1636,7 +1636,7 @@ th {
 
 .nsc-collection-tabs {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 4px;
   margin: 20px 0 18px;
   border-bottom: 1px solid var(--line);
@@ -1888,6 +1888,10 @@ th {
 }
 
 @media (max-width: 1180px) {
+  .nsc-collection-tabs {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .chapter-grid-five {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }

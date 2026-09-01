@@ -25,6 +25,8 @@ const scowcroftCandidatesPath = path.join(root, "data", "scowcroft-candidates.js
 const scowcroftFileUnitsPath = path.join(root, "data", "scowcroft-file-units.json");
 const dealSummitCandidatesPath = path.join(root, "data", "deal-summit-candidates.json");
 const dealSummitFileUnitsPath = path.join(root, "data", "deal-summit-file-units.json");
+const dealReissCandidatesPath = path.join(root, "data", "deal-reiss-candidates.json");
+const dealReissFileUnitsPath = path.join(root, "data", "deal-reiss-file-units.json");
 
 if (!fs.existsSync(westernEuropePath)) {
   throw new Error(`Missing source register: ${westernEuropePath}`);
@@ -47,7 +49,9 @@ if (
   !fs.existsSync(scowcroftCandidatesPath) ||
   !fs.existsSync(scowcroftFileUnitsPath) ||
   !fs.existsSync(dealSummitCandidatesPath) ||
-  !fs.existsSync(dealSummitFileUnitsPath)
+  !fs.existsSync(dealSummitFileUnitsPath) ||
+  !fs.existsSync(dealReissCandidatesPath) ||
+  !fs.existsSync(dealReissFileUnitsPath)
 ) {
   throw new Error("Missing NSC candidate or file-unit source data");
 }
@@ -71,6 +75,8 @@ const scowcroftCandidates = JSON.parse(fs.readFileSync(scowcroftCandidatesPath, 
 const scowcroftFileUnits = JSON.parse(fs.readFileSync(scowcroftFileUnitsPath, "utf8"));
 const dealSummitCandidates = JSON.parse(fs.readFileSync(dealSummitCandidatesPath, "utf8"));
 const dealSummitFileUnits = JSON.parse(fs.readFileSync(dealSummitFileUnitsPath, "utf8"));
+const dealReissCandidates = JSON.parse(fs.readFileSync(dealReissCandidatesPath, "utf8"));
+const dealReissFileUnits = JSON.parse(fs.readFileSync(dealReissFileUnitsPath, "utf8"));
 
 const meta = {
   id: "frus1989-92v30",
@@ -741,6 +747,12 @@ const sourceCollections = [
     url: "https://catalog.archives.gov/id/2554817",
   },
   {
+    name: "Timothy E. Deal and Mitchell B. Reiss Economic Summit Files",
+    owner: "National Archives Catalog",
+    role: "Complete 25-file Paris Economic Summit and presidential-trip series with provenance, release-disposition, withdrawal-sheet, and cross-volume routing review",
+    url: "https://catalog.archives.gov/id/2554819",
+  },
+  {
     name: "Bush Memcons and Telcons index",
     owner: "George H.W. Bush Presidential Library",
     role: "Official presidential-conversation discovery table",
@@ -867,7 +879,7 @@ const gaps = [
     priority: "High",
     title: "Most online file units still lack document-boundary audits",
     scope: "Online NARA PDFs",
-    action: "Audit the 95 Scowcroft, 4 IF Transition, 33 NSD, 21 NSR, 79 NSC/Deputies Committee, 29 DC follow-up, 35 NSC Meetings, and 17 Deal Summit Briefing Books leads document by document, then continue the Tim Deal Subject Files workflow across the remaining 131 file units: split documents, verify markings, deduplicate companion and parallel copies, and retain exact withdrawal extents.",
+    action: "Audit the 95 Scowcroft, 4 IF Transition, 33 NSD, 21 NSR, 79 NSC/Deputies Committee, 29 DC follow-up, 35 NSC Meetings, 17 Deal Summit Briefing Books, and 25 Deal-Reiss Economic Summit leads document by document, then continue the Tim Deal Subject Files workflow across the remaining 131 file units: split documents, verify markings, deduplicate companion and parallel copies, and retain exact withdrawal extents.",
   },
   {
     id: "gap-memcons",
@@ -895,7 +907,7 @@ const gaps = [
     priority: "High",
     title: "Withdrawn records need declassification tracking",
     scope: "FOIA withdrawal sheets",
-    action: "Use the 104-item, 324-page Deal Summit withdrawal inventory as the structured baseline, then record exemption, exact extent, review date, and referral status for every other withdrawn item; do not treat folder totals as document extents.",
+    action: "Use the 104-item Deal Summit inventory and the 142-entry Deal-Reiss disposition ledger as structured baselines. Preserve exemption, extent, review status, and whether a released-in-part copy follows; do not infer current nonrelease from a historical withdrawal/redaction sheet alone.",
   },
 ];
 
@@ -1232,6 +1244,57 @@ const dealSummitDocumentRecords = dealSummitCandidates.documents.map((candidate)
   };
 }).sort((a, b) => a.sortDate.localeCompare(b.sortDate) || a.localId.localeCompare(b.localId));
 
+const dealReissUnitByNaid = new Map(dealReissFileUnits.fileUnits.map((fileUnit) => [fileUnit.naid, fileUnit]));
+const dealReissDocumentRecords = dealReissCandidates.documents.map((candidate) => {
+  const fileUnit = dealReissUnitByNaid.get(candidate.naid);
+  if (!fileUnit) throw new Error(`Deal-Reiss candidate ${candidate.naid} is missing from the full file-unit ledger`);
+  const title = fileUnit.title.replaceAll(" - ", "—");
+  return {
+    id: `deal-reiss-${candidate.naid}`,
+    date: candidate.date,
+    sortDate: candidate.sortDate || candidate.date,
+    datePrecision: candidate.datePrecision || "range",
+    displayDateLabel: candidate.displayDateLabel || "",
+    title,
+    heading: `Timothy E. Deal and Mitchell B. Reiss Economic Summit File: ${title}`,
+    dateline: candidate.displayDateLabel || formatDateline(candidate.date),
+    type: "Timothy E. Deal and Mitchell B. Reiss economic-summit file",
+    chapter: fileUnit.chapter,
+    selection: candidate.selection,
+    releaseStatus: candidate.releasedInPartSheetCount
+      ? "Online file unit; released-in-part copies present"
+      : candidate.withdrawalItems?.length
+        ? "Online file unit; sheet dispositions unresolved"
+        : "Online file unit; item audit pending",
+    pageCount: candidate.pageCount,
+    withdrawalSheetItemCount: candidate.withdrawalSheetItemCount,
+    withdrawalSheetPages: candidate.withdrawalSheetPages,
+    releasedInPartSheetCount: candidate.releasedInPartSheetCount,
+    noCopyIndicatedSheetCount: candidate.withdrawalSheetItemCount - candidate.releasedInPartSheetCount,
+    withdrawalItems: (candidate.withdrawalItems || []).map((item) => ({
+      ...item,
+      item: item.itemNumber,
+    })),
+    extentLabel: candidate.extentLabel,
+    classification: "Mixed; document-level audit required",
+    naid: candidate.naid,
+    localId: fileUnit.localId.replaceAll("-", "–"),
+    catalogUrl: fileUnit.catalogUrl,
+    pdfUrl: fileUnit.pdfUrl,
+    sourceNoteStatus: "locator",
+    sourceNoteBasis:
+      "Opening provenance marker, all served-PDF pages, and every withdrawal/redaction sheet checked; file-unit locator only pending document boundaries, terminal markings, current release status, and controlling-copy review in the source images.",
+    sourceNote: undefined,
+    archivalLocator: fileUnit.archivalLocator,
+    topics: candidate.topics,
+    notes: candidate.notes,
+    withdrawalMetadataNote: fileUnit.withdrawalMetadataNote,
+    markerMismatchNote: fileUnit.markerChecks?.catalogMismatch || "",
+    collectionId: "deal-reiss",
+    provenanceMethod: "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets",
+  };
+}).sort((a, b) => a.sortDate.localeCompare(b.sortDate) || a.localId.localeCompare(b.localId));
+
 const supersededLeadIds = new Set(
   [
     ...nscMeetingsDocumentRecords,
@@ -1256,6 +1319,7 @@ const allRecords = [
   ...ifTransitionDocumentRecords,
   ...scowcroftDocumentRecords,
   ...dealSummitDocumentRecords,
+  ...dealReissDocumentRecords,
   ...remainingLeadRecords,
 ]
   .map((record) => {
@@ -1429,6 +1493,31 @@ const data = {
       candidateCsvUrl: "data/deal-summit-candidates.csv",
       fileUnitsCsvUrl: "data/deal-summit-file-units.csv",
       reportUrl: "reports/deal-summit-harvest.json",
+    },
+    {
+      id: "deal-reiss",
+      ...dealReissFileUnits.collection,
+      statusLabel: "Complete Timothy E. Deal and Mitchell B. Reiss Economic Summit Files audit",
+      intro:
+        "All 25 Paris Economic Summit and connected presidential-trip files are surfaced in working chronology after a complete 1,683-page PDF audit. Six are Core, nine are Consider, and ten are Boundary leads. The ledger extracts 142 withdrawal/redaction sheet descriptions totaling 540 pages and distinguishes the eight sheets that explicitly say a released-in-part copy follows from the 134 that do not.",
+      provenanceTitle: "Opening PDF provenance markers and disposition-aware withdrawal/redaction sheets",
+      markerMetricDetail: "25 complete; 3 marker/Catalog Folder ID mismatches; 0 unverified",
+      corpusSizeNote: "1,683 served-PDF pages; 142 sheet descriptions covering 540 pages",
+      provenanceQualifier:
+        "The first three markers name both Deal and Reiss with a combined Summit Briefing Books Files / Economic Summit Files subseries; two NATO folders name both series but supply no subseries; the remaining twenty name Timothy E. Deal Files and Summit Briefing Books Files. CF00186–023 through CF00186–025 carry opening-marker IDs three numbers lower than the Catalog paths. Later sheet metadata in the first three folders also varies; every discrepancy remains visible and the opening marker controls the file-level locator wording.",
+      candidateLabel: "Deal-Reiss files for review",
+      candidateTitle: "Volume XXX Deal-Reiss Economic Summit File Chronology",
+      candidateSummary:
+        "25 file-unit leads, ordered at the precision supported by the folders: 6 Core, 9 Consider, and 10 Boundary. All remain archival locators pending document-level review. The First Plenary sheet in CF00186–010 is matched to the released canonical memcon already in the chronology rather than promoted as a duplicate.",
+      auditScope: dealReissCandidates.auditScope,
+      auditedFolders: dealReissCandidates.auditedFolders,
+      candidateCount: dealReissDocumentRecords.length,
+      candidateIds: dealReissDocumentRecords.map((record) => record.id),
+      fileUnits: dealReissFileUnits.fileUnits,
+      candidateMethodology: dealReissCandidates.methodology,
+      candidateCsvUrl: "data/deal-reiss-candidates.csv",
+      fileUnitsCsvUrl: "data/deal-reiss-file-units.csv",
+      reportUrl: "reports/deal-reiss-harvest.json",
     },
     {
       id: "tim-deal",
@@ -1987,6 +2076,90 @@ fs.writeFileSync(path.join(dataDir, "deal-summit-file-units.csv"), toCsv(dealSum
   "catalogUrl",
   "pdfUrl",
 ]));
+fs.writeFileSync(path.join(dataDir, "deal-reiss-candidates.csv"), toCsv(dealReissDocumentRecords.map((row) => ({
+  ...row,
+  withdrawalInventory: JSON.stringify(row.withdrawalItems || []),
+})), [
+  "id",
+  "date",
+  "displayDateLabel",
+  "datePrecision",
+  "title",
+  "heading",
+  "dateline",
+  "type",
+  "chapter",
+  "selection",
+  "releaseStatus",
+  "pageCount",
+  "withdrawalSheetItemCount",
+  "withdrawalSheetPages",
+  "releasedInPartSheetCount",
+  "extentLabel",
+  "classification",
+  "naid",
+  "localId",
+  "sourceNoteStatus",
+  "sourceNoteBasis",
+  "archivalLocator",
+  "topics",
+  "notes",
+  "withdrawalMetadataNote",
+  "markerMismatchNote",
+  "withdrawalInventory",
+  "catalogUrl",
+  "pdfUrl",
+]));
+fs.writeFileSync(path.join(dataDir, "deal-reiss-file-units.csv"), toCsv(dealReissFileUnits.fileUnits.map((row) => ({
+  ...flattenFileUnit(row),
+  withdrawalInventory: JSON.stringify(row.withdrawalItems || []),
+})), [
+  "naid",
+  "workingStartDate",
+  "workingEndDate",
+  "workingDateLabel",
+  "dateBasis",
+  "title",
+  "localId",
+  "chapter",
+  "routing",
+  "reviewTopics",
+  "reviewFocus",
+  "reviewKeyExtent",
+  "markerStatus",
+  "markerSeries",
+  "markerSubseries",
+  "hasOnlinePdf",
+  "pdfPages",
+  "pdfBytes",
+  "catalogPdfBytes",
+  "pdfByteBasis",
+  "accessStatus",
+  "ocrCharacterCount",
+  "memosToPresident",
+  "memosToScowcroft",
+  "memorandaOfConversation",
+  "meetingRecords",
+  "withdrawalSheets",
+  "economicSignalTotal",
+  "economySignals",
+  "financeSignals",
+  "tradeSignals",
+  "assistanceSanctionsSignals",
+  "energySignals",
+  "agricultureSignals",
+  "treasurySignals",
+  "withdrawalSheetItemCount",
+  "withdrawalSheetPages",
+  "releasedInPartSheetCount",
+  "noCopyIndicatedSheetCount",
+  "withdrawalMetadataNote",
+  "withdrawalInventory",
+  "archivalLocator",
+  "provenanceStem",
+  "catalogUrl",
+  "pdfUrl",
+]));
 fs.writeFileSync(path.join(dataDir, "tim-deal-candidates.csv"), toCsv(timDealDocumentRecords, [
   "id",
   "date",
@@ -2030,7 +2203,7 @@ fs.writeFileSync(path.join(dataDir, "tim-deal-file-units.csv"), toCsv(timDealFil
 ]));
 
 console.log(
-  `Built ${allRecords.length} candidate records, ${scowcroftFileUnits.fileUnits.length} Scowcroft file units, ${dealSummitFileUnits.fileUnits.length} Deal Summit file units, ${ifTransitionFileUnits.fileUnits.length} IF Transition file units, ${nsdFileUnits.fileUnits.length} NSD file units, ${nsrFileUnits.fileUnits.length} NSR file units, ${nscDcFollowUpFileUnits.fileUnits.length} NSC/DC follow-up file units, ${nscDcMeetingsFileUnits.fileUnits.length} NSC/DC file units, ${nscMeetingsFileUnits.fileUnits.length} NSC Meeting file units, ${timDealFileUnits.fileUnits.length} Tim Deal file units, ${publicReferences.length} public references, and ${gaps.length} gap entries.`,
+  `Built ${allRecords.length} candidate records, ${scowcroftFileUnits.fileUnits.length} Scowcroft file units, ${dealSummitFileUnits.fileUnits.length} Deal Summit file units, ${dealReissFileUnits.fileUnits.length} Deal-Reiss file units, ${ifTransitionFileUnits.fileUnits.length} IF Transition file units, ${nsdFileUnits.fileUnits.length} NSD file units, ${nsrFileUnits.fileUnits.length} NSR file units, ${nscDcFollowUpFileUnits.fileUnits.length} NSC/DC follow-up file units, ${nscDcMeetingsFileUnits.fileUnits.length} NSC/DC file units, ${nscMeetingsFileUnits.fileUnits.length} NSC Meeting file units, ${timDealFileUnits.fileUnits.length} Tim Deal file units, ${publicReferences.length} public references, and ${gaps.length} gap entries.`,
 );
 
 function toCsv(rows, fields) {

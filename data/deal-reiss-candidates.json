@@ -1,0 +1,2036 @@
+{
+  "auditScope": "Complete Timothy E. Deal and Mitchell B. Reiss Economic Summit Files inventory with chronology, provenance, release-disposition, withdrawal, and cross-collection duplicate screening",
+  "auditedFolders": [
+    "CF00186-001",
+    "CF00186-002",
+    "CF00186-003",
+    "CF00186-014",
+    "CF00186-015",
+    "CF00186-010",
+    "CF00186-011",
+    "CF00186-012",
+    "CF00186-016",
+    "CF00186-017",
+    "CF00186-018",
+    "CF00186-019",
+    "CF00186-020",
+    "CF00186-021",
+    "CF00186-022",
+    "CF00186-023",
+    "CF00186-024",
+    "CF00186-025",
+    "CF00186-004",
+    "CF00186-006",
+    "CF00186-007",
+    "CF00186-013",
+    "CF00186-008",
+    "CF00186-009",
+    "CF00186-005"
+  ],
+  "methodology": "All 25 file units and all 1,683 served-PDF pages were reviewed from the official NARA series. Six files are Core, nine are Consider, and ten are Boundary leads. The audit extracts 142 withdrawal/redaction sheet descriptions totaling 540 pages and records that eight explicitly mark a released-in-part copy as following in the same PDF. The First Plenary sheet in CF00186-010 is matched to the released canonical candidate already in the workbench rather than promoted as a duplicate. Miscellaneous arms-control material, NATO files, bilateral papers, speech cards, and regional trip files remain visible but carry explicit routing and controlling-copy warnings. These file-level entries are archival locators, not finished FRUS Source Notes.",
+  "documents": [
+    {
+      "naid": "452050387",
+      "date": "1989-01-01",
+      "sortDate": "1989-01-01",
+      "displayDateLabel": "1989 (mixed internal dates)",
+      "datePrecision": "year",
+      "pageCount": 159,
+      "withdrawalSheetItemCount": 8,
+      "withdrawalSheetPages": 31,
+      "releasedInPartSheetCount": 0,
+      "withdrawalItems": [
+        {
+          "itemNumber": "01",
+          "type": "Memo",
+          "title": "Memorandum: Mikhail Gorbachev",
+          "date": "n.d.",
+          "restriction": "P-1, (b)(1), P-5",
+          "classification": "Not stated",
+          "pages": 3,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "02",
+          "type": "Memo",
+          "title": "Memorandum for Rostow RE: Security Clearance - Mitchell Reiss",
+          "date": "10/7/88",
+          "restriction": "(b)(2), P-6, (b)(6)",
+          "classification": "Not stated",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "03",
+          "type": "Memo",
+          "title": "Memorandum from Mitchell Reiss to Arnold Kanter and Judyt Mandel RE: Pending CBW Sanctions Legislation",
+          "date": "4/13/89",
+          "restriction": "P-5",
+          "classification": "Not stated",
+          "pages": 3,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "04",
+          "type": "Memo",
+          "title": "From Mitchell Reiss to Nicholas Rostow RE: Nitze Memorandum and ABM Treaty Interpretation",
+          "date": "2/27/89",
+          "restriction": "P-1, (b)(1), P-5",
+          "classification": "Not stated",
+          "pages": 3,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "05",
+          "type": "Memo",
+          "title": "From Nicholas Rostoe to Brent Scowcroft RE: Response to Nitze Paper on ABM Treaty Interpretation",
+          "date": "3/14/89",
+          "restriction": "P-1, (b)(1), P-5",
+          "classification": "Not stated",
+          "pages": 5,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "06",
+          "type": "Memo",
+          "title": "From Mitchell Reiss to Judyt Mandel RE: Symms Proposed Nonproliferation Bill",
+          "date": "7/30/89",
+          "restriction": "P-5",
+          "classification": "Not stated",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "08",
+          "type": "Memo",
+          "title": "From Mitchell Reiss to Arnie Kanter and Judyt Mandel Transmittal of Annual Section 601 Report",
+          "date": "5/19/89",
+          "restriction": "P-5",
+          "classification": "Not stated",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "09",
+          "type": "Notes",
+          "title": "Handwritten Notes RE: PLO question",
+          "date": "9/12/88",
+          "restriction": "P-1, (b)(1), P-5",
+          "classification": "Not stated",
+          "pages": 12,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        }
+      ],
+      "extentLabel": "159 served-PDF pages; 8 withdrawal/redaction sheet descriptions totaling 31 pages; 0 indicate a released-in-part copy follows and 8 do not; Eight withdrawal/redaction sheets describe 31 pages; none indicates that a released copy follows.",
+      "selection": "Boundary",
+      "chapter": "Strategic Trade, Technology, and Investment Controls",
+      "topics": [
+        "Economic Summit miscellaneous files",
+        "CBW sanctions",
+        "Arms control",
+        "Mitchell Reiss"
+      ],
+      "notes": "Boundary or cross-volume review. Retain for a selective sanctions and strategic-controls check, but route most of the file to the arms-control volumes. The released memoranda and the withdrawal descriptions are predominantly ABM, CBW, personnel, PLO, and Soviet-policy material rather than summit economic policy. This is a file-level lead, not a document-level inclusion claim. Compare controlling copies against the Deal Subject Files, Presidential Memcon Files, relevant regional files, and neighboring folders before promotion."
+    },
+    {
+      "naid": "452050388",
+      "date": "1989-01-01",
+      "sortDate": "1989-01-01",
+      "displayDateLabel": "1989 (mixed internal dates)",
+      "datePrecision": "year",
+      "pageCount": 139,
+      "withdrawalSheetItemCount": 13,
+      "withdrawalSheetPages": 40,
+      "releasedInPartSheetCount": 1,
+      "withdrawalItems": [
+        {
+          "itemNumber": "01a",
+          "type": "Memo",
+          "title": "From Nicholas F. Brady to the President, Re: Committee on Foreign Investment in the United States (CFIUS): Report and Recommendation of Huels-Monsanto Acquisition",
+          "date": "1/23/89",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "01b",
+          "type": "Report",
+          "title": "Committee on Foreign Investment in the United States (CFIUS) Report on Investigation of Huels-Monsanto Acquisition",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 6,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "02",
+          "type": "Memo",
+          "title": "Background Paper on CFIUS Investigation [SENT FOR AGENCY REFERRAL]",
+          "date": "n.d.",
+          "restriction": "P-1, (b)(1)",
+          "classification": "Secret",
+          "pages": 3,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "03b",
+          "type": "Letter",
+          "title": "From Shintaro Abe to William E. Brock, Re: [Consultations Concerning NTT]",
+          "date": "1/30/84",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "03c",
+          "type": "Paper",
+          "title": "Improvement Measures of NTT Procurement Procedures",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 3,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "03d",
+          "type": "Letter",
+          "title": "From Shintaro Abe to William E. Brock, Re: [NTT Consultations]",
+          "date": "1/30/84",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "03e",
+          "type": "Minutes",
+          "title": "Agreed Minutes on the NTT Arrangements",
+          "date": "1/30/84",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "03f",
+          "type": "Letter",
+          "title": "From Saburo Okita to Reubin O'D. Askew, Re: [Government Procurement and Related Markets]",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "03g",
+          "type": "Paper",
+          "title": "Attachment I: NTT Procurement Procedures",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 9,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "03h",
+          "type": "Paper",
+          "title": "Attachment II: Procedures of Non-binding Arbitration",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "03i",
+          "type": "Paper",
+          "title": "Joint Statement",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 3,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "04",
+          "type": "Memo",
+          "title": "National Policy on Strategic Trade Controls [SENT FOR AGENCY REFERRAL]",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 4,
+          "sheetDisposition": "Released in part; copy follows in this PDF"
+        },
+        {
+          "itemNumber": "05",
+          "type": "Memo",
+          "title": "From Mitchell Reiss to Arnold Kanter and Judyt Mandel RE: Pending CBW Sanctions Legislation",
+          "date": "04/13/89",
+          "restriction": "P-5",
+          "classification": "Not stated",
+          "pages": 3,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        }
+      ],
+      "extentLabel": "139 served-PDF pages; 13 withdrawal/redaction sheet descriptions totaling 40 pages; 1 indicate a released-in-part copy follows and 12 do not; Thirteen sheets describe 40 pages. A 4-page Confidential draft on national strategic-trade policy is marked released in part with a copy following; CFIUS and NTT records remain separately described.",
+      "selection": "Core",
+      "chapter": "Strategic Trade, Technology, and Investment Controls",
+      "topics": [
+        "CFIUS",
+        "Huels-Monsanto acquisition",
+        "NTT procurement",
+        "Strategic trade controls",
+        "CBW sanctions"
+      ],
+      "notes": "Direct Volume XXX review. Prioritize the CFIUS Huels-Monsanto record, NTT procurement history, and National Policy on Strategic Trade Controls. The file also carries unrelated legal and administrative memoranda, which should not be promoted merely because they share the folder. This is a file-level lead, not a document-level inclusion claim. Compare controlling copies against the Deal Subject Files, Presidential Memcon Files, relevant regional files, and neighboring folders before promotion."
+    },
+    {
+      "naid": "452050389",
+      "date": "1989-01-01",
+      "sortDate": "1989-01-01",
+      "displayDateLabel": "1989 (mixed internal dates)",
+      "datePrecision": "year",
+      "pageCount": 160,
+      "withdrawalSheetItemCount": 5,
+      "withdrawalSheetPages": 193,
+      "releasedInPartSheetCount": 0,
+      "withdrawalItems": [
+        {
+          "itemNumber": "01",
+          "type": "Memo",
+          "title": "The Baker Plan: An Analysis (Preliminary Draft)",
+          "date": "8/31/89",
+          "restriction": "P-5",
+          "classification": "Not stated",
+          "pages": 15,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "02",
+          "type": "Memo",
+          "title": "The Baker Plan: An Analysis (Preliminary Draft)",
+          "date": "6/5/89",
+          "restriction": "P-5",
+          "classification": "Not stated",
+          "pages": 13,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "03",
+          "type": "Memo",
+          "title": "Memorandum: Disqualification",
+          "date": "04/12/89",
+          "restriction": "P-6, (b)(6)",
+          "classification": "Not stated",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "04",
+          "type": "Memo",
+          "title": "Memorandum: Disqualification",
+          "date": "09/27/88",
+          "restriction": "P-6, (b)(6)",
+          "classification": "Not stated",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "05",
+          "type": "Memo",
+          "title": "Antiballistic Missile Treaty Position Paper",
+          "date": "n.d.",
+          "restriction": "P-1, (b)(1), P-5",
+          "classification": "Secret",
+          "pages": 163,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        }
+      ],
+      "extentLabel": "160 served-PDF pages; 5 withdrawal/redaction sheet descriptions totaling 193 pages; 0 indicate a released-in-part copy follows and 5 do not; Five sheets describe 193 pages, including 28 pages of Baker Plan analysis and a separate 163-page Secret ABM Treaty position paper; no released copy is indicated on the sheets.",
+      "selection": "Core",
+      "chapter": "Monetary Policy, Debt, and International Institutions",
+      "topics": [
+        "Baker Plan",
+        "International debt",
+        "Debt strategy",
+        "ABM Treaty"
+      ],
+      "notes": "Direct Volume XXX review. The two preliminary Baker Plan analyses are direct debt-policy leads. Treat the 163-page ABM Treaty position paper and disqualification memoranda as cross-volume material, despite their physical presence in this Economic Summit folder. This is a file-level lead, not a document-level inclusion claim. Compare controlling copies against the Deal Subject Files, Presidential Memcon Files, relevant regional files, and neighboring folders before promotion."
+    },
+    {
+      "naid": "452050400",
+      "date": "1989-05-01",
+      "sortDate": "1989-05-01",
+      "displayDateLabel": "May 1989",
+      "datePrecision": "month",
+      "pageCount": 181,
+      "withdrawalSheetItemCount": 0,
+      "withdrawalSheetPages": 0,
+      "releasedInPartSheetCount": 0,
+      "withdrawalItems": [],
+      "extentLabel": "181 served-PDF pages; no withdrawal/redaction sheets identified; No withdrawal/redaction sheets were identified across 181 served-PDF pages; the OCR identifies one memorandum of conversation.",
+      "selection": "Boundary",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "topics": [
+        "NATO Summit",
+        "Presidential meetings",
+        "Western Europe",
+        "Arms control"
+      ],
+      "notes": "Boundary or cross-volume review. Use only to check whether NATO-trip conversations shaped the immediately following economic-summit trip. The file is principally a NATO and Western European security record and should be routed accordingly after the memcon copy is compared against the presidential conversation register. This is a file-level lead, not a document-level inclusion claim. Compare controlling copies against the Deal Subject Files, Presidential Memcon Files, relevant regional files, and neighboring folders before promotion."
+    },
+    {
+      "naid": "452050401",
+      "date": "1989-05-01",
+      "sortDate": "1989-05-01",
+      "displayDateLabel": "May 1989",
+      "datePrecision": "month",
+      "pageCount": 114,
+      "withdrawalSheetItemCount": 3,
+      "withdrawalSheetPages": 39,
+      "releasedInPartSheetCount": 1,
+      "withdrawalItems": [
+        {
+          "itemNumber": "05b",
+          "type": "Report",
+          "title": "Background Paper: The President's Meeting with Greek Prime Minister Papandreou. [SENT FOR AGENCY REFERRAL]",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 1,
+          "sheetDisposition": "Released in part; copy follows in this PDF"
+        },
+        {
+          "itemNumber": "11",
+          "type": "Report",
+          "title": "Declaration of the Heads of State and Government Participating in the Meeting of the North Atlantic Council in Brussels. [SENT FOR AGENCY REFERRAL]",
+          "date": "05/27/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 20,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "12",
+          "type": "Report",
+          "title": "Draft: \"A Comprehensive Concept of Arms Control and Disarmament.\" [SENT FOR AGENCY REFERRAL]",
+          "date": "05/25/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 18,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        }
+      ],
+      "extentLabel": "114 served-PDF pages; 3 withdrawal/redaction sheet descriptions totaling 39 pages; 1 indicate a released-in-part copy follows and 2 do not; Three sheets describe 39 pages. A 1-page Greek-prime-minister background paper is marked released in part with a copy following; the NATO declaration and arms-control draft are agency-referral descriptions.",
+      "selection": "Boundary",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "topics": [
+        "NATO Summit",
+        "Arms control",
+        "Greek bilateral",
+        "Western Europe"
+      ],
+      "notes": "Boundary or cross-volume review. Route the NATO declaration and arms-control concept to the Western Europe or arms-control volumes. Retain the file here only for trip-planning context and any demonstrable connection to the Paris economic agenda. This is a file-level lead, not a document-level inclusion claim. Compare controlling copies against the Deal Subject Files, Presidential Memcon Files, relevant regional files, and neighboring folders before promotion."
+    },
+    {
+      "naid": "452050396",
+      "date": "1989-07-01",
+      "sortDate": "1989-07-01",
+      "displayDateLabel": "July 1989",
+      "datePrecision": "month",
+      "pageCount": 131,
+      "withdrawalSheetItemCount": 10,
+      "withdrawalSheetPages": 51,
+      "releasedInPartSheetCount": 1,
+      "withdrawalItems": [
+        {
+          "itemNumber": "01",
+          "type": "Memcon",
+          "title": "Memorandum of Conversation, Re: First Plenary Session, Paris Economic Summit.",
+          "date": "07/15/89",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 8,
+          "sheetDisposition": "Released in part; copy follows in this PDF",
+          "canonicalMatch": "Released First Plenary memcon already represented by presidential-428080101 (NARA NAID 428080101)"
+        },
+        {
+          "itemNumber": "02",
+          "type": "Memcon",
+          "title": "Memorandum of Conversation, Re: Second Plenary Session, Economic Summit.",
+          "date": "07/15/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 6,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "03a",
+          "type": "Letter",
+          "title": "Informal Translation of Gorbachev Letter.",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 3,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "03b",
+          "type": "Letter",
+          "title": "From Mikhail Gorbachev [French language].",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 5,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "04",
+          "type": "Memcon",
+          "title": "Memorandum of Conversation, Re: Plenary Session, Paris Economic Summit.",
+          "date": "07/15/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 9,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "05",
+          "type": "Memcon",
+          "title": "Memorandum of Conversation, Re: Second Plenary Session, Paris Economic Summit.",
+          "date": "07/15/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 6,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "06",
+          "type": "Paper",
+          "title": "Draft Declaration on East-West Relations with marginalia.",
+          "date": "07/12/89",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 4,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "07",
+          "type": "Talking Points",
+          "title": "Points to Be Made at July 14 Working Dinner.",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 3,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "11",
+          "type": "Report",
+          "title": "Readout on Sherpa Working Dinner.",
+          "date": "07/13/89",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 3,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "15a",
+          "type": "Memo",
+          "title": "Richard T. McCormack to Secretaries Baker, Brady, and Scowcroft, Re: Final Draft Communique and Political Statements for Paris Economic Summit, and Report of Rambouillet Sherpa Meeting.",
+          "date": "07/10/89",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 4,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        }
+      ],
+      "extentLabel": "131 served-PDF pages; 10 withdrawal/redaction sheet descriptions totaling 51 pages; 1 indicate a released-in-part copy follows and 9 do not; Ten sheets describe 51 pages, including four plenary memcon entries totaling 29 pages. The 8-page First Plenary copy is released in part in this PDF and matches the existing released candidate; two identically described 6-page Second Plenary entries require copy comparison.",
+      "selection": "Core",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "topics": [
+        "Paris Economic Summit",
+        "Plenary sessions",
+        "Summit communique",
+        "East-West relations",
+        "Presidential memcons"
+      ],
+      "notes": "Direct Volume XXX review. This is the central Paris summit record. Prioritize the plenary memcons, final communique and declaration material, and McCormack's July 10 transmittal. The First Plenary is already represented by a released canonical candidate and must not be duplicated. This is a file-level lead, not a document-level inclusion claim. Compare controlling copies against the Deal Subject Files, Presidential Memcon Files, relevant regional files, and neighboring folders before promotion."
+    },
+    {
+      "naid": "452050397",
+      "date": "1989-07-01",
+      "sortDate": "1989-07-01",
+      "displayDateLabel": "July 1989",
+      "datePrecision": "month",
+      "pageCount": 9,
+      "withdrawalSheetItemCount": 0,
+      "withdrawalSheetPages": 0,
+      "releasedInPartSheetCount": 0,
+      "withdrawalItems": [],
+      "extentLabel": "9 served-PDF pages; no withdrawal/redaction sheets identified; No withdrawal/redaction sheets were identified across 9 served-PDF pages.",
+      "selection": "Consider",
+      "chapter": "Transition Economies and International Economic Strategy",
+      "topics": [
+        "Hungary",
+        "Presidential visit",
+        "Transition economy",
+        "Public diplomacy"
+      ],
+      "notes": "Selective Volume XXX review. Review as a compact companion to the Hungary briefing book and speech-card file. Promote only unique presidential guidance or economic-reform language after comparison with the larger trip files and the regional volume. This is a file-level lead, not a document-level inclusion claim. Compare controlling copies against the Deal Subject Files, Presidential Memcon Files, relevant regional files, and neighboring folders before promotion."
+    },
+    {
+      "naid": "452050398",
+      "date": "1989-07-01",
+      "sortDate": "1989-07-01",
+      "displayDateLabel": "July 1989",
+      "datePrecision": "month",
+      "pageCount": 56,
+      "withdrawalSheetItemCount": 4,
+      "withdrawalSheetPages": 8,
+      "releasedInPartSheetCount": 2,
+      "withdrawalItems": [
+        {
+          "itemNumber": "09",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/16/89",
+          "restriction": "(b)(1); (b)(3)",
+          "classification": "Secret",
+          "pages": 2,
+          "sheetDisposition": "Released in part; copy follows in this PDF"
+        },
+        {
+          "itemNumber": "10",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/16/89",
+          "restriction": "(b)(1); (b)(3)",
+          "classification": "Secret",
+          "pages": 2,
+          "sheetDisposition": "Released in part; copy follows in this PDF"
+        },
+        {
+          "itemNumber": "03",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/16/89",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "04",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/16/89",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        }
+      ],
+      "extentLabel": "56 served-PDF pages; 4 withdrawal/redaction sheet descriptions totaling 8 pages; 2 indicate a released-in-part copy follows and 2 do not; Four sheets describe 8 pages; two 2-page government reports are marked released in part with copies following.",
+      "selection": "Consider",
+      "chapter": "Transition Economies and International Economic Strategy",
+      "topics": [
+        "Poland",
+        "Presidential visit",
+        "Transition economy",
+        "Economic reform"
+      ],
+      "notes": "Selective Volume XXX review. Use as a companion copy set for the Poland trip. The larger presidential briefing book should normally control; retain unique released passages or source evidence and route duplicate speech material to the regional volume. This is a file-level lead, not a document-level inclusion claim. Compare controlling copies against the Deal Subject Files, Presidential Memcon Files, relevant regional files, and neighboring folders before promotion."
+    },
+    {
+      "naid": "452050402",
+      "date": "1989-07-01",
+      "sortDate": "1989-07-01",
+      "displayDateLabel": "July 1989",
+      "datePrecision": "month",
+      "pageCount": 28,
+      "withdrawalSheetItemCount": 0,
+      "withdrawalSheetPages": 0,
+      "releasedInPartSheetCount": 0,
+      "withdrawalItems": [],
+      "extentLabel": "28 served-PDF pages; no withdrawal/redaction sheets identified; No withdrawal/redaction sheets were identified across 28 served-PDF pages.",
+      "selection": "Consider",
+      "chapter": "Transition Economies and International Economic Strategy",
+      "topics": [
+        "Poland",
+        "Presidential briefing cards",
+        "Economic assistance",
+        "Debt",
+        "Transition economy"
+      ],
+      "notes": "Selective Volume XXX review. Screen the presidential cards for final U.S. guidance on Polish reform, debt, aid, and international financial institutions. Compare them against CF00186-004, CF00186-012, and the regional compilation before choosing a controlling copy. This is a file-level lead, not a document-level inclusion claim. Compare controlling copies against the Deal Subject Files, Presidential Memcon Files, relevant regional files, and neighboring folders before promotion."
+    },
+    {
+      "naid": "452050403",
+      "date": "1989-07-01",
+      "sortDate": "1989-07-01",
+      "displayDateLabel": "July 1989",
+      "datePrecision": "month",
+      "pageCount": 20,
+      "withdrawalSheetItemCount": 0,
+      "withdrawalSheetPages": 0,
+      "releasedInPartSheetCount": 0,
+      "withdrawalItems": [],
+      "extentLabel": "20 served-PDF pages; no withdrawal/redaction sheets identified; No withdrawal/redaction sheets were identified across 20 served-PDF pages.",
+      "selection": "Consider",
+      "chapter": "Transition Economies and International Economic Strategy",
+      "topics": [
+        "Hungary",
+        "Presidential briefing cards",
+        "Economic reform",
+        "Debt",
+        "Transition economy"
+      ],
+      "notes": "Selective Volume XXX review. Screen for final presidential guidance on Hungarian reform, debt, and Western assistance. Deduplicate against CF00186-006, CF00186-011, and the regional volume before item-level promotion. This is a file-level lead, not a document-level inclusion claim. Compare controlling copies against the Deal Subject Files, Presidential Memcon Files, relevant regional files, and neighboring folders before promotion."
+    },
+    {
+      "naid": "452050404",
+      "date": "1989-07-01",
+      "sortDate": "1989-07-01",
+      "displayDateLabel": "July 1989",
+      "datePrecision": "month",
+      "pageCount": 39,
+      "withdrawalSheetItemCount": 1,
+      "withdrawalSheetPages": 2,
+      "releasedInPartSheetCount": 0,
+      "withdrawalItems": [
+        {
+          "itemNumber": "03d",
+          "type": "Talking points",
+          "title": "Notecards, Re: Points to Be Made: Middle East Peace Process.",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        }
+      ],
+      "extentLabel": "39 served-PDF pages; 1 withdrawal/redaction sheet description totaling 2 pages; 0 indicate a released-in-part copy follows and 1 do not; One sheet describes a 2-page Secret Middle East peace card; no released copy is indicated on the sheet.",
+      "selection": "Consider",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "topics": [
+        "Paris Economic Summit",
+        "Presidential briefing cards",
+        "Poland",
+        "Mexico",
+        "Debt"
+      ],
+      "notes": "Selective Volume XXX review. This mixed card set contains useful presidential language on Polish assistance, debt swaps, President Salinas, and summit bilaterals. Select only unique final guidance after comparison with the presidential briefing book and country-specific trip files. This is a file-level lead, not a document-level inclusion claim. Compare controlling copies against the Deal Subject Files, Presidential Memcon Files, relevant regional files, and neighboring folders before promotion."
+    },
+    {
+      "naid": "452050405",
+      "date": "1989-07-01",
+      "sortDate": "1989-07-01",
+      "displayDateLabel": "July 1989",
+      "datePrecision": "month",
+      "pageCount": 37,
+      "withdrawalSheetItemCount": 2,
+      "withdrawalSheetPages": 9,
+      "releasedInPartSheetCount": 0,
+      "withdrawalItems": [
+        {
+          "itemNumber": "01c",
+          "type": "Talking points",
+          "title": "Notecards, Re: Points to Be Made at July 14 Working Dinner.",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 5,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "02",
+          "type": "Talking Points",
+          "title": "Notecards, Re: Points to Be Made at July 14 Working Dinner.",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 4,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        }
+      ],
+      "extentLabel": "37 served-PDF pages; 2 withdrawal/redaction sheet descriptions totaling 9 pages; 0 indicate a released-in-part copy follows and 2 do not; Two sheets describe 9 pages of Secret working-dinner cards that may be duplicate copies; neither sheet indicates that a released copy follows.",
+      "selection": "Consider",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "topics": [
+        "Paris Economic Summit",
+        "Working dinner",
+        "Trade imbalances",
+        "Debt strategy",
+        "Environment"
+      ],
+      "notes": "Selective Volume XXX review. Review as presidential working-dinner and summit-session guidance on trade, debt, Eastern Europe, and the environment. Check repeated card sequences against the Paris briefing book before promotion. This is a file-level lead, not a document-level inclusion claim. Compare controlling copies against the Deal Subject Files, Presidential Memcon Files, relevant regional files, and neighboring folders before promotion."
+    },
+    {
+      "naid": "452050406",
+      "date": "1989-07-01",
+      "sortDate": "1989-07-01",
+      "displayDateLabel": "July 1989",
+      "datePrecision": "month",
+      "pageCount": 25,
+      "withdrawalSheetItemCount": 1,
+      "withdrawalSheetPages": 2,
+      "releasedInPartSheetCount": 0,
+      "withdrawalItems": [
+        {
+          "itemNumber": "11",
+          "type": "Talking Points",
+          "title": "Notecards, Re: Points to Be Made: Terrorism.",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        }
+      ],
+      "extentLabel": "25 served-PDF pages; 1 withdrawal/redaction sheet description totaling 2 pages; 0 indicate a released-in-part copy follows and 1 do not; One sheet describes 2 pages of Secret terrorism cards; no released copy is indicated.",
+      "selection": "Consider",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "topics": [
+        "Paris Economic Summit",
+        "Environment",
+        "Development",
+        "Narcotics",
+        "Terrorism"
+      ],
+      "notes": "Selective Volume XXX review. Use selectively for final presidential cards on environment, development, narcotics, and associated summit declarations. Political-security cards should be cross-routed rather than counted as foreign-economic documents by default. This is a file-level lead, not a document-level inclusion claim. Compare controlling copies against the Deal Subject Files, Presidential Memcon Files, relevant regional files, and neighboring folders before promotion."
+    },
+    {
+      "naid": "452050407",
+      "date": "1989-07-01",
+      "sortDate": "1989-07-01",
+      "displayDateLabel": "July 1989",
+      "datePrecision": "month",
+      "pageCount": 16,
+      "withdrawalSheetItemCount": 1,
+      "withdrawalSheetPages": 2,
+      "releasedInPartSheetCount": 0,
+      "withdrawalItems": [
+        {
+          "itemNumber": "03",
+          "type": "Talking Points",
+          "title": "Notecards, Re: Points to Be Made, Re: Middle East Peace Process.",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        }
+      ],
+      "extentLabel": "16 served-PDF pages; 1 withdrawal/redaction sheet description totaling 2 pages; 0 indicate a released-in-part copy follows and 1 do not; One sheet describes 2 pages of Secret Middle East peace cards; no released copy is indicated.",
+      "selection": "Consider",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "topics": [
+        "Paris Economic Summit",
+        "Eastern Europe",
+        "China",
+        "Political declarations",
+        "Economic reform"
+      ],
+      "notes": "Selective Volume XXX review. Review the Eastern Europe and economic-reform cards for Volume XXX, while routing China, Nicaragua, and Middle East political guidance to the appropriate regional volumes. This is a file-level lead, not a document-level inclusion claim. Compare controlling copies against the Deal Subject Files, Presidential Memcon Files, relevant regional files, and neighboring folders before promotion."
+    },
+    {
+      "naid": "452050408",
+      "date": "1989-07-01",
+      "sortDate": "1989-07-01",
+      "displayDateLabel": "July 1989",
+      "datePrecision": "month",
+      "pageCount": 26,
+      "withdrawalSheetItemCount": 0,
+      "withdrawalSheetPages": 0,
+      "releasedInPartSheetCount": 0,
+      "withdrawalItems": [],
+      "extentLabel": "26 served-PDF pages; no withdrawal/redaction sheets identified; No withdrawal/redaction sheets were identified across 26 served-PDF pages.",
+      "selection": "Consider",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "topics": [
+        "Paris Economic Summit",
+        "Prime Minister Uno",
+        "Japan",
+        "Trade",
+        "Debt",
+        "Hungary"
+      ],
+      "notes": "Selective Volume XXX review. This card set is useful for summit economic sessions and the Uno bilateral, including trade, debt, environment, and Eastern European reform. Compare bilateral portions against the Japan and regional files before selection. This is a file-level lead, not a document-level inclusion claim. Compare controlling copies against the Deal Subject Files, Presidential Memcon Files, relevant regional files, and neighboring folders before promotion."
+    },
+    {
+      "naid": "452050409",
+      "date": "1989-07-01",
+      "sortDate": "1989-07-01",
+      "displayDateLabel": "July 1989",
+      "datePrecision": "month",
+      "pageCount": 3,
+      "withdrawalSheetItemCount": 1,
+      "withdrawalSheetPages": 6,
+      "releasedInPartSheetCount": 0,
+      "withdrawalItems": [
+        {
+          "itemNumber": "01",
+          "type": "Talking Points",
+          "title": "Notecards, Re: Points to Be Made: Meeting with President Mitterrand.",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 6,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        }
+      ],
+      "extentLabel": "3 served-PDF pages; 1 withdrawal/redaction sheet description totaling 6 pages; 0 indicate a released-in-part copy follows and 1 do not; One sheet describes 6 pages of Secret Mitterrand meeting cards; no released copy is indicated.",
+      "selection": "Boundary",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "topics": [
+        "France",
+        "President Mitterrand",
+        "Presidential briefing cards",
+        "Western Europe"
+      ],
+      "notes": "Boundary or cross-volume review. Route principally to Western Europe. Retain here only summit-economic guidance not duplicated in the France briefing book or presidential conversation files; the opening marker Folder ID differs from the Catalog and digital-object path. This is a file-level lead, not a document-level inclusion claim. Compare controlling copies against the Deal Subject Files, Presidential Memcon Files, relevant regional files, and neighboring folders before promotion."
+    },
+    {
+      "naid": "452050410",
+      "date": "1989-07-01",
+      "sortDate": "1989-07-01",
+      "displayDateLabel": "July 1989",
+      "datePrecision": "month",
+      "pageCount": 21,
+      "withdrawalSheetItemCount": 1,
+      "withdrawalSheetPages": 2,
+      "releasedInPartSheetCount": 0,
+      "withdrawalItems": [
+        {
+          "itemNumber": "01",
+          "type": "Talking Points",
+          "title": "Notecards, Re: Points to Be Made: Meeting with President Mubarak.",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        }
+      ],
+      "extentLabel": "21 served-PDF pages; 1 withdrawal/redaction sheet description totaling 2 pages; 0 indicate a released-in-part copy follows and 1 do not; One sheet describes 2 pages of Secret Mubarak meeting cards; no released copy is indicated.",
+      "selection": "Boundary",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "topics": [
+        "Paris Economic Summit",
+        "Bilateral meetings",
+        "President Mubarak",
+        "Regional routing"
+      ],
+      "notes": "Boundary or cross-volume review. Use as a cross-volume bilateral card register. Promote an item only when it bears directly on summit economic decisions and is not already represented by a presidential memcon or country file; the marker Folder ID differs from the Catalog path. This is a file-level lead, not a document-level inclusion claim. Compare controlling copies against the Deal Subject Files, Presidential Memcon Files, relevant regional files, and neighboring folders before promotion."
+    },
+    {
+      "naid": "452050411",
+      "date": "1989-07-01",
+      "sortDate": "1989-07-01",
+      "displayDateLabel": "July 1989",
+      "datePrecision": "month",
+      "pageCount": 10,
+      "withdrawalSheetItemCount": 0,
+      "withdrawalSheetPages": 0,
+      "releasedInPartSheetCount": 0,
+      "withdrawalItems": [],
+      "extentLabel": "10 served-PDF pages; no withdrawal/redaction sheets identified; No withdrawal/redaction sheets were identified across 10 served-PDF pages.",
+      "selection": "Boundary",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "topics": [
+        "Netherlands",
+        "Prime Minister Lubbers",
+        "Presidential briefing cards",
+        "Western Europe"
+      ],
+      "notes": "Boundary or cross-volume review. Route principally to Western Europe and use here only for unique summit follow-up on trade, debt, or environmental cooperation. The opening marker Folder ID differs from the Catalog and digital-object path. This is a file-level lead, not a document-level inclusion claim. Compare controlling copies against the Deal Subject Files, Presidential Memcon Files, relevant regional files, and neighboring folders before promotion."
+    },
+    {
+      "naid": "452050390",
+      "date": "1989-07-09",
+      "sortDate": "1989-07-09",
+      "displayDateLabel": "July 9-18, 1989",
+      "datePrecision": "range",
+      "pageCount": 98,
+      "withdrawalSheetItemCount": 16,
+      "withdrawalSheetPages": 18,
+      "releasedInPartSheetCount": 3,
+      "withdrawalItems": [
+        {
+          "itemNumber": "08",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/16/89",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "13",
+          "type": "Report",
+          "title": "Re: Mieczyslaw Rakowski [FOIA exemptions redacted]",
+          "date": "06/16/89",
+          "restriction": "(b)(1), (b)(3)",
+          "classification": "Secret",
+          "pages": 2,
+          "sheetDisposition": "Released in part; copy follows in this PDF"
+        },
+        {
+          "itemNumber": "16",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/16/89",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "19",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/16/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "20",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/16/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "31",
+          "type": "Report",
+          "title": "Re: Czeslaw Kiszczak [FOIA exemptions redacted]",
+          "date": "06/16/89",
+          "restriction": "(b)(1), (b)(3)",
+          "classification": "Secret",
+          "pages": 1,
+          "sheetDisposition": "Released in part; copy follows in this PDF"
+        },
+        {
+          "itemNumber": "32",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/16/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "33",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/16/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "34",
+          "type": "Report",
+          "title": "Re: Tadeusz Olechowski [FOIA exemptions redacted]",
+          "date": "06/16/89",
+          "restriction": "(b)(1), (b)(3)",
+          "classification": "Confidential",
+          "pages": 1,
+          "sheetDisposition": "Released in part; copy follows in this PDF"
+        },
+        {
+          "itemNumber": "35",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/16/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "36",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/16/89",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "37",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/16/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "38",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/16/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "39",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/16/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "40",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/16/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "41",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/16/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        }
+      ],
+      "extentLabel": "98 served-PDF pages; 16 withdrawal/redaction sheet descriptions totaling 18 pages; 3 indicate a released-in-part copy follows and 13 do not; Sixteen sheets describe 18 pages, mostly government reports; three biographic reports totaling 4 pages are marked released in part with copies following.",
+      "selection": "Core",
+      "chapter": "Transition Economies and International Economic Strategy",
+      "topics": [
+        "Poland",
+        "Transition economy",
+        "Debt",
+        "Economic assistance",
+        "Paris Economic Summit"
+      ],
+      "notes": "Direct Volume XXX review. This is the principal presidential Poland briefing book. Prioritize the Scowcroft and Baker scope memoranda, economic problems and prospects, debt, international financial relations, and the administration's aid strategy, while coordinating with the regional volume. This is a file-level lead, not a document-level inclusion claim. Compare controlling copies against the Deal Subject Files, Presidential Memcon Files, relevant regional files, and neighboring folders before promotion."
+    },
+    {
+      "naid": "452050392",
+      "date": "1989-07-09",
+      "sortDate": "1989-07-09",
+      "displayDateLabel": "July 9-18, 1989",
+      "datePrecision": "range",
+      "pageCount": 69,
+      "withdrawalSheetItemCount": 14,
+      "withdrawalSheetPages": 16,
+      "releasedInPartSheetCount": 0,
+      "withdrawalItems": [
+        {
+          "itemNumber": "08",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "04/07/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "11",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "04/07/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "14",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "04/07/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "23",
+          "type": "Paper",
+          "title": "Issue Paper: Hungarian-Soviet Relations.",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "24",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/13/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "25",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/15/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "26",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/16/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "27",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "04/07/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "28",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/15/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "29",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/15/89",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "30",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/15/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "31",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/15/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "32",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/15/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "33",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/15/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        }
+      ],
+      "extentLabel": "69 served-PDF pages; 14 withdrawal/redaction sheet descriptions totaling 16 pages; 0 indicate a released-in-part copy follows and 14 do not; Fourteen sheets describe 16 pages, including a 2-page Secret Hungarian-Soviet relations issue paper; no released copy is indicated.",
+      "selection": "Core",
+      "chapter": "Transition Economies and International Economic Strategy",
+      "topics": [
+        "Hungary",
+        "Transition economy",
+        "Debt",
+        "Economic assistance",
+        "Paris Economic Summit"
+      ],
+      "notes": "Direct Volume XXX review. This is the principal presidential Hungary briefing book. Prioritize the Scowcroft and Baker scope memoranda, economic reform and debt papers, relations with the EC and Soviet Union, and final U.S. assistance guidance, with formal cross-volume routing. This is a file-level lead, not a document-level inclusion claim. Compare controlling copies against the Deal Subject Files, Presidential Memcon Files, relevant regional files, and neighboring folders before promotion."
+    },
+    {
+      "naid": "452050393",
+      "date": "1989-07-09",
+      "sortDate": "1989-07-09",
+      "displayDateLabel": "July 9-18, 1989",
+      "datePrecision": "range",
+      "pageCount": 120,
+      "withdrawalSheetItemCount": 30,
+      "withdrawalSheetPages": 49,
+      "releasedInPartSheetCount": 0,
+      "withdrawalItems": [
+        {
+          "itemNumber": "06",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/15/89",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "09",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/21/89",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "12",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/15/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "15",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/01/89",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "18",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/21/89",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "19",
+          "type": "Paper",
+          "title": "Meeting with President Mubarak.",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "20",
+          "type": "Talking Points",
+          "title": "Points to Be Made: Meeting with President Mubarak.",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "21",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/14/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "24",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/19/89",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "27",
+          "type": "Paper",
+          "title": "Meeting with the New Greek Prime Minister.",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "31",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/15/89",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "35",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "05/09/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "38",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/15/89",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "41",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/22/89",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "44",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "01/10/89",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "47",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/21/89",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "50",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "05/11/89",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "53",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/15/89",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "56",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/15/89",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "59",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/15/89",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "62",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/22/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "65",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/15/89",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "68",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/14/89",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "71",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/15/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "74",
+          "type": "Cable",
+          "title": "Secretary of State to U.S. Embassy, Caracas, Re: Letter from the President to CAP [Carlos Andres Perez].",
+          "date": "06/15/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "75",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/15/89",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "78",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/15/89",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "81",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "05/09/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "84",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/15/89",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "85",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "5/21/84",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        }
+      ],
+      "extentLabel": "120 served-PDF pages; 30 withdrawal/redaction sheet descriptions totaling 49 pages; 0 indicate a released-in-part copy follows and 30 do not; Thirty sheets describe 49 pages, including Mubarak and Greek-prime-minister meeting papers and numerous one- or two-page government reports; no released copy is indicated.",
+      "selection": "Boundary",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "topics": [
+        "Contingency bilateral meetings",
+        "Paris Economic Summit",
+        "Heads of government",
+        "Regional routing"
+      ],
+      "notes": "Boundary or cross-volume review. Use as a cross-volume bilateral discovery file. Its value is identifying presidential meeting papers and country positions, but individual records should normally be controlled by the relevant memcon or regional file rather than this contingency copy set. This is a file-level lead, not a document-level inclusion claim. Compare controlling copies against the Deal Subject Files, Presidential Memcon Files, relevant regional files, and neighboring folders before promotion."
+    },
+    {
+      "naid": "452050399",
+      "date": "1989-07-11",
+      "sortDate": "1989-07-11",
+      "displayDateLabel": "July 11, 1989",
+      "datePrecision": "day",
+      "pageCount": 2,
+      "withdrawalSheetItemCount": 1,
+      "withdrawalSheetPages": 12,
+      "releasedInPartSheetCount": 0,
+      "withdrawalItems": [
+        {
+          "itemNumber": "01",
+          "type": "Report",
+          "title": "Re: Brief",
+          "date": "07/11/89",
+          "restriction": "(b)(1)",
+          "classification": "Top Secret",
+          "pages": 12,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        }
+      ],
+      "extentLabel": "2 served-PDF pages; 1 withdrawal/redaction sheet description totaling 12 pages; 0 indicate a released-in-part copy follows and 1 do not; The two-page served PDF contains the opening marker and one sheet describing a 12-page Top Secret brief dated July 11, 1989; no released copy is indicated.",
+      "selection": "Boundary",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "topics": [
+        "Declassification follow-up",
+        "Top Secret brief",
+        "Unresolved title"
+      ],
+      "notes": "Boundary or cross-volume review. Retain as an unresolved declassification lead. The marker title is truncated and the sheet supplies only 'Brief,' so neither subject nor Volume XXX relevance can be established without additional archival evidence. This is a file-level lead, not a document-level inclusion claim. Compare controlling copies against the Deal Subject Files, Presidential Memcon Files, relevant regional files, and neighboring folders before promotion."
+    },
+    {
+      "naid": "452050394",
+      "date": "1989-07-13",
+      "sortDate": "1989-07-13",
+      "displayDateLabel": "July 13-17, 1989",
+      "datePrecision": "range",
+      "pageCount": 42,
+      "withdrawalSheetItemCount": 12,
+      "withdrawalSheetPages": 22,
+      "releasedInPartSheetCount": 0,
+      "withdrawalItems": [
+        {
+          "itemNumber": "01",
+          "type": "Table of",
+          "title": "Visit of President Bush to the Economic Summit and Poland, Contents Hungary, and The Netherlands.",
+          "date": "July 1989",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "02",
+          "type": "Memo",
+          "title": "Brent Scowcroft to POTUS, Re: Scope Paper: Your Meeting with President Mitterrand and Other Events in Paris on July 13-14.",
+          "date": "06/29/89",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "04",
+          "type": "Paper",
+          "title": "Meeting with President Mitterrand.",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "05",
+          "type": "Talking Points",
+          "title": "Points to Be Made: Meeting with President Mitterrand.",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 6,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "06",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/14/89",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "13",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/09/89",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "14",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/14/89",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "15",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/09/89",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "16",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "05/09/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "17",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/15/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "18",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/15/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "19",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/15/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        }
+      ],
+      "extentLabel": "42 served-PDF pages; 12 withdrawal/redaction sheet descriptions totaling 22 pages; 0 indicate a released-in-part copy follows and 12 do not; Twelve sheets describe 22 pages, including a 2-page Secret Scowcroft memorandum to the President and 6 pages of Mitterrand meeting points; no released copy is indicated.",
+      "selection": "Boundary",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "topics": [
+        "France",
+        "President Mitterrand",
+        "Paris Economic Summit",
+        "Bilateral meetings"
+      ],
+      "notes": "Boundary or cross-volume review. Route the bilateral record principally to Western Europe. Retain unique evidence about summit agenda-setting and French economic positions after comparison with presidential memcons and the Paris briefing book. This is a file-level lead, not a document-level inclusion claim. Compare controlling copies against the Deal Subject Files, Presidential Memcon Files, relevant regional files, and neighboring folders before promotion."
+    },
+    {
+      "naid": "452050395",
+      "date": "1989-07-14",
+      "sortDate": "1989-07-14",
+      "displayDateLabel": "July 14-16, 1989",
+      "datePrecision": "range",
+      "pageCount": 123,
+      "withdrawalSheetItemCount": 8,
+      "withdrawalSheetPages": 21,
+      "releasedInPartSheetCount": 0,
+      "withdrawalItems": [
+        {
+          "itemNumber": "01",
+          "type": "Table of",
+          "title": "Participation of President Bush in the Paris Economic Contents Summit.",
+          "date": "July 1989",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "03",
+          "type": "Memo",
+          "title": "James A. Baker, III and Nicholas F. Brady to POTUS, Re: The Paris Economic Summit.",
+          "date": "06/28/89",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 6,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "07",
+          "type": "Talking Points",
+          "title": "Points to Be Made at July 14 Working Dinner.",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 5,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "47",
+          "type": "Paper",
+          "title": "Issue Paper: Terrorism.",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "48",
+          "type": "Talking Points",
+          "title": "Points to Be Made: Terrorism.",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "51",
+          "type": "Paper",
+          "title": "Issue Paper: China.",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "53",
+          "type": "Paper",
+          "title": "Issue Paper: Middle East Peace Process.",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "54",
+          "type": "Talking Points",
+          "title": "Points to Be Made: Middle East Process.",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        }
+      ],
+      "extentLabel": "123 served-PDF pages; 8 withdrawal/redaction sheet descriptions totaling 21 pages; 0 indicate a released-in-part copy follows and 8 do not; Eight sheets describe 21 pages, led by a 6-page Secret June 28 Baker-Brady memorandum to President Bush and 5 pages of working-dinner points; no released copy is indicated for those entries.",
+      "selection": "Core",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "topics": [
+        "Paris Economic Summit",
+        "Presidential briefing book",
+        "Baker-Brady memorandum",
+        "Trade",
+        "Debt",
+        "Eastern Europe"
+      ],
+      "notes": "Direct Volume XXX review. This is the principal presidential briefing book for Paris. Prioritize Scowcroft's released June 29 overview, the Baker-Brady economic memorandum, session guidance, debt strategy, trade, and Eastern Europe; compare political papers against the regional volumes. This is a file-level lead, not a document-level inclusion claim. Compare controlling copies against the Deal Subject Files, Presidential Memcon Files, relevant regional files, and neighboring folders before promotion."
+    },
+    {
+      "naid": "452050391",
+      "date": "1989-07-17",
+      "sortDate": "1989-07-17",
+      "displayDateLabel": "July 17-18, 1989",
+      "datePrecision": "range",
+      "pageCount": 55,
+      "withdrawalSheetItemCount": 11,
+      "withdrawalSheetPages": 17,
+      "releasedInPartSheetCount": 0,
+      "withdrawalItems": [
+        {
+          "itemNumber": "07",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "05/01/89",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "12",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/16/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "20",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "05/19/89",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "21",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/16/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "22",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/16/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "23",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/16/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "24",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/16/89",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "25",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/16/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "26",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/16/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "27",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "06/16/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        },
+        {
+          "itemNumber": "28",
+          "type": "Report",
+          "title": "Government Report",
+          "date": "05/16/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 2,
+          "sheetDisposition": "No released copy indicated on the sheet"
+        }
+      ],
+      "extentLabel": "55 served-PDF pages; 11 withdrawal/redaction sheet descriptions totaling 17 pages; 0 indicate a released-in-part copy follows and 11 do not; Eleven sheets describe 17 pages of government reports; no released copy is indicated.",
+      "selection": "Boundary",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "topics": [
+        "Netherlands",
+        "Prime Minister Lubbers",
+        "Trip follow-up",
+        "Western Europe"
+      ],
+      "notes": "Boundary or cross-volume review. Route the Netherlands bilateral record principally to Western Europe. Retain unique economic-summit follow-up, environmental cooperation, or trade material only after comparison with memcons and the Netherlands briefing-card file. This is a file-level lead, not a document-level inclusion claim. Compare controlling copies against the Deal Subject Files, Presidential Memcon Files, relevant regional files, and neighboring folders before promotion."
+    }
+  ]
+}

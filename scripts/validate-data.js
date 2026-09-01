@@ -476,7 +476,7 @@ const dealSummit = data.nscCollections?.find((collection) => collection.id === "
 if (!dealSummit) {
   errors.push("Timothy E. Deal Summit Briefing Books collection is missing");
 } else {
-  if (data.nscCollections[7]?.id !== "deal-summit" || data.nscCollections[8]?.id !== "tim-deal") {
+  if (data.nscCollections[7]?.id !== "deal-summit" || data.nscCollections[8]?.id !== "deal-reiss" || data.nscCollections[9]?.id !== "tim-deal") {
     errors.push("Deal Summit collection is not placed immediately before the Deal Subject Files tab");
   }
   if (dealSummit.naid !== "2554817" || dealSummit.fileUnits.length !== 17 || dealSummit.fileUnitCount !== 17) {
@@ -549,7 +549,105 @@ if (!dealSummit) {
   if (sortedCandidates.some((record, index) => record.id !== candidateRecords[index].id)) errors.push("Deal Summit candidates are not stored in chronological order");
 }
 
-if (data.nscCollections?.length !== 9) errors.push("NSC collection tab count is not 9");
+const dealReiss = data.nscCollections?.find((collection) => collection.id === "deal-reiss");
+if (!dealReiss) {
+  errors.push("Timothy E. Deal and Mitchell B. Reiss Economic Summit collection is missing");
+} else {
+  if (data.nscCollections[8]?.id !== "deal-reiss" || data.nscCollections[9]?.id !== "tim-deal") {
+    errors.push("Deal-Reiss collection is not placed immediately before the Deal Subject Files tab");
+  }
+  if (dealReiss.naid !== "2554819" || dealReiss.fileUnits.length !== 25 || dealReiss.fileUnitCount !== 25) {
+    errors.push("Deal-Reiss collection identity or file-unit count changed");
+  }
+  if (dealReiss.onlinePdfCount !== 25 || dealReiss.catalogOnlyCount !== 0 || dealReiss.fileUnits.some((row) => !row.hasOnlinePdf)) {
+    errors.push("Deal-Reiss online/catalog-only totals changed");
+  }
+  if (dealReiss.totalPdfPages !== 1683 || dealReiss.fileUnits.reduce((total, row) => total + row.pdfPages, 0) !== 1683) {
+    errors.push("Deal-Reiss served-PDF page total is not 1,683");
+  }
+  if (dealReiss.totalPdfBytes !== 707294190 || dealReiss.fileUnits.reduce((total, row) => total + row.pdfBytes, 0) !== 707294190 || dealReiss.totalCatalogPdfBytes !== 707294187) {
+    errors.push("Deal-Reiss served or Catalog PDF byte accounting changed");
+  }
+  if (dealReiss.markerVerified !== 25 || dealReiss.markerMismatchCount !== 3 || dealReiss.markerExceptionCount !== 0 || dealReiss.fileUnits.some((row) => !row.markerStatus.startsWith("verified"))) {
+    errors.push("Deal-Reiss opening-marker totals changed");
+  }
+  const markerSeriesCounts = Object.fromEntries(dealReiss.openingMarkerSeriesSummary.map((row) => [row.name, row.fileUnitCount]));
+  if (markerSeriesCounts["Deal, Timothy E., Files, and Reiss, Mitchell B., Files"] !== 3 || markerSeriesCounts["Deal, Timothy E., Files and Reiss, Mitchell B., Files"] !== 2 || markerSeriesCounts["Deal, Timothy E., Files"] !== 20) {
+    errors.push("Deal-Reiss opening-marker series wording no longer reconciles to 3, 2, and 20 file units");
+  }
+  const markerSubseriesCounts = Object.fromEntries(dealReiss.openingMarkerSubseriesSummary.map((row) => [row.name, row.fileUnitCount]));
+  if (markerSubseriesCounts["Summit Briefing Books Files / Economic Summit Files"] !== 3 || markerSubseriesCounts["No subseries supplied"] !== 2 || markerSubseriesCounts["Summit Briefing Books Files"] !== 20) {
+    errors.push("Deal-Reiss opening-marker subseries wording no longer reconciles to 3, 2, and 20 file units");
+  }
+  const markerMismatchNaids = dealReiss.fileUnits.filter((row) => row.markerChecks?.catalogMismatch).map((row) => row.naid).sort();
+  if (markerMismatchNaids.join(",") !== "452050409,452050410,452050411") errors.push("Deal-Reiss marker/Catalog Folder ID mismatch set changed");
+  const metadataMismatchNaids = dealReiss.fileUnits.filter((row) => row.withdrawalMetadataNote).map((row) => row.naid).sort();
+  if (dealReiss.withdrawalMetadataMismatchCount !== 3 || metadataMismatchNaids.join(",") !== "452050387,452050388,452050389") {
+    errors.push("Deal-Reiss later-sheet metadata discrepancy set changed");
+  }
+  if (new Set(dealReiss.fileUnits.map((row) => row.naid)).size !== 25) errors.push("Duplicate Deal-Reiss file-unit NAID");
+  if (new Set(dealReiss.fileUnits.map((row) => row.localId)).size !== 25) errors.push("Duplicate Deal-Reiss OA/ID");
+  if (dealReiss.fileUnits.some((row) => !row.catalogUrl.startsWith("https://catalog.archives.gov/id/") || !row.pdfUrl.startsWith("https://catalog.archives.gov/medialz/"))) {
+    errors.push("Deal-Reiss ledger contains a nonofficial link");
+  }
+  if (dealReiss.totalOcrCharacters !== 2251301 || dealReiss.fileUnits.reduce((total, row) => total + row.ocrCharacterCount, 0) !== 2251301) {
+    errors.push("Deal-Reiss OCR character accounting changed");
+  }
+  if (dealReiss.fileUnits.some((row) => !Number.isInteger(row.pdfPages) || row.pdfPages <= 0 || !Number.isInteger(row.economicSignals?.total))) {
+    errors.push("Deal-Reiss page or OCR signal accounting is incomplete");
+  }
+  if (dealReiss.fileUnits.some((row) => !row.reviewTopics?.length || !row.reviewFocus || !row.reviewKeyExtent || !["Volume XXX review", "Selective review", "Boundary review"].includes(row.routing))) {
+    errors.push("Deal-Reiss file unit lacks routing or compiler annotation");
+  }
+  if (dealReiss.fileUnits.filter((row) => row.routing === "Volume XXX review").length !== 6 || dealReiss.fileUnits.filter((row) => row.routing === "Selective review").length !== 9 || dealReiss.fileUnits.filter((row) => row.routing === "Boundary review").length !== 10) {
+    errors.push("Deal-Reiss file-level routing counts changed");
+  }
+  const sortedUnits = [...dealReiss.fileUnits].sort((a, b) => a.workingStartDate.localeCompare(b.workingStartDate) || a.workingEndDate.localeCompare(b.workingEndDate) || a.localId.localeCompare(b.localId));
+  if (sortedUnits.some((row, index) => row.naid !== dealReiss.fileUnits[index].naid)) errors.push("Deal-Reiss file units are not stored in working chronological order");
+  if (dealReiss.fileUnits.some((row) => !row.workingDateLabel || !row.dateBasis)) errors.push("Deal-Reiss chronology loses source-supported date precision");
+  const totalSheetItems = dealReiss.fileUnits.reduce((total, row) => total + row.withdrawalSheetItemCount, 0);
+  const totalSheetPages = dealReiss.fileUnits.reduce((total, row) => total + row.withdrawalSheetPages, 0);
+  const releasedInPartSheets = dealReiss.fileUnits.reduce((total, row) => total + row.releasedInPartSheetCount, 0);
+  const noCopyIndicatedSheets = dealReiss.fileUnits.reduce((total, row) => total + row.noCopyIndicatedSheetCount, 0);
+  if (dealReiss.totalWithdrawalSheetItems !== 142 || totalSheetItems !== 142 || dealReiss.totalWithdrawalSheetPages !== 540 || totalSheetPages !== 540 || dealReiss.releasedInPartSheetCount !== 8 || releasedInPartSheets !== 8 || dealReiss.noCopyIndicatedSheetCount !== 134 || noCopyIndicatedSheets !== 134) {
+    errors.push("Deal-Reiss withdrawal/redaction sheet disposition ledger does not reconcile");
+  }
+  if (dealReiss.candidateCount !== 25 || dealReiss.candidateIds.length !== 25 || dealReiss.auditedFolders.length !== 25) {
+    errors.push("Deal-Reiss candidate or audited-folder count is not 25");
+  }
+  if (dealReiss.candidateIds.some((id) => !ids.has(id))) errors.push("Deal-Reiss candidate ID is missing from the master chronology");
+  const candidateRecords = dealReiss.candidateIds.map((id) => data.records.find((record) => record.id === id)).filter(Boolean);
+  if (candidateRecords.some((record) => record.collectionId !== "deal-reiss" || record.sourceNoteStatus !== "locator" || record.sourceNote)) {
+    errors.push("Deal-Reiss file-level lead incorrectly asserts a document Source Note or lacks its collection ID");
+  }
+  if (candidateRecords.some((record) => !record.archivalLocator.startsWith("George H.W. Bush Library, Bush Presidential Records, National Security Council, Timothy E. Deal") || !record.archivalLocator.includes("OA/ID CF00186–") || /CF00186-\d{3}/.test(record.archivalLocator))) {
+    errors.push("Deal-Reiss archival locator does not follow the provenance-marker form");
+  }
+  if (candidateRecords.reduce((total, record) => total + record.pageCount, 0) !== 1683) errors.push("Deal-Reiss candidate page total is not 1,683");
+  if (candidateRecords.filter((record) => record.selection === "Core").length !== 6 || candidateRecords.filter((record) => record.selection === "Consider").length !== 9 || candidateRecords.filter((record) => record.selection === "Boundary").length !== 10) {
+    errors.push("Deal-Reiss Core, Consider, or Boundary candidate counts changed");
+  }
+  if (candidateRecords.reduce((total, record) => total + record.withdrawalSheetItemCount, 0) !== 142 || candidateRecords.reduce((total, record) => total + record.withdrawalSheetPages, 0) !== 540 || candidateRecords.reduce((total, record) => total + record.releasedInPartSheetCount, 0) !== 8 || candidateRecords.reduce((total, record) => total + record.noCopyIndicatedSheetCount, 0) !== 134) {
+    errors.push("Deal-Reiss candidate sheet-disposition totals do not reconcile to the file ledger");
+  }
+  const withdrawalItems = candidateRecords.flatMap((record) => record.withdrawalItems || []);
+  if (withdrawalItems.length !== 142 || withdrawalItems.reduce((total, item) => total + item.pages, 0) !== 540 || withdrawalItems.some((item) => !item.sheetDisposition)) {
+    errors.push("Deal-Reiss candidate withdrawal/redaction descriptions are incomplete");
+  }
+  const partialItems = withdrawalItems.filter((item) => item.sheetDisposition === "Released in part; copy follows in this PDF");
+  const canonicalItems = withdrawalItems.filter((item) => item.canonicalMatch);
+  if (partialItems.length !== 8 || canonicalItems.length !== 1 || !canonicalItems[0].canonicalMatch.includes("presidential-428080101")) {
+    errors.push("Deal-Reiss released-in-part or canonical-copy accounting changed");
+  }
+  const canonicalRecord = data.records.find((record) => record.id === "presidential-428080101");
+  if (canonicalRecord?.naid !== "428080101" || canonicalRecord.sourceNoteStatus !== "verified" || data.records.filter((record) => record.naid === "428080101").length !== 1) {
+    errors.push("The released Paris First Plenary memcon is missing or duplicated");
+  }
+  const sortedCandidates = [...candidateRecords].sort((a, b) => a.sortDate.localeCompare(b.sortDate) || a.localId.localeCompare(b.localId));
+  if (sortedCandidates.some((record, index) => record.id !== candidateRecords[index].id)) errors.push("Deal-Reiss candidates are not stored in working chronological order");
+}
+
+if (data.nscCollections?.length !== 10) errors.push("NSC collection tab count is not 10");
 
 const report = {
   checkedAt: new Date().toISOString(),
@@ -561,6 +659,7 @@ const report = {
   nscCollections: data.nscCollections?.length || 0,
   scowcroftFileUnits: scowcroft?.fileUnits.length || 0,
   dealSummitFileUnits: dealSummit?.fileUnits.length || 0,
+  dealReissFileUnits: dealReiss?.fileUnits.length || 0,
   ifTransitionFileUnits: ifTransition?.fileUnits.length || 0,
   nsdFileUnits: nsd?.fileUnits.length || 0,
   nsrFileUnits: nsr?.fileUnits.length || 0,

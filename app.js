@@ -201,7 +201,7 @@ function recordSearchText(record) {
     record.archivalLocator,
     record.notes,
     ...(record.topics || []),
-    ...(record.withdrawalItems || []).map((item) => item.title),
+    ...(record.withdrawalItems || []).flatMap((item) => [item.title, item.sheetDisposition, item.canonicalMatch]),
   ]
     .filter(Boolean)
     .join(" ")
@@ -365,9 +365,11 @@ function createWithdrawalLedger(record) {
   const table = document.createElement("table");
   const showDate = record.withdrawalItems.some((item) => item.date);
   const showRestriction = record.withdrawalItems.some((item) => item.restriction);
+  const showDisposition = record.withdrawalItems.some((item) => item.sheetDisposition || item.canonicalMatch);
   const headings = ["Item", "Description"];
   if (showDate) headings.push("Date");
   if (showRestriction) headings.push("Restriction");
+  if (showDisposition) headings.push("Sheet disposition and duplicate check");
   headings.push("Marking", "Pages");
   table.innerHTML = `<thead><tr>${headings.map((heading) => `<th>${heading}</th>`).join("")}</tr></thead>`;
   const tbody = document.createElement("tbody");
@@ -376,6 +378,9 @@ function createWithdrawalLedger(record) {
     const cells = [item.item || item.itemNumber, item.title];
     if (showDate) cells.push(item.date || "Not stated");
     if (showRestriction) cells.push(item.restriction || "Not stated");
+    if (showDisposition) {
+      cells.push([item.sheetDisposition, item.canonicalMatch].filter(Boolean).join("; ") || "Not stated");
+    }
     cells.push(item.classification, item.pages);
     tr.innerHTML = cells.map((value) => `<td>${escapeHtml(value)}</td>`).join("");
     tbody.append(tr);
@@ -722,6 +727,7 @@ function nscFileSearchText(row) {
     row.reviewFocus,
     row.reviewKeyExtent,
     row.withdrawalMetadataNote,
+    ...(row.withdrawalItems || []).flatMap((item) => [item.title, item.sheetDisposition, item.canonicalMatch]),
     row.economicSignals?.total >= 20 ? "economic policy OCR signal" : "",
   ]
     .filter(Boolean)
@@ -1021,6 +1027,10 @@ function downloadFilteredNscCsv() {
     "treasurySignals",
     "withheldItemCount",
     "withheldPages",
+    "withdrawalSheetItemCount",
+    "withdrawalSheetPages",
+    "releasedInPartSheetCount",
+    "noCopyIndicatedSheetCount",
     "withdrawalMetadataNote",
     "withdrawalInventory",
     "archivalLocator",

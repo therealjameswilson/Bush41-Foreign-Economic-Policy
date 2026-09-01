@@ -1,0 +1,370 @@
+{
+  "generatedAt": "2026-09-01T05:35:26.502Z",
+  "seriesNaId": "2554819",
+  "expectedFileUnits": 25,
+  "harvestedFileUnits": 25,
+  "onlinePdfCount": 25,
+  "catalogOnlyCount": 0,
+  "coreCandidateCount": 6,
+  "considerCandidateCount": 9,
+  "boundaryCandidateCount": 10,
+  "totalPdfBytes": 707294190,
+  "totalCatalogPdfBytes": 707294187,
+  "totalPdfPages": 1683,
+  "totalWithdrawalSheetItems": 142,
+  "totalWithdrawalSheetPages": 540,
+  "releasedInPartSheetCount": 8,
+  "noCopyIndicatedSheetCount": 134,
+  "markerVerified": 25,
+  "markerMismatchCount": 3,
+  "openingMarkerSeriesSummary": [
+    {
+      "name": "Deal, Timothy E., Files, and Reiss, Mitchell B., Files",
+      "fileUnitCount": 3
+    },
+    {
+      "name": "Deal, Timothy E., Files and Reiss, Mitchell B., Files",
+      "fileUnitCount": 2
+    },
+    {
+      "name": "Deal, Timothy E., Files",
+      "fileUnitCount": 20
+    }
+  ],
+  "openingMarkerSubseriesSummary": [
+    {
+      "name": "Summit Briefing Books Files / Economic Summit Files",
+      "fileUnitCount": 3
+    },
+    {
+      "name": "No subseries supplied",
+      "fileUnitCount": 2
+    },
+    {
+      "name": "Summit Briefing Books Files",
+      "fileUnitCount": 20
+    }
+  ],
+  "markerCatalogMismatches": [
+    {
+      "naid": "452050409",
+      "localId": "CF00186-023",
+      "markerChecks": {
+        "marker": true,
+        "recordGroup": true,
+        "office": true,
+        "series": true,
+        "subseries": true,
+        "folderId": false,
+        "markerSeries": "Deal, Timothy E., Files",
+        "expectedSeries": "Deal, Timothy E., Files",
+        "markerSubseries": "Summit Briefing Books Files",
+        "expectedSubseries": "Summit Briefing Books Files",
+        "markerFolderId": "CF00186-020",
+        "catalogFolderId": "CF00186-023",
+        "catalogMismatch": "CF00186-020 on the opening marker; CF00186-023 in the Catalog and digital-object path"
+      }
+    },
+    {
+      "naid": "452050410",
+      "localId": "CF00186-024",
+      "markerChecks": {
+        "marker": true,
+        "recordGroup": true,
+        "office": true,
+        "series": true,
+        "subseries": true,
+        "folderId": false,
+        "markerSeries": "Deal, Timothy E., Files",
+        "expectedSeries": "Deal, Timothy E., Files",
+        "markerSubseries": "Summit Briefing Books Files",
+        "expectedSubseries": "Summit Briefing Books Files",
+        "markerFolderId": "CF00186-021",
+        "catalogFolderId": "CF00186-024",
+        "catalogMismatch": "CF00186-021 on the opening marker; CF00186-024 in the Catalog and digital-object path"
+      }
+    },
+    {
+      "naid": "452050411",
+      "localId": "CF00186-025",
+      "markerChecks": {
+        "marker": true,
+        "recordGroup": true,
+        "office": true,
+        "series": true,
+        "subseries": true,
+        "folderId": false,
+        "markerSeries": "Deal, Timothy E., Files",
+        "expectedSeries": "Deal, Timothy E., Files",
+        "markerSubseries": "Summit Briefing Books Files",
+        "expectedSubseries": "Summit Briefing Books Files",
+        "markerFolderId": "CF00186-022",
+        "catalogFolderId": "CF00186-025",
+        "catalogMismatch": "CF00186-022 on the opening marker; CF00186-025 in the Catalog and digital-object path"
+      }
+    }
+  ],
+  "markerExceptions": [],
+  "withdrawalMetadataMismatches": [
+    {
+      "naid": "452050387",
+      "localId": "CF00186-001",
+      "withdrawalMetadataNote": "The opening marker names both Deal and Reiss files and the combined Summit Briefing Books Files / Economic Summit Files subseries. Later withdrawal sheets abbreviate the series and omit the subseries. The opening marker controls the file-level locator."
+    },
+    {
+      "naid": "452050388",
+      "localId": "CF00186-002",
+      "withdrawalMetadataNote": "The opening marker names both Deal and Reiss files and the combined Summit Briefing Books Files / Economic Summit Files subseries. Later sheets vary among abbreviated combined-series forms, and one identifies Reiss Chron Files. The opening marker controls the file-level locator."
+    },
+    {
+      "naid": "452050389",
+      "localId": "CF00186-003",
+      "withdrawalMetadataNote": "The opening marker names both Deal and Reiss files and the combined Summit Briefing Books Files / Economic Summit Files subseries. Later withdrawal sheets abbreviate the series and do not consistently preserve the subseries. The opening marker controls the file-level locator."
+    }
+  ],
+  "canonicalReleasedMatches": [
+    {
+      "naid": "452050396",
+      "localId": "CF00186-010",
+      "itemNumber": "01",
+      "canonicalMatch": "Released First Plenary memcon already represented by presidential-428080101 (NARA NAID 428080101)"
+    }
+  ],
+  "pdfSizeMetadataMismatches": [
+    {
+      "naid": "452050387",
+      "catalogPdfBytes": 80096464,
+      "servedPdfBytes": 80096468
+    },
+    {
+      "naid": "452050388",
+      "catalogPdfBytes": 66177536,
+      "servedPdfBytes": 66177534
+    },
+    {
+      "naid": "452050389",
+      "catalogPdfBytes": 87715880,
+      "servedPdfBytes": 87715878
+    },
+    {
+      "naid": "452050400",
+      "catalogPdfBytes": 49524824,
+      "servedPdfBytes": 49524826
+    },
+    {
+      "naid": "452050401",
+      "catalogPdfBytes": 37354252,
+      "servedPdfBytes": 37354251
+    },
+    {
+      "naid": "452050398",
+      "catalogPdfBytes": 23965092,
+      "servedPdfBytes": 23965093
+    },
+    {
+      "naid": "452050390",
+      "catalogPdfBytes": 42813008,
+      "servedPdfBytes": 42813009
+    },
+    {
+      "naid": "452050393",
+      "catalogPdfBytes": 52407400,
+      "servedPdfBytes": 52407401
+    },
+    {
+      "naid": "452050394",
+      "catalogPdfBytes": 17853288,
+      "servedPdfBytes": 17853287
+    },
+    {
+      "naid": "452050395",
+      "catalogPdfBytes": 52045288,
+      "servedPdfBytes": 52045287
+    },
+    {
+      "naid": "452050391",
+      "catalogPdfBytes": 24090568,
+      "servedPdfBytes": 24090569
+    }
+  ],
+  "perFileWithdrawalStats": [
+    {
+      "naid": "452050387",
+      "localId": "CF00186-001",
+      "withdrawalSheetItemCount": 8,
+      "withdrawalSheetPages": 31,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050388",
+      "localId": "CF00186-002",
+      "withdrawalSheetItemCount": 13,
+      "withdrawalSheetPages": 40,
+      "releasedInPartSheetCount": 1
+    },
+    {
+      "naid": "452050389",
+      "localId": "CF00186-003",
+      "withdrawalSheetItemCount": 5,
+      "withdrawalSheetPages": 193,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050400",
+      "localId": "CF00186-014",
+      "withdrawalSheetItemCount": 0,
+      "withdrawalSheetPages": 0,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050401",
+      "localId": "CF00186-015",
+      "withdrawalSheetItemCount": 3,
+      "withdrawalSheetPages": 39,
+      "releasedInPartSheetCount": 1
+    },
+    {
+      "naid": "452050396",
+      "localId": "CF00186-010",
+      "withdrawalSheetItemCount": 10,
+      "withdrawalSheetPages": 51,
+      "releasedInPartSheetCount": 1
+    },
+    {
+      "naid": "452050397",
+      "localId": "CF00186-011",
+      "withdrawalSheetItemCount": 0,
+      "withdrawalSheetPages": 0,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050398",
+      "localId": "CF00186-012",
+      "withdrawalSheetItemCount": 4,
+      "withdrawalSheetPages": 8,
+      "releasedInPartSheetCount": 2
+    },
+    {
+      "naid": "452050402",
+      "localId": "CF00186-016",
+      "withdrawalSheetItemCount": 0,
+      "withdrawalSheetPages": 0,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050403",
+      "localId": "CF00186-017",
+      "withdrawalSheetItemCount": 0,
+      "withdrawalSheetPages": 0,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050404",
+      "localId": "CF00186-018",
+      "withdrawalSheetItemCount": 1,
+      "withdrawalSheetPages": 2,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050405",
+      "localId": "CF00186-019",
+      "withdrawalSheetItemCount": 2,
+      "withdrawalSheetPages": 9,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050406",
+      "localId": "CF00186-020",
+      "withdrawalSheetItemCount": 1,
+      "withdrawalSheetPages": 2,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050407",
+      "localId": "CF00186-021",
+      "withdrawalSheetItemCount": 1,
+      "withdrawalSheetPages": 2,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050408",
+      "localId": "CF00186-022",
+      "withdrawalSheetItemCount": 0,
+      "withdrawalSheetPages": 0,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050409",
+      "localId": "CF00186-023",
+      "withdrawalSheetItemCount": 1,
+      "withdrawalSheetPages": 6,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050410",
+      "localId": "CF00186-024",
+      "withdrawalSheetItemCount": 1,
+      "withdrawalSheetPages": 2,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050411",
+      "localId": "CF00186-025",
+      "withdrawalSheetItemCount": 0,
+      "withdrawalSheetPages": 0,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050390",
+      "localId": "CF00186-004",
+      "withdrawalSheetItemCount": 16,
+      "withdrawalSheetPages": 18,
+      "releasedInPartSheetCount": 3
+    },
+    {
+      "naid": "452050392",
+      "localId": "CF00186-006",
+      "withdrawalSheetItemCount": 14,
+      "withdrawalSheetPages": 16,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050393",
+      "localId": "CF00186-007",
+      "withdrawalSheetItemCount": 30,
+      "withdrawalSheetPages": 49,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050399",
+      "localId": "CF00186-013",
+      "withdrawalSheetItemCount": 1,
+      "withdrawalSheetPages": 12,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050394",
+      "localId": "CF00186-008",
+      "withdrawalSheetItemCount": 12,
+      "withdrawalSheetPages": 22,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050395",
+      "localId": "CF00186-009",
+      "withdrawalSheetItemCount": 8,
+      "withdrawalSheetPages": 21,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050391",
+      "localId": "CF00186-005",
+      "withdrawalSheetItemCount": 11,
+      "withdrawalSheetPages": 17,
+      "releasedInPartSheetCount": 0
+    }
+  ],
+  "totalOcrCharacters": 2251301,
+  "duplicateNaids": [],
+  "duplicateLocalIds": []
+}
