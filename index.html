@@ -182,7 +182,7 @@
             <p class="kicker">Collection Audit</p>
             <h2 id="nsc-files-title">National Security Council Files</h2>
           </div>
-          <span class="status-stamp" id="nsc-status">H-Files National Security Directive series</span>
+          <span class="status-stamp" id="nsc-status">H-Files Institutional Files transition series</span>
         </div>
         <div id="nsc-collection-tabs" class="nsc-collection-tabs" role="tablist" aria-label="NSC collections"></div>
         <p class="records-intro" id="nsc-intro">
@@ -198,16 +198,16 @@
             <h3 id="nsc-provenance-title">Opening PDF provenance and withdrawal sheets</h3>
           </div>
           <p id="nsc-provenance-summary"></p>
-          <a id="nsc-series-link" href="https://catalog.archives.gov/id/313189290" target="_blank" rel="noreferrer">Open series record</a>
+          <a id="nsc-series-link" href="https://catalog.archives.gov/id/348937136" target="_blank" rel="noreferrer">Open series record</a>
         </div>
 
         <div class="subsection-heading">
           <div>
             <p class="kicker">FRUS Possible Inclusion</p>
-            <h3 id="nsc-candidate-title">Volume XXX National Security Directive Chronology</h3>
+            <h3 id="nsc-candidate-title">Volume XXX Transition File Chronology</h3>
           </div>
           <div class="subsection-actions">
-            <a id="nsc-candidate-download" href="data/nsd-candidates.csv" download>Download NSD files for review CSV</a>
+            <a id="nsc-candidate-download" href="data/if-transition-candidates.csv" download>Download transition files for review CSV</a>
           </div>
         </div>
         <p id="nsc-candidate-summary" class="records-intro"></p>
@@ -219,8 +219,8 @@
             <h3>File-Unit Ledger</h3>
           </div>
           <div class="subsection-actions">
-            <a id="nsc-file-download" href="data/nsd-file-units.csv" download>Download all 108 file units</a>
-            <a id="nsc-report-link" href="reports/nsd-harvest.json">Open harvest report</a>
+            <a id="nsc-file-download" href="data/if-transition-file-units.csv" download>Download all 30 file units</a>
+            <a id="nsc-report-link" href="reports/if-transition-harvest.json">Open harvest report</a>
           </div>
         </div>
         <p class="records-intro nsc-ledger-note">
@@ -359,6 +359,14 @@
           </div>
         </div>
         <div class="download-grid">
+          <a href="data/if-transition-candidates.csv" download>
+            <strong>IF Transition files for review</strong>
+            <span>Four deduplicated chronological leads totaling 304 PDF pages, with source-controlled date labels, locators, and official links</span>
+          </a>
+          <a href="data/if-transition-file-units.csv" download>
+            <strong>IF Transition full-series ledger</strong>
+            <span>All 30 file units and 3,612 PDF pages, with verified opening provenance markers, review signals, and duplicate-copy notes</span>
+          </a>
           <a href="data/records.csv" download>
             <strong>Candidate register</strong>
             <span>CSV with headings, datelines, status fields, provenance, and official links</span>
@@ -443,7 +451,7 @@
     </footer>
 
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
-    <script src="data/volume.js?v=20260831-nsd"></script>
-    <script src="app.js?v=20260831-nsd"></script>
+    <script src="data/volume.js?v=20260901-if-transition"></script>
+    <script src="app.js?v=20260901-if-transition"></script>
   </body>
 </html>

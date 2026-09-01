@@ -1,0 +1,55 @@
+{
+  "generatedAt": "2026-09-01T04:12:41.442Z",
+  "seriesNaId": "348937136",
+  "expectedFileUnits": 30,
+  "harvestedFileUnits": 30,
+  "onlinePdfCount": 30,
+  "catalogOnlyCount": 0,
+  "volumeReviewFileUnits": 2,
+  "boundaryReviewFileUnits": 2,
+  "volumeReviewNaids": [
+    "470760857",
+    "470760859"
+  ],
+  "boundaryReviewNaids": [
+    "470760855",
+    "470760866"
+  ],
+  "candidatePdfPages": 304,
+  "volumeReviewPdfPages": 81,
+  "boundaryReviewPdfPages": 223,
+  "economicSignalThreshold": 20,
+  "economicSignalFileUnits": 25,
+  "markerVerified": 30,
+  "markerCorrectedCount": 0,
+  "markerMismatchCount": 0,
+  "markerCorrections": [],
+  "markerCatalogMismatches": [],
+  "markerExceptions": [],
+  "totalPdfBytes": 307306749,
+  "totalPdfPages": 3612,
+  "pdfSizeMetadataMismatches": [
+    {
+      "naid": "470760875",
+      "catalogPdfBytes": 36039792,
+      "servedPdfBytes": 36039793
+    }
+  ],
+  "totalOcrCharacters": 5991416,
+  "documentedDateOverrideNaids": [
+    "470760861",
+    "470760873",
+    "470760874",
+    "470760857",
+    "470760859",
+    "470760855",
+    "470760858",
+    "470760860",
+    "470760862",
+    "470760863",
+    "470760856"
+  ],
+  "titleDateFallbackNaids": [],
+  "duplicateNaids": [],
+  "duplicateLocalIds": []
+}

@@ -102,6 +102,63 @@ if (!nscMeetings) {
   if (sortedCandidates.some((record, index) => record.id !== candidateRecords[index].id)) errors.push("NSC Meetings candidates are not stored in chronological order");
 }
 
+const ifTransition = data.nscCollections?.find((collection) => collection.id === "if-transition");
+if (!ifTransition) {
+  errors.push("NSC Institutional Files Transition collection is missing");
+} else {
+  if (data.nscCollections[0]?.id !== "if-transition") errors.push("IF Transition is not the first collection tab");
+  if (ifTransition.fileUnits.length !== 30 || ifTransition.fileUnitCount !== 30) errors.push("IF Transition file-unit count is not 30");
+  if (ifTransition.onlinePdfCount !== 30 || ifTransition.catalogOnlyCount !== 0) errors.push("IF Transition online/catalog-only totals changed");
+  if (ifTransition.totalPdfPages !== 3612) errors.push("IF Transition served-PDF page total is not 3,612");
+  if (ifTransition.markerVerified !== 30 || ifTransition.markerCorrectedCount !== 0 || ifTransition.markerMismatchCount !== 0 || ifTransition.markerExceptionCount !== 0) {
+    errors.push("IF Transition provenance-marker totals changed");
+  }
+  if (ifTransition.candidateCount !== 4 || ifTransition.candidateIds.length !== 4) errors.push("IF Transition review-candidate count is not 4");
+  if (ifTransition.auditedFolders.length !== 4) errors.push("IF Transition screened-folder count is not 4");
+  if (ifTransition.fileUnits.some((row) => row.markerStatus !== "verified")) errors.push("IF Transition ledger contains an opening-marker exception");
+  if (ifTransition.fileUnits.some((row) => !Number.isInteger(row.economicSignals?.total))) errors.push("IF Transition ledger lacks economic OCR signals");
+  if (new Set(ifTransition.fileUnits.map((row) => row.naid)).size !== ifTransition.fileUnits.length) errors.push("Duplicate IF Transition NAID");
+  if (new Set(ifTransition.fileUnits.map((row) => row.localId)).size !== ifTransition.fileUnits.length) errors.push("Duplicate IF Transition OA/ID");
+  if (ifTransition.fileUnits.some((row) => !row.catalogUrl.startsWith("https://catalog.archives.gov/id/") || !row.pdfUrl.startsWith("https://catalog.archives.gov/medialz/"))) {
+    errors.push("IF Transition ledger contains a nonofficial link");
+  }
+  if (ifTransition.fileUnits.some((row) => !Number.isInteger(row.pdfPages) || row.pdfPages <= 0 || row.hasOnlinePdf !== true)) {
+    errors.push("IF Transition served-PDF page ledger is incomplete or inconsistent");
+  }
+  if (ifTransition.fileUnits.reduce((total, row) => total + row.pdfPages, 0) !== 3612) errors.push("IF Transition file-unit page counts do not total 3,612");
+  const sortedUnits = [...ifTransition.fileUnits].sort((a, b) => a.workingStartDate.localeCompare(b.workingStartDate) || a.workingEndDate.localeCompare(b.workingEndDate) || a.localId.localeCompare(b.localId));
+  if (sortedUnits.some((row, index) => row.naid !== ifTransition.fileUnits[index].naid)) errors.push("IF Transition file units are not stored in chronological order");
+  if (ifTransition.fileUnits.some((row) => row.workingStartDate === "9999-12-31" || row.dateBasis === "Date not established")) errors.push("IF Transition ledger contains an undated working row");
+  if (ifTransition.fileUnits.filter((row) => row.routing === "Volume XXX review").length !== 2) errors.push("IF Transition direct-review routing count is not 2");
+  if (ifTransition.fileUnits.filter((row) => row.routing === "Boundary review").length !== 2) errors.push("IF Transition boundary-review routing count is not 2");
+  if (ifTransition.fileUnits.filter((row) => row.routing !== "Series context").some((row) => !row.reviewTopics?.length || !row.reviewFocus || !row.reviewKeyExtent)) {
+    errors.push("IF Transition routed file unit lacks its compiler review annotation");
+  }
+  if (ifTransition.candidateIds.some((id) => !ids.has(id))) errors.push("IF Transition candidate ID is missing from the master chronology");
+  const candidateRecords = ifTransition.candidateIds.map((id) => data.records.find((record) => record.id === id)).filter(Boolean);
+  const routedNaids = new Set(ifTransition.fileUnits.filter((row) => row.routing !== "Series context").map((row) => row.naid));
+  const candidateNaids = new Set(candidateRecords.map((record) => record.naid));
+  if (routedNaids.size !== candidateNaids.size || [...routedNaids].some((naid) => !candidateNaids.has(naid))) errors.push("IF Transition routed file units and chronology candidates do not match");
+  if (candidateRecords.some((record) => record.sourceNoteStatus !== "locator" || record.sourceNote)) errors.push("IF Transition file-unit lead incorrectly asserts a document-level Source Note");
+  if (candidateRecords.some((record) => record.collectionId !== "if-transition")) errors.push("IF Transition candidate lacks its collection ID");
+  if (candidateRecords.some((record) => !record.archivalLocator.startsWith("George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files, IF Transition Files, OA/ID ") || !/9901[56]–\d{3}/.test(record.archivalLocator) || /9901[56]-\d{3}/.test(record.archivalLocator))) {
+    errors.push("IF Transition archival locator does not follow the published FRUS H-Files form");
+  }
+  if (candidateRecords.reduce((total, record) => total + record.pageCount, 0) !== 304) errors.push("IF Transition review-file page total is not 304");
+  if (candidateRecords.filter((record) => record.selection === "Core").length !== 2) errors.push("IF Transition candidate direct-review count is not 2");
+  if (candidateRecords.filter((record) => record.selection === "Boundary").length !== 2) errors.push("IF Transition candidate boundary count is not 2");
+  if (candidateRecords.filter((record) => record.selection === "Core").reduce((total, record) => total + record.pageCount, 0) !== 81) errors.push("IF Transition direct-review page total is not 81");
+  if (candidateRecords.filter((record) => record.selection === "Boundary").reduce((total, record) => total + record.pageCount, 0) !== 223) errors.push("IF Transition boundary-review page total is not 223");
+  const sortedCandidates = [...candidateRecords].sort((a, b) => a.sortDate.localeCompare(b.sortDate) || a.title.localeCompare(b.title));
+  if (sortedCandidates.some((record, index) => record.id !== candidateRecords[index].id)) errors.push("IF Transition candidates are not stored in chronological order");
+  if ([...candidateNaids].sort().join(",") !== "470760855,470760857,470760859,470760866") errors.push("IF Transition candidate NAID set changed");
+  const monthCandidates = candidateRecords.filter((record) => ["470760857", "470760859"].includes(record.naid));
+  if (monthCandidates.length !== 2 || monthCandidates.some((record) => record.datePrecision !== "month" || record.displayDateLabel !== "November 1988" || record.dateline !== "November 1988")) {
+    errors.push("IF Transition month-level candidate dates changed");
+  }
+  if (candidateNaids.has("470760865") || candidateNaids.has("470760868")) errors.push("Duplicate retained-files copies were promoted as separate IF Transition candidates");
+}
+
 const nsd = data.nscCollections?.find((collection) => collection.id === "nsd");
 if (!nsd) {
   errors.push("National Security Directive collection is missing");
@@ -341,6 +398,7 @@ const report = {
   locators: data.records.filter((record) => record.sourceNoteStatus === "locator").length,
   withheldItems: data.records.filter((record) => record.releaseStatus === "Withheld").length,
   nscCollections: data.nscCollections?.length || 0,
+  ifTransitionFileUnits: ifTransition?.fileUnits.length || 0,
   nsdFileUnits: nsd?.fileUnits.length || 0,
   nsrFileUnits: nsr?.fileUnits.length || 0,
   nscDcFollowUpFileUnits: nscDcFollowUp?.fileUnits.length || 0,

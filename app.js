@@ -689,6 +689,9 @@ function nscFileSearchText(row) {
     row.dateBasis,
     row.markerStatus,
     row.archivalLocator,
+    ...(row.reviewTopics || []),
+    row.reviewFocus,
+    row.reviewKeyExtent,
     row.economicSignals?.total >= 20 ? "economic policy OCR signal" : "",
   ]
     .filter(Boolean)
@@ -804,6 +807,12 @@ function createNscFileUnitRow(row) {
   actions.className = "record-copy-actions";
   actions.append(copyButton(isVerifiedMarker(row.markerStatus) ? "Copy Provenance Stem" : "Copy Locator", sourceText));
   details.append(summary, sourceLabel, source);
+  if (row.reviewFocus) {
+    details.append(label("Compiler review note"), paragraph(row.reviewFocus, "record-notes"));
+  }
+  if (row.reviewKeyExtent) {
+    details.append(label("Key extent and release evidence"), paragraph(row.reviewKeyExtent, "record-notes"));
+  }
   if (markerNote) details.append(label("Opening marker note"), paragraph(markerNote, "record-notes"));
   details.append(signalNote, actions);
   body.append(title, meta, signals, details);
@@ -829,6 +838,7 @@ function reviewSignalPairs(row) {
 }
 
 function workingDateRange(row) {
+  if (row.workingDateLabel) return row.workingDateLabel;
   if (row.workingStartDate.startsWith("9999")) return "Date not established";
   const start = formatShortDate(row.workingStartDate);
   const end = formatShortDate(row.workingEndDate);

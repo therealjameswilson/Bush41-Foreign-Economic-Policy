@@ -19,6 +19,8 @@ const nsdCandidatesPath = path.join(root, "data", "nsd-candidates.json");
 const nsdFileUnitsPath = path.join(root, "data", "nsd-file-units.json");
 const nsrCandidatesPath = path.join(root, "data", "nsr-candidates.json");
 const nsrFileUnitsPath = path.join(root, "data", "nsr-file-units.json");
+const ifTransitionCandidatesPath = path.join(root, "data", "if-transition-candidates.json");
+const ifTransitionFileUnitsPath = path.join(root, "data", "if-transition-file-units.json");
 
 if (!fs.existsSync(westernEuropePath)) {
   throw new Error(`Missing source register: ${westernEuropePath}`);
@@ -35,7 +37,9 @@ if (
   !fs.existsSync(nsdCandidatesPath) ||
   !fs.existsSync(nsdFileUnitsPath) ||
   !fs.existsSync(nsrCandidatesPath) ||
-  !fs.existsSync(nsrFileUnitsPath)
+  !fs.existsSync(nsrFileUnitsPath) ||
+  !fs.existsSync(ifTransitionCandidatesPath) ||
+  !fs.existsSync(ifTransitionFileUnitsPath)
 ) {
   throw new Error("Missing NSC candidate or file-unit source data");
 }
@@ -53,6 +57,8 @@ const nsdCandidates = JSON.parse(fs.readFileSync(nsdCandidatesPath, "utf8"));
 const nsdFileUnits = JSON.parse(fs.readFileSync(nsdFileUnitsPath, "utf8"));
 const nsrCandidates = JSON.parse(fs.readFileSync(nsrCandidatesPath, "utf8"));
 const nsrFileUnits = JSON.parse(fs.readFileSync(nsrFileUnitsPath, "utf8"));
+const ifTransitionCandidates = JSON.parse(fs.readFileSync(ifTransitionCandidatesPath, "utf8"));
+const ifTransitionFileUnits = JSON.parse(fs.readFileSync(ifTransitionFileUnitsPath, "utf8"));
 
 const meta = {
   id: "frus1989-92v30",
@@ -60,7 +66,7 @@ const meta = {
   fullTitle: "Foreign Relations of the United States, 1989-1992, Volume XXX, Foreign Economic Policy",
   officialUrl: "https://history.state.gov/historicaldocuments/frus1989-92v30",
   status: "Being Researched",
-  statusChecked: "2026-08-31",
+  statusChecked: "2026-09-01",
   editorialState: "Provisional compiler register",
   scopeNote:
     "The Office of the Historian has not published a table of contents for Volume XXX. The chapter plan and selection labels on this site are working arrangements for compiler review, not an official documentary history.",
@@ -753,6 +759,12 @@ const sourceCollections = [
     url: "https://catalog.archives.gov/id/313189297",
   },
   {
+    name: "NSC Institutional Files Transition Files",
+    owner: "National Archives Catalog",
+    role: "Reagan-Bush transition briefings, institutional background, retained-file lists, and opening provenance markers",
+    url: "https://catalog.archives.gov/id/348937136",
+  },
+  {
     name: "Houston Economic Summit FOIA",
     owner: "George H.W. Bush Presidential Library",
     role: "Selective released summit records; finding aid is not all-inclusive",
@@ -831,7 +843,7 @@ const gaps = [
     priority: "High",
     title: "Most online file units still lack document-boundary audits",
     scope: "Online NARA PDFs",
-    action: "Audit the 79 NSC/Deputies Committee, 29 DC follow-up, and 35 NSC Meetings leads document by document, then continue the Tim Deal workflow across the remaining 131 file units: split documents, verify markings, deduplicate companion and parallel copies, and retain exact withdrawal extents.",
+    action: "Audit the 4 IF Transition, 33 NSD, 21 NSR, 79 NSC/Deputies Committee, 29 DC follow-up, and 35 NSC Meetings leads document by document, then continue the Tim Deal workflow across the remaining 131 file units: split documents, verify markings, deduplicate companion and parallel copies, and retain exact withdrawal extents.",
   },
   {
     id: "gap-memcons",
@@ -1075,6 +1087,44 @@ const nsrDocumentRecords = nsrCandidates.documents.map((candidate) => {
   };
 }).sort((a, b) => a.sortDate.localeCompare(b.sortDate) || a.title.localeCompare(b.title));
 
+const ifTransitionUnitByNaid = new Map(ifTransitionFileUnits.fileUnits.map((fileUnit) => [fileUnit.naid, fileUnit]));
+const ifTransitionDocumentRecords = ifTransitionCandidates.documents.map((candidate) => {
+  const fileUnit = ifTransitionUnitByNaid.get(candidate.naid);
+  if (!fileUnit) throw new Error(`IF Transition candidate ${candidate.naid} is missing from the full file-unit ledger`);
+  const title = fileUnit.title.replaceAll(" - ", "—");
+  return {
+    id: `lead-${candidate.naid}`,
+    date: candidate.date,
+    sortDate: candidate.sortDate || candidate.date,
+    datePrecision: candidate.datePrecision || "day",
+    displayDateLabel: candidate.displayDateLabel || "",
+    title,
+    heading: `National Security Council Institutional Files Transition File: ${title}`,
+    dateline: candidate.displayDateLabel || formatDateline(candidate.date),
+    type: "NSC Institutional Files transition file",
+    chapter: fileUnit.chapter,
+    selection: candidate.selection,
+    releaseStatus: "Online file unit; item audit pending",
+    pageCount: candidate.pageCount,
+    extentLabel:
+      candidate.extentLabel || `${candidate.pageCount} PDF pages; document-level release and withdrawal audit pending`,
+    classification: "Mixed; document-level audit required",
+    naid: candidate.naid,
+    localId: fileUnit.localId.replaceAll("-", "–"),
+    catalogUrl: fileUnit.catalogUrl,
+    pdfUrl: fileUnit.pdfUrl,
+    sourceNoteStatus: "locator",
+    sourceNoteBasis:
+      "Opening provenance marker, full PDF, and withdrawal-sheet descriptions checked in the official NARA file; file-unit locator only pending document-level source-image review.",
+    sourceNote: undefined,
+    archivalLocator: fileUnit.archivalLocator,
+    topics: candidate.topics,
+    notes: candidate.notes,
+    collectionId: "if-transition",
+    provenanceMethod: "Opening PDF provenance marker, full-text review, and withdrawal sheets",
+  };
+}).sort((a, b) => a.sortDate.localeCompare(b.sortDate) || a.title.localeCompare(b.title));
+
 const supersededLeadIds = new Set(
   [
     ...nscMeetingsDocumentRecords,
@@ -1082,6 +1132,7 @@ const supersededLeadIds = new Set(
     ...nscDcFollowUpDocumentRecords,
     ...nsdDocumentRecords,
     ...nsrDocumentRecords,
+    ...ifTransitionDocumentRecords,
   ].map((record) => record.id),
 );
 const remainingLeadRecords = leadRecords.filter((record) => !supersededLeadIds.has(record.id));
@@ -1095,6 +1146,7 @@ const allRecords = [
   ...nscDcFollowUpDocumentRecords,
   ...nsdDocumentRecords,
   ...nsrDocumentRecords,
+  ...ifTransitionDocumentRecords,
   ...remainingLeadRecords,
 ]
   .map((record) => {
@@ -1108,6 +1160,25 @@ const data = {
   chapters,
   records: allRecords,
   nscCollections: [
+    {
+      id: "if-transition",
+      ...ifTransitionFileUnits.collection,
+      statusLabel: "H-Files Institutional Files transition series",
+      intro:
+        `${ifTransitionDocumentRecords.length} of the 30 NSC Institutional Files Transition file units are surfaced after complete PDF, OCR, opening-marker, withdrawal-sheet, and duplicate-copy review: 2 for direct Volume XXX review and 2 for boundary or compiler-context review. All 30 official PDFs and all 3,612 served-PDF pages remain visible in the ledger; month and season labels are preserved where the source supplies no day date.`,
+      provenanceTitle: "Opening PDF provenance markers and withdrawal sheets",
+      candidateLabel: "Transition files for review",
+      candidateTitle: "Volume XXX Transition File Chronology",
+      auditScope: ifTransitionCandidates.auditScope,
+      auditedFolders: ifTransitionCandidates.auditedFolders,
+      candidateCount: ifTransitionDocumentRecords.length,
+      candidateIds: ifTransitionDocumentRecords.map((record) => record.id),
+      fileUnits: ifTransitionFileUnits.fileUnits,
+      candidateMethodology: ifTransitionCandidates.methodology,
+      candidateCsvUrl: "data/if-transition-candidates.csv",
+      fileUnitsCsvUrl: "data/if-transition-file-units.csv",
+      reportUrl: "reports/if-transition-harvest.json",
+    },
     {
       id: "nsd",
       ...nsdFileUnits.collection,
@@ -1263,6 +1334,66 @@ fs.writeFileSync(path.join(dataDir, "public-references.csv"), toCsv(publicRefere
   "topics",
   "selection",
   "url",
+]));
+fs.writeFileSync(path.join(dataDir, "if-transition-candidates.csv"), toCsv(ifTransitionDocumentRecords, [
+  "id",
+  "date",
+  "displayDateLabel",
+  "datePrecision",
+  "title",
+  "heading",
+  "dateline",
+  "type",
+  "chapter",
+  "selection",
+  "releaseStatus",
+  "pageCount",
+  "extentLabel",
+  "classification",
+  "naid",
+  "localId",
+  "sourceNoteStatus",
+  "archivalLocator",
+  "notes",
+  "catalogUrl",
+  "pdfUrl",
+]));
+fs.writeFileSync(path.join(dataDir, "if-transition-file-units.csv"), toCsv(ifTransitionFileUnits.fileUnits.map(flattenFileUnit), [
+  "naid",
+  "workingStartDate",
+  "workingEndDate",
+  "workingDateLabel",
+  "dateBasis",
+  "title",
+  "localId",
+  "chapter",
+  "routing",
+  "reviewTopics",
+  "reviewFocus",
+  "reviewKeyExtent",
+  "markerStatus",
+  "hasOnlinePdf",
+  "pdfPages",
+  "pdfBytes",
+  "catalogPdfBytes",
+  "pdfByteBasis",
+  "accessStatus",
+  "memosToPresident",
+  "memosToScowcroft",
+  "memorandaOfConversation",
+  "meetingRecords",
+  "withdrawalSheets",
+  "economicSignalTotal",
+  "economySignals",
+  "financeSignals",
+  "tradeSignals",
+  "assistanceSanctionsSignals",
+  "energySignals",
+  "agricultureSignals",
+  "treasurySignals",
+  "archivalLocator",
+  "catalogUrl",
+  "pdfUrl",
 ]));
 fs.writeFileSync(path.join(dataDir, "nsd-candidates.csv"), toCsv(nsdDocumentRecords, [
   "id",
@@ -1593,7 +1724,7 @@ fs.writeFileSync(path.join(dataDir, "tim-deal-file-units.csv"), toCsv(timDealFil
 ]));
 
 console.log(
-  `Built ${allRecords.length} candidate records, ${nsdFileUnits.fileUnits.length} NSD file units, ${nsrFileUnits.fileUnits.length} NSR file units, ${nscDcFollowUpFileUnits.fileUnits.length} NSC/DC follow-up file units, ${nscDcMeetingsFileUnits.fileUnits.length} NSC/DC file units, ${nscMeetingsFileUnits.fileUnits.length} NSC Meeting file units, ${timDealFileUnits.fileUnits.length} Tim Deal file units, ${publicReferences.length} public references, and ${gaps.length} gap entries.`,
+  `Built ${allRecords.length} candidate records, ${ifTransitionFileUnits.fileUnits.length} IF Transition file units, ${nsdFileUnits.fileUnits.length} NSD file units, ${nsrFileUnits.fileUnits.length} NSR file units, ${nscDcFollowUpFileUnits.fileUnits.length} NSC/DC follow-up file units, ${nscDcMeetingsFileUnits.fileUnits.length} NSC/DC file units, ${nscMeetingsFileUnits.fileUnits.length} NSC Meeting file units, ${timDealFileUnits.fileUnits.length} Tim Deal file units, ${publicReferences.length} public references, and ${gaps.length} gap entries.`,
 );
 
 function toCsv(rows, fields) {

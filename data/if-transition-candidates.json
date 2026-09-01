@@ -1,0 +1,86 @@
+{
+  "auditScope": "Complete NSC Institutional Files Transition series inventory with economic-policy, provenance, withdrawal, and duplicate-copy screening",
+  "auditedFolders": [
+    "99015-003",
+    "99015-005",
+    "99015-001",
+    "99016-003"
+  ],
+  "methodology": "All 30 file units were enumerated from the complete official NARA Catalog hierarchy. Every official PDF, opening provenance marker, full NARA OCR transcript, and withdrawal-sheet description was screened across 3,612 served-PDF pages. The four entries below retain two direct Volume XXX review files and two boundary or compiler-context files. Overlapping copies in the Transition Background Materials and procedural manuals remain in the full ledger but are not promoted as separate candidates. Page counts were read from the served official PDFs with Poppler pdfinfo; they are file-unit extents, not document extents. Item extents and current release status are stated only where the source images and withdrawal sheets support them. These file-level records remain archival locators until each proposed document heading, dateline, terminal marking, and release status is checked in the source images.",
+  "documents": [
+    {
+      "naid": "470760857",
+      "date": "1988-11-01",
+      "sortDate": "1988-11-01",
+      "datePrecision": "month",
+      "displayDateLabel": "November 1988",
+      "pageCount": 53,
+      "extentLabel": "53 PDF pages; released copies of the 4-page Economic Summits paper and 2-page Toronto chronology are present; the master withdrawal sheet shows their former (b)(1) restrictions crossed out",
+      "selection": "Core",
+      "topics": [
+        "Paris Economic Summit",
+        "Sherpa process",
+        "Toronto Economic Summit",
+        "Transition planning"
+      ],
+      "notes": "Direct Volume XXX review. The transition briefing book contains a four-page paper on the Economic Summits, a two-page chronology of preparations for the 1988 Toronto Summit, and a transition calendar extending into July 1989. The paper recommends early decisions about organization and U.S. objectives for the Paris Summit and records State-Treasury friction in the Sherpa process. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470760859",
+      "date": "1988-11-01",
+      "sortDate": "1988-11-01",
+      "datePrecision": "month",
+      "displayDateLabel": "November 1988",
+      "pageCount": 28,
+      "extentLabel": "28 PDF pages; the released 6-page International Economic Affairs Directorate paper is present and its former (b)(1) entry is crossed out; a separate 5-page International Programs/Technology Affairs paper remains represented by a (b)(1) withdrawal sheet",
+      "selection": "Core",
+      "topics": [
+        "Uruguay Round",
+        "International debt",
+        "Paris Economic Summit",
+        "Trade Act of 1988",
+        "IMF",
+        "EC 1992",
+        "Japan",
+        "Technology and competitiveness"
+      ],
+      "notes": "Direct Volume XXX review. The six-page International Economic Affairs Directorate paper is a compact transition agenda for the incoming administration. It covers Paris Summit organization, Trade Act authorities, the Uruguay Round, Japan rice and semiconductors, Section 232 petitions, the EC meat-hormone dispute and 1992 single market, East-West credits, middle-income and African debt, IMF quotas, energy, and technology competitiveness. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470760855",
+      "date": "1988-11-09",
+      "sortDate": "1988-11-09",
+      "datePrecision": "day",
+      "displayDateLabel": "",
+      "pageCount": 82,
+      "extentLabel": "82 PDF pages; the released November 9 covering memorandum and directorate descriptions are present; two unrelated attachments totaling 11 pages remain identified on the withdrawal sheet",
+      "selection": "Boundary",
+      "topics": [
+        "NSC transition",
+        "International Economic Affairs Directorate",
+        "Interagency process"
+      ],
+      "notes": "Boundary review. The covering memorandum and briefing book define the outgoing NSC's international-economic portfolio, including trade, debt, multilateral development banks, energy, the Paris Summit, East-West economic relations, and technology-transfer responsibilities. Use this as institutional and authorship context; the more substantive policy-issues briefing in NAID 470760859 should normally control documentary selection. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470760866",
+      "date": "1989-01-06",
+      "sortDate": "1989-01-06",
+      "datePrecision": "day",
+      "displayDateLabel": "",
+      "pageCount": 141,
+      "extentLabel": "141 PDF pages; the released January 6 Farrar memorandum is 1 page; duplicate copies also appear in NAIDs 470760865 and 470760868 and are not separately promoted",
+      "selection": "Boundary",
+      "topics": [
+        "NSC transition",
+        "Retained files",
+        "Stephen Farrar",
+        "Paris Economic Summit",
+        "Debt",
+        "Trade",
+        "Western lending"
+      ],
+      "notes": "Boundary review. Stephen P. Farrar's one-page memorandum requests retention for Scowcroft's incoming staff of the International Economic Affairs Directorate files on agriculture, Brazil, budget, debt, the EC, energy, OECD, Panama, the Paris Summit, sanctions, the Soviet Union, trade, and Western lending to the Soviet bloc. It is primarily a compiler discovery and provenance lead, not a substitute for the retained substantive files. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    }
+  ]
+}
