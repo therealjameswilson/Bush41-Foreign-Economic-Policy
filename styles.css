@@ -431,6 +431,7 @@ footer {
 
 .records-root {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: 34px;
 }
 
@@ -684,6 +685,10 @@ footer {
   transition:
     border-color 160ms ease,
     box-shadow 160ms ease;
+}
+
+.record-body {
+  min-width: 0;
 }
 
 .record-row:hover {
@@ -1396,6 +1401,8 @@ h1 {
 }
 
 .withdrawal-ledger {
+  min-width: 0;
+  max-width: 100%;
   margin-top: 12px;
   padding: 12px 14px;
   background: #fff6f5;
@@ -1411,6 +1418,7 @@ h1 {
 
 .table-wrap {
   width: 100%;
+  max-width: 100%;
   margin-top: 12px;
   overflow-x: auto;
 }
@@ -2047,7 +2055,7 @@ th {
   }
 
   .record-row {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .subsection-heading {
