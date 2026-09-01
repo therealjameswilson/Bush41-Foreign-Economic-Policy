@@ -1,0 +1,575 @@
+{
+  "generatedAt": "2026-09-01T03:42:40.708Z",
+  "seriesNaId": "313189290",
+  "expectedFileUnits": 108,
+  "harvestedFileUnits": 108,
+  "onlinePdfCount": 106,
+  "catalogOnlyCount": 2,
+  "volumeReviewFileUnits": 11,
+  "boundaryReviewFileUnits": 22,
+  "volumeReviewNaids": [
+    "446396821",
+    "446396824",
+    "446396839",
+    "446396844",
+    "446396855",
+    "446396859",
+    "446396867",
+    "446396878",
+    "446396879",
+    "446396880",
+    "446396881"
+  ],
+  "boundaryReviewNaids": [
+    "446396813",
+    "446396815",
+    "446396818",
+    "446396819",
+    "446396820",
+    "446396832",
+    "446396833",
+    "446396836",
+    "446396843",
+    "446396845",
+    "446396847",
+    "446396848",
+    "446396849",
+    "446396850",
+    "446396852",
+    "446396853",
+    "446396854",
+    "446396866",
+    "446396882",
+    "446396904",
+    "446396909",
+    "446396910"
+  ],
+  "candidatePdfPages": 1946,
+  "volumeReviewPdfPages": 551,
+  "boundaryReviewPdfPages": 1395,
+  "economicSignalThreshold": 20,
+  "economicSignalFileUnits": 76,
+  "markerVerified": 106,
+  "markerCorrectedCount": 13,
+  "markerMismatchCount": 9,
+  "markerCorrections": [
+    {
+      "naid": "446396822",
+      "localId": "90003-013",
+      "title": "NSD-10 - May 07, 1989 - Creation of New Policy Coordinating Committees (File located @ LM)",
+      "markerChecks": {
+        "marker": true,
+        "recordGroup": true,
+        "office": true,
+        "series": true,
+        "subseries": true,
+        "folderId": false,
+        "markerFolderId": "90003-012",
+        "markerFolderIds": [
+          "90003-012"
+        ],
+        "catalogFolderId": "90003-013",
+        "handwrittenCorrection": "90003-012 crossed out; corrected by hand to 90003-013"
+      }
+    },
+    {
+      "naid": "446396821",
+      "localId": "90003-012",
+      "title": "NSD-9 - May 08, 1989 - Actions to Respond to Polish Roundtable Agreement",
+      "markerChecks": {
+        "marker": true,
+        "recordGroup": true,
+        "office": true,
+        "series": true,
+        "subseries": true,
+        "folderId": false,
+        "markerFolderId": "90003-011",
+        "markerFolderIds": [
+          "90003-011"
+        ],
+        "catalogFolderId": "90003-012",
+        "handwrittenCorrection": "90003-011 crossed out; corrected by hand to 90003-012"
+      }
+    },
+    {
+      "naid": "446396825",
+      "localId": "90003-016",
+      "title": "NSD-13 - June 07, 1989 - Cocaine Trafficking",
+      "markerChecks": {
+        "marker": true,
+        "recordGroup": true,
+        "office": true,
+        "series": true,
+        "subseries": true,
+        "folderId": false,
+        "markerFolderId": "",
+        "markerFolderIds": [],
+        "catalogFolderId": "90003-016",
+        "handwrittenCorrection": "Folder ID corrected by hand to 90003-016"
+      }
+    },
+    {
+      "naid": "446396826",
+      "localId": "90003-017",
+      "title": "NSD-13a - ..... - Classified Title (File located @ LM)",
+      "markerChecks": {
+        "marker": true,
+        "recordGroup": true,
+        "office": true,
+        "series": true,
+        "subseries": true,
+        "folderId": false,
+        "markerFolderId": "",
+        "markerFolderIds": [],
+        "catalogFolderId": "90003-017",
+        "handwrittenCorrection": "Folder ID corrected by hand to 90003-017"
+      }
+    },
+    {
+      "naid": "446396827",
+      "localId": "90003-018",
+      "title": "NSD-14 - June 14, 1989 - ICBM Modernization and Strategic Defense Initiative",
+      "markerChecks": {
+        "marker": true,
+        "recordGroup": true,
+        "office": true,
+        "series": true,
+        "subseries": true,
+        "folderId": false,
+        "markerFolderId": "",
+        "markerFolderIds": [],
+        "catalogFolderId": "90003-018",
+        "handwrittenCorrection": "Folder ID corrected by hand to 90003-018"
+      }
+    },
+    {
+      "naid": "446396829",
+      "localId": "90003-020",
+      "title": "NSD-15 - June 22, 1989 - Open Skies [2]",
+      "markerChecks": {
+        "marker": true,
+        "recordGroup": true,
+        "office": true,
+        "series": true,
+        "subseries": true,
+        "folderId": true,
+        "markerFolderId": "90003-020",
+        "markerFolderIds": [
+          "90003-020"
+        ],
+        "catalogFolderId": "90003-020",
+        "handwrittenCorrection": "Folder ID corrected by hand to 90003-020"
+      }
+    },
+    {
+      "naid": "446396833",
+      "localId": "90003-024",
+      "title": "NSD-18a - August 23, 1989 - Annex to NSD-18 Regarding International Counternarcotics Strategy (File located @ LM)",
+      "markerChecks": {
+        "marker": true,
+        "recordGroup": true,
+        "office": true,
+        "series": true,
+        "subseries": true,
+        "folderId": false,
+        "markerFolderId": "",
+        "markerFolderIds": [],
+        "catalogFolderId": "90003-024",
+        "handwrittenCorrection": "Folder ID corrected by hand to 90003-024"
+      }
+    },
+    {
+      "naid": "446396835",
+      "localId": "90003-026",
+      "title": "NSD-19a - ..... - Classified Title (File located @ LM)",
+      "markerChecks": {
+        "marker": true,
+        "recordGroup": true,
+        "office": true,
+        "series": true,
+        "subseries": true,
+        "folderId": false,
+        "markerFolderId": "",
+        "markerFolderIds": [],
+        "catalogFolderId": "90003-026",
+        "handwrittenCorrection": "Folder ID corrected by hand to 90003-026"
+      }
+    },
+    {
+      "naid": "446396836",
+      "localId": "90003-027",
+      "title": "NSD-20 - August 29, 1989 - U.S. Policy toward South Asia",
+      "markerChecks": {
+        "marker": true,
+        "recordGroup": true,
+        "office": true,
+        "series": true,
+        "subseries": true,
+        "folderId": false,
+        "markerFolderId": "",
+        "markerFolderIds": [],
+        "catalogFolderId": "90003-027",
+        "handwrittenCorrection": "Folder ID corrected by hand to 90003-027"
+      }
+    },
+    {
+      "naid": "446396838",
+      "localId": "90003-029",
+      "title": "NSD-22 - September 20, 1989 - U.S. Policy on Nuclear Testing and Arms Control",
+      "markerChecks": {
+        "marker": true,
+        "recordGroup": true,
+        "office": true,
+        "series": true,
+        "subseries": true,
+        "folderId": false,
+        "markerFolderId": "",
+        "markerFolderIds": [],
+        "catalogFolderId": "90003-029",
+        "handwrittenCorrection": "Folder ID corrected by hand to 90003-029"
+      }
+    },
+    {
+      "naid": "446396839",
+      "localId": "90003-030",
+      "title": "NSD-23 - September 22, 1989 - U.S. Relations with the Soviet Union",
+      "markerChecks": {
+        "marker": true,
+        "recordGroup": true,
+        "office": true,
+        "series": true,
+        "subseries": true,
+        "folderId": false,
+        "markerFolderId": "",
+        "markerFolderIds": [],
+        "catalogFolderId": "90003-030",
+        "handwrittenCorrection": "Folder ID corrected by hand to 90003-030"
+      }
+    },
+    {
+      "naid": "446396840",
+      "localId": "90003-031",
+      "title": "NSD-24 - September 26, 1989 - Chemical Weapons Arms Control Initiative",
+      "markerChecks": {
+        "marker": true,
+        "recordGroup": true,
+        "office": true,
+        "series": true,
+        "subseries": true,
+        "folderId": false,
+        "markerFolderId": "",
+        "markerFolderIds": [],
+        "catalogFolderId": "90003-031",
+        "handwrittenCorrection": "Folder ID corrected by hand to 90003-031"
+      }
+    },
+    {
+      "naid": "446396882",
+      "localId": "90004-036",
+      "title": "NSD-54 - January 15, 1991 - Responding to Iraqi Aggression in the Gulf",
+      "markerChecks": {
+        "marker": true,
+        "recordGroup": true,
+        "office": true,
+        "series": true,
+        "subseries": true,
+        "folderId": false,
+        "markerFolderId": "90004-026",
+        "markerFolderIds": [
+          "90004-026"
+        ],
+        "catalogFolderId": "90004-036",
+        "handwrittenCorrection": "90004-026 crossed out; corrected by hand to 90004-036"
+      }
+    }
+  ],
+  "markerCatalogMismatches": [
+    {
+      "naid": "446396830",
+      "localId": "90003-021",
+      "title": "NSD-16 - July 08, 1989 - Middle East Peace Process",
+      "markerChecks": {
+        "marker": true,
+        "recordGroup": true,
+        "office": true,
+        "series": true,
+        "subseries": true,
+        "folderId": false,
+        "markerFolderId": "90003-019",
+        "markerFolderIds": [
+          "90003-019"
+        ],
+        "catalogFolderId": "90003-021",
+        "catalogMismatch": "90003-019 on the marker; 90003-021 in the Catalog and digital-object path"
+      }
+    },
+    {
+      "naid": "446396834",
+      "localId": "90003-025",
+      "title": "NSD-19 - August 24, 1989 - U.S. Policy toward Libya",
+      "markerChecks": {
+        "marker": true,
+        "recordGroup": true,
+        "office": true,
+        "series": true,
+        "subseries": true,
+        "folderId": false,
+        "markerFolderId": "90003-023",
+        "markerFolderIds": [
+          "90003-023"
+        ],
+        "catalogFolderId": "90003-025",
+        "catalogMismatch": "90003-023 on the marker; 90003-025 in the Catalog and digital-object path"
+      }
+    },
+    {
+      "naid": "446396837",
+      "localId": "90003-028",
+      "title": "NSD-21 - September 01, 1989 - U.S. Policy toward Panama under Noriega after 1 September 1989",
+      "markerChecks": {
+        "marker": true,
+        "recordGroup": true,
+        "office": true,
+        "series": true,
+        "subseries": true,
+        "folderId": false,
+        "markerFolderId": "90003-026",
+        "markerFolderIds": [
+          "90003-026"
+        ],
+        "catalogFolderId": "90003-028",
+        "catalogMismatch": "90003-026 on the marker; 90003-028 in the Catalog and digital-object path"
+      }
+    },
+    {
+      "naid": "446396841",
+      "localId": "90003-032",
+      "title": "NSD-25 - September 11, 1989 - U.S. Policy toward February 1990 Nicaraguan Election",
+      "markerChecks": {
+        "marker": true,
+        "recordGroup": true,
+        "office": true,
+        "series": true,
+        "subseries": true,
+        "folderId": false,
+        "markerFolderId": "90003-030",
+        "markerFolderIds": [
+          "90003-030"
+        ],
+        "catalogFolderId": "90003-032",
+        "catalogMismatch": "90003-030 on the marker; 90003-032 in the Catalog and digital-object path"
+      }
+    },
+    {
+      "naid": "446396842",
+      "localId": "90003-033",
+      "title": "NSD-25a - ..... - Classified Title",
+      "markerChecks": {
+        "marker": true,
+        "recordGroup": true,
+        "office": true,
+        "series": true,
+        "subseries": true,
+        "folderId": false,
+        "markerFolderId": "90003-031",
+        "markerFolderIds": [
+          "90003-031"
+        ],
+        "catalogFolderId": "90003-033",
+        "catalogMismatch": "90003-031 on the marker; 90003-033 in the Catalog and digital-object path"
+      }
+    },
+    {
+      "naid": "446396843",
+      "localId": "90003-034",
+      "title": "NSD-26 - October 02, 1989 - U.S. Policy toward the Persian Gulf",
+      "markerChecks": {
+        "marker": true,
+        "recordGroup": true,
+        "office": true,
+        "series": true,
+        "subseries": true,
+        "folderId": false,
+        "markerFolderId": "90003-032",
+        "markerFolderIds": [
+          "90003-032"
+        ],
+        "catalogFolderId": "90003-034",
+        "catalogMismatch": "90003-032 on the marker; 90003-034 in the Catalog and digital-object path"
+      }
+    },
+    {
+      "naid": "446396852",
+      "localId": "90004-006",
+      "title": "NSD-32 - November 30, 1989 - Economic Sanctions against Panama",
+      "markerChecks": {
+        "marker": true,
+        "recordGroup": true,
+        "office": true,
+        "series": true,
+        "subseries": true,
+        "folderId": false,
+        "markerFolderId": "90004-004",
+        "markerFolderIds": [
+          "90004-004"
+        ],
+        "catalogFolderId": "90004-006",
+        "catalogMismatch": "90004-004 on the marker; 90004-006 in the Catalog and digital-object path"
+      }
+    },
+    {
+      "naid": "446396853",
+      "localId": "90004-007",
+      "title": "NSD-33 - January 24, 1990 - U.S. Policy toward Panama: Post-Noriega",
+      "markerChecks": {
+        "marker": true,
+        "recordGroup": true,
+        "office": true,
+        "series": true,
+        "subseries": true,
+        "folderId": false,
+        "markerFolderId": "90004-005",
+        "markerFolderIds": [
+          "90004-005"
+        ],
+        "catalogFolderId": "90004-007",
+        "catalogMismatch": "90004-005 on the marker; 90004-007 in the Catalog and digital-object path"
+      }
+    },
+    {
+      "naid": "446396854",
+      "localId": "90004-008",
+      "title": "NSD-34 - January 24, 1990 - Partnership with Panama: Action Plan to Foster Economic Recovery",
+      "markerChecks": {
+        "marker": true,
+        "recordGroup": true,
+        "office": true,
+        "series": true,
+        "subseries": true,
+        "folderId": false,
+        "markerFolderId": "90004-006",
+        "markerFolderIds": [
+          "90004-006"
+        ],
+        "catalogFolderId": "90004-008",
+        "catalogMismatch": "90004-006 on the marker; 90004-008 in the Catalog and digital-object path"
+      }
+    }
+  ],
+  "markerExceptions": [
+    {
+      "naid": "446396828",
+      "localId": "90003-019",
+      "title": "NSD-15 - June 22, 1989 - Open Skies [1]",
+      "hasOnlinePdf": false,
+      "markerStatus": "not online",
+      "markerChecks": {}
+    },
+    {
+      "naid": "446396850",
+      "localId": "90004-004",
+      "title": "NSD-30a - November 02, 1989 - Annex to NSD-30 and National Space Policy Directive 1 (File Located @ LM) [2]",
+      "hasOnlinePdf": false,
+      "markerStatus": "not online",
+      "markerChecks": {}
+    }
+  ],
+  "totalPdfBytes": 1225377435,
+  "totalPdfPages": 5243,
+  "auditedPageCountRows": 106,
+  "pdfSizeMetadataMismatches": [
+    {
+      "naid": "446396827",
+      "catalogPdfBytes": 21020124,
+      "servedPdfBytes": 21020125
+    },
+    {
+      "naid": "446396829",
+      "catalogPdfBytes": 20926148,
+      "servedPdfBytes": 20926147
+    },
+    {
+      "naid": "446396839",
+      "catalogPdfBytes": 18396228,
+      "servedPdfBytes": 18396227
+    },
+    {
+      "naid": "446396843",
+      "catalogPdfBytes": 22822632,
+      "servedPdfBytes": 22822631
+    },
+    {
+      "naid": "446396844",
+      "catalogPdfBytes": 18273496,
+      "servedPdfBytes": 18273497
+    },
+    {
+      "naid": "446396847",
+      "catalogPdfBytes": 18240560,
+      "servedPdfBytes": 18240559
+    },
+    {
+      "naid": "446396861",
+      "catalogPdfBytes": 18017992,
+      "servedPdfBytes": 18017993
+    },
+    {
+      "naid": "446396878",
+      "catalogPdfBytes": 25722924,
+      "servedPdfBytes": 25722923
+    },
+    {
+      "naid": "446396881",
+      "catalogPdfBytes": 34893944,
+      "servedPdfBytes": 34893945
+    },
+    {
+      "naid": "446396882",
+      "catalogPdfBytes": 17183336,
+      "servedPdfBytes": 17183335
+    },
+    {
+      "naid": "446396885",
+      "catalogPdfBytes": 32983252,
+      "servedPdfBytes": 32983251
+    },
+    {
+      "naid": "446396886",
+      "catalogPdfBytes": 26132756,
+      "servedPdfBytes": 26132757
+    },
+    {
+      "naid": "446396887",
+      "catalogPdfBytes": 19821848,
+      "servedPdfBytes": 19821847
+    },
+    {
+      "naid": "446396888",
+      "catalogPdfBytes": 16807288,
+      "servedPdfBytes": 16807289
+    },
+    {
+      "naid": "446396889",
+      "catalogPdfBytes": 39237040,
+      "servedPdfBytes": 39237041
+    },
+    {
+      "naid": "446396899",
+      "catalogPdfBytes": 18553344,
+      "servedPdfBytes": 18553343
+    }
+  ],
+  "totalOcrCharacters": 6979089,
+  "documentedDateOverrideNaids": [
+    "446396823",
+    "446396826",
+    "446396835",
+    "446396842",
+    "446396903",
+    "446396915",
+    "446396917"
+  ],
+  "titleDateFallbackNaids": [],
+  "duplicateNaids": [],
+  "duplicateLocalIds": []
+}

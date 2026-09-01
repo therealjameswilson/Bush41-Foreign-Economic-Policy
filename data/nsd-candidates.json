@@ -1,0 +1,536 @@
+{
+  "auditScope": "Complete National Security Directives series inventory with economic-policy and withdrawal-sheet screening",
+  "auditedFolders": [
+    "90003-004",
+    "90003-006",
+    "90003-009",
+    "90003-010",
+    "90003-012",
+    "90003-011",
+    "90003-015",
+    "90003-023",
+    "90003-024",
+    "90003-027",
+    "90003-030",
+    "90003-034",
+    "90003-035",
+    "90003-036",
+    "90004-001",
+    "90004-002",
+    "90004-003",
+    "90004-004",
+    "90004-006",
+    "90004-007",
+    "90004-008",
+    "90004-009",
+    "90004-013",
+    "90004-020",
+    "90004-021",
+    "90004-032",
+    "90004-033",
+    "90004-034",
+    "90004-035",
+    "90004-036",
+    "90005-020",
+    "90005-025",
+    "90005-026"
+  ],
+  "methodology": "All 108 file units were enumerated from the complete official NARA Catalog hierarchy. All 106 online PDFs, opening provenance markers, full NARA OCR transcripts, and withdrawal-sheet descriptions were screened; two Catalog file units have no online PDF. The 33 entries below were selected for direct Volume XXX review or cross-volume adjudication because the folder exposes trade, finance, assistance, sanctions, energy, technology-transfer, export-control, investment, or related economic-policy evidence. Page counts were read from the served official PDFs with Poppler pdfinfo; they are file-unit extents, not document extents, and the Catalog-only NSD-30a folder carries no asserted page count. Where a withdrawal sheet states the extent of unavailable directives, memoranda, studies, or reports, that evidence is reported separately. These records remain archival locators until individual document headings, datelines, terminal markings, and release or withdrawal status are checked in the source images.",
+  "documents": [
+    {
+      "naid": "446396813",
+      "date": "1989-02-13",
+      "sortDate": "1989-02-13",
+      "pageCount": 52,
+      "extentLabel": "52 PDF pages; the released directive addresses humanitarian assistance, reconstruction, and the transfer of funds to AID",
+      "selection": "Boundary",
+      "topics": [
+        "NSD-3",
+        "Afghanistan",
+        "Reconstruction",
+        "AID"
+      ],
+      "notes": "Boundary review. The signed Afghanistan directive calls for AID-supervised humanitarian programs, reconstruction and recovery, refugee return, and priority preparation to transfer funds for relief. Route the principal regional and security record against the South Asia volume while retaining the assistance and reconstruction decisions for Volume XXX adjudication. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446396815",
+      "date": "1989-03-18",
+      "sortDate": "1989-03-18",
+      "pageCount": 43,
+      "extentLabel": "43 PDF pages; the file includes the signed directive and implementation memoranda",
+      "selection": "Boundary",
+      "topics": [
+        "NSD-5",
+        "Afghanistan",
+        "Humanitarian assistance",
+        "Foreign assistance"
+      ],
+      "notes": "Boundary review. The file documents presidential authorization to move funds to AID for humanitarian assistance to Afghanistan. Route the principal regional and humanitarian record against the South Asia volume while retaining the budget and assistance mechanism for Volume XXX adjudication. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446396818",
+      "date": "1989-05-01",
+      "sortDate": "1989-05-01",
+      "pageCount": 6,
+      "extentLabel": "6 PDF pages; the released signed directive is available in this first folder",
+      "selection": "Boundary",
+      "topics": [
+        "NSD-8",
+        "Nicaragua",
+        "Economic incentives",
+        "Sanctions"
+      ],
+      "notes": "Boundary review. The released directive makes trade, economic development, incentives, and sanctions part of the Nicaragua strategy. Route the regional policy record against the Latin America volume and retain the economic instruments for cross-volume review. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446396819",
+      "date": "1989-05-01",
+      "sortDate": "1989-05-01",
+      "pageCount": 51,
+      "extentLabel": "51 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "NSD-8",
+        "Nicaragua",
+        "Economic incentives",
+        "Sanctions"
+      ],
+      "notes": "Boundary review. This companion folder carries supporting and draft material for the Nicaragua directive. Compare it with the released signed copy in NAID 446396818 and retain only distinct economic-policy analysis or annotations. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446396821",
+      "date": "1989-05-08",
+      "sortDate": "1989-05-08",
+      "pageCount": 26,
+      "extentLabel": "26 PDF pages; the opening marker carries a handwritten correction to OA/ID 90003-012",
+      "selection": "Core",
+      "topics": [
+        "NSD-9",
+        "Poland",
+        "Economic assistance",
+        "Transition economy"
+      ],
+      "notes": "Direct Volume XXX review. The directive and supporting material address the U.S. economic response to the Polish Roundtable Agreement. Screen assistance, debt, trade, and reform measures with the Poland and transition-economy records already in the chronology. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446396820",
+      "date": "1989-05-11",
+      "sortDate": "1989-05-11",
+      "pageCount": 22,
+      "extentLabel": "22 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "NSD-8a",
+        "Nicaragua",
+        "Trade sanctions",
+        "Economic assistance"
+      ],
+      "notes": "Boundary review. The sensitive annex and associated directive material repeat and implement the trade, economic-development, sanctions, and OECD-assistance provisions of NSD-8. Compare it with NAIDs 446396818 and 446396819 and retain only distinct annex text, annotations, or distribution evidence. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446396824",
+      "date": "1989-06-06",
+      "sortDate": "1989-06-06",
+      "pageCount": 20,
+      "extentLabel": "20 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "NSD-12",
+        "No-Exceptions Policy",
+        "Export controls",
+        "Technology transfer"
+      ],
+      "notes": "Direct Volume XXX review. The directive lifts the no-exceptions licensing policy and is a direct presidential record of strategic-trade policy. Compare implementing copies with later COCOM and NSD-53 files before item-level promotion. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446396832",
+      "date": "1989-08-21",
+      "sortDate": "1989-08-21",
+      "pageCount": 160,
+      "extentLabel": "160 PDF pages; the marker Folder ID differs from the Catalog OA/ID and is preserved in the ledger",
+      "selection": "Boundary",
+      "topics": [
+        "NSD-18",
+        "Counternarcotics",
+        "Andean assistance",
+        "Program resources"
+      ],
+      "notes": "Boundary review. The international counternarcotics strategy sets Andean budgets, conditions economic assistance, seeks allied support, and calls for country economic-policy reviews. Route the principal policy record against the counternarcotics and regional volumes while retaining distinct aid and resource decisions. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446396833",
+      "date": "1989-08-23",
+      "sortDate": "1989-08-23",
+      "pageCount": 59,
+      "extentLabel": "59 PDF pages; the opening marker carries a handwritten correction to OA/ID 90003-024",
+      "selection": "Boundary",
+      "topics": [
+        "NSD-18a",
+        "Counternarcotics",
+        "Andean assistance",
+        "Budget"
+      ],
+      "notes": "Boundary review. The annex implements the international counternarcotics strategy and its assistance and resource provisions. Review it with NSD-18 and deduplicate parallel policy text. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446396836",
+      "date": "1989-08-29",
+      "sortDate": "1989-08-29",
+      "pageCount": 45,
+      "extentLabel": "45 PDF pages; the opening marker carries a handwritten correction to OA/ID 90003-027",
+      "selection": "Boundary",
+      "topics": [
+        "NSD-20",
+        "South Asia",
+        "Trade",
+        "Multilateral lending"
+      ],
+      "notes": "Boundary review. The signed South Asia directive addresses assistance and reform in Pakistan and trade, sales, investment, multilateral-bank lending, and dual-use technology in relations with India. Route the regional policy record against the South Asia volume while preserving distinct foreign-economic decisions. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446396839",
+      "date": "1989-09-22",
+      "sortDate": "1989-09-22",
+      "pageCount": 67,
+      "extentLabel": "67 PDF pages; the folder includes an 8-page paper on U.S.-Soviet economic relations and a handwritten OA/ID correction",
+      "selection": "Core",
+      "topics": [
+        "NSD-23",
+        "Soviet Union",
+        "Economic relations",
+        "Long-term strategy"
+      ],
+      "notes": "Direct Volume XXX review. The Soviet-relations directive and supporting papers treat economic change and bilateral economic relations as strategic questions. Compare the discrete economic-relations paper with NSR-3, NSC meeting, and transition-economy copies before promotion. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446396843",
+      "date": "1989-10-02",
+      "sortDate": "1989-10-02",
+      "pageCount": 119,
+      "extentLabel": "119 PDF pages; the marker Folder ID differs from the Catalog OA/ID and is preserved in the ledger",
+      "selection": "Boundary",
+      "topics": [
+        "NSD-26",
+        "Persian Gulf",
+        "Oil security",
+        "Sanctions"
+      ],
+      "notes": "Boundary review. The Persian Gulf directive addresses access to oil, economic incentives and sanctions toward Iraq, reconstruction, and energy opportunities. Route the principal regional decision against the Gulf volume while retaining distinct trade, energy, and sanctions records. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446396844",
+      "date": "1989-10-02",
+      "sortDate": "1989-10-02",
+      "pageCount": 84,
+      "extentLabel": "84 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "NSD-27",
+        "Soviet emigration",
+        "Trade leverage",
+        "Jackson-Vanik"
+      ],
+      "notes": "Direct Volume XXX review. The file links Soviet emigration policy to trade leverage and normalization of economic relations. Screen the presidential decision and implementing memoranda with related Soviet trade and transition-economy records. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446396845",
+      "date": "1989-10-05",
+      "sortDate": "1989-10-05",
+      "pageCount": 131,
+      "extentLabel": "131 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "NSD-28",
+        "Sealift",
+        "Commercial carriers",
+        "Maritime trade"
+      ],
+      "notes": "Boundary review. The sealift directive addresses U.S.-flag commercial carriers, essential economic requirements, maritime competitiveness, and international agreements. Route defense-mobility material outside the volume while retaining commercial-shipping and trade-policy decisions. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446396847",
+      "date": "1989-11-02",
+      "sortDate": "1989-11-02",
+      "pageCount": 101,
+      "extentLabel": "101 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "NSD-30",
+        "Commercial space",
+        "Fair trade",
+        "Technology transfer"
+      ],
+      "notes": "Boundary review. The national space policy includes private investment, fair trade, USTR negotiations, export controls, and technology transfer. Route the principal space-policy record against the appropriate security volume while retaining distinct commercial and strategic-trade decisions. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446396848",
+      "date": "1989-11-02",
+      "sortDate": "1989-11-02",
+      "pageCount": 49,
+      "extentLabel": "49 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "NSD-30",
+        "Commercial space",
+        "Investment",
+        "Export controls"
+      ],
+      "notes": "Boundary review. This companion folder contains supporting and draft space-policy material. Compare it with NAID 446396847 and retain only distinct commercial, investment, export-control, or trade-negotiation records. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446396849",
+      "date": "1989-11-02",
+      "sortDate": "1989-11-02",
+      "pageCount": 89,
+      "extentLabel": "89 PDF pages; the online file contains the commercial-space and technology-transfer annex text",
+      "selection": "Boundary",
+      "topics": [
+        "NSD-30a",
+        "Commercial space",
+        "Fair trade",
+        "Technology transfer"
+      ],
+      "notes": "Boundary review. The online annex file contains extensive policy on commercial remote sensing and launch services, private investment, subsidies, fair trade, intellectual property, and technology transfer. Compare it with both NSD-30 folders and retain distinct annex language and implementation records. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446396850",
+      "date": "1989-11-02",
+      "sortDate": "1989-11-02",
+      "pageCount": 0,
+      "extentLabel": "Catalog-only file unit; no online PDF or served page extent is available",
+      "selection": "Boundary",
+      "topics": [
+        "NSD-30a",
+        "Commercial space",
+        "Annex",
+        "Catalog-only"
+      ],
+      "notes": "Boundary review. The Catalog identifies this as the second NSD-30a annex file, but supplies no online PDF. Keep it as a declassification and archival-retrieval target, and compare it with NAID 446396849 before treating the two folders as distinct documentary evidence. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446396852",
+      "date": "1989-11-30",
+      "sortDate": "1989-11-30",
+      "pageCount": 53,
+      "extentLabel": "53 PDF pages; the marker Folder ID is 90004-004; the Catalog and digital-object path use OA/ID 90004-006",
+      "selection": "Boundary",
+      "topics": [
+        "NSD-32",
+        "Panama",
+        "Economic sanctions",
+        "Financial controls"
+      ],
+      "notes": "Boundary review. The directive is a direct presidential record on economic sanctions against Panama. Route the principal regional policy record against the Latin America volume and retain sanctions design and implementation for Volume XXX review. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446396853",
+      "date": "1990-01-24",
+      "sortDate": "1990-01-24",
+      "pageCount": 46,
+      "extentLabel": "46 PDF pages; the marker Folder ID is 90004-005; the Catalog and digital-object path use OA/ID 90004-007",
+      "selection": "Boundary",
+      "topics": [
+        "NSD-33",
+        "Panama",
+        "Post-Noriega policy",
+        "Economic recovery"
+      ],
+      "notes": "Boundary review. The post-Noriega policy file bridges sanctions termination, assistance, and economic recovery. Review it with NSD-32 and NSD-34, routing the principal regional decision against the Latin America volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446396854",
+      "date": "1990-01-24",
+      "sortDate": "1990-01-24",
+      "pageCount": 50,
+      "extentLabel": "50 PDF pages; the marker Folder ID is 90004-006; the Catalog and digital-object path use OA/ID 90004-008",
+      "selection": "Boundary",
+      "topics": [
+        "NSD-34",
+        "Panama",
+        "Economic recovery",
+        "Foreign assistance"
+      ],
+      "notes": "Boundary review. The action plan for Panamanian economic recovery is a direct assistance and reconstruction lead. Route the principal country-policy record against the Latin America volume while retaining financing and interagency implementation decisions. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446396855",
+      "date": "1990-01-24",
+      "sortDate": "1990-01-24",
+      "pageCount": 39,
+      "extentLabel": "39 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "NSD-35",
+        "Soviet Union",
+        "Economic initiatives",
+        "Bilateral relations"
+      ],
+      "notes": "Direct Volume XXX review. The file records presidential direction on U.S.-Soviet economic initiatives. Compare released and withheld items with NSR-3, NSD-23, summit, and bilateral economic files before item-level promotion. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446396859",
+      "date": "1990-05-01",
+      "sortDate": "1990-05-01",
+      "pageCount": 39,
+      "extentLabel": "39 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "NSD-39",
+        "COCOM",
+        "Eastern Europe",
+        "Soviet Union"
+      ],
+      "notes": "Direct Volume XXX review. This is a direct presidential strategic-trade file on COCOM policy toward Eastern Europe and the Soviet Union. Compare drafts and distribution copies with NSR-22 and retain the signed directive and distinct implementing memoranda. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446396866",
+      "date": "1990-08-20",
+      "sortDate": "1990-08-20",
+      "pageCount": 54,
+      "extentLabel": "54 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "NSD-45",
+        "Iraq",
+        "Kuwait",
+        "Economic sanctions"
+      ],
+      "notes": "Boundary review. The response to Iraq's invasion of Kuwait relies centrally on sanctions, oil policy, and allied economic coordination. Route the principal war and regional policy record against the Gulf volume while retaining distinct economic instruments. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446396867",
+      "date": "1990-09-07",
+      "sortDate": "1990-09-07",
+      "pageCount": 64,
+      "extentLabel": "64 PDF pages; withdrawal sheets identify a 2-page signed NSD, a 4-page Soviet launch-vehicle export report, and a 4-page commercial-impact paper",
+      "selection": "Core",
+      "topics": [
+        "NSD-46",
+        "Cape York",
+        "Soviet launch vehicles",
+        "Export restrictions"
+      ],
+      "notes": "Direct Volume XXX review. The Cape York file directly addresses restrictions on Soviet launch-vehicle exports and the commercial consequences of the decision. Review the signed directive, export-control report, and commercial-impact paper as separate documentary candidates. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446396878",
+      "date": "1990-12-10",
+      "sortDate": "1990-12-10",
+      "pageCount": 62,
+      "extentLabel": "62 PDF pages; the released signed directive is available in this first folder",
+      "selection": "Core",
+      "topics": [
+        "NSD-53",
+        "Export licensing",
+        "Commerce Department",
+        "Competitiveness"
+      ],
+      "notes": "Direct Volume XXX review. The released signed directive frames export-license review in terms of exporter competitiveness and an open international trading system, then establishes a uniform interagency process. Treat this as the principal NSD-53 policy file and compare later folders for distinct implementation records. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446396879",
+      "date": "1990-12-10",
+      "sortDate": "1990-12-10",
+      "pageCount": 15,
+      "extentLabel": "15 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "NSD-53",
+        "Export licensing",
+        "Implementation",
+        "Interagency review"
+      ],
+      "notes": "Direct Volume XXX review. This companion folder documents administrative guidance and later implementation of NSD-53. Deduplicate the directive text from NAID 446396878 and retain distinct procedural decisions or annotations. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446396880",
+      "date": "1990-12-10",
+      "sortDate": "1990-12-10",
+      "pageCount": 52,
+      "extentLabel": "52 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "NSD-53",
+        "Export licensing",
+        "Iran",
+        "Case review"
+      ],
+      "notes": "Direct Volume XXX review. This NSD-53 file applies the interagency licensing procedure to an Iran export-control case. Review the case record for a documentary example of strategic-trade adjudication, while separating any repeated policy text. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446396881",
+      "date": "1990-12-10",
+      "sortDate": "1990-12-10",
+      "pageCount": 83,
+      "extentLabel": "83 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "NSD-53",
+        "Export licensing",
+        "Israel",
+        "Computers"
+      ],
+      "notes": "Direct Volume XXX review. This NSD-53 file contains export-license cases including computer-related exports to Israel. Review each case separately and retain only items that illuminate policy, presidential or senior-level decisions, or interagency procedure. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446396882",
+      "date": "1991-01-15",
+      "sortDate": "1991-01-15",
+      "pageCount": 39,
+      "extentLabel": "39 PDF pages; the opening marker carries a handwritten correction to OA/ID 90004-036",
+      "selection": "Boundary",
+      "topics": [
+        "NSD-54",
+        "Iraq",
+        "Persian Gulf",
+        "Sanctions"
+      ],
+      "notes": "Boundary review. The directive responding to Iraqi aggression carries sanctions, oil, and economic-coordination evidence. Route the principal military and regional decision against the Gulf volume while retaining distinct economic-policy passages. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446396904",
+      "date": "1992-07-10",
+      "sortDate": "1992-07-10",
+      "pageCount": 101,
+      "extentLabel": "101 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "NSD-70",
+        "Nonproliferation",
+        "Export controls",
+        "Supplier regimes"
+      ],
+      "notes": "Boundary review. The nonproliferation directive includes export-control and supplier-regime policy. Route the principal security record against the arms-control volumes while retaining distinct strategic-trade decisions and implementation mechanisms. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446396909",
+      "date": "1992-11-24",
+      "sortDate": "1992-11-24",
+      "pageCount": 68,
+      "extentLabel": "68 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "NSD-74",
+        "Peacekeeping",
+        "Humanitarian relief",
+        "Program resources"
+      ],
+      "notes": "Boundary review. The peacekeeping and humanitarian-relief policy bears on financing, assistance authorities, and international burden sharing. Route the principal policy record outside Volume XXX while retaining discrete resource and institutional decisions for adjudication. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "446396910",
+      "date": "1992-12-23",
+      "sortDate": "1992-12-23",
+      "pageCount": 57,
+      "extentLabel": "57 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "NSD-75",
+        "Africa",
+        "Debt",
+        "International financial institutions"
+      ],
+      "notes": "Boundary review. The Africa directive directly addresses trade and investment, the Uruguay Round and GSP, debt and Paris Club policy, international financial institutions, aid, and structural reform. Route the regional strategy against the Africa volume while preserving distinct foreign-economic sections for Volume XXX review. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    }
+  ]
+}

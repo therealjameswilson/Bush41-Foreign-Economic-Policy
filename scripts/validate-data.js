@@ -102,6 +102,79 @@ if (!nscMeetings) {
   if (sortedCandidates.some((record, index) => record.id !== candidateRecords[index].id)) errors.push("NSC Meetings candidates are not stored in chronological order");
 }
 
+const nsd = data.nscCollections?.find((collection) => collection.id === "nsd");
+if (!nsd) {
+  errors.push("National Security Directive collection is missing");
+} else {
+  if (nsd.fileUnits.length !== 108 || nsd.fileUnitCount !== 108) errors.push("NSD file-unit count is not 108");
+  if (nsd.onlinePdfCount !== 106 || nsd.catalogOnlyCount !== 2) errors.push("NSD online/catalog-only totals changed");
+  if (nsd.totalPdfPages !== 5243) errors.push("NSD served-PDF page total is not 5,243");
+  if (nsd.markerVerified !== 106 || nsd.markerCorrectedCount !== 13 || nsd.markerMismatchCount !== 9 || nsd.markerExceptionCount !== 2) {
+    errors.push("NSD provenance-marker totals changed");
+  }
+  if (nsd.candidateCount !== 33 || nsd.candidateIds.length !== 33) errors.push("NSD review-candidate count is not 33");
+  if (nsd.auditedFolders.length !== 33) errors.push("NSD screened-folder count is not 33");
+  if (nsd.fileUnits.some((row) => !Number.isInteger(row.economicSignals?.total))) errors.push("NSD ledger lacks economic OCR signals");
+  if (new Set(nsd.fileUnits.map((row) => row.naid)).size !== nsd.fileUnits.length) errors.push("Duplicate NSD NAID");
+  if (new Set(nsd.fileUnits.map((row) => row.localId)).size !== nsd.fileUnits.length) errors.push("Duplicate NSD OA/ID");
+  if (nsd.fileUnits.some((row) => !row.catalogUrl.startsWith("https://catalog.archives.gov/id/") || (row.hasOnlinePdf && !row.pdfUrl.startsWith("https://catalog.archives.gov/medialz/")) || (!row.hasOnlinePdf && row.pdfUrl))) {
+    errors.push("NSD ledger contains a nonofficial or inconsistent link");
+  }
+  if (nsd.fileUnits.some((row) => !Number.isInteger(row.pdfPages) || row.pdfPages < 0 || row.hasOnlinePdf !== (row.pdfPages > 0))) {
+    errors.push("NSD served-PDF page ledger is incomplete or inconsistent");
+  }
+  if (nsd.fileUnits.reduce((total, row) => total + row.pdfPages, 0) !== 5243) errors.push("NSD file-unit page counts do not total 5,243");
+  const markerStatuses = nsd.fileUnits.reduce((counts, row) => {
+    counts[row.markerStatus] = (counts[row.markerStatus] || 0) + 1;
+    return counts;
+  }, {});
+  if (markerStatuses.verified !== 84 || markerStatuses["verified with handwritten correction"] !== 13 || markerStatuses["verified with catalog ID mismatch"] !== 9 || markerStatuses["not online"] !== 2) {
+    errors.push("NSD marker-state distribution changed");
+  }
+  const correctedMarkerNaids = nsd.fileUnits
+    .filter((row) => row.markerStatus === "verified with handwritten correction")
+    .map((row) => row.naid)
+    .sort();
+  if (correctedMarkerNaids.join(",") !== "446396821,446396822,446396825,446396826,446396827,446396829,446396833,446396835,446396836,446396838,446396839,446396840,446396882") {
+    errors.push("NSD handwritten Folder ID correction set changed");
+  }
+  const mismatchNaids = nsd.fileUnits
+    .filter((row) => row.markerStatus === "verified with catalog ID mismatch")
+    .map((row) => row.naid)
+    .sort();
+  if (mismatchNaids.join(",") !== "446396830,446396834,446396837,446396841,446396842,446396843,446396852,446396853,446396854") {
+    errors.push("NSD marker-to-Catalog mismatch set changed");
+  }
+  const catalogOnlyNaids = nsd.fileUnits.filter((row) => !row.hasOnlinePdf).map((row) => row.naid).sort();
+  if (catalogOnlyNaids.join(",") !== "446396828,446396850") errors.push("NSD no-online-PDF set changed");
+  const sortedUnits = [...nsd.fileUnits].sort((a, b) => a.workingStartDate.localeCompare(b.workingStartDate) || a.workingEndDate.localeCompare(b.workingEndDate) || a.localId.localeCompare(b.localId));
+  if (sortedUnits.some((row, index) => row.naid !== nsd.fileUnits[index].naid)) errors.push("NSD file units are not stored in chronological order");
+  if (nsd.fileUnits.some((row) => row.workingStartDate === "9999-12-31" || row.dateBasis === "Date not established")) errors.push("NSD ledger contains an undated working row");
+  if (nsd.fileUnits.filter((row) => row.routing === "Volume XXX review").length !== 11) errors.push("NSD direct-review routing count is not 11");
+  if (nsd.fileUnits.filter((row) => row.routing === "Boundary review").length !== 22) errors.push("NSD boundary-review routing count is not 22");
+  if (nsd.candidateIds.some((id) => !ids.has(id))) errors.push("NSD candidate ID is missing from the master chronology");
+  const candidateRecords = nsd.candidateIds.map((id) => data.records.find((record) => record.id === id)).filter(Boolean);
+  const routedNaids = new Set(nsd.fileUnits.filter((row) => row.routing !== "Series context").map((row) => row.naid));
+  const candidateNaids = new Set(candidateRecords.map((record) => record.naid));
+  if (routedNaids.size !== candidateNaids.size || [...routedNaids].some((naid) => !candidateNaids.has(naid))) errors.push("NSD routed file units and chronology candidates do not match");
+  if (candidateRecords.some((record) => record.sourceNoteStatus !== "locator" || record.sourceNote)) errors.push("NSD file-unit lead incorrectly asserts a document-level Source Note");
+  if (candidateRecords.some((record) => record.collectionId !== "nsd")) errors.push("NSD candidate lacks its collection ID");
+  if (candidateRecords.some((record) => !record.archivalLocator.startsWith("George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files, NSD Files, OA/ID ") || !/NSD–\d/.test(record.archivalLocator) || /NSD-\d/.test(record.archivalLocator))) {
+    errors.push("NSD archival locator does not follow the published FRUS H-Files form");
+  }
+  const catalogOnlyCandidates = candidateRecords.filter((record) => !record.pdfUrl);
+  if (catalogOnlyCandidates.length !== 1 || catalogOnlyCandidates[0].naid !== "446396850" || catalogOnlyCandidates[0].pageCount !== 0 || catalogOnlyCandidates[0].releaseStatus !== "Catalog file unit; no online PDF") {
+    errors.push("NSD Catalog-only review lead changed or asserts an unsupported extent");
+  }
+  if (candidateRecords.reduce((total, record) => total + record.pageCount, 0) !== 1946) errors.push("NSD review-file page total is not 1,946");
+  if (candidateRecords.filter((record) => record.selection === "Core").length !== 11) errors.push("NSD candidate direct-review count is not 11");
+  if (candidateRecords.filter((record) => record.selection === "Boundary").length !== 22) errors.push("NSD candidate boundary count is not 22");
+  if (candidateRecords.filter((record) => record.selection === "Core").reduce((total, record) => total + record.pageCount, 0) !== 551) errors.push("NSD direct-review page total is not 551");
+  if (candidateRecords.filter((record) => record.selection === "Boundary").reduce((total, record) => total + record.pageCount, 0) !== 1395) errors.push("NSD boundary-review page total is not 1,395");
+  const sortedCandidates = [...candidateRecords].sort((a, b) => a.sortDate.localeCompare(b.sortDate) || a.title.localeCompare(b.title));
+  if (sortedCandidates.some((record, index) => record.id !== candidateRecords[index].id)) errors.push("NSD candidates are not stored in chronological order");
+}
+
 const nsr = data.nscCollections?.find((collection) => collection.id === "nsr");
 if (!nsr) {
   errors.push("National Security Review collection is missing");
@@ -268,6 +341,7 @@ const report = {
   locators: data.records.filter((record) => record.sourceNoteStatus === "locator").length,
   withheldItems: data.records.filter((record) => record.releaseStatus === "Withheld").length,
   nscCollections: data.nscCollections?.length || 0,
+  nsdFileUnits: nsd?.fileUnits.length || 0,
   nsrFileUnits: nsr?.fileUnits.length || 0,
   nscDcFollowUpFileUnits: nscDcFollowUp?.fileUnits.length || 0,
   nscDcMeetingFileUnits: nscDcMeetings?.fileUnits.length || 0,

@@ -15,6 +15,8 @@ const nscDcMeetingsCandidatesPath = path.join(root, "data", "nsc-dc-meetings-can
 const nscDcMeetingsFileUnitsPath = path.join(root, "data", "nsc-dc-meetings-file-units.json");
 const nscDcFollowUpCandidatesPath = path.join(root, "data", "nsc-dc-follow-up-candidates.json");
 const nscDcFollowUpFileUnitsPath = path.join(root, "data", "nsc-dc-follow-up-file-units.json");
+const nsdCandidatesPath = path.join(root, "data", "nsd-candidates.json");
+const nsdFileUnitsPath = path.join(root, "data", "nsd-file-units.json");
 const nsrCandidatesPath = path.join(root, "data", "nsr-candidates.json");
 const nsrFileUnitsPath = path.join(root, "data", "nsr-file-units.json");
 
@@ -30,6 +32,8 @@ if (
   !fs.existsSync(nscDcMeetingsFileUnitsPath) ||
   !fs.existsSync(nscDcFollowUpCandidatesPath) ||
   !fs.existsSync(nscDcFollowUpFileUnitsPath) ||
+  !fs.existsSync(nsdCandidatesPath) ||
+  !fs.existsSync(nsdFileUnitsPath) ||
   !fs.existsSync(nsrCandidatesPath) ||
   !fs.existsSync(nsrFileUnitsPath)
 ) {
@@ -45,6 +49,8 @@ const nscDcMeetingsCandidates = JSON.parse(fs.readFileSync(nscDcMeetingsCandidat
 const nscDcMeetingsFileUnits = JSON.parse(fs.readFileSync(nscDcMeetingsFileUnitsPath, "utf8"));
 const nscDcFollowUpCandidates = JSON.parse(fs.readFileSync(nscDcFollowUpCandidatesPath, "utf8"));
 const nscDcFollowUpFileUnits = JSON.parse(fs.readFileSync(nscDcFollowUpFileUnitsPath, "utf8"));
+const nsdCandidates = JSON.parse(fs.readFileSync(nsdCandidatesPath, "utf8"));
+const nsdFileUnits = JSON.parse(fs.readFileSync(nsdFileUnitsPath, "utf8"));
 const nsrCandidates = JSON.parse(fs.readFileSync(nsrCandidatesPath, "utf8"));
 const nsrFileUnits = JSON.parse(fs.readFileSync(nsrFileUnitsPath, "utf8"));
 
@@ -735,6 +741,12 @@ const sourceCollections = [
     url: "https://catalog.archives.gov/id/312294094",
   },
   {
+    name: "National Security Directive Files",
+    owner: "National Archives Catalog",
+    role: "Presidential directives, implementation files, opening provenance markers, and withdrawal-sheet evidence for NSD 1 through NSD 79",
+    url: "https://catalog.archives.gov/id/313189290",
+  },
+  {
     name: "National Security Review Files",
     owner: "National Archives Catalog",
     role: "Presidential review directives, interagency studies, response papers, and withdrawal-sheet evidence for NSR 1 through NSR 30",
@@ -974,6 +986,57 @@ const nscDcFollowUpDocumentRecords = nscDcFollowUpCandidates.documents.map((cand
   };
 }).sort((a, b) => a.sortDate.localeCompare(b.sortDate) || a.title.localeCompare(b.title));
 
+const nsdUnitByNaid = new Map(nsdFileUnits.fileUnits.map((fileUnit) => [fileUnit.naid, fileUnit]));
+const nsdDocumentRecords = nsdCandidates.documents.map((candidate) => {
+  const fileUnit = nsdUnitByNaid.get(candidate.naid);
+  if (!fileUnit) throw new Error(`NSD candidate ${candidate.naid} is missing from the full file-unit ledger`);
+  const existing = existingLeadByNaid.get(candidate.naid) || {};
+  const title = fileUnit.title
+    .replace(/\bNSD-(\d+[a-z]?)/gi, "NSD–$1")
+    .replaceAll(" - ", "—")
+    .replace(
+      /\b(January|February|March|April|May|June|July|August|September|October|November|December)\s+0(\d),/gi,
+      "$1 $2,",
+    );
+  return {
+    ...existing,
+    id: `lead-${candidate.naid}`,
+    date: candidate.date,
+    sortDate: candidate.sortDate || candidate.date,
+    title,
+    heading: `National Security Directive File: ${title}`,
+    dateline: formatDateline(candidate.date),
+    type: "National Security Directive file",
+    chapter: fileUnit.chapter,
+    selection: candidate.selection,
+    releaseStatus: fileUnit.hasOnlinePdf
+      ? "Online file unit; item audit pending"
+      : "Catalog file unit; no online PDF",
+    pageCount: candidate.pageCount,
+    extentLabel:
+      candidate.extentLabel || `${candidate.pageCount} PDF pages; document-level release and withdrawal audit pending`,
+    classification: fileUnit.hasOnlinePdf
+      ? "Mixed; document-level audit required"
+      : "Not established; no online PDF",
+    naid: candidate.naid,
+    localId: fileUnit.localId.replaceAll("-", "–"),
+    catalogUrl: fileUnit.catalogUrl,
+    pdfUrl: fileUnit.pdfUrl,
+    sourceNoteStatus: "locator",
+    sourceNoteBasis: fileUnit.hasOnlinePdf
+      ? "Opening provenance marker and withdrawal-sheet descriptions checked in the official NARA PDF; file-unit locator only pending document-level source-image review."
+      : "Catalog hierarchy supplies the file-unit locator; no online PDF is available for source-image or classification review.",
+    sourceNote: undefined,
+    archivalLocator: fileUnit.archivalLocator,
+    topics: candidate.topics,
+    notes: candidate.notes,
+    collectionId: "nsd",
+    provenanceMethod: fileUnit.hasOnlinePdf
+      ? "Opening PDF provenance marker and withdrawal sheets"
+      : "Catalog hierarchy; no online PDF",
+  };
+}).sort((a, b) => a.sortDate.localeCompare(b.sortDate) || a.title.localeCompare(b.title));
+
 const nsrUnitByNaid = new Map(nsrFileUnits.fileUnits.map((fileUnit) => [fileUnit.naid, fileUnit]));
 const nsrDocumentRecords = nsrCandidates.documents.map((candidate) => {
   const fileUnit = nsrUnitByNaid.get(candidate.naid);
@@ -1017,6 +1080,7 @@ const supersededLeadIds = new Set(
     ...nscMeetingsDocumentRecords,
     ...nscDcMeetingsDocumentRecords,
     ...nscDcFollowUpDocumentRecords,
+    ...nsdDocumentRecords,
     ...nsrDocumentRecords,
   ].map((record) => record.id),
 );
@@ -1029,6 +1093,7 @@ const allRecords = [
   ...nscMeetingsDocumentRecords,
   ...nscDcMeetingsDocumentRecords,
   ...nscDcFollowUpDocumentRecords,
+  ...nsdDocumentRecords,
   ...nsrDocumentRecords,
   ...remainingLeadRecords,
 ]
@@ -1043,6 +1108,25 @@ const data = {
   chapters,
   records: allRecords,
   nscCollections: [
+    {
+      id: "nsd",
+      ...nsdFileUnits.collection,
+      statusLabel: "H-Files National Security Directive series",
+      intro:
+        `${nsdDocumentRecords.length} of the 108 National Security Directive file units are surfaced after complete PDF, OCR, opening-marker, and withdrawal-sheet review: 11 for direct Volume XXX review and 22 for cross-volume adjudication. The ledger accounts for all 108 file units and all 5,243 served-PDF pages, including two Catalog units without online PDFs, 13 handwritten Folder ID corrections, and nine marker-to-Catalog ID mismatches.`,
+      provenanceTitle: "Opening PDF provenance markers and withdrawal sheets",
+      candidateLabel: "NSD files for review",
+      candidateTitle: "Volume XXX National Security Directive Chronology",
+      auditScope: nsdCandidates.auditScope,
+      auditedFolders: nsdCandidates.auditedFolders,
+      candidateCount: nsdDocumentRecords.length,
+      candidateIds: nsdDocumentRecords.map((record) => record.id),
+      fileUnits: nsdFileUnits.fileUnits,
+      candidateMethodology: nsdCandidates.methodology,
+      candidateCsvUrl: "data/nsd-candidates.csv",
+      fileUnitsCsvUrl: "data/nsd-file-units.csv",
+      reportUrl: "reports/nsd-harvest.json",
+    },
     {
       id: "nsr",
       ...nsrFileUnits.collection,
@@ -1179,6 +1263,72 @@ fs.writeFileSync(path.join(dataDir, "public-references.csv"), toCsv(publicRefere
   "topics",
   "selection",
   "url",
+]));
+fs.writeFileSync(path.join(dataDir, "nsd-candidates.csv"), toCsv(nsdDocumentRecords, [
+  "id",
+  "date",
+  "title",
+  "heading",
+  "dateline",
+  "type",
+  "chapter",
+  "selection",
+  "releaseStatus",
+  "pageCount",
+  "extentLabel",
+  "classification",
+  "naid",
+  "localId",
+  "sourceNoteStatus",
+  "archivalLocator",
+  "notes",
+  "catalogUrl",
+  "pdfUrl",
+]));
+fs.writeFileSync(path.join(dataDir, "nsd-file-units.csv"), toCsv(nsdFileUnits.fileUnits.map((row) => ({
+  ...flattenFileUnit(row),
+  markerFolderId: row.markerChecks?.markerFolderId || "",
+  catalogFolderId: row.localId,
+  markerIdNote:
+    row.markerChecks?.handwrittenCorrection ||
+    row.markerChecks?.catalogMismatch ||
+    row.markerChecks?.visualFolderIdCheck ||
+    "",
+})), [
+  "naid",
+  "workingStartDate",
+  "workingEndDate",
+  "dateBasis",
+  "title",
+  "localId",
+  "chapter",
+  "routing",
+  "markerStatus",
+  "markerFolderId",
+  "catalogFolderId",
+  "markerIdNote",
+  "hasOnlinePdf",
+  "pdfPages",
+  "pdfBytes",
+  "catalogPdfBytes",
+  "pdfByteBasis",
+  "accessStatus",
+  "memosToPresident",
+  "memosToScowcroft",
+  "memorandaOfConversation",
+  "meetingRecords",
+  "withdrawalSheets",
+  "economicSignalTotal",
+  "economySignals",
+  "financeSignals",
+  "tradeSignals",
+  "assistanceSanctionsSignals",
+  "energySignals",
+  "agricultureSignals",
+  "treasurySignals",
+  "archivalLocator",
+  "catalogUrl",
+  "pdfUrl",
 ]));
 fs.writeFileSync(path.join(dataDir, "nsr-candidates.csv"), toCsv(nsrDocumentRecords, [
   "id",
@@ -1443,7 +1593,7 @@ fs.writeFileSync(path.join(dataDir, "tim-deal-file-units.csv"), toCsv(timDealFil
 ]));
 
 console.log(
-  `Built ${allRecords.length} candidate records, ${nsrFileUnits.fileUnits.length} NSR file units, ${nscDcFollowUpFileUnits.fileUnits.length} NSC/DC follow-up file units, ${nscDcMeetingsFileUnits.fileUnits.length} NSC/DC file units, ${nscMeetingsFileUnits.fileUnits.length} NSC Meeting file units, ${timDealFileUnits.fileUnits.length} Tim Deal file units, ${publicReferences.length} public references, and ${gaps.length} gap entries.`,
+  `Built ${allRecords.length} candidate records, ${nsdFileUnits.fileUnits.length} NSD file units, ${nsrFileUnits.fileUnits.length} NSR file units, ${nscDcFollowUpFileUnits.fileUnits.length} NSC/DC follow-up file units, ${nscDcMeetingsFileUnits.fileUnits.length} NSC/DC file units, ${nscMeetingsFileUnits.fileUnits.length} NSC Meeting file units, ${timDealFileUnits.fileUnits.length} Tim Deal file units, ${publicReferences.length} public references, and ${gaps.length} gap entries.`,
 );
 
 function toCsv(rows, fields) {

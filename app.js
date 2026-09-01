@@ -773,7 +773,9 @@ function createNscFileUnitRow(row) {
     row.chapter,
     row.routing,
     markerLabel(row.markerStatus),
-    row.pdfUrl ? formatByteSize(row.pdfBytes) : "Catalog only",
+    row.pdfUrl
+      ? `${row.pdfPages ? `${row.pdfPages} ${plural(row.pdfPages, "page")}; ` : ""}${formatByteSize(row.pdfBytes)}`
+      : "Catalog only",
   ].forEach((value) => meta.append(badge(value)));
   const signals = document.createElement("div");
   signals.className = "nsc-signals";
@@ -793,10 +795,17 @@ function createNscFileUnitRow(row) {
     `OCR review signals: ${reviewSignalPairs(row).map(([name, value]) => `${name} ${value}`).join("; ")}. These are search hits, not deduplicated document counts.`,
     "record-notes",
   );
+  const markerNote =
+    row.markerChecks?.handwrittenCorrection ||
+    row.markerChecks?.catalogMismatch ||
+    row.markerChecks?.visualFolderIdCheck ||
+    "";
   const actions = document.createElement("div");
   actions.className = "record-copy-actions";
   actions.append(copyButton(isVerifiedMarker(row.markerStatus) ? "Copy Provenance Stem" : "Copy Locator", sourceText));
-  details.append(summary, sourceLabel, source, signalNote, actions);
+  details.append(summary, sourceLabel, source);
+  if (markerNote) details.append(label("Opening marker note"), paragraph(markerNote, "record-notes"));
+  details.append(signalNote, actions);
   body.append(title, meta, signals, details);
 
   const links = document.createElement("div");
