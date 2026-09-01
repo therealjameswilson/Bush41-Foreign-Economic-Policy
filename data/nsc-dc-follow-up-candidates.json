@@ -1,0 +1,472 @@
+{
+  "auditScope": "Complete follow-up series inventory with economic-policy and withdrawal-sheet screening",
+  "auditedFolders": [
+    "90043-022",
+    "90043-033",
+    "90043-034",
+    "90043-038",
+    "90043-039",
+    "90043-041",
+    "90043-042",
+    "90043-043",
+    "90043-046",
+    "90043-048",
+    "90044-008",
+    "90044-010",
+    "90044-011",
+    "90044-014",
+    "90044-015",
+    "90044-017",
+    "90044-020",
+    "90044-021",
+    "90044-026",
+    "90044-028",
+    "90044-031",
+    "90044-032",
+    "90044-034",
+    "90044-037",
+    "90044-039",
+    "90044-040",
+    "90045-014",
+    "90045-015",
+    "90045-017"
+  ],
+  "methodology": "All 112 file units were enumerated from the complete official NARA Catalog hierarchy. Every official PDF, opening provenance sheet, full NARA OCR transcript, and opening withdrawal-sheet description was screened. The 29 entries below were selected for direct Volume XXX review or cross-volume adjudication because the folder exposes trade, finance, assistance, sanctions, energy, technology-transfer, export-control, or related economic-policy evidence. Page counts were read from the served official PDFs with Poppler pdfinfo; they are file-unit extents, not document extents. Where a withdrawal sheet states the extent of unavailable minutes or papers, that evidence is reported separately. These records remain archival locators until individual document headings, datelines, terminal markings, and release or withdrawal status are checked in the source images.",
+  "documents": [
+    {
+      "naid": "470761486",
+      "date": "1991-10-11",
+      "sortDate": "1991-10-11",
+      "pageCount": 11,
+      "extentLabel": "11 PDF pages; withdrawal sheet identifies 4 pages of sanctions papers",
+      "selection": "Boundary",
+      "topics": [
+        "Pan Am 103",
+        "Libya",
+        "Economic sanctions",
+        "Withdrawal sheet"
+      ],
+      "notes": "Boundary review. The opening withdrawal sheet identifies separate papers on current sanctions and possible measures or sanctions. Route principal records against the terrorism and regional volumes. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761497",
+      "date": "1992-03-11",
+      "sortDate": "1992-03-11",
+      "pageCount": 14,
+      "extentLabel": "14 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "Iraq",
+        "Frozen assets",
+        "Oil proceeds",
+        "Companion file"
+      ],
+      "notes": "Boundary review. This is the follow-up folder for the March 11 Iraq meeting. Review it with main meeting file NAID 470761362, which contains the frozen-assets, oil-proceeds, and UN-financing record, and retain only distinct items. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761498",
+      "date": "1992-03-17",
+      "sortDate": "1992-03-17",
+      "pageCount": 14,
+      "extentLabel": "14 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Former Soviet Union",
+        "Technology transfer",
+        "Nonproliferation",
+        "Companion file"
+      ],
+      "notes": "Direct Volume XXX review. The participant and appointment record establishes the otherwise undated March 17 meeting. Review it with main meeting file NAID 470761363 and avoid duplicating the substantive record. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761502",
+      "date": "1992-03-26",
+      "sortDate": "1992-03-26",
+      "pageCount": 22,
+      "extentLabel": "22 PDF pages; withdrawal sheet identifies a 1-page Confidential Melby memorandum",
+      "selection": "Core",
+      "topics": [
+        "Machine tools",
+        "Voluntary restraint arrangements",
+        "Japan",
+        "Eric Melby"
+      ],
+      "notes": "Direct Volume XXX review. The withdrawal sheet identifies Eric Melby's memorandum on the machine-tool VRA. Review it with main meeting file NAID 470761367. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761503",
+      "date": "1992-04-01",
+      "sortDate": "1992-04-01",
+      "pageCount": 15,
+      "extentLabel": "15 PDF pages; withdrawal sheet identifies a 3-page Secret Riedel memorandum",
+      "selection": "Boundary",
+      "topics": [
+        "Iraq",
+        "Oil exports",
+        "Food and medicine",
+        "Sanctions"
+      ],
+      "notes": "Boundary review. The released routing text discusses Iraqi oil exports under UN Security Council Resolutions 706 and 712 to finance food and medicine; the withdrawal sheet also identifies a Riedel memorandum. Review it with main meeting file NAID 470761368. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761505",
+      "date": "1992-04-09",
+      "sortDate": "1992-04-09",
+      "pageCount": 26,
+      "extentLabel": "26 PDF pages; withdrawal sheet identifies 11-page Secret minutes",
+      "selection": "Core",
+      "topics": [
+        "Export controls",
+        "Regulatory reform",
+        "Licensing",
+        "Withheld minutes"
+      ],
+      "notes": "Direct Volume XXX review. The withdrawal sheet identifies Secret Deputies Committee minutes, issues for decision, and multiple export-control regulatory-reform reports. Review it with main meeting file NAID 470761369. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761506",
+      "date": "1992-04-15",
+      "sortDate": "1992-04-15",
+      "pageCount": 26,
+      "extentLabel": "26 PDF pages; withdrawal sheet identifies 15-page Secret minutes and 17 pages of graphs",
+      "selection": "Boundary",
+      "topics": [
+        "Counternarcotics",
+        "International drug strategy",
+        "Program funding",
+        "Withheld minutes"
+      ],
+      "notes": "Boundary review. The opening sheets establish the April 15 meeting and identify a discussion paper, fully withheld Deputies Committee minutes, and related graphs. Route the principal record against the counternarcotics and regional volumes. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761507",
+      "date": "1992-04-22",
+      "sortDate": "1992-04-22",
+      "pageCount": 57,
+      "extentLabel": "57 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Export controls",
+        "Regulatory reform",
+        "Implementation",
+        "Companion file"
+      ],
+      "notes": "Direct Volume XXX review. This is the implementation-rich follow-up folder for the April 22 export-control decisions, including agency responsibilities, reports, and an issues paper. Review it with main meeting files NAIDs 470761371 and 470761372 and deduplicate repeated papers. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761510",
+      "date": "1992-05-04",
+      "sortDate": "1992-05-04",
+      "pageCount": 38,
+      "extentLabel": "38 PDF pages; withdrawal sheet identifies a 3-page Secret summary and a 1-page funding plan",
+      "selection": "Boundary",
+      "topics": [
+        "Counternarcotics",
+        "Funding plan",
+        "Program strategy",
+        "Summary of conclusions"
+      ],
+      "notes": "Boundary review. The withdrawal sheets identify the summary of conclusions, a seven-page discussion paper, and an illustrative funding plan. Route principal records against the counternarcotics and regional volumes. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761512",
+      "date": "1992-05-13",
+      "sortDate": "1992-05-13",
+      "pageCount": 37,
+      "extentLabel": "37 PDF pages; withdrawal sheet identifies a 14-page working paper and 7-page U.S. action paper",
+      "selection": "Core",
+      "topics": [
+        "Former Soviet Union",
+        "Nuclear safety",
+        "Economic assistance",
+        "Eric Melby"
+      ],
+      "notes": "Direct Volume XXX review. The withdrawal sheets identify the Poneman-Melby memorandum, a working paper on reactor safety in the NIS, and recommended U.S. actions. Review it with main meeting file NAID 470761377. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761520",
+      "date": "1992-05-27",
+      "sortDate": "1992-05-27",
+      "pageCount": 15,
+      "extentLabel": "15 PDF pages; withdrawal sheet identifies a 3-page Confidential sanctions cable",
+      "selection": "Boundary",
+      "topics": [
+        "Bosnia",
+        "Serbia",
+        "Economic sanctions",
+        "Companion file"
+      ],
+      "notes": "Boundary review. The withdrawal sheet identifies a cable on sanctions against Serbian aggression in Bosnia. Review it with main meeting file NAID 470761381 and route the principal record against the Western Europe volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761522",
+      "date": "1992-06-03",
+      "sortDate": "1992-06-03",
+      "pageCount": 27,
+      "extentLabel": "27 PDF pages; withdrawal sheet identifies a 3-page Confidential Tobey memorandum",
+      "selection": "Core",
+      "topics": [
+        "Russia",
+        "INMARSAT",
+        "Satellite launch",
+        "Technology policy"
+      ],
+      "notes": "Direct Volume XXX review. The withdrawal sheet identifies the Tobey memorandum, INMARSAT issue papers, launch conditions, and a draft Russian assurance. Review it with main meeting file NAID 470761383. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761523",
+      "date": "1992-06-04",
+      "sortDate": "1992-06-04",
+      "pageCount": 16,
+      "extentLabel": "16 PDF pages; withdrawal sheet identifies a 4-page Confidential aid paper",
+      "selection": "Boundary",
+      "topics": [
+        "Bosnia",
+        "Humanitarian aid",
+        "Foreign assistance",
+        "Yugoslavia"
+      ],
+      "notes": "Boundary review. The withdrawal sheet identifies a four-page paper on humanitarian aid to Bosnia-Hercegovina. Route the principal record against the Western Europe volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761526",
+      "date": "1992-06-17",
+      "sortDate": "1992-06-17",
+      "pageCount": 15,
+      "extentLabel": "15 PDF pages; withdrawal sheet identifies a 2-page Secret meeting memorandum",
+      "selection": "Boundary",
+      "topics": [
+        "Bosnia",
+        "Humanitarian aid",
+        "Foreign assistance",
+        "Corrected date"
+      ],
+      "notes": "Boundary review. The opening sheet identifies a memorandum on humanitarian aid to Bosnia and establishes June 17 as the meeting date, correcting the June 16 folder title. Route the principal record against the Western Europe volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761527",
+      "date": "1992-06-24",
+      "sortDate": "1992-06-24",
+      "pageCount": 15,
+      "extentLabel": "15 PDF pages; withdrawal sheet identifies 4 pages of Secret meeting preparation",
+      "selection": "Boundary",
+      "topics": [
+        "Bosnia",
+        "Humanitarian assistance",
+        "Foreign assistance",
+        "Yugoslavia"
+      ],
+      "notes": "Boundary review. The withdrawal sheet identifies Holl's memorandum, an interagency meeting memorandum, and the agenda for humanitarian assistance to Bosnia. Route the principal record against the Western Europe volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761529",
+      "date": "1992-07-01",
+      "sortDate": "1992-07-01",
+      "pageCount": 9,
+      "extentLabel": "9 PDF pages; withdrawal sheet identifies a 2-page Secret sanctions memorandum",
+      "selection": "Boundary",
+      "topics": [
+        "Iraq",
+        "Sanctions enforcement",
+        "Bruce Riedel",
+        "Withdrawal sheet"
+      ],
+      "notes": "Boundary review. The withdrawal sheet identifies Riedel's memorandum on sanctions enforcement. Route the principal record against the Gulf volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761532",
+      "date": "1992-07-16",
+      "sortDate": "1992-07-16T11:00:00",
+      "pageCount": 31,
+      "extentLabel": "31 PDF pages; withdrawal sheet identifies a 16-page initiatives report and funding papers",
+      "selection": "Boundary",
+      "topics": [
+        "Colombia",
+        "Counternarcotics",
+        "Program funding",
+        "Foreign assistance"
+      ],
+      "notes": "Boundary review. The withdrawal sheet identifies a 16-page Colombia initiatives report plus papers on funding requirements and potential funding sources. Route principal records against the Latin America and counternarcotics volumes. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761533",
+      "date": "1992-07-16",
+      "sortDate": "1992-07-16T15:00:00",
+      "pageCount": 16,
+      "extentLabel": "16 PDF pages; withdrawal sheet identifies a 2-page Secret Bosnia paper",
+      "selection": "Boundary",
+      "topics": [
+        "Bosnia",
+        "Humanitarian aid",
+        "Foreign assistance",
+        "Corrected date"
+      ],
+      "notes": "Boundary review. The opening sheet establishes July 16 as the meeting date, correcting the July 17 folder title, and identifies a paper on the U.S. response to the crisis in Bosnia. Route the principal record against the Western Europe volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761538",
+      "date": "1992-09-04",
+      "sortDate": "1992-09-04",
+      "pageCount": 23,
+      "extentLabel": "23 PDF pages; withdrawal sheet identifies a 9-page relief-program review",
+      "selection": "Boundary",
+      "topics": [
+        "Somalia",
+        "Humanitarian relief",
+        "Foreign assistance",
+        "Brent Scowcroft"
+      ],
+      "notes": "Boundary review. The withdrawal sheet identifies a Pearson memorandum to Scowcroft, a humanitarian-relief paper, and a nine-page review of relief programs. Route the principal record against the Africa volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761540",
+      "date": "1992-09-11",
+      "sortDate": "1992-09-11",
+      "pageCount": 27,
+      "extentLabel": "27 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "Yugoslavia",
+        "Sanctions enforcement",
+        "Oil and gas",
+        "Companion file"
+      ],
+      "notes": "Boundary review. This is the follow-up folder for the September 11 Yugoslavia meeting. Review it with main meeting file NAID 470761411, where the economic evidence includes sanctions enforcement and oil and gas controls, and retain only distinct items. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761543",
+      "date": "1992-09-28",
+      "sortDate": "1992-09-28",
+      "pageCount": 17,
+      "extentLabel": "17 PDF pages; withdrawal sheet identifies a 5-page civilian-relief-delivery memorandum",
+      "selection": "Boundary",
+      "topics": [
+        "Somalia",
+        "Humanitarian relief",
+        "Civilian airlift",
+        "Foreign assistance"
+      ],
+      "notes": "Boundary review. The withdrawal sheet identifies Ordway's memorandum, a PCC summary, and a paper on shifting relief delivery from U.S. military airlift to a civilian system. Route the principal record against the Africa volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761544",
+      "date": "1992-10-01",
+      "sortDate": "1992-10-01",
+      "pageCount": 29,
+      "extentLabel": "29 PDF pages; withdrawal sheet identifies 32 pages of sanctions and natural-gas papers",
+      "selection": "Boundary",
+      "topics": [
+        "Yugoslavia",
+        "Serbia sanctions",
+        "Natural gas",
+        "Sanctions enforcement"
+      ],
+      "notes": "Boundary review. The withdrawal sheet identifies extensive papers on Serbia sanctions, enforcement, diversion of natural gas to Bosnia, and the effectiveness of UN sanctions. Review it with main meeting file NAID 470761415. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761546",
+      "date": "1992-10-07",
+      "sortDate": "1992-10-07",
+      "pageCount": 16,
+      "extentLabel": "16 PDF pages; withdrawal sheet identifies a 2-page Secret relief paper",
+      "selection": "Boundary",
+      "topics": [
+        "Yugoslavia",
+        "Humanitarian relief",
+        "Foreign assistance",
+        "Withdrawal sheet"
+      ],
+      "notes": "Boundary review. The withdrawal sheet identifies a two-page humanitarian-relief report. Route the principal record against the Western Europe volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761549",
+      "date": "1992-10-21",
+      "sortDate": "1992-10-21",
+      "pageCount": 25,
+      "extentLabel": "25 PDF pages; withdrawal sheet identifies a 5-page paper on monetization of relief food",
+      "selection": "Boundary",
+      "topics": [
+        "Somalia",
+        "Food aid",
+        "Monetization",
+        "Airlift financing"
+      ],
+      "notes": "Boundary review. The folder covers the military-to-civilian relief transition and includes a withdrawn paper on monetizing relief food. Review it with main meeting file NAID 470761420 and route the principal record against the Africa volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761551",
+      "date": "1992-11-05",
+      "sortDate": "1992-11-05",
+      "pageCount": 23,
+      "extentLabel": "23 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Iran",
+        "Export controls",
+        "G-7",
+        "COCOM Cooperation Forum"
+      ],
+      "notes": "Direct Volume XXX review. The withdrawal sheet identifies the follow-up memorandum, Bonn export-control telegram, defense rationale, and G-7 export-control initiative. Review it with main meeting files NAIDs 470761423 and 470761424. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761552",
+      "date": "1992-11-06",
+      "sortDate": "1992-11-06",
+      "pageCount": 17,
+      "extentLabel": "17 PDF pages; withdrawal sheet identifies a 7-page IMF paper and 9-page U.S. response paper",
+      "selection": "Core",
+      "topics": [
+        "Russia",
+        "IMF",
+        "Economic reform",
+        "U.S. assistance"
+      ],
+      "notes": "Direct Volume XXX review. The withdrawal sheet identifies papers on the IMF and Russian reform, the U.S. response to Russia, and a Hewett-Burns memorandum to Howe. Review it with main meeting file NAID 470761425. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761567",
+      "date": "1993-01-06",
+      "sortDate": "1993-01-06",
+      "pageCount": 25,
+      "extentLabel": "25 PDF pages; withdrawal sheet identifies a 3-page funding paper and related budget material",
+      "selection": "Boundary",
+      "topics": [
+        "Yugoslavia",
+        "Sanctions enforcement",
+        "Budget",
+        "Foreign assistance"
+      ],
+      "notes": "Boundary review. The withdrawal sheet identifies papers on funding sanctions-enforcement assistance, budget estimates, technical-assistance requests, and new sanctions. The January 1993 date places this at the volume boundary. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761568",
+      "date": "1993-01-08",
+      "sortDate": "1993-01-08",
+      "pageCount": 12,
+      "extentLabel": "12 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "Export licensing",
+        "Space launch vehicles",
+        "Missile proliferation",
+        "January 1993"
+      ],
+      "notes": "Boundary review. The released meeting notice identifies export-licensing issues involving missile proliferation and space-launch vehicles. The January 1993 date and security emphasis require cross-volume adjudication. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761570",
+      "date": "1993-01-14",
+      "sortDate": "1993-01-14",
+      "pageCount": 10,
+      "extentLabel": "10 PDF pages; withdrawal sheet identifies a 2-page Secret funding-options paper",
+      "selection": "Boundary",
+      "topics": [
+        "Yugoslavia",
+        "Sanctions enforcement",
+        "Budget",
+        "January 1993"
+      ],
+      "notes": "Boundary review. The withdrawal sheet identifies options for funding a State-proposed $1.8 million sanctions-enforcement add-on. The January 1993 date places this at the volume boundary. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    }
+  ]
+}

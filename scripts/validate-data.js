@@ -102,6 +102,61 @@ if (!nscMeetings) {
   if (sortedCandidates.some((record, index) => record.id !== candidateRecords[index].id)) errors.push("NSC Meetings candidates are not stored in chronological order");
 }
 
+const nscDcFollowUp = data.nscCollections?.find((collection) => collection.id === "nsc-dc-follow-up");
+if (!nscDcFollowUp) {
+  errors.push("NSC/DC Meetings Follow-Up collection is missing");
+} else {
+  if (nscDcFollowUp.fileUnits.length !== 112 || nscDcFollowUp.fileUnitCount !== 112) errors.push("NSC/DC follow-up file-unit count is not 112");
+  if (nscDcFollowUp.onlinePdfCount !== 112 || nscDcFollowUp.catalogOnlyCount !== 0) errors.push("NSC/DC follow-up online/catalog-only totals changed");
+  if (nscDcFollowUp.totalPdfPages !== 1887) errors.push("NSC/DC follow-up served-PDF page total is not 1,887");
+  if (nscDcFollowUp.markerVerified !== 112 || nscDcFollowUp.markerCorrectedCount !== 0 || nscDcFollowUp.markerExceptionCount !== 0) {
+    errors.push("NSC/DC follow-up provenance-marker totals changed");
+  }
+  if (nscDcFollowUp.candidateCount !== 29 || nscDcFollowUp.candidateIds.length !== 29) errors.push("NSC/DC follow-up review-candidate count is not 29");
+  if (nscDcFollowUp.auditedFolders.length !== 29) errors.push("NSC/DC follow-up screened-folder count is not 29");
+  if (nscDcFollowUp.fileUnits.some((row) => row.markerStatus !== "verified")) errors.push("NSC/DC follow-up ledger contains an opening-marker exception");
+  if (nscDcFollowUp.fileUnits.some((row) => !Number.isInteger(row.economicSignals?.total))) errors.push("NSC/DC follow-up ledger lacks economic OCR signals");
+  if (new Set(nscDcFollowUp.fileUnits.map((row) => row.naid)).size !== nscDcFollowUp.fileUnits.length) errors.push("Duplicate NSC/DC follow-up NAID");
+  if (new Set(nscDcFollowUp.fileUnits.map((row) => row.localId)).size !== nscDcFollowUp.fileUnits.length) errors.push("Duplicate NSC/DC follow-up OA/ID");
+  if (nscDcFollowUp.fileUnits.some((row) => !row.catalogUrl.startsWith("https://catalog.archives.gov/id/") || !row.pdfUrl.startsWith("https://catalog.archives.gov/medialz/"))) {
+    errors.push("NSC/DC follow-up ledger contains a nonofficial link");
+  }
+  const sortedUnits = [...nscDcFollowUp.fileUnits].sort((a, b) => a.workingStartDate.localeCompare(b.workingStartDate) || a.workingEndDate.localeCompare(b.workingEndDate) || a.localId.localeCompare(b.localId));
+  if (sortedUnits.some((row, index) => row.naid !== nscDcFollowUp.fileUnits[index].naid)) errors.push("NSC/DC follow-up file units are not stored in chronological order");
+  if (nscDcFollowUp.fileUnits.filter((row) => row.routing === "Volume XXX review").length !== 8) errors.push("NSC/DC follow-up direct-review routing count is not 8");
+  if (nscDcFollowUp.fileUnits.filter((row) => row.routing === "Boundary review").length !== 21) errors.push("NSC/DC follow-up boundary-review routing count is not 21");
+  const expectedDateCorrections = new Map([
+    ["470761484", "1991-09-27"],
+    ["470761498", "1992-03-17"],
+    ["470761506", "1992-04-15"],
+    ["470761526", "1992-06-17"],
+    ["470761533", "1992-07-16"],
+    ["470761562", "1992-12-23"],
+    ["470761566", "1993-01-05"],
+  ]);
+  for (const [naid, expectedDate] of expectedDateCorrections) {
+    if (nscDcFollowUp.fileUnits.find((row) => row.naid === naid)?.workingStartDate !== expectedDate) {
+      errors.push(`NSC/DC follow-up ${naid} no longer preserves its source-documented date`);
+    }
+  }
+  const undatedNaids = nscDcFollowUp.fileUnits.filter((row) => row.dateBasis === "Date not established").map((row) => row.naid);
+  if (undatedNaids.join(",") !== "470761571,470761572,470761573,470761574,470761575,470761576") errors.push("NSC/DC follow-up undated set changed");
+  if (nscDcFollowUp.candidateIds.some((id) => !ids.has(id))) errors.push("NSC/DC follow-up candidate ID is missing from the master chronology");
+  const candidateRecords = nscDcFollowUp.candidateIds.map((id) => data.records.find((record) => record.id === id)).filter(Boolean);
+  const routedNaids = new Set(nscDcFollowUp.fileUnits.filter((row) => row.routing !== "Series context").map((row) => row.naid));
+  const candidateNaids = new Set(candidateRecords.map((record) => record.naid));
+  if (routedNaids.size !== candidateNaids.size || [...routedNaids].some((naid) => !candidateNaids.has(naid))) errors.push("NSC/DC follow-up routed file units and chronology candidates do not match");
+  if (candidateRecords.some((record) => record.sourceNoteStatus !== "locator" || record.sourceNote)) errors.push("NSC/DC follow-up file-unit lead incorrectly asserts a document-level Source Note");
+  if (candidateRecords.some((record) => record.collectionId !== "nsc-dc-follow-up")) errors.push("NSC/DC follow-up candidate lacks its collection ID");
+  if (candidateRecords.reduce((total, record) => total + record.pageCount, 0) !== 628) errors.push("NSC/DC follow-up review-file page total is not 628");
+  if (candidateRecords.filter((record) => record.selection === "Core").length !== 8) errors.push("NSC/DC follow-up candidate direct-review count is not 8");
+  if (candidateRecords.filter((record) => record.selection === "Boundary").length !== 21) errors.push("NSC/DC follow-up candidate boundary count is not 21");
+  if (candidateRecords.filter((record) => record.selection === "Core").reduce((total, record) => total + record.pageCount, 0) !== 223) errors.push("NSC/DC follow-up direct-review page total is not 223");
+  if (candidateRecords.filter((record) => record.selection === "Boundary").reduce((total, record) => total + record.pageCount, 0) !== 405) errors.push("NSC/DC follow-up boundary-review page total is not 405");
+  const sortedCandidates = [...candidateRecords].sort((a, b) => a.sortDate.localeCompare(b.sortDate) || a.title.localeCompare(b.title));
+  if (sortedCandidates.some((record, index) => record.id !== candidateRecords[index].id)) errors.push("NSC/DC follow-up candidates are not stored in chronological order");
+}
+
 const nscDcMeetings = data.nscCollections?.find((collection) => collection.id === "nsc-dc-meetings");
 if (!nscDcMeetings) {
   errors.push("NSC/DC Meetings collection is missing");
@@ -163,6 +218,7 @@ const report = {
   locators: data.records.filter((record) => record.sourceNoteStatus === "locator").length,
   withheldItems: data.records.filter((record) => record.releaseStatus === "Withheld").length,
   nscCollections: data.nscCollections?.length || 0,
+  nscDcFollowUpFileUnits: nscDcFollowUp?.fileUnits.length || 0,
   nscDcMeetingFileUnits: nscDcMeetings?.fileUnits.length || 0,
   nscMeetingFileUnits: nscMeetings?.fileUnits.length || 0,
   timDealFileUnits: timDeal?.fileUnits.length || 0,

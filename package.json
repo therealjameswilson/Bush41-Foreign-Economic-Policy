@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "harvest:nsc-dc-follow-up": "node scripts/harvest-nsc-dc-follow-up.js",
     "harvest:nsc-dc-meetings": "node scripts/harvest-nsc-dc-meetings.js",
     "harvest:nsc-meetings": "node scripts/harvest-nsc-meetings.js",
     "harvest:tim-deal": "node scripts/harvest-tim-deal.js",
     "build:data": "node scripts/build-data.js",
     "validate": "node scripts/validate-data.js",
     "check:links": "node scripts/check-links.js",
-    "check": "node --check app.js && node --check scripts/build-data.js && node --check scripts/harvest-nsc-dc-meetings.js && node --check scripts/nsc-dc-candidate-config.js && node --check scripts/validate-data.js && node --check scripts/check-links.js && npm run validate"
+    "check": "node --check app.js && node --check scripts/build-data.js && node --check scripts/harvest-nsc-dc-follow-up.js && node --check scripts/nsc-dc-follow-up-candidate-config.js && node --check scripts/harvest-nsc-dc-meetings.js && node --check scripts/nsc-dc-candidate-config.js && node --check scripts/validate-data.js && node --check scripts/check-links.js && npm run validate"
   }
 }

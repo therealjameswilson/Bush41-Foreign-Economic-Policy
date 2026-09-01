@@ -15,15 +15,16 @@ The official volume is currently [Being Researched](https://history.state.gov/hi
 
 ## NSC staff files
 
-The collection workbench currently includes three complete Catalog series:
+The collection workbench currently includes four complete Catalog series:
 
+- [H-Files - National Security Council/Deputies Committee Meetings Follow-up Files](https://catalog.archives.gov/id/312294094): all 112 file units and all 112 official PDFs, totaling 1,887 served-PDF pages. Every opening provenance sheet and full OCR transcript was checked. Withdrawal-sheet and content review surfaces 29 pertinent files totaling 628 PDF pages: 8 direct Volume XXX leads and 21 cross-volume boundary leads. Notes identify companion main meeting packets and preserve source-documented corrections to several Catalog or folder dates.
 - [H-Files - National Security Council/Deputies Committee Meetings Files](https://catalog.archives.gov/id/312294079): all 492 file units, including 479 online PDFs and 13 catalog-only files. All 479 opening provenance sheets were checked; two Folder IDs are corrected by hand on the marker. A complete title and OCR sweep surfaces 79 pertinent files totaling 5,995 PDF pages: 47 direct Volume XXX leads and 32 cross-volume boundary leads.
 - [H-Files - National Security Council Meeting Files](https://catalog.archives.gov/id/312293887): all 90 file units, with all 90 opening provenance sheets verified. A title review and full-series economic OCR sweep surface 35 pertinent files totaling 1,854 PDF pages: 13 direct Volume XXX leads and 22 cross-volume boundary leads.
 - [Timothy E. Deal Subject Files](https://catalog.archives.gov/id/2554810): all 134 file units in working chronological order, plus a document-level chronology for the PDFs audited to date.
 
 Collection tabs keep each series' candidate chronology, provenance accounting, filterable full-series ledger, official links, and CSV exports together. The same interface can accept additional NSC collections without collapsing their archival identities.
 
-The first page of each PDF is treated as the provenance authority. A Source Note is marked verified only after that marker and the document's terminal classification have been checked. The 79 NSC/DC and 35 NSC Meetings entries remain archival locators because the documents inside have not yet received that item-level review. One Tim Deal PDF lacks the opening marker and is kept as a catalog-derived locator. OCR-derived date spans and search hits are triage aids, not document-level findings.
+The first page of each PDF is treated as the provenance authority. A Source Note is marked verified only after that marker and the document's terminal classification have been checked. The 29 follow-up, 79 NSC/DC, and 35 NSC Meetings entries remain archival locators because the documents inside have not yet received that item-level review. One Tim Deal PDF lacks the opening marker and is kept as a catalog-derived locator. OCR-derived search hits are triage aids, not document-level findings; working dates are changed only where a withdrawal or meeting sheet in the official PDF supplies the date or corrects an evident folder error.
 
 ## Chapter plan
 
@@ -37,9 +38,10 @@ NAFTA and the central Canada/Mexico record are retained in a boundary queue beca
 
 ## Build and validate
 
-The checked-in site is static. To refresh the three NSC series from NARA, then rebuild the generated data from the collection files and adjacent Western Europe presidential-conversation register:
+The checked-in site is static. To refresh the four NSC series from NARA, then rebuild the generated data from the collection files and adjacent Western Europe presidential-conversation register:
 
 ```sh
+npm run harvest:nsc-dc-follow-up
 npm run harvest:nsc-dc-meetings
 npm run harvest:nsc-meetings
 npm run harvest:tim-deal
