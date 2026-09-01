@@ -28,7 +28,7 @@ for (const record of data.records) {
   } else {
     if (!record.sourceNote?.startsWith("Source: George H.W. Bush Library,")) errors.push(`${record.id}: Source Note does not begin in project FRUS style`);
     if (/https?:|NARA Catalog ID|Digital object:/i.test(record.sourceNote)) errors.push(`${record.id}: URL or catalog metadata leaked into Source Note prose`);
-    if (!/(?:Top Secret|Secret|Confidential|Unclassified|No classification marking)(?:; (?:Exdis|Nodis|Limited Access))?\.$|the attachment is Confidential\.$/i.test(record.sourceNote)) {
+    if (!/(?:Top Secret|Secret|Confidential|Unclassified|No classification marking)(?:; (?:Exdis|Nodis|Limited Access|Noforn))?\.$|the attachment is Confidential\.$/i.test(record.sourceNote)) {
       errors.push(`${record.id}: Source Note lacks terminal classification sentence`);
     }
     if (/OA\/ID [A-Z0-9]+-[A-Z0-9]+/.test(record.sourceNote)) errors.push(`${record.id}: OA/ID uses a hyphen instead of an en dash`);
@@ -816,49 +816,74 @@ if (!gatesMiddleEast) {
   errors.push("Gates Middle East selected-file audit is missing");
 } else {
   if (data.nscCollections.at(-1)?.id !== "gates-middle-east") errors.push("Gates Middle East tab is not last in the NSC collection sequence");
-  if (gatesMiddleEast.naid !== "2554843" || gatesMiddleEast.fileUnitCount !== 1 || gatesMiddleEast.fileUnits.length !== 1) {
+  if (gatesMiddleEast.naid !== "2554843" || gatesMiddleEast.fileUnitCount !== 2 || gatesMiddleEast.fileUnits.length !== 2) {
     errors.push("Gates Middle East collection or selected-file count changed");
   }
-  if (gatesMiddleEast.markerVerified !== 1 || gatesMiddleEast.markerExceptionCount !== 0 || gatesMiddleEast.totalPdfPages !== 125) {
+  if (gatesMiddleEast.markerVerified !== 2 || gatesMiddleEast.markerExceptionCount !== 0 || gatesMiddleEast.totalPdfPages !== 250) {
     errors.push("Gates Middle East provenance or PDF-page totals changed");
   }
-  if (gatesMiddleEast.candidateCount !== 11 || gatesMiddleEast.candidateIds.length !== 11 || gatesMiddleEast.auditedFolders.length !== 1) {
-    errors.push("Gates Middle East candidate or audited-folder count is not 11 and 1");
+  if (gatesMiddleEast.candidateCount !== 21 || gatesMiddleEast.candidateIds.length !== 21 || gatesMiddleEast.auditedFolders.length !== 2) {
+    errors.push("Gates Middle East candidate or audited-folder count is not 21 and 2");
   }
   if (gatesMiddleEast.candidateIds.some((id) => !ids.has(id))) errors.push("Gates Middle East candidate ID is missing from the master chronology");
   const candidateRecords = gatesMiddleEast.candidateIds.map((id) => data.records.find((record) => record.id === id)).filter(Boolean);
-  if (candidateRecords.some((record) => record.collectionId !== "gates-middle-east" || record.naid !== "470437043" || record.sourceNoteStatus !== "verified")) {
+  if (candidateRecords.some((record) => record.collectionId !== "gates-middle-east" || !["470437043", "470437044"].includes(record.naid) || record.sourceNoteStatus !== "verified")) {
     errors.push("Gates Middle East candidate provenance state changed");
   }
-  const gatesSourceStem = "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert M. Gates Files, Subject Files, OA/ID CF00946–002, Middle East - Economic Strategy [1]. ";
-  if (candidateRecords.some((record) => !record.sourceNote.startsWith(gatesSourceStem))) errors.push("Gates Middle East Source Note does not follow the checked FRUS-style provenance stem");
-  if (candidateRecords.reduce((total, record) => total + record.pageCount, 0) !== 56) errors.push("Gates Middle East candidate page total is not 56");
-  if (candidateRecords.filter((record) => record.selection === "Core").length !== 6 || candidateRecords.filter((record) => record.selection === "Consider").length !== 5) {
+  const gatesSourceStems = {
+    "470437043": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert M. Gates Files, Subject Files, OA/ID CF00946–002, Middle East - Economic Strategy [1]. ",
+    "470437044": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert M. Gates Files, Subject Files, OA/ID CF00946–003, Middle East - Economic Strategy [2]. ",
+  };
+  if (candidateRecords.some((record) => !record.sourceNote.startsWith(gatesSourceStems[record.naid]))) errors.push("Gates Middle East Source Note does not follow its checked FRUS-style provenance stem");
+  if (candidateRecords.reduce((total, record) => total + record.pageCount, 0) !== 137) errors.push("Gates Middle East candidate page total is not 137");
+  if (candidateRecords.filter((record) => record.selection === "Core").length !== 12 || candidateRecords.filter((record) => record.selection === "Consider").length !== 9) {
     errors.push("Gates Middle East Core or Consider candidate counts changed");
   }
-  const gatesFile = gatesMiddleEast.fileUnits[0];
-  if (gatesFile.naid !== "470437043" || gatesFile.localId !== "CF00946-002" || gatesFile.pdfPages !== 125 || gatesFile.ledgerLabel !== "opening inventory") {
+  if (candidateRecords.filter((record) => record.releaseStatus === "Released in part").length !== 4 || candidateRecords.filter((record) => record.releaseStatus === "Withheld").length !== 2) {
+    errors.push("Gates Middle East released-in-part or withheld candidate counts changed");
+  }
+  const gatesFile = gatesMiddleEast.fileUnits.find((row) => row.naid === "470437043");
+  if (!gatesFile || gatesFile.localId !== "CF00946-002" || gatesFile.pdfPages !== 125 || gatesFile.ledgerLabel !== "opening inventory") {
     errors.push("Gates Middle East file-unit identity or audit label changed");
+  } else {
+    const inventory = gatesFile.withdrawalItems || [];
+    if (inventory.length !== 23 || inventory.reduce((total, item) => total + item.pages, 0) !== 113 || inventory.some((item) => !item.pdfPageRange)) {
+      errors.push("Gates Middle East [1] opening inventory does not reconcile to 113 document pages");
+    }
+    const releasedInPart = inventory.filter((item) => /released in part/i.test(item.sheetDisposition || ""));
+    if (releasedInPart.length !== 2 || releasedInPart.map((item) => item.itemNumber).join(",") !== "05a,05c") {
+      errors.push("Gates Middle East [1] partial-release accounting changed");
+    }
+    const accounting = gatesFile.pageAccounting || {};
+    const accountedPages = [
+      accounting.openingMarkerPages,
+      accounting.openingInventoryPages,
+      accounting.laterIndividualSheetPages,
+      accounting.listedDocumentPages,
+      accounting.unlistedTreasuryDocumentPages,
+      accounting.unlistedNscAdministrativePages,
+    ].reduce((total, pages) => total + (pages || 0), 0);
+    if (accountedPages !== 125 || accounting.totalPdfPages !== 125) errors.push("Gates Middle East [1] served-PDF page accounting does not total 125");
   }
-  const inventory = gatesFile.withdrawalItems || [];
-  if (inventory.length !== 23 || inventory.reduce((total, item) => total + item.pages, 0) !== 113 || inventory.some((item) => !item.pdfPageRange)) {
-    errors.push("Gates Middle East 23-item opening inventory does not reconcile to 113 document pages");
+  const gatesFile2 = gatesMiddleEast.fileUnits.find((row) => row.naid === "470437044");
+  if (!gatesFile2 || gatesFile2.localId !== "CF00946-003" || gatesFile2.pdfPages !== 125 || gatesFile2.ledgerLabel !== "document-set ledger") {
+    errors.push("Gates Middle East [2] file-unit identity or audit label changed");
+  } else {
+    const documentSets = gatesFile2.withdrawalItems || [];
+    if (documentSets.length !== 18 || documentSets.reduce((total, item) => total + item.pages, 0) !== 119 || gatesFile2.ledgerPageTotal !== 119 || documentSets.some((item) => !item.pdfPageRange || !item.extentLabel)) {
+      errors.push("Gates Middle East [2] document-set ledger does not reconcile to 119 served pages");
+    }
+    const accounting = gatesFile2.pageAccounting || {};
+    const accountedPages = accounting.openingMarkerPages + accounting.withdrawalSheetPages + accounting.servedDocumentAdministrativeAndNotePages;
+    if (accountedPages !== 125 || accounting.totalPdfPages !== 125 || accounting.logicalWithheldDocumentPages !== 12) {
+      errors.push("Gates Middle East [2] served and logical page accounting changed");
+    }
   }
-  const releasedInPart = inventory.filter((item) => /released in part/i.test(item.sheetDisposition || ""));
-  if (releasedInPart.length !== 2 || releasedInPart.map((item) => item.itemNumber).join(",") !== "05a,05c") {
-    errors.push("Gates Middle East partial-release accounting changed");
+  const secondFileCandidates = candidateRecords.filter((record) => record.naid === "470437044");
+  if (secondFileCandidates.length !== 10 || secondFileCandidates.reduce((total, record) => total + record.pageCount, 0) !== 81) {
+    errors.push("Gates Middle East [2] candidate count or logical page total changed");
   }
-  const accounting = gatesFile.pageAccounting || {};
-  const accountedPages = [
-    accounting.openingMarkerPages,
-    accounting.openingInventoryPages,
-    accounting.laterIndividualSheetPages,
-    accounting.listedDocumentPages,
-    accounting.unlistedTreasuryDocumentPages,
-    accounting.unlistedNscAdministrativePages,
-  ].reduce((total, pages) => total + (pages || 0), 0);
-  if (accountedPages !== 125 || accounting.totalPdfPages !== 125) errors.push("Gates Middle East served-PDF page accounting does not total 125");
-  if (gatesMiddleEast.candidateIds.some((id) => /-(?:08a|08b|10|10a|10b|10c|10d)$/.test(id))) {
+  if (gatesMiddleEast.candidateIds.some((id) => /^gates-470437043-(?:08a|08b|10|10a|10b|10c|10d)$/.test(id))) {
     errors.push("Gates Middle East version or H-Files duplicate was promoted to the chronology");
   }
 }

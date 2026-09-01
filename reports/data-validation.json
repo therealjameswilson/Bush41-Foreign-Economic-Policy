@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-09-01T06:52:48.287Z",
-  "records": 510,
-  "verifiedSourceNotes": 45,
+  "checkedAt": "2026-09-01T07:23:30.113Z",
+  "records": 520,
+  "verifiedSourceNotes": 55,
   "draftSourceNotes": 1,
   "locators": 464,
-  "withheldItems": 13,
+  "withheldItems": 15,
   "nscCollections": 12,
   "scowcroftFileUnits": 676,
   "dealSummitFileUnits": 17,
@@ -17,7 +17,7 @@
   "nscDcMeetingFileUnits": 492,
   "nscMeetingFileUnits": 90,
   "timDealFileUnits": 134,
-  "gatesMiddleEastFileUnits": 1,
+  "gatesMiddleEastFileUnits": 2,
   "errors": [],
   "warnings": []
 }

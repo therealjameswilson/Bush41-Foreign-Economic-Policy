@@ -247,9 +247,10 @@ function renderRecords(records) {
 
 function summaryText(records) {
   const released = records.filter((record) => record.releaseStatus === "Released").length;
+  const releasedInPart = records.filter((record) => record.releaseStatus === "Released in part").length;
   const withheld = records.filter((record) => record.releaseStatus === "Withheld").length;
   const verified = records.filter((record) => record.sourceNoteStatus === "verified").length;
-  return `${records.length} ${plural(records.length, "record")} shown; ${released} ${plural(released, "released document")}; ${withheld} ${plural(withheld, "separately identified withheld item")}; ${verified} ${plural(verified, "verified Source Note")}.`;
+  return `${records.length} ${plural(records.length, "record")} shown; ${released} ${plural(released, "released document")}; ${releasedInPart} released in part; ${withheld} ${plural(withheld, "separately identified withheld item")}; ${verified} ${plural(verified, "verified Source Note")}.`;
 }
 
 function createRecordRow(record, idPrefix = "") {
@@ -366,23 +367,25 @@ function createWithdrawalLedger(record) {
   const details = document.createElement("details");
   details.className = "withdrawal-ledger";
   const summary = document.createElement("summary");
-  const total = record.withdrawalItems.reduce((sum, item) => sum + item.pages, 0);
+  const total = record.ledgerPageTotal ?? record.withdrawalItems.reduce((sum, item) => sum + item.pages, 0);
   summary.textContent = `${record.withdrawalItems.length}-item ${record.ledgerLabel || "withdrawal ledger"} (${total} pages)`;
   const tableWrap = document.createElement("div");
   tableWrap.className = "table-wrap";
   const table = document.createElement("table");
   const showDate = record.withdrawalItems.some((item) => item.date);
+  const showExtent = record.withdrawalItems.some((item) => item.extentLabel);
   const showPdfPages = record.withdrawalItems.some((item) => item.pdfPageRange);
   const showRestriction = record.withdrawalItems.some((item) => item.restriction);
   const showDisposition = record.withdrawalItems.some(
     (item) => item.sheetDisposition || item.canonicalMatch || item.possibleDuplicateMatch || item.crossCollectionMatch,
   );
+  if (showDisposition) table.classList.add("has-disposition");
   const headings = ["Item", "Description"];
   if (showPdfPages) headings.push("PDF pages");
   if (showDate) headings.push("Date");
   if (showRestriction) headings.push("Restriction");
   if (showDisposition) headings.push("Sheet disposition and duplicate check");
-  headings.push("Marking", "Pages");
+  headings.push("Marking", showExtent ? "Extent" : "Pages");
   table.innerHTML = `<thead><tr>${headings.map((heading) => `<th>${heading}</th>`).join("")}</tr></thead>`;
   const tbody = document.createElement("tbody");
   record.withdrawalItems.forEach((item) => {
@@ -398,7 +401,7 @@ function createWithdrawalLedger(record) {
           .join("; ") || "Not stated",
       );
     }
-    cells.push(item.classification, item.pages);
+    cells.push(item.classification, showExtent ? item.extentLabel || `${item.pages} pages` : item.pages);
     tr.innerHTML = cells.map((value) => `<td>${escapeHtml(value)}</td>`).join("");
     tbody.append(tr);
   });

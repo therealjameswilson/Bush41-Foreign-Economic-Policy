@@ -30,6 +30,7 @@ const dealReissFileUnitsPath = path.join(root, "data", "deal-reiss-file-units.js
 const dealChronCandidatesPath = path.join(root, "data", "deal-chron-candidates.json");
 const dealChronFileUnitsPath = path.join(root, "data", "deal-chron-file-units.json");
 const gatesMiddleEastAudit = require("./gates-middle-east-file-audit");
+const gatesMiddleEastAudit2 = require("./gates-middle-east-file-2-audit");
 
 if (!fs.existsSync(westernEuropePath)) {
   throw new Error(`Missing source register: ${westernEuropePath}`);
@@ -768,7 +769,7 @@ const sourceCollections = [
   {
     name: "Robert M. Gates Subject Files",
     owner: "National Archives Catalog",
-    role: "Selected 125-page Middle East - Economic Strategy [1] file audit with complete page accounting, item-level release evidence, and cross-collection duplicate review; not a full-series survey",
+    role: "Selected 250-page Middle East - Economic Strategy [1]-[2] companion-folder audit with complete page accounting, item-level release evidence, withheld extents, and cross-collection duplicate review; not a full-series survey",
     url: "https://catalog.archives.gov/id/2554843",
   },
   {
@@ -898,14 +899,14 @@ const gaps = [
     priority: "High",
     title: "Most online file units still lack document-boundary audits",
     scope: "Online NARA PDFs",
-    action: "Audit the 95 Scowcroft, 4 IF Transition, 33 NSD, 21 NSR, 79 NSC/Deputies Committee, 29 DC follow-up, 35 NSC Meetings, 17 Deal Summit Briefing Books, 25 Deal-Reiss Economic Summit, and 96 Deal Chronological leads document by document, then continue the Tim Deal Subject Files workflow across the remaining 131 file units and the Gates Subject Files beyond the completed CF00946-002 audit: split documents, verify markings, deduplicate companion and parallel copies, and retain exact withdrawal extents.",
+    action: "Audit the 95 Scowcroft, 4 IF Transition, 33 NSD, 21 NSR, 79 NSC/Deputies Committee, 29 DC follow-up, 35 NSC Meetings, 17 Deal Summit Briefing Books, 25 Deal-Reiss Economic Summit, and 96 Deal Chronological leads document by document, then continue the Tim Deal Subject Files workflow across the remaining 131 file units and the Gates Subject Files beyond the completed CF00946-002 and CF00946-003 audits: split documents, verify markings, deduplicate companion and parallel copies, and retain exact withdrawal extents.",
   },
   {
     id: "gap-gates-subject-files",
     priority: "High",
     title: "Robert M. Gates Subject Files coverage is currently a selected-file audit",
     scope: "NSC staff files",
-    action: "Enumerate the full NAID 2554843 series, prioritize neighboring Middle East - Economic Strategy files and international-economic subject folders, and apply the same page accounting and controlling-copy review used for CF00946-002.",
+    action: "Enumerate the full NAID 2554843 series, prioritize additional international-economic subject folders beyond the completed Middle East - Economic Strategy [1]-[2] pair, and apply the same page accounting and controlling-copy review used for CF00946-002 and CF00946-003.",
   },
   {
     id: "gap-memcons",
@@ -943,7 +944,25 @@ const timDealDocumentRecords = timDealCandidates.documents.map((record) => ({
   provenanceMethod: "Opening PDF provenance marker",
 }));
 
-const gatesMiddleEastDocumentRecords = gatesMiddleEastAudit.documents;
+const gatesMiddleEastDocumentRecords = [...gatesMiddleEastAudit.documents, ...gatesMiddleEastAudit2.documents].sort(
+  (a, b) => a.sortDate.localeCompare(b.sortDate) || a.title.localeCompare(b.title),
+);
+const gatesMiddleEastFileUnits = [gatesMiddleEastAudit.fileUnit, gatesMiddleEastAudit2.fileUnit].sort(
+  (a, b) => a.workingStartDate.localeCompare(b.workingStartDate) || a.localId.localeCompare(b.localId),
+);
+const gatesMiddleEastCollection = {
+  ...gatesMiddleEastAudit.collection,
+  title: "Robert M. Gates Subject Files: Middle East Economic Strategy [1]-[2]",
+  inclusiveDates: "1990-08-20/1990-09-20",
+  fileUnitCount: gatesMiddleEastFileUnits.length,
+  onlinePdfCount: gatesMiddleEastFileUnits.length,
+  markerVerified: gatesMiddleEastFileUnits.filter((row) => row.markerStatus === "verified").length,
+  totalPdfBytes: gatesMiddleEastFileUnits.reduce((total, row) => total + row.pdfBytes, 0),
+  totalCatalogPdfBytes: gatesMiddleEastFileUnits.reduce((total, row) => total + row.catalogPdfBytes, 0),
+  totalPdfPages: gatesMiddleEastFileUnits.reduce((total, row) => total + row.pdfPages, 0),
+  methodology:
+    "Selected-file audit only. The first page of each PDF controls provenance. Every served-PDF page in the two companion folders was mapped to a document, working-note set, administrative page, inventory, or withdrawal sheet; candidates were deduplicated across the Gates pair and against the harvested Deal Chronological, Scowcroft Desert Shield, and H-Files collections.",
+};
 
 const nscMeetingUnitByNaid = new Map(nscMeetingsFileUnits.fileUnits.map((fileUnit) => [fileUnit.naid, fileUnit]));
 const existingLeadByNaid = new Map(leadRecords.map((record) => [record.naid, record]));
@@ -1649,29 +1668,29 @@ const data = {
     },
     {
       id: "gates-middle-east",
-      ...gatesMiddleEastAudit.collection,
+      ...gatesMiddleEastCollection,
       statusLabel: "Selected Robert M. Gates Subject Files audit",
       intro:
-        "One 125-page Gates Subject Files folder has been audited page by page as a compiler-ready test case. Eleven dated documents are promoted with verified FRUS-style Source Notes; the complete 23-item opening inventory remains visible with page ranges, release disposition, and duplicate-copy warnings. This tab does not imply full coverage of the Gates series.",
+        "Two companion Gates Subject Files folders, totaling 250 served-PDF pages, have been audited page by page. Twenty-one document candidates are promoted with verified FRUS-style Source Notes; the file ledgers preserve every page, release sheet, withheld extent, version, and duplicate-copy warning. This tab does not imply full coverage of the Gates series.",
       provenanceTitle: "Opening PDF provenance marker and complete page accounting",
-      markerMetricDetail: "1 complete; 0 opening-marker exceptions; every served-PDF page assigned",
-      corpusSizeNote: "125 served-PDF pages; Catalog metadata is one byte larger than the measured file",
+      markerMetricDetail: "2 complete; 0 opening-marker exceptions; every served-PDF page assigned",
+      corpusSizeNote: "250 served-PDF pages; Catalog metadata is one byte larger than each measured file",
       provenanceQualifier:
-        "The opening marker identifies Gates, Robert M., Files; Subject Files; and Folder ID CF00946-002. Published FRUS form is used in the document Source Notes as Robert M. Gates Files, Subject Files. The 23 listed items account for 113 document pages; three later release sheets, one three-page unlisted Treasury set, and two unlisted NSC administrative pages are separately disclosed.",
+        "The opening markers identify Gates, Robert M., Files; Subject Files; and Folder IDs CF00946-002 and CF00946-003. Published FRUS form is used in the document Source Notes as Robert M. Gates Files, Subject Files. The first folder retains its complete 23-item opening inventory. The second has no opening inventory, so its 119 served document, administrative, and working-note pages are reconstructed as an 18-set ledger alongside five withdrawal sheets and 12 logical pages not served.",
       markerFieldSummary: "the record group, office, Gates series, Subject Files subseries, and folder ID",
       candidateLabel: "Gates document candidates",
       candidateTitle: "Middle East Economic Strategy Document Chronology",
       candidateSummary:
-        "11 dated document candidates totaling 56 pages, ordered by document date: 6 Core and 5 Consider. All 11 headings, datelines, document boundaries, terminal markings, and Source Notes have been checked against the source images. The duplicate August 29 NSC packet remains in the file ledger and points to the H-Files instead of appearing here a second time.",
-      auditScope: "Complete page-level audit of NAID 470437043 only",
-      auditedFolders: ["CF00946-002"],
+        "21 document candidates totaling 137 logical pages, ordered by exact date or disclosed working placement: 12 Core and 9 Consider. All 21 headings, datelines, extents, terminal markings, and Source Notes have been checked against the source images. Parallel Gates, Deal, Scowcroft, and H-Files copies remain one intellectual record with alternate provenance disclosed instead of appearing repeatedly.",
+      auditScope: "Complete page-level audit of NAIDs 470437043 and 470437044",
+      auditedFolders: ["CF00946-002", "CF00946-003"],
       candidateCount: gatesMiddleEastDocumentRecords.length,
       candidateIds: gatesMiddleEastDocumentRecords.map((record) => record.id),
-      fileUnits: [gatesMiddleEastAudit.fileUnit],
-      candidateMethodology: gatesMiddleEastAudit.collection.methodology,
+      fileUnits: gatesMiddleEastFileUnits,
+      candidateMethodology: gatesMiddleEastCollection.methodology,
       candidateCsvUrl: "data/gates-middle-east-candidates.csv",
       fileUnitsCsvUrl: "data/gates-middle-east-file-units.csv",
-      reportUrl: "reports/gates-middle-east-470437043-audit.json",
+      reportUrl: "reports/gates-middle-east-audit.json",
     },
   ],
   publicReferences: publicReferences.sort((a, b) => a.date.localeCompare(b.date)),
@@ -1687,19 +1706,41 @@ fs.writeFileSync(path.join(dataDir, "volume.js"), `window.VOLUME_DATA = ${JSON.s
 fs.writeFileSync(
   path.join(dataDir, "gates-middle-east-candidates.json"),
   `${JSON.stringify({
-    auditScope: "Complete page-level audit of NAID 470437043 only",
-    auditedFolders: ["CF00946-002"],
-    methodology: gatesMiddleEastAudit.collection.methodology,
+    auditScope: "Complete page-level audit of NAIDs 470437043 and 470437044",
+    auditedFolders: ["CF00946-002", "CF00946-003"],
+    methodology: gatesMiddleEastCollection.methodology,
     documents: gatesMiddleEastDocumentRecords,
   }, null, 2)}\n`,
 );
 fs.writeFileSync(
   path.join(dataDir, "gates-middle-east-file-units.json"),
-  `${JSON.stringify({ collection: gatesMiddleEastAudit.collection, fileUnits: [gatesMiddleEastAudit.fileUnit] }, null, 2)}\n`,
+  `${JSON.stringify({ collection: gatesMiddleEastCollection, fileUnits: gatesMiddleEastFileUnits }, null, 2)}\n`,
 );
 fs.writeFileSync(
   path.join(root, "reports", "gates-middle-east-470437043-audit.json"),
   `${JSON.stringify(gatesMiddleEastAudit.audit, null, 2)}\n`,
+);
+fs.writeFileSync(
+  path.join(root, "reports", "gates-middle-east-470437044-audit.json"),
+  `${JSON.stringify(gatesMiddleEastAudit2.audit, null, 2)}\n`,
+);
+fs.writeFileSync(
+  path.join(root, "reports", "gates-middle-east-audit.json"),
+  `${JSON.stringify({
+    auditScope: "Complete page-level audit of NAIDs 470437043 and 470437044",
+    collection: gatesMiddleEastCollection,
+    candidateAccounting: {
+      documentCandidates: gatesMiddleEastDocumentRecords.length,
+      candidatePages: gatesMiddleEastDocumentRecords.reduce((total, row) => total + row.pageCount, 0),
+      core: gatesMiddleEastDocumentRecords.filter((row) => row.selection === "Core").length,
+      consider: gatesMiddleEastDocumentRecords.filter((row) => row.selection === "Consider").length,
+      released: gatesMiddleEastDocumentRecords.filter((row) => row.releaseStatus === "Released").length,
+      releasedInPart: gatesMiddleEastDocumentRecords.filter((row) => row.releaseStatus === "Released in part").length,
+      withheld: gatesMiddleEastDocumentRecords.filter((row) => row.releaseStatus === "Withheld").length,
+      verifiedSourceNotes: gatesMiddleEastDocumentRecords.filter((row) => row.sourceNoteStatus === "verified").length,
+    },
+    files: [gatesMiddleEastAudit.audit, gatesMiddleEastAudit2.audit],
+  }, null, 2)}\n`,
 );
 fs.writeFileSync(path.join(dataDir, "records.csv"), toCsv(allRecords, [
   "id",
@@ -2480,11 +2521,11 @@ fs.writeFileSync(path.join(dataDir, "gates-middle-east-candidates.csv"), toCsv(g
   "catalogUrl",
   "pdfUrl",
 ]));
-fs.writeFileSync(path.join(dataDir, "gates-middle-east-file-units.csv"), toCsv([{
-  ...flattenFileUnit(gatesMiddleEastAudit.fileUnit),
-  pageAccounting: JSON.stringify(gatesMiddleEastAudit.fileUnit.pageAccounting),
-  withdrawalInventory: JSON.stringify(gatesMiddleEastAudit.fileUnit.withdrawalItems),
-}], [
+fs.writeFileSync(path.join(dataDir, "gates-middle-east-file-units.csv"), toCsv(gatesMiddleEastFileUnits.map((fileUnit) => ({
+  ...flattenFileUnit(fileUnit),
+  pageAccounting: JSON.stringify(fileUnit.pageAccounting),
+  withdrawalInventory: JSON.stringify(fileUnit.withdrawalItems),
+})), [
   "naid",
   "workingStartDate",
   "workingEndDate",

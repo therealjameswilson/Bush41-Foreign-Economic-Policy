@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-09-01T06:52:23.380Z",
-  "total": 3780,
-  "ok": 3780,
+  "checkedAt": "2026-09-01T07:22:52.455Z",
+  "total": 3782,
+  "ok": 3782,
   "blocked": 0,
   "failed": 0,
   "blockedResults": [],
@@ -6948,6 +6948,12 @@
       "ok": true,
       "status": 200,
       "finalUrl": "https://catalog.archives.gov/id/470437043"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470437044",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470437044"
     },
     {
       "url": "https://catalog.archives.gov/id/470760855",
@@ -17292,6 +17298,12 @@
       "ok": true,
       "status": 200,
       "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/gates/subject_2554843/41-bpr-nsc-gates-subj-cf00946-002.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/gates/subject_2554843/41-bpr-nsc-gates-subj-cf00946-003.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/gates/subject_2554843/41-bpr-nsc-gates-subj-cf00946-003.pdf"
     },
     {
       "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/IF_Transition_348937136/41-bpr-nsc-hfiles-if_trans-99015-001.pdf",

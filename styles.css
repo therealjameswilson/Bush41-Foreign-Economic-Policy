@@ -1416,6 +1416,25 @@ h1 {
   cursor: pointer;
 }
 
+.withdrawal-ledger table {
+  min-width: 1320px;
+}
+
+.withdrawal-ledger th:nth-child(2),
+.withdrawal-ledger td:nth-child(2) {
+  min-width: 220px;
+}
+
+.withdrawal-ledger table.has-disposition th:nth-last-child(3),
+.withdrawal-ledger table.has-disposition td:nth-last-child(3) {
+  min-width: 320px;
+}
+
+.withdrawal-ledger th:last-child,
+.withdrawal-ledger td:last-child {
+  min-width: 190px;
+}
+
 .subject-lead-ledger {
   min-width: 0;
   max-width: 100%;

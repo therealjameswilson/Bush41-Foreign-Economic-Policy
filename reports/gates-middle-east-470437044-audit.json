@@ -1,0 +1,301 @@
+{
+  "record": {
+    "naid": "470437044",
+    "title": "Middle East - Economic Strategy [2]",
+    "localId": "CF00946-003",
+    "parentSeriesNaid": "2554843",
+    "parentSeriesTitle": "Robert M. Gates' Subject Files",
+    "objectId": "651326574",
+    "catalogUrl": "https://catalog.archives.gov/id/470437044",
+    "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/gates/subject_2554843/41-bpr-nsc-gates-subj-cf00946-003.pdf",
+    "pdfSha256": "7ef85cca3642ffe530c935c12be2122676387cb54c1ed5f9f8e56a52bdae2784",
+    "catalogPdfBytes": 57508816,
+    "servedPdfBytes": 57508815,
+    "servedPdfPages": 125,
+    "imageOnly": true
+  },
+  "provenance": {
+    "markerStatus": "verified",
+    "markerSeries": "Gates, Robert M., Files",
+    "markerSubseries": "Subject Files",
+    "markerFolderId": "CF00946-003",
+    "archivalLocator": "George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert M. Gates Files, Subject Files, OA/ID CF00946–003, Middle East - Economic Strategy [2].",
+    "provenanceStem": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert M. Gates Files, Subject Files, OA/ID CF00946–003, Middle East - Economic Strategy [2]."
+  },
+  "pageAccounting": {
+    "openingMarkerPages": 1,
+    "withdrawalSheetPages": 5,
+    "servedDocumentAdministrativeAndNotePages": 119,
+    "logicalWithheldDocumentPages": 12,
+    "totalPdfPages": 125
+  },
+  "releaseAccounting": {
+    "servedDocumentAdministrativeAndNotePages": 119,
+    "withdrawalSheets": 5,
+    "releasedInPartDocumentSets": 3,
+    "sheetOnlyWithheldDocuments": 2,
+    "sheetOnlyWithheldDocumentPages": 8,
+    "withheldAppendixPages": 4
+  },
+  "candidateAccounting": {
+    "documentCandidates": 10,
+    "candidatePages": 81,
+    "core": 6,
+    "consider": 4,
+    "released": 5,
+    "releasedInPart": 3,
+    "withheld": 2,
+    "verifiedSourceNotes": 10
+  },
+  "duplicateReview": [
+    "PDF pages 2-20 are a duplicate or parallel August 29 NSC economic-action packet. The chronology points to the H-Files meeting records and retains this copy only in the ledger.",
+    "The Pilling memorandum and attachments appear twice in this Gates folder and once in Scowcroft OA/ID 91143-008. Only the annotated Gates copy is promoted.",
+    "The Welch and Baker Egypt-debt memoranda have released Scowcroft parallel copies. Each remains one intellectual chronology record with alternate-copy provenance disclosed.",
+    "The Deal transmittal and 52-page report have matching withdrawal descriptions in Deal Chronological OA/ID CF00697-002. The Gates file supplies the released text; the transmittal recipient mismatch is preserved.",
+    "The August 24 work program has a clean copy and an annotated copy with working notes in this folder. Only the clean dated copy is promoted.",
+    "The seven-page Mosbacher memorandum has withdrawal sheets in both Gates and Deal files. They are deduplicated as one withheld intellectual record."
+  ],
+  "methodology": "Selected-file audit only. The first PDF page controls provenance. Every served-PDF page was assigned to a document set, working-note set, administrative page, or withdrawal sheet; candidates were then deduplicated against the companion Gates folder and the harvested Deal Chronological, Scowcroft Desert Shield, and H-Files collections.",
+  "inventory": [
+    {
+      "itemNumber": "Set A",
+      "type": "Parallel NSC packet",
+      "title": "August 29 NSC Economic Action Plan packet and burden-sharing charts",
+      "date": "8/28-8/29/90",
+      "classification": "Secret",
+      "pages": 19,
+      "extentLabel": "19 served PDF pages",
+      "pdfPageRange": "2-20",
+      "sheetDisposition": "Duplicate or parallel text appears in Middle East - Economic Strategy [1], the H-Files NSC0054 folders, and Deal's August 1990 Chronological file; retained in the ledger, not promoted again."
+    },
+    {
+      "itemNumber": "Set B",
+      "type": "Working notes",
+      "title": "Handwritten burden-sharing recipient notes",
+      "date": "n.d.",
+      "classification": "No classification marking",
+      "pages": 2,
+      "extentLabel": "2 served PDF pages",
+      "pdfPageRange": "21-22",
+      "sheetDisposition": "Retained as working notes; no formal heading or date established."
+    },
+    {
+      "itemNumber": "Set C",
+      "type": "Memo",
+      "title": "Timothy E. Deal to Robert Gates, Economic Assistance for Countries Affected by the Gulf Crisis",
+      "date": "8/27/90",
+      "classification": "Secret",
+      "pages": 2,
+      "extentLabel": "2 served document pages",
+      "pdfPageRange": "23-24",
+      "sheetDisposition": "Promoted as one chronology candidate; Deal Chronological recipient mismatch disclosed."
+    },
+    {
+      "itemNumber": "Admin",
+      "type": "Routing sheet",
+      "title": "NSC routing sheet for the August 27 Deal memorandum",
+      "date": "8/27/90",
+      "classification": "No classification marking",
+      "pages": 1,
+      "extentLabel": "1 served administrative page",
+      "pdfPageRange": "25",
+      "sheetDisposition": "Administrative page; not promoted separately."
+    },
+    {
+      "itemNumber": "10a-10b A",
+      "type": "Memo with attachment",
+      "title": "Cost of Middle East Operations, clean copy",
+      "date": "8/26/90",
+      "classification": "Secret",
+      "pages": 11,
+      "extentLabel": "11 served document pages",
+      "pdfPageRange": "26-36",
+      "sheetDisposition": "Duplicate copy in the same folder; retained in the ledger."
+    },
+    {
+      "itemNumber": "10a-10b B",
+      "type": "Memo with attachment",
+      "title": "Cost of Middle East Operations, annotated recipient copy",
+      "date": "8/26/90",
+      "classification": "Secret",
+      "pages": 11,
+      "extentLabel": "11 served document pages",
+      "pdfPageRange": "37-47",
+      "sheetDisposition": "Promoted as the controlling Gates chronology candidate; parallel Scowcroft copy disclosed."
+    },
+    {
+      "itemNumber": "Report",
+      "type": "Interagency report",
+      "title": "The Gulf Crisis: An Economic Action Plan",
+      "date": "n.d.",
+      "classification": "Secret",
+      "pages": 48,
+      "extentLabel": "48 released pages; 4-page Appendix 2 withheld",
+      "pdfPageRange": "48-96",
+      "restriction": "(b)(1) for Appendix 2",
+      "sheetDisposition": "Released in part. PDF page 93 is the sheet for the four-page Appendix 2; released report pages continue at pages 94-96."
+    },
+    {
+      "itemNumber": "Set D",
+      "type": "Working paper",
+      "title": "Status of Work on Military Components",
+      "date": "n.d.",
+      "classification": "Secret; Exdis",
+      "pages": 3,
+      "extentLabel": "3 served document and note pages",
+      "pdfPageRange": "97-99",
+      "sheetDisposition": "Retained as supporting working material; no author or date established."
+    },
+    {
+      "itemNumber": "Set E",
+      "type": "Draft",
+      "title": "Earlier Executive Summary draft",
+      "date": "n.d.",
+      "classification": "Confidential",
+      "pages": 7,
+      "extentLabel": "7 served document pages",
+      "pdfPageRange": "100-106",
+      "sheetDisposition": "Earlier version of the interagency report; retained in the version ledger."
+    },
+    {
+      "itemNumber": "Work Program A",
+      "type": "Work program",
+      "title": "Economic Responses to the Iraqi Invasion and Implementation of Sanctions",
+      "date": "8/24/90",
+      "classification": "Confidential",
+      "pages": 3,
+      "extentLabel": "3 served document pages",
+      "pdfPageRange": "107-109",
+      "sheetDisposition": "Clean dated copy promoted as one chronology candidate."
+    },
+    {
+      "itemNumber": "Work Program B",
+      "type": "Work program and notes",
+      "title": "Annotated work-program copy and handwritten working notes",
+      "date": "8/24/90",
+      "classification": "Confidential",
+      "pages": 6,
+      "extentLabel": "6 served document and note pages",
+      "pdfPageRange": "110-115",
+      "sheetDisposition": "Version set retained in the ledger; not promoted as another chronology record."
+    },
+    {
+      "itemNumber": "07",
+      "type": "Paper",
+      "title": "Gulf Arab Potential Donors",
+      "date": "8/23/90",
+      "classification": "Secret; Noforn",
+      "pages": 1,
+      "extentLabel": "1 released-in-part page; sheet at PDF page 116",
+      "pdfPageRange": "116-117",
+      "restriction": "(b)(1), (b)(3)",
+      "sheetDisposition": "Partially declassified copy follows the withdrawal sheet; promoted as one chronology candidate."
+    },
+    {
+      "itemNumber": "07a",
+      "type": "Draft briefing item",
+      "title": "President's Daily Brief Draft",
+      "date": "n.d.",
+      "classification": "Secret",
+      "pages": 0,
+      "extentLabel": "1 logical page withheld; sheet only",
+      "pdfPageRange": "118",
+      "restriction": "P-1/F-1",
+      "sheetDisposition": "No document copy follows; promoted as a separately identified withheld candidate."
+    },
+    {
+      "itemNumber": "Set F",
+      "type": "Work list",
+      "title": "Economic Studies/Activities Currently Underway or Recommended",
+      "date": "n.d.",
+      "classification": "Secret",
+      "pages": 1,
+      "extentLabel": "1 served document page",
+      "pdfPageRange": "119",
+      "sheetDisposition": "Retained as supporting work-program material; no formal date established."
+    },
+    {
+      "itemNumber": "09a",
+      "type": "Memo",
+      "title": "C. David Welch to Brent Scowcroft, Egypt's FMS Debt",
+      "date": "8/22/90",
+      "classification": "Secret",
+      "pages": 1,
+      "extentLabel": "1 served document page",
+      "pdfPageRange": "120",
+      "sheetDisposition": "Promoted once; exact Scowcroft parallel copy disclosed."
+    },
+    {
+      "itemNumber": "09b",
+      "type": "Memo",
+      "title": "James A. Baker III to President Bush, Egypt's FMS Debt",
+      "date": "8/20/90",
+      "classification": "Secret",
+      "pages": 2,
+      "extentLabel": "2 served document pages",
+      "pdfPageRange": "121-122",
+      "sheetDisposition": "Promoted once; Scowcroft parallel copies disclosed."
+    },
+    {
+      "itemNumber": "10",
+      "type": "Memo",
+      "title": "Iranian Oil Sales",
+      "date": "8/24/90",
+      "classification": "Secret; Noforn",
+      "pages": 1,
+      "extentLabel": "1 released-in-part page; sheet at PDF page 123",
+      "pdfPageRange": "123-124",
+      "restriction": "(b)(1), (b)(3)",
+      "sheetDisposition": "Declassified-in-part copy follows the withdrawal sheet; promoted as one chronology candidate."
+    },
+    {
+      "itemNumber": "11",
+      "type": "Memo",
+      "title": "Secretary of Commerce Mosbacher to President Bush, Oil Outlook and the Iraq Crisis",
+      "date": "8/23/90",
+      "classification": "Secret",
+      "pages": 0,
+      "extentLabel": "7 logical pages withheld; sheet only",
+      "pdfPageRange": "125",
+      "restriction": "P-1/F-1/P-5",
+      "sheetDisposition": "No document copy follows; duplicate Deal Chronological withdrawal description disclosed."
+    }
+  ],
+  "withdrawalSheets": [
+    {
+      "pdfPage": 93,
+      "item": "04z",
+      "description": "Legal Aspects of Financial and In-Kind Burdensharing",
+      "documentPages": 4,
+      "releaseDisposition": "Denied in full"
+    },
+    {
+      "pdfPage": 116,
+      "item": "07",
+      "description": "Gulf Arab Potential Donors",
+      "documentPages": 1,
+      "releaseDisposition": "Partially declassified copy follows"
+    },
+    {
+      "pdfPage": 118,
+      "item": "07a",
+      "description": "President's Daily Brief Draft",
+      "documentPages": 1,
+      "releaseDisposition": "No document copy follows"
+    },
+    {
+      "pdfPage": 123,
+      "item": "10",
+      "description": "Iranian Oil Sales",
+      "documentPages": 1,
+      "releaseDisposition": "Declassified-in-part copy follows"
+    },
+    {
+      "pdfPage": 125,
+      "item": "11",
+      "description": "Oil Outlook and the Iraq Crisis",
+      "documentPages": 7,
+      "releaseDisposition": "No document copy follows"
+    }
+  ]
+}
