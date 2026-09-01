@@ -363,11 +363,21 @@ function createWithdrawalLedger(record) {
   const tableWrap = document.createElement("div");
   tableWrap.className = "table-wrap";
   const table = document.createElement("table");
-  table.innerHTML = "<thead><tr><th>Item</th><th>Description</th><th>Marking</th><th>Pages</th></tr></thead>";
+  const showDate = record.withdrawalItems.some((item) => item.date);
+  const showRestriction = record.withdrawalItems.some((item) => item.restriction);
+  const headings = ["Item", "Description"];
+  if (showDate) headings.push("Date");
+  if (showRestriction) headings.push("Restriction");
+  headings.push("Marking", "Pages");
+  table.innerHTML = `<thead><tr>${headings.map((heading) => `<th>${heading}</th>`).join("")}</tr></thead>`;
   const tbody = document.createElement("tbody");
   record.withdrawalItems.forEach((item) => {
     const tr = document.createElement("tr");
-    tr.innerHTML = `<td>${escapeHtml(item.item)}</td><td>${escapeHtml(item.title)}</td><td>${escapeHtml(item.classification)}</td><td>${item.pages}</td>`;
+    const cells = [item.item || item.itemNumber, item.title];
+    if (showDate) cells.push(item.date || "Not stated");
+    if (showRestriction) cells.push(item.restriction || "Not stated");
+    cells.push(item.classification, item.pages);
+    tr.innerHTML = cells.map((value) => `<td>${escapeHtml(value)}</td>`).join("");
     tbody.append(tr);
   });
   table.append(tbody);
@@ -636,7 +646,7 @@ function renderNscCollection() {
     : "No opening-sheet exceptions were found in this online series.";
   elements.nscProvenanceTitle.textContent = activeNscCollection.provenanceTitle;
   elements.nscProvenanceSummary.textContent =
-    `${activeNscCollection.markerVerified} of ${onlineRows.length} online PDFs open with Bush Library provenance naming ${activeNscCollection.markerFieldSummary || "the record group, office, series, subseries, and folder"}. ${exceptionSummary}`;
+    `${activeNscCollection.markerVerified} of ${onlineRows.length} online PDFs open with Bush Library provenance naming ${activeNscCollection.markerFieldSummary || "the record group, office, series, subseries, and folder"}. ${exceptionSummary}${activeNscCollection.provenanceQualifier ? ` ${activeNscCollection.provenanceQualifier}` : ""}`;
   elements.nscSeriesLink.href = activeNscCollection.catalogUrl;
 
   const candidates = activeNscCollection.candidateIds
@@ -648,9 +658,9 @@ function renderNscCollection() {
   elements.nscCandidateTitle.textContent = activeNscCollection.candidateTitle;
   elements.nscCandidateDownload.href = activeNscCollection.candidateCsvUrl;
   elements.nscCandidateDownload.textContent = `Download ${activeNscCollection.candidateLabel.toLowerCase()} CSV`;
-  elements.nscCandidateSummary.textContent = locatorCount
+  elements.nscCandidateSummary.textContent = activeNscCollection.candidateSummary || (locatorCount
     ? `${candidates.length} file-unit leads, ordered by working date: ${candidates.length - boundaryCount} for direct Volume XXX review and ${boundaryCount} for cross-volume adjudication. All ${locatorCount} remain archival locators until individual documents are checked in the source images.`
-    : `${candidates.length} document-level candidates from ${activeNscCollection.auditedFolders.length} fully audited PDFs, ordered by document date. The chronology includes ${withheldCount} separately identified ${plural(withheldCount, "record")} that were not declassified.`;
+    : `${candidates.length} document-level candidates from ${activeNscCollection.auditedFolders.length} fully audited PDFs, ordered by document date. The chronology includes ${withheldCount} separately identified ${plural(withheldCount, "record")} that were not declassified.`);
   renderNscCandidates(candidates);
 
   elements.nscFileDownload.href = activeNscCollection.fileUnitsCsvUrl;
@@ -711,6 +721,7 @@ function nscFileSearchText(row) {
     ...(row.reviewTopics || []),
     row.reviewFocus,
     row.reviewKeyExtent,
+    row.withdrawalMetadataNote,
     row.economicSignals?.total >= 20 ? "economic policy OCR signal" : "",
   ]
     .filter(Boolean)
@@ -819,6 +830,7 @@ function createNscFileUnitRow(row) {
     "record-notes",
   );
   const markerNote =
+    row.withdrawalMetadataNote ||
     row.markerChecks?.handwrittenCorrection ||
     row.markerChecks?.catalogMismatch ||
     row.markerChecks?.visualFolderIdCheck ||
@@ -833,7 +845,7 @@ function createNscFileUnitRow(row) {
   if (row.reviewKeyExtent) {
     details.append(label("Key extent and release evidence"), paragraph(row.reviewKeyExtent, "record-notes"));
   }
-  if (markerNote) details.append(label("Opening marker note"), paragraph(markerNote, "record-notes"));
+  if (markerNote) details.append(label("Provenance note"), paragraph(markerNote, "record-notes"));
   details.append(signalNote, actions);
   body.append(title, meta, signals, details);
 
@@ -990,6 +1002,7 @@ function downloadFilteredNscCsv() {
     "markerSubseries",
     "hasOnlinePdf",
     "accessStatus",
+    "pdfPages",
     "pdfBytes",
     "catalogPdfBytes",
     "pdfByteBasis",
@@ -1006,6 +1019,10 @@ function downloadFilteredNscCsv() {
     "energySignals",
     "agricultureSignals",
     "treasurySignals",
+    "withheldItemCount",
+    "withheldPages",
+    "withdrawalMetadataNote",
+    "withdrawalInventory",
     "archivalLocator",
     "provenanceStem",
     "catalogUrl",
@@ -1022,6 +1039,7 @@ function downloadFilteredNscCsv() {
     energySignals: row.economicSignals?.energy ?? "",
     agricultureSignals: row.economicSignals?.agriculture ?? "",
     treasurySignals: row.economicSignals?.treasury ?? "",
+    withdrawalInventory: JSON.stringify(row.withdrawalItems || []),
   }));
   const csv = [
     fields.map(csvCell).join(","),

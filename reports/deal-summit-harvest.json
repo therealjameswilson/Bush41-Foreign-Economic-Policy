@@ -1,0 +1,253 @@
+{
+  "generatedAt": "2026-09-01T05:16:30.552Z",
+  "seriesNaId": "2554817",
+  "expectedFileUnits": 17,
+  "harvestedFileUnits": 17,
+  "onlinePdfCount": 17,
+  "catalogOnlyCount": 0,
+  "coreCandidateCount": 13,
+  "considerCandidateCount": 4,
+  "totalPdfBytes": 595521098,
+  "totalCatalogPdfBytes": 595521105,
+  "totalPdfPages": 1248,
+  "totalWithheldItems": 104,
+  "totalWithheldPages": 324,
+  "markerVerified": 17,
+  "openingMarkerSubseriesSummary": [
+    {
+      "name": "Summit Briefing Books",
+      "fileUnitCount": 6
+    },
+    {
+      "name": "Summit Briefing Books Files",
+      "fileUnitCount": 11
+    }
+  ],
+  "markerExceptions": [],
+  "withdrawalMetadataMismatches": [
+    {
+      "naid": "452050644",
+      "localId": "CF00960-008",
+      "withdrawalMetadataNote": "The opening marker identifies Timothy E. Deal Files, Summit Briefing Books Files. Later withdrawal sheets instead label the subseries Subject Files. The opening marker controls this file-level locator."
+    },
+    {
+      "naid": "452050645",
+      "localId": "CF00960-009",
+      "withdrawalMetadataNote": "The opening marker identifies Timothy E. Deal Files, Summit Briefing Books Files. Later withdrawal sheets instead label the subseries Subject Files. The opening marker controls this file-level locator."
+    },
+    {
+      "naid": "452050646",
+      "localId": "CF00960-010",
+      "withdrawalMetadataNote": "The opening marker identifies Timothy E. Deal Files, Summit Briefing Books Files. Later withdrawal sheets instead label the subseries Subject Files. The opening marker controls this file-level locator."
+    },
+    {
+      "naid": "452050647",
+      "localId": "CF00960-011",
+      "withdrawalMetadataNote": "The opening marker identifies Timothy E. Deal Files, Summit Briefing Books Files. Later withdrawal sheets instead label the subseries Subject Files. The opening marker controls this file-level locator."
+    },
+    {
+      "naid": "452050648",
+      "localId": "CF00960-012",
+      "withdrawalMetadataNote": "The opening marker identifies Timothy E. Deal Files, Summit Briefing Books Files. Later withdrawal sheets instead label the subseries Subject Files. The opening marker controls this file-level locator."
+    },
+    {
+      "naid": "452050649",
+      "localId": "CF00960-013",
+      "withdrawalMetadataNote": "The opening marker identifies Timothy E. Deal Files, Summit Briefing Books Files. Later withdrawal sheets instead identify Deal, Timothy E., and Reiss, Mitchell B., Files. The opening marker controls this file-level locator."
+    },
+    {
+      "naid": "452050650",
+      "localId": "CF00960-014",
+      "withdrawalMetadataNote": "The opening marker identifies Timothy E. Deal Files, Summit Briefing Books Files. Later withdrawal sheets instead label the subseries Subject Files. The opening marker controls this file-level locator."
+    },
+    {
+      "naid": "452050651",
+      "localId": "CF00960-015",
+      "withdrawalMetadataNote": "The opening marker identifies Timothy E. Deal Files, Summit Briefing Books Files. Later withdrawal sheets instead label the subseries Subject Files. The opening marker controls this file-level locator."
+    },
+    {
+      "naid": "452050652",
+      "localId": "CF00960-016",
+      "withdrawalMetadataNote": "The opening marker identifies Timothy E. Deal Files, Summit Briefing Books Files. Later withdrawal sheets instead label the subseries Subject Files. The opening marker controls this file-level locator."
+    },
+    {
+      "naid": "452050653",
+      "localId": "CF00960-017",
+      "withdrawalMetadataNote": "The opening marker identifies Timothy E. Deal Files, Summit Briefing Books Files. Later withdrawal sheets instead label the subseries Subject Files. The opening marker controls this file-level locator."
+    }
+  ],
+  "pdfSizeMetadataMismatches": [
+    {
+      "naid": "452050637",
+      "catalogPdfBytes": 43718044,
+      "servedPdfBytes": 43718043
+    },
+    {
+      "naid": "452050638",
+      "catalogPdfBytes": 29104100,
+      "servedPdfBytes": 29104101
+    },
+    {
+      "naid": "452050641",
+      "catalogPdfBytes": 55534160,
+      "servedPdfBytes": 55534158
+    },
+    {
+      "naid": "452050642",
+      "catalogPdfBytes": 43550200,
+      "servedPdfBytes": 43550199
+    },
+    {
+      "naid": "452050643",
+      "catalogPdfBytes": 38768568,
+      "servedPdfBytes": 38768566
+    },
+    {
+      "naid": "452050644",
+      "catalogPdfBytes": 30687056,
+      "servedPdfBytes": 30687055
+    },
+    {
+      "naid": "452050646",
+      "catalogPdfBytes": 23675912,
+      "servedPdfBytes": 23675913
+    },
+    {
+      "naid": "452050647",
+      "catalogPdfBytes": 34704396,
+      "servedPdfBytes": 34704397
+    },
+    {
+      "naid": "452050648",
+      "catalogPdfBytes": 23334948,
+      "servedPdfBytes": 23334949
+    },
+    {
+      "naid": "452050649",
+      "catalogPdfBytes": 33536244,
+      "servedPdfBytes": 33536243
+    },
+    {
+      "naid": "452050650",
+      "catalogPdfBytes": 31487152,
+      "servedPdfBytes": 31487151
+    },
+    {
+      "naid": "452050651",
+      "catalogPdfBytes": 24630348,
+      "servedPdfBytes": 24630347
+    },
+    {
+      "naid": "452050652",
+      "catalogPdfBytes": 26659772,
+      "servedPdfBytes": 26659771
+    }
+  ],
+  "perFileWithdrawalStats": [
+    {
+      "naid": "452050637",
+      "localId": "CF00960-001",
+      "withheldItemCount": 0,
+      "withheldPages": 0
+    },
+    {
+      "naid": "452050638",
+      "localId": "CF00960-002",
+      "withheldItemCount": 1,
+      "withheldPages": 62
+    },
+    {
+      "naid": "452050639",
+      "localId": "CF00960-003",
+      "withheldItemCount": 4,
+      "withheldPages": 14
+    },
+    {
+      "naid": "452050640",
+      "localId": "CF00960-004",
+      "withheldItemCount": 7,
+      "withheldPages": 30
+    },
+    {
+      "naid": "452050641",
+      "localId": "CF00960-005",
+      "withheldItemCount": 4,
+      "withheldPages": 18
+    },
+    {
+      "naid": "452050642",
+      "localId": "CF00960-006",
+      "withheldItemCount": 0,
+      "withheldPages": 0
+    },
+    {
+      "naid": "452050643",
+      "localId": "CF00960-007",
+      "withheldItemCount": 7,
+      "withheldPages": 12
+    },
+    {
+      "naid": "452050644",
+      "localId": "CF00960-008",
+      "withheldItemCount": 9,
+      "withheldPages": 24
+    },
+    {
+      "naid": "452050645",
+      "localId": "CF00960-009",
+      "withheldItemCount": 6,
+      "withheldPages": 18
+    },
+    {
+      "naid": "452050646",
+      "localId": "CF00960-010",
+      "withheldItemCount": 3,
+      "withheldPages": 9
+    },
+    {
+      "naid": "452050647",
+      "localId": "CF00960-011",
+      "withheldItemCount": 5,
+      "withheldPages": 20
+    },
+    {
+      "naid": "452050648",
+      "localId": "CF00960-012",
+      "withheldItemCount": 6,
+      "withheldPages": 17
+    },
+    {
+      "naid": "452050649",
+      "localId": "CF00960-013",
+      "withheldItemCount": 1,
+      "withheldPages": 1
+    },
+    {
+      "naid": "452050650",
+      "localId": "CF00960-014",
+      "withheldItemCount": 12,
+      "withheldPages": 41
+    },
+    {
+      "naid": "452050651",
+      "localId": "CF00960-015",
+      "withheldItemCount": 5,
+      "withheldPages": 17
+    },
+    {
+      "naid": "452050652",
+      "localId": "CF00960-016",
+      "withheldItemCount": 25,
+      "withheldPages": 25
+    },
+    {
+      "naid": "452050653",
+      "localId": "CF00960-017",
+      "withheldItemCount": 9,
+      "withheldPages": 16
+    }
+  ],
+  "totalOcrCharacters": 1814898,
+  "duplicateNaids": [],
+  "duplicateLocalIds": []
+}

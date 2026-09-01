@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "harvest:scowcroft": "node scripts/harvest-scowcroft.js",
+    "harvest:deal-summit": "node scripts/harvest-deal-summit.js",
     "harvest:if-transition": "node scripts/harvest-if-transition.js",
     "harvest:nsd": "node scripts/harvest-nsd.js",
     "harvest:nsr": "node scripts/harvest-nsr.js",
@@ -14,6 +15,6 @@
     "build:data": "node scripts/build-data.js",
     "validate": "node scripts/validate-data.js",
     "check:links": "node scripts/check-links.js",
-    "check": "node --check app.js && node --check scripts/build-data.js && node --check scripts/harvest-scowcroft.js && node --check scripts/scowcroft-candidate-config.js && node --check scripts/harvest-if-transition.js && node --check scripts/if-transition-candidate-config.js && node --check scripts/if-transition-page-counts.js && node --check scripts/harvest-nsd.js && node --check scripts/nsd-candidate-config.js && node --check scripts/nsd-page-counts.js && node --check scripts/harvest-nsr.js && node --check scripts/nsr-candidate-config.js && node --check scripts/harvest-nsc-dc-follow-up.js && node --check scripts/nsc-dc-follow-up-candidate-config.js && node --check scripts/harvest-nsc-dc-meetings.js && node --check scripts/nsc-dc-candidate-config.js && node --check scripts/validate-data.js && node --check scripts/check-links.js && npm run validate"
+    "check": "node --check app.js && node --check scripts/build-data.js && node --check scripts/harvest-scowcroft.js && node --check scripts/scowcroft-candidate-config.js && node --check scripts/harvest-deal-summit.js && node --check scripts/deal-summit-candidate-config.js && node --check scripts/deal-summit-page-counts.js && node --check scripts/harvest-if-transition.js && node --check scripts/if-transition-candidate-config.js && node --check scripts/if-transition-page-counts.js && node --check scripts/harvest-nsd.js && node --check scripts/nsd-candidate-config.js && node --check scripts/nsd-page-counts.js && node --check scripts/harvest-nsr.js && node --check scripts/nsr-candidate-config.js && node --check scripts/harvest-nsc-dc-follow-up.js && node --check scripts/nsc-dc-follow-up-candidate-config.js && node --check scripts/harvest-nsc-dc-meetings.js && node --check scripts/nsc-dc-candidate-config.js && node --check scripts/validate-data.js && node --check scripts/check-links.js && npm run validate"
   }
 }

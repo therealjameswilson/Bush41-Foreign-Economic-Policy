@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-09-01T04:44:10.623Z",
-  "total": 3502,
-  "ok": 3502,
+  "checkedAt": "2026-09-01T05:16:57.579Z",
+  "total": 3533,
+  "ok": 3533,
   "blocked": 0,
   "failed": 0,
   "blockedResults": [],
@@ -18,6 +18,12 @@
       "ok": true,
       "status": 200,
       "finalUrl": "https://catalog.archives.gov/id/2554810"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/2554817",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/2554817"
     },
     {
       "url": "https://catalog.archives.gov/id/312293887",
@@ -6080,16 +6086,106 @@
       "finalUrl": "https://catalog.archives.gov/id/452050636"
     },
     {
+      "url": "https://catalog.archives.gov/id/452050637",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050637"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050638",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050638"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050639",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050639"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050640",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050640"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050641",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050641"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050642",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050642"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050643",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050643"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050644",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050644"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050645",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050645"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050646",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050646"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050647",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050647"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050648",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050648"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050649",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050649"
+    },
+    {
       "url": "https://catalog.archives.gov/id/452050650",
       "ok": true,
       "status": 200,
       "finalUrl": "https://catalog.archives.gov/id/452050650"
     },
     {
+      "url": "https://catalog.archives.gov/id/452050651",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050651"
+    },
+    {
       "url": "https://catalog.archives.gov/id/452050652",
       "ok": true,
       "status": 200,
       "finalUrl": "https://catalog.archives.gov/id/452050652"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050653",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050653"
     },
     {
       "url": "https://catalog.archives.gov/id/4522156",
@@ -15614,16 +15710,106 @@
       "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00973-014.pdf"
     },
     {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-001.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-001.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-002.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-002.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-003.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-003.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-004.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-004.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-005.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-005.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-006.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-006.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-007.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-007.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-008.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-008.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-009.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-009.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-010.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-010.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-011.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-011.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-012.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-012.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-013.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-013.pdf"
+    },
+    {
       "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-014.pdf",
       "ok": true,
       "status": 200,
       "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-014.pdf"
     },
     {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-015.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-015.pdf"
+    },
+    {
       "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-016.pdf",
       "ok": true,
       "status": 200,
       "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-016.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-017.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-017.pdf"
     },
     {
       "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/IF_Transition_348937136/41-bpr-nsc-hfiles-if_trans-99015-001.pdf",

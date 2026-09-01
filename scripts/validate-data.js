@@ -472,6 +472,85 @@ if (!scowcroft) {
   }
 }
 
+const dealSummit = data.nscCollections?.find((collection) => collection.id === "deal-summit");
+if (!dealSummit) {
+  errors.push("Timothy E. Deal Summit Briefing Books collection is missing");
+} else {
+  if (data.nscCollections[7]?.id !== "deal-summit" || data.nscCollections[8]?.id !== "tim-deal") {
+    errors.push("Deal Summit collection is not placed immediately before the Deal Subject Files tab");
+  }
+  if (dealSummit.naid !== "2554817" || dealSummit.fileUnits.length !== 17 || dealSummit.fileUnitCount !== 17) {
+    errors.push("Deal Summit collection identity or file-unit count changed");
+  }
+  if (dealSummit.onlinePdfCount !== 17 || dealSummit.catalogOnlyCount !== 0 || dealSummit.fileUnits.some((row) => !row.hasOnlinePdf)) {
+    errors.push("Deal Summit online/catalog-only totals changed");
+  }
+  if (dealSummit.totalPdfPages !== 1248 || dealSummit.fileUnits.reduce((total, row) => total + row.pdfPages, 0) !== 1248) {
+    errors.push("Deal Summit served-PDF page total is not 1,248");
+  }
+  if (dealSummit.markerVerified !== 17 || dealSummit.markerExceptionCount !== 0 || dealSummit.fileUnits.some((row) => row.markerStatus !== "verified")) {
+    errors.push("Deal Summit opening-marker totals changed");
+  }
+  if (dealSummit.openingMarkerSubseriesSummary?.find((row) => row.name === "Summit Briefing Books")?.fileUnitCount !== 6 || dealSummit.openingMarkerSubseriesSummary?.find((row) => row.name === "Summit Briefing Books Files")?.fileUnitCount !== 11) {
+    errors.push("Deal Summit opening-marker subseries wording no longer reconciles to 6 and 11 file units");
+  }
+  if (dealSummit.withdrawalMetadataMismatchCount !== 10) errors.push("Deal Summit withdrawal-metadata discrepancy count is not 10");
+  const mismatchNaids = dealSummit.fileUnits.filter((row) => row.withdrawalMetadataNote).map((row) => row.naid).sort();
+  if (mismatchNaids.join(",") !== "452050644,452050645,452050646,452050647,452050648,452050649,452050650,452050651,452050652,452050653") {
+    errors.push("Deal Summit withdrawal-metadata discrepancy set changed");
+  }
+  if (new Set(dealSummit.fileUnits.map((row) => row.naid)).size !== 17) errors.push("Duplicate Deal Summit file-unit NAID");
+  if (new Set(dealSummit.fileUnits.map((row) => row.localId)).size !== 17) errors.push("Duplicate Deal Summit OA/ID");
+  if (dealSummit.fileUnits.some((row) => !row.catalogUrl.startsWith("https://catalog.archives.gov/id/") || !row.pdfUrl.startsWith("https://catalog.archives.gov/medialz/"))) {
+    errors.push("Deal Summit ledger contains a nonofficial link");
+  }
+  if (dealSummit.fileUnits.some((row) => !Number.isInteger(row.pdfPages) || row.pdfPages <= 0 || !Number.isInteger(row.ocrCharacterCount) || !Number.isInteger(row.economicSignals?.total))) {
+    errors.push("Deal Summit page or OCR signal accounting is incomplete");
+  }
+  if (dealSummit.fileUnits.some((row) => row.markerSeries !== "Deal, Timothy E., Files" || !["Summit Briefing Books", "Summit Briefing Books Files"].includes(row.markerSubseries))) {
+    errors.push("Deal Summit ledger does not preserve opening-sheet series and subseries wording");
+  }
+  if (dealSummit.fileUnits.some((row) => row.routing !== "Volume XXX review" || !row.reviewTopics?.length || !row.reviewFocus || !row.reviewKeyExtent)) {
+    errors.push("Deal Summit file unit lacks direct routing or compiler annotation");
+  }
+  const sortedUnits = [...dealSummit.fileUnits].sort((a, b) => a.workingStartDate.localeCompare(b.workingStartDate) || a.workingEndDate.localeCompare(b.workingEndDate) || a.localId.localeCompare(b.localId));
+  if (sortedUnits.some((row, index) => row.naid !== dealSummit.fileUnits[index].naid)) errors.push("Deal Summit file units are not stored in chronological order");
+  const fourthSherpa = dealSummit.fileUnits.find((row) => row.naid === "452050647");
+  if (fourthSherpa?.workingStartDate !== "1991-07-05" || fourthSherpa?.workingEndDate !== "1991-07-07" || fourthSherpa?.dateBasis !== "Briefing-book cover event dates") {
+    errors.push("Deal Summit fourth-Sherpa chronology no longer follows the dated cover");
+  }
+  const withheldItems = dealSummit.fileUnits.reduce((total, row) => total + row.withheldItemCount, 0);
+  const withheldPages = dealSummit.fileUnits.reduce((total, row) => total + row.withheldPages, 0);
+  if (dealSummit.totalWithheldItems !== 104 || withheldItems !== 104 || dealSummit.totalWithheldPages !== 324 || withheldPages !== 324) {
+    errors.push("Deal Summit withdrawal inventory does not reconcile to 104 items and 324 pages");
+  }
+  if (dealSummit.candidateCount !== 17 || dealSummit.candidateIds.length !== 17 || dealSummit.auditedFolders.length !== 17) {
+    errors.push("Deal Summit candidate or audited-folder count is not 17");
+  }
+  if (dealSummit.candidateIds.some((id) => !ids.has(id))) errors.push("Deal Summit candidate ID is missing from the master chronology");
+  const candidateRecords = dealSummit.candidateIds.map((id) => data.records.find((record) => record.id === id)).filter(Boolean);
+  if (candidateRecords.some((record) => record.collectionId !== "deal-summit" || record.sourceNoteStatus !== "locator" || record.sourceNote)) {
+    errors.push("Deal Summit file-level lead incorrectly asserts a document Source Note or lacks its collection ID");
+  }
+  if (candidateRecords.some((record) => {
+    const fileUnit = dealSummit.fileUnits.find((row) => row.naid === record.naid);
+    return !record.archivalLocator.startsWith(`George H.W. Bush Library, Bush Presidential Records, National Security Council, Timothy E. Deal Files, ${fileUnit?.markerSubseries}, OA/ID CF00960–`) || /CF00960-\d{3}/.test(record.archivalLocator);
+  })) {
+    errors.push("Deal Summit archival locator does not follow the provenance-sheet form");
+  }
+  if (candidateRecords.reduce((total, record) => total + record.pageCount, 0) !== 1248) errors.push("Deal Summit candidate page total is not 1,248");
+  if (candidateRecords.filter((record) => record.selection === "Core").length !== 13) errors.push("Deal Summit Core count is not 13");
+  if (candidateRecords.filter((record) => record.selection === "Consider").length !== 4) errors.push("Deal Summit Consider count is not 4");
+  if (candidateRecords.some((record) => !["Core", "Consider"].includes(record.selection))) errors.push("Deal Summit contains an unexpected selection label");
+  if (candidateRecords.reduce((total, record) => total + (record.withdrawalItems?.length || 0), 0) !== 104 || candidateRecords.reduce((total, record) => total + (record.withheldPages || 0), 0) !== 324) {
+    errors.push("Deal Summit candidate withdrawal ledgers do not reconcile to the file ledger");
+  }
+  const sortedCandidates = [...candidateRecords].sort((a, b) => a.sortDate.localeCompare(b.sortDate) || a.localId.localeCompare(b.localId));
+  if (sortedCandidates.some((record, index) => record.id !== candidateRecords[index].id)) errors.push("Deal Summit candidates are not stored in chronological order");
+}
+
+if (data.nscCollections?.length !== 9) errors.push("NSC collection tab count is not 9");
+
 const report = {
   checkedAt: new Date().toISOString(),
   records: data.records.length,
@@ -481,6 +560,7 @@ const report = {
   withheldItems: data.records.filter((record) => record.releaseStatus === "Withheld").length,
   nscCollections: data.nscCollections?.length || 0,
   scowcroftFileUnits: scowcroft?.fileUnits.length || 0,
+  dealSummitFileUnits: dealSummit?.fileUnits.length || 0,
   ifTransitionFileUnits: ifTransition?.fileUnits.length || 0,
   nsdFileUnits: nsd?.fileUnits.length || 0,
   nsrFileUnits: nsr?.fileUnits.length || 0,

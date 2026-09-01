@@ -1,0 +1,1333 @@
+{
+  "auditScope": "Complete Timothy E. Deal Summit Briefing Books Files inventory with chronological, provenance, withdrawal, and duplicate-copy screening",
+  "auditedFolders": [
+    "CF00960-001",
+    "CF00960-002",
+    "CF00960-003",
+    "CF00960-004",
+    "CF00960-005",
+    "CF00960-006",
+    "CF00960-007",
+    "CF00960-008",
+    "CF00960-009",
+    "CF00960-010",
+    "CF00960-011",
+    "CF00960-012",
+    "CF00960-013",
+    "CF00960-014",
+    "CF00960-015",
+    "CF00960-016",
+    "CF00960-017"
+  ],
+  "methodology": "All 17 file units and all 1,248 served-PDF pages were reviewed from the official NARA series. The audit verifies every opening provenance marker and extracts 104 uniquely described withdrawal entries totaling 324 pages. Thirteen files are Core and four are Consider leads for the economic-summit chapter. Nine London files have later withdrawal sheets labeled Subject Files, and CF00960-013 has later withdrawal sheets attributed to the Deal-Reiss files; the opening marker controls each file-level locator. These entries remain screening leads, not finished FRUS Source Notes. Individual documents must be compared against the separate Deal Subject Files and Deal-Reiss Economic Summit Files before a controlling copy is selected and document-level provenance is formulated.",
+  "documents": [
+    {
+      "naid": "452050637",
+      "date": "1990-01-05",
+      "sortDate": "1990-01-05",
+      "datePrecision": "range",
+      "displayDateLabel": "January 5-7, 1990",
+      "pageCount": 82,
+      "withheldPages": 0,
+      "withdrawalItems": [],
+      "extentLabel": "82 served-PDF pages; no withdrawal sheets identified; No withdrawal sheets were identified in the complete OCR review.",
+      "selection": "Core",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "topics": [
+        "Houston Economic Summit",
+        "First Sherpa meeting",
+        "Summit agenda",
+        "Transition economies",
+        "International debt"
+      ],
+      "notes": "Direct Volume XXX review. Read for the initial U.S. agenda-setting record. The first Key West book frames possible new summit topics, including market reform in Communist states, structural reform in developing countries, debt, and the post-Paris economic agenda. This is a file-level lead, not a document-level inclusion claim. Compare possible controlling copies against the Deal Subject Files and Deal-Reiss Economic Summit Files before promotion."
+    },
+    {
+      "naid": "452050638",
+      "date": "1990-01-05",
+      "sortDate": "1990-01-05",
+      "datePrecision": "range",
+      "displayDateLabel": "January 5-7, 1990",
+      "pageCount": 55,
+      "withheldPages": 62,
+      "withdrawalItems": [
+        {
+          "itemNumber": "03",
+          "type": "Report",
+          "title": "Economic Policy Committee--Economic and Development Review Committee: Progress in Structural Reform--Country Assessments.",
+          "date": "10/04/89",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 62
+        }
+      ],
+      "extentLabel": "55 served-PDF pages; 1 separately described withdrawn item totaling 62 pages; The withdrawal inventory identifies a 62-page Confidential EPC/EDRC report dated October 4, 1989 on structural-reform country assessments.",
+      "selection": "Core",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "topics": [
+        "Houston Economic Summit",
+        "First Sherpa meeting",
+        "Macroeconomic coordination",
+        "Structural reform",
+        "Trade"
+      ],
+      "notes": "Direct Volume XXX review. Use with the first Key West volume to reconstruct the opening Houston agenda. The book reviews external adjustment, trade, debt, agriculture, environment, and implementation of the Paris communique. This is a file-level lead, not a document-level inclusion claim. Compare possible controlling copies against the Deal Subject Files and Deal-Reiss Economic Summit Files before promotion."
+    },
+    {
+      "naid": "452050639",
+      "date": "1990-03-22",
+      "sortDate": "1990-03-22",
+      "datePrecision": "range",
+      "displayDateLabel": "March 22-25, 1990",
+      "pageCount": 122,
+      "withheldPages": 14,
+      "withdrawalItems": [
+        {
+          "itemNumber": "26",
+          "type": "Paper",
+          "title": "Re: COCOM [Coordinating Committee for Multilateral Export Controls].",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 3
+        },
+        {
+          "itemNumber": "28",
+          "type": "Report",
+          "title": "Re: Eastern Europe.",
+          "date": "02/06/90",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 6
+        },
+        {
+          "itemNumber": "29",
+          "type": "Table",
+          "title": "Re: G-24 Assistance for Poland Since Paris Summit.",
+          "date": "02/02/90",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 3
+        },
+        {
+          "itemNumber": "30",
+          "type": "Table",
+          "title": "Re: G-24 Assistance for Hungary Since Paris Summit.",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 2
+        }
+      ],
+      "extentLabel": "122 served-PDF pages; 4 separately described withdrawn items totaling 14 pages; Four withdrawn items total 14 pages and include COCOM, Eastern Europe, and G-24 assistance tables for Poland and Hungary.",
+      "selection": "Core",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "topics": [
+        "Houston Economic Summit",
+        "Second Sherpa meeting",
+        "COCOM",
+        "Eastern Europe",
+        "Poland and Hungary assistance"
+      ],
+      "notes": "Direct Volume XXX review. The first San Francisco book records the second Sherpa agenda and U.S. papers on the global economy, East-West economic issues, developing countries, trade and investment, international monetary coordination, and the EBRD. This is a file-level lead, not a document-level inclusion claim. Compare possible controlling copies against the Deal Subject Files and Deal-Reiss Economic Summit Files before promotion."
+    },
+    {
+      "naid": "452050640",
+      "date": "1990-03-22",
+      "sortDate": "1990-03-22",
+      "datePrecision": "range",
+      "displayDateLabel": "March 22-25, 1990",
+      "pageCount": 110,
+      "withheldPages": 30,
+      "withdrawalItems": [
+        {
+          "itemNumber": "07",
+          "type": "Memo",
+          "title": "A. Peter Burleigh to Mr. McCormick [sic] and Mr. Zoellick, Re: Germany and the USSR: Present and Future Partners.",
+          "date": "03/02/90",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 3
+        },
+        {
+          "itemNumber": "12",
+          "type": "Paper",
+          "title": "Background Information [for Houston Economic Summit Sherpa meeting].",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 6
+        },
+        {
+          "itemNumber": "13",
+          "type": "Report",
+          "title": "Re: Houston Economic Summit.",
+          "date": "02/16/90",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 6
+        },
+        {
+          "itemNumber": "14",
+          "type": "Report",
+          "title": "Re: West/ East Germany.",
+          "date": "03/15/90",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 7
+        },
+        {
+          "itemNumber": "17",
+          "type": "Paper",
+          "title": "Background: Forgiveness of the Canadian Official Development Assistance Debts of Commonwealth Caribbean Countries.",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 3
+        },
+        {
+          "itemNumber": "18",
+          "type": "Paper",
+          "title": "Background: Forgiveness of the Canadian Official Development Assistance Debts of Commonwealth Caribbean Countries.",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 3
+        },
+        {
+          "itemNumber": "22",
+          "type": "Notes",
+          "title": "Handwritten notes, Re: EE.",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 2
+        }
+      ],
+      "extentLabel": "110 served-PDF pages; 7 separately described withdrawn items totaling 30 pages; Seven withdrawn items total 30 pages, including a February 16 Houston Summit report and Secret papers on Germany, the Soviet Union, and East Germany.",
+      "selection": "Core",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "topics": [
+        "Houston Economic Summit",
+        "Second Sherpa meeting",
+        "International debt",
+        "German unification",
+        "Development assistance"
+      ],
+      "notes": "Direct Volume XXX review. The second San Francisco book concentrates on third-world debt, development assistance, Germany and the Soviet Union, and supporting background for the Houston negotiations. This is a file-level lead, not a document-level inclusion claim. Compare possible controlling copies against the Deal Subject Files and Deal-Reiss Economic Summit Files before promotion."
+    },
+    {
+      "naid": "452050641",
+      "date": "1990-06-15",
+      "sortDate": "1990-06-15",
+      "datePrecision": "range",
+      "displayDateLabel": "June 15-17, 1990",
+      "pageCount": 123,
+      "withheldPages": 18,
+      "withdrawalItems": [
+        {
+          "itemNumber": "01",
+          "type": "Paper",
+          "title": "Re: The Multilateral Trading System.",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 3
+        },
+        {
+          "itemNumber": "02",
+          "type": "Paper",
+          "title": "Annex A: Precursor and Essential Chemicals.",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 2
+        },
+        {
+          "itemNumber": "04",
+          "type": "Paper",
+          "title": "Thematic Paper: International Trade and Investment.",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 12
+        },
+        {
+          "itemNumber": "07b",
+          "type": "Paper",
+          "title": "G-7 Terrorism Experts Proposal to Improve the Coordination of Aviation Security Assistance Programs.",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1
+        }
+      ],
+      "extentLabel": "123 served-PDF pages; 4 separately described withdrawn items totaling 18 pages; Four withdrawn items total 18 pages, led by the 12-page thematic paper on international trade and investment and a 3-page multilateral-trading-system paper.",
+      "selection": "Core",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "topics": [
+        "Houston Economic Summit",
+        "Fourth Sherpa meeting",
+        "Multilateral trading system",
+        "Trade and investment",
+        "Soviet economy"
+      ],
+      "notes": "Direct Volume XXX review. The first Newport book captures late-stage Sherpa drafting on the trading system, investment, East-West economic relations, the Soviet Union, developing-country debt, energy, and the summit thematic paper. This is a file-level lead, not a document-level inclusion claim. Compare possible controlling copies against the Deal Subject Files and Deal-Reiss Economic Summit Files before promotion."
+    },
+    {
+      "naid": "452050642",
+      "date": "1990-06-15",
+      "sortDate": "1990-06-15",
+      "datePrecision": "range",
+      "displayDateLabel": "June 15-17, 1990",
+      "pageCount": 102,
+      "withheldPages": 0,
+      "withdrawalItems": [],
+      "extentLabel": "102 served-PDF pages; no withdrawal sheets identified; No withdrawal sheets were identified in the complete OCR review.",
+      "selection": "Core",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "topics": [
+        "Houston Economic Summit",
+        "Fourth Sherpa meeting",
+        "U.S.-EC relations",
+        "Trade",
+        "Economic coordination"
+      ],
+      "notes": "Direct Volume XXX review. Read as the companion Newport volume for U.S.-EC economic relations, country positions, and the final negotiation path into Houston. Compare repeated briefing papers against the first Newport volume before selecting a controlling copy. This is a file-level lead, not a document-level inclusion claim. Compare possible controlling copies against the Deal Subject Files and Deal-Reiss Economic Summit Files before promotion."
+    },
+    {
+      "naid": "452050643",
+      "date": "1990-07-09",
+      "sortDate": "1990-07-09",
+      "datePrecision": "range",
+      "displayDateLabel": "July 9-11, 1990",
+      "pageCount": 76,
+      "withheldPages": 12,
+      "withdrawalItems": [
+        {
+          "itemNumber": "19",
+          "type": "Paper",
+          "title": "Soviet Union.",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2
+        },
+        {
+          "itemNumber": "25",
+          "type": "Paper",
+          "title": "Libya, Iran, and Iraq.",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2
+        },
+        {
+          "itemNumber": "26",
+          "type": "Talking points",
+          "title": "Points to Be Made on Libya, Iran, and Iraq.",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 1
+        },
+        {
+          "itemNumber": "27",
+          "type": "Paper",
+          "title": "Regional Conflicts.",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2
+        },
+        {
+          "itemNumber": "28",
+          "type": "Talking points",
+          "title": "Points to Be Made on Regional Conflicts.",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2
+        },
+        {
+          "itemNumber": "37",
+          "type": "Paper",
+          "title": "Terrorism.",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2
+        },
+        {
+          "itemNumber": "38",
+          "type": "Talking points",
+          "title": "Points to Be Made On Terrorism.",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 1
+        }
+      ],
+      "extentLabel": "76 served-PDF pages; 7 separately described withdrawn items totaling 12 pages; Seven withdrawn items total 12 pages; the foreign-economic withdrawal is a 2-page Secret paper on the Soviet Union.",
+      "selection": "Core",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "topics": [
+        "Houston Economic Summit",
+        "President's background book",
+        "International trade",
+        "International debt",
+        "Soviet economy"
+      ],
+      "notes": "Direct Volume XXX review. This presidential background book assembles the White House issue papers and country papers for Houston. Prioritize final issue papers that show what reached the President, while checking them against the separate Houston Subject Files for duplicate copies. This is a file-level lead, not a document-level inclusion claim. Compare possible controlling copies against the Deal Subject Files and Deal-Reiss Economic Summit Files before promotion."
+    },
+    {
+      "naid": "452050644",
+      "date": "1991-06-07",
+      "sortDate": "1991-06-07",
+      "datePrecision": "range",
+      "displayDateLabel": "June 7-9, 1991",
+      "pageCount": 65,
+      "withheldPages": 24,
+      "withdrawalItems": [
+        {
+          "itemNumber": "01",
+          "type": "Paper",
+          "title": "Re: Soviet Economic Issues",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 6
+        },
+        {
+          "itemNumber": "02",
+          "type": "Letter",
+          "title": "From Nigel Wicks to all Sherpa Colleagues",
+          "date": "5/31/91",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 1
+        },
+        {
+          "itemNumber": "03",
+          "type": "Paper",
+          "title": "Re: G7 Economic Summit - Drugs Initiative",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 2
+        },
+        {
+          "itemNumber": "04",
+          "type": "Paper",
+          "title": "Re: [1991 IEA Communique] [ only]",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1
+        },
+        {
+          "itemNumber": "05",
+          "type": "Cable",
+          "title": "061017Z JUN 91",
+          "date": "6/6/91",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1
+        },
+        {
+          "itemNumber": "06",
+          "type": "Paper",
+          "title": "Re: Economic Summit - Japanese Proposal on Nuclear Energy",
+          "date": "6/6/91",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 1
+        },
+        {
+          "itemNumber": "07",
+          "type": "Paper",
+          "title": "Re: A Proposal for the London Summit (Nuclear Power)",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 2
+        },
+        {
+          "itemNumber": "08",
+          "type": "Message",
+          "title": "Re: Nuclear Safety Cooperation with Eastern Europe",
+          "date": "6/6/91",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 6
+        },
+        {
+          "itemNumber": "09",
+          "type": "Message",
+          "title": "Re: Broad-Based Wariness on Producer/Consumer at IEA Ministerial",
+          "date": "6/5/91",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 4
+        }
+      ],
+      "extentLabel": "65 served-PDF pages; 9 separately described withdrawn items totaling 24 pages; Nine withdrawn items total 24 pages, including Soviet economic issues and nuclear-safety cooperation with Eastern Europe.",
+      "selection": "Core",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "topics": [
+        "London Economic Summit",
+        "Third Sherpa meeting",
+        "Soviet economic issues",
+        "Energy",
+        "Nuclear safety"
+      ],
+      "notes": "Direct Volume XXX review. The first third-Sherpa book is a strong transition-economy and energy file. It combines released U.S. briefing papers with exact inventories for Soviet economic issues, nuclear power, and energy-producer coordination. This is a file-level lead, not a document-level inclusion claim. Compare possible controlling copies against the Deal Subject Files and Deal-Reiss Economic Summit Files before promotion."
+    },
+    {
+      "naid": "452050645",
+      "date": "1991-06-07",
+      "sortDate": "1991-06-07",
+      "datePrecision": "range",
+      "displayDateLabel": "June 7-9, 1991",
+      "pageCount": 67,
+      "withheldPages": 18,
+      "withdrawalItems": [
+        {
+          "itemNumber": "01",
+          "type": "Paper",
+          "title": "Re: Italian Proposal on Migration",
+          "date": "5/29/91",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 6
+        },
+        {
+          "itemNumber": "02",
+          "type": "Letter",
+          "title": "To Nigel Wicks",
+          "date": "5/24/91",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 2
+        },
+        {
+          "itemNumber": "03",
+          "type": "Paper",
+          "title": "Re: UK Paper - Environmental Disasters: Stronger International Capacity",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 2
+        },
+        {
+          "itemNumber": "04",
+          "type": "Paper",
+          "title": "Re: Improving International Response to Environmental Emergencies A Canadian Perspective",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 3
+        },
+        {
+          "itemNumber": "05",
+          "type": "Paper",
+          "title": "Re: Proposal: Canadian Perspective on Oceans",
+          "date": "4/91",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 4
+        },
+        {
+          "itemNumber": "06",
+          "type": "List",
+          "title": "Distribution",
+          "date": "4/11/91",
+          "restriction": "(b)(3)",
+          "classification": "Not stated",
+          "pages": 1
+        }
+      ],
+      "extentLabel": "67 served-PDF pages; 6 separately described withdrawn items totaling 18 pages; Six withdrawn items total 18 pages, including the Italian migration proposal and Canadian and British environmental papers.",
+      "selection": "Core",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "topics": [
+        "London Economic Summit",
+        "Third Sherpa meeting",
+        "International monetary policy",
+        "Environment",
+        "Migration"
+      ],
+      "notes": "Direct Volume XXX review. The second third-Sherpa book carries Treasury material on monetary developments and coordination, alongside environmental and migration proposals. Select only decision-shaping papers rather than every national proposal. This is a file-level lead, not a document-level inclusion claim. Compare possible controlling copies against the Deal Subject Files and Deal-Reiss Economic Summit Files before promotion."
+    },
+    {
+      "naid": "452050646",
+      "date": "1991-06-07",
+      "sortDate": "1991-06-07",
+      "datePrecision": "range",
+      "displayDateLabel": "June 7-9, 1991",
+      "pageCount": 50,
+      "withheldPages": 9,
+      "withdrawalItems": [
+        {
+          "itemNumber": "01",
+          "type": "Paper",
+          "title": "Re: G-7: Economic Outlook",
+          "date": "5/29/91",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 3
+        },
+        {
+          "itemNumber": "02",
+          "type": "Message",
+          "title": "From Prime Minister Major to POTUS",
+          "date": "6/5/91",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 3
+        },
+        {
+          "itemNumber": "03",
+          "type": "Message",
+          "title": "From Prime Minister Major to POTUS",
+          "date": "6/5/91",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 3
+        }
+      ],
+      "extentLabel": "50 served-PDF pages; 3 separately described withdrawn items totaling 9 pages; Three withdrawal entries total 9 physical pages: a 3-page G-7 outlook and two 3-page descriptions of a June 5 Major message.",
+      "selection": "Core",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "topics": [
+        "London Economic Summit",
+        "Third Sherpa meeting",
+        "G-7 economic outlook",
+        "Debt-for-nature swaps",
+        "Prime Minister John Major"
+      ],
+      "notes": "Direct Volume XXX review. The third third-Sherpa book contains debt-for-nature, economic-outlook, and other concluding material. The two identically described Major-to-Bush messages must be treated as possible duplicate copies until the originals can be compared. This is a file-level lead, not a document-level inclusion claim. Compare possible controlling copies against the Deal Subject Files and Deal-Reiss Economic Summit Files before promotion."
+    },
+    {
+      "naid": "452050647",
+      "date": "1991-07-05",
+      "sortDate": "1991-07-05",
+      "datePrecision": "range",
+      "displayDateLabel": "July 5-7, 1991",
+      "pageCount": 67,
+      "withheldPages": 20,
+      "withdrawalItems": [
+        {
+          "itemNumber": "01",
+          "type": "Paper",
+          "title": "Re: Update of Soviet Economic Issues",
+          "date": "7/1/91",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 5
+        },
+        {
+          "itemNumber": "02",
+          "type": "Paper",
+          "title": "Re: Soviet Economic Reform: U.S. Response",
+          "date": "7/2/91",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 6
+        },
+        {
+          "itemNumber": "03",
+          "type": "Report",
+          "title": "Re: EC-Eastern Europe",
+          "date": "6/24/91",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 6
+        },
+        {
+          "itemNumber": "04",
+          "type": "Paper",
+          "title": "Re: Update on Status of Iraq Sanctions and Future Actions",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 1
+        },
+        {
+          "itemNumber": "05",
+          "type": "Message",
+          "title": "From Prime Minister Major to POTUS",
+          "date": "6/14/91",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 2
+        }
+      ],
+      "extentLabel": "67 served-PDF pages; 5 separately described withdrawn items totaling 20 pages; Five withdrawn items total 20 pages, including a 6-page Secret paper on the U.S. response to Soviet economic reform and a 6-page Secret EC-Eastern Europe report.",
+      "selection": "Core",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "topics": [
+        "London Economic Summit",
+        "Fourth Sherpa meeting",
+        "Soviet economic reform",
+        "Eastern Europe",
+        "Sanctions"
+      ],
+      "notes": "Direct Volume XXX review. This is the highest-value London Sherpa folder for transition policy. It contains the final preparatory book and identifies separate papers on Soviet reform, the U.S. response, EC-Eastern Europe policy, Iraq sanctions, and a Major message to Bush. This is a file-level lead, not a document-level inclusion claim. Compare possible controlling copies against the Deal Subject Files and Deal-Reiss Economic Summit Files before promotion."
+    },
+    {
+      "naid": "452050648",
+      "date": "1991-07-05",
+      "sortDate": "1991-07-05",
+      "datePrecision": "range",
+      "displayDateLabel": "July 5-7, 1991",
+      "pageCount": 48,
+      "withheldPages": 17,
+      "withdrawalItems": [
+        {
+          "itemNumber": "01",
+          "type": "Paper",
+          "title": "Re: Italian Proposal on Migration",
+          "date": "5/29/91",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 6
+        },
+        {
+          "itemNumber": "02",
+          "type": "Letter",
+          "title": "To Nigel Wicks",
+          "date": "5/24/91",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 2
+        },
+        {
+          "itemNumber": "03",
+          "type": "Paper",
+          "title": "Re: Migrations",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 1
+        },
+        {
+          "itemNumber": "04",
+          "type": "Paper",
+          "title": "Re: UK Paper -- Environmental Disasters: Stronger International Capacity",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 2
+        },
+        {
+          "itemNumber": "05",
+          "type": "Paper",
+          "title": "Re: Improving International Response to Environmental Emergencies -- A Canadian Perspective",
+          "date": "4/91",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 3
+        },
+        {
+          "itemNumber": "06",
+          "type": "Paper",
+          "title": "Re: Oceans -- Canadian Perspective",
+          "date": "4/91",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 3
+        }
+      ],
+      "extentLabel": "48 served-PDF pages; 6 separately described withdrawn items totaling 17 pages; Six withdrawn items total 17 pages, including repeated Italian, British, and Canadian proposals.",
+      "selection": "Consider",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "topics": [
+        "London Economic Summit",
+        "Fourth Sherpa meeting",
+        "Energy",
+        "Environment",
+        "Migration"
+      ],
+      "notes": "Selective Volume XXX review. Review selectively for U.S. energy policy and negotiating positions. Much of the migration and environmental material repeats proposals in the third-Sherpa books and should be deduplicated before item-level promotion. This is a file-level lead, not a document-level inclusion claim. Compare possible controlling copies against the Deal Subject Files and Deal-Reiss Economic Summit Files before promotion."
+    },
+    {
+      "naid": "452050649",
+      "date": "1991-07-05",
+      "sortDate": "1991-07-05",
+      "datePrecision": "range",
+      "displayDateLabel": "July 5-7, 1991",
+      "pageCount": 65,
+      "withheldPages": 1,
+      "withdrawalItems": [
+        {
+          "itemNumber": "01",
+          "type": "List",
+          "title": "Distribution",
+          "date": "4/11/91",
+          "restriction": "(b)(3)",
+          "classification": "Not stated",
+          "pages": 1
+        }
+      ],
+      "extentLabel": "65 served-PDF pages; 1 separately described withdrawn item totaling 1 page; The sole withdrawal is a 1-page distribution list under (b)(3); no substantive withdrawn paper is described.",
+      "selection": "Consider",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "topics": [
+        "London Economic Summit",
+        "Fourth Sherpa meeting",
+        "Climate change",
+        "Trade",
+        "Environment"
+      ],
+      "notes": "Selective Volume XXX review. Use for the concluding climate, trade, and environmental papers in the fourth-Sherpa briefing set. Check each paper against the neighboring volumes and the Deal-Reiss Economic Summit Files. This is a file-level lead, not a document-level inclusion claim. Compare possible controlling copies against the Deal Subject Files and Deal-Reiss Economic Summit Files before promotion."
+    },
+    {
+      "naid": "452050650",
+      "date": "1991-07-14",
+      "sortDate": "1991-07-14",
+      "datePrecision": "range",
+      "displayDateLabel": "July 14-17, 1991",
+      "pageCount": 81,
+      "withheldPages": 41,
+      "withdrawalItems": [
+        {
+          "itemNumber": "01",
+          "type": "Memo",
+          "title": "From James Baker, III/Nicholas Brady to POTUS Re: The London Economic Summit",
+          "date": "7/12/91",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 7
+        },
+        {
+          "itemNumber": "02",
+          "type": "Schedule",
+          "title": "Schedule of the President and Mrs Bush for the Economic Summit, London, England, July 14-18, 1991 - -6",
+          "date": "n.d.",
+          "restriction": "(b)(7)(c), (b)(7)(e), (b)(7)(f)",
+          "classification": "Not stated",
+          "pages": 3
+        },
+        {
+          "itemNumber": "03",
+          "type": "Schedule",
+          "title": "Schedule of the President and Mrs Bush for the Economic Summit, London, England, July 14-18, 1991 - -15",
+          "date": "n.d.",
+          "restriction": "(b)(7)(c), (b)(7)(e), (b)(7)(f)",
+          "classification": "Not stated",
+          "pages": 2
+        },
+        {
+          "itemNumber": "04",
+          "type": "Schedule",
+          "title": "Schedule of the President and Mrs Bush for the Economic Summit, London, England, July 14-18, 1991 - -19",
+          "date": "n.d.",
+          "restriction": "(b)(7)(c), (b)(7)(e), (b)(7)(f)",
+          "classification": "Not stated",
+          "pages": 2
+        },
+        {
+          "itemNumber": "05",
+          "type": "Schedule",
+          "title": "Schedule of the President and Mrs Bush for the Economic Summit, London, England, July 14-18, 1991 - -26",
+          "date": "n.d.",
+          "restriction": "(b)(7)(c), (b)(7)(e), (b)(7)(f)",
+          "classification": "Not stated",
+          "pages": 2
+        },
+        {
+          "itemNumber": "06",
+          "type": "Schedule",
+          "title": "Schedule of the President and Mrs Bush for the Economic Summit, London, England, July 14-18, 1991 - -31",
+          "date": "n.d.",
+          "restriction": "(b)(7)(c), (b)(7)(e), (b)(7)(f)",
+          "classification": "Not stated",
+          "pages": 2
+        },
+        {
+          "itemNumber": "07",
+          "type": "Schedule",
+          "title": "Schedule of the President and Mrs Bush for the Economic Summit, London, England, July 14-18, 1991 - -37",
+          "date": "n.d.",
+          "restriction": "(b)(7)(c), (b)(7)(e), (b)(7)(f)",
+          "classification": "Not stated",
+          "pages": 2
+        },
+        {
+          "itemNumber": "08",
+          "type": "Schedule",
+          "title": "Schedule of the President and Mrs Bush for the Economic Summit, London, England, July 14-18, 1991 - -43",
+          "date": "n.d.",
+          "restriction": "(b)(7)(c), (b)(7)(e), (b)(7)(f)",
+          "classification": "Not stated",
+          "pages": 2
+        },
+        {
+          "itemNumber": "09",
+          "type": "Schedule",
+          "title": "Schedule of the President and Mrs Bush for the Economic Summit, London, England, July 14-18, 1991 - -48",
+          "date": "n.d.",
+          "restriction": "(b)(7)(c), (b)(7)(e), (b)(7)(f)",
+          "classification": "Not stated",
+          "pages": 2
+        },
+        {
+          "itemNumber": "10",
+          "type": "Schedule",
+          "title": "Schedule of the President and Mrs Bush for the Economic Summit, London, England, July 14-18, 1991 - -53",
+          "date": "n.d.",
+          "restriction": "(b)(7)(c), (b)(7)(e), (b)(7)(f)",
+          "classification": "Not stated",
+          "pages": 3
+        },
+        {
+          "itemNumber": "11",
+          "type": "Paper",
+          "title": "Re: London Summit: Draft Political Declaration -- Strengthening the International Order",
+          "date": "7/6/91",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 8
+        },
+        {
+          "itemNumber": "12",
+          "type": "Paper",
+          "title": "Re: London Summit: Draft Declaration on Conventional Arms Transfers and NBC Non-Proliferation",
+          "date": "7/6/91",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 6
+        }
+      ],
+      "extentLabel": "81 served-PDF pages; 12 separately described withdrawn items totaling 41 pages; Twelve withdrawals total 41 pages. The central lead is the 7-page Secret July 12 memorandum from James Baker and Nicholas Brady to President Bush on the London Economic Summit.",
+      "selection": "Core",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "topics": [
+        "London Economic Summit",
+        "President's briefing book",
+        "Baker-Brady memorandum",
+        "Presidential talking points",
+        "Summit strategy"
+      ],
+      "notes": "Direct Volume XXX review. This is the principal presidential briefing volume for London. It contains scope papers, the annotated schedule, and session talking points; compare copies against the London Subject Files and Presidential Memcon Files before selection. This is a file-level lead, not a document-level inclusion claim. Compare possible controlling copies against the Deal Subject Files and Deal-Reiss Economic Summit Files before promotion."
+    },
+    {
+      "naid": "452050651",
+      "date": "1991-07-14",
+      "sortDate": "1991-07-14",
+      "datePrecision": "range",
+      "displayDateLabel": "July 14-17, 1991",
+      "pageCount": 56,
+      "withheldPages": 17,
+      "withdrawalItems": [
+        {
+          "itemNumber": "01",
+          "type": "Talking points",
+          "title": "Re: Points to be Made on Soviet Union [Fourth and Fifth Session]",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 7
+        },
+        {
+          "itemNumber": "02",
+          "type": "Talking points",
+          "title": "Re: Points to be Made for Special Session with President Gorbachev",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 4
+        },
+        {
+          "itemNumber": "03",
+          "type": "Paper",
+          "title": "Re: Soviet Union Economic Issues",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 3
+        },
+        {
+          "itemNumber": "04",
+          "type": "Paper",
+          "title": "Re: Gulf/Middle East",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2
+        },
+        {
+          "itemNumber": "05",
+          "type": "Talking points",
+          "title": "Re: Points to be Made on Gulf/Middle East",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 1
+        }
+      ],
+      "extentLabel": "56 served-PDF pages; 5 separately described withdrawn items totaling 17 pages; Five Secret withdrawals total 17 pages, including presidential talking points on the Soviet Union and a special session with Gorbachev.",
+      "selection": "Core",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "topics": [
+        "London Economic Summit",
+        "President's briefing book",
+        "Trade",
+        "Soviet Union",
+        "President Gorbachev"
+      ],
+      "notes": "Direct Volume XXX review. The second presidential briefing volume preserves session-level talking points on trade and other summit decisions. The Soviet and Gorbachev sections remain separately described withdrawals and should be cross-routed to the Soviet volume. This is a file-level lead, not a document-level inclusion claim. Compare possible controlling copies against the Deal Subject Files and Deal-Reiss Economic Summit Files before promotion."
+    },
+    {
+      "naid": "452050652",
+      "date": "1991-07-14",
+      "sortDate": "1991-07-14",
+      "datePrecision": "range",
+      "displayDateLabel": "July 14-17, 1991",
+      "pageCount": 58,
+      "withheldPages": 25,
+      "withdrawalItems": [
+        {
+          "itemNumber": "01",
+          "type": "Report",
+          "title": "Re: [government report]",
+          "date": "6/27/91",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1
+        },
+        {
+          "itemNumber": "02",
+          "type": "Report",
+          "title": "Re: [government report]",
+          "date": "6/26/91",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1
+        },
+        {
+          "itemNumber": "03",
+          "type": "Report",
+          "title": "Re: [government report]",
+          "date": "6/27/91",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1
+        },
+        {
+          "itemNumber": "04",
+          "type": "Report",
+          "title": "Re: [government report]",
+          "date": "6/27/91",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 1
+        },
+        {
+          "itemNumber": "05",
+          "type": "Report",
+          "title": "Re: [government report]",
+          "date": "6/27/91",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 1
+        },
+        {
+          "itemNumber": "06",
+          "type": "Report",
+          "title": "Re: [government report]",
+          "date": "5/21/91",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 1
+        },
+        {
+          "itemNumber": "07",
+          "type": "Report",
+          "title": "Re: [government report]",
+          "date": "5/9/91",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1
+        },
+        {
+          "itemNumber": "08",
+          "type": "Report",
+          "title": "Re: [government report]",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 1
+        },
+        {
+          "itemNumber": "09",
+          "type": "Report",
+          "title": "Re: [government report]",
+          "date": "5/28/91",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 1
+        },
+        {
+          "itemNumber": "10",
+          "type": "Report",
+          "title": "Re: [government report]",
+          "date": "6/27/91",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 1
+        },
+        {
+          "itemNumber": "11",
+          "type": "Report",
+          "title": "Re: [government report]",
+          "date": "5/28/91",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1
+        },
+        {
+          "itemNumber": "12",
+          "type": "Report",
+          "title": "Re: [government report]",
+          "date": "5/28/91",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1
+        },
+        {
+          "itemNumber": "13",
+          "type": "Report",
+          "title": "Re: [government report]",
+          "date": "6/27/91",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1
+        },
+        {
+          "itemNumber": "14",
+          "type": "Report",
+          "title": "Re: [government report]",
+          "date": "6/26/91",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1
+        },
+        {
+          "itemNumber": "15",
+          "type": "Report",
+          "title": "Re: [government report]",
+          "date": "6/27/91",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1
+        },
+        {
+          "itemNumber": "16",
+          "type": "Report",
+          "title": "Re: [government report]",
+          "date": "6/27/91",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 1
+        },
+        {
+          "itemNumber": "17",
+          "type": "Report",
+          "title": "Re: [government report]",
+          "date": "1/24/91",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 1
+        },
+        {
+          "itemNumber": "18",
+          "type": "Report",
+          "title": "Re: [government report]",
+          "date": "6/27/91",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1
+        },
+        {
+          "itemNumber": "19",
+          "type": "Report",
+          "title": "Re: [government report]",
+          "date": "6/27/91",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1
+        },
+        {
+          "itemNumber": "20",
+          "type": "Report",
+          "title": "Re: [government report]",
+          "date": "6/28/91",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 1
+        },
+        {
+          "itemNumber": "21",
+          "type": "Report",
+          "title": "Re: [government report]",
+          "date": "6/27/91",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 1
+        },
+        {
+          "itemNumber": "22",
+          "type": "Report",
+          "title": "Re: [government report]",
+          "date": "6/27/91",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 1
+        },
+        {
+          "itemNumber": "23",
+          "type": "Report",
+          "title": "Re: [government report]",
+          "date": "5/15/91",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 1
+        },
+        {
+          "itemNumber": "24",
+          "type": "Report",
+          "title": "Re: [government report]",
+          "date": "5/21/91",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 1
+        },
+        {
+          "itemNumber": "25",
+          "type": "Report",
+          "title": "Re: [government report]",
+          "date": "6/27/91",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 1
+        }
+      ],
+      "extentLabel": "58 served-PDF pages; 25 separately described withdrawn items totaling 25 pages; The three-page master inventory identifies 25 one-page government reports totaling 25 pages; their subjects are not disclosed, so they cannot be promoted beyond this locator.",
+      "selection": "Consider",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "topics": [
+        "London Economic Summit",
+        "President's background book",
+        "World economy",
+        "Macroeconomic coordination",
+        "Country papers"
+      ],
+      "notes": "Selective Volume XXX review. Use as supporting presidential background for the world economy, macroeconomic coordination, trade, debt, Soviet assistance, and country positions. Prefer the briefing book for presidential guidance and this volume for necessary context. This is a file-level lead, not a document-level inclusion claim. Compare possible controlling copies against the Deal Subject Files and Deal-Reiss Economic Summit Files before promotion."
+    },
+    {
+      "naid": "452050653",
+      "date": "1991-07-14",
+      "sortDate": "1991-07-14",
+      "datePrecision": "range",
+      "displayDateLabel": "July 14-17, 1991",
+      "pageCount": 21,
+      "withheldPages": 16,
+      "withdrawalItems": [
+        {
+          "itemNumber": "01",
+          "type": "Paper",
+          "title": "Re: Nonproliferation",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 3
+        },
+        {
+          "itemNumber": "02",
+          "type": "Paper",
+          "title": "Re: Terrorism",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 2
+        },
+        {
+          "itemNumber": "03",
+          "type": "Talking points",
+          "title": "Re: Points to be Made on Terrorism",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Secret",
+          "pages": 1
+        },
+        {
+          "itemNumber": "04",
+          "type": "Paper",
+          "title": "Re: Canada",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Not stated",
+          "pages": 2
+        },
+        {
+          "itemNumber": "05",
+          "type": "Paper",
+          "title": "Re: European Community",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 2
+        },
+        {
+          "itemNumber": "06",
+          "type": "Paper",
+          "title": "Re: Germany",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1
+        },
+        {
+          "itemNumber": "07",
+          "type": "Paper",
+          "title": "Re: France",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 2
+        },
+        {
+          "itemNumber": "08",
+          "type": "Paper",
+          "title": "Re: Japan",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 2
+        },
+        {
+          "itemNumber": "09",
+          "type": "Paper",
+          "title": "Re: United Kingdom",
+          "date": "n.d.",
+          "restriction": "(b)(1)",
+          "classification": "Confidential",
+          "pages": 1
+        }
+      ],
+      "extentLabel": "21 served-PDF pages; 9 separately described withdrawn items totaling 16 pages; Nine withdrawals total 16 pages, including country papers on the European Community, Germany, France, Japan, and the United Kingdom.",
+      "selection": "Consider",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "topics": [
+        "London Economic Summit",
+        "President's background book",
+        "European Community",
+        "Germany",
+        "Japan"
+      ],
+      "notes": "Selective Volume XXX review. This companion background volume is principally useful for country-position and cross-volume checks. Avoid duplicating country papers already represented by bilateral presidential conversations or regional files. This is a file-level lead, not a document-level inclusion claim. Compare possible controlling copies against the Deal Subject Files and Deal-Reiss Economic Summit Files before promotion."
+    }
+  ]
+}
