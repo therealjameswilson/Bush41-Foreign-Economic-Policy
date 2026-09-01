@@ -1314,11 +1314,19 @@ h1 {
 }
 
 .records-tools {
-  grid-template-columns: minmax(230px, 1.4fr) repeat(5, minmax(135px, 0.72fr));
+  grid-template-columns: minmax(250px, 1.4fr) repeat(4, minmax(155px, 0.8fr));
 }
 
 .records-tools > button {
   min-width: 112px;
+}
+
+#clear-filters {
+  grid-column: 4;
+}
+
+#download-filtered {
+  grid-column: 5;
 }
 
 .records-tools .download-filtered {
@@ -1952,6 +1960,11 @@ th {
 
   .records-tools {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  #clear-filters,
+  #download-filtered {
+    grid-column: auto;
   }
 
   .records-tools .search-field,

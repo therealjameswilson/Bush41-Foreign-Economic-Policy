@@ -93,44 +93,39 @@ const meta = {
   officialUrl: "https://history.state.gov/historicaldocuments/frus1989-92v30",
   status: "Being Researched",
   statusChecked: "2026-09-01",
-  editorialState: "Provisional compiler register",
+  editorialState: "Provisional chronological compiler register",
   scopeNote:
-    "The Office of the Historian has not published a table of contents for Volume XXX. The chapter plan and selection labels on this site are working arrangements for compiler review, not an official documentary history.",
+    "Volume XXX is arranged here as one continuous chronology. Subject-area labels support search and archival screening only; they do not divide the prospective volume into chapters or topical sections.",
   boundaryNote:
     "Canada and Mexico, including the central NAFTA record, belong primarily to Volume XXXIII. Boundary records remain visible here so economic-policy decisions are not lost during routing.",
 };
 
-const chapters = [
+const subjectAreas = [
   {
-    number: 1,
     name: "Trade Policy and Market Access",
     shortName: "Trade and Market Access",
     description:
       "Uruguay Round strategy, Section 301 and Super 301, Structural Impediments Initiative, market-opening negotiations, and trade-policy coordination.",
   },
   {
-    number: 2,
     name: "Monetary Policy, Debt, and International Institutions",
     shortName: "Money, Debt, and Institutions",
     description:
       "International monetary policy, sovereign debt, the IMF and World Bank, finance-minister coordination, and the institutional architecture of the global economy.",
   },
   {
-    number: 3,
     name: "Economic Summits and Industrialized-Country Cooperation",
     shortName: "Economic Summits",
     description:
       "Paris, Houston, London, and Munich summit preparation, presidential plenaries, communiques, and G-7 coordination.",
   },
   {
-    number: 4,
     name: "Transition Economies and International Economic Strategy",
     shortName: "Transition Economies",
     description:
       "Economic assistance and integration strategies for Poland, Hungary, the Soviet Union, Russia, and other transition economies.",
   },
   {
-    number: 5,
     name: "Strategic Trade, Technology, and Investment Controls",
     shortName: "Strategic Trade and Technology",
     description:
@@ -138,7 +133,7 @@ const chapters = [
   },
 ];
 
-const chapterNames = new Set(chapters.map((chapter) => chapter.name));
+const subjectAreaNames = new Set(subjectAreas.map((area) => area.name));
 
 const presidentialConfig = {
   "428082491": {
@@ -863,14 +858,14 @@ const gaps = [
     id: "gap-ustr",
     priority: "Critical",
     title: "USTR central and negotiator files are not yet systematically harvested",
-    scope: "Trade chapter",
+    scope: "Trade-policy records",
     action: "Survey USTR accession lists and identify negotiating files for the Uruguay Round, Japan, Section 301, and fast-track decisions.",
   },
   {
     id: "gap-treasury",
     priority: "Critical",
     title: "Treasury and Secretary Brady international files remain underrepresented",
-    scope: "Monetary, debt, and institutions chapter",
+    scope: "Monetary, debt, and institutions records",
     action: "Use the Brady burden-sharing memorandum and Robson Egypt-debt transmittal now recovered in CF00946-002 as anchors, then build an item-level register for debt strategy, exchange rates, G-5/G-7 finance, IMF, World Bank, and transition-finance decisions.",
   },
   {
@@ -884,14 +879,14 @@ const gaps = [
     id: "gap-state-zoellick",
     priority: "Critical",
     title: "Department of State economic-policy files need a full lot-file sweep",
-    scope: "All chapters",
+    scope: "Whole chronology",
     action: "Prioritize Lot 96D484 (Robert Zoellick), Baker papers, and the Central Foreign Policy File P-, D-, and N-reels.",
   },
   {
     id: "gap-cables",
     priority: "High",
     title: "Decision-shaping cables and reporting telegrams are not represented",
-    scope: "All chapters",
+    scope: "Whole chronology",
     action: "Search the Central Foreign Policy File for instructions, reporting, and negotiation records tied to each core decision cluster.",
   },
   {
@@ -1426,14 +1421,15 @@ const allRecords = [
   ...remainingLeadRecords,
 ]
   .map((record) => {
-    if (!chapterNames.has(record.chapter)) throw new Error(`Unknown chapter for ${record.id}: ${record.chapter}`);
-    return record;
+    if (!subjectAreaNames.has(record.chapter)) throw new Error(`Unknown subject area for ${record.id}: ${record.chapter}`);
+    const { chapter, ...chronologyRecord } = record;
+    return { ...chronologyRecord, subjectArea: chapter };
   })
   .sort((a, b) => a.sortDate.localeCompare(b.sortDate) || a.title.localeCompare(b.title));
 
 const data = {
   meta,
-  chapters,
+  subjectAreas,
   records: allRecords,
   nscCollections: [
     {
@@ -1749,7 +1745,7 @@ fs.writeFileSync(path.join(dataDir, "records.csv"), toCsv(allRecords, [
   "heading",
   "dateline",
   "type",
-  "chapter",
+  "subjectArea",
   "selection",
   "releaseStatus",
   "pageCount",

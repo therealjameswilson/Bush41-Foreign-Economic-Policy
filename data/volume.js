@@ -6,37 +6,32 @@ window.VOLUME_DATA = {
     "officialUrl": "https://history.state.gov/historicaldocuments/frus1989-92v30",
     "status": "Being Researched",
     "statusChecked": "2026-09-01",
-    "editorialState": "Provisional compiler register",
-    "scopeNote": "The Office of the Historian has not published a table of contents for Volume XXX. The chapter plan and selection labels on this site are working arrangements for compiler review, not an official documentary history.",
+    "editorialState": "Provisional chronological compiler register",
+    "scopeNote": "Volume XXX is arranged here as one continuous chronology. Subject-area labels support search and archival screening only; they do not divide the prospective volume into chapters or topical sections.",
     "boundaryNote": "Canada and Mexico, including the central NAFTA record, belong primarily to Volume XXXIII. Boundary records remain visible here so economic-policy decisions are not lost during routing."
   },
-  "chapters": [
+  "subjectAreas": [
     {
-      "number": 1,
       "name": "Trade Policy and Market Access",
       "shortName": "Trade and Market Access",
       "description": "Uruguay Round strategy, Section 301 and Super 301, Structural Impediments Initiative, market-opening negotiations, and trade-policy coordination."
     },
     {
-      "number": 2,
       "name": "Monetary Policy, Debt, and International Institutions",
       "shortName": "Money, Debt, and Institutions",
       "description": "International monetary policy, sovereign debt, the IMF and World Bank, finance-minister coordination, and the institutional architecture of the global economy."
     },
     {
-      "number": 3,
       "name": "Economic Summits and Industrialized-Country Cooperation",
       "shortName": "Economic Summits",
       "description": "Paris, Houston, London, and Munich summit preparation, presidential plenaries, communiques, and G-7 coordination."
     },
     {
-      "number": 4,
       "name": "Transition Economies and International Economic Strategy",
       "shortName": "Transition Economies",
       "description": "Economic assistance and integration strategies for Poland, Hungary, the Soviet Union, Russia, and other transition economies."
     },
     {
-      "number": 5,
       "name": "Strategic Trade, Technology, and Investment Controls",
       "shortName": "Strategic Trade and Technology",
       "description": "COCOM policy, export-control reform, technology transfer, investment questions, and economic instruments with national-security consequences."
@@ -53,7 +48,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Institutional Files Transition File: Reagan-Bush Transition Briefing Book: National Security Activities",
       "dateline": "November 1988",
       "type": "NSC Institutional Files transition file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 53,
@@ -74,7 +68,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The transition briefing book contains a four-page paper on the Economic Summits, a two-page chronology of preparations for the 1988 Toronto Summit, and a transition calendar extending into July 1989. The paper recommends early decisions about organization and U.S. objectives for the Paris Summit and records State-Treasury friction in the Sherpa process. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "if-transition",
-      "provenanceMethod": "Opening PDF provenance marker, full-text review, and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker, full-text review, and withdrawal sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "lead-470760859",
@@ -86,7 +81,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Institutional Files Transition File: Reagan-Bush Transition Briefing Book: NSC Policy Issues",
       "dateline": "November 1988",
       "type": "NSC Institutional Files transition file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 28,
@@ -111,7 +105,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The six-page International Economic Affairs Directorate paper is a compact transition agenda for the incoming administration. It covers Paris Summit organization, Trade Act authorities, the Uruguay Round, Japan rice and semiconductors, Section 232 petitions, the EC meat-hormone dispute and 1992 single market, East-West credits, middle-income and African debt, IMF quotas, energy, and technology competitiveness. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "if-transition",
-      "provenanceMethod": "Opening PDF provenance marker, full-text review, and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker, full-text review, and withdrawal sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-470760855",
@@ -123,7 +118,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Institutional Files Transition File: Reagan-Bush Transition Briefing Book: Background on NSC Organization and Administration",
       "dateline": "November 9, 1988",
       "type": "NSC Institutional Files transition file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 82,
@@ -143,7 +137,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The covering memorandum and briefing book define the outgoing NSC's international-economic portfolio, including trade, debt, multilateral development banks, energy, the Paris Summit, East-West economic relations, and technology-transfer responsibilities. Use this as institutional and authorship context; the more substantive policy-issues briefing in NAID 470760859 should normally control documentary selection. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "if-transition",
-      "provenanceMethod": "Opening PDF provenance marker, full-text review, and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker, full-text review, and withdrawal sheets",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "deal-reiss-452050387",
@@ -155,7 +150,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal and Mitchell B. Reiss Economic Summit File: Economic Summit, Miscellaneous 1989 [1]",
       "dateline": "1989 (mixed internal dates)",
       "type": "Timothy E. Deal and Mitchell B. Reiss economic-summit file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 159,
@@ -272,7 +266,8 @@ window.VOLUME_DATA = {
       "withdrawalMetadataNote": "The opening marker names both Deal and Reiss files and the combined Summit Briefing Books Files / Economic Summit Files subseries. Later withdrawal sheets abbreviate the series and omit the subseries. The opening marker controls the file-level locator.",
       "markerMismatchNote": "",
       "collectionId": "deal-reiss",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "deal-reiss-452050388",
@@ -284,7 +279,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal and Mitchell B. Reiss Economic Summit File: Economic Summit, Miscellaneous 1989 [2]",
       "dateline": "1989 (mixed internal dates)",
       "type": "Timothy E. Deal and Mitchell B. Reiss economic-summit file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; released-in-part copies present",
       "pageCount": 139,
@@ -457,7 +451,8 @@ window.VOLUME_DATA = {
       "withdrawalMetadataNote": "The opening marker names both Deal and Reiss files and the combined Summit Briefing Books Files / Economic Summit Files subseries. Later sheets vary among abbreviated combined-series forms, and one identifies Reiss Chron Files. The opening marker controls the file-level locator.",
       "markerMismatchNote": "",
       "collectionId": "deal-reiss",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "deal-reiss-452050389",
@@ -469,7 +464,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal and Mitchell B. Reiss Economic Summit File: Economic Summit, Miscellaneous 1989 [3]",
       "dateline": "1989 (mixed internal dates)",
       "type": "Timothy E. Deal and Mitchell B. Reiss economic-summit file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 160,
@@ -553,7 +547,8 @@ window.VOLUME_DATA = {
       "withdrawalMetadataNote": "The opening marker names both Deal and Reiss files and the combined Summit Briefing Books Files / Economic Summit Files subseries. Later withdrawal sheets abbreviate the series and do not consistently preserve the subseries. The opening marker controls the file-level locator.",
       "markerMismatchNote": "",
       "collectionId": "deal-reiss",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "scowcroft-366551712",
@@ -565,7 +560,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: France (Outgoing) 1989-1993",
       "dateline": "1989-1993",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -592,7 +586,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Outgoing presidential correspondence with France includes economic-summit, trade, finance, or transition-policy material identified in the complete OCR screen. Separate substantive messages from courtesy and security correspondence before selection. Cross-check each message against the general Chronological Files, Special Channel files, and the presidential-correspondence index; retain one archival copy as the citation authority. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "scowcroft-366551714",
@@ -604,7 +599,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Germany (Outgoing) 1989-1993",
       "dateline": "1989-1993",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -631,7 +625,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Outgoing presidential correspondence with Germany includes economic-summit, trade, finance, or transition-policy material identified in the complete OCR screen. Separate substantive messages from courtesy and security correspondence before selection. Cross-check each message against the general Chronological Files, Special Channel files, and the presidential-correspondence index; retain one archival copy as the citation authority. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "scowcroft-366551716",
@@ -643,7 +638,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Italy (Outgoing) 1989-1993",
       "dateline": "1989-1993",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -670,7 +664,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Outgoing presidential correspondence with Italy includes economic-summit, trade, finance, or transition-policy material identified in the complete OCR screen. Separate substantive messages from courtesy and security correspondence before selection. Cross-check each message against the general Chronological Files, Special Channel files, and the presidential-correspondence index; retain one archival copy as the citation authority. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "scowcroft-366551718",
@@ -682,7 +677,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Japan (Outgoing) 1989-1993",
       "dateline": "1989-1993",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -709,7 +703,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Outgoing presidential correspondence with Japan includes economic-summit, trade, finance, or transition-policy material identified in the complete OCR screen. Separate substantive messages from courtesy and security correspondence before selection. Cross-check each message against the general Chronological Files, Special Channel files, and the presidential-correspondence index; retain one archival copy as the citation authority. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "scowcroft-366551990",
@@ -721,7 +716,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Other (January-March 1989)",
       "dateline": "January-March 1989",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -747,7 +741,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The folder lists the January 31 paper on the U.S. position at the G-7, background papers on EC 1992, the February 28 paper on next steps for the Paris Economic Summit, and Scowcroft memoranda on summit preparations. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Chronological Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "scowcroft-366551723",
@@ -759,7 +754,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: United Kingdom (Outgoing) 1989-1993 [1]",
       "dateline": "1989-1993",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -787,7 +781,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Outgoing presidential correspondence with United Kingdom includes economic-summit, trade, finance, or transition-policy material identified in the complete OCR screen. Separate substantive messages from courtesy and security correspondence before selection. Cross-check each message against the general Chronological Files, Special Channel files, and the presidential-correspondence index; retain one archival copy as the citation authority. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "scowcroft-366551724",
@@ -799,7 +794,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: United Kingdom (Outgoing) 1989-1993 [2]",
       "dateline": "1989-1993",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -826,7 +820,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Outgoing presidential correspondence with United Kingdom includes economic-summit, trade, finance, or transition-policy material identified in the complete OCR screen. Separate substantive messages from courtesy and security correspondence before selection. Cross-check each message against the general Chronological Files, Special Channel files, and the presidential-correspondence index; retain one archival copy as the citation authority. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-470760866",
@@ -838,7 +833,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Institutional Files Transition File: [NSC: Reagan-Bush Transition Background Materials—Volume I—January 1989] [3]",
       "dateline": "January 6, 1989",
       "type": "NSC Institutional Files transition file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 141,
@@ -862,7 +856,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. Stephen P. Farrar's one-page memorandum requests retention for Scowcroft's incoming staff of the International Economic Affairs Directorate files on agriculture, Brazil, budget, debt, the EC, energy, OECD, Panama, the Paris Summit, sanctions, the Soviet Union, trade, and Western lending to the Soviet bloc. It is primarily a compiler discovery and provenance lead, not a substitute for the retained substantive files. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "if-transition",
-      "provenanceMethod": "Opening PDF provenance marker, full-text review, and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker, full-text review, and withdrawal sheets",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "scowcroft-366551660",
@@ -874,7 +869,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Presidential Meetings—Memorandum of Conversations 1/24/89-2/25/89",
       "dateline": "January 24, 1989-February 25, 1989",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -901,7 +895,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The complete Scowcroft folder contains presidential memoranda of conversation or telephone conversations with substantive economic-policy OCR signals. Review each conversation separately and promote only the passages that bear directly on Volume XXX. Parallel-copy control: match each conversation to the Bush Library Memcons and Telcons index and its canonical NARA item before selection. A Scowcroft folder copy is not a second documentary entry. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-446396813",
@@ -911,7 +906,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Directive File: NSD–3—February 13, 1989—U.S. Policy toward Afghanistan (File located @ LM)",
       "dateline": "February 13, 1989",
       "type": "National Security Directive file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 52,
@@ -932,7 +926,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The signed Afghanistan directive calls for AID-supervised humanitarian programs, reconstruction and recovery, refugee return, and priority preparation to transfer funds for relief. Route the principal regional and security record against the South Asia volume while retaining the assistance and reconstruction decisions for Volume XXX adjudication. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsd",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "scowcroft-366552131",
@@ -944,7 +939,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Miscellaneous",
       "dateline": "February 14-July 31, 1989",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -972,7 +966,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. This miscellaneous file contains reports titled Eastern European Economic Initiative and Economic Outreach to Eastern Europe, a presidential message to EC Commission President Delors, and records on the international support meeting for Poland and Hungary. Several items are convenience copies from policy and correspondence files; use this folder as a discovery lead until the controlling copy is identified. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Brent Scowcroft Administrative Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-470760976",
@@ -982,7 +977,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 002—February 14, 1989—NSC/DC Meeting on Review of FSX for Japan, Keywords: Japan, Technology, Transfers",
       "dateline": "February 14, 1989",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 58,
@@ -1004,7 +998,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The packet frames the FSX co-development decision as an international-trade, industrial-base, and technology-transfer question; adjudicate it against the Japan and security volumes. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-446394925",
@@ -1014,7 +1009,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Review File: NSR-3—February 15, 1989—Comprehensive Review of U.S.-Soviet Relations [1]",
       "dateline": "February 15, 1989",
       "type": "National Security Review file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 74,
@@ -1035,7 +1029,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The signed review directive treats Soviet domestic economic change as a central strategic variable. Screen its economic-policy questions and work-program material with the response file and with NSC Meeting file NAID 470760894; deduplicate the parallel NSR-3 copies before item-level promotion. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsr",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-446394926",
@@ -1045,7 +1040,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Review File: NSR-3—February 15, 1989—Comprehensive Review of U.S.-Soviet Relations [2]",
       "dateline": "February 15, 1989",
       "type": "National Security Review file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 58,
@@ -1066,7 +1060,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. This response file contains recommended policies, near-term initiatives, and the principal NSR-3 study. Compare it with the 31-page review and related documents in NSC Meeting file NAID 470760894 and Tim Deal file NAID 452050608. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsr",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-446394927",
@@ -1076,7 +1071,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Review File: NSR-4—February 15, 1989—Comprehensive Review of U.S.-East European Relations [1]",
       "dateline": "February 15, 1989",
       "type": "National Security Review file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 82,
@@ -1097,7 +1091,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The directive and review materials examine economic reform, differentiation, assistance, trade, credits, and other sources of U.S. leverage in Eastern Europe. Compare the later Europe directive material against the NSD series before retaining a separate copy. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsr",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-446394928",
@@ -1107,7 +1102,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Review File: NSR-4—February 15, 1989—Comprehensive Review of U.S.-East European Relations [2]",
       "dateline": "February 15, 1989",
       "type": "National Security Review file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 30,
@@ -1128,7 +1122,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. This companion file holds the NSR-4 study, presidential meeting preparation, and a Deputies Committee summary. Compare it with NSC Meeting file NAID 470760893 and retain only distinct copies or annotations. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsr",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-446394929",
@@ -1138,7 +1133,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Review File: NSR-5—February 15, 1989—Comprehensive Review of U.S.-West European Relations [1]",
       "dateline": "February 15, 1989",
       "type": "National Security Review file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 45,
@@ -1159,7 +1153,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The folder contains a discrete study of European unity and the EC 1992 program, making it a direct trade and market-access lead. Review it with the April 4 Europe NSC packet, NAID 470760893, and the Western Europe compilation. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsr",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-446394930",
@@ -1169,7 +1164,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Review File: NSR-5—February 15, 1989—Comprehensive Review of U.S.-West European Relations [2]",
       "dateline": "February 15, 1989",
       "type": "National Security Review file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 28,
@@ -1190,7 +1184,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The NSR-5 response and repeated EC 1992 study address the economic implications of European integration. The file also carries April 5 U.S.-Soviet NSC minutes that should be deduplicated against NAID 470760894 rather than treated as a second meeting record. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsr",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-446394935",
@@ -1200,7 +1195,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Review File: NSR-10—February 22, 1989—U.S. Policy Toward the Persian Gulf",
       "dateline": "February 22, 1989",
       "type": "National Security Review file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 40,
@@ -1221,7 +1215,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The Persian Gulf review addresses oil supply, energy security, and the economic consequences of regional policy. Route the principal record against the Gulf volume. The opening marker says 90006-010; the first withdrawal sheet crosses that out and supplies the Catalog Folder ID 90006-013. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsr",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-446394933",
@@ -1231,7 +1226,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Review File: NSR-8—February 22, 1989—U.S. Policy Toward South Asia",
       "dateline": "February 22, 1989",
       "type": "National Security Review file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 95,
@@ -1252,7 +1246,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The South Asia review file contains a separately identified Super 301 report in addition to the regional study. Screen that trade paper for Volume XXX while routing the principal regional policy record to the South Asia volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsr",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "scowcroft-366551661",
@@ -1264,7 +1259,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Presidential Meetings—Memorandum of Conversations 2/26/89-4/19/89",
       "dateline": "February 26, 1989-April 19, 1989",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -1292,7 +1286,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The complete Scowcroft folder contains presidential memoranda of conversation or telephone conversations with substantive economic-policy OCR signals. Review each conversation separately and promote only the passages that bear directly on Volume XXX. Parallel-copy control: match each conversation to the Bush Library Memcons and Telcons index and its canonical NARA item before selection. A Scowcroft folder copy is not a second documentary entry. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "deal-chron-452050412",
@@ -1304,7 +1299,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: March 1989 [1]",
       "dateline": "March 1989 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 81,
@@ -1451,7 +1445,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Your Meeting with the Ad Hoc Group on Latin American Debt, March 28, 1989”; “WRITES OF TRANSACTIONS BETWEEN ITALTEL AND AT&T AND APPRECIATION FOR U.S. GOVERNMENT SUPPORT WITH ECONOMIC AND FOREIGN POLICY”; “Latin American Debt and Relations with the Group of Eight Enclosed is a draft reply to Congressman Dante Fascell's”; “Offsets in Military Exports As we discussed by phone, I forward for your review the annex to”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "deal-chron-452050413",
@@ -1463,7 +1458,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: March 1989 [2]",
       "dateline": "March 1989 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 80,
@@ -1567,7 +1561,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “PRESIDENTIAL COUNCIL ON COMPETITIVENESS”; “Presidential Council on Competitiveness Issue This memorandum recommends that you establish a Presidential”; “NSC Meeting Minutes on International Debt Attached at Tab I are the minutes for the March 14 National”; “Response to Senator Graham re Latin America and the Debt Problem”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "deal-chron-452050414",
@@ -1579,7 +1574,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: March 1989 [3]",
       "dateline": "March 1989 [3] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 107,
@@ -1704,7 +1698,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Presidential Letters for Overseas Private Investment Corporation (OPIC) Missions to”; “Presidential Letters for Overseas Private Investment Corporation (OPIC) Investment”; “National Security Council Meeting on International Debt, 5-5:30 p.m., March 14,”; “Notification of National Security Council Meeting on International Debt, 5:30-30 p.m.,”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "scowcroft-366551795",
@@ -1716,7 +1711,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Soviet Power Collapse in Eastern Europe (March-April 1989)",
       "dateline": "March-April 1989",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -1744,7 +1738,8 @@ window.VOLUME_DATA = {
       "notes": "Cross-volume boundary review. The full OCR and opening withdrawal inventory identify a significant foreign-economic-policy strand, but the principal narrative belongs in a regional, Soviet, China, German-unification, or Persian Gulf volume. Review for cross-reference or a narrowly selected economic-policy document. Special-separate copy sets, meeting-file duplicates, and later retrospective chronologies are not separately promoted. Compare this file with the controlling regional and presidential records before selection. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "USSR Chronological Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "deal-1989-03-03-paris-sherpa-report-withheld",
@@ -1754,7 +1749,6 @@ window.VOLUME_DATA = {
       "heading": "Message Reporting on the Sherpa Meeting of February 24-26",
       "dateline": "March 3, 1989",
       "type": "Withdrawn message",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Consider",
       "releaseStatus": "Withheld",
       "pageCount": 6,
@@ -1774,7 +1768,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "The scan contains three withdrawal slips for identical 6-page messages. They are deduplicated here as one intellectual record. Sender, recipient, and place are not established by the slips.",
       "collectionId": "tim-deal",
-      "provenanceMethod": "Opening PDF provenance marker"
+      "provenanceMethod": "Opening PDF provenance marker",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-1989-03-08-melby-paris-preparatory",
@@ -1784,7 +1779,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum From Eric Melby of the National Security Council Staff to the President's Assistant for National Security Affairs (Scowcroft)",
       "dateline": "Washington, March 8, 1989",
       "type": "Memorandum",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Released",
       "pageCount": 1,
@@ -1804,7 +1798,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "The memorandum summarizes the February 24-26 Sherpa meeting and identifies economic coordination, debt, trade, East-West trade, and the environment as likely summit issues.",
       "collectionId": "tim-deal",
-      "provenanceMethod": "Opening PDF provenance marker"
+      "provenanceMethod": "Opening PDF provenance marker",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-1989-03-10-levitsky-nsr3",
@@ -1814,7 +1809,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum From the Executive Secretary of the Department of State (Levitsky) to the President's Assistant for National Security Affairs (Scowcroft)",
       "dateline": "Washington, March 10, 1989",
       "type": "Memorandum",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Consider",
       "releaseStatus": "Released",
       "pageCount": 1,
@@ -1834,7 +1828,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Levitsky transmitted the final NSR 3 paper for distribution and discussion at an upcoming NSC/Deputies Committee meeting.",
       "collectionId": "tim-deal",
-      "provenanceMethod": "Opening PDF provenance marker"
+      "provenanceMethod": "Opening PDF provenance marker",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-470760981",
@@ -1844,7 +1839,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 007—March 10, 1989—NSC/DC Meeting on FSX for Japan, Keywords: Japan",
       "dateline": "March 10, 1989",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 59,
@@ -1866,7 +1860,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The folder includes the March 10 Deputies Committee memcon and decision papers on technology, procurement, production share, and trade implications; compare it with the February FSX review. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "deal-1989-03-10-nsr3-paper-withheld",
@@ -1877,7 +1872,6 @@ window.VOLUME_DATA = {
       "heading": "Paper Prepared for National Security Review 3",
       "dateline": "Washington, undated",
       "type": "Withdrawn paper",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Withheld",
       "pageCount": 31,
@@ -1897,7 +1891,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "The paper is undated on the withdrawal sheet. It is placed with the March 10 transmittal for working chronology only.",
       "collectionId": "tim-deal",
-      "provenanceMethod": "Opening PDF provenance marker"
+      "provenanceMethod": "Opening PDF provenance marker",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-470760887",
@@ -1907,7 +1902,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Meeting File: NSC0003—March 14, 1989—International Debt, Economics, International Finance",
       "dateline": "March 14, 1989",
       "type": "NSC meeting file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Partly released",
       "pageCount": 102,
@@ -1928,7 +1922,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The file includes an 8-page Secret NSC meeting record identified on the withdrawal/citation sheet, together with agenda, briefing, and follow-up material. Promote individual documents only after source-image review.",
       "collectionId": "nsc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470760889",
@@ -1938,7 +1933,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Meeting File: NSC0005—March 15, 1989—Fighter Support Experimental Project, Japan",
       "dateline": "March 15, 1989",
       "type": "NSC meeting file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Partly released",
       "pageCount": 45,
@@ -1960,7 +1954,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The file concerns the FSX project and includes minutes, draft minutes, an agenda, talking points, and a memorandum from Karl Jackson to Brent Scowcroft. Its primary placement may be a Japan or security volume, but the technology-transfer and industrial-policy record warrants Volume XXX review.",
       "collectionId": "nsc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "deal-1989-03-15-melby-white-house-summit-group",
@@ -1970,7 +1965,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum From Eric Melby of the National Security Council Staff to the President's Assistant for National Security Affairs (Scowcroft)",
       "dateline": "Washington, March 15, 1989",
       "type": "Memorandum",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Released",
       "pageCount": 1,
@@ -1990,7 +1984,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "The memorandum recommends convening the White House Summit Group before the April Sherpa meeting.",
       "collectionId": "tim-deal",
-      "provenanceMethod": "Opening PDF provenance marker"
+      "provenanceMethod": "Opening PDF provenance marker",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "lead-470760982",
@@ -2000,7 +1995,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 008—March 17, 1989—NSC/DC Meeting on NSR-4 re: U.S. / Eastern Europe Relations, Keywords: Europe, East",
       "dateline": "March 17, 1989",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 72,
@@ -2022,7 +2016,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The minutes and NSR-4 papers address reform-linked assistance, Polish debt, Paris Club leverage, trade tools, and possible IMF and World Bank action. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-470760890",
@@ -2032,7 +2027,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Meeting File: NSC0006—March 18, 1989—Fighter Support Experimental Project, Japan",
       "dateline": "March 18, 1989",
       "type": "NSC meeting file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Partly released",
       "pageCount": 7,
@@ -2054,7 +2048,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The file contains a memorandum for the record and NSC meeting minutes on the FSX project. Adjudicate against the Japan and security volumes before inclusion.",
       "collectionId": "nsc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-446396815",
@@ -2064,7 +2059,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Directive File: NSD–5—March 18, 1989—Legislation to Authorize the Transfer of Funds to the Agency for International Development (AID) for Humanitarian Assistance to Afghanistan (File located @ LM)",
       "dateline": "March 18, 1989",
       "type": "National Security Directive file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 43,
@@ -2085,7 +2079,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The file documents presidential authorization to move funds to AID for humanitarian assistance to Afghanistan. Route the principal regional and humanitarian record against the South Asia volume while retaining the budget and assistance mechanism for Volume XXX adjudication. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsd",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "deal-1989-03-20-scowcroft-sununu-paris",
@@ -2095,7 +2090,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum From the President's Assistant for National Security Affairs (Scowcroft) to the White House Chief of Staff (Sununu)",
       "dateline": "Washington, March 20, 1989",
       "type": "Memorandum",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Released",
       "pageCount": 1,
@@ -2115,7 +2109,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Scowcroft proposed a meeting to obtain Baker's and Brady's views on summit objectives and strategy before briefing the President.",
       "collectionId": "tim-deal",
-      "provenanceMethod": "Opening PDF provenance marker"
+      "provenanceMethod": "Opening PDF provenance marker",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-1989-03-21-economic-policy-directive-1",
@@ -2125,7 +2120,6 @@ window.VOLUME_DATA = {
       "heading": "Economic Policy Directive 1",
       "dateline": "Washington, March 21, 1989",
       "type": "Economic Policy Directive",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Released",
       "pageCount": 2,
@@ -2146,7 +2140,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "The directive tasked the Economic Policy Council with producing a trade strategy report within 45 days.",
       "collectionId": "tim-deal",
-      "provenanceMethod": "Opening PDF provenance marker"
+      "provenanceMethod": "Opening PDF provenance marker",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-470760984",
@@ -2156,7 +2151,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 010—March 22, 1989—NSC/DC Meeting on NSR-5 / U.S. and Western Europe Relations, Keywords: Europe, West, Economics",
       "dateline": "March 22, 1989",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 65,
@@ -2178,7 +2172,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The meeting record is explicitly the economic-aspects review of NSR-5 and covers European integration, the 1992 program, trade disputes, and related U.S. strategy. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-1989-03-24-melby-economic-policy-directive",
@@ -2188,7 +2183,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum From Eric Melby of the National Security Council Staff to the President's Assistant for National Security Affairs (Scowcroft)",
       "dateline": "Washington, March 24, 1989",
       "type": "Memorandum",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Released",
       "pageCount": 1,
@@ -2208,7 +2202,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Melby recommended that Scowcroft preserve an NSC role in reviewing the EPC trade strategy before it reached the President.",
       "collectionId": "tim-deal",
-      "provenanceMethod": "Opening PDF provenance marker"
+      "provenanceMethod": "Opening PDF provenance marker",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-1989-03-28-rice-gates-nsr3-withheld",
@@ -2218,7 +2213,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum From Condoleezza Rice of the National Security Council Staff to the Deputy President's Assistant for National Security Affairs (Gates)",
       "dateline": "Washington, March 28, 1989",
       "type": "Withdrawn memorandum",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Withheld",
       "pageCount": 6,
@@ -2238,7 +2232,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "The withdrawal sheet supplies the author, recipient, date, subject, classification, and extent.",
       "collectionId": "tim-deal",
-      "provenanceMethod": "Opening PDF provenance marker"
+      "provenanceMethod": "Opening PDF provenance marker",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-470760988",
@@ -2248,7 +2243,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 014—March 29, 1989—NSC/DC Meeting on NSR-3 re: U.S.—Soviet Economic Relations, Keywords: USSR Economics",
       "dateline": "March 29, 1989",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 22,
@@ -2270,7 +2264,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The released minutes and summary treat U.S.-Soviet economic relations, reform, trade, credits, joint ventures, and possible liberalization as a distinct policy track. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-446394946",
@@ -2280,7 +2275,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Review File: NSR-13—March 29, 1989—National Security Review of International Counternarcotics Activities",
       "dateline": "March 29, 1989",
       "type": "National Security Review file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 59,
@@ -2301,7 +2295,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The initiating review and Scowcroft-Beers-Addis memoranda frame international counternarcotics programs, authorities, assistance, and resource choices. Route the principal policy record against the counternarcotics and regional volumes. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsr",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470760989",
@@ -2311,7 +2306,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 015—March 30, 1989—NSC/DC Meeting on Poland, Keywords: Poland",
       "dateline": "March 30, 1989",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 78,
@@ -2333,7 +2327,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The packet includes a memorandum from Scowcroft to the President and interagency options for responding to a successful Polish Round Table, including economic support. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-470760892",
@@ -2343,7 +2338,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Meeting File: NSC0008—March 30, 1989—Western Europe, Eastern Europe",
       "dateline": "March 30, 1989",
       "type": "NSC meeting file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Partly released",
       "pageCount": 40,
@@ -2365,7 +2359,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. This meeting-preparation file includes a Secret outline, agendas, presidential talking points, and a March 28 memorandum from Philip Zelikow to Brent Scowcroft. NARA OCR identifies EC trade disputes, Polish and Hungarian debt, and Western economic assistance. Compare with the April 4 meeting file and deduplicate repeated briefing material.",
       "collectionId": "nsc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "deal-chron-452050415",
@@ -2377,7 +2372,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: April 1989 [1]",
       "dateline": "April 1989 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 67,
@@ -2530,7 +2524,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Treasury Drafted National Advisory Commission on International Monetary and Financial Policies”; “Treasury drafted National Advisory Commission on International Monetary and Financial Policies Special Report on a proposed U.S. contribution to IMF-ESAF.”; “National Advisory Commission on International Monetary and Financial Policies Special Report”; “Presidential message for the ninth session of the Polish-U.S. Economic Council”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "deal-chron-452050416",
@@ -2542,7 +2537,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: April 1989 [2]",
       "dateline": "April 1989 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 55,
@@ -2624,7 +2618,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “OPIC COMMENTS ON 17 MAR HFAC FORN AID BILL”; “OPIC comments on the March 17th HFAC Foreign Aid Bill. NOTE: This Office will convene an interagency meeting on”; “International Economic PCC Meeting on International Debt Please transmit the attached meeting notification to principals of the Policy Coordinating Committee for International E...”; “PCC Meeting on the International Debt Situation A Policy Coordinating Committee Meeting for International”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "scowcroft-366551992",
@@ -2636,7 +2631,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Other (April 1989) [2]",
       "dateline": "April 1989",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -2665,7 +2659,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The opening inventory identifies Economic Policy Directive 1, Brady's Trade Strategy Review, the Soviet Export Enhancement Program decision package, Japan telecommunications determinations, and a White House Summit Group packet. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Chronological Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470760893",
@@ -2675,7 +2670,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Meeting File: NSC0008a—April 04, 1989—U.S. Relations with Western Europe and Eastern Europe",
       "dateline": "April 4, 1989",
       "type": "NSC meeting file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Partly released",
       "pageCount": 59,
@@ -2697,7 +2691,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The opening inventory identifies a 10-page Top Secret NSC meeting record on relations with Western and Eastern Europe. The packet addresses European integration, U.S.-EC trade disputes, debt, and assistance and refers to a Deputies Committee review of the economic aspects of U.S.-West European relations.",
       "collectionId": "nsc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-470760894",
@@ -2707,7 +2702,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Meeting File: NSC0009—April 05, 1989—Review of National Security Review 3 Regarding U.S. and USSR Relations",
       "dateline": "April 5, 1989",
       "type": "NSC meeting file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Partly released",
       "pageCount": 74,
@@ -2730,7 +2724,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The file identifies an 8-page Top Secret NSC meeting record and the 31-page Secret NSR 3 report. The discussion explicitly covers U.S.-Soviet trade, export credits, COCOM, GATT, and IMF questions. Compare with NSR 3 copies in the Tim Deal files, including NARA Catalog ID 452050608, before creating document-level entries.",
       "collectionId": "nsc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-470760991",
@@ -2740,7 +2735,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 017—April 07, 1989—NSC/DC Meeting on South Asia, Keywords: South Asia",
       "dateline": "April 7, 1989",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 102,
@@ -2762,7 +2756,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The South Asia review weighs aid levels to Pakistan, nuclear-certification consequences, trade and nonmilitary technology with India, and regional development; route against the South Asia volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-446394953",
@@ -2772,7 +2767,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Review File: NSR-15—April 10, 1989—South Africa[1]",
       "dateline": "April 10, 1989",
       "type": "National Security Review file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 73,
@@ -2793,7 +2787,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The South Africa review weighs sanctions, trade, investment, and economic leverage. Route the principal regional decision record against the Africa volume while retaining distinct economic-policy analysis for Volume XXX review. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsr",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-446394954",
@@ -2803,7 +2798,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Review File: NSR-15—April 10, 1989—South Africa[2]",
       "dateline": "April 10, 1989",
       "type": "National Security Review file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 131,
@@ -2824,7 +2818,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. This response file combines successive South Africa review papers with a discrete memorandum on expanding aid for disadvantaged South Africans. Review sanctions and assistance items separately and deduplicate repeated studies from the first NSR-15 file. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsr",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470760994",
@@ -2834,7 +2829,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 020—April 13, 1989—NSC/DC Meeting on Persian Gulf, Keywords: Persian Gulf",
       "dateline": "April 13, 1989",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 60,
@@ -2856,7 +2850,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The minutes examine dependence on Gulf oil, prices, infrastructure, and the economic rationale for regional policy; primary placement may remain in the Gulf volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "scowcroft-366551662",
@@ -2868,7 +2863,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Presidential Meetings—Memorandum of Conversations 4/19/89-5/31/89",
       "dateline": "April 19, 1989-May 31, 1989",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -2896,7 +2890,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The complete Scowcroft folder contains presidential memoranda of conversation or telephone conversations with substantive economic-policy OCR signals. Review each conversation separately and promote only the passages that bear directly on Volume XXX. Parallel-copy control: match each conversation to the Bush Library Memcons and Telcons index and its canonical NARA item before selection. A Scowcroft folder copy is not a second documentary entry. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "scowcroft-366552163",
@@ -2908,7 +2903,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Brady, Nicholas",
       "dateline": "April 28, 1989-June 24, 1992",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -2935,7 +2929,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The folder inventory identifies a draft review of U.S. economic policy toward Latin America, IMF negotiations with Russia, Brady's memorandum on post-Gulf international economic issues, Gulf financing, and a NAFTA letter requiring Volume XXXIII routing. The draft review overlaps the NSR series, and the NAFTA item belongs primarily in Volume XXXIII. Compare those controlling files before promotion. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Brent Scowcroft Administrative Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "deal-reiss-452050400",
@@ -2947,7 +2942,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal and Mitchell B. Reiss Economic Summit File: [NATO Summit 5/89] [1]",
       "dateline": "May 1989",
       "type": "Timothy E. Deal and Mitchell B. Reiss economic-summit file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 181,
@@ -2975,7 +2969,8 @@ window.VOLUME_DATA = {
       "withdrawalMetadataNote": "",
       "markerMismatchNote": "",
       "collectionId": "deal-reiss",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-reiss-452050401",
@@ -2987,7 +2982,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal and Mitchell B. Reiss Economic Summit File: [NATO Summit 5/89] [2]",
       "dateline": "May 1989",
       "type": "Timothy E. Deal and Mitchell B. Reiss economic-summit file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; released-in-part copies present",
       "pageCount": 114,
@@ -3049,7 +3043,8 @@ window.VOLUME_DATA = {
       "withdrawalMetadataNote": "",
       "markerMismatchNote": "",
       "collectionId": "deal-reiss",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-chron-452050417",
@@ -3061,7 +3056,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: May 1989 [1]",
       "dateline": "May 1989 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; document boundaries not yet split",
       "pageCount": 90,
@@ -3105,7 +3099,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Reply to a Letter from Senator Kasten on Economic Policies Toward Central America”; “Revised Statement of Administration Position on S. 694, Strategic petroleum Reserve Amendments of”; “Revised Statement of Administration Position on S. 694, Strategic Petroleum Reserve”; “Statement of Administration position on S. 694, Strategic Petroleum Reserve Amendments of 1989. The office of Management and Budget requests the views of your”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-chron-452050418",
@@ -3117,7 +3112,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: May 1989 [2]",
       "dateline": "May 1989 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 114,
@@ -3247,7 +3241,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “DRAFT LTR FM HILLS TO REP ROSTENKOWSKI RE COMMENTS ON HR-1233 / CARIBBEAN BASIN ECONOMIC RECOVERY EXPANSION ACT OF 1989”; “Foreign Investment in the U.S. We sent you a memo on May 9 (Tab II), forwarding to the President”; “Foreign Investment in the U.S. General Scowcroft has sent to the President a memorandum,”; “Foreign Investment in the U.S. Attached at Tab I is a proposed memorandum from you to the”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-chron-452050419",
@@ -3259,7 +3254,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: May 1989 [3]",
       "dateline": "May 1989 [3] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 131,
@@ -3383,7 +3377,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “TEXTILE TRADE MEMO”; “TEXTILE TRADE As requested, we have prepared an analysis of the eight-point”; “Foreign Investment in the U.S. Attached at Tab I is a proposed memorandum from you to the”; “Foreign Investment in the U.S. Purpose”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-446396818",
@@ -3393,7 +3388,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Directive File: NSD–8—May 1, 1989—U.S. Policy toward Nicaragua and Nicaraguan Resistance [1]",
       "dateline": "May 1, 1989",
       "type": "National Security Directive file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 6,
@@ -3414,7 +3408,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The released directive makes trade, economic development, incentives, and sanctions part of the Nicaragua strategy. Route the regional policy record against the Latin America volume and retain the economic instruments for cross-volume review. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsd",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-446396819",
@@ -3424,7 +3419,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Directive File: NSD–8—May 1, 1989—U.S. Policy toward Nicaragua and Nicaraguan Resistance [2]",
       "dateline": "May 1, 1989",
       "type": "National Security Directive file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 51,
@@ -3445,7 +3439,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. This companion folder carries supporting and draft material for the Nicaragua directive. Compare it with the released signed copy in NAID 446396818 and retain only distinct economic-policy analysis or annotations. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsd",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-446396821",
@@ -3455,7 +3450,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Directive File: NSD–9—May 8, 1989—Actions to Respond to Polish Roundtable Agreement",
       "dateline": "May 8, 1989",
       "type": "National Security Directive file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 26,
@@ -3476,7 +3470,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The directive and supporting material address the U.S. economic response to the Polish Roundtable Agreement. Screen assistance, debt, trade, and reform measures with the Poland and transition-economy records already in the chronology. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsd",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "scowcroft-366551687",
@@ -3488,7 +3483,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Presidential Telephone Calls—Memorandum of Conversations 5/10/89-7/27/89",
       "dateline": "May 10, 1989-July 27, 1989",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -3513,7 +3507,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The complete Scowcroft folder contains presidential memoranda of conversation or telephone conversations with substantive economic-policy OCR signals. Review each conversation separately and promote only the passages that bear directly on Volume XXX. Parallel-copy control: match each conversation to the Bush Library Memcons and Telcons index and its canonical NARA item before selection. A Scowcroft folder copy is not a second documentary entry. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "lead-446396820",
@@ -3523,7 +3518,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Directive File: NSD–8a—May 11, 1989—Sensitive Annex to NSD–8 re: U.S. Policy toward Nicaragua and Nicaraguan Resistance (File located @ LM)",
       "dateline": "May 11, 1989",
       "type": "National Security Directive file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 22,
@@ -3544,7 +3538,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The sensitive annex and associated directive material repeat and implement the trade, economic-development, sanctions, and OECD-assistance provisions of NSD-8. Compare it with NAIDs 446396818 and 446396819 and retain only distinct annex text, annotations, or distribution evidence. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsd",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "presidential-428082491",
@@ -3554,7 +3549,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum of Conversation",
       "dateline": "May 30, 1989, 1:55 p.m.–2:20 p.m.",
       "type": "Memcon",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Consider",
       "releaseStatus": "Released",
       "pageCount": 4,
@@ -3571,7 +3565,8 @@ window.VOLUME_DATA = {
         "European Commission",
         "Trade Policy and Market Access"
       ],
-      "notes": "Presidential conversation selected from the Bush Library Memcons and Telcons index; substantive inclusion remains a compiler judgment."
+      "notes": "Presidential conversation selected from the Bush Library Memcons and Telcons index; substantive inclusion remains a compiler judgment.",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-chron-452050420",
@@ -3583,7 +3578,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: June 1989 [1]",
       "dateline": "June 1989 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 56,
@@ -3667,7 +3661,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Debt: Negotiations with Mexico”; “World Bank President Conable's Meeting with the President”; “LUNCH W/ CONABLE ON 21 JUN RE INTL DEBT”; “From Condoleezza Rice, et al. to Brent Scowcroft Re: Initiatives for the President's Trip to Poland and Hungary”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "deal-chron-452050421",
@@ -3679,7 +3674,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: June 1989 [2]",
       "dateline": "June 1989 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 85,
@@ -3819,7 +3813,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “BRADY REMARKS / INTL MONETARY CONF 5 JUN”; “International Monetary Conference Attached please find a copy of the remarks made by Secretary”; “INTL DEBT / PRES MTG W/ BRADY”; “Re: Meeting with Secretary Brady”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "deal-chron-452050422",
@@ -3831,7 +3826,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: June 1989 [3]",
       "dateline": "June 1989 [3] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 107,
@@ -3930,7 +3924,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Memo on Poland The marked-up draft of the memo re new initiatives for Poland and”; “OPIC and GSP for Hungary The memorandum at Tab I transmits Larry Eagleburger's”; “OPIC and GSP for Hungary Purpose”; “OPIC AND GSP for Hungary You have agreed to visit Poland and Hungary before the”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "scowcroft-366551910",
@@ -3942,7 +3937,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Latin America—Economics (June 1989)",
       "dateline": "June 1989",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -3967,7 +3961,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. This file belongs to the complete 13-folder Economic Chronological Files subseries. Screen its decision memoranda, presidential meeting materials, debt papers, trade papers, and follow-up actions individually for Volume XXX and route country-policy material to the appropriate regional volume. Country meeting packets and presidential conversations may duplicate the Presidential Correspondence Files or regional NSC staff files; compare dates, subjects, and document text before promotion. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Latin America Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "scowcroft-366551663",
@@ -3979,7 +3974,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Presidential Meetings—Memorandum of Conversations 6/1/89-7/12/89",
       "dateline": "June 1, 1989-July 12, 1989",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -4007,7 +4001,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The complete Scowcroft folder contains presidential memoranda of conversation or telephone conversations with substantive economic-policy OCR signals. Review each conversation separately and promote only the passages that bear directly on Volume XXX. Parallel-copy control: match each conversation to the Bush Library Memcons and Telcons index and its canonical NARA item before selection. A Scowcroft folder copy is not a second documentary entry. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-446396824",
@@ -4017,7 +4012,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Directive File: NSD–12—June 6, 1989—Lifting the No-Exceptions Policy",
       "dateline": "June 6, 1989",
       "type": "National Security Directive file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 20,
@@ -4038,7 +4032,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The directive lifts the no-exceptions licensing policy and is a direct presidential record of strategic-trade policy. Compare implementing copies with later COCOM and NSD-53 files before item-level promotion. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsd",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-446394955",
@@ -4048,7 +4043,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Review File: NSR-16—June 07, 1989—Comprehensive Review of International Affairs Budget and Programs [1]",
       "dateline": "June 7, 1989",
       "type": "National Security Review file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 77,
@@ -4069,7 +4063,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The directive reviews bilateral and multilateral assistance, international programs, their objectives, management, and FY 1991 resource choices. Route organization and overseas-staffing records against Volume II while retaining economic-assistance and budget strategy for Volume XXX review. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsr",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-446394956",
@@ -4079,7 +4074,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Review File: NSR-16—June 07, 1989—Comprehensive Review of International Affairs Budget and Programs [2]",
       "dateline": "June 7, 1989",
       "type": "National Security Review file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 54,
@@ -4100,7 +4094,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. This companion file follows the Function 150 review through budget stewardship, milestones, study organization, and a presidential memorandum on international-affairs themes for the 1990s. Compare organizational material with Volume II and retain distinct assistance or budget-policy decisions. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsr",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "deal-1989-06-09-soviet-economic-relations-paper-withheld",
@@ -4110,7 +4105,6 @@ window.VOLUME_DATA = {
       "heading": "Paper Prepared by the Policy Coordinating Committee on U.S.-Soviet Relations",
       "dateline": "Washington, June 9, 1989",
       "type": "Withdrawn paper",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Withheld",
       "pageCount": 23,
@@ -4131,7 +4125,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "The withdrawal sheet supplies the title, date, classification, and extent; authorship beyond the PCC is not established.",
       "collectionId": "tim-deal",
-      "provenanceMethod": "Opening PDF provenance marker"
+      "provenanceMethod": "Opening PDF provenance marker",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-446394957",
@@ -4141,7 +4136,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Review File: NSR-17—June 15, 1989—Review of United States Non Proliferation Policy [1]",
       "dateline": "June 15, 1989",
       "type": "National Security Review file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 25,
@@ -4162,7 +4156,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The signed NSR asks directly about nuclear, chemical, biological, and missile export controls, supplier coordination, the MTCR, and technology transfer. Review the directive as the clearest Volume XXX bridge while routing nonproliferation strategy against the arms-control volumes. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsr",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-446394958",
@@ -4172,7 +4167,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Review File: NSR-17—June 15, 1989—Review of United States Non Proliferation Policy [2]",
       "dateline": "June 15, 1989",
       "type": "National Security Review file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 39,
@@ -4193,7 +4187,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The file documents presidential initiation of NSR-17 and the interagency missile-policy response. Screen export-control and supplier-regime passages for Volume XXX, then route the principal nonproliferation record against the arms-control volumes. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsr",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-446394959",
@@ -4203,7 +4198,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Review File: NSR-17—June 15, 1989—Review of United States Non Proliferation Policy [3]",
       "dateline": "June 15, 1989",
       "type": "National Security Review file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 30,
@@ -4224,7 +4218,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. This response file preserves agency positions on missile nonproliferation and an annex evaluating the MTCR. Deduplicate the repeated 18-page report from the second NSR-17 file and route the core security-policy record against the arms-control volumes. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsr",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "deal-reiss-452050396",
@@ -4236,7 +4231,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal and Mitchell B. Reiss Economic Summit File: [Paris Economic Summit July 1989]",
       "dateline": "July 1989",
       "type": "Timothy E. Deal and Mitchell B. Reiss economic-summit file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Online file unit; released-in-part copies present",
       "pageCount": 131,
@@ -4377,7 +4371,8 @@ window.VOLUME_DATA = {
       "withdrawalMetadataNote": "",
       "markerMismatchNote": "",
       "collectionId": "deal-reiss",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-reiss-452050409",
@@ -4389,7 +4384,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal and Mitchell B. Reiss Economic Summit File: [Speech / Briefing Cards: President's Trip to France 7/89]",
       "dateline": "July 1989",
       "type": "Timothy E. Deal and Mitchell B. Reiss economic-summit file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 3,
@@ -4429,7 +4423,8 @@ window.VOLUME_DATA = {
       "withdrawalMetadataNote": "",
       "markerMismatchNote": "CF00186-020 on the opening marker; CF00186-023 in the Catalog and digital-object path",
       "collectionId": "deal-reiss",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-reiss-452050403",
@@ -4441,7 +4436,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal and Mitchell B. Reiss Economic Summit File: [Speech / Briefing Cards: President's Trip to Hungary 7/89]",
       "dateline": "July 1989",
       "type": "Timothy E. Deal and Mitchell B. Reiss economic-summit file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Consider",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 20,
@@ -4470,7 +4464,8 @@ window.VOLUME_DATA = {
       "withdrawalMetadataNote": "",
       "markerMismatchNote": "",
       "collectionId": "deal-reiss",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "deal-reiss-452050410",
@@ -4482,7 +4477,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal and Mitchell B. Reiss Economic Summit File: [Speech / Briefing Cards: President's Trip to Paris Economic Summit (Bilateral Meetings) 7/89]",
       "dateline": "July 1989",
       "type": "Timothy E. Deal and Mitchell B. Reiss economic-summit file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 21,
@@ -4522,7 +4516,8 @@ window.VOLUME_DATA = {
       "withdrawalMetadataNote": "",
       "markerMismatchNote": "CF00186-021 on the opening marker; CF00186-024 in the Catalog and digital-object path",
       "collectionId": "deal-reiss",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-reiss-452050404",
@@ -4534,7 +4529,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal and Mitchell B. Reiss Economic Summit File: [Speech / Briefing Cards: President's Trip to Paris Economic Summit 7/89] [1]",
       "dateline": "July 1989",
       "type": "Timothy E. Deal and Mitchell B. Reiss economic-summit file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Consider",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 39,
@@ -4575,7 +4569,8 @@ window.VOLUME_DATA = {
       "withdrawalMetadataNote": "",
       "markerMismatchNote": "",
       "collectionId": "deal-reiss",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-reiss-452050405",
@@ -4587,7 +4582,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal and Mitchell B. Reiss Economic Summit File: [Speech / Briefing Cards: President's Trip to Paris Economic Summit 7/89] [2]",
       "dateline": "July 1989",
       "type": "Timothy E. Deal and Mitchell B. Reiss economic-summit file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Consider",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 37,
@@ -4639,7 +4633,8 @@ window.VOLUME_DATA = {
       "withdrawalMetadataNote": "",
       "markerMismatchNote": "",
       "collectionId": "deal-reiss",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-reiss-452050406",
@@ -4651,7 +4646,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal and Mitchell B. Reiss Economic Summit File: [Speech / Briefing Cards: President's Trip to Paris Economic Summit 7/89] [3]",
       "dateline": "July 1989",
       "type": "Timothy E. Deal and Mitchell B. Reiss economic-summit file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Consider",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 25,
@@ -4692,7 +4686,8 @@ window.VOLUME_DATA = {
       "withdrawalMetadataNote": "",
       "markerMismatchNote": "",
       "collectionId": "deal-reiss",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-reiss-452050407",
@@ -4704,7 +4699,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal and Mitchell B. Reiss Economic Summit File: [Speech / Briefing Cards: President's Trip to Paris Economic Summit 7/89] [4]",
       "dateline": "July 1989",
       "type": "Timothy E. Deal and Mitchell B. Reiss economic-summit file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Consider",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 16,
@@ -4745,7 +4739,8 @@ window.VOLUME_DATA = {
       "withdrawalMetadataNote": "",
       "markerMismatchNote": "",
       "collectionId": "deal-reiss",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-reiss-452050408",
@@ -4757,7 +4752,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal and Mitchell B. Reiss Economic Summit File: [Speech / Briefing Cards: President's Trip to Paris Economic Summit 7/89] [5]",
       "dateline": "July 1989",
       "type": "Timothy E. Deal and Mitchell B. Reiss economic-summit file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Consider",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 26,
@@ -4787,7 +4781,8 @@ window.VOLUME_DATA = {
       "withdrawalMetadataNote": "",
       "markerMismatchNote": "",
       "collectionId": "deal-reiss",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-reiss-452050402",
@@ -4799,7 +4794,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal and Mitchell B. Reiss Economic Summit File: [Speech / Briefing Cards: President's Trip to Poland 7/89]",
       "dateline": "July 1989",
       "type": "Timothy E. Deal and Mitchell B. Reiss economic-summit file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Consider",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 28,
@@ -4828,7 +4822,8 @@ window.VOLUME_DATA = {
       "withdrawalMetadataNote": "",
       "markerMismatchNote": "",
       "collectionId": "deal-reiss",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "deal-reiss-452050411",
@@ -4840,7 +4835,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal and Mitchell B. Reiss Economic Summit File: [Speech / Briefing Cards: President's Trip to the Netherlands 7/89]",
       "dateline": "July 1989",
       "type": "Timothy E. Deal and Mitchell B. Reiss economic-summit file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 10,
@@ -4868,7 +4862,8 @@ window.VOLUME_DATA = {
       "withdrawalMetadataNote": "",
       "markerMismatchNote": "CF00186-022 on the opening marker; CF00186-025 in the Catalog and digital-object path",
       "collectionId": "deal-reiss",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-reiss-452050397",
@@ -4880,7 +4875,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal and Mitchell B. Reiss Economic Summit File: [The President's Visit to Hungary 7/89]",
       "dateline": "July 1989",
       "type": "Timothy E. Deal and Mitchell B. Reiss economic-summit file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Consider",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 9,
@@ -4908,7 +4902,8 @@ window.VOLUME_DATA = {
       "withdrawalMetadataNote": "",
       "markerMismatchNote": "",
       "collectionId": "deal-reiss",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "deal-reiss-452050398",
@@ -4920,7 +4915,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal and Mitchell B. Reiss Economic Summit File: [The President's Visit to Poland 7/89]",
       "dateline": "July 1989",
       "type": "Timothy E. Deal and Mitchell B. Reiss economic-summit file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Consider",
       "releaseStatus": "Online file unit; released-in-part copies present",
       "pageCount": 56,
@@ -4993,7 +4987,8 @@ window.VOLUME_DATA = {
       "withdrawalMetadataNote": "",
       "markerMismatchNote": "",
       "collectionId": "deal-reiss",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "deal-chron-452050423",
@@ -5005,7 +5000,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: July 1989 [1]",
       "dateline": "July 1989 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 92,
@@ -5079,7 +5073,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Letter and Report from Helmut Schmidt to the President Former FRG Chancellor Helmut Schmidt has organized a study of global economic problems and solutions. Many prominent”; “Proposed Presidential Message to Jacques Delors The EC Commission has scheduled the first meeting on Poland and”; “MEETING TO SUPPORT POLAND AND HUNGARY: - USG THOUGHTS ON INITIAL MEETING”; “Ltr fm Pres to Delors Re: Assistance to Poland & Hungary”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "deal-chron-452050424",
@@ -5091,7 +5086,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: July 1989 [2]",
       "dateline": "July 1989 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Consider",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 133,
@@ -5135,7 +5129,8 @@ window.VOLUME_DATA = {
       "notes": "Selective Volume XXX review. Begin with “International Debt: Article by Dr. Alfred Herrhausen”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "deal-chron-452050425",
@@ -5147,7 +5142,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: July 1989 [3]",
       "dateline": "July 1989 [3] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 102,
@@ -5285,7 +5279,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Labor Initiative for Poland and Hungary As requested, I attach for your information the fact sheet on the labor initiative for Poland and Hungary that was prepared before”; “Treasury Draft Proposal \"To Amend the Trading With the Enemy Act\"”; “Treasury draft proposal \"To amend the Trading with the Enemy Act.\" The office of Management and Budget requests the views of your”; “USTR TESTIMONY RE TRADE & DEVELOPMENT PROGRAM IN CHINA”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "deal-chron-452050426",
@@ -5297,7 +5292,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: July 1989 [4]",
       "dateline": "July 1989 [4] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 104,
@@ -5376,7 +5370,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Commerce Testimony on S. 289, Foreign Investment Disclosure and S. 856 Data Sharing”; “Commerce testimony on S. 289, Foreign Investment Disclosure and S. 856 data sharing. The Office of Management and Budget requests the views of your”; “DRAFT STATEMENT OF ADMIN POSITION ON HR- 1233 CARIBBEAN BASIN ECONOMY RECOVERY EXPANSION ACT OF 1989”; “Draft Statement of Administration Position on H.R. 1233, \"The Caribbean Basin Economy Recovery Expansion Act of 1989.\"”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "scowcroft-366551911",
@@ -5388,7 +5383,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Latin America—Economics (July-October 1989)",
       "dateline": "July-October 1989",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -5415,7 +5409,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. This file belongs to the complete 13-folder Economic Chronological Files subseries. Screen its decision memoranda, presidential meeting materials, debt papers, trade papers, and follow-up actions individually for Volume XXX and route country-policy material to the appropriate regional volume. Country meeting packets and presidential conversations may duplicate the Presidential Correspondence Files or regional NSC staff files; compare dates, subjects, and document text before promotion. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Latin America Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "scowcroft-366551799",
@@ -5427,7 +5422,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Soviet Power Collapse in Eastern Europe (July-August 1989)",
       "dateline": "July-August 1989",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -5455,7 +5449,8 @@ window.VOLUME_DATA = {
       "notes": "Cross-volume boundary review. The full OCR and opening withdrawal inventory identify a significant foreign-economic-policy strand, but the principal narrative belongs in a regional, Soviet, China, German-unification, or Persian Gulf volume. Review for cross-reference or a narrowly selected economic-policy document. Special-separate copy sets, meeting-file duplicates, and later retrospective chronologies are not separately promoted. Compare this file with the controlling regional and presidential records before selection. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "USSR Chronological Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "boskin-1989-07-07-brady-trade-review",
@@ -5465,7 +5460,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum From the Chairman Pro Tempore of the Economic Policy Council (Brady) to President Bush",
       "dateline": "Washington, July 7, 1989",
       "type": "Memorandum",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Released",
       "pageCount": 1,
@@ -5484,7 +5478,8 @@ window.VOLUME_DATA = {
         "Japan",
         "Structural Impediments Initiative"
       ],
-      "notes": "The memorandum identifies the Uruguay Round, Mexico, Japan, the Pacific Rim, and Western Europe as trade-policy priorities. Its separate 17-page attachment is listed as its own withdrawn record."
+      "notes": "The memorandum identifies the Uruguay Round, Mexico, Japan, the Pacific Rim, and Western Europe as trade-policy priorities. Its separate 17-page attachment is listed as its own withdrawn record.",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "boskin-1989-trade-policy-position-withdrawn",
@@ -5494,7 +5489,6 @@ window.VOLUME_DATA = {
       "heading": "Paper Prepared for the Economic Policy Council",
       "dateline": "Undated",
       "type": "Withdrawn paper",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Withheld",
       "pageCount": 17,
@@ -5512,7 +5506,8 @@ window.VOLUME_DATA = {
         "Withheld record",
         "Declassification queue"
       ],
-      "notes": "The withdrawal sheet supplies the exact title, classification, and 17-page extent."
+      "notes": "The withdrawal sheet supplies the exact title, classification, and 17-page extent.",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-reiss-452050393",
@@ -5524,7 +5519,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal and Mitchell B. Reiss Economic Summit File: Visit of President Bush to the [Paris] Economic Summit and Poland, Hungary, and the Netherlands—July 9-18, 1989: Contingency Bilateral Briefing Papers",
       "dateline": "July 9-18, 1989",
       "type": "Timothy E. Deal and Mitchell B. Reiss economic-summit file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 120,
@@ -5883,7 +5877,8 @@ window.VOLUME_DATA = {
       "withdrawalMetadataNote": "",
       "markerMismatchNote": "",
       "collectionId": "deal-reiss",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-reiss-452050392",
@@ -5895,7 +5890,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal and Mitchell B. Reiss Economic Summit File: Visit of President Bush to the [Paris] Economic Summit and Poland, Hungary, and the Netherlands—July 9-18, 1989: Hungary",
       "dateline": "July 9-18, 1989",
       "type": "Timothy E. Deal and Mitchell B. Reiss economic-summit file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 69,
@@ -6079,7 +6073,8 @@ window.VOLUME_DATA = {
       "withdrawalMetadataNote": "",
       "markerMismatchNote": "",
       "collectionId": "deal-reiss",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "deal-reiss-452050390",
@@ -6091,7 +6086,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal and Mitchell B. Reiss Economic Summit File: Visit of President Bush to the [Paris] Economic Summit and Poland, Hungary, and the Netherlands—July 9-18, 1989: Poland",
       "dateline": "July 9-18, 1989",
       "type": "Timothy E. Deal and Mitchell B. Reiss economic-summit file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; released-in-part copies present",
       "pageCount": 98,
@@ -6297,7 +6291,8 @@ window.VOLUME_DATA = {
       "withdrawalMetadataNote": "",
       "markerMismatchNote": "",
       "collectionId": "deal-reiss",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "deal-reiss-452050399",
@@ -6309,7 +6304,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal and Mitchell B. Reiss Economic Summit File: [The …, 11 July 1989]",
       "dateline": "July 11, 1989",
       "type": "Timothy E. Deal and Mitchell B. Reiss economic-summit file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 2,
@@ -6348,7 +6342,8 @@ window.VOLUME_DATA = {
       "withdrawalMetadataNote": "",
       "markerMismatchNote": "",
       "collectionId": "deal-reiss",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-reiss-452050394",
@@ -6360,7 +6355,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal and Mitchell B. Reiss Economic Summit File: Visit of President Bush to the [Paris] Economic Summit and Poland, Hungary, and the Netherlands—July 9-18, 1989: France and Other Bilateral Events (July 13-17, 1989)",
       "dateline": "July 13-17, 1989",
       "type": "Timothy E. Deal and Mitchell B. Reiss economic-summit file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 42,
@@ -6521,7 +6515,8 @@ window.VOLUME_DATA = {
       "withdrawalMetadataNote": "",
       "markerMismatchNote": "",
       "collectionId": "deal-reiss",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "lead-452050593",
@@ -6539,7 +6534,6 @@ window.VOLUME_DATA = {
       "date": "1989-07-14",
       "title": "Paris Economic Summit [July 1989]",
       "type": "Summit file-unit lead",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Consider",
       "releaseStatus": "Online file unit",
       "localId": "CF00972–002",
@@ -6550,7 +6544,8 @@ window.VOLUME_DATA = {
         "Briefing materials",
         "Document-boundary audit"
       ],
-      "notes": "Summit file-unit lead. Use the scan to identify decision memoranda, records of meetings, and briefing papers worth item-level treatment."
+      "notes": "Summit file-unit lead. Use the scan to identify decision memoranda, records of meetings, and briefing papers worth item-level treatment.",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "lead-492062323",
@@ -6569,7 +6564,6 @@ window.VOLUME_DATA = {
       "datePrecision": "day",
       "title": "Paris Summit—7/14–16/89 [1]",
       "type": "EPC/NSC file-unit lead",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Online file unit",
       "localId": "CF01113–006",
@@ -6579,7 +6573,8 @@ window.VOLUME_DATA = {
         "Paris Summit",
         "Summit preparation"
       ],
-      "notes": "File-unit lead. Audit the scan document by document before promoting any item to Source Note-ready status."
+      "notes": "File-unit lead. Audit the scan document by document before promoting any item to Source Note-ready status.",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-reiss-452050395",
@@ -6591,7 +6586,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal and Mitchell B. Reiss Economic Summit File: Participation of President Bush in the Paris Economic Summit: Briefing Book (July 14-16, 1989)",
       "dateline": "July 14-16, 1989",
       "type": "Timothy E. Deal and Mitchell B. Reiss economic-summit file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 123,
@@ -6710,7 +6704,8 @@ window.VOLUME_DATA = {
       "withdrawalMetadataNote": "",
       "markerMismatchNote": "",
       "collectionId": "deal-reiss",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "scowcroft-366551664",
@@ -6722,7 +6717,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Presidential Meetings—Memorandum of Conversations 7/14/89-10/2/89",
       "dateline": "July 14, 1989-October 2, 1989",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -6748,7 +6742,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The complete Scowcroft folder contains presidential memoranda of conversation or telephone conversations with substantive economic-policy OCR signals. Review each conversation separately and promote only the passages that bear directly on Volume XXX. Parallel-copy control: match each conversation to the Bush Library Memcons and Telcons index and its canonical NARA item before selection. A Scowcroft folder copy is not a second documentary entry. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "presidential-428080101",
@@ -6758,7 +6753,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum of Conversation",
       "dateline": "Saturday, July 15, 1989, 10:30AM–1:05PM",
       "type": "Memcon",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Released",
       "pageCount": 9,
@@ -6779,7 +6773,8 @@ window.VOLUME_DATA = {
         "Canada",
         "Japan"
       ],
-      "notes": "Presidential conversation selected from the Bush Library Memcons and Telcons index; substantive inclusion remains a compiler judgment."
+      "notes": "Presidential conversation selected from the Bush Library Memcons and Telcons index; substantive inclusion remains a compiler judgment.",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-reiss-452050391",
@@ -6791,7 +6786,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal and Mitchell B. Reiss Economic Summit File: Visit of President Bush to the [Paris] Economic Summit and Poland, Hungary, and the Netherlands—July 9-18, 1989: The Netherlands (July 17-18, 1989)",
       "dateline": "July 17-18, 1989",
       "type": "Timothy E. Deal and Mitchell B. Reiss economic-summit file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 55,
@@ -6941,7 +6935,8 @@ window.VOLUME_DATA = {
       "withdrawalMetadataNote": "",
       "markerMismatchNote": "",
       "collectionId": "deal-reiss",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and disposition-aware withdrawal/redaction sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "scowcroft-366551860",
@@ -6953,7 +6948,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: China: Tiananmen (August-October 1989)",
       "dateline": "August-October 1989",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -6980,7 +6974,8 @@ window.VOLUME_DATA = {
       "notes": "Cross-volume boundary review. The full OCR and opening withdrawal inventory identify a significant foreign-economic-policy strand, but the principal narrative belongs in a regional, Soviet, China, German-unification, or Persian Gulf volume. Review for cross-reference or a narrowly selected economic-policy document. Special-separate copy sets, meeting-file duplicates, and later retrospective chronologies are not separately promoted. Compare this file with the controlling regional and presidential records before selection. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "China Chronological Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "deal-chron-452050427",
@@ -6992,7 +6987,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: August 1989 [1]",
       "dateline": "August 1989 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 113,
@@ -7070,7 +7064,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Export Enhancement Program for the Philippines Attached is a memo from USDA sent to USTR's working group on the EEP concerning a proposed sale of 600,000 MT of wheat to the”; “Export Enhancement Program (EEP) Proposal - Philippines/wheat This proposal is for an additional EEP allocation of 600,000 MT”; “Offsets in Military Exports The FY 1989 National Defense Authorization Act directs the”; “JCC Paper on USSR/GATT COMMENTS: Please call JEREMY BATES (395-3211)”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-chron-452050428",
@@ -7082,7 +7077,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: August 1989 [2]",
       "dateline": "August 1989 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; document boundaries not yet split",
       "pageCount": 124,
@@ -7121,7 +7115,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Appointment of a Director on the Board of the Overseas Private Investment Corporation”; “Appointment of a Director on the Board of the Overseas Private Investment Corporation (OPIC)”; “Foreign Investment in the U.S.: Matra Aerospace/Fairchild Industries”; “Committee on Foreign Investment in the United States (CFIUS) Report and Recommendation on the”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "scowcroft-366551688",
@@ -7133,7 +7128,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Presidential Telephone Calls—Memorandum of Conversations 8/1/89-10/23/89",
       "dateline": "August 1, 1989-October 23, 1989",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -7158,7 +7152,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The complete Scowcroft folder contains presidential memoranda of conversation or telephone conversations with substantive economic-policy OCR signals. Review each conversation separately and promote only the passages that bear directly on Volume XXX. Parallel-copy control: match each conversation to the Bush Library Memcons and Telcons index and its canonical NARA item before selection. A Scowcroft folder copy is not a second documentary entry. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "lead-470761017",
@@ -7168,7 +7163,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 043—August 09, 1989—NSC/DC Meeting on Panama Economic Sanctions, Keywords: Panama, Economics, Sanctions, DC Minutes",
       "dateline": "August 9, 1989",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 94,
@@ -7190,7 +7184,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The file contains minutes, a summary of conclusions, and options on Panama sanctions and blocked government assets; route against the Latin America volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-446396832",
@@ -7200,7 +7195,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Directive File: NSD–18—August 21, 1989—International Counternarcotics Strategy",
       "dateline": "August 21, 1989",
       "type": "National Security Directive file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 160,
@@ -7221,7 +7215,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The international counternarcotics strategy sets Andean budgets, conditions economic assistance, seeks allied support, and calls for country economic-policy reviews. Route the principal policy record against the counternarcotics and regional volumes while retaining distinct aid and resource decisions. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsd",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-446396833",
@@ -7231,7 +7226,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Directive File: NSD–18a—August 23, 1989—Annex to NSD–18 Regarding International Counternarcotics Strategy (File located @ LM)",
       "dateline": "August 23, 1989",
       "type": "National Security Directive file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 59,
@@ -7252,7 +7246,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The annex implements the international counternarcotics strategy and its assistance and resource provisions. Review it with NSD-18 and deduplicate parallel policy text. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsd",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-446396836",
@@ -7262,7 +7257,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Directive File: NSD–20—August 29, 1989—U.S. Policy toward South Asia",
       "dateline": "August 29, 1989",
       "type": "National Security Directive file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 45,
@@ -7283,7 +7277,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The signed South Asia directive addresses assistance and reform in Pakistan and trade, sales, investment, multilateral-bank lending, and dual-use technology in relations with India. Route the regional policy record against the South Asia volume while preserving distinct foreign-economic decisions. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsd",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-470761020",
@@ -7293,7 +7288,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 046—August 30, 1989—NSC/DC Meeting on Poland, Keywords: Poland",
       "dateline": "August 30, 1989",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 35,
@@ -7315,7 +7309,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The meeting preparation and presidential talking points concern signaling U.S. support for democratic change in Poland and the accompanying support package. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "deal-chron-452050429",
@@ -7327,7 +7322,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: September 1989 [1]",
       "dateline": "September 1989 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 56,
@@ -7562,7 +7556,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Principals' Meeting on Poland (Tuesday, September 26, 1989, 9:00 a.m.)”; “Economic Assistance for Poland (S) At Tab A is the concept paper for the principals' meeting which”; “ECONOMIC ASSISTANCE TO POLAND & HUNGARY”; “Economic Assistance to Poland Attached is a revised paper outlining the next steps in the”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "deal-chron-452050430",
@@ -7574,7 +7569,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: September 1989 [2]",
       "dateline": "September 1989 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 130,
@@ -7650,7 +7644,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Cooper Evans' Report on Opportunities for Increasing Agricultural Trade and Cooperation”; “REQUEST FOR COMMENTS ON EVANS RPT RE OPPORTUNITY FOR INCREASING AGRICULTURAL TRADE & COOP W/ USSR”; “COOPER EVAN'S ANNUAL AGRICULTURAL TRADE OPPORTUNITIES REPORT”; “OPPORTUNITY FOR INCREASING AGRICULTURAL TRADE AND COOPERATION WITH U.S.S.R.”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "scowcroft-366551801",
@@ -7662,7 +7657,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Soviet Power Collapse in Eastern Europe (September 1989)",
       "dateline": "September 1989",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -7689,7 +7683,8 @@ window.VOLUME_DATA = {
       "notes": "Cross-volume boundary review. The full OCR and opening withdrawal inventory identify a significant foreign-economic-policy strand, but the principal narrative belongs in a regional, Soviet, China, German-unification, or Persian Gulf volume. Review for cross-reference or a narrowly selected economic-policy document. Special-separate copy sets, meeting-file duplicates, and later retrospective chronologies are not separately promoted. Compare this file with the controlling regional and presidential records before selection. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "USSR Chronological Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-470761024",
@@ -7699,7 +7694,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 050—September 06, 1989—NSC/DC Meeting on Additional Assistance to Poland, Keywords: Poland, Food",
       "dateline": "September 6, 1989",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 132,
@@ -7721,7 +7715,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The packet includes Scowcroft's decision memorandum to the President, Deputies Committee recommendations, and repeated versions of the additional-support paper; deduplicate the copies. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-470761031",
@@ -7731,7 +7726,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 057—September 18, 1989—NSC/DC Meeting on South Africa, Keywords: South Africa",
       "dateline": "September 18, 1989",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 56,
@@ -7753,7 +7747,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. NSR-15 considers sanctions, incentives, investment in black-owned firms, and nuclear-trade restrictions; route against the Africa and nonproliferation volumes. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761033",
@@ -7763,7 +7758,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 059—September 20, 1989—NSC/DC Meeting on Machine Tools, Keywords: COCOM",
       "dateline": "September 20, 1989",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 49,
@@ -7785,7 +7779,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The file contains options and meeting preparation for machine-tool negotiations in COCOM, including control-list streamlining. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761034",
@@ -7795,7 +7790,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 060—September 21, 1989—NSC/DC Meeting on Economic Assistance for Poland, Keywords: Poland, Economic Assistance",
       "dateline": "September 21, 1989",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 28,
@@ -7817,7 +7811,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The packet centers on options and memoranda for the next steps in Poland's recovery program. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-446396839",
@@ -7827,7 +7822,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Directive File: NSD–23—September 22, 1989—U.S. Relations with the Soviet Union",
       "dateline": "September 22, 1989",
       "type": "National Security Directive file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 67,
@@ -7848,7 +7842,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The Soviet-relations directive and supporting papers treat economic change and bilateral economic relations as strategic questions. Compare the discrete economic-relations paper with NSR-3, NSC meeting, and transition-economy copies before promotion. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsd",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-470761035",
@@ -7858,7 +7853,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 061—September 25, 1989—NSC/DC Meeting on Poland and Economic Assistance, Keywords: Poland, Economic Assistance",
       "dateline": "September 25, 1989",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 20,
@@ -7879,7 +7873,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. This follow-on file contains the concept paper and related memorandum on economic assistance for Poland; compare it with NSC/DC 060. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-492062325",
@@ -7898,7 +7893,6 @@ window.VOLUME_DATA = {
       "datePrecision": "day",
       "title": "Poland Initiatives, Situation Room [1]",
       "type": "EPC/NSC file-unit lead",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit",
       "localId": "CF01113–008",
@@ -7909,7 +7903,8 @@ window.VOLUME_DATA = {
         "Economic assistance",
         "NSC meeting"
       ],
-      "notes": "File-unit lead. Audit the scan document by document before promoting any item to Source Note-ready status."
+      "notes": "File-unit lead. Audit the scan document by document before promoting any item to Source Note-ready status.",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "deal-chron-452050431",
@@ -7921,7 +7916,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: October 1989 [1]",
       "dateline": "October 1989 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 99,
@@ -7976,7 +7970,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “IMF Quota Increase and IDA Replenishment Treasury Assistant Secretary Dallara has asked for your comments”; “IMF Quota Increase and IDA Replenishment Issue:”; “IMF Quota Increase Your office has a package (8697) which includes a draft memorandum”; “General Scowcroft's Appearance Before the Defense Policy Advisory Committee on Trade (DPACT)”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "deal-chron-452050432",
@@ -7988,7 +7983,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: October 1989 [2]",
       "dateline": "October 1989 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 99,
@@ -8078,7 +8072,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Commerce Department Decision to Decontrol Export of Certain Personal Computers WH Referral Dated: September 1, 1989”; “Coordination of Aid to Poland and Hungary The European Directorate has sent you a proposed options”; “Coordination of Aid to Poland and Hungary Purpose”; “Meeting on IMF and IDA, 6:00 p.m., October 24, Governor Sununu's Office”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "deal-chron-452050433",
@@ -8090,7 +8085,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: October 1989 [3]",
       "dateline": "October 1989 [3] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 68,
@@ -8239,7 +8233,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “LTR FM CITIZENS NETWORK RE INTERDEPENDENT WORLD ECONOMY”; “Treasury Involvement in Poland Package After checking with Tim Deal and Eric Melby, the following is”; “Your Lunch with Treasury Secretary Brady, 12:30 p.m., October 12”; “British Airways' Investment in United Airlines British officials in Washington have expressed concern to Deane”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "scowcroft-366551912",
@@ -8251,7 +8246,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Latin America—Economics (October 1989)",
       "dateline": "October 1989",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -8276,7 +8270,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. This file belongs to the complete 13-folder Economic Chronological Files subseries. Screen its decision memoranda, presidential meeting materials, debt papers, trade papers, and follow-up actions individually for Volume XXX and route country-policy material to the appropriate regional volume. Country meeting packets and presidential conversations may duplicate the Presidential Correspondence Files or regional NSC staff files; compare dates, subjects, and document text before promotion. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Latin America Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "scowcroft-366551802",
@@ -8288,7 +8283,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Soviet Power Collapse in Eastern Europe (October 1989) [1]",
       "dateline": "October 1989",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -8314,7 +8308,8 @@ window.VOLUME_DATA = {
       "notes": "Cross-volume boundary review. The full OCR and opening withdrawal inventory identify a significant foreign-economic-policy strand, but the principal narrative belongs in a regional, Soviet, China, German-unification, or Persian Gulf volume. Review for cross-reference or a narrowly selected economic-policy document. Special-separate copy sets, meeting-file duplicates, and later retrospective chronologies are not separately promoted. Compare this file with the controlling regional and presidential records before selection. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "USSR Chronological Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "scowcroft-366551803",
@@ -8326,7 +8321,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Soviet Power Collapse in Eastern Europe (October 1989) [2]",
       "dateline": "October 1989",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -8353,7 +8347,8 @@ window.VOLUME_DATA = {
       "notes": "Cross-volume boundary review. The full OCR and opening withdrawal inventory identify a significant foreign-economic-policy strand, but the principal narrative belongs in a regional, Soviet, China, German-unification, or Persian Gulf volume. Review for cross-reference or a narrowly selected economic-policy document. Special-separate copy sets, meeting-file duplicates, and later retrospective chronologies are not separately promoted. Compare this file with the controlling regional and presidential records before selection. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "USSR Chronological Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-446396843",
@@ -8363,7 +8358,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Directive File: NSD–26—October 2, 1989—U.S. Policy toward the Persian Gulf",
       "dateline": "October 2, 1989",
       "type": "National Security Directive file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 119,
@@ -8384,7 +8378,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The Persian Gulf directive addresses access to oil, economic incentives and sanctions toward Iraq, reconstruction, and energy opportunities. Route the principal regional decision against the Gulf volume while retaining distinct trade, energy, and sanctions records. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsd",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-446396844",
@@ -8394,7 +8389,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Directive File: NSD–27—October 2, 1989—Soviet Emigration Policy",
       "dateline": "October 2, 1989",
       "type": "National Security Directive file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 84,
@@ -8415,7 +8409,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The file links Soviet emigration policy to trade leverage and normalization of economic relations. Screen the presidential decision and implementing memoranda with related Soviet trade and transition-economy records. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsd",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470760921",
@@ -8433,7 +8428,6 @@ window.VOLUME_DATA = {
       "date": "1989-10-03",
       "title": "NSC0030—October 03, 1989—Poland, Economic Assistance",
       "type": "NSC meeting file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Partly released",
       "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-30-90001-018.pdf",
@@ -8581,7 +8575,8 @@ window.VOLUME_DATA = {
         }
       ],
       "collectionId": "nsc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "scowcroft-366551665",
@@ -8593,7 +8588,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Presidential Meetings—Memorandum of Conversations 10/3/89-12/16/89",
       "dateline": "October 3, 1989-December 16, 1989",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -8621,7 +8615,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The complete Scowcroft folder contains presidential memoranda of conversation or telephone conversations with substantive economic-policy OCR signals. Review each conversation separately and promote only the passages that bear directly on Volume XXX. Parallel-copy control: match each conversation to the Bush Library Memcons and Telcons index and its canonical NARA item before selection. A Scowcroft folder copy is not a second documentary entry. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-446396845",
@@ -8631,7 +8626,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Directive File: NSD–28—October 5, 1989—National Security Directive on Sealift",
       "dateline": "October 5, 1989",
       "type": "National Security Directive file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 131,
@@ -8652,7 +8646,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The sealift directive addresses U.S.-flag commercial carriers, essential economic requirements, maritime competitiveness, and international agreements. Route defense-mobility material outside the volume while retaining commercial-shipping and trade-policy decisions. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsd",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-470761044",
@@ -8662,7 +8657,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 067—October 19, 1989—NSC/DC Meeting on Machine Tools and COCOM, Keywords: COCOM",
       "dateline": "October 19, 1989",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 86,
@@ -8684,7 +8678,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The minutes and summary record the Deputies Committee decisions on machine tools, COCOM list review, and streamlining. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "scowcroft-366551689",
@@ -8696,7 +8691,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Presidential Telephone Calls—Memorandum of Conversations 10/24/89-12/26/89",
       "dateline": "October 24, 1989-December 26, 1989",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -8721,7 +8715,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The complete Scowcroft folder contains presidential memoranda of conversation or telephone conversations with substantive economic-policy OCR signals. Review each conversation separately and promote only the passages that bear directly on Volume XXX. Parallel-copy control: match each conversation to the Bush Library Memcons and Telcons index and its canonical NARA item before selection. A Scowcroft folder copy is not a second documentary entry. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-chron-452050434",
@@ -8733,7 +8728,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: November 1989 [1]",
       "dateline": "November 1989 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 89,
@@ -8850,7 +8844,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Your Participation in World Economic Forum Conference”; “The Soviets have proposed negotiation of a bilateral investment agreement. A working group to lay the groundwork was agreed upon”; “Possible Trade Policy Action Plan Toward the Soviet Union, 1989-1991”; “Economic Policy Council (EPC) Meeting: California Oil Exports”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-chron-452050435",
@@ -8862,7 +8857,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: November 1989 [2]",
       "dateline": "November 1989 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 100,
@@ -8947,7 +8941,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “GRANADA Corporation's Support for Houston to Host the 1990 Economic Summit”; “DOT RESPONSE TO SEN GRASSLEY QUESTIONS RE CARGO PREFERENCE LAWS RE SHIPMENTS OF FOOD TO HUNGARY & POLAND”; “Draft Transportation response to Senator Grassley's specific questions on cargo preference laws with regard to shipments of food aid to Poland and Hungary.”; “NOTIFICATION FM TREASURY OF FORN TRAVEL BY MARTOCHE TO FRANCE ON NOV 25 - DEC 2”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "deal-chron-452050436",
@@ -8959,7 +8954,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: November 1989 [3]",
       "dateline": "November 1989 [3] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 97,
@@ -9085,7 +9079,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “REVISED DOD TESTIMONY RE US EXPORT CONTROLS / OMNIBUS TRADE & COMPETITIVENESS ACT”; “Defense proposed testimony regarding, U.S. export controls resulting from the Omnibus Trade and Competitiveness Act of 1988. state 's Commerce Testimony also included.”; “IEPR Breakfast, 7:30 a.m., Friday, November 17, Treasury”; “Poland: Evaluation of the Reform Program This follows up on a memorandum that I sent you earlier regarding”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "scowcroft-366551744",
@@ -9097,7 +9092,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: USSR Collapse: U.S.—Soviet Relations Thru 1991 (Novermber 1989)",
       "dateline": "November 1989",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -9124,7 +9118,8 @@ window.VOLUME_DATA = {
       "notes": "Cross-volume boundary review. The full OCR and opening withdrawal inventory identify a significant foreign-economic-policy strand, but the principal narrative belongs in a regional, Soviet, China, German-unification, or Persian Gulf volume. Review for cross-reference or a narrowly selected economic-policy document. Special-separate copy sets, meeting-file duplicates, and later retrospective chronologies are not separately promoted. Compare this file with the controlling regional and presidential records before selection. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "USSR Collapse Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-446396847",
@@ -9134,7 +9129,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Directive File: NSD–30—November 2, 1989—National Space Policy (National Space Policy Directive 1) [1]",
       "dateline": "November 2, 1989",
       "type": "National Security Directive file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 101,
@@ -9155,7 +9149,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The national space policy includes private investment, fair trade, USTR negotiations, export controls, and technology transfer. Route the principal space-policy record against the appropriate security volume while retaining distinct commercial and strategic-trade decisions. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsd",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-446396848",
@@ -9165,7 +9160,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Directive File: NSD–30—November 2, 1989—National Space Policy (National Space Policy Directive 1) [2]",
       "dateline": "November 2, 1989",
       "type": "National Security Directive file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 49,
@@ -9186,7 +9180,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. This companion folder contains supporting and draft space-policy material. Compare it with NAID 446396847 and retain only distinct commercial, investment, export-control, or trade-negotiation records. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsd",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-446396849",
@@ -9196,7 +9191,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Directive File: NSD–30a—November 2, 1989—Annex to NSD–30 and National Space Policy Directive 1 (File Located @ LM) [1]",
       "dateline": "November 2, 1989",
       "type": "National Security Directive file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 89,
@@ -9217,7 +9211,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The online annex file contains extensive policy on commercial remote sensing and launch services, private investment, subsidies, fair trade, intellectual property, and technology transfer. Compare it with both NSD-30 folders and retain distinct annex language and implementation records. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsd",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-446396850",
@@ -9227,7 +9222,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Directive File: NSD–30a—November 2, 1989—Annex to NSD–30 and National Space Policy Directive 1 (File Located @ LM) [2]",
       "dateline": "November 2, 1989",
       "type": "National Security Directive file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Catalog file unit; no online PDF",
       "pageCount": 0,
@@ -9248,7 +9242,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The Catalog identifies this as the second NSD-30a annex file, but supplies no online PDF. Keep it as a declassification and archival-retrieval target, and compare it with NAID 446396849 before treating the two folders as distinct documentary evidence. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsd",
-      "provenanceMethod": "Catalog hierarchy; no online PDF"
+      "provenanceMethod": "Catalog hierarchy; no online PDF",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761050",
@@ -9258,7 +9253,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 073—November 03, 1989—NSC/DC Meeting on, Keywords: Philippines",
       "dateline": "November 3, 1989",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 168,
@@ -9280,7 +9274,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The packet develops debt-for-bases, economic-development, Japanese-financing, trade, and investment options around the Philippine base negotiation; route against the East Asia volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "deal-1989-11-08-malta-economic-relations-withheld",
@@ -9290,7 +9285,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum From Timothy E. Deal of the National Security Council Staff to Robert Blackwill of the National Security Council Staff",
       "dateline": "Washington, November 8, 1989",
       "type": "Withdrawn memorandum",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Withheld",
       "pageCount": 6,
@@ -9311,7 +9305,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "The withdrawal sheet supplies the author, recipient, date, subject, classification, and extent.",
       "collectionId": "tim-deal",
-      "provenanceMethod": "Opening PDF provenance marker"
+      "provenanceMethod": "Opening PDF provenance marker",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "deal-1989-11-15-baker-malta-letter-withheld",
@@ -9321,7 +9316,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum From Secretary of State Baker to President Bush",
       "dateline": "Washington, November 15, 1989",
       "type": "Withdrawn memorandum",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Consider",
       "releaseStatus": "Withheld",
       "pageCount": 1,
@@ -9341,7 +9335,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "The withdrawal sheet supplies the author, recipient, date, subject, classification, and extent.",
       "collectionId": "tim-deal",
-      "provenanceMethod": "Opening PDF provenance marker"
+      "provenanceMethod": "Opening PDF provenance marker",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "deal-1989-11-15-malta-presidential-message-withheld",
@@ -9352,7 +9347,6 @@ window.VOLUME_DATA = {
       "heading": "Draft Presidential Message to Allied Leaders",
       "dateline": "Undated",
       "type": "Withdrawn draft message",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Consider",
       "releaseStatus": "Withheld",
       "pageCount": 7,
@@ -9372,7 +9366,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "The draft is undated on the withdrawal sheet. It is grouped with Baker's November 15 transmittal for working chronology only.",
       "collectionId": "tim-deal",
-      "provenanceMethod": "Opening PDF provenance marker"
+      "provenanceMethod": "Opening PDF provenance marker",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-470761053",
@@ -9382,7 +9377,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 076—November 17, 1989—NSC/DC Meeting on Economic Sanctions / Panama, Keywords: Panama",
       "dateline": "November 17, 1989",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 118,
@@ -9404,7 +9398,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The file documents a further Deputies Committee review of Panama economic sanctions and options for financial pressure; compare it with NSC/DC 043. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470760926",
@@ -9414,7 +9409,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Meeting File: NSC0032a—November 30, 1989—Malta Summit, USSR",
       "dateline": "November 30, 1989",
       "type": "NSC meeting file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Partly released",
       "pageCount": 22,
@@ -9437,7 +9431,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The file contains two Secret memoranda from Brent Scowcroft to the President and presidential talking points for the Malta discussion. Its economic section addresses a trade agreement, private investment, joint ventures, technical assistance, market reform, and possible IMF or World Bank membership.",
       "collectionId": "nsc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-446396852",
@@ -9447,7 +9442,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Directive File: NSD–32—November 30, 1989—Economic Sanctions against Panama",
       "dateline": "November 30, 1989",
       "type": "National Security Directive file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 53,
@@ -9468,7 +9462,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The directive is a direct presidential record on economic sanctions against Panama. Route the principal regional policy record against the Latin America volume and retain sanctions design and implementation for Volume XXX review. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsd",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-chron-452050437",
@@ -9480,7 +9475,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: December 1989 [1]",
       "dateline": "December 1989 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 73,
@@ -9580,7 +9574,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Proposed Reply to Chancellor Kohl Regarding IMF Quotas”; “REPLY TO KOHL RE IMF QUOTAS DOCUMENT CLASSIFICATION: UNCLASSIFIED EXTERNAL DISTRIBUTION:”; “REPLY TO KOHL RE IMF QUOTAS DOCUMENT CLASSIFICATION: CONFIDENTIAL EXTERNAL DISTRIBUTION:”; “PRS Log 8909567 (Proposed Reply to CHancellor Kohl re IMF Quotas”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "deal-chron-452050438",
@@ -9592,7 +9587,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: December 1989 [2]",
       "dateline": "December 1989 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Consider",
       "releaseStatus": "Online file unit; document boundaries not yet split",
       "pageCount": 143,
@@ -9625,7 +9619,8 @@ window.VOLUME_DATA = {
       "notes": "Selective Volume XXX review. Begin with “1990 Economic Report of the President Chapter 6 - The Economy and the Environment”; “1990 Economic Report of the President Chapter 7 - The Global Economy”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-chron-452050439",
@@ -9637,7 +9632,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: December 1989 [3]",
       "dateline": "December 1989 [3] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Consider",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 149,
@@ -9694,7 +9688,8 @@ window.VOLUME_DATA = {
       "notes": "Selective Volume XXX review. Begin with “1990 Economic Report of the President Chapter 4 - Investing in America's Future”; “Chapter 5 of the 1990 Economic Report of the President”; “1990 Economic Report of the President Chapter 5 - Human Resources in the 1990s”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-chron-452050440",
@@ -9706,7 +9701,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: December 1989 [4]",
       "dateline": "December 1989 [4] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Consider",
       "releaseStatus": "Online file unit; document boundaries not yet split",
       "pageCount": 127,
@@ -9740,7 +9734,8 @@ window.VOLUME_DATA = {
       "notes": "Selective Volume XXX review. Begin with “1990 Economic Report of the President Chapter 3 - Principles for Fiscal, Monetary,”; “1990 Economic Report of the President Chapter 2 - The Current Expansion and”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "deal-chron-452050441",
@@ -9752,7 +9747,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: December 1989 [5]",
       "dateline": "December 1989 [5] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 96,
@@ -9861,7 +9855,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Economic Policy Council Meeting, February 7, 1989 I attended the EPC meeting today in your place. It was a good D”; “PCC Meeting on Technology Transfer (U) Commerce has asked that the attached paper concerning export”; “Export-Import Bank Support for Arms Sales”; “Export-Import Bank Support for Arms Sales to Turkey and Greece”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-chron-452050442",
@@ -9873,7 +9868,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: December 1989 [6]",
       "dateline": "December 1989 [6] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 92,
@@ -9990,7 +9984,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Export-Import Bank Support for Arms Sales to Turkey and Greece”; “EXIM Credits for Military Helicopter Sales to Greece and Turkey”; “USTR draft report regarding H.R. 3699, to require reciprocal responses to foreign policies that deny national treatment to U.S. investment.”; “ENROLLED BILL HR-2494 INTL DEVELOPMENT & FINANCE ACT OF 1989”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "scowcroft-366551807",
@@ -10002,7 +9997,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Soviet Power Collapse in Eastern Europe (December 1989-January 1990)",
       "dateline": "December 1989-January 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -10029,7 +10023,8 @@ window.VOLUME_DATA = {
       "notes": "Cross-volume boundary review. The full OCR and opening withdrawal inventory identify a significant foreign-economic-policy strand, but the principal narrative belongs in a regional, Soviet, China, German-unification, or Persian Gulf volume. Review for cross-reference or a narrowly selected economic-policy document. Special-separate copy sets, meeting-file duplicates, and later retrospective chronologies are not separately promoted. Compare this file with the controlling regional and presidential records before selection. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "USSR Chronological Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "scowcroft-366551745",
@@ -10041,7 +10036,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: USSR Collapse: U.S.—Soviet Relations Thru 1991 (December 1989)",
       "dateline": "December 1989",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -10068,7 +10062,8 @@ window.VOLUME_DATA = {
       "notes": "Cross-volume boundary review. The full OCR and opening withdrawal inventory identify a significant foreign-economic-policy strand, but the principal narrative belongs in a regional, Soviet, China, German-unification, or Persian Gulf volume. Review for cross-reference or a narrowly selected economic-policy document. Special-separate copy sets, meeting-file duplicates, and later retrospective chronologies are not separately promoted. Compare this file with the controlling regional and presidential records before selection. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "USSR Collapse Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-470760927",
@@ -10078,7 +10073,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Meeting File: NSC0033—December 05, 1989—Malta Follow Up, Arms Control, Summit",
       "dateline": "December 5, 1989",
       "type": "NSC meeting file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Partly released",
       "pageCount": 55,
@@ -10101,7 +10095,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The Malta follow-up packet begins with a handwritten note on economic points and includes Secret and Confidential NSC meeting material. NARA OCR identifies trade-agreement negotiations, a bilateral investment treaty, technical economic cooperation, finance and agriculture projects, and export credits and guarantees.",
       "collectionId": "nsc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-470761067",
@@ -10111,7 +10106,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 084—December 19, 1989—NSC/DC Meeting on Philippines, Keywords: Philippines",
       "dateline": "December 19, 1989",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 58,
@@ -10133,7 +10127,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The minutes and briefing tie additional U.S. assistance to Philippine economic and military reforms intended to improve investment conditions. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "scowcroft-366551890",
@@ -10145,7 +10140,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: China 1990 (Sensitive) [1]",
       "dateline": "1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -10170,7 +10164,8 @@ window.VOLUME_DATA = {
       "notes": "Cross-volume boundary review. The full OCR and opening withdrawal inventory identify a significant foreign-economic-policy strand, but the principal narrative belongs in a regional, Soviet, China, German-unification, or Persian Gulf volume. Review for cross-reference or a narrowly selected economic-policy document. Special-separate copy sets, meeting-file duplicates, and later retrospective chronologies are not separately promoted. Compare this file with the controlling regional and presidential records before selection. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Special Separate China Notes Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "scowcroft-366551871",
@@ -10182,7 +10177,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: China: Non-Tiananmen (January-April 1990)",
       "dateline": "January-April 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -10209,7 +10203,8 @@ window.VOLUME_DATA = {
       "notes": "Cross-volume boundary review. The full OCR and opening withdrawal inventory identify a significant foreign-economic-policy strand, but the principal narrative belongs in a regional, Soviet, China, German-unification, or Persian Gulf volume. Review for cross-reference or a narrowly selected economic-policy document. Special-separate copy sets, meeting-file duplicates, and later retrospective chronologies are not separately promoted. Compare this file with the controlling regional and presidential records before selection. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "China Chronological Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-chron-452050443",
@@ -10221,7 +10216,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: January 1990 [1]",
       "dateline": "January 1990 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 52,
@@ -10413,7 +10407,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “World Bank Loans to China David Mulford told me this morning that World Bank Executive”; “to U.S. export controls. It has no contracts with the United States Government involving classified information. 3”; “Minutes of January 27 NSC DC Meeting on COCOM”; “Summary of Conclusions, NSC Deputies Committee Meeting on COCOM”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "deal-chron-452050444",
@@ -10425,7 +10420,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: January 1990 [2]",
       "dateline": "January 1990 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 102,
@@ -10552,7 +10546,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Letter from Patrick Shea regarding Eastern Europe Patrick Shea has written you proposing a Fellows program of”; “NSC Deputies Committee Meeting on COCOM Attached at Tab I is a memorandum notifying agencies of an NSC”; “NSC Deputies Committee Meeting on COCOM, January 27, 1990 (e)”; “ECONOMIC POLICY COUNCIL MEETING --REVISED PAPER FOR JANUARY 23rd MEETING”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "deal-chron-452050445",
@@ -10564,7 +10559,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: January 1990 [3]",
       "dateline": "January 1990 [3] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 77,
@@ -10706,7 +10700,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “EPC Meeting on January 19 The EPC met on January 19 under Nick Brady's chairmanship to”; “National Security Council Meeting on International Economic Policy: Key Strategic”; “Draft NSR on COCOM Policy Attached is a complicated memo and an even more complicated NSR”; “European Bank for Reconstruction and Development (EBRD) : Your Meeting with Baker and Brady,”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "scowcroft-366551913",
@@ -10718,7 +10713,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Latin America—Economics (January-May 1990)",
       "dateline": "January-May 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -10746,7 +10740,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. This file belongs to the complete 13-folder Economic Chronological Files subseries. Screen its decision memoranda, presidential meeting materials, debt papers, trade papers, and follow-up actions individually for Volume XXX and route country-policy material to the appropriate regional volume. Country meeting packets and presidential conversations may duplicate the Presidential Correspondence Files or regional NSC staff files; compare dates, subjects, and document text before promotion. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Latin America Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "scowcroft-366551997",
@@ -10758,7 +10753,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Other (January-May 1990) [1]",
       "dateline": "January-May 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -10784,7 +10778,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The folder contains a concentrated EBRD decision trail, including Baker-Brady-Scowcroft meeting records and presidential papers, followed by Scowcroft and Melby memoranda on preparations for the Houston Economic Summit. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Chronological Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "deal-summit-452050637",
@@ -10796,7 +10791,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Summit Briefing Book File: Houston [Economic] Summit: First Sherpa Meeting—Briefing Book (Key West) January 1990 [1]",
       "dateline": "January 5-7, 1990",
       "type": "Timothy E. Deal summit briefing-book file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 82,
@@ -10821,7 +10815,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Read for the initial U.S. agenda-setting record. The first Key West book frames possible new summit topics, including market reform in Communist states, structural reform in developing countries, debt, and the post-Paris economic agenda. This is a file-level lead, not a document-level inclusion claim. Compare possible controlling copies against the Deal Subject Files and Deal-Reiss Economic Summit Files before promotion.",
       "withdrawalMetadataNote": "",
       "collectionId": "deal-summit",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and individual withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and individual withdrawal sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-summit-452050638",
@@ -10833,7 +10828,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Summit Briefing Book File: Houston [Economic] Summit: First Sherpa Meeting—Briefing Book (Key West) January 1990 [2]",
       "dateline": "January 5-7, 1990",
       "type": "Timothy E. Deal summit briefing-book file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Partly released",
       "pageCount": 55,
@@ -10869,7 +10863,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Use with the first Key West volume to reconstruct the opening Houston agenda. The book reviews external adjustment, trade, debt, agriculture, environment, and implementation of the Paris communique. This is a file-level lead, not a document-level inclusion claim. Compare possible controlling copies against the Deal Subject Files and Deal-Reiss Economic Summit Files before promotion.",
       "withdrawalMetadataNote": "",
       "collectionId": "deal-summit",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and individual withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and individual withdrawal sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "scowcroft-366551666",
@@ -10881,7 +10876,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Presidential Meetings—Memorandum of Conversations 1/11/90-2/21/90",
       "dateline": "January 11, 1990-February 21, 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -10909,7 +10903,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The complete Scowcroft folder contains presidential memoranda of conversation or telephone conversations with substantive economic-policy OCR signals. Review each conversation separately and promote only the passages that bear directly on Volume XXX. Parallel-copy control: match each conversation to the Bush Library Memcons and Telcons index and its canonical NARA item before selection. A Scowcroft folder copy is not a second documentary entry. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-470761080",
@@ -10919,7 +10914,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 096—January 12, 1990—NSC/DC Meeting on Panama, Keywords: Panama",
       "dateline": "January 12, 1990",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 138,
@@ -10941,7 +10935,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The post-Noriega policy papers include recovery, aid, and economic-reconstruction questions; route the principal record against the Latin America volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-446394967",
@@ -10959,7 +10954,6 @@ window.VOLUME_DATA = {
       "date": "1990-01-12",
       "title": "NSR-22—January 12, 1990—COCOM Policy Towards Eastern Europe and the Soviet Union [1]",
       "type": "National Security Review file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "localId": "90007–015",
@@ -10973,7 +10967,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. This is a direct strategic-trade lead. The file initiates the COCOM policy review and separately identifies machine-tool compliance, telecommunications sales, and intelligence studies of technology transfer to Eastern Europe. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsr",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-446394968",
@@ -10991,7 +10986,6 @@ window.VOLUME_DATA = {
       "date": "1990-01-12",
       "title": "NSR-22—January 12, 1990—COCOM Policy Towards Eastern Europe and the Soviet Union [2]",
       "type": "National Security Review file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "localId": "90007–016",
@@ -11005,7 +10999,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The response file identifies the Joint Chiefs' assessment of the military significance of increased Eastern European and Soviet access to Western technology. Track the unavailable study as a high-priority declassification target. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsr",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470760932",
@@ -11015,7 +11010,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Meeting File: NSC0036—January 17, 1990—Panama [1]",
       "dateline": "January 17, 1990",
       "type": "NSC meeting file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Partly released",
       "pageCount": 77,
@@ -11037,7 +11031,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The first Panama packet includes a 14-page economic recovery report, President Endara's request for assistance, and material on arrears to international financial institutions, loans, guarantees, export opportunities, and aid. The Latin America volume may control placement, but the recovery and financing record warrants Volume XXX review.",
       "collectionId": "nsc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470760933",
@@ -11047,7 +11042,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Meeting File: NSC0036—January 17, 1990—Panama [2]",
       "dateline": "January 17, 1990",
       "type": "NSC meeting file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Partly released",
       "pageCount": 71,
@@ -11070,7 +11064,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The second Panama packet repeats the economic recovery report and related policy papers, correspondence, and meeting material. Compare with parts 1 and 3 and deduplicate the repeated report and cables at the intellectual-document level.",
       "collectionId": "nsc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470760934",
@@ -11080,7 +11075,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Meeting File: NSC0036—January 17, 1990—Panama [3]",
       "dateline": "January 17, 1990",
       "type": "NSC meeting file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Partly released",
       "pageCount": 35,
@@ -11103,7 +11097,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The third Panama packet centers on the OMB recovery paper and its interagency circulation. Review with parts 1 and 2; retain only distinct decision records or materially different versions.",
       "collectionId": "nsc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "boskin-1990-01-17-brady-international-policy-withdrawn",
@@ -11113,7 +11108,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum From the Secretary of the Treasury (Brady) to President Bush",
       "dateline": "Washington, January 17, 1990",
       "type": "Withdrawn memorandum",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Withheld",
       "pageCount": 3,
@@ -11131,7 +11125,8 @@ window.VOLUME_DATA = {
         "Treasury",
         "Withheld record"
       ],
-      "notes": "Exact author, recipient, date, title, classification, and three-page extent come from the withdrawal sheet."
+      "notes": "Exact author, recipient, date, title, classification, and three-page extent come from the withdrawal sheet.",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470760935",
@@ -11141,7 +11136,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Meeting File: NSC0037—January 18, 1990—International Economic Policy [1]",
       "dateline": "January 18, 1990",
       "type": "NSC meeting file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Partly released",
       "pageCount": 44,
@@ -11163,7 +11157,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The first part identifies an 8-page Secret NSC meeting record, a January 17 memorandum from Nicholas Brady to the President, and a policy report. Some material appears to be a parallel copy of records in Michael J. Boskin's NSC Meeting Files, including NARA Catalog ID 492062327; deduplicate at the intellectual-document level.",
       "collectionId": "nsc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470760936",
@@ -11173,7 +11168,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Meeting File: NSC0037—January 18, 1990—International Economic Policy [2]",
       "dateline": "January 18, 1990",
       "type": "NSC meeting file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Partly released",
       "pageCount": 43,
@@ -11195,7 +11189,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The second part continues the January 18 international-economic-policy meeting file. Compare every item with the Boskin NSC Meeting Files before creating document-level entries.",
       "collectionId": "nsc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "boskin-1990-international-economic-policy-paper-withdrawn",
@@ -11205,7 +11200,6 @@ window.VOLUME_DATA = {
       "heading": "Paper Prepared for the National Security Council",
       "dateline": "Undated",
       "type": "Withdrawn paper",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Withheld",
       "pageCount": 48,
@@ -11223,7 +11217,8 @@ window.VOLUME_DATA = {
         "NSC meeting",
         "Withheld record"
       ],
-      "notes": "The withdrawal sheet records a 48-page Secret paper; authorship and precise date remain unavailable."
+      "notes": "The withdrawal sheet records a 48-page Secret paper; authorship and precise date remain unavailable.",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "boskin-1990-debt-strategy-paper-withdrawn",
@@ -11233,7 +11228,6 @@ window.VOLUME_DATA = {
       "heading": "Paper Prepared for the National Security Council",
       "dateline": "Undated",
       "type": "Withdrawn paper",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Withheld",
       "pageCount": 3,
@@ -11251,7 +11245,8 @@ window.VOLUME_DATA = {
         "Brady Plan",
         "Withheld record"
       ],
-      "notes": "The withdrawal sheet supplies the exact title, classification, and three-page extent."
+      "notes": "The withdrawal sheet supplies the exact title, classification, and three-page extent.",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "boskin-1990-01-18-taylor-collins",
@@ -11261,7 +11256,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum From John B. Taylor and Susan Collins of the Council of Economic Advisers to the Chairman of the Council of Economic Advisers (Boskin)",
       "dateline": "Washington, January 18, 1990",
       "type": "Memorandum",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Released",
       "pageCount": 4,
@@ -11279,7 +11273,8 @@ window.VOLUME_DATA = {
         "NSC meeting",
         "Council of Economic Advisers"
       ],
-      "notes": "The released memorandum appears on PDF pages 3–6; three separately withdrawn records from the folder are listed above."
+      "notes": "The released memorandum appears on PDF pages 3–6; three separately withdrawn records from the folder are listed above.",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "deal-1990-01-19-us-ec-trade-withheld",
@@ -11289,7 +11284,6 @@ window.VOLUME_DATA = {
       "heading": "Report on U.S.-EC Trade",
       "dateline": "January 19, 1990",
       "type": "Withdrawn report",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Withheld",
       "pageCount": 3,
@@ -11310,7 +11304,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "The withdrawal sheet supplies the date, subject, classification, and extent. Author, recipient, and place are not established.",
       "collectionId": "tim-deal",
-      "provenanceMethod": "Opening PDF provenance marker"
+      "provenanceMethod": "Opening PDF provenance marker",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-1990-01-19-international-economic-energy-trade-withheld",
@@ -11320,7 +11315,6 @@ window.VOLUME_DATA = {
       "heading": "Report on International Economic and Energy Trade",
       "dateline": "January 19, 1990",
       "type": "Withdrawn report",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Consider",
       "releaseStatus": "Withheld",
       "pageCount": 1,
@@ -11340,7 +11334,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "The withdrawal sheet supplies the date, subject, classification, and extent. Author, recipient, and place are not established.",
       "collectionId": "tim-deal",
-      "provenanceMethod": "Opening PDF provenance marker"
+      "provenanceMethod": "Opening PDF provenance marker",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-446396853",
@@ -11350,7 +11345,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Directive File: NSD–33—January 24, 1990—U.S. Policy toward Panama: Post-Noriega",
       "dateline": "January 24, 1990",
       "type": "National Security Directive file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 46,
@@ -11371,7 +11365,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The post-Noriega policy file bridges sanctions termination, assistance, and economic recovery. Review it with NSD-32 and NSD-34, routing the principal regional decision against the Latin America volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsd",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-446396854",
@@ -11381,7 +11376,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Directive File: NSD–34—January 24, 1990—Partnership with Panama: Action Plan to Foster Economic Recovery",
       "dateline": "January 24, 1990",
       "type": "National Security Directive file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 50,
@@ -11402,7 +11396,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The action plan for Panamanian economic recovery is a direct assistance and reconstruction lead. Route the principal country-policy record against the Latin America volume while retaining financing and interagency implementation decisions. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsd",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-446396855",
@@ -11412,7 +11407,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Directive File: NSD–35—January 24, 1990—U.S.-Soviet Economic Initiatives",
       "dateline": "January 24, 1990",
       "type": "National Security Directive file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 39,
@@ -11433,7 +11427,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The file records presidential direction on U.S.-Soviet economic initiatives. Compare released and withheld items with NSR-3, NSD-23, summit, and bilateral economic files before item-level promotion. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsd",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-470761085",
@@ -11443,7 +11438,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 101—January 27, 1990—NSC/DC Meeting on COCOM, Keywords: COCOM",
       "dateline": "January 27, 1990",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 67,
@@ -11465,7 +11459,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The minutes and summary cover the COCOM core list, differentiation, telecommunications, computers, and machine-tool negotiations. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761086",
@@ -11475,7 +11470,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 102—January 31, 1990—NSC/DC Meeting on Philippines, Keywords: Philippines, Military Bases",
       "dateline": "January 31, 1990",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 79,
@@ -11497,7 +11491,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The military-bases packet contains detailed debt-reduction, long-term financing, Japanese participation, and nontraditional trade-compensation options. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "deal-chron-452050446",
@@ -11509,7 +11504,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: February 1990 [1]",
       "dateline": "February 1990 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 94,
@@ -11595,7 +11589,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Commerce Testimony on Eastern Europe, EC 1992 and Foreign Investment”; “Commerce testimony on Eastern Europe, EC 1992, and foreign investment. The Office of Management and Budget requests the views of your”; “to export controls. initiatives are under consideration in other product sectors that are The incipient private sectors in Eastern Europe pose many”; “ATTENDANCE AT TREASURY \"G-7\" CONSULTATIONS <TEXT> BT”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-chron-452050447",
@@ -11607,7 +11602,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: February 1990 [2]",
       "dateline": "February 1990 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Consider",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 66,
@@ -11788,7 +11782,8 @@ window.VOLUME_DATA = {
       "notes": "Selective Volume XXX review. Begin with “European Bank for Reconstruction and Development (EBRD)”; “Next Steps On the EBRD Status of Negotiations”; “National Security Council Meeting on COCOM (S)”; “From Allan Wendt to Timothy Deal Re: USG Interim Draft Proposals for COCOM and Eastern Europe”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "scowcroft-366551808",
@@ -11800,7 +11795,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Soviet Power Collapse in Eastern Europe (February-March 1990)",
       "dateline": "February-March 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -11825,7 +11819,8 @@ window.VOLUME_DATA = {
       "notes": "Cross-volume boundary review. The full OCR and opening withdrawal inventory identify a significant foreign-economic-policy strand, but the principal narrative belongs in a regional, Soviet, China, German-unification, or Persian Gulf volume. Review for cross-reference or a narrowly selected economic-policy document. Special-separate copy sets, meeting-file duplicates, and later retrospective chronologies are not separately promoted. Compare this file with the controlling regional and presidential records before selection. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "USSR Chronological Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "scowcroft-366551809",
@@ -11837,7 +11832,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Soviet Power Collapse in Eastern Europe (February-May 1990)",
       "dateline": "February-May 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -11865,7 +11859,8 @@ window.VOLUME_DATA = {
       "notes": "Cross-volume boundary review. The full OCR and opening withdrawal inventory identify a significant foreign-economic-policy strand, but the principal narrative belongs in a regional, Soviet, China, German-unification, or Persian Gulf volume. Review for cross-reference or a narrowly selected economic-policy document. Special-separate copy sets, meeting-file duplicates, and later retrospective chronologies are not separately promoted. Compare this file with the controlling regional and presidential records before selection. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "USSR Chronological Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "scowcroft-366551747",
@@ -11877,7 +11872,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: USSR Collapse: U.S.—Soviet Relations Thru 1991 (February-April 1990)",
       "dateline": "February-April 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -11903,7 +11897,8 @@ window.VOLUME_DATA = {
       "notes": "Cross-volume boundary review. The full OCR and opening withdrawal inventory identify a significant foreign-economic-policy strand, but the principal narrative belongs in a regional, Soviet, China, German-unification, or Persian Gulf volume. Review for cross-reference or a narrowly selected economic-policy document. Special-separate copy sets, meeting-file duplicates, and later retrospective chronologies are not separately promoted. Compare this file with the controlling regional and presidential records before selection. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "USSR Collapse Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-470761087",
@@ -11913,7 +11908,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 103—February 02, 1990—NSC/DC Meeting on Technology Transfer, Keywords: Technology Transfers",
       "dateline": "February 2, 1990",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 84,
@@ -11935,7 +11929,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The meeting preparation addresses trans-Soviet fiber-optic proposals, COCOM policy, and technology-transfer controls. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470760939",
@@ -11945,7 +11940,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Meeting File: NSC0039—February 09, 1990—East Asia Strategy, National Security Review on Philippines Military Base Access [1]",
       "dateline": "February 9, 1990",
       "type": "NSC meeting file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Partly released",
       "pageCount": 24,
@@ -11968,7 +11962,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The first East Asia packet identifies an 8-page Secret NSC meeting record and supporting strategy papers. Parts 2 and 3 contain explicit debt-reduction, assistance, and trade-compensation options tied to Philippine base access; adjudicate the packet against the East Asia and security volumes.",
       "collectionId": "nsc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470760940",
@@ -11978,7 +11973,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Meeting File: NSC0039—February 09, 1990—East Asia Strategy, National Security Review on Philippines Military Base Access [2]",
       "dateline": "February 9, 1990",
       "type": "NSC meeting file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Partly released",
       "pageCount": 58,
@@ -12001,7 +11995,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The second East Asia packet includes options for debt reduction, Japanese financial participation, long-term assistance, and non-traditional trade compensation. Review item by item for records that illuminate U.S. debt strategy rather than only the base negotiation.",
       "collectionId": "nsc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470760941",
@@ -12011,7 +12006,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Meeting File: NSC0039—February 09, 1990—East Asia Strategy, National Security Review on Philippines Military Base Access [3]",
       "dateline": "February 9, 1990",
       "type": "NSC meeting file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Partly released",
       "pageCount": 55,
@@ -12035,7 +12029,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The third East Asia packet repeats many part 2 papers and adds interagency records. Deduplicate debt-reduction and compensation options across all three parts before promoting any document.",
       "collectionId": "nsc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470760942",
@@ -12045,7 +12040,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Meeting File: NSC0040—February 12, 1990—Coordinating Committee for Multilateral Strategic Export Controls, Eastern Europe",
       "dateline": "February 12, 1990",
       "type": "NSC meeting file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Partly released",
       "pageCount": 69,
@@ -12067,7 +12061,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The file identifies a 5-page Secret NSC meeting record, duplicate copies, and background material on COCOM policy toward Eastern Europe. Compare with NSR-22 and later directive files before selection.",
       "collectionId": "nsc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "scowcroft-366551667",
@@ -12079,7 +12074,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Presidential Meetings—Memorandum of Conversations 2/22/90-4/11/90",
       "dateline": "February 22, 1990-April 11, 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -12107,7 +12101,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The complete Scowcroft folder contains presidential memoranda of conversation or telephone conversations with substantive economic-policy OCR signals. Review each conversation separately and promote only the passages that bear directly on Volume XXX. Parallel-copy control: match each conversation to the Bush Library Memcons and Telcons index and its canonical NARA item before selection. A Scowcroft folder copy is not a second documentary entry. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-492061965",
@@ -12126,7 +12121,6 @@ window.VOLUME_DATA = {
       "datePrecision": "day",
       "title": "Structural Impediments Initiative Meeting, Tokyo, February 22–23, 1990 [1]",
       "type": "File-unit lead",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit",
       "localId": "CF00502–001",
@@ -12137,7 +12131,8 @@ window.VOLUME_DATA = {
         "Structural Impediments Initiative",
         "Market access"
       ],
-      "notes": "File-unit lead. Item-level headings, datelines, Source Notes, and page extents await source-image review."
+      "notes": "File-unit lead. Item-level headings, datelines, Source Notes, and page extents await source-image review.",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-chron-452050448",
@@ -12149,7 +12144,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: March 1990 [1]",
       "dateline": "March 1990 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Consider",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 184,
@@ -12241,7 +12235,8 @@ window.VOLUME_DATA = {
       "notes": "Selective Volume XXX review. Begin with “German Unification: Economic Impact German unification could have profound economic implications.”; “TREASURY DRAFT TESTIMONY RE EBRD / STATEMENT BY MULFORD BEFORE SEN FORN RELATIONS COM / MAR 22”; “Treasury draft testimony on the European Bank for Reconstruction and Development (EBRD). The Office of Management and Budget requests the views of your”; “Recent Developments Here's a summary of key developments in the Economics Directorate”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "deal-chron-452050449",
@@ -12253,7 +12248,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: March 1990 [2]",
       "dateline": "March 1990 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 132,
@@ -12332,7 +12326,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Presidential message for the Office Information and Telecommunications Trade Fair taking place in Hannover”; “REPLY TO CHANCELLOR KOHL'S LETTER TO PRESIDENT RDK BUSH PROPOSING BERLIN AS THE HEADQUARTERS FOR THE EBRD”; “EBRD Although press reports painted a different picture, the EBRD”; “Proposed International Education Summit Conference Thank you for the opportunity to review the proposal by the”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "scowcroft-366551729",
@@ -12344,7 +12339,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: German Unification Files (March-April 1990)",
       "dateline": "March-April 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -12370,7 +12364,8 @@ window.VOLUME_DATA = {
       "notes": "Cross-volume boundary review. The full OCR and opening withdrawal inventory identify a significant foreign-economic-policy strand, but the principal narrative belongs in a regional, Soviet, China, German-unification, or Persian Gulf volume. Review for cross-reference or a narrowly selected economic-policy document. Special-separate copy sets, meeting-file duplicates, and later retrospective chronologies are not separately promoted. Compare this file with the controlling regional and presidential records before selection. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "German Reunification Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "scowcroft-366551914",
@@ -12382,7 +12377,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Latin America—Economics (March 1990)",
       "dateline": "March 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -12405,7 +12399,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. This file belongs to the complete 13-folder Economic Chronological Files subseries. Screen its decision memoranda, presidential meeting materials, debt papers, trade papers, and follow-up actions individually for Volume XXX and route country-policy material to the appropriate regional volume. Country meeting packets and presidential conversations may duplicate the Presidential Correspondence Files or regional NSC staff files; compare dates, subjects, and document text before promotion. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Latin America Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "scowcroft-366551999",
@@ -12417,7 +12412,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Other (March 1990)",
       "dateline": "March 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -12443,7 +12437,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The folder inventory identifies Scowcroft's meeting with Treasury Secretary Brady, a Deal memorandum on the EBRD, and the March 29 international-economic breakfast paper. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Chronological Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "scowcroft-366551691",
@@ -12455,7 +12450,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Presidential Telephone Calls—Memorandum of Conversations 3/15/90-6/22/90",
       "dateline": "March 15, 1990-June 22, 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -12482,7 +12476,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The complete Scowcroft folder contains presidential memoranda of conversation or telephone conversations with substantive economic-policy OCR signals. Review each conversation separately and promote only the passages that bear directly on Volume XXX. Parallel-copy control: match each conversation to the Bush Library Memcons and Telcons index and its canonical NARA item before selection. A Scowcroft folder copy is not a second documentary entry. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-470761097",
@@ -12492,7 +12487,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 110—March 21, 1990—NSC/DC Meeting on Technology Transfer, Keywords: Technology Transfers",
       "dateline": "March 21, 1990",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 59,
@@ -12514,7 +12508,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The minutes and background papers address fiber optics, NSR-22, and the national-security implications of technology transfer. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "deal-summit-452050639",
@@ -12526,7 +12521,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Summit Briefing Book File: Houston [Economic] Summit: Second Sherpa Meeting—Briefing Book (San Francisco) March 1990 [1]",
       "dateline": "March 22-25, 1990",
       "type": "Timothy E. Deal summit briefing-book file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Partly released",
       "pageCount": 122,
@@ -12592,7 +12586,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The first San Francisco book records the second Sherpa agenda and U.S. papers on the global economy, East-West economic issues, developing countries, trade and investment, international monetary coordination, and the EBRD. This is a file-level lead, not a document-level inclusion claim. Compare possible controlling copies against the Deal Subject Files and Deal-Reiss Economic Summit Files before promotion.",
       "withdrawalMetadataNote": "",
       "collectionId": "deal-summit",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and individual withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and individual withdrawal sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-summit-452050640",
@@ -12604,7 +12599,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Summit Briefing Book File: Houston [Economic] Summit: Second Sherpa Meeting—Briefing Book (San Francisco) March 1990 [2]",
       "dateline": "March 22-25, 1990",
       "type": "Timothy E. Deal summit briefing-book file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Partly released",
       "pageCount": 110,
@@ -12700,7 +12694,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The second San Francisco book concentrates on third-world debt, development assistance, Germany and the Soviet Union, and supporting background for the Houston negotiations. This is a file-level lead, not a document-level inclusion claim. Compare possible controlling copies against the Deal Subject Files and Deal-Reiss Economic Summit Files before promotion.",
       "withdrawalMetadataNote": "",
       "collectionId": "deal-summit",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and individual withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and individual withdrawal sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "lead-492062328",
@@ -12719,7 +12714,6 @@ window.VOLUME_DATA = {
       "datePrecision": "day",
       "title": "U.S.-Mexico Free Trade Agreement",
       "type": "EPC/NSC file-unit lead",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Boundary",
       "releaseStatus": "Online file unit",
       "localId": "CF01113–012",
@@ -12730,7 +12724,8 @@ window.VOLUME_DATA = {
         "Free trade agreement",
         "Volume XXXIII boundary"
       ],
-      "notes": "File-unit lead. Audit the scan document by document before promoting any item to Source Note-ready status."
+      "notes": "File-unit lead. Audit the scan document by document before promoting any item to Source Note-ready status.",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-470760944",
@@ -12748,7 +12743,6 @@ window.VOLUME_DATA = {
       "date": "1990-03-29",
       "title": "NSC0042—March 29, 1990—Fiber Optic Systems for the USSR",
       "type": "NSC meeting file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Partly released",
       "localId": "90002–006",
@@ -12762,7 +12756,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. This supersedes the earlier standalone locator for the same NAID. The file identifies a 6-page Secret NSC meeting record and related preparation and follow-up material.",
       "collectionId": "nsc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "deal-chron-452050450",
@@ -12774,7 +12769,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: April 1990 [1]",
       "dateline": "April 1990 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 160,
@@ -12832,7 +12826,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “National Security Directive on COCOM Policy towards Eastern Europe and the”; “National Security Directive on COCOM The NSD at Tab A sets forth your decisions on issues relating to”; “COCOM Policy towards Eastern Europe and the Soviet Union”; “DEPT OF TREASURY DRAFT RPT RE CUSTOMS USER FEE PROVISIONS / HR- 1594 MINI TRADE BILL”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-chron-452050451",
@@ -12844,7 +12839,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: April 1990 [2]",
       "dateline": "April 1990 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 113,
@@ -13015,7 +13009,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Economic Policy Council Meeting - April 26, 1990”; “TREASURY DRAFT PROPOSAL RE PARTICIPATION OF US IN EBRD”; “Treasury draft proposal, \"To provide for the participation of the United States in the European Bank for Reconstruction and Development.”; “US ECONOMIC POLICY TWD LATIN AMER”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-446394972",
@@ -13025,7 +13020,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Review File: NSR-25—April 04, 1990—National Industrial Security Program [1]",
       "dateline": "April 4, 1990",
       "type": "National Security Review file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 44,
@@ -13046,7 +13040,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The national industrial-security review links globalization, economic competition, technology leadership, and protection of classified industrial information. Route domestic security-administration material outside Volume XXX while retaining international economic and technology-protection analysis for adjudication. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsr",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-446394973",
@@ -13056,7 +13051,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Review File: NSR-25—April 04, 1990—National Industrial Security Program [2]",
       "dateline": "April 4, 1990",
       "type": "National Security Review file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 43,
@@ -13077,7 +13071,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The response file contains the completed national industrial-security report, appendices, and the Scowcroft recommendation to the President. Compare it with the first NSR-25 folder and retain only distinct economic-security passages or presidential decisions. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsr",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761106",
@@ -13087,7 +13082,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 115—April 11, 1990—NSC/DC Meeting on Technology Transfer, Keywords: Technology Transfers [1]",
       "dateline": "April 11, 1990",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 31,
@@ -13108,7 +13102,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. Part 1 preserves the minutes and summary of the April 11 technology-transfer meeting; review it with part 2. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761107",
@@ -13118,7 +13113,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 115—April 11, 1990—NSC/DC Meeting on Technology Transfer, Keywords: Technology Transfers [2]",
       "dateline": "April 11, 1990",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 80,
@@ -13140,7 +13134,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. Part 2 adds policy papers on technology transfer to Eastern Europe, COCOM, information systems, and military-critical technologies. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "scowcroft-366551668",
@@ -13152,7 +13147,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Presidential Meetings—Memorandum of Conversations 4/13/90-5/17/90",
       "dateline": "April 13, 1990-May 17, 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -13179,7 +13173,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The complete Scowcroft folder contains presidential memoranda of conversation or telephone conversations with substantive economic-policy OCR signals. Review each conversation separately and promote only the passages that bear directly on Volume XXX. Parallel-copy control: match each conversation to the Bush Library Memcons and Telcons index and its canonical NARA item before selection. A Scowcroft folder copy is not a second documentary entry. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-470760945",
@@ -13189,7 +13184,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Meeting File: NSC0043—April 17, 1990—Lithuania, USSR [1]",
       "dateline": "April 17, 1990",
       "type": "NSC meeting file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Boundary",
       "releaseStatus": "Partly released",
       "pageCount": 32,
@@ -13212,7 +13206,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The first Lithuania packet identifies a 7-page Secret NSC meeting record and presidential briefing material. The meeting weighs suspension of the trade, tax, investment, and technical-cooperation agenda and possible energy assistance to Lithuania. Primary placement likely lies in a Soviet or regional volume.",
       "collectionId": "nsc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-470760946",
@@ -13222,7 +13217,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Meeting File: NSC0043—April 17, 1990—Lithuania, USSR [2]",
       "dateline": "April 17, 1990",
       "type": "NSC meeting file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Boundary",
       "releaseStatus": "Partly released",
       "pageCount": 57,
@@ -13245,7 +13239,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The second Lithuania packet contains economic-options analysis, energy reporting, and material on possible oil deliveries and suspension of the bilateral economic agenda. Review with part 1 and the April 23 sanctions packet, removing repeated talking points and options papers.",
       "collectionId": "nsc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-470761111",
@@ -13255,7 +13250,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 119—April 20, 1990—NSC/DC Meeting on Technology Transfer, Keywords: Technology Transfers",
       "dateline": "April 20, 1990",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 72,
@@ -13277,7 +13271,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The file records the April 20 review of the COCOM core list, industrial-list eliminations, telecommunications, China, and differentiation. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470760947",
@@ -13287,7 +13282,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Meeting File: NSC0043a—April 23, 1990—Lithuania, USSR, Sanctions",
       "dateline": "April 23, 1990",
       "type": "NSC meeting file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Boundary",
       "releaseStatus": "Partly released",
       "pageCount": 15,
@@ -13309,7 +13303,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The file includes presidential talking points and a memorandum to Brent Scowcroft concerning Lithuania and possible sanctions. Economic-instrument content may support selection, but primary placement likely lies in a regional or Soviet volume.",
       "collectionId": "nsc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "presidential-428080649",
@@ -13319,7 +13314,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum of Conversation",
       "dateline": "April 24, 1990, 3:30–4:00 p.m.",
       "type": "Memcon",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Consider",
       "releaseStatus": "Released",
       "pageCount": 5,
@@ -13337,7 +13331,8 @@ window.VOLUME_DATA = {
         "European Communities",
         "Trade Policy and Market Access"
       ],
-      "notes": "Presidential conversation selected from the Bush Library Memcons and Telcons index; substantive inclusion remains a compiler judgment."
+      "notes": "Presidential conversation selected from the Bush Library Memcons and Telcons index; substantive inclusion remains a compiler judgment.",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-492062331",
@@ -13356,7 +13351,6 @@ window.VOLUME_DATA = {
       "datePrecision": "day",
       "title": "Economic Policy Council Meeting on Special 301",
       "type": "EPC/NSC file-unit lead",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit",
       "localId": "CF01113–015",
@@ -13367,7 +13361,8 @@ window.VOLUME_DATA = {
         "Trade barriers",
         "EPC"
       ],
-      "notes": "File-unit lead. Audit the scan document by document before promoting any item to Source Note-ready status."
+      "notes": "File-unit lead. Audit the scan document by document before promoting any item to Source Note-ready status.",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-470760948",
@@ -13377,7 +13372,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Meeting File: NSC0044—April 30, 1990—Cape York, Coordinating Committee for Multilateral Strategic Export Controls",
       "dateline": "April 30, 1990",
       "type": "NSC meeting file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Partly released",
       "pageCount": 72,
@@ -13399,7 +13393,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The file identifies a 5-page Secret NSC meeting record and follow-up material on Cape York and COCOM. Review alongside NSC0045 and the related directive record.",
       "collectionId": "nsc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470760949",
@@ -13409,7 +13404,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Meeting File: NSC0045—April 30, 1990—Coordinating Committee for Multilateral Strategic Export Controls",
       "dateline": "April 30, 1990",
       "type": "NSC meeting file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Partly released",
       "pageCount": 73,
@@ -13431,7 +13425,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The file contains COCOM notification, agenda and background papers, presidential talking points, and additional briefing points. Check for overlap with NSC0044 and NSD-39.",
       "collectionId": "nsc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "deal-chron-452050452",
@@ -13443,7 +13438,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: May 1990 [1]",
       "dateline": "May 1990 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Consider",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 83,
@@ -13863,7 +13857,8 @@ window.VOLUME_DATA = {
       "notes": "Selective Volume XXX review. Begin with “CARTAGENA SUMMIT: FOLLOW-UP STRUCTURE JFM CSS”; “Minutes of NSC Deputies Committee Meeting on COCOM”; “Summary of Conclusions for NSC Deputies Committee Meeting on COCOM”; “Houston Economic Summit Initiative In response to our earlier memorandum on the Houston Economic”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-chron-452050453",
@@ -13875,7 +13870,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: May 1990 [2]",
       "dateline": "May 1990 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 112,
@@ -14086,7 +14080,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “EBRD: Site and Presidency Selected The Group of 42 founding countries of the European Bank for”; “Your Paper on Eastern Europe Your paper is excellent. I would add two paragraphs to: (a) point”; “RPT RE PUBLIC DIPLOMACY / LESSONS FM WASHINGTON SUMMIT”; “USG RESPONSE TO BULGARIAN APPROACH ON EXPORT AL CONTROLS FOR STRATEGIC TECHNOLOGY”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "scowcroft-366551915",
@@ -14098,7 +14093,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Latin America—Economics (May-June 1990)",
       "dateline": "May-June 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -14124,7 +14118,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. This file belongs to the complete 13-folder Economic Chronological Files subseries. Screen its decision memoranda, presidential meeting materials, debt papers, trade papers, and follow-up actions individually for Volume XXX and route country-policy material to the appropriate regional volume. Country meeting packets and presidential conversations may duplicate the Presidential Correspondence Files or regional NSC staff files; compare dates, subjects, and document text before promotion. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Latin America Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-470761112",
@@ -14134,7 +14129,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 120—May 01, 1990—NSC/DC Meeting on Philippine Base Negotiations, Keywords: Philippines, Military Bases",
       "dateline": "May 1, 1990",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 69,
@@ -14156,7 +14150,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The base-negotiation packet continues the interagency financing, assistance, and compensation record; route against the East Asia volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-446396859",
@@ -14174,7 +14169,6 @@ window.VOLUME_DATA = {
       "date": "1990-05-01",
       "title": "NSD–39—May 1, 1990—COCOM Policy toward Eastern Europe and Soviet Union",
       "type": "National Security Directive file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "localId": "90004–013",
@@ -14188,7 +14182,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. This is a direct presidential strategic-trade file on COCOM policy toward Eastern Europe and the Soviet Union. Compare drafts and distribution copies with NSR-22 and retain the signed directive and distinct implementing memoranda. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsd",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "scowcroft-366552000",
@@ -14200,7 +14195,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Other (May 1990)",
       "dateline": "May 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -14226,7 +14220,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The folder contains Scowcroft and Melby papers on preparations for the Houston Economic Summit together with related correspondence from summit and other foreign leaders. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Chronological Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "scowcroft-366551669",
@@ -14238,7 +14233,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Presidential Meetings—Memorandum of Conversations 5/17/90-6/26/90",
       "dateline": "May 17, 1990-June 26, 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -14265,7 +14259,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The complete Scowcroft folder contains presidential memoranda of conversation or telephone conversations with substantive economic-policy OCR signals. Review each conversation separately and promote only the passages that bear directly on Volume XXX. Parallel-copy control: match each conversation to the Bush Library Memcons and Telcons index and its canonical NARA item before selection. A Scowcroft folder copy is not a second documentary entry. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-470761125",
@@ -14275,7 +14270,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 133—May 29, 1990—NSC/DC Meeting on COCOM via SVTS, Keywords: COCOM",
       "dateline": "May 29, 1990",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 44,
@@ -14297,7 +14291,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The minutes and summary record the May 29 Deputies Committee review of the COCOM core-list approach. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "deal-chron-452050454",
@@ -14309,7 +14304,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: June 1990 [1]",
       "dateline": "June 1990 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 69,
@@ -14495,7 +14489,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Houston Summit Sessions I have discussed with General Scowcroft Dick's proposal for”; “Draft Houston Summit Communique I attach a marked up copy of the draft Houston communique”; “Soviet Union: President's Briefing for the Houston Economic Summit”; “Soviet Union: President's Briefing for the Houston Economic Summit (U)”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-chron-452050455",
@@ -14507,7 +14502,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: June 1990 [2]",
       "dateline": "June 1990 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 80,
@@ -14758,7 +14752,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Possible Houston Summit Initiative (U) Following up on yesterday's meeting chaired by Brent Scowcroft, I”; “CFCs The question of financial assistance in connection with the”; “Summit Initiative: Your Meeting at 3:30 p.m., June 12”; “SAP: H.R. 4653 -- EXPORT FACILITATION ACT OF 1990”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "scowcroft-366551916",
@@ -14770,7 +14765,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Latin America—Economics (June 1990)",
       "dateline": "June 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -14796,7 +14790,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. This file belongs to the complete 13-folder Economic Chronological Files subseries. Screen its decision memoranda, presidential meeting materials, debt papers, trade papers, and follow-up actions individually for Volume XXX and route country-policy material to the appropriate regional volume. Country meeting packets and presidential conversations may duplicate the Presidential Correspondence Files or regional NSC staff files; compare dates, subjects, and document text before promotion. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Latin America Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "scowcroft-366552001",
@@ -14808,7 +14803,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Other (June 1990) [1]",
       "dateline": "June 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -14833,7 +14827,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The opening inventory identifies the White House decision trail on Taiwan and the GATT and a four-page memorandum on mounting economic distress in Jordan and Egypt. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Chronological Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "scowcroft-366552002",
@@ -14845,7 +14840,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Other (June 1990) [2]",
       "dateline": "June 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -14873,7 +14867,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The folder contains presidential and staff summit-preparation papers, a five-page initiative on Western assistance for the USSR, Taiwan-GATT coordination, and summit correspondence from foreign leaders. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Chronological Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "scowcroft-366552003",
@@ -14885,7 +14880,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Other (June 1990) [3]",
       "dateline": "June 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -14911,7 +14905,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The folder inventory identifies the President's Houston briefing materials, messages to every summit leader, a six-page Scowcroft memorandum on Western assistance for the USSR, and the June 28 Cabinet Room briefing packet. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Chronological Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "scowcroft-366551750",
@@ -14923,7 +14918,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: USSR Collapse: U.S.—Soviet Relations Thru 1991 (June 1990) [1]",
       "dateline": "June 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -14951,7 +14945,8 @@ window.VOLUME_DATA = {
       "notes": "Cross-volume boundary review. The full OCR and opening withdrawal inventory identify a significant foreign-economic-policy strand, but the principal narrative belongs in a regional, Soviet, China, German-unification, or Persian Gulf volume. Review for cross-reference or a narrowly selected economic-policy document. Special-separate copy sets, meeting-file duplicates, and later retrospective chronologies are not separately promoted. Compare this file with the controlling regional and presidential records before selection. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "USSR Collapse Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-492062335",
@@ -14970,7 +14965,6 @@ window.VOLUME_DATA = {
       "datePrecision": "day",
       "title": "Economic Policy Council Meeting on the U.S.-Mexico FTA",
       "type": "EPC/NSC file-unit lead",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Boundary",
       "releaseStatus": "Online file unit",
       "localId": "CF01113–019",
@@ -14981,7 +14975,8 @@ window.VOLUME_DATA = {
         "Free trade agreement",
         "Volume XXXIII boundary"
       ],
-      "notes": "File-unit lead. Audit the scan document by document before promoting any item to Source Note-ready status."
+      "notes": "File-unit lead. Audit the scan document by document before promoting any item to Source Note-ready status.",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-summit-452050641",
@@ -14993,7 +14988,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Summit Briefing Book File: Houston [Economic] Summit: Fourth Sherpa Meeting—Briefing Book (Newport) June 1990 [1]",
       "dateline": "June 15-17, 1990",
       "type": "Timothy E. Deal summit briefing-book file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Partly released",
       "pageCount": 123,
@@ -15059,7 +15053,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The first Newport book captures late-stage Sherpa drafting on the trading system, investment, East-West economic relations, the Soviet Union, developing-country debt, energy, and the summit thematic paper. This is a file-level lead, not a document-level inclusion claim. Compare possible controlling copies against the Deal Subject Files and Deal-Reiss Economic Summit Files before promotion.",
       "withdrawalMetadataNote": "",
       "collectionId": "deal-summit",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and individual withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and individual withdrawal sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-summit-452050642",
@@ -15071,7 +15066,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Summit Briefing Book File: Houston [Economic] Summit: Fourth Sherpa Meeting—Briefing Book (Newport) June 1990 [2]",
       "dateline": "June 15-17, 1990",
       "type": "Timothy E. Deal summit briefing-book file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 102,
@@ -15096,7 +15090,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Read as the companion Newport volume for U.S.-EC economic relations, country positions, and the final negotiation path into Houston. Compare repeated briefing papers against the first Newport volume before selecting a controlling copy. This is a file-level lead, not a document-level inclusion claim. Compare possible controlling copies against the Deal Subject Files and Deal-Reiss Economic Summit Files before promotion.",
       "withdrawalMetadataNote": "",
       "collectionId": "deal-summit",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and individual withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and individual withdrawal sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "scowcroft-366551692",
@@ -15108,7 +15103,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Presidential Telephone Calls—Memorandum of Conversations 6/23/90-7/31/90",
       "dateline": "June 23, 1990-July 31, 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -15134,7 +15128,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The complete Scowcroft folder contains presidential memoranda of conversation or telephone conversations with substantive economic-policy OCR signals. Review each conversation separately and promote only the passages that bear directly on Volume XXX. Parallel-copy control: match each conversation to the Bush Library Memcons and Telcons index and its canonical NARA item before selection. A Scowcroft folder copy is not a second documentary entry. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-chron-452050456",
@@ -15146,7 +15141,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: July 1990 [1]",
       "dateline": "July 1990 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 86,
@@ -15297,7 +15291,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Memcon of Second Main Plenary Session of the 16th Economic Summit of Industrialized Nations”; “Second Main Plenary Session of the 16th Economic Summit of Industrialized Nations”; “Memcon of Final Session of the 16th Economic Summit of Industrialized Nations”; “Final Session of the 16th Economic Summit of Industrialized Nations (U)”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-chron-452050457",
@@ -15309,7 +15304,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: July 1990 [2]",
       "dateline": "July 1990 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 86,
@@ -15362,7 +15356,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “COMPETITIVENESS COUNCIL MEMO: REGULATORY REVIEW FOR BIOTECHNOLOGY”; “Principles of Regulatory Review For Biotechnology Following your request, the Council on Competitiveness has”; “REVISED DRAFT STATEMENT OF ADMIN POLICY ON HR-3193 RE ENERGY POLICY & CONSERVATION ACTS”; “Revised draft Statement of Administration Policy on H.R. 3193, Energy Policy and Conservation Act Amendments of 1990.”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "scowcroft-366551951",
@@ -15374,7 +15369,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Desert Shield/Desert Storm (July 1990)",
       "dateline": "July 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -15399,7 +15393,8 @@ window.VOLUME_DATA = {
       "notes": "Cross-volume boundary review. The full OCR and opening withdrawal inventory identify a significant foreign-economic-policy strand, but the principal narrative belongs in a regional, Soviet, China, German-unification, or Persian Gulf volume. Review for cross-reference or a narrowly selected economic-policy document. Special-separate copy sets, meeting-file duplicates, and later retrospective chronologies are not separately promoted. Compare this file with the controlling regional and presidential records before selection. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Desert Shield and Desert Storm Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "scowcroft-366551917",
@@ -15411,7 +15406,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Latin America—Economics (July 1990)",
       "dateline": "July 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -15437,7 +15431,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. This file belongs to the complete 13-folder Economic Chronological Files subseries. Screen its decision memoranda, presidential meeting materials, debt papers, trade papers, and follow-up actions individually for Volume XXX and route country-policy material to the appropriate regional volume. Country meeting packets and presidential conversations may duplicate the Presidential Correspondence Files or regional NSC staff files; compare dates, subjects, and document text before promotion. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Latin America Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "scowcroft-366552005",
@@ -15449,7 +15444,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Other (July 1990)",
       "dateline": "July 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -15476,7 +15470,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The folder contains Scowcroft papers on the Houston Summit and World Bank lending to China, Baker's eight-page summit memorandum, and a presidential telcon with Argentine President Menem. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Chronological Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "scowcroft-366551812",
@@ -15488,7 +15483,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Soviet Power Collapse in Eastern Europe (July-August 1990)",
       "dateline": "July-August 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -15513,7 +15507,8 @@ window.VOLUME_DATA = {
       "notes": "Cross-volume boundary review. The full OCR and opening withdrawal inventory identify a significant foreign-economic-policy strand, but the principal narrative belongs in a regional, Soviet, China, German-unification, or Persian Gulf volume. Review for cross-reference or a narrowly selected economic-policy document. Special-separate copy sets, meeting-file duplicates, and later retrospective chronologies are not separately promoted. Compare this file with the controlling regional and presidential records before selection. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "USSR Chronological Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "scowcroft-366551753",
@@ -15525,7 +15520,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: USSR Collapse: U.S.—Soviet Relations Thru 1991 (July 1990)",
       "dateline": "July 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -15553,7 +15547,8 @@ window.VOLUME_DATA = {
       "notes": "Cross-volume boundary review. The full OCR and opening withdrawal inventory identify a significant foreign-economic-policy strand, but the principal narrative belongs in a regional, Soviet, China, German-unification, or Persian Gulf volume. Review for cross-reference or a narrowly selected economic-policy document. Special-separate copy sets, meeting-file duplicates, and later retrospective chronologies are not separately promoted. Compare this file with the controlling regional and presidential records before selection. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "USSR Collapse Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "scowcroft-366551670",
@@ -15565,7 +15560,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Presidential Meetings—Memorandum of Conversations 7/5/90-9/24/90",
       "dateline": "July 5, 1990-September 24, 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -15592,7 +15586,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The complete Scowcroft folder contains presidential memoranda of conversation or telephone conversations with substantive economic-policy OCR signals. Review each conversation separately and promote only the passages that bear directly on Volume XXX. Parallel-copy control: match each conversation to the Bush Library Memcons and Telcons index and its canonical NARA item before selection. A Scowcroft folder copy is not a second documentary entry. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-summit-452050643",
@@ -15604,7 +15599,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Summit Briefing Book File: Houston [Economic] Summit: President's Background Book—July 1990",
       "dateline": "July 9-11, 1990",
       "type": "Timothy E. Deal summit briefing-book file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Partly released",
       "pageCount": 76,
@@ -15700,7 +15694,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. This presidential background book assembles the White House issue papers and country papers for Houston. Prioritize final issue papers that show what reached the President, while checking them against the separate Houston Subject Files for duplicate copies. This is a file-level lead, not a document-level inclusion claim. Compare possible controlling copies against the Deal Subject Files and Deal-Reiss Economic Summit Files before promotion.",
       "withdrawalMetadataNote": "",
       "collectionId": "deal-summit",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and individual withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and individual withdrawal sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "lead-452050566",
@@ -15718,7 +15713,6 @@ window.VOLUME_DATA = {
       "date": "1990-07-09",
       "title": "Houston Economic Summit (July 9–11, 1990) [4]",
       "type": "Summit file-unit lead",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Consider",
       "releaseStatus": "Online file unit",
       "localId": "CF00963–017",
@@ -15729,7 +15723,8 @@ window.VOLUME_DATA = {
         "Briefing materials",
         "Document-boundary audit"
       ],
-      "notes": "Summit file-unit lead. Use the scan to identify decision memoranda, records of meetings, and briefing papers worth item-level treatment."
+      "notes": "Summit file-unit lead. Use the scan to identify decision memoranda, records of meetings, and briefing papers worth item-level treatment.",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "lead-452050567",
@@ -15747,7 +15742,6 @@ window.VOLUME_DATA = {
       "date": "1990-07-09",
       "title": "Houston Economic Summit (July 9–11, 1990) [5]",
       "type": "Summit file-unit lead",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Consider",
       "releaseStatus": "Online file unit",
       "localId": "CF00963–018",
@@ -15758,7 +15752,8 @@ window.VOLUME_DATA = {
         "Briefing materials",
         "Document-boundary audit"
       ],
-      "notes": "Summit file-unit lead. Use the scan to identify decision memoranda, records of meetings, and briefing papers worth item-level treatment."
+      "notes": "Summit file-unit lead. Use the scan to identify decision memoranda, records of meetings, and briefing papers worth item-level treatment.",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "lead-470429205",
@@ -15776,7 +15771,6 @@ window.VOLUME_DATA = {
       "date": "1990-07-09",
       "title": "Houston Economic Summit [1]",
       "type": "File-unit lead",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Consider",
       "releaseStatus": "Catalog only",
       "localId": null,
@@ -15786,7 +15780,8 @@ window.VOLUME_DATA = {
         "Eric Melby",
         "On-site research"
       ],
-      "notes": "The Catalog describes the file unit but exposes no digital object. Page extent and document boundaries require on-site or staff-assisted review."
+      "notes": "The Catalog describes the file unit but exposes no digital object. Page extent and document boundaries require on-site or staff-assisted review.",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "presidential-428080829",
@@ -15796,7 +15791,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum of Conversation",
       "dateline": "Monday, July 9, 1990, 2:30 p.m.-4:35 p.m.",
       "type": "Memcon",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Released",
       "pageCount": 10,
@@ -15814,7 +15808,8 @@ window.VOLUME_DATA = {
         "Regional",
         "Economic Summits and Industrialized-Country Cooperation"
       ],
-      "notes": "Presidential conversation selected from the Bush Library Memcons and Telcons index; substantive inclusion remains a compiler judgment."
+      "notes": "Presidential conversation selected from the Bush Library Memcons and Telcons index; substantive inclusion remains a compiler judgment.",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "presidential-428080831",
@@ -15824,7 +15819,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum of Conversation",
       "dateline": "Tuesday, July 10, 1990, 9:00 a.m.-12:03 p.m.",
       "type": "Memcon",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Released",
       "pageCount": 15,
@@ -15842,7 +15836,8 @@ window.VOLUME_DATA = {
         "Regional",
         "Economic Summits and Industrialized-Country Cooperation"
       ],
-      "notes": "Presidential conversation selected from the Bush Library Memcons and Telcons index; substantive inclusion remains a compiler judgment."
+      "notes": "Presidential conversation selected from the Bush Library Memcons and Telcons index; substantive inclusion remains a compiler judgment.",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "presidential-428080833",
@@ -15852,7 +15847,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum of Conversation",
       "dateline": "Tuesday, July 10, 1990, 2:43 p.m.-5:27 p.m.",
       "type": "Memcon",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Released",
       "pageCount": 14,
@@ -15870,7 +15864,8 @@ window.VOLUME_DATA = {
         "Regional",
         "Economic Summits and Industrialized-Country Cooperation"
       ],
-      "notes": "Presidential conversation selected from the Bush Library Memcons and Telcons index; substantive inclusion remains a compiler judgment."
+      "notes": "Presidential conversation selected from the Bush Library Memcons and Telcons index; substantive inclusion remains a compiler judgment.",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "presidential-428080835",
@@ -15880,7 +15875,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum of Conversation",
       "dateline": "Wednesday, July 11, 1990, 9:08 a.m. -9:35 a.m.",
       "type": "Memcon",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Released",
       "pageCount": 5,
@@ -15898,7 +15892,8 @@ window.VOLUME_DATA = {
         "Regional",
         "Economic Summits and Industrialized-Country Cooperation"
       ],
-      "notes": "Presidential conversation selected from the Bush Library Memcons and Telcons index; substantive inclusion remains a compiler judgment."
+      "notes": "Presidential conversation selected from the Bush Library Memcons and Telcons index; substantive inclusion remains a compiler judgment.",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "lead-470761151",
@@ -15908,7 +15903,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 158—July 19, 1990—NSC/DC Meeting on Soviet Commercial Presence in U.S., Keywords: USSR",
       "dateline": "July 19, 1990",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 45,
@@ -15930,7 +15924,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The meeting papers address Soviet commercial operations in the United States and the legal and policy framework governing them. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-470760952",
@@ -15940,7 +15935,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Meeting File: NSC0048—July 25, 1990—Cape York, Space Policy, USSR",
       "dateline": "July 25, 1990",
       "type": "NSC meeting file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Partly released",
       "pageCount": 85,
@@ -15962,7 +15956,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The file identifies a 10-page NSC meeting record and agency positions on Cape York, space policy, and the Soviet Union. Retain for strategic-trade review while adjudicating the principal space-policy placement.",
       "collectionId": "nsc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "deal-chron-452050458",
@@ -15974,7 +15969,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: August 1990 [1]",
       "dateline": "August 1990 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 54,
@@ -16289,7 +16283,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Soviet Economy Meeting - Friday, August 31, 1990, Attached is an agenda for tomorrow's meeting at 10:30 in Room 324, OEOB, on the Soviet economy. Also attached is a one page”; “Persian Gulf Crisis: Economic Action Plan Attached at Tab I is a memorandum from you to the President,”; “Presidential Messages on Economic Action Plan Attached are draft Presidential messages to:”; “ASSISTANCE TO EASTERN EUROPE: IN-COUNTRY COORDINATION 1. SUMMARY: THIS CABLE SETS OUT A THREE TIERED SCHEME”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "deal-chron-452050459",
@@ -16301,7 +16296,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: August 1990 [2]",
       "dateline": "August 1990 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 39,
@@ -16484,7 +16478,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “NSC Meeting on the Persian Gulf Crisis: An Economic Action Plan (C)”; “FORWARDING MOSBACHER MEMO / OIL OUTLOOK & IRAQI CRISIS”; “Iraqi Invasion: Economic Policy Coordination This memoreandum reflects in part my conversation on August 21”; “From Brent Scowcroft to POTUS Re: The Gulf Crisis: An Economic Action Plan”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "deal-chron-452050460",
@@ -16496,7 +16491,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: August 1990 [3]",
       "dateline": "August 1990 [3] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 103,
@@ -16590,7 +16584,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Presidential Determination on Import Fee For Trade Adjustment”; “H.R. 1594 -- CUSTOMS AND TRADE ACT OF 1990 and SIGNING STATEMENT”; “Enrolled Bill H.R. 1594 - Customs and Trade Act of I990 Sponsors - Rep. Gibbons (D) Florida and two others Last Day for”; “EPA STATEMENT ON S-2887 / GLOBAL ENVIRONMENTAL PROTECTION & TRADE EQUITY ACT”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "scowcroft-366551955",
@@ -16602,7 +16597,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Desert Shield/Desert Storm (August 1990) Part III [2]",
       "dateline": "August 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -16627,7 +16621,8 @@ window.VOLUME_DATA = {
       "notes": "Cross-volume boundary review. The full OCR and opening withdrawal inventory identify a significant foreign-economic-policy strand, but the principal narrative belongs in a regional, Soviet, China, German-unification, or Persian Gulf volume. Review for cross-reference or a narrowly selected economic-policy document. Special-separate copy sets, meeting-file duplicates, and later retrospective chronologies are not separately promoted. Compare this file with the controlling regional and presidential records before selection. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Desert Shield and Desert Storm Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "scowcroft-366551918",
@@ -16639,7 +16634,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Latin America—Economics (August 1990)",
       "dateline": "August 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -16665,7 +16659,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. This file belongs to the complete 13-folder Economic Chronological Files subseries. Screen its decision memoranda, presidential meeting materials, debt papers, trade papers, and follow-up actions individually for Volume XXX and route country-policy material to the appropriate regional volume. Country meeting packets and presidential conversations may duplicate the Presidential Correspondence Files or regional NSC staff files; compare dates, subjects, and document text before promotion. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Latin America Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470760953",
@@ -16675,7 +16670,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Meeting File: NSC0049—August 02, 1990—Persian Gulf Crisis, Iraq, Kuwait",
       "dateline": "August 2, 1990",
       "type": "NSC meeting file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Partly released",
       "pageCount": 15,
@@ -16698,7 +16692,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The August 2 agenda assigns Secretary Brady the economic initiatives and calls for diplomatic, economic, and military next steps. The online file is short and may not preserve a complete meeting record, but its economic component should remain visible for Gulf-volume adjudication.",
       "collectionId": "nsc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "scowcroft-366551693",
@@ -16710,7 +16705,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Presidential Telephone Calls—Memorandum of Conversations 8/2/90-8/20/90",
       "dateline": "August 2, 1990-August 20, 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -16735,7 +16729,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The complete Scowcroft folder contains presidential memoranda of conversation or telephone conversations with substantive economic-policy OCR signals. Review each conversation separately and promote only the passages that bear directly on Volume XXX. Parallel-copy control: match each conversation to the Bush Library Memcons and Telcons index and its canonical NARA item before selection. A Scowcroft folder copy is not a second documentary entry. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470760954",
@@ -16745,7 +16740,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Meeting File: NSC0049a—August 03, 1990—Persian Gulf Crisis, Iraq, Kuwait",
       "dateline": "August 3, 1990",
       "type": "NSC meeting file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Partly released",
       "pageCount": 38,
@@ -16768,7 +16762,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The file identifies a 12-page Secret NSC meeting record and presidential briefing material. NARA OCR describes economic and energy options, export controls, and sanctions; primary placement likely lies in the Gulf volume.",
       "collectionId": "nsc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470760955",
@@ -16778,7 +16773,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Meeting File: NSC0050—August 04, 1990—Iraqi Invasion of Kuwait, Persian Gulf",
       "dateline": "August 4, 1990",
       "type": "NSC meeting file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Partly released",
       "pageCount": 16,
@@ -16800,7 +16794,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The file contains an 8-page Secret NSC meeting record discussing Iraq's export capacity, sanctions enforcement, and oil. Retain as a compact cross-volume lead.",
       "collectionId": "nsc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470760957",
@@ -16810,7 +16805,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Meeting File: NSC0052—August 06, 1990—Iraqi Invasion of Kuwait, Persian Gulf",
       "dateline": "August 6, 1990",
       "type": "NSC meeting file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Partly released",
       "pageCount": 20,
@@ -16833,7 +16827,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The file identifies a 7-page Secret NSC meeting record with discussion by Nicholas Brady and Michael Boskin of oil prices, financial markets, inflation, GNP, import costs, sanctions, and strategic petroleum options. This is the strongest early Gulf-crisis economic meeting lead.",
       "collectionId": "nsc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-446396866",
@@ -16843,7 +16838,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Directive File: NSD–45—August 20, 1990—U.S. Policy in Response to the Iraqi Invasion of Kuwait",
       "dateline": "August 20, 1990",
       "type": "National Security Directive file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 54,
@@ -16864,7 +16858,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The response to Iraq's invasion of Kuwait relies centrally on sanctions, oil policy, and allied economic coordination. Route the principal war and regional policy record against the Gulf volume while retaining distinct economic instruments. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsd",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "gates-470437044-09b",
@@ -16876,7 +16871,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum From Secretary of State Baker to President Bush",
       "dateline": "Washington, August 20, 1990",
       "type": "Memorandum",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Released",
       "pageCount": 2,
@@ -16897,7 +16891,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Released parallel copies appear in the Scowcroft Desert Shield and Desert Storm Files, OA/ID 91143–008 (NAID 366551954) and OA/ID 91143–009 (NAID 366551955). This Gates copy is retained as one intellectual record with both alternate-copy locators disclosed for controlling-copy review.",
       "collectionId": "gates-middle-east",
-      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit"
+      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "gates-470437044-09a",
@@ -16909,7 +16904,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum From C. David Welch of the National Security Council Staff to the President's Assistant for National Security Affairs (Scowcroft)",
       "dateline": "Washington, August 22, 1990",
       "type": "Memorandum",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Released",
       "pageCount": 1,
@@ -16930,7 +16924,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "An exact released parallel copy appears in the Scowcroft Desert Shield and Desert Storm Files, Chronological Files, OA/ID 91143–008, NAID 366551954. No second chronology record is created; the compiler should compare annotations before selecting the controlling citation.",
       "collectionId": "gates-middle-east",
-      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit"
+      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "gates-470437044-07",
@@ -16942,7 +16937,6 @@ window.VOLUME_DATA = {
       "heading": "Paper on Gulf Arab Potential Donors",
       "dateline": "Washington, August 23, 1990",
       "type": "Intelligence paper",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Consider",
       "releaseStatus": "Released in part",
       "pageCount": 1,
@@ -16964,7 +16958,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "The sheet identifies a one-page Secret paper dated August 23 and says that a partially declassified copy follows. The released page is marked Secret; Noforn and contains visible redactions.",
       "collectionId": "gates-middle-east",
-      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit"
+      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "gates-470437044-11",
@@ -16976,7 +16971,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum From Secretary of Commerce Mosbacher to President Bush",
       "dateline": "Washington, August 23, 1990",
       "type": "Memorandum",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Withheld",
       "pageCount": 7,
@@ -16997,7 +16991,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "No document copy follows the withdrawal sheet. Deal's Chron File: August 1990 [2], OA/ID CF00697–002, NAID 452050459, contains a second seven-page withdrawal description for the same memorandum; the two sheets are deduplicated here as one intellectual record.",
       "collectionId": "gates-middle-east",
-      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit"
+      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "gates-470437044-07a",
@@ -17010,7 +17005,6 @@ window.VOLUME_DATA = {
       "heading": "Draft President's Daily Brief Item",
       "dateline": "Washington, undated",
       "type": "Draft briefing item",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Consider",
       "releaseStatus": "Withheld",
       "pageCount": 1,
@@ -17030,7 +17024,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "The sheet supplies only the generic title, one-page extent, Secret marking, and P-1/F-1 restrictions. The item is undated and is placed after the dated August 23 donor paper for working chronology only; sender, recipient, and subject detail are not inferred.",
       "collectionId": "gates-middle-east",
-      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit"
+      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "gates-470437044-work-program",
@@ -17042,7 +17037,6 @@ window.VOLUME_DATA = {
       "heading": "Interagency Work Program on Economic Responses to the Iraqi Invasion and Implementation of Sanctions",
       "dateline": "Washington, August 24, 1990",
       "type": "Work program",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Consider",
       "releaseStatus": "Released",
       "pageCount": 3,
@@ -17063,7 +17057,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "The retained clean copy carries a handwritten August 24 date. An annotated second copy and three pages of working notes appear at PDF pages 110-115; those pages remain in the version ledger and are not promoted as another chronology record.",
       "collectionId": "gates-middle-east",
-      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit"
+      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "gates-470437044-10",
@@ -17075,7 +17070,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum on Iranian Oil Sales",
       "dateline": "Washington, August 24, 1990",
       "type": "Memorandum",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Consider",
       "releaseStatus": "Released in part",
       "pageCount": 1,
@@ -17096,7 +17090,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "The sheet identifies a one-page Secret memorandum dated August 24 and says that a declassified-in-part copy follows. The released page is marked Secret; Noforn and contains visible redactions; no sender or recipient is established.",
       "collectionId": "gates-middle-east",
-      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit"
+      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "gates-470437044-10a-10b",
@@ -17108,7 +17103,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum From Donald Pilling of the National Security Council Staff to the Deputy President's Assistant for National Security Affairs (Gates)",
       "dateline": "Washington, August 26, 1990",
       "type": "Memorandum with attachment",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Released",
       "pageCount": 11,
@@ -17129,7 +17123,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "The annotated recipient copy at PDF pages 37-47 is retained. A clean duplicate appears at pages 26-36, and an exact released parallel copy appears in the Scowcroft Desert Shield and Desert Storm Files, OA/ID 91143–008, NAID 366551954. The chronology contains only one intellectual record.",
       "collectionId": "gates-middle-east",
-      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit"
+      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "gates-470437044-deal-assistance",
@@ -17141,7 +17136,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum From Timothy E. Deal of the National Security Council Staff to the Deputy President's Assistant for National Security Affairs (Gates)",
       "dateline": "Washington, August 27, 1990",
       "type": "Memorandum",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Released",
       "pageCount": 2,
@@ -17162,7 +17156,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Deal's Chron File: August 1990 [2], OA/ID CF00697–002, NAID 452050459, contains a two-page withdrawal description with the same date and subject but identifies Brent Scowcroft as recipient. The released Gates source image names Robert Gates, so the mismatch is preserved as a comparison warning rather than silently reconciled.",
       "collectionId": "gates-middle-east",
-      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit"
+      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "gates-470437044-economic-action-report",
@@ -17175,7 +17170,6 @@ window.VOLUME_DATA = {
       "heading": "Report Prepared by an Interagency Group",
       "dateline": "Washington, undated",
       "type": "Interagency report",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Released in part",
       "pageCount": 52,
@@ -17197,7 +17191,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "The report is undated and is placed with Deal's August 27 transmittal for working chronology only. Deal's Chron File: August 1990 [2], OA/ID CF00697–002, NAID 452050459, has a 52-page withdrawal description for the same report. The Gates scan supplies 48 released report pages; its four-page Appendix 2, Legal Aspects of Financial and In-Kind Burdensharing, is represented only by the withdrawal sheet at PDF page 93.",
       "collectionId": "gates-middle-east",
-      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit"
+      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470760959",
@@ -17207,7 +17202,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Meeting File: NSC0054—August 29, 1990—Persian Gulf Crisis, Economic Action Plan, Iraq [1]",
       "dateline": "August 29, 1990",
       "type": "NSC meeting file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Partly released",
       "pageCount": 71,
@@ -17229,7 +17223,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The first part includes records of the August 29 NSC discussion of economic action in the Persian Gulf crisis. Primary placement likely lies in the Gulf volume, but sanctions and burden-sharing content may warrant a Volume XXX document or cross-reference.",
       "collectionId": "nsc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470760960",
@@ -17239,7 +17234,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Meeting File: NSC0054—August 29, 1990—Persian Gulf Crisis, Economic Action Plan, Iraq [2]",
       "dateline": "August 29, 1990",
       "type": "NSC meeting file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Partly released",
       "pageCount": 41,
@@ -17261,7 +17255,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The second part contains Gulf economic-action background material and a memorandum involving Brent Scowcroft. Review with part 1 and deduplicate repeated briefing papers.",
       "collectionId": "nsc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "gates-470437043-08c",
@@ -17272,7 +17267,6 @@ window.VOLUME_DATA = {
       "heading": "Talking Points on Financing and Economic Assistance for Countries Seriously Affected by the Gulf Crisis",
       "dateline": "Washington, August 30, 1990",
       "type": "Talking points",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Consider",
       "releaseStatus": "Released",
       "pageCount": 8,
@@ -17293,7 +17287,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "The first page is marked 'ORIGINAL 8/30.' The folder also contains an undated annotated draft at PDF pages 68-75 and a second August 30 version at pages 76-83. This original is the retained chronology candidate; the other two remain in the version ledger.",
       "collectionId": "gates-middle-east",
-      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit"
+      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "gates-470437043-unlisted-egypt-debt",
@@ -17304,7 +17299,6 @@ window.VOLUME_DATA = {
       "heading": "Paper Transmitted by Deputy Secretary of the Treasury Robson to Robert Howard of the National Security Council Staff",
       "dateline": "Washington, August 30, 1990",
       "type": "Paper with transmittal",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Released",
       "pageCount": 3,
@@ -17325,7 +17319,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "The three-page set consists of Robson's Treasury fax cover, the call slip originally attached to it, and the one-page paper. It is not listed on the opening three-page withdrawal inventory, so the audit preserves it separately rather than forcing it into item 08c or 09.",
       "collectionId": "gates-middle-east",
-      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit"
+      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "gates-470437043-09",
@@ -17336,7 +17331,6 @@ window.VOLUME_DATA = {
       "heading": "Discussion Paper on Financing Countries Seriously Affected by the Gulf Crisis",
       "dateline": "Washington, August 30, 1990",
       "type": "Discussion paper",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Released",
       "pageCount": 7,
@@ -17357,7 +17351,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "The opening inventory marks this item released upon further review. It is distinct from the three talking-point versions at items 08a-08c and carries a handwritten August 30 date.",
       "collectionId": "gates-middle-east",
-      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit"
+      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "gates-470437043-07",
@@ -17368,7 +17363,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum From Timothy E. Deal of the National Security Council Staff to Robert M. Gates",
       "dateline": "Washington, August 31, 1990",
       "type": "Memorandum",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Consider",
       "releaseStatus": "Released",
       "pageCount": 2,
@@ -17389,7 +17383,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "A second released copy appears in Deal's Chron File: August 1990 [1], NAID 452050458, OA/ID CF00697-001. The Gates copy retains recipient annotations; both copies require comparison before the compiler chooses the controlling citation.",
       "collectionId": "gates-middle-east",
-      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit"
+      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "scowcroft-366551864",
@@ -17401,7 +17396,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: China: Post-Tiananmen (September 1990) [1]",
       "dateline": "September 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -17425,7 +17419,8 @@ window.VOLUME_DATA = {
       "notes": "Cross-volume boundary review. The full OCR and opening withdrawal inventory identify a significant foreign-economic-policy strand, but the principal narrative belongs in a regional, Soviet, China, German-unification, or Persian Gulf volume. Review for cross-reference or a narrowly selected economic-policy document. Special-separate copy sets, meeting-file duplicates, and later retrospective chronologies are not separately promoted. Compare this file with the controlling regional and presidential records before selection. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "China Chronological Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "deal-chron-452050461",
@@ -17437,7 +17432,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: September 1990 [1]",
       "dateline": "September 1990 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 81,
@@ -17522,7 +17516,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Uruguay Round Trade Negotiations Attached for your information is a paper prepared by USTR which”; “\"CONTINUATION OF EXPORT CONTROL REGULATIONS\" & MESSAGE TO CONGRESS”; “Proposed Executive Order Entitled \"Continuation of Export Control Regulations\"”; “H.R. 4328 -- TEXTILE, APPAREL, AND FOOTWEAR TRADE ACT OF 1990 and VETO MESSAGE”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-chron-452050462",
@@ -17534,7 +17529,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: September 1990 [2]",
       "dateline": "September 1990 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Consider",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 49,
@@ -17658,7 +17652,8 @@ window.VOLUME_DATA = {
       "notes": "Selective Volume XXX review. Begin with “Draft Terms of Reference (U) Attached is Treasury's draft of proposed terms of reference for a”; “Minutes of the August 29 NSC Meeting on Persian Gulf Crisis: Economic Action Plan”; “PER NSC WAIVER, #2021-02 Economic Action Plan: Talking Points”; “From Timothy Deal to Florence Gantt, et al. Re: U.S. Mexican Free Trade Agreement”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "scowcroft-366551959",
@@ -17670,7 +17665,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Desert Shield/Desert Storm (September 1990) Part II [2]",
       "dateline": "September 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -17694,7 +17688,8 @@ window.VOLUME_DATA = {
       "notes": "Cross-volume boundary review. The full OCR and opening withdrawal inventory identify a significant foreign-economic-policy strand, but the principal narrative belongs in a regional, Soviet, China, German-unification, or Persian Gulf volume. Review for cross-reference or a narrowly selected economic-policy document. Special-separate copy sets, meeting-file duplicates, and later retrospective chronologies are not separately promoted. Compare this file with the controlling regional and presidential records before selection. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Desert Shield and Desert Storm Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "scowcroft-366551919",
@@ -17706,7 +17701,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Latin America—Economics (September 1990)",
       "dateline": "September 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -17729,7 +17723,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. This file belongs to the complete 13-folder Economic Chronological Files subseries. Screen its decision memoranda, presidential meeting materials, debt papers, trade papers, and follow-up actions individually for Volume XXX and route country-policy material to the appropriate regional volume. Country meeting packets and presidential conversations may duplicate the Presidential Correspondence Files or regional NSC staff files; compare dates, subjects, and document text before promotion. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Latin America Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "gates-470437043-06",
@@ -17740,7 +17735,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum From Timothy E. Deal of the National Security Council Staff to Robert M. Gates",
       "dateline": "Washington, September 1, 1990",
       "type": "Memorandum",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Released",
       "pageCount": 2,
@@ -17761,7 +17755,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Deal's Chron File: September 1990 [2], NAID 452050462, OA/ID CF00697-005, contains a two-page withdrawal description for the same memorandum but does not indicate that a released copy follows. This annotated Gates copy supplies the released text in the currently harvested corpus.",
       "collectionId": "gates-middle-east",
-      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit"
+      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "gates-470437043-05a",
@@ -17772,7 +17767,6 @@ window.VOLUME_DATA = {
       "heading": "Paper Prepared in the Department of State",
       "dateline": "Washington, September 1, 1990",
       "type": "Country paper",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Consider",
       "releaseStatus": "Released in part",
       "pageCount": 4,
@@ -17793,7 +17787,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "The individual redaction sheet says that a partially declassified copy follows. The terminal drafting page identifies EUR/CE drafter J.F. Sammis and a September 1, 1990 drafting date; the document remains visibly redacted in part.",
       "collectionId": "gates-middle-east",
-      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit"
+      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "gates-470437043-05",
@@ -17804,7 +17799,6 @@ window.VOLUME_DATA = {
       "heading": "Talking Points Prepared for Secretary of State Baker and Secretary of the Treasury Brady",
       "dateline": "Washington, September 2, 1990",
       "type": "Talking points with attachments",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Consider",
       "releaseStatus": "Released",
       "pageCount": 17,
@@ -17825,7 +17819,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "The 17-page bundle contains Baker core talking points, Brady's London talking points, and a United Kingdom country paper. It is retained as one item because the opening inventory treats the full bundle as item 05.",
       "collectionId": "gates-middle-east",
-      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit"
+      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "gates-470437043-04",
@@ -17836,7 +17831,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum From Timothy E. Deal of the National Security Council Staff to Robert M. Gates",
       "dateline": "Washington, September 3, 1990",
       "type": "Memorandum",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Released",
       "pageCount": 2,
@@ -17857,7 +17851,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "A released copy also appears at PDF pages 48-49 of Deal's Chron File: September 1990 [2], NAID 452050462, OA/ID CF00697-005. The Gates-file copy carries additional recipient-file annotations and remains a comparison candidate, not a silent duplicate.",
       "collectionId": "gates-middle-east",
-      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit"
+      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-446396867",
@@ -17867,7 +17862,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Directive File: NSD–46—September 7, 1990—Cape York",
       "dateline": "September 7, 1990",
       "type": "National Security Directive file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 64,
@@ -17888,7 +17882,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The Cape York file directly addresses restrictions on Soviet launch-vehicle exports and the commercial consequences of the decision. Review the signed directive, export-control report, and commercial-impact paper as separate documentary candidates. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsd",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "gates-470437043-01",
@@ -17899,7 +17894,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum From Secretary of the Treasury Brady to President Bush",
       "dateline": "Washington, September 11, 1990",
       "type": "Memorandum",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Released",
       "pageCount": 4,
@@ -17920,7 +17914,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Brady reports the results of his burden-sharing mission and recommends coordinated follow-up. No exact duplicate was identified in the NSC collections harvested for this workbench; a Treasury and Brady-file controlling-copy search remains open.",
       "collectionId": "gates-middle-east",
-      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit"
+      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470760961",
@@ -17930,7 +17925,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Meeting File: NSC0055—September 20, 1990—Oil Supply, Energy, Persian Gulf [1]",
       "dateline": "September 20, 1990",
       "type": "NSC meeting file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Partly released",
       "pageCount": 47,
@@ -17952,7 +17946,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The first part includes a September 20 meeting record, talking points, a proposed Deputies Committee meeting, and a memorandum from Robert Gates. Its energy-market content is pertinent, although the Gulf crisis may control placement.",
       "collectionId": "nsc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470760962",
@@ -17962,7 +17957,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Meeting File: NSC0055—September 20, 1990—Oil Supply, Energy, Persian Gulf [2]",
       "dateline": "September 20, 1990",
       "type": "NSC meeting file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Partly released",
       "pageCount": 62,
@@ -17984,7 +17978,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The second part includes presidential briefing material and memoranda involving Brent Scowcroft and John Sununu. Review with part 1 and route any selected records against the Gulf volume.",
       "collectionId": "nsc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "gates-470437043-02",
@@ -17995,7 +17990,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum From Timothy E. Deal of the National Security Council Staff to Robert M. Gates",
       "dateline": "Washington, September 20, 1990",
       "type": "Memorandum",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Released",
       "pageCount": 2,
@@ -18016,7 +18010,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Deal's Chron File: September 1990 [2], NAID 452050462, OA/ID CF00697-005, contains a two-page withdrawal description for this memorandum but does not indicate that a released copy follows. The Gates copy supplies the released text and recipient annotations.",
       "collectionId": "gates-middle-east",
-      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit"
+      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "gates-470437043-03",
@@ -18027,7 +18022,6 @@ window.VOLUME_DATA = {
       "heading": "Paper Prepared in the Department of the Treasury",
       "dateline": "Washington, September 20, 1990",
       "type": "Draft paper",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Consider",
       "releaseStatus": "Released",
       "pageCount": 5,
@@ -18048,7 +18042,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "The opening inventory marks the paper OPEN. A transmitted parallel copy follows Deal's September 20 memorandum in Chron File: September 1990 [2], NAID 452050462, OA/ID CF00697-005; the sender-file transmittal may control after page-level comparison.",
       "collectionId": "gates-middle-east",
-      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit"
+      "provenanceMethod": "Opening PDF provenance marker and page-by-page source-image audit",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "scowcroft-366551671",
@@ -18060,7 +18055,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Presidential Meetings—Memorandum of Conversations 9/25/90-10/31/90",
       "dateline": "September 25, 1990-October 31, 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -18087,7 +18081,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The complete Scowcroft folder contains presidential memoranda of conversation or telephone conversations with substantive economic-policy OCR signals. Review each conversation separately and promote only the passages that bear directly on Volume XXX. Parallel-copy control: match each conversation to the Bush Library Memcons and Telcons index and its canonical NARA item before selection. A Scowcroft folder copy is not a second documentary entry. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-492062348",
@@ -18106,7 +18101,6 @@ window.VOLUME_DATA = {
       "datePrecision": "day",
       "title": "Meeting with Eagleburger and Balcerowicz on Poland",
       "type": "EPC/NSC file-unit lead",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Consider",
       "releaseStatus": "Online file unit",
       "localId": "CF01113–033",
@@ -18117,7 +18111,8 @@ window.VOLUME_DATA = {
         "Balcerowicz",
         "Transition economy"
       ],
-      "notes": "File-unit lead. Audit the scan document by document before promoting any item to Source Note-ready status."
+      "notes": "File-unit lead. Audit the scan document by document before promoting any item to Source Note-ready status.",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "deal-chron-452050463",
@@ -18129,7 +18124,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: October 1990 [1]",
       "dateline": "October 1990 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 87,
@@ -18272,7 +18266,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “National Energy Strategy Options This memorandum is in response to your request for comments on”; “ENROLLED BILL S-2516 RE FORN DIRECT INVESTMENT & INTL FINANCIAL DATA IMPROVEMENT ACT”; “International Debt: Uruguay and Chile Secretary Brady has sent the President a short memorandum (Tab A)”; “International Debt: Uruguay and Chile Attached at Tab A is a memorandum to you from Secretary Brady,”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "deal-chron-452050464",
@@ -18284,7 +18279,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: October 1990 [2]",
       "dateline": "October 1990 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 100,
@@ -18437,7 +18431,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “COMMERCE PROPOSED RPT ON HR-4520 / FORN DIRECT INVESTMENT”; “Department of Commerce proposed report on H.R. 4520 -- Foreign Direct Investment Data. The Office of Management and Budget requests the views of your agency”; “OCTOBER 12 MEETING OF THE GULF CRISIS FINANCIAL COORDINATION GROUP REF: STATE 340139”; “Polish Debt You asked for a memorandum to the President on Polish debt in”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "scowcroft-366551961",
@@ -18449,7 +18444,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Desert Shield/Desert Storm (October 1990) Part II [1]",
       "dateline": "October 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -18474,7 +18468,8 @@ window.VOLUME_DATA = {
       "notes": "Cross-volume boundary review. The full OCR and opening withdrawal inventory identify a significant foreign-economic-policy strand, but the principal narrative belongs in a regional, Soviet, China, German-unification, or Persian Gulf volume. Review for cross-reference or a narrowly selected economic-policy document. Special-separate copy sets, meeting-file duplicates, and later retrospective chronologies are not separately promoted. Compare this file with the controlling regional and presidential records before selection. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Desert Shield and Desert Storm Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "scowcroft-366551920",
@@ -18486,7 +18481,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Latin America—Economics (October 1990)",
       "dateline": "October 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -18513,7 +18507,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. This file belongs to the complete 13-folder Economic Chronological Files subseries. Screen its decision memoranda, presidential meeting materials, debt papers, trade papers, and follow-up actions individually for Volume XXX and route country-policy material to the appropriate regional volume. Country meeting packets and presidential conversations may duplicate the Presidential Correspondence Files or regional NSC staff files; compare dates, subjects, and document text before promotion. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Latin America Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "scowcroft-366552008",
@@ -18525,7 +18520,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Other (October 1990)",
       "dateline": "October 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -18548,7 +18542,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The opening inventory identifies Prime Minister Thatcher's October 30 message to President Bush on the GATT among a small set of presidential correspondence. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Chronological Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-470761208",
@@ -18558,7 +18553,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 209—October 09, 1990—NSC/DC Meeting on Philippine Policy, Keywords: Philippines",
       "dateline": "October 9, 1990",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 42,
@@ -18580,7 +18574,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The Philippine policy review contains assistance and reform questions that may supplement the debt-and-bases files; route against the East Asia volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470761209",
@@ -18590,7 +18585,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 210—October 09, 1990—NSC/DC Meeting on Computer Exports, Keywords: Export Controls",
       "dateline": "October 9, 1990",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 44,
@@ -18612,7 +18606,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The packet presents decisions on supercomputer export licenses to high-risk non-OECD destinations. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "scowcroft-366551695",
@@ -18624,7 +18619,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Presidential Telephone Calls—Memorandum of Conversations 10/11/90-12/31/90",
       "dateline": "October 11, 1990-December 31, 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -18650,7 +18644,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The complete Scowcroft folder contains presidential memoranda of conversation or telephone conversations with substantive economic-policy OCR signals. Review each conversation separately and promote only the passages that bear directly on Volume XXX. Parallel-copy control: match each conversation to the Bush Library Memcons and Telcons index and its canonical NARA item before selection. A Scowcroft folder copy is not a second documentary entry. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-470761214",
@@ -18660,7 +18655,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 214—October 19, 1990—NSC/DC Meeting on Israeli Machine Tools, Keywords: Israel Technology Transfers",
       "dateline": "October 19, 1990",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 129,
@@ -18682,7 +18676,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The file concerns Israeli machine-tool capabilities and technology-transfer controls; retain a cross-reference to the Middle East volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761216",
@@ -18692,7 +18687,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 216—October 24, 1990—NSC/DC Meeting on Computers, Keywords: COCOM, Export Controls [1]",
       "dateline": "October 24, 1990",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 103,
@@ -18714,7 +18708,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. Part 1 includes minutes, a summary, and policy papers on computer export licenses and negotiating positions. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761217",
@@ -18724,7 +18719,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 216—October 24, 1990—NSC/DC Meeting on Computers, Keywords: COCOM, Export Controls [2]",
       "dateline": "October 24, 1990",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 49,
@@ -18746,7 +18740,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. Part 2 continues the computer-control review, including China and high-risk non-OECD licensing issues; deduplicate repeated papers with part 1. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "deal-chron-452050465",
@@ -18758,7 +18753,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: November 1990 [1]",
       "dateline": "November 1990 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 71,
@@ -18893,7 +18887,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “SECTION 337 INVESTIGATION - POLICY REVIEW OF ORDER ISSUED BY THE U.S. INTERNATIONAL TRADE COMMISSION”; “Policy Review of Section 337 Order Issued by the U.S. International Trade Commission”; “Presidential Determination Pursuant to Section 545 of the Foreign Operations, Export, Financing, and”; “Determination Pursuant to Section 545 of the Foreign Operations, Export Financing, and Related”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "deal-chron-452050466",
@@ -18905,7 +18900,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: November 1990 [2]",
       "dateline": "November 1990 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 88,
@@ -18968,7 +18962,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “LETTER FROM PRESIDENT BUSH TO PRESIDENT COLLOR MG RE URUGUAY ROUND”; “TO AGREED DISCIPLINES AND ARE THE LEAST TRADE-DISTORTING NECESSARY. THE TIME HAS COME TO MOVE TO CONSIDER THE SHAPE OF A FINAL”; “Food Aid/Food Sales to the USSR This responds to your question about the possibility of providing”; “to COCOM Favorable Consideration and National Discretion procedures will be reduced to 30 and 15 days, respectively.”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "scowcroft-366551921",
@@ -18980,7 +18975,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Latin America—Economics (November-December 1990)",
       "dateline": "November-December 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -19006,7 +19000,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. This file belongs to the complete 13-folder Economic Chronological Files subseries. Screen its decision memoranda, presidential meeting materials, debt papers, trade papers, and follow-up actions individually for Volume XXX and route country-policy material to the appropriate regional volume. Country meeting packets and presidential conversations may duplicate the Presidential Correspondence Files or regional NSC staff files; compare dates, subjects, and document text before promotion. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Latin America Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-470761219",
@@ -19016,7 +19011,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 218—November 07, 1990—NSC/DC Meeting on Computers, Keywords: CPU",
       "dateline": "November 7, 1990",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 105,
@@ -19038,7 +19032,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The November 7 meeting record addresses computer export applications and policy questions involving China, Brazil, and other destinations. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761222",
@@ -19048,7 +19043,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 220—November 08, 1990—NSC/DC Meeting on Computers, Keywords: Computers, COCOM, Technology Transfers",
       "dateline": "November 8, 1990",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 39,
@@ -19070,7 +19064,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The folder includes the November 8 minutes and summary of conclusions on computer controls. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "presidential-428081135",
@@ -19080,7 +19075,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum of Conversation",
       "dateline": "November 13, 1990, 4:45-6:00 p.m. EST",
       "type": "Memcon",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Consider",
       "releaseStatus": "Released",
       "pageCount": 8,
@@ -19098,7 +19092,8 @@ window.VOLUME_DATA = {
         "Italy",
         "Trade Policy and Market Access"
       ],
-      "notes": "Presidential conversation selected from the Bush Library Memcons and Telcons index; substantive inclusion remains a compiler judgment."
+      "notes": "Presidential conversation selected from the Bush Library Memcons and Telcons index; substantive inclusion remains a compiler judgment.",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-470761224",
@@ -19108,7 +19103,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 222—November 13, 1990—NSC/DC Meeting on Computers, Keywords: Korea, Korea South, Korea North",
       "dateline": "November 13, 1990",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 15,
@@ -19130,7 +19124,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The compact file preserves duplicate copies of the November 13 computer-control minutes and the summary of conclusions; deduplicate before item-level promotion. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "scowcroft-366551672",
@@ -19142,7 +19137,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Presidential Meetings—Memorandum of Conversations 11/13/90-12/21/90",
       "dateline": "November 13, 1990-December 21, 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -19168,7 +19162,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The complete Scowcroft folder contains presidential memoranda of conversation or telephone conversations with substantive economic-policy OCR signals. Review each conversation separately and promote only the passages that bear directly on Volume XXX. Parallel-copy control: match each conversation to the Bush Library Memcons and Telcons index and its canonical NARA item before selection. A Scowcroft folder copy is not a second documentary entry. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-chron-452050467",
@@ -19180,7 +19175,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: December 1990 [1]",
       "dateline": "December 1990 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 129,
@@ -19479,7 +19473,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “The Uruguay Round I appreciate so very much the opportunity to discuss”; “Press Release and Memorandum to the Agencies on Export Control Decisions”; “High Performance Computer Export License Applications”; “Proposed Press Release on Export Control Procedures”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-chron-452050468",
@@ -19491,7 +19486,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: December 1990 [2]",
       "dateline": "December 1990 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 98,
@@ -19627,7 +19621,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Uruguay Round: Final Meetings The Brussels ministerial will adjourn shortly with no breakthrough on agriculture. (There is still a formal closing”; “UPDATE ON THE URUGUAY ROUND MINISTERIAL: DAYS FOUR AND FIVE”; “Draft Statement on the Uruguay Round Attached for your information is the draft statement”; “Uruguay Round Report The agricultural negotiations broke apart this evening,”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "scowcroft-366551970",
@@ -19639,7 +19634,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Desert Shield/Desert Storm (December 1990) II [3]",
       "dateline": "December 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -19665,7 +19659,8 @@ window.VOLUME_DATA = {
       "notes": "Cross-volume boundary review. The full OCR and opening withdrawal inventory identify a significant foreign-economic-policy strand, but the principal narrative belongs in a regional, Soviet, China, German-unification, or Persian Gulf volume. Review for cross-reference or a narrowly selected economic-policy document. Special-separate copy sets, meeting-file duplicates, and later retrospective chronologies are not separately promoted. Compare this file with the controlling regional and presidential records before selection. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Desert Shield and Desert Storm Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "scowcroft-366551759",
@@ -19677,7 +19672,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: USSR Collapse: U.S.—Soviet Relations Thru 1991 (December 1990)",
       "dateline": "December 1990",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -19704,7 +19698,8 @@ window.VOLUME_DATA = {
       "notes": "Cross-volume boundary review. The full OCR and opening withdrawal inventory identify a significant foreign-economic-policy strand, but the principal narrative belongs in a regional, Soviet, China, German-unification, or Persian Gulf volume. Review for cross-reference or a narrowly selected economic-policy document. Special-separate copy sets, meeting-file duplicates, and later retrospective chronologies are not separately promoted. Compare this file with the controlling regional and presidential records before selection. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "USSR Collapse Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-446396878",
@@ -19714,7 +19709,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Directive File: NSD–53—December 10, 1990—Interagency Review and Disposition of Export Control Licenses Issued by Department of Commerce [1]",
       "dateline": "December 10, 1990",
       "type": "National Security Directive file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 62,
@@ -19735,7 +19729,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The released signed directive frames export-license review in terms of exporter competitiveness and an open international trading system, then establishes a uniform interagency process. Treat this as the principal NSD-53 policy file and compare later folders for distinct implementation records. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsd",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-446396879",
@@ -19753,7 +19748,6 @@ window.VOLUME_DATA = {
       "date": "1990-12-10",
       "title": "NSD–53—December 10, 1990—Interagency Review and Disposition of Export Control Licenses Issued by Department of Commerce [2]",
       "type": "National Security Directive file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "localId": "90004–033",
@@ -19767,7 +19761,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. This companion folder documents administrative guidance and later implementation of NSD-53. Deduplicate the directive text from NAID 446396878 and retain distinct procedural decisions or annotations. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsd",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-446396880",
@@ -19777,7 +19772,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Directive File: NSD–53—December 10, 1990—Interagency Review and Disposition of Export Control Licenses Issued by Department of Commerce [3]",
       "dateline": "December 10, 1990",
       "type": "National Security Directive file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 52,
@@ -19798,7 +19792,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. This NSD-53 file applies the interagency licensing procedure to an Iran export-control case. Review the case record for a documentary example of strategic-trade adjudication, while separating any repeated policy text. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsd",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-446396881",
@@ -19808,7 +19803,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Directive File: NSD–53—December 10, 1990—Interagency Review and Disposition of Export Control Licenses Issued by Department of Commerce [4]",
       "dateline": "December 10, 1990",
       "type": "National Security Directive file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 83,
@@ -19829,7 +19823,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. This NSD-53 file contains export-license cases including computer-related exports to Israel. Review each case separately and retain only items that illuminate policy, presidential or senior-level decisions, or interagency procedure. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsd",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "scowcroft-366551922",
@@ -19841,7 +19836,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Latin America—Economics (February 1990)",
       "dateline": "December 17, 1990-February 8, 1991",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -19867,7 +19861,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. This file belongs to the complete 13-folder Economic Chronological Files subseries. Screen its decision memoranda, presidential meeting materials, debt papers, trade papers, and follow-up actions individually for Volume XXX and route country-policy material to the appropriate regional volume. Country meeting packets and presidential conversations may duplicate the Presidential Correspondence Files or regional NSC staff files; compare dates, subjects, and document text before promotion. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Latin America Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-470761236",
@@ -19877,7 +19872,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 233—December 20, 1990—NSC/DC Meeting on Export Administration Act and CBW, Keywords: Export, Administration Act, CBW",
       "dateline": "December 20, 1990",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 75,
@@ -19899,7 +19893,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The minutes and summary document decisions on the Export Administration Act and chemical and biological weapons controls. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "deal-chron-452050469",
@@ -19911,7 +19906,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: January 1991 [1]",
       "dateline": "January 1991 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 59,
@@ -20105,7 +20099,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “London Economic Summit Attached is a videotape of the site of”; “CCC Export Credit Guarantees to the USSR”; “TREASURY RPT ON HR 4 RE TAX RELIEF FOR DESERT SHIELD PARTICIPANTS”; “TREASURY Proposed Report on HR 4, Tax Relief for Desert Shield Participants DEADLINE: 12 NOON JAN 15 1991”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "deal-chron-452050470",
@@ -20117,7 +20112,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: January 1991 [2]",
       "dateline": "January 1991 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Consider",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 78,
@@ -20279,7 +20273,8 @@ window.VOLUME_DATA = {
       "notes": "Selective Volume XXX review. Begin with “OECD: WORK ON THE SOVIET ECONOMY JAC BG”; “Oil Emergency Planning The International Energy Agency (IEA) adopted today an energy”; “LETTERS TO GULF STATES ON EASTERN EUROPE 1. CONFIDENTIAL - ENTIRE TEXT. 2. AS WE DISCUSSED EARLIER, EC PRESIDENT DELORS HAS”; “EPC Meeting on National Energy Strategy Florence/Wilma: Please bring the following message to the”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "scowcroft-366551974",
@@ -20291,7 +20286,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Desert Shield/Desert Storm (January 1991) II [1]",
       "dateline": "January 1991",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -20318,7 +20312,8 @@ window.VOLUME_DATA = {
       "notes": "Cross-volume boundary review. The full OCR and opening withdrawal inventory identify a significant foreign-economic-policy strand, but the principal narrative belongs in a regional, Soviet, China, German-unification, or Persian Gulf volume. Review for cross-reference or a narrowly selected economic-policy document. Special-separate copy sets, meeting-file duplicates, and later retrospective chronologies are not separately promoted. Compare this file with the controlling regional and presidential records before selection. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Desert Shield and Desert Storm Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-446396882",
@@ -20328,7 +20323,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Directive File: NSD–54—January 15, 1991—Responding to Iraqi Aggression in the Gulf",
       "dateline": "January 15, 1991",
       "type": "National Security Directive file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 39,
@@ -20349,7 +20343,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The directive responding to Iraqi aggression carries sanctions, oil, and economic-coordination evidence. Route the principal military and regional decision against the Gulf volume while retaining distinct economic-policy passages. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsd",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-chron-452050471",
@@ -20361,7 +20356,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: February 1991 [1]",
       "dateline": "February 1991 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Consider",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 85,
@@ -20441,7 +20435,8 @@ window.VOLUME_DATA = {
       "notes": "Selective Volume XXX review. Begin with “Desert Storm Financial Data Please show to the General or Bob ASAP as Phil Brady may contact”; “Uruguay Round Florence/Wilma/Dona: Please bring the following to the General's”; “Re: Recent Export Control Decisions by the Deputies Committee”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "deal-chron-452050472",
@@ -20453,7 +20448,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: February 1991 [2]",
       "dateline": "February 1991 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 74,
@@ -20507,7 +20501,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Breakfast with Secretaries Baker and Brady, 7:15 a.m., Friday, February 15 at State”; “Brady/Baker Breakfast We received the attached paper for tomorrow's breakfast after I”; “Uruguay Round: EPC Meeting, February 7, 1991, 2:30-3:30 p.m., Secretary Brady's Conference”; “Meeting on Uruguay Round and Fast-track Extension Secretary's Conference Room, Main Treasury”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "scowcroft-366551979",
@@ -20519,7 +20514,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Desert Shield/Desert Storm (February 1991) [2]",
       "dateline": "February 1991",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -20543,7 +20537,8 @@ window.VOLUME_DATA = {
       "notes": "Cross-volume boundary review. The full OCR and opening withdrawal inventory identify a significant foreign-economic-policy strand, but the principal narrative belongs in a regional, Soviet, China, German-unification, or Persian Gulf volume. Review for cross-reference or a narrowly selected economic-policy document. Special-separate copy sets, meeting-file duplicates, and later retrospective chronologies are not separately promoted. Compare this file with the controlling regional and presidential records before selection. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Desert Shield and Desert Storm Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "scowcroft-366551815",
@@ -20555,7 +20550,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Soviet Power Collapse in Eastern Europe (February-April 1991)",
       "dateline": "February-April 1991",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -20583,7 +20577,8 @@ window.VOLUME_DATA = {
       "notes": "Cross-volume boundary review. The full OCR and opening withdrawal inventory identify a significant foreign-economic-policy strand, but the principal narrative belongs in a regional, Soviet, China, German-unification, or Persian Gulf volume. Review for cross-reference or a narrowly selected economic-policy document. Special-separate copy sets, meeting-file duplicates, and later retrospective chronologies are not separately promoted. Compare this file with the controlling regional and presidential records before selection. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "USSR Chronological Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-470761265",
@@ -20593,7 +20588,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 255B—February 13, 1991—NSC/DC Meeting on Persian Gulf via SVTS, Keywords: Persian Gulf",
       "dateline": "February 13, 1991",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 205,
@@ -20615,7 +20609,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The postwar Gulf packet contains an eight-page economic-issues outline, reconstruction material, and memoranda to Scowcroft and the President; route against the Gulf volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470761267",
@@ -20625,7 +20620,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 257—February 14, 1991—NSC/DC Meeting on Computers / Export Control, Keywords: Computers, Export Controls",
       "dateline": "February 14, 1991",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 112,
@@ -20647,7 +20641,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The file preserves the February 14 minutes and extensive background on computer and export-control policy. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761268",
@@ -20657,7 +20652,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 258—February 19, 1991—NSC/DC Meeting on Export Control Issues, Keywords: Export Controls, Computers",
       "dateline": "February 19, 1991",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 28,
@@ -20679,7 +20673,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The February 19 folder contains minutes, a summary, and options for computer-control negotiations in COCOM. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "deal-chron-452050473",
@@ -20691,7 +20686,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: March 1991",
       "dateline": "March 1991 (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 71,
@@ -20849,7 +20843,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Kuwaiti Oil Files Attached is a cable from Amembassy”; “KUWAITI OIL FIRES: MONITORING CIVILIAN AND MILITARY HEALTH EFFECTS 1. CONFIDENTIAL - ENTIRE TEXT).”; “KUWAITI OIL FIRES: COMMAND SURGEON'S TEAM COMMENTED THAT, SINCE AUGUST, THE TROOPS IN DESERT SHIELD/STORM HAVE REPORTED MORE”; “KUWAITI OIL FIRES: ADVISORY WOULD HAVE A BEARING ON WHETHER DEPENDENTS ARE ALLOWED TO RETURN TO STATE POSTS IN KUWAIT CITY, DHAHRAN”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "scowcroft-366551761",
@@ -20861,7 +20856,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: USSR Collapse: U.S.—Soviet Relations Thru 1991 (March-May 1991)",
       "dateline": "March-May 1991",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -20887,7 +20881,8 @@ window.VOLUME_DATA = {
       "notes": "Cross-volume boundary review. The full OCR and opening withdrawal inventory identify a significant foreign-economic-policy strand, but the principal narrative belongs in a regional, Soviet, China, German-unification, or Persian Gulf volume. Review for cross-reference or a narrowly selected economic-policy document. Special-separate copy sets, meeting-file duplicates, and later retrospective chronologies are not separately promoted. Compare this file with the controlling regional and presidential records before selection. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "USSR Collapse Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "scowcroft-366551674",
@@ -20899,7 +20894,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Presidential Meetings—Memorandum of Conversations 3/11/91-4/24/91",
       "dateline": "March 11, 1991-April 24, 1991",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -20926,7 +20920,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The complete Scowcroft folder contains presidential memoranda of conversation or telephone conversations with substantive economic-policy OCR signals. Review each conversation separately and promote only the passages that bear directly on Volume XXX. Parallel-copy control: match each conversation to the Bush Library Memcons and Telcons index and its canonical NARA item before selection. A Scowcroft folder copy is not a second documentary entry. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-chron-452050474",
@@ -20938,7 +20933,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: April 1991 [1]",
       "dateline": "April 1991 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 89,
@@ -21131,7 +21125,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Memcons on Brady's Meetings in London Attached are the three memcons that we discussed. I will let you put on all the tags etc. Given Treasury sensitivities, I would”; “ENERGY Q&A RE HR-1301 / NATL ENERGY STRATEGY ACT DUE DATE: 15 APR 91 STATUS: S”; “ENERGY Q&As RE: HR 1301, \"National Energy Strategy Act\" These questions deal with issues ranging from the”; “ENERGY Q&As RE: HR 1301, \"National Energy Strategy Act\" The following is the response of our agency to your request for”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "deal-chron-452050475",
@@ -21143,7 +21138,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: April 1991 [2]",
       "dateline": "April 1991 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 99,
@@ -21218,7 +21212,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Economic Directorate Priorities Retrospective”; “ENERGY PROPOSED TESTIMONY RE HR- 1301 ON NATL ENERGY STRATEGY ACT”; “ENERGY Proposed Testimony RE: HR 1301, \"National Energy Strategy Act\" This is one in a series of hearings on HR 1301.”; “ENERGY Proposed Testimony RE: HR 1301, \"National Energy Strategy Act\" The following is the response of our agency to your request for”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-470761277",
@@ -21228,7 +21223,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 264—April 04, 1991—NSC/DC Meeting on Philippine-American Cooperation Treaty, Keywords: Philippines, Economic Assistance [1]",
       "dateline": "April 4, 1991",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 60,
@@ -21250,7 +21244,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. Part 1 of the Philippine-American Cooperation Treaty packet includes debt-reduction, financing, Japanese-assistance, and trade-compensation options. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470761278",
@@ -21260,7 +21255,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 264—April 04, 1991—NSC/DC Meeting on Philippine-American Cooperation Treaty, Keywords: Philippines, Economic Assistance [2]",
       "dateline": "April 4, 1991",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 60,
@@ -21282,7 +21276,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. Part 2 adds proposals for ESF and FMF use, debt service, and the Multilateral Assistance Initiative; compare all five parts. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470761279",
@@ -21292,7 +21287,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 264—April 04, 1991—NSC/DC Meeting on Philippine-American Cooperation Treaty, Keywords: Philippines, Economic Assistance [3]",
       "dateline": "April 4, 1991",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 90,
@@ -21314,7 +21308,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. Part 3 repeats and extends the debt-reduction, financing, Japanese-participation, and trade-compensation record. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470761280",
@@ -21324,7 +21319,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 264—April 04, 1991—NSC/DC Meeting on Philippine-American Cooperation Treaty, Keywords: Philippines, Economic Assistance [4]",
       "dateline": "April 4, 1991",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 48,
@@ -21346,7 +21340,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. Part 4 is a parallel packet for the April 4 meeting; retain only distinct decision records or materially different drafts. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470761281",
@@ -21356,7 +21351,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 264—April 04, 1991—NSC/DC Meeting on Philippine-American Cooperation Treaty, Keywords: Philippines, Economic Assistance [5]",
       "dateline": "April 4, 1991",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 59,
@@ -21378,7 +21372,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. Part 5 includes FMS debt projections and Multilateral Assistance Initiative material; deduplicate against parts 1 through 4. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-492062366",
@@ -21397,7 +21392,6 @@ window.VOLUME_DATA = {
       "datePrecision": "day",
       "title": "Economic Policy Council Meeting on Fast Track Authority",
       "type": "EPC/NSC file-unit lead",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit",
       "localId": "CF01113–051",
@@ -21408,7 +21402,8 @@ window.VOLUME_DATA = {
         "Trade negotiations",
         "EPC"
       ],
-      "notes": "File-unit lead. Audit the scan document by document before promoting any item to Source Note-ready status."
+      "notes": "File-unit lead. Audit the scan document by document before promoting any item to Source Note-ready status.",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-chron-452050476",
@@ -21420,7 +21415,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: May 1991 [1]",
       "dateline": "May 1991 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 71,
@@ -21540,7 +21534,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “USSR: Trade Agreement and MFN Florence/Wilma: Please pass to the General before his lunch with”; “14th Annual Meeting of the US-USSR Trade and Economic Council Requested by:”; “Draft Presidential Message The International Trade Administration has drafted the attached”; “Deputies Committee Meeting on Middle East Export Control Policy”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-chron-452050477",
@@ -21552,7 +21547,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: May 1991 [2]",
       "dateline": "May 1991 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Consider",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 42,
@@ -21621,7 +21615,8 @@ window.VOLUME_DATA = {
       "notes": "Selective Volume XXX review. Begin with “International Economics: Comments on the Meeting with Secretary Brady and Others (May 16, 1991)”; “LETTER FOR DEPUTY FOREIGN MINISTER OBMINSKIY ON - ENERGY”; “From Timothy Deal to Brent Scowcroft Re: London Summit: Second Sherpa Meeting”; “Re: Thematic Paper for London Economic Summit”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "scowcroft-366551675",
@@ -21633,7 +21628,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Presidential Meetings—Memorandum of Conversations 5/3/91-6/28/91",
       "dateline": "May 3, 1991-June 28, 1991",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -21660,7 +21654,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The complete Scowcroft folder contains presidential memoranda of conversation or telephone conversations with substantive economic-policy OCR signals. Review each conversation separately and promote only the passages that bear directly on Volume XXX. Parallel-copy control: match each conversation to the Bush Library Memcons and Telcons index and its canonical NARA item before selection. A Scowcroft folder copy is not a second documentary entry. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "scowcroft-366551700",
@@ -21672,7 +21667,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Presidential Telephone Calls—Memorandum of Conversations 5/3/91-7/21/91",
       "dateline": "May 3, 1991-July 21, 1991",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -21699,7 +21693,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The complete Scowcroft folder contains presidential memoranda of conversation or telephone conversations with substantive economic-policy OCR signals. Review each conversation separately and promote only the passages that bear directly on Volume XXX. Parallel-copy control: match each conversation to the Bush Library Memcons and Telcons index and its canonical NARA item before selection. A Scowcroft folder copy is not a second documentary entry. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-352356450",
@@ -21709,7 +21704,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 278—May 08, 1991—NSC/DC Meeting on Strategic Petroleum Reserve / SPR, Keywords: Oil, Energy",
       "dateline": "May 8, 1991",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 65,
@@ -21731,7 +21725,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The released minutes, summary, and decision papers address Strategic Petroleum Reserve acquisition choices and their fiscal and energy-policy effects. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470761303",
@@ -21741,7 +21736,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 284—May 31, 1991—NSC/DC Meeting on Middle East Export Control Policy, Keywords: Middle East, Export Controls",
       "dateline": "May 31, 1991",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 68,
@@ -21763,7 +21757,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The folder contains the summary and policy papers for a review of Middle East export-control policy; retain regional cross-references. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "deal-chron-452050478",
@@ -21775,7 +21770,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: June 1991 [1]",
       "dateline": "June 1991 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 47,
@@ -21903,7 +21897,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Philippines: World Bank Loan Wilma/Dona: I understand that you have scheduled the meeting with”; “USSR: President's Meeting with Brady et al, 10 a.m., June 27, Oval Office”; “Environmental Loan for the Philippines State and Treasury disagree over whether the U.S. should vote”; “World Bank Loan for the Philippines I believe that the U.S. must support the World Bank's loan”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-chron-452050479",
@@ -21915,7 +21910,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: June 1991 [2]",
       "dateline": "June 1991 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 66,
@@ -22079,7 +22073,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “U.S.-SOVIET TECHNICAL ECONOMIC COOPERATION DRAFT LAT AGREEMENT: U.S. COMMENTS”; “Minutes of June 3 Meeting on U.S.-Soviet Economic Relations”; “Summary of Conclusions for DC Meeting on Middle East Export Control Policy”; “OF US NON-PARTICIPATION IN THE ROMANIA BALANCE OF PAYMENTS FINANCING IS RAISED IN THE MEETING. 4. U.S. POSITION ON G-24 AID:”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "deal-summit-452050644",
@@ -22091,7 +22086,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Summit Briefing Book File: London [Economic] Summit: Third Sherpa Meeting—Briefing Book (London) June 1991 [1 of 3]",
       "dateline": "June 7-9, 1991",
       "type": "Timothy E. Deal summit briefing-book file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Partly released",
       "pageCount": 65,
@@ -22207,7 +22201,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The first third-Sherpa book is a strong transition-economy and energy file. It combines released U.S. briefing papers with exact inventories for Soviet economic issues, nuclear power, and energy-producer coordination. This is a file-level lead, not a document-level inclusion claim. Compare possible controlling copies against the Deal Subject Files and Deal-Reiss Economic Summit Files before promotion.",
       "withdrawalMetadataNote": "The opening marker identifies Timothy E. Deal Files, Summit Briefing Books Files. Later withdrawal sheets instead label the subseries Subject Files. The opening marker controls this file-level locator.",
       "collectionId": "deal-summit",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and individual withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and individual withdrawal sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-summit-452050645",
@@ -22219,7 +22214,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Summit Briefing Book File: London [Economic] Summit: Third Sherpa Meeting—Briefing Book (London) June 1991 [2 of 3]",
       "dateline": "June 7-9, 1991",
       "type": "Timothy E. Deal summit briefing-book file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Partly released",
       "pageCount": 67,
@@ -22305,7 +22299,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The second third-Sherpa book carries Treasury material on monetary developments and coordination, alongside environmental and migration proposals. Select only decision-shaping papers rather than every national proposal. This is a file-level lead, not a document-level inclusion claim. Compare possible controlling copies against the Deal Subject Files and Deal-Reiss Economic Summit Files before promotion.",
       "withdrawalMetadataNote": "The opening marker identifies Timothy E. Deal Files, Summit Briefing Books Files. Later withdrawal sheets instead label the subseries Subject Files. The opening marker controls this file-level locator.",
       "collectionId": "deal-summit",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and individual withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and individual withdrawal sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-summit-452050646",
@@ -22317,7 +22312,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Summit Briefing Book File: London [Economic] Summit: Third Sherpa Meeting—Briefing Book (London) June 1991 [3 of 3]",
       "dateline": "June 7-9, 1991",
       "type": "Timothy E. Deal summit briefing-book file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Partly released",
       "pageCount": 50,
@@ -22373,7 +22367,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The third third-Sherpa book contains debt-for-nature, economic-outlook, and other concluding material. The two identically described Major-to-Bush messages must be treated as possible duplicate copies until the originals can be compared. This is a file-level lead, not a document-level inclusion claim. Compare possible controlling copies against the Deal Subject Files and Deal-Reiss Economic Summit Files before promotion.",
       "withdrawalMetadataNote": "The opening marker identifies Timothy E. Deal Files, Summit Briefing Books Files. Later withdrawal sheets instead label the subseries Subject Files. The opening marker controls this file-level locator.",
       "collectionId": "deal-summit",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and individual withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and individual withdrawal sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "lead-492062472",
@@ -22392,7 +22387,6 @@ window.VOLUME_DATA = {
       "datePrecision": "day",
       "title": "Uruguay Round and North American Free Trade Agreement",
       "type": "EPC/NSC file-unit lead",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Boundary",
       "releaseStatus": "Online file unit",
       "localId": "CF01169–001",
@@ -22403,7 +22397,8 @@ window.VOLUME_DATA = {
         "NAFTA",
         "Volume XXXIII boundary"
       ],
-      "notes": "File-unit lead. Audit the scan document by document before promoting any item to Source Note-ready status."
+      "notes": "File-unit lead. Audit the scan document by document before promoting any item to Source Note-ready status.",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-492062473",
@@ -22422,7 +22417,6 @@ window.VOLUME_DATA = {
       "datePrecision": "day",
       "title": "Meeting with President Bush on the Soviet Union",
       "type": "EPC/NSC file-unit lead",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit",
       "localId": "CF01169–002",
@@ -22432,7 +22426,8 @@ window.VOLUME_DATA = {
         "Soviet Union",
         "Presidential meeting"
       ],
-      "notes": "File-unit lead. Audit the scan document by document before promoting any item to Source Note-ready status."
+      "notes": "File-unit lead. Audit the scan document by document before promoting any item to Source Note-ready status.",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "deal-chron-452050480",
@@ -22444,7 +22439,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: July 1991 [1]",
       "dateline": "July 1991 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 79,
@@ -22517,7 +22511,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “ISSUES FOR LONDON ECONOMIC SUMMIT”; “London Economic Summit At Tab I is a memorandum from you to the President laying out key”; “TAIWAN'S GATT APPLICATION KW JS”; “Points to Made for Cabinet Briefing on the Economic Summit”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-chron-452050481",
@@ -22529,7 +22524,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: July 1991 [2]",
       "dateline": "July 1991 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Consider",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 22,
@@ -22717,7 +22711,8 @@ window.VOLUME_DATA = {
       "notes": "Selective Volume XXX review. Begin with “From Ed Hewett/Timothy Deal to Brent Scowcroft Re: Proposed Presidential Letters to the London Summit Participants”; “From Brent Scowcroft to POTUS Re: Proposed Presidential Letters to the London Summit Participants”; “Re: London Summit: Draft Political Declaration”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-summit-452050647",
@@ -22729,7 +22724,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Summit Briefing Book File: London [Economic] Summit: Fourth Sherpa Meeting—Briefing Book (London) June 1991 [1 of 3]",
       "dateline": "July 5-7, 1991",
       "type": "Timothy E. Deal summit briefing-book file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Partly released",
       "pageCount": 67,
@@ -22805,7 +22799,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. This is the highest-value London Sherpa folder for transition policy. It contains the final preparatory book and identifies separate papers on Soviet reform, the U.S. response, EC-Eastern Europe policy, Iraq sanctions, and a Major message to Bush. This is a file-level lead, not a document-level inclusion claim. Compare possible controlling copies against the Deal Subject Files and Deal-Reiss Economic Summit Files before promotion.",
       "withdrawalMetadataNote": "The opening marker identifies Timothy E. Deal Files, Summit Briefing Books Files. Later withdrawal sheets instead label the subseries Subject Files. The opening marker controls this file-level locator.",
       "collectionId": "deal-summit",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and individual withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and individual withdrawal sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-summit-452050648",
@@ -22817,7 +22812,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Summit Briefing Book File: London [Economic] Summit: Fourth Sherpa Meeting—Briefing Book (London) June 1991 [2 of 3]",
       "dateline": "July 5-7, 1991",
       "type": "Timothy E. Deal summit briefing-book file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Consider",
       "releaseStatus": "Partly released",
       "pageCount": 48,
@@ -22903,7 +22897,8 @@ window.VOLUME_DATA = {
       "notes": "Selective Volume XXX review. Review selectively for U.S. energy policy and negotiating positions. Much of the migration and environmental material repeats proposals in the third-Sherpa books and should be deduplicated before item-level promotion. This is a file-level lead, not a document-level inclusion claim. Compare possible controlling copies against the Deal Subject Files and Deal-Reiss Economic Summit Files before promotion.",
       "withdrawalMetadataNote": "The opening marker identifies Timothy E. Deal Files, Summit Briefing Books Files. Later withdrawal sheets instead label the subseries Subject Files. The opening marker controls this file-level locator.",
       "collectionId": "deal-summit",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and individual withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and individual withdrawal sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-summit-452050649",
@@ -22915,7 +22910,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Summit Briefing Book File: London [Economic] Summit: Fourth Sherpa Meeting—Briefing Book (London) June 1991 [3 of 3]",
       "dateline": "July 5-7, 1991",
       "type": "Timothy E. Deal summit briefing-book file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Consider",
       "releaseStatus": "Partly released",
       "pageCount": 65,
@@ -22951,7 +22945,8 @@ window.VOLUME_DATA = {
       "notes": "Selective Volume XXX review. Use for the concluding climate, trade, and environmental papers in the fourth-Sherpa briefing set. Check each paper against the neighboring volumes and the Deal-Reiss Economic Summit Files. This is a file-level lead, not a document-level inclusion claim. Compare possible controlling copies against the Deal Subject Files and Deal-Reiss Economic Summit Files before promotion.",
       "withdrawalMetadataNote": "The opening marker identifies Timothy E. Deal Files, Summit Briefing Books Files. Later withdrawal sheets instead identify Deal, Timothy E., and Reiss, Mitchell B., Files. The opening marker controls this file-level locator.",
       "collectionId": "deal-summit",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and individual withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and individual withdrawal sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "lead-492062476",
@@ -22970,7 +22965,6 @@ window.VOLUME_DATA = {
       "datePrecision": "day",
       "title": "Economic Policy Council Meeting on Eastern and Central Europe",
       "type": "EPC/NSC file-unit lead",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit",
       "localId": "CF01169–006",
@@ -22981,7 +22975,8 @@ window.VOLUME_DATA = {
         "Central Europe",
         "EPC"
       ],
-      "notes": "File-unit lead. Audit the scan document by document before promoting any item to Source Note-ready status."
+      "notes": "File-unit lead. Audit the scan document by document before promoting any item to Source Note-ready status.",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "scowcroft-366551676",
@@ -22993,7 +22988,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Presidential Meetings—Memorandum of Conversations 7/11/91-7/22/91",
       "dateline": "July 11, 1991-July 22, 1991",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -23020,7 +23014,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The complete Scowcroft folder contains presidential memoranda of conversation or telephone conversations with substantive economic-policy OCR signals. Review each conversation separately and promote only the passages that bear directly on Volume XXX. Parallel-copy control: match each conversation to the Bush Library Memcons and Telcons index and its canonical NARA item before selection. A Scowcroft folder copy is not a second documentary entry. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-summit-452050652",
@@ -23032,7 +23027,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Summit Briefing Book File: London [Economic] Summit: President's Background Book—July 1991 [1 of 2]",
       "dateline": "July 14-17, 1991",
       "type": "Timothy E. Deal summit briefing-book file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Consider",
       "releaseStatus": "Partly released",
       "pageCount": 58,
@@ -23308,7 +23302,8 @@ window.VOLUME_DATA = {
       "notes": "Selective Volume XXX review. Use as supporting presidential background for the world economy, macroeconomic coordination, trade, debt, Soviet assistance, and country positions. Prefer the briefing book for presidential guidance and this volume for necessary context. This is a file-level lead, not a document-level inclusion claim. Compare possible controlling copies against the Deal Subject Files and Deal-Reiss Economic Summit Files before promotion.",
       "withdrawalMetadataNote": "The opening marker identifies Timothy E. Deal Files, Summit Briefing Books Files. Later withdrawal sheets instead label the subseries Subject Files. The opening marker controls this file-level locator.",
       "collectionId": "deal-summit",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and individual withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and individual withdrawal sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-summit-452050653",
@@ -23320,7 +23315,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Summit Briefing Book File: London [Economic] Summit: President's Background Book—July 1991 [2 of 2]",
       "dateline": "July 14-17, 1991",
       "type": "Timothy E. Deal summit briefing-book file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Consider",
       "releaseStatus": "Partly released",
       "pageCount": 21,
@@ -23436,7 +23430,8 @@ window.VOLUME_DATA = {
       "notes": "Selective Volume XXX review. This companion background volume is principally useful for country-position and cross-volume checks. Avoid duplicating country papers already represented by bilateral presidential conversations or regional files. This is a file-level lead, not a document-level inclusion claim. Compare possible controlling copies against the Deal Subject Files and Deal-Reiss Economic Summit Files before promotion.",
       "withdrawalMetadataNote": "The opening marker identifies Timothy E. Deal Files, Summit Briefing Books Files. Later withdrawal sheets instead label the subseries Subject Files. The opening marker controls this file-level locator.",
       "collectionId": "deal-summit",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and individual withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and individual withdrawal sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-summit-452050650",
@@ -23448,7 +23443,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Summit Briefing Book File: London [Economic] Summit: President's Briefing Book—July 1991 [1 of 2]",
       "dateline": "July 14-17, 1991",
       "type": "Timothy E. Deal summit briefing-book file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Partly released",
       "pageCount": 81,
@@ -23594,7 +23588,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. This is the principal presidential briefing volume for London. It contains scope papers, the annotated schedule, and session talking points; compare copies against the London Subject Files and Presidential Memcon Files before selection. This is a file-level lead, not a document-level inclusion claim. Compare possible controlling copies against the Deal Subject Files and Deal-Reiss Economic Summit Files before promotion.",
       "withdrawalMetadataNote": "The opening marker identifies Timothy E. Deal Files, Summit Briefing Books Files. Later withdrawal sheets instead label the subseries Subject Files. The opening marker controls this file-level locator.",
       "collectionId": "deal-summit",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and individual withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and individual withdrawal sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-summit-452050651",
@@ -23606,7 +23601,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Summit Briefing Book File: London [Economic] Summit: President's Briefing Book—July 1991 [2 of 2]",
       "dateline": "July 14-17, 1991",
       "type": "Timothy E. Deal summit briefing-book file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Partly released",
       "pageCount": 56,
@@ -23682,7 +23676,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The second presidential briefing volume preserves session-level talking points on trade and other summit decisions. The Soviet and Gorbachev sections remain separately described withdrawals and should be cross-routed to the Soviet volume. This is a file-level lead, not a document-level inclusion claim. Compare possible controlling copies against the Deal Subject Files and Deal-Reiss Economic Summit Files before promotion.",
       "withdrawalMetadataNote": "The opening marker identifies Timothy E. Deal Files, Summit Briefing Books Files. Later withdrawal sheets instead label the subseries Subject Files. The opening marker controls this file-level locator.",
       "collectionId": "deal-summit",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and individual withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF review, and individual withdrawal sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "lead-452050583",
@@ -23700,7 +23695,6 @@ window.VOLUME_DATA = {
       "date": "1991-07-15",
       "title": "London Economic Summit [July 1991] [3]",
       "type": "Summit file-unit lead",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Consider",
       "releaseStatus": "Online file unit",
       "localId": "CF00964–014",
@@ -23711,7 +23705,8 @@ window.VOLUME_DATA = {
         "Briefing materials",
         "Document-boundary audit"
       ],
-      "notes": "Summit file-unit lead. Use the scan to identify decision memoranda, records of meetings, and briefing papers worth item-level treatment."
+      "notes": "Summit file-unit lead. Use the scan to identify decision memoranda, records of meetings, and briefing papers worth item-level treatment.",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "lead-452050584",
@@ -23729,7 +23724,6 @@ window.VOLUME_DATA = {
       "date": "1991-07-15",
       "title": "London Economic Summit [July 1991] [4]",
       "type": "Summit file-unit lead",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Consider",
       "releaseStatus": "Online file unit",
       "localId": "CF00964–015",
@@ -23740,7 +23734,8 @@ window.VOLUME_DATA = {
         "Briefing materials",
         "Document-boundary audit"
       ],
-      "notes": "Summit file-unit lead. Use the scan to identify decision memoranda, records of meetings, and briefing papers worth item-level treatment."
+      "notes": "Summit file-unit lead. Use the scan to identify decision memoranda, records of meetings, and briefing papers worth item-level treatment.",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "lead-452050586",
@@ -23758,7 +23753,6 @@ window.VOLUME_DATA = {
       "date": "1991-07-15",
       "title": "London Economic Summit [July 1991] [6]",
       "type": "Summit file-unit lead",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Consider",
       "releaseStatus": "Online file unit",
       "localId": "CF00964–017",
@@ -23769,7 +23763,8 @@ window.VOLUME_DATA = {
         "Briefing materials",
         "Document-boundary audit"
       ],
-      "notes": "Summit file-unit lead. Use the scan to identify decision memoranda, records of meetings, and briefing papers worth item-level treatment."
+      "notes": "Summit file-unit lead. Use the scan to identify decision memoranda, records of meetings, and briefing papers worth item-level treatment.",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "lead-452050652",
@@ -23787,7 +23782,6 @@ window.VOLUME_DATA = {
       "date": "1991-07-15",
       "title": "London Economic Summit: President's Background Book [1 of 2]",
       "type": "Summit file-unit lead",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Consider",
       "releaseStatus": "Online file unit",
       "localId": "CF00960–016",
@@ -23798,7 +23792,8 @@ window.VOLUME_DATA = {
         "Briefing materials",
         "Document-boundary audit"
       ],
-      "notes": "Summit file-unit lead. Use the scan to identify decision memoranda, records of meetings, and briefing papers worth item-level treatment."
+      "notes": "Summit file-unit lead. Use the scan to identify decision memoranda, records of meetings, and briefing papers worth item-level treatment.",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "lead-452050650",
@@ -23816,7 +23811,6 @@ window.VOLUME_DATA = {
       "date": "1991-07-15",
       "title": "London Economic Summit: President's Briefing Book [1 of 2]",
       "type": "Summit file-unit lead",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Consider",
       "releaseStatus": "Online file unit",
       "localId": "CF00960–014",
@@ -23827,7 +23821,8 @@ window.VOLUME_DATA = {
         "Briefing materials",
         "Document-boundary audit"
       ],
-      "notes": "Summit file-unit lead. Use the scan to identify decision memoranda, records of meetings, and briefing papers worth item-level treatment."
+      "notes": "Summit file-unit lead. Use the scan to identify decision memoranda, records of meetings, and briefing papers worth item-level treatment.",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "presidential-428081745",
@@ -23837,7 +23832,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum of Conversation",
       "dateline": "London, Monday, July 15, 1991, 2:20 p.m. -5:40 p.m.",
       "type": "Memcon",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Released",
       "pageCount": 11,
@@ -23858,7 +23852,8 @@ window.VOLUME_DATA = {
         "Japan",
         "EC"
       ],
-      "notes": "Presidential conversation selected from the Bush Library Memcons and Telcons index; substantive inclusion remains a compiler judgment."
+      "notes": "Presidential conversation selected from the Bush Library Memcons and Telcons index; substantive inclusion remains a compiler judgment.",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "presidential-428081749",
@@ -23868,7 +23863,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum of Conversation",
       "dateline": "London, Tuesday, July 16, 1991, 9:00 a.m.-12:30 p.m.",
       "type": "Memcon",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Released",
       "pageCount": 12,
@@ -23889,7 +23883,8 @@ window.VOLUME_DATA = {
         "Japan",
         "EC"
       ],
-      "notes": "Presidential conversation selected from the Bush Library Memcons and Telcons index; substantive inclusion remains a compiler judgment."
+      "notes": "Presidential conversation selected from the Bush Library Memcons and Telcons index; substantive inclusion remains a compiler judgment.",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "presidential-428081771",
@@ -23899,7 +23894,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum of Conversation",
       "dateline": "London, Tuesday, July 16, 1991, 3:40-5:30 p.m.",
       "type": "Memcon",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Released",
       "pageCount": 9,
@@ -23920,7 +23914,8 @@ window.VOLUME_DATA = {
         "Japan",
         "EC"
       ],
-      "notes": "Presidential conversation selected from the Bush Library Memcons and Telcons index; substantive inclusion remains a compiler judgment."
+      "notes": "Presidential conversation selected from the Bush Library Memcons and Telcons index; substantive inclusion remains a compiler judgment.",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "presidential-428081773",
@@ -23930,7 +23925,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum of Conversation",
       "dateline": "London, Wednesday, July 17, 1991, 2:20 p.m.",
       "type": "Memcon",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Released",
       "pageCount": 14,
@@ -23951,7 +23945,8 @@ window.VOLUME_DATA = {
         "Italy",
         "Japan"
       ],
-      "notes": "Presidential conversation selected from the Bush Library Memcons and Telcons index; substantive inclusion remains a compiler judgment."
+      "notes": "Presidential conversation selected from the Bush Library Memcons and Telcons index; substantive inclusion remains a compiler judgment.",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "presidential-428081775",
@@ -23961,7 +23956,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum of Conversation",
       "dateline": "London, Wednesday, July 17, 1991, 9:15-10:20 a.m.",
       "type": "Memcon",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Released",
       "pageCount": 5,
@@ -23982,7 +23976,8 @@ window.VOLUME_DATA = {
         "Japan",
         "EC"
       ],
-      "notes": "Presidential conversation selected from the Bush Library Memcons and Telcons index; substantive inclusion remains a compiler judgment."
+      "notes": "Presidential conversation selected from the Bush Library Memcons and Telcons index; substantive inclusion remains a compiler judgment.",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "scowcroft-366551677",
@@ -23994,7 +23989,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Presidential Meetings—Memorandum of Conversations 7/24/91-9/24/91",
       "dateline": "July 24, 1991-September 24, 1991",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -24021,7 +24015,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The complete Scowcroft folder contains presidential memoranda of conversation or telephone conversations with substantive economic-policy OCR signals. Review each conversation separately and promote only the passages that bear directly on Volume XXX. Parallel-copy control: match each conversation to the Bush Library Memcons and Telcons index and its canonical NARA item before selection. A Scowcroft folder copy is not a second documentary entry. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "deal-chron-452050482",
@@ -24033,7 +24028,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: August 1991 [1]",
       "dateline": "August 1991 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 93,
@@ -24222,7 +24216,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “U.S. PROPOSAL FOR REMOVAL OF HUNGARY, RLP CZECHOSLOVAKIA, AND POLAND FROM THE LIST OF PROSCRIBED”; “Multilateral Investment Fund Secretary Brady has requested (Tab II) that the President send a”; “Multilateral Investment Fund Purpose”; “Proposed letter from President Bush to the G-7 on the Multilateral Investment Fund”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "deal-chron-452050483",
@@ -24234,7 +24229,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: August 1991 [2]",
       "dateline": "August 1991 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Consider",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 100,
@@ -24284,7 +24278,8 @@ window.VOLUME_DATA = {
       "notes": "Selective Volume XXX review. Begin with “Congressional Inquiries on Encryption Export Controls”; “DEPARTMENT POLICY FOR ACCEPTING U.S. CURRENCY L. SUMMARY: ON FRIDAY, AUGUST 16 AP NEWS SERVICE REPORTED THAT THE U.S. GOVERNMENT AND IN PARTICULAR THE”; “COCOM: Response to Soviet Events Robin: Do you have any guidance from Bob Gates on my E-mail note”; “G-24 MINISTERIAL - ELIGIBILITY OF ALBANIA FOR - G-24 ASSISTANCE”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761329",
@@ -24294,7 +24289,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 308—August 28, 1991—NSC/DC Meeting re: Humanitarian Assistance to USSR, Keywords: USSR, Economic Assistance",
       "dateline": "August 28, 1991",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 65,
@@ -24316,7 +24310,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The packet combines humanitarian-assistance planning with papers on international economic cooperation with the Soviet Union and a Sherpa meeting. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "deal-chron-452050484",
@@ -24328,7 +24323,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: September 1991 [1]",
       "dateline": "September 1991 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 85,
@@ -24483,7 +24477,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “IMF Quota Increase This is in response to your query regarding the IMF quota”; “Meeting of the President's Economic Policy Council, Friday, September 27, 1991 The Economic Policy Council will hold a meeting with the”; “Meeting of the President's Economic Policy Council, Wednesday, September 25, 1991 The Economic Policy Council will hold a meeting with the”; “Report to the President: CFIUS Report on Timenlex Investigation”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-chron-452050485",
@@ -24495,7 +24490,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: September 1991 [2]",
       "dateline": "September 1991 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 77,
@@ -24702,7 +24696,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “DEPT. GUIDANCE FOR SEPT. 12 OECD COUNCIL DISCUSSION ON ASSISTANCE TO THE USSR REF: A} PARIS 20581; B} PARIS 22064”; “Trinidad Terms Attached is my first draft of the decision memo on Trinidad terms. It draws heavily on earlier Treasury/State drafts. Since”; “IEPR Breakfast -- Debt Relief for Senegal President Diouf's State Visit begins on Monday and there is still”; “FIELD ASSESSMENTS OF SEED PROGRAMS 1. AS COORDINATOR OF OUR ASSISTANCE PROGRAMS FOR CENTRAL AND EASTERN EUROPE, DEPUTY SECRETARY EAGLEBURGER”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "scowcroft-366551678",
@@ -24714,7 +24709,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Presidential Meetings—Memorandum of Conversations 9/24/91-10/15/91",
       "dateline": "September 24, 1991-October 15, 1991",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -24740,7 +24734,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The complete Scowcroft folder contains presidential memoranda of conversation or telephone conversations with substantive economic-policy OCR signals. Review each conversation separately and promote only the passages that bear directly on Volume XXX. Parallel-copy control: match each conversation to the Bush Library Memcons and Telcons index and its canonical NARA item before selection. A Scowcroft folder copy is not a second documentary entry. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-470761336",
@@ -24750,7 +24745,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 313A—September 27, 1991—NSC/DC Meeting re: International Coordination of Humanitarian Assistance to USSR, Keywords: USSR, Economic Assistance",
       "dateline": "September 27, 1991",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 11,
@@ -24771,7 +24765,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. This short follow-up file concerns international coordination of humanitarian assistance to the Soviet Union. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "scowcroft-366551702",
@@ -24783,7 +24778,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Presidential Telephone Calls—Memorandum of Conversations 9/27/91-12/25/91",
       "dateline": "September 27, 1991-December 25, 1991",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -24810,7 +24804,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The complete Scowcroft folder contains presidential memoranda of conversation or telephone conversations with substantive economic-policy OCR signals. Review each conversation separately and promote only the passages that bear directly on Volume XXX. Parallel-copy control: match each conversation to the Bush Library Memcons and Telcons index and its canonical NARA item before selection. A Scowcroft folder copy is not a second documentary entry. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-chron-452050486",
@@ -24822,7 +24817,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: October 1991 [1]",
       "dateline": "October 1991 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 131,
@@ -24959,7 +24953,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “LTR FM MCPHERSON RE INDONESIAN INTL INVESTMENT”; “Export Control Policy for Iran XS”; “Agriculture in the Uruguay Round Doug: Take what you want from what follows below. I hope that”; “TREASURY PROPOSED TESTIMONY ON IMF & STATUS OF ECONOMIC REFORM”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "deal-chron-452050487",
@@ -24971,7 +24966,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: October 1991 [2]",
       "dateline": "October 1991 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 120,
@@ -25110,7 +25104,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “EPC Meeting on October 8: Credit Crunch, 11:30 a.m., Cabinet Room”; “Draft Memorandum on the Credit Crunch and Accompanying Fact Sheets for the EPC”; “The Economy and Responses to the Credit Crunch I. INTRODUCTION”; “EPC Meeting on U.S. Economy: October 8, 1991; 11:30 a.m. - 12:30 p.m., Cabinet Room”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-470761486",
@@ -25120,7 +25115,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Follow-Up File: DC Meeting 10/11/91 3:00 Room 208 Pan Am 103",
       "dateline": "October 11, 1991",
       "type": "NSC/Deputies Committee follow-up file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 11,
@@ -25141,7 +25135,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The opening withdrawal sheet identifies separate papers on current sanctions and possible measures or sanctions. Route principal records against the terrorism and regional volumes. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-follow-up",
-      "provenanceMethod": "Opening PDF provenance and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance and withdrawal sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "scowcroft-366551679",
@@ -25153,7 +25148,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Presidential Meetings—Memorandum of Conversations 10/16/91-12/17/91",
       "dateline": "October 16, 1991-December 17, 1991",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -25181,7 +25175,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The complete Scowcroft folder contains presidential memoranda of conversation or telephone conversations with substantive economic-policy OCR signals. Review each conversation separately and promote only the passages that bear directly on Volume XXX. Parallel-copy control: match each conversation to the Bush Library Memcons and Telcons index and its canonical NARA item before selection. A Scowcroft folder copy is not a second documentary entry. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-470760967",
@@ -25191,7 +25186,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Meeting File: NSC0059—October 18, 1991—Pan Am 103, Terrorism",
       "dateline": "October 18, 1991",
       "type": "NSC meeting file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Partly released",
       "pageCount": 75,
@@ -25214,7 +25208,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The file identifies a 14-page Top Secret NSC meeting record and separate papers on current and possible sanctions against Libya, including oil and financial measures. The packet also contains older unrelated material, so document boundaries and provenance must be checked especially carefully.",
       "collectionId": "nsc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761339",
@@ -25224,7 +25219,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 316—October 25, 1991—NSC/DC Meeting on Haiti, Keywords: Haiti",
       "dateline": "October 25, 1991",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 69,
@@ -25246,7 +25240,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The Haiti meeting file includes trade-sanctions papers and a proposed executive order imposing financial sanctions; route against the Latin America volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761340",
@@ -25264,7 +25259,6 @@ window.VOLUME_DATA = {
       "date": "1991-10-29",
       "title": "NSC/DC 317—October 29, 1991—NSC/DC Meeting re: Intra COCOM Trade in MTCR Annex Items, Keywords: COCOM, MTCR, Non-Proliferation, Arms Control",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "localId": "90021–005",
@@ -25278,7 +25272,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The file contains minutes, a summary, and a decision paper on intra-COCOM trade in MTCR Annex items. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "deal-chron-452050488",
@@ -25290,7 +25285,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: November 1991 [1]",
       "dateline": "November 1991 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 97,
@@ -25402,7 +25396,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Major Issues for International Economics Directorate”; “Responsibilities of International Economic Affairs Directorate”; “Uruguay Round (U) Attached is an informal paper, outlining what we might seek as a”; “EPC Meeting: Growth and the American Economy, 1 p.m., November 20, Room 180 OEOB”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-chron-452050489",
@@ -25414,7 +25409,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: November 1991 [2]",
       "dateline": "November 1991 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 42,
@@ -25577,7 +25571,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “ACTING SECRETARY'S RESPONSE TO UKRAINIAN PM LCNdeN FOKIN'S REQUEST FOR FOOD AID”; “Uruguay Round At Tab II is Ambassador Hills' memorandum to the President,”; “TREASURY PROPOSED RPT RE HR- 2624 TECHNOLOGY PRESERVATION ACT OF 1991”; “TREASURY Proposed Report RE: HR 2624, Technology Preservation Act of 1991”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "presidential-428082021",
@@ -25587,7 +25582,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum of Conversation",
       "dateline": "The Hague, November 9, 1991, 9:00 a.m.–12:15 p.m.",
       "type": "Memcon",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Released",
       "pageCount": 10,
@@ -25604,7 +25598,8 @@ window.VOLUME_DATA = {
         "EC",
         "Trade Policy and Market Access"
       ],
-      "notes": "Presidential conversation selected from the Bush Library Memcons and Telcons index; substantive inclusion remains a compiler judgment."
+      "notes": "Presidential conversation selected from the Bush Library Memcons and Telcons index; substantive inclusion remains a compiler judgment.",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-chron-452050490",
@@ -25616,7 +25611,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: December 1991 [1]",
       "dateline": "December 1991 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 90,
@@ -25759,7 +25753,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “OPIC Draft Bill, Overseas Private Investment Corporation Amendments Act of 1992”; “OPIC Draft Bill, Overseas Private Investment Corporation Amendments Act of 1992 (LRM #D-626,”; “OPIC Draft Bill Overseas Private Investment Corporation Amendments Act of 1992”; “SOVIET DEBT DEFERRAL NEGOTIATIONS”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-chron-452050491",
@@ -25771,7 +25766,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: December 1991 [2]",
       "dateline": "December 1991 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 78,
@@ -25915,7 +25909,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “STATEMENT OF U.S. POLICY TOWARD FOREIGN DIRECT INVESTMENT/FACT SHEET/ QUESTIONS AND ANSWERS”; “Statement of U.S. Policy Toward Foreign Direct Investment”; “STATEMENT ON U.S. POLICY TOWARD FOREIGN DIRECT INVESTMENT”; “Presidential Statement on Foreign Direct Investment”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-chron-452050492",
@@ -25927,7 +25922,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: December 1991 [3]",
       "dateline": "December 1991 [3] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Consider",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 63,
@@ -26039,7 +26033,8 @@ window.VOLUME_DATA = {
       "notes": "Selective Volume XXX review. Begin with “EPC Meeting on Uruguay Round, 2:30 p.m., December 13, Roosevelt Room”; “MEETING OF THE PRESIDENT'S ECONOMIC POLICY COUNCIL, FRIDAY, DECEMBER 13, 1991”; “Re: [debt relief]”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470761346",
@@ -26049,7 +26044,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 323—December 2, 1991—NSC/DC Meeting re: Libyan-Sanctions for Pan Am 103, Keywords: Libya, Pan Am 103, Sanctions",
       "dateline": "December 2, 1991",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 55,
@@ -26071,7 +26065,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The Deputies Committee packet develops a sanctions menu and allied consultation strategy after the Pan Am 103 indictments; route against the terrorism and regional volumes. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761347",
@@ -26081,7 +26076,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 324—December 05, 1991—NSC/DC Meeting re: Machine Tool Voluntary Restraint Agreements, Keywords: International Trade",
       "dateline": "December 5, 1991",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 53,
@@ -26103,7 +26097,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The file presents machine-tool voluntary-restraint options and the Deputies Committee briefing record. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-470761348",
@@ -26113,7 +26108,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 325—December 13, 1991—NSC/DC Meeting re: Yugoslavia, Keywords: Yugoslavia",
       "dateline": "December 13, 1991",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 122,
@@ -26135,7 +26129,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The Yugoslavia packet weighs selective sanctions, a trade embargo, and the impact of an oil embargo; route against the Western Europe volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761353",
@@ -26145,7 +26140,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 330—December 23, 1991—NSC/DC Meeting on Yugoslavia, Keywords: Yugoslavia",
       "dateline": "December 23, 1991",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 83,
@@ -26167,7 +26161,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The December 23 review links recognition policy to selective sanctions and possible relief or escalation; compare it with the December 13 packet. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-492061797",
@@ -26186,7 +26181,6 @@ window.VOLUME_DATA = {
       "datePrecision": "day",
       "title": "USTR Briefing Book on Dunkel Text",
       "type": "File-unit lead",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit",
       "localId": "94001–004",
@@ -26197,7 +26191,8 @@ window.VOLUME_DATA = {
         "Dunkel text",
         "USTR"
       ],
-      "notes": "File-unit lead. Item-level headings, datelines, Source Notes, and page extents await source-image review."
+      "notes": "File-unit lead. Item-level headings, datelines, Source Notes, and page extents await source-image review.",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-492062363",
@@ -26216,7 +26211,6 @@ window.VOLUME_DATA = {
       "datePrecision": "year",
       "title": "U.S./Soviet Economic Relations",
       "type": "EPC/NSC file-unit lead",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit",
       "localId": "CF01113–048",
@@ -26226,7 +26220,8 @@ window.VOLUME_DATA = {
         "Soviet Union",
         "Economic relations"
       ],
-      "notes": "File-unit lead. Audit the scan document by document before promoting any item to Source Note-ready status."
+      "notes": "File-unit lead. Audit the scan document by document before promoting any item to Source Note-ready status.",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "deal-chron-452050493",
@@ -26238,7 +26233,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: January 1992 [1]",
       "dateline": "January 1992 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Consider",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 132,
@@ -26286,7 +26280,8 @@ window.VOLUME_DATA = {
       "notes": "Selective Volume XXX review. Begin with “Desert Shield/Desert Storm: Financing Attached is the most recent table prepared by OMB on”; “Draft of President's Message for the 1992 Economic Report of the President”; “1992 Economic Report of the President Chapter 3 -- The American Labor Market”; “Options For Addressing Climate Change As we discussed on Monday, January 13 in your office, I believe the United States has an opportunity to regain leadership on what is, perha...”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-chron-452050494",
@@ -26298,7 +26293,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: January 1992 [2]",
       "dateline": "January 1992 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; document boundaries not yet split",
       "pageCount": 129,
@@ -26337,7 +26331,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “. Chapter 2, Economic Developments and Prospects”; “1992 Economic Report of the President Chapter 2 -- Economic Developments and Prospects”; “President Bush's UN Bilaterals President Bush will have an important opportunity at his”; “The Multilateral Investment Fund platform for the President to deliver the message that the”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-chron-452050495",
@@ -26349,7 +26344,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: January 1992 [3]",
       "dateline": "January 1992 [3] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; document boundaries not yet split",
       "pageCount": 139,
@@ -26389,7 +26383,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “G-7 Finance Ministers and the Uruguay Round Please pass the following message to the General and Admiral Howe.”; “Treasury Proposed Report re: S. 1394, Tax Simplification Act of 1991 and other proposals”; “TREASURY Proposed Report RE: S 1394, Tax Simplification Act of 1991 and other proposals.”; “TREASURY Proposed Report RE: S 1394, Tax simplification Act of 1991.”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "deal-chron-452050496",
@@ -26401,7 +26396,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: January 1992 [4]",
       "dateline": "January 1992 [4] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Consider",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 159,
@@ -26448,7 +26442,8 @@ window.VOLUME_DATA = {
       "notes": "Selective Volume XXX review. Begin with “ECONOMIC DEVELOPMENTS AND PROSPECTS”; “1992 Economic Report of the President Chapter 2 -- Economic Developments and Prospects”; “U.S. Stake in the World Economy Attached at Tab II is a more extensive set of tables and charts”; “U.S. Stake in the World Economy: A Fact Sheet Attached, as requested, is a general fact sheet on the U.S. stake”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-chron-452050497",
@@ -26460,7 +26455,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: January 1992 [5]",
       "dateline": "January 1992 [5] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Consider",
       "releaseStatus": "Online file unit; document boundaries not yet split",
       "pageCount": 151,
@@ -26495,7 +26489,8 @@ window.VOLUME_DATA = {
       "notes": "Selective Volume XXX review. Begin with “1992 Economic Report of the President Chapter 5 -- Competitive Forces and Regulation”; “U.S. Stake in the World Economy: A Fact Sheet Attached, as requested, is a general fact sheet on the U.S. stake”; “1992 Economic Report of the President, Chapter 3 -- the American Labor”; “1992 Economic Report of the President Chapter 3 -- The American Labor Market”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-chron-452050498",
@@ -26507,7 +26502,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: January 1992 [6]",
       "dateline": "January 1992 [6] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Consider",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 19,
@@ -26604,7 +26598,8 @@ window.VOLUME_DATA = {
       "notes": "Selective Volume XXX review. Begin with “Trinidad Terms: Debt Relief for the Poorest Countries”; “Debt Relief for the Poorest Countries Purpose”; “PRES LTR TO CHANCELLOR KOHL OF GERMANY RE DEBT RELIEF FOR POOREST COUNTRIES”; “Munich Economic Summit At the first Sherpa meeting this past weekend, our German hosts”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "deal-chron-452050499",
@@ -26616,7 +26611,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: January 1992 [7]",
       "dateline": "January 1992 [7] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Consider",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 137,
@@ -26675,7 +26669,8 @@ window.VOLUME_DATA = {
       "notes": "Selective Volume XXX review. Begin with “Meeting on Export Licenses (U) This memorandum is to confirm that we will be meeting at 10:00 AM”; “ECONOMIC STATISTICS: MEASURING ECONOMIC PERFORMANCE”; “1992 Economic Report of the President Chapter 7 -- Economic Statistics: Measuring Economic”; “From Timothy Deal to Brent Scowcroft Re: Munich Economic Summit: First Preparatory Meeting”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "scowcroft-366551703",
@@ -26687,7 +26682,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Presidential Telephone Calls—Memorandum of Conversations 1/2/92-4/9/92",
       "dateline": "January 2, 1992-April 9, 1992",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -26713,7 +26707,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The complete Scowcroft folder contains presidential memoranda of conversation or telephone conversations with substantive economic-policy OCR signals. Review each conversation separately and promote only the passages that bear directly on Volume XXX. Parallel-copy control: match each conversation to the Bush Library Memcons and Telcons index and its canonical NARA item before selection. A Scowcroft folder copy is not a second documentary entry. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470761355",
@@ -26723,7 +26718,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 332—January 17, 1992—NSC/DC Meeting on Combating Spread of Militarily Useful Technology FM Former Soviet Union, Keywords: Technology Transfers, USSR, Non-Proliferation",
       "dateline": "January 17, 1992",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 74,
@@ -26745,7 +26739,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The minutes and issue papers address the spread of militarily useful technology from the former Soviet Union. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761356",
@@ -26755,7 +26750,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 333—January 31, 1992—NSC/DC Meeting re: Iran and Export Controls, Keywords: Iran Export Controls",
       "dateline": "January 31, 1992",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 102,
@@ -26777,7 +26771,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The Iran packet contains political-response and export-control papers; compare it with NSC/DC 336 and the November COCOM Cooperation Forum review. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "deal-chron-452050500",
@@ -26789,7 +26784,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: February 1992 [1]",
       "dateline": "February 1992 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Consider",
       "releaseStatus": "Online file unit; document boundaries not yet split",
       "pageCount": 98,
@@ -26825,7 +26819,8 @@ window.VOLUME_DATA = {
       "notes": "Selective Volume XXX review. Begin with “Treasury Proposed Position Paper re H.R. 4059, Enterprise for Americas”; “Treasury Proposed Position Paper re: H.R. 4059, Enterprise for the Americas Initiative Act of 1991”; “, the NSC staff concurs with the Treasury proposed position paper regarding H.R. 4059. 02/24/92”; “Treasury PROPOSED POSITION PAPER RE: HR 4059, Enterprise for the Americas Initiative Act of”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "deal-chron-452050501",
@@ -26837,7 +26832,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: February 1992 [2]",
       "dateline": "February 1992 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 143,
@@ -26983,7 +26977,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “EX-IM Draft Bill to Amend the Export-Import Bank Act of 1945 (LRM #D-695)”; “EX-IM Draft Bill To amend the Export-Import Bank Act of 1945”; “EX-IM - Draft Bill To amend the Export-Import Bank Act of 1945”; “Fact Sheet for Multilateral Investment Fund Signing Ceremony”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "scowcroft-366551681",
@@ -26995,7 +26990,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Presidential Meetings—Memorandum of Conversations 2/1/92-2/27/92",
       "dateline": "February 1, 1992-February 27, 1992",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -27022,7 +27016,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The complete Scowcroft folder contains presidential memoranda of conversation or telephone conversations with substantive economic-policy OCR signals. Review each conversation separately and promote only the passages that bear directly on Volume XXX. Parallel-copy control: match each conversation to the Bush Library Memcons and Telcons index and its canonical NARA item before selection. A Scowcroft folder copy is not a second documentary entry. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-470761359",
@@ -27032,7 +27027,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 336—February 13, 1992—NSC/DC Meeting on Export Controls, Keywords: Export Controls",
       "dateline": "February 13, 1992",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 134,
@@ -27054,7 +27048,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The folder centers on export-control and licensing policy toward Iran and options for multilateral implementation. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761360",
@@ -27064,7 +27059,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 337—February 14, 1992—NSC/DC Meeting on Counternarcotics / San Antonio Summit, Keywords: Drugs, Latin America",
       "dateline": "February 14, 1992",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 123,
@@ -27086,7 +27080,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The summit packet includes strategies in the economic and financial areas and a review of U.S. economic assistance; route against the Latin America and counternarcotics volumes. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "deal-chron-452050502",
@@ -27098,7 +27093,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: March 1992 [1]",
       "dateline": "March 1992 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 109,
@@ -27276,7 +27270,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “RE: Brady-EAI I talked with Brady prior to the meeting (I was the best he could find, BS was”; “International Priorities and FY '92 Budget Action Following our meeting with the President on EAI and IMF”; “matter is dightly different, bruth letters dealt with us economic perspects and The General”; “IMF Quotas This is in response to your question about IMF quotas.”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "deal-chron-452050503",
@@ -27288,7 +27283,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: March 1992 [2]",
       "dateline": "March 1992 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 124,
@@ -27434,7 +27428,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Export Control Regulatory Reform (U) Attached are four papers on the export control topics suggested”; “Export Control Regulatory Reform (U) Your office has already been notified of the change in time of”; “Export Control Regulatory Reform REF: NSC Memo of March 3, 1992 (Same Subject)”; “Working Group on Export Control Regulatory Reform Attached pursuant to your request is suggested language for”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "scowcroft-366551682",
@@ -27446,7 +27441,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Presidential Meetings—Memorandum of Conversations 3/3/92-4/28/92",
       "dateline": "March 3, 1992-April 28, 1992",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -27474,7 +27468,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The complete Scowcroft folder contains presidential memoranda of conversation or telephone conversations with substantive economic-policy OCR signals. Review each conversation separately and promote only the passages that bear directly on Volume XXX. Parallel-copy control: match each conversation to the Bush Library Memcons and Telcons index and its canonical NARA item before selection. A Scowcroft folder copy is not a second documentary entry. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470761497",
@@ -27484,7 +27479,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Follow-Up File: DC Meeting-Iraq 3/11/92 4:30—5:30 Situation Room",
       "dateline": "March 11, 1992",
       "type": "NSC/Deputies Committee follow-up file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 14,
@@ -27505,7 +27499,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. This is the follow-up folder for the March 11 Iraq meeting. Review it with main meeting file NAID 470761362, which contains the frozen-assets, oil-proceeds, and UN-financing record, and retain only distinct items. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-follow-up",
-      "provenanceMethod": "Opening PDF provenance and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance and withdrawal sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470761362",
@@ -27515,7 +27510,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 339—March 11, 1992—NSC/DC Meeting on Iraq, Keywords: Iraq",
       "dateline": "March 11, 1992",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 166,
@@ -27537,7 +27531,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The Iraq meeting includes options for financing UN operations and using frozen Iraqi oil proceeds; route against the Gulf volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-492062480",
@@ -27556,7 +27551,6 @@ window.VOLUME_DATA = {
       "datePrecision": "day",
       "title": "Meeting with Mulford, Zoellick, and Hewitt on the Soviet Union",
       "type": "EPC/NSC file-unit lead",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Consider",
       "releaseStatus": "Online file unit",
       "localId": "CF01169–010",
@@ -27567,7 +27561,8 @@ window.VOLUME_DATA = {
         "Treasury",
         "State Department"
       ],
-      "notes": "File-unit lead. Audit the scan document by document before promoting any item to Source Note-ready status."
+      "notes": "File-unit lead. Audit the scan document by document before promoting any item to Source Note-ready status.",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-470761498",
@@ -27577,7 +27572,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Follow-Up File: DC Meeting-CIS Export of Technology/Proliferation",
       "dateline": "March 17, 1992",
       "type": "NSC/Deputies Committee follow-up file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 14,
@@ -27598,7 +27592,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The participant and appointment record establishes the otherwise undated March 17 meeting. Review it with main meeting file NAID 470761363 and avoid duplicating the substantive record. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-follow-up",
-      "provenanceMethod": "Opening PDF provenance and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance and withdrawal sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761363",
@@ -27608,7 +27603,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 340—March 17, 1992—NSC/DC Meeting on Combating Spread of Militarily Useful Technology FM Former Soviet Union, Keywords: Technology Transfers, USSR",
       "dateline": "March 17, 1992",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 55,
@@ -27630,7 +27624,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. This follow-up meeting records decisions on limiting the spread of militarily useful technology from the former Soviet Union. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761366",
@@ -27640,7 +27635,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 342—March 25, 1992—NSC/DC Meeting on Non-Proliferation Initiative, Keywords: Non-Proliferation",
       "dateline": "March 25, 1992",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 145,
@@ -27662,7 +27656,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The broad nonproliferation initiative includes export-control measures but may belong primarily in a security volume; retain it for item-level cross-volume review. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761502",
@@ -27672,7 +27667,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Follow-Up File: DC Meeting-Machine Tools 3/26/92 11:00 a.m. Situation Room",
       "dateline": "March 26, 1992",
       "type": "NSC/Deputies Committee follow-up file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 22,
@@ -27693,7 +27687,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The withdrawal sheet identifies Eric Melby's memorandum on the machine-tool VRA. Review it with main meeting file NAID 470761367. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-follow-up",
-      "provenanceMethod": "Opening PDF provenance and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance and withdrawal sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-470761367",
@@ -27703,7 +27698,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 343—May 26, 1992—NSC/DC Meeting on Machine Tool Voluntary Restraint Arrangements / VRA, Keywords: International Trade, Japan",
       "dateline": "March 26, 1992",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 105,
@@ -27725,7 +27719,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The meeting record reviews machine-tool VRAs, including Scowcroft and Treasury correspondence. Catalog coverage and the documents establish March 26, 1992; the folder title incorrectly says May 26. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-chron-452050504",
@@ -27737,7 +27732,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: April 1992 [1]",
       "dateline": "April 1992 [1] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 99,
@@ -27790,7 +27784,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “EX-IM Proposed Testimony on Export-Import Bank Reauthorization and Activities”; “EX-IM Proposed Testimony on Export-Import Bank Reauthorization and Activities (LRM #M-1011)”; “Oilseeds Determination: Recent Developments Ambassador Dobbins in Brussels and my deputy in Geneva, Rufus”; “OILSEEDS -- EC COMMISSION HOPES TO OFFER ART. 28 NEGOTIATIONS AT JUNE GATT COUNCIL REFTEL: STATE 135109, DOBBINS-EDSON TELECON”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-chron-452050505",
@@ -27802,7 +27797,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: April 1992 [2]",
       "dateline": "April 1992 [2] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 144,
@@ -27923,7 +27917,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Mozambique Oil Spill This is in response to your questions about the oil spill off”; “Export Control Regulatory Reform As discussed, attached at Tab I is a memorandum from Bill”; “Export Control Regulatory Reform (U) Attached for comment by DC Principals is a proposed excerpt on”; “EXPORT CONTROL REGULATORY REFORM”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-chron-452050506",
@@ -27935,7 +27930,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: April 1992 [3]",
       "dateline": "April 1992 [3] (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 92,
@@ -28073,7 +28067,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Richard T. McCormack ltr.; Obstacles to developing oil and gas resources in former Soviet Union SS #: 9205615”; “REQUESTS THE PRESIDENT'S ENDORSEMENT OF HIS EFFORT TO EXAMINE SOME OF THE REGULATORY AND BUREAUCRATIC OBSTACLES TO DEVELOP OIL AND GAS”; “Brady Talking Points McAllister and Shane ask that the attached talking point be added to Brady's points to make in Paris on aviation. This”; “NSC Deputies Committee Meeting on Export Control Regulatory Reform at 11:00 a.m. on Thursday,”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-470761503",
@@ -28083,7 +28078,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Follow-Up File: DC Meeting-Iraq and the Turkish Kurds 4/1/92 4:00-5:00 Situation Room",
       "dateline": "April 1, 1992",
       "type": "NSC/Deputies Committee follow-up file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 15,
@@ -28104,7 +28098,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The released routing text discusses Iraqi oil exports under UN Security Council Resolutions 706 and 712 to finance food and medicine; the withdrawal sheet also identifies a Riedel memorandum. Review it with main meeting file NAID 470761368. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-follow-up",
-      "provenanceMethod": "Opening PDF provenance and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance and withdrawal sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470761505",
@@ -28114,7 +28109,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Follow-Up File: DC Meeting-Export Controls 4/9/92 11:00-12:00 Situation Room",
       "dateline": "April 9, 1992",
       "type": "NSC/Deputies Committee follow-up file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 26,
@@ -28135,7 +28129,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The withdrawal sheet identifies Secret Deputies Committee minutes, issues for decision, and multiple export-control regulatory-reform reports. Review it with main meeting file NAID 470761369. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-follow-up",
-      "provenanceMethod": "Opening PDF provenance and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance and withdrawal sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761369",
@@ -28153,7 +28148,6 @@ window.VOLUME_DATA = {
       "date": "1992-04-09",
       "title": "NSC/DC 345—April 09, 1992—NSC/DC Meeting on Export Control Regulatory Reform, Keywords: Export Controls",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "localId": "90022–004",
@@ -28167,7 +28161,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The packet includes a summary of conclusions and issues papers for export-control regulatory reform. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "scowcroft-366551704",
@@ -28179,7 +28174,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Presidential Telephone Calls—Memorandum of Conversations 4/10/92-6/30/92",
       "dateline": "April 10, 1992-June 30, 1992",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -28206,7 +28200,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The complete Scowcroft folder contains presidential memoranda of conversation or telephone conversations with substantive economic-policy OCR signals. Review each conversation separately and promote only the passages that bear directly on Volume XXX. Parallel-copy control: match each conversation to the Bush Library Memcons and Telcons index and its canonical NARA item before selection. A Scowcroft folder copy is not a second documentary entry. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-470761506",
@@ -28216,7 +28211,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Follow-Up File: Restricted DC Meeting-Drugs/International Drug Strategy 11:00-12:00",
       "dateline": "April 15, 1992",
       "type": "NSC/Deputies Committee follow-up file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 26,
@@ -28237,7 +28231,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The opening sheets establish the April 15 meeting and identify a discussion paper, fully withheld Deputies Committee minutes, and related graphs. Route the principal record against the counternarcotics and regional volumes. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-follow-up",
-      "provenanceMethod": "Opening PDF provenance and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance and withdrawal sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470761507",
@@ -28247,7 +28242,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Follow-Up File: DC Meeting-Follow-om Export Controls 4/22/92 3:00-4:00 Situation Room",
       "dateline": "April 22, 1992",
       "type": "NSC/Deputies Committee follow-up file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 57,
@@ -28268,7 +28262,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. This is the implementation-rich follow-up folder for the April 22 export-control decisions, including agency responsibilities, reports, and an issues paper. Review it with main meeting files NAIDs 470761371 and 470761372 and deduplicate repeated papers. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-follow-up",
-      "provenanceMethod": "Opening PDF provenance and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance and withdrawal sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761371",
@@ -28286,7 +28281,6 @@ window.VOLUME_DATA = {
       "date": "1992-04-22",
       "title": "NSC/DC 347—April 22, 1992—NSC/DC Meeting on Export Control Regulatory Review, Keywords: Export Controls [1]",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "localId": "90022–006",
@@ -28300,7 +28294,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. Part 1 contains the April 22 briefing and reform papers on defense trade, industry concerns, and regulatory review. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761372",
@@ -28318,7 +28313,6 @@ window.VOLUME_DATA = {
       "date": "1992-04-22",
       "title": "NSC/DC 347—April 22, 1992—NSC/DC Meeting on Export Control Regulatory Review, Keywords: Export Controls [2]",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "localId": "90022–007",
@@ -28332,7 +28326,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. Part 2 contains implementation and follow-up records for the April 22 decisions; deduplicate repeated reform papers with part 1. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "deal-chron-452050507",
@@ -28344,7 +28339,6 @@ window.VOLUME_DATA = {
       "heading": "Timothy E. Deal Chronological File: Chron File: May 1992",
       "dateline": "May 1992 (folder-level chronology)",
       "type": "Timothy E. Deal chronological file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; sheet dispositions unresolved",
       "pageCount": 106,
@@ -28496,7 +28490,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. Begin with “Munich Economic Summit: Fourth Preparatory Meeting”; “Uruguay Round: Call from Feiter Feiter called this morning and asked that I pass on the following”; “Treasury Proposed Testimony on Tied Aid Credits”; “Treasury Proposed Testimony on Tied Aid Credits (LRM #M-1061)”. This is a month-level file lead, not a document-level inclusion claim. Split documents, verify terminal markings and current release status, and compare duplicate or parallel copies before promotion.",
       "withdrawalMetadataNote": "Inventory-sheet headers and individual withdrawal/redaction sheets are counted separately. No individual sheet says that a released-in-part copy follows; this does not establish present nonrelease.",
       "collectionId": "deal-chron",
-      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets"
+      "provenanceMethod": "Opening PDF provenance marker, complete PDF and OCR review, and disposition-aware individual withdrawal/redaction sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "scowcroft-366551683",
@@ -28508,7 +28503,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Presidential Meetings—Memorandum of Conversations 5/1/92-6/17/92",
       "dateline": "May 1, 1992-June 17, 1992",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -28535,7 +28529,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The complete Scowcroft folder contains presidential memoranda of conversation or telephone conversations with substantive economic-policy OCR signals. Review each conversation separately and promote only the passages that bear directly on Volume XXX. Parallel-copy control: match each conversation to the Bush Library Memcons and Telcons index and its canonical NARA item before selection. A Scowcroft folder copy is not a second documentary entry. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-470761510",
@@ -28545,7 +28540,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Follow-Up File: DC Meeting-Counternarcotics May 4, 1992 11:00-12:00 Situation Room",
       "dateline": "May 4, 1992",
       "type": "NSC/Deputies Committee follow-up file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 38,
@@ -28566,7 +28560,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The withdrawal sheets identify the summary of conclusions, a seven-page discussion paper, and an illustrative funding plan. Route principal records against the counternarcotics and regional volumes. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-follow-up",
-      "provenanceMethod": "Opening PDF provenance and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance and withdrawal sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470761376",
@@ -28576,7 +28571,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 350—May 05, 1992—NSC/DC Meeting on Non-Proliferation Policy, Keywords: Non-Proliferation",
       "dateline": "May 5, 1992",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 92,
@@ -28598,7 +28592,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The nonproliferation-policy packet includes agency export-control achievements and proposed initiatives; route principal security documents to the appropriate volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761512",
@@ -28608,7 +28603,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Follow-Up File: DC Meeting-Nuclear Reactor Saftey in Former Soviet Union May 13, 1992 4:00 Situation Room",
       "dateline": "May 13, 1992",
       "type": "NSC/Deputies Committee follow-up file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 37,
@@ -28629,7 +28623,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The withdrawal sheets identify the Poneman-Melby memorandum, a working paper on reactor safety in the NIS, and recommended U.S. actions. Review it with main meeting file NAID 470761377. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-follow-up",
-      "provenanceMethod": "Opening PDF provenance and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance and withdrawal sheets",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-470761377",
@@ -28647,7 +28642,6 @@ window.VOLUME_DATA = {
       "date": "1992-05-13",
       "title": "NSC/DC 351—May 13, 1992—NSC/DC Meeting on Safety of Soviet Designed Nuclear Reactors, Keywords: Nuclear Safeguards, Nuclear Energy, USSR",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "localId": "90022–012",
@@ -28661,7 +28655,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The minutes and working papers address financing and coordinating U.S. action on Soviet-designed reactor safety. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-452050631",
@@ -28679,7 +28674,6 @@ window.VOLUME_DATA = {
       "date": "1992-05-22",
       "title": "Munich Economic Summit Fourth Sherpa Meeting Briefing Book, May 22–24, 1992 [1]",
       "type": "Summit file-unit lead",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Consider",
       "releaseStatus": "Online file unit",
       "localId": "CF00973–009",
@@ -28690,7 +28684,8 @@ window.VOLUME_DATA = {
         "Briefing materials",
         "Document-boundary audit"
       ],
-      "notes": "Summit file-unit lead. Use the scan to identify decision memoranda, records of meetings, and briefing papers worth item-level treatment."
+      "notes": "Summit file-unit lead. Use the scan to identify decision memoranda, records of meetings, and briefing papers worth item-level treatment.",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "lead-470761520",
@@ -28700,7 +28695,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Follow-Up File: DC Meeting—Yugoslavia May 27, 1992 17:00—18:00 Situation Room",
       "dateline": "May 27, 1992",
       "type": "NSC/Deputies Committee follow-up file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 15,
@@ -28721,7 +28715,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The withdrawal sheet identifies a cable on sanctions against Serbian aggression in Bosnia. Review it with main meeting file NAID 470761381 and route the principal record against the Western Europe volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-follow-up",
-      "provenanceMethod": "Opening PDF provenance and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance and withdrawal sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761381",
@@ -28731,7 +28726,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 354—May 27, 1992—NSC/DC Meeting on Bosnia-Herzegovina and Macedonia, Keywords: Bosnia-Herzegovina, Macedonia",
       "dateline": "May 27, 1992",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 62,
@@ -28753,7 +28747,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The meeting weighs EC sanctions, asset freezes, export-credit and license restrictions, and oil or trade embargoes; route against the Western Europe volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470760971",
@@ -28763,7 +28758,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Meeting File: NSC0063—May 28, 1992—Haiti",
       "dateline": "May 28, 1992",
       "type": "NSC meeting file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Partly released",
       "pageCount": 64,
@@ -28786,7 +28780,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The file identifies an 11-page Secret NSC meeting record, an options paper, and a report on oil resupply after the Haitian coup. Review for sanctions-policy content while routing the principal record to the appropriate regional volume.",
       "collectionId": "nsc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761522",
@@ -28796,7 +28791,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Follow-Up File: DC—INMARSAT June 3, 1992 11:00—12:00 Room 208",
       "dateline": "June 3, 1992",
       "type": "NSC/Deputies Committee follow-up file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 27,
@@ -28817,7 +28811,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The withdrawal sheet identifies the Tobey memorandum, INMARSAT issue papers, launch conditions, and a draft Russian assurance. Review it with main meeting file NAID 470761383. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-follow-up",
-      "provenanceMethod": "Opening PDF provenance and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance and withdrawal sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761383",
@@ -28827,7 +28822,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 356—June 03, 1992—NSC/DC Meeting on Russian Bid to Launch Inmarsat Satellite, Keywords: Space Policy, Russia",
       "dateline": "June 3, 1992",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 73,
@@ -28849,7 +28843,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The minutes address a Russian commercial bid to launch an INMARSAT satellite and the remaining technology and policy issues. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761523",
@@ -28859,7 +28854,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Follow-Up File: DC Meeting—Yugoslavia June 4, 1992 11:00—12:00 Situation Room",
       "dateline": "June 4, 1992",
       "type": "NSC/Deputies Committee follow-up file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 16,
@@ -28880,7 +28874,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The withdrawal sheet identifies a four-page paper on humanitarian aid to Bosnia-Hercegovina. Route the principal record against the Western Europe volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-follow-up",
-      "provenanceMethod": "Opening PDF provenance and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance and withdrawal sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-446394987",
@@ -28890,7 +28885,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Review File: NSR-30—June 15, 1992—American Policy Toward Africa in the 1990s",
       "dateline": "June 15, 1992",
       "type": "National Security Review file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 37,
@@ -28911,7 +28905,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The directive and August response explicitly address structural adjustment, economic reform, agriculture, trade policy, private investment, the World Bank, OECD coordination, and economic integration. Route the regional policy record against the Africa volume while preserving the economic-policy sections for Volume XXX review. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsr",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470761526",
@@ -28921,7 +28916,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Follow-Up File: DC Meeting—Yugoslavia June 16, 1992 16:00—17:00 Situation Room",
       "dateline": "June 17, 1992",
       "type": "NSC/Deputies Committee follow-up file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 15,
@@ -28942,7 +28936,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The opening sheet identifies a memorandum on humanitarian aid to Bosnia and establishes June 17 as the meeting date, correcting the June 16 folder title. Route the principal record against the Western Europe volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-follow-up",
-      "provenanceMethod": "Opening PDF provenance and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance and withdrawal sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470761527",
@@ -28952,7 +28947,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Follow-Up File: DC Meeting—Yugoslavia June 24, 1992 15:00—16:00 Situation Room",
       "dateline": "June 24, 1992",
       "type": "NSC/Deputies Committee follow-up file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 15,
@@ -28973,7 +28967,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The withdrawal sheet identifies Holl's memorandum, an interagency meeting memorandum, and the agenda for humanitarian assistance to Bosnia. Route the principal record against the Western Europe volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-follow-up",
-      "provenanceMethod": "Opening PDF provenance and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance and withdrawal sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470761529",
@@ -28983,7 +28978,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Follow-Up File: DC—Iraq July 1, 1992 15:00—16:00 Situation Room",
       "dateline": "July 1, 1992",
       "type": "NSC/Deputies Committee follow-up file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 9,
@@ -29004,7 +28998,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The withdrawal sheet identifies Riedel's memorandum on sanctions enforcement. Route the principal record against the Gulf volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-follow-up",
-      "provenanceMethod": "Opening PDF provenance and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance and withdrawal sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "scowcroft-366551684",
@@ -29016,7 +29011,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Presidential Meetings—Memorandum of Conversations 7/1/92-7/9/92",
       "dateline": "July 1, 1992-July 9, 1992",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -29044,7 +29038,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The complete Scowcroft folder contains presidential memoranda of conversation or telephone conversations with substantive economic-policy OCR signals. Review each conversation separately and promote only the passages that bear directly on Volume XXX. Parallel-copy control: match each conversation to the Bush Library Memcons and Telcons index and its canonical NARA item before selection. A Scowcroft folder copy is not a second documentary entry. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "presidential-428082275",
@@ -29054,7 +29049,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum of Conversation",
       "dateline": "Tuesday, July 7, 1992, 9:40 a.m.-10:10 a.m.",
       "type": "Memcon",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Released",
       "pageCount": 4,
@@ -29075,7 +29069,8 @@ window.VOLUME_DATA = {
         "United Kingdom",
         "Japan"
       ],
-      "notes": "Presidential conversation selected from the Bush Library Memcons and Telcons index; substantive inclusion remains a compiler judgment."
+      "notes": "Presidential conversation selected from the Bush Library Memcons and Telcons index; substantive inclusion remains a compiler judgment.",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "presidential-428082277",
@@ -29085,7 +29080,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum of Conversation",
       "dateline": "Tuesday, July 7, 1992, 10:20 a.m.-12:30 p.m.",
       "type": "Memcon",
-      "chapter": "Economic Summits and Industrialized-Country Cooperation",
       "selection": "Core",
       "releaseStatus": "Released",
       "pageCount": 10,
@@ -29106,7 +29100,8 @@ window.VOLUME_DATA = {
         "United Kingdom",
         "Japan"
       ],
-      "notes": "Presidential conversation selected from the Bush Library Memcons and Telcons index; substantive inclusion remains a compiler judgment."
+      "notes": "Presidential conversation selected from the Bush Library Memcons and Telcons index; substantive inclusion remains a compiler judgment.",
+      "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
       "id": "presidential-428082281",
@@ -29116,7 +29111,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum of Conversation",
       "dateline": "Wednesday, July 8, 1992, 3:05 p.m.-5:40 p.m.",
       "type": "Memcon",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Released",
       "pageCount": 12,
@@ -29137,7 +29131,8 @@ window.VOLUME_DATA = {
         "United Kingdom",
         "Japan"
       ],
-      "notes": "Presidential conversation selected from the Bush Library Memcons and Telcons index; substantive inclusion remains a compiler judgment."
+      "notes": "Presidential conversation selected from the Bush Library Memcons and Telcons index; substantive inclusion remains a compiler judgment.",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "presidential-428082283",
@@ -29147,7 +29142,6 @@ window.VOLUME_DATA = {
       "heading": "Memorandum of Conversation",
       "dateline": "Wednesday, July 8, 1992, 9:20 a.m.-10:15 a.m.",
       "type": "Memcon",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Released",
       "pageCount": 4,
@@ -29168,7 +29162,8 @@ window.VOLUME_DATA = {
         "United Kingdom",
         "Japan"
       ],
-      "notes": "Presidential conversation selected from the Bush Library Memcons and Telcons index; substantive inclusion remains a compiler judgment."
+      "notes": "Presidential conversation selected from the Bush Library Memcons and Telcons index; substantive inclusion remains a compiler judgment.",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-446396904",
@@ -29178,7 +29173,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Directive File: NSD–70—July 10, 1992—U.S. Nonproliferation Policy",
       "dateline": "July 10, 1992",
       "type": "National Security Directive file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 101,
@@ -29199,7 +29193,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The nonproliferation directive includes export-control and supplier-regime policy. Route the principal security record against the arms-control volumes while retaining distinct strategic-trade decisions and implementation mechanisms. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsd",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "scowcroft-366551705",
@@ -29211,7 +29206,6 @@ window.VOLUME_DATA = {
       "heading": "Brent Scowcroft Collection File: Presidential Telephone Calls—Memorandum of Conversations 7/10/92-11/5/92",
       "dateline": "July 10, 1992-November 5, 1992",
       "type": "Brent Scowcroft collection file",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": null,
@@ -29237,7 +29231,8 @@ window.VOLUME_DATA = {
       "notes": "Direct Volume XXX review. The complete Scowcroft folder contains presidential memoranda of conversation or telephone conversations with substantive economic-policy OCR signals. Review each conversation separately and promote only the passages that bear directly on Volume XXX. Parallel-copy control: match each conversation to the Bush Library Memcons and Telcons index and its canonical NARA item before selection. A Scowcroft folder copy is not a second documentary entry. Promote an individual document only after checking its heading, dateline, terminal classification, release status, exact extent, and controlling copy in the source images.",
       "seriesTitle": "Presidential Correspondence Files",
       "collectionId": "scowcroft",
-      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR"
+      "provenanceMethod": "Opening PDF provenance marker and complete collection OCR",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-470761532",
@@ -29247,7 +29242,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Follow-Up File: DC—Counternarcotics -- Colombia July 16, 1992 11:00—12:00 Situation Room",
       "dateline": "July 16, 1992",
       "type": "NSC/Deputies Committee follow-up file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 31,
@@ -29268,7 +29262,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The withdrawal sheet identifies a 16-page Colombia initiatives report plus papers on funding requirements and potential funding sources. Route principal records against the Latin America and counternarcotics volumes. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-follow-up",
-      "provenanceMethod": "Opening PDF provenance and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance and withdrawal sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470761533",
@@ -29278,7 +29273,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Follow-Up File: DC Meeting—Yugoslavia July 17, 1992 3:00—4:00 Situation Room",
       "dateline": "July 16, 1992",
       "type": "NSC/Deputies Committee follow-up file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 16,
@@ -29299,7 +29293,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The opening sheet establishes July 16 as the meeting date, correcting the July 17 folder title, and identifies a paper on the U.S. response to the crisis in Bosnia. Route the principal record against the Western Europe volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-follow-up",
-      "provenanceMethod": "Opening PDF provenance and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance and withdrawal sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470761538",
@@ -29309,7 +29304,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Follow-Up File: DC Meeting—Somalia September 4, 1992 16:00—17:00 Situation Room",
       "dateline": "September 4, 1992",
       "type": "NSC/Deputies Committee follow-up file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 23,
@@ -29330,7 +29324,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The withdrawal sheet identifies a Pearson memorandum to Scowcroft, a humanitarian-relief paper, and a nine-page review of relief programs. Route the principal record against the Africa volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-follow-up",
-      "provenanceMethod": "Opening PDF provenance and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance and withdrawal sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470761540",
@@ -29340,7 +29335,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Follow-Up File: DC Meeting—Yugoslavia September 11, 1992 16:00—17:00 Situation Room",
       "dateline": "September 11, 1992",
       "type": "NSC/Deputies Committee follow-up file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 27,
@@ -29361,7 +29355,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. This is the follow-up folder for the September 11 Yugoslavia meeting. Review it with main meeting file NAID 470761411, where the economic evidence includes sanctions enforcement and oil and gas controls, and retain only distinct items. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-follow-up",
-      "provenanceMethod": "Opening PDF provenance and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance and withdrawal sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761411",
@@ -29371,7 +29366,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 376—September 11, 1992—NSC/DC Meeting on Yugoslavia, Keywords: Yugoslavia",
       "dateline": "September 11, 1992",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 82,
@@ -29393,7 +29387,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The September work program combines sanctions enforcement, oil and gas controls, and humanitarian priorities; route against the Western Europe volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761543",
@@ -29403,7 +29398,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Follow-Up File: DC Meeting—Somalia September 28, 1992 11:00—12:00 Situation Room",
       "dateline": "September 28, 1992",
       "type": "NSC/Deputies Committee follow-up file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 17,
@@ -29424,7 +29418,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The withdrawal sheet identifies Ordway's memorandum, a PCC summary, and a paper on shifting relief delivery from U.S. military airlift to a civilian system. Route the principal record against the Africa volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-follow-up",
-      "provenanceMethod": "Opening PDF provenance and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance and withdrawal sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470761544",
@@ -29434,7 +29429,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Follow-Up File: DC Meeting—Yugoslavia October 1, 1992 2:00—3:00 Situation Room",
       "dateline": "October 1, 1992",
       "type": "NSC/Deputies Committee follow-up file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 29,
@@ -29455,7 +29449,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The withdrawal sheet identifies extensive papers on Serbia sanctions, enforcement, diversion of natural gas to Bosnia, and the effectiveness of UN sanctions. Review it with main meeting file NAID 470761415. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-follow-up",
-      "provenanceMethod": "Opening PDF provenance and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance and withdrawal sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761415",
@@ -29465,7 +29460,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 380—October 01, 1992—NSC/DC Meeting on Yugoslavia, Keywords: Yugoslavia",
       "dateline": "October 1, 1992",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 108,
@@ -29487,7 +29481,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The October 1 packet evaluates the effectiveness and enforcement of UN sanctions, including trade, asset, financial, aviation, and transit controls. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761546",
@@ -29497,7 +29492,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Follow-Up File: DC Meeting—Yugoslavia October 7, 1992 16:30—17:30 Situation Room",
       "dateline": "October 7, 1992",
       "type": "NSC/Deputies Committee follow-up file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 16,
@@ -29518,7 +29512,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The withdrawal sheet identifies a two-page humanitarian-relief report. Route the principal record against the Western Europe volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-follow-up",
-      "provenanceMethod": "Opening PDF provenance and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance and withdrawal sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470761549",
@@ -29528,7 +29523,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Follow-Up File: DC Meeting—Somalia October 21, 1992 14:00—15:00 Situation Room",
       "dateline": "October 21, 1992",
       "type": "NSC/Deputies Committee follow-up file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 25,
@@ -29549,7 +29543,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The folder covers the military-to-civilian relief transition and includes a withdrawn paper on monetizing relief food. Review it with main meeting file NAID 470761420 and route the principal record against the Africa volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-follow-up",
-      "provenanceMethod": "Opening PDF provenance and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance and withdrawal sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470761420",
@@ -29559,7 +29554,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 385—October 21, 1992—NSC/DC Meeting on Somalia, Keywords: Somalia",
       "dateline": "October 21, 1992",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 93,
@@ -29581,7 +29575,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The Somalia packet considers monetization of relief food, commercial airlift, and AID and Defense financing; route against the Africa volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-470761551",
@@ -29591,7 +29586,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Follow-Up File: DC—Iran Export Controls November 5, 1992 11:00—12:00 Situation Room",
       "dateline": "November 5, 1992",
       "type": "NSC/Deputies Committee follow-up file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 23,
@@ -29612,7 +29606,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The withdrawal sheet identifies the follow-up memorandum, Bonn export-control telegram, defense rationale, and G-7 export-control initiative. Review it with main meeting files NAIDs 470761423 and 470761424. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-follow-up",
-      "provenanceMethod": "Opening PDF provenance and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance and withdrawal sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761423",
@@ -29622,7 +29617,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 388—November 05, 1992—NSC/DC Meeting on Iran and COCOM Cooperative Forum, Keywords: Iran, COCOM [1]",
       "dateline": "November 5, 1992",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 53,
@@ -29644,7 +29638,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. Part 1 contains follow-up records and a draft cable to G-7 partners on Iran export controls and the COCOM Cooperation Forum. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761424",
@@ -29654,7 +29649,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 388—November 05, 1992—NSC/DC Meeting on Iran and COCOM Cooperative Forum, Keywords: Iran, COCOM [2]",
       "dateline": "November 5, 1992",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 50,
@@ -29676,7 +29670,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. Part 2 includes the G-7 export-control initiative, unilateral Iran controls, and an export-control assistance plan; compare it with part 1. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761552",
@@ -29686,7 +29681,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Follow-Up File: DC—Russia November 6, 1992 11:00—12:00 Situation Room",
       "dateline": "November 6, 1992",
       "type": "NSC/Deputies Committee follow-up file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 17,
@@ -29707,7 +29701,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The withdrawal sheet identifies papers on the IMF and Russian reform, the U.S. response to Russia, and a Hewett-Burns memorandum to Howe. Review it with main meeting file NAID 470761425. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-follow-up",
-      "provenanceMethod": "Opening PDF provenance and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance and withdrawal sheets",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-470761425",
@@ -29717,7 +29712,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 389—November 06, 1992—NSC/DC Meeting on U.S. Policy toward Russia, Keywords: Russia, Economic Assistance, IMF",
       "dateline": "November 6, 1992",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Transition Economies and International Economic Strategy",
       "selection": "Core",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 43,
@@ -29739,7 +29733,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Direct Volume XXX review. The meeting packet includes papers on the IMF and Russian reform and the U.S. response to Russia's economic and political situation. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Transition Economies and International Economic Strategy"
     },
     {
       "id": "lead-470761427",
@@ -29749,7 +29744,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Meeting File: NSC/DC 391—November 10, 1992—Small Group Meeting on Yugoslavia, Keywords: Yugoslavia Bosnia-Herzegovina",
       "dateline": "November 10, 1992",
       "type": "NSC/Deputies Committee file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 102,
@@ -29771,7 +29765,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The small-group packet combines Serbia-sanctions enforcement, a sanctions-assistance mission, and Kosovo policy; route against the Western Europe volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-meetings",
-      "provenanceMethod": "Opening PDF provenance sheet"
+      "provenanceMethod": "Opening PDF provenance sheet",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-446396909",
@@ -29781,7 +29776,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Directive File: NSD–74—November 24, 1992—Peacekeeping and Humanitarian Relief Policy",
       "dateline": "November 24, 1992",
       "type": "National Security Directive file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 68,
@@ -29802,7 +29796,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The peacekeeping and humanitarian-relief policy bears on financing, assistance authorities, and international burden sharing. Route the principal policy record outside Volume XXX while retaining discrete resource and institutional decisions for adjudication. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsd",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-446396910",
@@ -29812,7 +29807,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Directive File: NSD–75—December 23, 1992—American Policy toward Sub-Saharan Africa in the 1990s",
       "dateline": "December 23, 1992",
       "type": "National Security Directive file",
-      "chapter": "Monetary Policy, Debt, and International Institutions",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 57,
@@ -29833,7 +29827,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The Africa directive directly addresses trade and investment, the Uruguay Round and GSP, debt and Paris Club policy, international financial institutions, aid, and structural reform. Route the regional strategy against the Africa volume while preserving distinct foreign-economic sections for Volume XXX review. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsd",
-      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance marker and withdrawal sheets",
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "lead-492062479",
@@ -29852,7 +29847,6 @@ window.VOLUME_DATA = {
       "datePrecision": "year",
       "title": "NAFTA [1992]",
       "type": "EPC/NSC file-unit lead",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Boundary",
       "releaseStatus": "Online file unit",
       "localId": "CF01169–009",
@@ -29862,7 +29856,8 @@ window.VOLUME_DATA = {
         "NAFTA",
         "Volume XXXIII boundary"
       ],
-      "notes": "File-unit lead. Audit the scan document by document before promoting any item to Source Note-ready status."
+      "notes": "File-unit lead. Audit the scan document by document before promoting any item to Source Note-ready status.",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-492061798",
@@ -29881,7 +29876,6 @@ window.VOLUME_DATA = {
       "datePrecision": "year",
       "title": "Uruguay Round Strategy",
       "type": "File-unit lead",
-      "chapter": "Trade Policy and Market Access",
       "selection": "Core",
       "releaseStatus": "Online file unit",
       "localId": "94001–005",
@@ -29891,7 +29885,8 @@ window.VOLUME_DATA = {
         "Uruguay Round",
         "Trade strategy"
       ],
-      "notes": "File-unit lead. Item-level headings, datelines, Source Notes, and page extents await source-image review."
+      "notes": "File-unit lead. Item-level headings, datelines, Source Notes, and page extents await source-image review.",
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "lead-470761567",
@@ -29901,7 +29896,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Follow-Up File: DC Meeting—Yugoslavia 1/6/93 4:00",
       "dateline": "January 6, 1993",
       "type": "NSC/Deputies Committee follow-up file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 25,
@@ -29922,7 +29916,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The withdrawal sheet identifies papers on funding sanctions-enforcement assistance, budget estimates, technical-assistance requests, and new sanctions. The January 1993 date places this at the volume boundary. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-follow-up",
-      "provenanceMethod": "Opening PDF provenance and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance and withdrawal sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761568",
@@ -29932,7 +29927,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Follow-Up File: DC Meeting 1/8/93",
       "dateline": "January 8, 1993",
       "type": "NSC/Deputies Committee follow-up file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 12,
@@ -29953,7 +29947,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The released meeting notice identifies export-licensing issues involving missile proliferation and space-launch vehicles. The January 1993 date and security emphasis require cross-volume adjudication. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-follow-up",
-      "provenanceMethod": "Opening PDF provenance and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance and withdrawal sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     },
     {
       "id": "lead-470761570",
@@ -29963,7 +29958,6 @@ window.VOLUME_DATA = {
       "heading": "National Security Council Deputies Committee Follow-Up File: DC Meeting—Yugoslavia 1/14/93 11:00",
       "dateline": "January 14, 1993",
       "type": "NSC/Deputies Committee follow-up file",
-      "chapter": "Strategic Trade, Technology, and Investment Controls",
       "selection": "Boundary",
       "releaseStatus": "Online file unit; item audit pending",
       "pageCount": 10,
@@ -29984,7 +29978,8 @@ window.VOLUME_DATA = {
       ],
       "notes": "Boundary review. The withdrawal sheet identifies options for funding a State-proposed $1.8 million sanctions-enforcement add-on. The January 1993 date places this at the volume boundary. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images.",
       "collectionId": "nsc-dc-follow-up",
-      "provenanceMethod": "Opening PDF provenance and withdrawal sheets"
+      "provenanceMethod": "Opening PDF provenance and withdrawal sheets",
+      "subjectArea": "Strategic Trade, Technology, and Investment Controls"
     }
   ],
   "nscCollections": [
@@ -147954,14 +147949,14 @@ window.VOLUME_DATA = {
       "id": "gap-ustr",
       "priority": "Critical",
       "title": "USTR central and negotiator files are not yet systematically harvested",
-      "scope": "Trade chapter",
+      "scope": "Trade-policy records",
       "action": "Survey USTR accession lists and identify negotiating files for the Uruguay Round, Japan, Section 301, and fast-track decisions."
     },
     {
       "id": "gap-treasury",
       "priority": "Critical",
       "title": "Treasury and Secretary Brady international files remain underrepresented",
-      "scope": "Monetary, debt, and institutions chapter",
+      "scope": "Monetary, debt, and institutions records",
       "action": "Use the Brady burden-sharing memorandum and Robson Egypt-debt transmittal now recovered in CF00946-002 as anchors, then build an item-level register for debt strategy, exchange rates, G-5/G-7 finance, IMF, World Bank, and transition-finance decisions."
     },
     {
@@ -147975,14 +147970,14 @@ window.VOLUME_DATA = {
       "id": "gap-state-zoellick",
       "priority": "Critical",
       "title": "Department of State economic-policy files need a full lot-file sweep",
-      "scope": "All chapters",
+      "scope": "Whole chronology",
       "action": "Prioritize Lot 96D484 (Robert Zoellick), Baker papers, and the Central Foreign Policy File P-, D-, and N-reels."
     },
     {
       "id": "gap-cables",
       "priority": "High",
       "title": "Decision-shaping cables and reporting telegrams are not represented",
-      "scope": "All chapters",
+      "scope": "Whole chronology",
       "action": "Search the Central Foreign Policy File for instructions, reporting, and negotiation records tied to each core decision cluster."
     },
     {
@@ -148028,5 +148023,5 @@ window.VOLUME_DATA = {
       "action": "Use the 104-item Deal Summit inventory, the 142-entry Deal-Reiss disposition ledger, and the 697-item Deal Chronological ledger as structured baselines. Preserve exemption, extent, review status, and whether a released-in-part copy follows; do not infer current nonrelease from a historical withdrawal/redaction sheet alone."
     }
   ],
-  "generatedAt": "2026-09-01T07:22:17.066Z"
+  "generatedAt": "2026-09-01T07:32:12.474Z"
 };

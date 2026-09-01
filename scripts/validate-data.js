@@ -8,15 +8,20 @@ const data = JSON.parse(fs.readFileSync(path.join(root, "data/volume.json"), "ut
 const errors = [];
 const warnings = [];
 
-const chapterNames = new Set(data.chapters.map((chapter) => chapter.name));
+if (!Array.isArray(data.subjectAreas) || data.subjectAreas.length !== 5) errors.push("Subject-area metadata is missing");
+if (Object.hasOwn(data, "chapters")) errors.push("Topical chapter structure must not appear in the volume data");
+if (!/one continuous chronology/i.test(data.meta.scopeNote || "")) errors.push("Single-chronology arrangement note is missing");
+
+const subjectAreaNames = new Set(data.subjectAreas.map((area) => area.name));
 const ids = new Set();
 
 for (const record of data.records) {
   if (ids.has(record.id)) errors.push(`Duplicate record id: ${record.id}`);
   ids.add(record.id);
 
+  if (Object.hasOwn(record, "chapter")) errors.push(`${record.id}: structural chapter field leaked into the chronology`);
   if (!/^\d{4}-\d{2}-\d{2}$/.test(record.date)) errors.push(`${record.id}: invalid date ${record.date}`);
-  if (!chapterNames.has(record.chapter)) errors.push(`${record.id}: unknown chapter ${record.chapter}`);
+  if (!subjectAreaNames.has(record.subjectArea)) errors.push(`${record.id}: unknown subject area ${record.subjectArea}`);
   if (!record.title || !record.heading || !record.dateline) errors.push(`${record.id}: missing title, heading, or dateline`);
   if (!record.catalogUrl?.startsWith("https://catalog.archives.gov/id/")) errors.push(`${record.id}: missing official Catalog URL`);
   if (record.pdfUrl && !record.pdfUrl.startsWith("https://catalog.archives.gov/medialz/")) errors.push(`${record.id}: nonofficial PDF URL`);
@@ -726,15 +731,15 @@ if (!dealChron) {
   if (dealChron.fileUnits.filter((row) => row.routing === "Volume XXX review").length !== 76 || dealChron.fileUnits.filter((row) => row.routing === "Selective review").length !== 20) {
     errors.push("Deal Chronological file-level routing counts changed");
   }
-  const chapterCounts = Object.fromEntries(data.chapters.map((chapter) => [chapter.name, dealChron.fileUnits.filter((row) => row.chapter === chapter.name).length]));
+  const subjectAreaCounts = Object.fromEntries(data.subjectAreas.map((area) => [area.name, dealChron.fileUnits.filter((row) => row.chapter === area.name).length]));
   if (
-    chapterCounts["Trade Policy and Market Access"] !== 36 ||
-    chapterCounts["Monetary Policy, Debt, and International Institutions"] !== 28 ||
-    chapterCounts["Economic Summits and Industrialized-Country Cooperation"] !== 13 ||
-    chapterCounts["Transition Economies and International Economic Strategy"] !== 15 ||
-    chapterCounts["Strategic Trade, Technology, and Investment Controls"] !== 4
+    subjectAreaCounts["Trade Policy and Market Access"] !== 36 ||
+    subjectAreaCounts["Monetary Policy, Debt, and International Institutions"] !== 28 ||
+    subjectAreaCounts["Economic Summits and Industrialized-Country Cooperation"] !== 13 ||
+    subjectAreaCounts["Transition Economies and International Economic Strategy"] !== 15 ||
+    subjectAreaCounts["Strategic Trade, Technology, and Investment Controls"] !== 4
   ) {
-    errors.push("Deal Chronological chapter routing counts changed");
+    errors.push("Deal Chronological subject-area routing counts changed");
   }
   const rawHeaders = dealChron.fileUnits.reduce((total, row) => total + row.rawWithdrawalSheetHeaderCount, 0);
   const inventoryHeaders = dealChron.fileUnits.reduce((total, row) => total + row.withdrawalInventoryHeaderCount, 0);

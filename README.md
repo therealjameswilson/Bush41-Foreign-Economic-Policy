@@ -2,11 +2,11 @@
 
 An independent FRUS compiler workbench for **Foreign Relations of the United States, 1989-1992, Volume XXX, Foreign Economic Policy**.
 
-The official volume is currently [Being Researched](https://history.state.gov/historicaldocuments/frus1989-92v30), and the Office of the Historian has not published a table of contents. The site's five chapters are therefore a provisional working arrangement.
+The official volume is currently [Being Researched](https://history.state.gov/historicaldocuments/frus1989-92v30). This workbench arranges every proposed document in one continuous chronology. Subject-area metadata supports search and archival screening only; it does not divide the volume into topical chapters.
 
 ## What is in the workbench
 
-- A global chronology of released documents, withdrawn items, meeting packets, and file-unit leads.
+- A single global chronology of released documents, withdrawn items, meeting packets, and file-unit leads.
 - Source-image-checked FRUS-style Source Notes kept distinct from drafts and archival locators.
 - Copy-ready heading, dateline, and provenance blocks for each candidate.
 - Exact page extents for separately identified withheld records and the withdrawal ledger in NSC0030.
@@ -35,15 +35,9 @@ The first page of each PDF is treated as the provenance authority, with discrepa
 
 Scowcroft locators use the collection naming and archival order found in a [published FRUS Source Note](https://history.state.gov/historicaldocuments/frus1989-92v31/d38): George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, series, subseries where supplied, OA/ID, and folder. They are deliberately not presented as final Source Notes until a compiler verifies an individual document's heading, dateline, terminal classification, release status, exact extent, and controlling copy.
 
-## Chapter plan
+## Chronological arrangement
 
-1. Trade Policy and Market Access
-2. Monetary Policy, Debt, and International Institutions
-3. Economic Summits and Industrialized-Country Cooperation
-4. Transition Economies and International Economic Strategy
-5. Strategic Trade, Technology, and Investment Controls
-
-NAFTA and the central Canada/Mexico record are retained in a boundary queue because they belong primarily to FRUS Volume XXXIII.
+The prospective volume is presented as one date-ordered sequence for 1989-1992. Searchable subject areas and topic tags remain attached to records as research metadata, but they do not create chapters, separate chronologies, or topical document groups. NAFTA and the central Canada/Mexico record remain identified for cross-volume routing because they belong primarily to FRUS Volume XXXIII.
 
 ## Build and validate
 

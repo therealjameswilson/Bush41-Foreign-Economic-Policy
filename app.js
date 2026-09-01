@@ -8,14 +8,12 @@ const elements = {
   recordsRoot: document.querySelector("#records-root"),
   recordsSummary: document.querySelector("#records-summary"),
   search: document.querySelector("#record-search"),
-  chapter: document.querySelector("#chapter-filter"),
   type: document.querySelector("#type-filter"),
   release: document.querySelector("#release-filter"),
   sourceNote: document.querySelector("#source-note-filter"),
   selection: document.querySelector("#selection-filter"),
   clear: document.querySelector("#clear-filters"),
   downloadFiltered: document.querySelector("#download-filtered"),
-  chapterGrid: document.querySelector("#chapter-grid"),
   compilerMetrics: document.querySelector("#compiler-metrics"),
   sourceGrid: document.querySelector("#source-grid"),
   gapRoot: document.querySelector("#gap-root"),
@@ -59,7 +57,6 @@ initialize();
 function initialize() {
   renderStats();
   populateFilters();
-  renderChapters();
   renderCompilerMetrics();
   renderNscCollectionTabs();
   renderNscCollection();
@@ -68,8 +65,6 @@ function initialize() {
   renderPublicReferences(data.publicReferences);
   renderRecords(data.records);
   bindEvents();
-  document.querySelector("#chapter-scope-note").textContent = data.meta.scopeNote;
-  document.querySelector("#boundary-note").textContent = data.meta.boundaryNote;
 }
 
 function renderStats() {
@@ -90,7 +85,6 @@ function setText(selector, value) {
 }
 
 function populateFilters() {
-  addOptions(elements.chapter, data.chapters.map((chapter) => chapter.name), "All chapters");
   addOptions(elements.type, unique(data.records.map((record) => record.type)), "All record types");
   addOptions(elements.release, unique(data.records.map((record) => record.releaseStatus)), "All release states");
   addOptions(elements.sourceNote, ["verified", "draft", "locator"], "All Source Note states", sourceNoteLabel);
@@ -103,7 +97,7 @@ function populateNscFilters() {
   if (!activeNscCollection) return;
   const signalOptions = ["high-level", "president", "scowcroft", "conversation", "meeting", "withdrawal"];
   if (activeNscCollection.fileUnits.some((row) => row.economicSignals?.total >= 20)) signalOptions.unshift("economic");
-  addOptions(elements.nscChapter, unique(activeNscCollection.fileUnits.map((row) => row.chapter)), "All chapters");
+  addOptions(elements.nscChapter, unique(activeNscCollection.fileUnits.map((row) => row.chapter)), "All subject areas");
   addOptions(elements.nscRouting, unique(activeNscCollection.fileUnits.map((row) => row.routing)), "All routing states");
   addOptions(elements.nscMarker, unique(activeNscCollection.fileUnits.map((row) => row.markerStatus)), "All marker states", markerLabel);
   addOptions(
@@ -130,12 +124,12 @@ function unique(values) {
 }
 
 function bindEvents() {
-  [elements.search, elements.chapter, elements.type, elements.release, elements.sourceNote, elements.selection].forEach((control) => {
+  [elements.search, elements.type, elements.release, elements.sourceNote, elements.selection].forEach((control) => {
     control.addEventListener(control.tagName === "INPUT" ? "input" : "change", updateRecords);
   });
 
   elements.clear.addEventListener("click", () => {
-    [elements.search, elements.chapter, elements.type, elements.release, elements.sourceNote, elements.selection].forEach((control) => {
+    [elements.search, elements.type, elements.release, elements.sourceNote, elements.selection].forEach((control) => {
       control.value = "";
     });
     updateRecords();
@@ -162,11 +156,6 @@ function bindEvents() {
   });
   elements.nscDownloadFiltered?.addEventListener("click", downloadFilteredNscCsv);
 
-  document.querySelector("#show-boundary").addEventListener("click", () => {
-    elements.selection.value = "Boundary";
-    updateRecords();
-    document.querySelector("#chronology").scrollIntoView({ behavior: "smooth" });
-  });
 }
 
 function updateRecords() {
@@ -174,7 +163,6 @@ function updateRecords() {
   filteredRecords = data.records.filter((record) => {
     return (
       (!query || recordSearchText(record).includes(query)) &&
-      (!elements.chapter.value || record.chapter === elements.chapter.value) &&
       (!elements.type.value || record.type === elements.type.value) &&
       (!elements.release.value || record.releaseStatus === elements.release.value) &&
       (!elements.sourceNote.value || record.sourceNoteStatus === elements.sourceNote.value) &&
@@ -190,7 +178,7 @@ function recordSearchText(record) {
     record.heading,
     record.dateline,
     record.type,
-    record.chapter,
+    record.subjectArea,
     record.selection,
     record.releaseStatus,
     record.classification,
@@ -293,7 +281,6 @@ function createRecordRow(record, idPrefix = "") {
   const meta = document.createElement("div");
   meta.className = "record-meta";
   [
-    record.chapter,
     record.type,
     record.selection,
     record.releaseStatus,
@@ -545,29 +532,6 @@ function showToast(message) {
   elements.toast.textContent = message;
   elements.toast.classList.add("toast-visible");
   toastTimeout = window.setTimeout(() => elements.toast.classList.remove("toast-visible"), 1800);
-}
-
-function renderChapters() {
-  elements.chapterGrid.replaceChildren();
-  data.chapters.forEach((chapter) => {
-    const count = data.records.filter((record) => record.chapter === chapter.name).length;
-    const core = data.records.filter((record) => record.chapter === chapter.name && record.selection === "Core").length;
-    const card = document.createElement("a");
-    card.className = "chapter-card";
-    card.href = "#chronology";
-    card.innerHTML = `
-      <p class="chapter-number">Chapter ${chapter.number}</p>
-      <h3>${escapeHtml(chapter.name)}</h3>
-      <p>${escapeHtml(chapter.description)}</p>
-      <p class="chapter-count">${count} candidates; ${core} core</p>
-      <span class="chapter-action">Open chronology</span>
-    `;
-    card.addEventListener("click", () => {
-      elements.chapter.value = chapter.name;
-      updateRecords();
-    });
-    elements.chapterGrid.append(card);
-  });
 }
 
 function renderCompilerMetrics() {
@@ -1026,7 +990,7 @@ function renderPublicReferences(records) {
 }
 
 function downloadFilteredCsv() {
-  const fields = ["id", "date", "title", "heading", "dateline", "type", "chapter", "selection", "releaseStatus", "pageCount", "withheldPages", "classification", "naid", "localId", "sourceNoteStatus", "sourceNote", "archivalLocator", "catalogUrl", "pdfUrl"];
+  const fields = ["id", "date", "title", "heading", "dateline", "type", "subjectArea", "selection", "releaseStatus", "pageCount", "withheldPages", "classification", "naid", "localId", "sourceNoteStatus", "sourceNote", "archivalLocator", "catalogUrl", "pdfUrl"];
   const csv = [
     fields.map(csvCell).join(","),
     ...filteredRecords.map((record) => fields.map((field) => csvCell(record[field])).join(",")),
@@ -1045,7 +1009,7 @@ function downloadFilteredNscCsv() {
     "localId",
     "seriesNaid",
     "seriesTitle",
-    "chapter",
+    "subjectArea",
     "selection",
     "routing",
     "markerStatus",
@@ -1091,6 +1055,7 @@ function downloadFilteredNscCsv() {
   ];
   const rows = filteredNscFileUnits.map((row) => ({
     ...row,
+    subjectArea: row.chapter,
     ...row.reviewSignals,
     economicSignalTotal: row.economicSignals?.total ?? "",
     economySignals: row.economicSignals?.economy ?? "",

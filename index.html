@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta
       name="description"
-      content="A provisional FRUS compiler workbench for Foreign Relations of the United States, 1989-1992, Volume XXX, Foreign Economic Policy."
+      content="A single-chronology FRUS compiler workbench for Foreign Relations of the United States, 1989-1992, Volume XXX, Foreign Economic Policy."
     >
     <meta name="theme-color" content="#163a59">
     <title>Foreign Economic Policy, 1989-1992 | FRUS Compiler Workbench</title>
     <link rel="icon" href="assets/foreign-economic-policy-map.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css?v=20260901-gates-middle-east-2">
+    <link rel="stylesheet" href="styles.css?v=20260901-single-chronology-2">
   </head>
   <body>
     <a class="skip-link" href="#chronology">Skip to chronology</a>
@@ -22,7 +22,6 @@
       </a>
       <nav aria-label="Primary navigation">
         <a href="#chronology">Chronology</a>
-        <a href="#chapters">Chapters</a>
         <a href="#nsc-files">Collections</a>
         <a href="#compiler">Compiler Desk</a>
         <a href="#public-record">Public Record</a>
@@ -37,14 +36,14 @@
           <p class="kicker">FRUS 1989-1992, Volume XXX</p>
           <h1 id="hero-title">Foreign Economic Policy</h1>
           <p class="lede">
-            <span class="lede-desktop">A provisional, evidence-first register for documentary selection: presidential conversations,
+            <span class="lede-desktop">One continuous, evidence-first chronology for documentary selection: presidential conversations,
             economic-policy memoranda, NSC and Deputies Committee files, summit records, withdrawn items,
             and high-value archival leads.</span>
-            <span class="lede-mobile">A provisional, evidence-first register of internal and public records for compiler review.</span>
+            <span class="lede-mobile">One continuous, evidence-first chronology of internal and public records for compiler review.</span>
           </p>
           <div class="hero-status" role="group" aria-label="Project status">
             <span class="status-stamp">Being Researched</span>
-            <span class="status-stamp status-stamp-neutral">Provisional chapter plan</span>
+            <span class="status-stamp status-stamp-neutral">Single chronological sequence</span>
           </div>
           <div class="hero-actions" role="group" aria-label="Primary actions">
             <a class="button primary" href="#chronology">Open Chronology</a>
@@ -74,7 +73,7 @@
               </div>
               <div>
                 <dt>Arrangement</dt>
-                <dd>Five provisional chapters</dd>
+                <dd>One continuous chronology</dd>
               </div>
               <div>
                 <dt>Boundary control</dt>
@@ -111,24 +110,21 @@
       <section class="section records-section chronology-section" id="chronology" aria-labelledby="chronology-title">
         <div class="section-heading">
           <div>
-            <p class="kicker">First Working Section</p>
-            <h2 id="chronology-title">Declassified Document Chronology</h2>
+            <p class="kicker">Volume Arrangement</p>
+            <h2 id="chronology-title">Document Chronology</h2>
           </div>
           <span class="status-stamp">Compiler register</span>
         </div>
         <p class="records-intro">
-          Released items, withdrawn documents, meeting packets, and file-unit leads appear in one date-ordered
-          register. Year-only file titles sort at the end of their stated year and are labeled accordingly.
+          The prospective volume appears as one uninterrupted date-ordered sequence. Released items, withdrawn
+          documents, meeting packets, and file-unit leads remain together; subject terms support search but do not
+          form chapters or topical sections. Year-only file titles sort at the end of their stated year.
         </p>
 
         <div class="records-tools" role="search" aria-label="Chronology filters">
           <label class="search-field">
             <span>Search</span>
             <input id="record-search" type="search" placeholder="Title, topic, person, OA/ID, NAID">
-          </label>
-          <label>
-            <span>Chapter</span>
-            <select id="chapter-filter"></select>
           </label>
           <label>
             <span>Record type</span>
@@ -153,26 +149,6 @@
 
         <div id="records-root" class="records-root" aria-live="polite">
           <p class="loading">Loading chronological records...</p>
-        </div>
-      </section>
-
-      <section class="section" id="chapters" aria-labelledby="chapters-title">
-        <div class="section-heading">
-          <div>
-            <p class="kicker">Provisional Arrangement</p>
-            <h2 id="chapters-title">Working Chapters</h2>
-          </div>
-          <span class="status-stamp status-stamp-neutral">Not an official contents list</span>
-        </div>
-        <p class="records-intro" id="chapter-scope-note"></p>
-        <div id="chapter-grid" class="chapter-grid chapter-grid-five"></div>
-        <div class="boundary-band">
-          <div>
-            <p class="kicker">Boundary Queue</p>
-            <h3>Canada, Mexico, and NAFTA</h3>
-          </div>
-          <p id="boundary-note"></p>
-          <button type="button" id="show-boundary">Show boundary records</button>
         </div>
       </section>
 
@@ -234,7 +210,7 @@
             <input id="nsc-search" type="search" placeholder="Folder title, OA/ID, topic, NAID">
           </label>
           <label>
-            <span>Chapter</span>
+            <span>Subject area</span>
             <select id="nsc-chapter-filter"></select>
           </label>
           <label>
@@ -405,7 +381,7 @@
           </a>
           <a href="data/volume.json" download>
             <strong>Full project data</strong>
-            <span>JSON with chapter definitions, records, source map, public references, and gaps</span>
+            <span>JSON with the chronological register, subject-area metadata, source map, public references, and gaps</span>
           </a>
           <a href="data/public-references.csv" download>
             <strong>Public references</strong>
@@ -495,7 +471,7 @@
     </footer>
 
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
-    <script src="data/volume.js?v=20260901-gates-middle-east-2"></script>
-    <script src="app.js?v=20260901-gates-middle-east-2"></script>
+    <script src="data/volume.js?v=20260901-single-chronology-2"></script>
+    <script src="app.js?v=20260901-single-chronology-2"></script>
   </body>
 </html>
