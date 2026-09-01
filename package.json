@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "harvest:tim-deal": "node scripts/harvest-tim-deal.js",
     "build:data": "node scripts/build-data.js",
     "validate": "node scripts/validate-data.js",
     "check:links": "node scripts/check-links.js",

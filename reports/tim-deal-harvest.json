@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-09-01T00:26:39.115Z",
+  "seriesNaId": "2554810",
+  "expectedFileUnits": 134,
+  "harvestedFileUnits": 134,
+  "markerVerified": 133,
+  "markerExceptions": [
+    {
+      "naid": "452050635",
+      "localId": "CF00973-013",
+      "title": "[Munich Economic Summit] Fourth Sherpa Meeting Briefing Book, May 22-24, 1992, Rugen, Germany [5]",
+      "markerStatus": "not present"
+    }
+  ],
+  "totalPdfBytes": 4505819406,
+  "totalOcrCharacters": 14724379,
+  "duplicateNaids": [],
+  "duplicateLocalIds": []
+}

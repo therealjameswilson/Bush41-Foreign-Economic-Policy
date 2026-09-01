@@ -1,8 +1,10 @@
 {
-  "checkedAt": "2026-08-31T22:24:42.989Z",
-  "total": 133,
-  "ok": 133,
+  "checkedAt": "2026-09-01T00:25:20.652Z",
+  "total": 388,
+  "ok": 388,
+  "blocked": 0,
   "failed": 0,
+  "blockedResults": [],
   "failures": [],
   "results": [
     {
@@ -10,6 +12,12 @@
       "ok": true,
       "status": 200,
       "finalUrl": "https://catalog.archives.gov/id/2163561"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/2554810",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/2554810"
     },
     {
       "url": "https://catalog.archives.gov/id/312293887",
@@ -22,6 +30,36 @@
       "ok": true,
       "status": 200,
       "finalUrl": "https://catalog.archives.gov/id/312294079"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/352793385",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/352793385"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/352793394",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/352793394"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/352793402",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/352793402"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/352793403",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/352793403"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/352793404",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/352793404"
     },
     {
       "url": "https://catalog.archives.gov/id/428080101",
@@ -156,6 +194,354 @@
       "finalUrl": "https://catalog.archives.gov/id/446396879"
     },
     {
+      "url": "https://catalog.archives.gov/id/452050508",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050508"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050509",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050509"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050510",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050510"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050511",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050511"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050512",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050512"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050513",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050513"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050514",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050514"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050515",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050515"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050516",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050516"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050517",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050517"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050518",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050518"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050519",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050519"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050520",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050520"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050521",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050521"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050522",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050522"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050523",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050523"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050524",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050524"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050525",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050525"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050526",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050526"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050527",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050527"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050528",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050528"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050529",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050529"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050530",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050530"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050531",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050531"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050532",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050532"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050533",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050533"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050534",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050534"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050535",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050535"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050536",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050536"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050537",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050537"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050538",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050538"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050539",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050539"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050540",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050540"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050541",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050541"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050542",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050542"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050543",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050543"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050544",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050544"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050545",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050545"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050546",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050546"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050547",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050547"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050548",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050548"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050549",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050549"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050550",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050550"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050551",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050551"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050552",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050552"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050553",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050553"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050554",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050554"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050555",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050555"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050556",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050556"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050557",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050557"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050558",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050558"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050559",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050559"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050560",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050560"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050561",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050561"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050562",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050562"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050563",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050563"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050564",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050564"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050565",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050565"
+    },
+    {
       "url": "https://catalog.archives.gov/id/452050566",
       "ok": true,
       "status": 200,
@@ -166,6 +552,96 @@
       "ok": true,
       "status": 200,
       "finalUrl": "https://catalog.archives.gov/id/452050567"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050568",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050568"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050569",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050569"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050570",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050570"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050571",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050571"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050572",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050572"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050573",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050573"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050574",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050574"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050575",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050575"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050576",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050576"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050577",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050577"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050578",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050578"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050579",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050579"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050580",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050580"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050581",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050581"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050582",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050582"
     },
     {
       "url": "https://catalog.archives.gov/id/452050583",
@@ -180,10 +656,52 @@
       "finalUrl": "https://catalog.archives.gov/id/452050584"
     },
     {
+      "url": "https://catalog.archives.gov/id/452050585",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050585"
+    },
+    {
       "url": "https://catalog.archives.gov/id/452050586",
       "ok": true,
       "status": 200,
       "finalUrl": "https://catalog.archives.gov/id/452050586"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050587",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050587"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050588",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050588"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050589",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050589"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050590",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050590"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050591",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050591"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050592",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050592"
     },
     {
       "url": "https://catalog.archives.gov/id/452050593",
@@ -192,10 +710,262 @@
       "finalUrl": "https://catalog.archives.gov/id/452050593"
     },
     {
+      "url": "https://catalog.archives.gov/id/452050594",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050594"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050595",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050595"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050596",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050596"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050597",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050597"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050598",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050598"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050599",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050599"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050600",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050600"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050601",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050601"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050602",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050602"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050603",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050603"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050604",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050604"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050605",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050605"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050606",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050606"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050607",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050607"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050608",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050608"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050609",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050609"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050610",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050610"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050611",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050611"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050612",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050612"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050613",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050613"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050614",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050614"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050615",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050615"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050616",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050616"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050617",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050617"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050618",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050618"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050619",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050619"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050620",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050620"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050621",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050621"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050622",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050622"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050623",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050623"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050624",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050624"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050625",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050625"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050626",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050626"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050627",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050627"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050628",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050628"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050629",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050629"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050630",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050630"
+    },
+    {
       "url": "https://catalog.archives.gov/id/452050631",
       "ok": true,
       "status": 200,
       "finalUrl": "https://catalog.archives.gov/id/452050631"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050632",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050632"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050633",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050633"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050634",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050634"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050635",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050635"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/452050636",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/452050636"
     },
     {
       "url": "https://catalog.archives.gov/id/452050650",
@@ -582,6 +1352,384 @@
       "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/321498039/1992-07-08--Joint-Plenary-Session--1992-Munich-Economic-Summit.pdf"
     },
     {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-001.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-001.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-002.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-002.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-003.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-003.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-004.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-004.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-005.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-005.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-006.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-006.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-007.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-007.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-008.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-008.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-009.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-009.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-010.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-010.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-011.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-011.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-012.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-012.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-013.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-013.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-014.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-014.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-015.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-015.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-016.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-016.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-017.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-017.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-018.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-018.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-019.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-019.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-020.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-020.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-021.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-021.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-022.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-022.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-023.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-023.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-024.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00961-024.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-001.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-001.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-002.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-002.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-003.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-003.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-004.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-004.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-005.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-005.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-006.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-006.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-007.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-007.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-008.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-008.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-009.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-009.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-010.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-010.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-011.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-011.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-012.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-012.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-013.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-013.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-014.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-014.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-015.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-015.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-016.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-016.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-017.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-017.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-018.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-018.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-019.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-019.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-020.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-020.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-021.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-021.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-022.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-022.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-023.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00962-023.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-001.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-001.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-002.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-002.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-003.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-003.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-004.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-004.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-005.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-005.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-006.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-006.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-007.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-007.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-008.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-008.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-009.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-009.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-010.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-010.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-011.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-011.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-012.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-012.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-013.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-013.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-014.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-014.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-015.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-015.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-016.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-016.pdf"
+    },
+    {
       "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-017.pdf",
       "ok": true,
       "status": 200,
@@ -592,6 +1740,96 @@
       "ok": true,
       "status": 200,
       "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-018.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-019.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-019.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-020.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00963-020.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-001.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-001.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-002.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-002.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-003.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-003.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-004.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-004.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-005.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-005.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-006.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-006.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-007.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-007.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-008.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-008.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-009.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-009.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-010.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-010.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-011.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-011.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-012.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-012.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-013.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-013.pdf"
     },
     {
       "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-014.pdf",
@@ -606,10 +1844,52 @@
       "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-015.pdf"
     },
     {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-016.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-016.pdf"
+    },
+    {
       "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-017.pdf",
       "ok": true,
       "status": 200,
       "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-017.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-018.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-018.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-019.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-019.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-020.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-020.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-021.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-021.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-022.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00964-022.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-001.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-001.pdf"
     },
     {
       "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-002.pdf",
@@ -618,10 +1898,262 @@
       "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-002.pdf"
     },
     {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-003.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-003.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-004.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-004.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-005.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-005.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-006.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-006.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-007.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-007.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-008.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-008.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-009.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-009.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-010.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-010.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-011.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-011.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-012.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-012.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-013.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-013.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-014.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-014.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-015.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-015.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-016.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-016.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-017.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-017.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-018.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-018.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-019.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-019.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-020.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-020.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-021.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-021.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-022.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-022.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-023.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-023.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-024.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-024.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-025.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-025.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-026.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-026.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-027.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-027.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-028.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-028.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-029.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-029.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-030.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-030.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-031.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-031.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00973-001.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00973-001.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00973-002.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00973-002.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00973-003.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00973-003.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00973-004.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00973-004.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00973-005.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00973-005.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00973-006.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00973-006.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00973-007.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00973-007.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00973-008.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00973-008.pdf"
+    },
+    {
       "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00973-009.pdf",
       "ok": true,
       "status": 200,
       "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00973-009.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00973-010.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00973-010.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00973-011.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00973-011.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00973-012.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00973-012.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00973-013.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00973-013.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00973-014.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00973-014.pdf"
     },
     {
       "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-014.pdf",

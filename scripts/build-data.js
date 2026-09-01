@@ -5,12 +5,19 @@ const path = require("node:path");
 
 const root = path.resolve(__dirname, "..");
 const westernEuropePath = path.resolve(root, "../Bush41-Western-Europe/data/memcons.json");
+const timDealCandidatesPath = path.join(root, "data", "tim-deal-candidates.json");
+const timDealFileUnitsPath = path.join(root, "data", "tim-deal-file-units.json");
 
 if (!fs.existsSync(westernEuropePath)) {
   throw new Error(`Missing source register: ${westernEuropePath}`);
 }
+if (!fs.existsSync(timDealCandidatesPath) || !fs.existsSync(timDealFileUnitsPath)) {
+  throw new Error("Missing Tim Deal candidate or file-unit source data");
+}
 
 const westernEuropeRecords = JSON.parse(fs.readFileSync(westernEuropePath, "utf8"));
+const timDealCandidates = JSON.parse(fs.readFileSync(timDealCandidatesPath, "utf8"));
+const timDealFileUnits = JSON.parse(fs.readFileSync(timDealFileUnitsPath, "utf8"));
 
 const meta = {
   id: "frus1989-92v30",
@@ -663,6 +670,12 @@ const sourceCollections = [
     url: "https://www.bush41library.gov/digital-research-room/finding-aid/records-national-security-council-george-h-w-bush-administration",
   },
   {
+    name: "Timothy E. Deal Subject Files",
+    owner: "National Archives Catalog",
+    role: "Complete 134-file NSC international-economic series and provenance-controlled PDF set",
+    url: "https://catalog.archives.gov/id/2554810",
+  },
+  {
     name: "Bush Memcons and Telcons index",
     owner: "George H.W. Bush Presidential Library",
     role: "Official presidential-conversation discovery table",
@@ -763,9 +776,9 @@ const gaps = [
   {
     id: "gap-page-audit",
     priority: "High",
-    title: "Most online file units still lack document-boundary and citation-marker audits",
+    title: "Most online file units still lack document-boundary audits",
     scope: "Online NARA PDFs",
-    action: "Split each file unit into document-level candidates; record exact PDF pages, classification, citation marker, and withdrawal-sheet evidence.",
+    action: "Continue the Tim Deal workflow across the remaining 131 file units, then apply it to other NSC staff series: split documents, verify markings, and retain exact withdrawal extents.",
   },
   {
     id: "gap-memcons",
@@ -797,7 +810,13 @@ const gaps = [
   },
 ];
 
-const allRecords = [...presidentialRecords, ...itemRecords, ...leadRecords]
+const timDealDocumentRecords = timDealCandidates.documents.map((record) => ({
+  ...record,
+  collectionId: "tim-deal",
+  provenanceMethod: "Opening PDF provenance marker",
+}));
+
+const allRecords = [...presidentialRecords, ...itemRecords, ...timDealDocumentRecords, ...leadRecords]
   .map((record) => {
     if (!chapterNames.has(record.chapter)) throw new Error(`Unknown chapter for ${record.id}: ${record.chapter}`);
     return record;
@@ -808,6 +827,18 @@ const data = {
   meta,
   chapters,
   records: allRecords,
+  nscCollections: [
+    {
+      id: "tim-deal",
+      ...timDealFileUnits.collection,
+      auditScope: timDealCandidates.auditScope,
+      auditedFolders: timDealCandidates.auditedFolders,
+      candidateCount: timDealDocumentRecords.length,
+      candidateIds: timDealDocumentRecords.map((record) => record.id),
+      fileUnits: timDealFileUnits.fileUnits,
+      candidateMethodology: timDealCandidates.methodology,
+    },
+  ],
   publicReferences: publicReferences.sort((a, b) => a.date.localeCompare(b.date)),
   sourceCollections,
   gaps,
@@ -849,8 +880,44 @@ fs.writeFileSync(path.join(dataDir, "public-references.csv"), toCsv(publicRefere
   "selection",
   "url",
 ]));
+fs.writeFileSync(path.join(dataDir, "tim-deal-candidates.csv"), toCsv(timDealDocumentRecords, [
+  "id",
+  "date",
+  "displayDateLabel",
+  "title",
+  "heading",
+  "dateline",
+  "type",
+  "chapter",
+  "selection",
+  "releaseStatus",
+  "pageCount",
+  "classification",
+  "naid",
+  "localId",
+  "sourceNoteStatus",
+  "sourceNote",
+  "catalogUrl",
+  "pdfUrl",
+]));
+fs.writeFileSync(path.join(dataDir, "tim-deal-file-units.csv"), toCsv(timDealFileUnits.fileUnits, [
+  "naid",
+  "workingStartDate",
+  "workingEndDate",
+  "dateBasis",
+  "title",
+  "localId",
+  "chapter",
+  "routing",
+  "markerStatus",
+  "pdfBytes",
+  "accessStatus",
+  "archivalLocator",
+  "catalogUrl",
+  "pdfUrl",
+]));
 
-console.log(`Built ${allRecords.length} candidate records, ${publicReferences.length} public references, and ${gaps.length} gap entries.`);
+console.log(`Built ${allRecords.length} candidate records, ${timDealFileUnits.fileUnits.length} Tim Deal file units, ${publicReferences.length} public references, and ${gaps.length} gap entries.`);
 
 function toCsv(rows, fields) {
   const escape = (value) => {

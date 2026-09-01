@@ -24,10 +24,26 @@ const elements = {
   publicType: document.querySelector("#public-type-filter"),
   publicClear: document.querySelector("#public-clear"),
   publicSummary: document.querySelector("#public-summary"),
+  nscMetrics: document.querySelector("#nsc-metrics"),
+  nscProvenanceSummary: document.querySelector("#nsc-provenance-summary"),
+  nscSeriesLink: document.querySelector("#nsc-series-link"),
+  nscCandidateSummary: document.querySelector("#nsc-candidate-summary"),
+  nscCandidatesRoot: document.querySelector("#nsc-candidates-root"),
+  nscFileRoot: document.querySelector("#nsc-file-root"),
+  nscFileSummary: document.querySelector("#nsc-file-summary"),
+  nscSearch: document.querySelector("#nsc-search"),
+  nscChapter: document.querySelector("#nsc-chapter-filter"),
+  nscRouting: document.querySelector("#nsc-routing-filter"),
+  nscMarker: document.querySelector("#nsc-marker-filter"),
+  nscSignal: document.querySelector("#nsc-signal-filter"),
+  nscClear: document.querySelector("#nsc-clear"),
+  nscDownloadFiltered: document.querySelector("#nsc-download-filtered"),
   toast: document.querySelector("#toast"),
 };
 
 let filteredRecords = [...data.records];
+const timDealCollection = data.nscCollections?.find((collection) => collection.id === "tim-deal");
+let filteredNscFileUnits = [...(timDealCollection?.fileUnits || [])];
 
 initialize();
 
@@ -36,6 +52,7 @@ function initialize() {
   populateFilters();
   renderChapters();
   renderCompilerMetrics();
+  renderNscCollection();
   renderSources();
   renderGaps();
   renderPublicReferences(data.publicReferences);
@@ -69,6 +86,17 @@ function populateFilters() {
   addOptions(elements.sourceNote, ["verified", "draft", "locator"], "All Source Note states", sourceNoteLabel);
   addOptions(elements.selection, ["Core", "Consider", "Boundary"], "All selection states");
   addOptions(elements.publicType, unique(data.publicReferences.map((record) => record.type)), "All types");
+  if (timDealCollection) {
+    addOptions(elements.nscChapter, unique(timDealCollection.fileUnits.map((row) => row.chapter)), "All chapters");
+    addOptions(elements.nscRouting, unique(timDealCollection.fileUnits.map((row) => row.routing)), "All routing states");
+    addOptions(elements.nscMarker, unique(timDealCollection.fileUnits.map((row) => row.markerStatus)), "All marker states", markerLabel);
+    addOptions(
+      elements.nscSignal,
+      ["high-level", "president", "scowcroft", "conversation", "meeting", "withdrawal"],
+      "All file units",
+      signalLabel,
+    );
+  }
 }
 
 function addOptions(select, values, allLabel, labeler = (value) => value) {
@@ -106,6 +134,18 @@ function bindEvents() {
     elements.publicType.value = "";
     updatePublicReferences();
   });
+
+  [elements.nscSearch, elements.nscChapter, elements.nscRouting, elements.nscMarker, elements.nscSignal].forEach((control) => {
+    if (!control) return;
+    control.addEventListener(control.tagName === "INPUT" ? "input" : "change", updateNscFileUnits);
+  });
+  elements.nscClear?.addEventListener("click", () => {
+    [elements.nscSearch, elements.nscChapter, elements.nscRouting, elements.nscMarker, elements.nscSignal].forEach((control) => {
+      control.value = "";
+    });
+    updateNscFileUnits();
+  });
+  elements.nscDownloadFiltered?.addEventListener("click", downloadFilteredNscCsv);
 
   document.querySelector("#show-boundary").addEventListener("click", () => {
     elements.selection.value = "Boundary";
@@ -189,10 +229,10 @@ function summaryText(records) {
   return `${records.length} ${plural(records.length, "record")} shown; ${released} ${plural(released, "released document")}; ${withheld} ${plural(withheld, "separately identified withheld item")}; ${verified} ${plural(verified, "verified Source Note")}.`;
 }
 
-function createRecordRow(record) {
+function createRecordRow(record, idPrefix = "") {
   const row = document.createElement("article");
   row.className = `record-row record-state-${record.sourceNoteStatus} selection-${record.selection.toLowerCase()}`;
-  row.id = record.id;
+  row.id = `${idPrefix}${record.id}`;
 
   const dateStack = document.createElement("div");
   dateStack.className = "record-date-stack";
@@ -330,6 +370,7 @@ function compilerNumber(record) {
 }
 
 function displayDate(record) {
+  if (record.displayDateLabel) return record.displayDateLabel;
   if (record.datePrecision === "year") return `${record.date.slice(0, 4)} (date not established)`;
   return new Date(`${record.date}T12:00:00Z`).toLocaleDateString("en-US", {
     month: "short",
@@ -337,6 +378,21 @@ function displayDate(record) {
     year: "numeric",
     timeZone: "UTC",
   });
+}
+
+function markerLabel(status) {
+  return status === "verified" ? "Opening marker verified" : "Opening marker not present";
+}
+
+function signalLabel(signal) {
+  return {
+    "high-level": "Any high-level document signal",
+    president: "Memorandum to the President",
+    scowcroft: "Memorandum to Scowcroft",
+    conversation: "Memorandum of conversation",
+    meeting: "Minutes or meeting record",
+    withdrawal: "Withdrawal sheet",
+  }[signal] || signal;
 }
 
 function sourceNoteLabel(status) {
@@ -454,6 +510,217 @@ function metric(value, title, detail) {
   return card;
 }
 
+function renderNscCollection() {
+  if (!timDealCollection) return;
+
+  const metrics = [
+    [timDealCollection.fileUnits.length, "Online file units", "Complete NARA series hierarchy"],
+    [timDealCollection.candidateCount, "Item-level candidates", `${timDealCollection.auditedFolders.length} source-image-audited folders`],
+    [timDealCollection.markerVerified, "Opening markers verified", `${timDealCollection.markerExceptionCount} documented exception`],
+    [formatByteSize(timDealCollection.totalPdfBytes), "Online PDF corpus", "Official NARA digital objects"],
+  ];
+  elements.nscMetrics.replaceChildren(...metrics.map(([value, title, detail]) => metric(value, title, detail)));
+
+  const exception = timDealCollection.fileUnits.find((row) => row.markerStatus !== "verified");
+  elements.nscProvenanceSummary.textContent =
+    `${timDealCollection.markerVerified} of ${timDealCollection.fileUnits.length} PDFs open with the Bush Library marker naming the record group, office, series, subseries, OA/ID, and folder. ` +
+    `${exception.localId}, ${exception.title}, opens directly on briefing material; its locator is therefore catalog-derived and is not presented as a Source Note.`;
+  elements.nscSeriesLink.href = timDealCollection.catalogUrl;
+
+  const candidates = timDealCollection.candidateIds
+    .map((id) => data.records.find((record) => record.id === id))
+    .filter(Boolean);
+  elements.nscCandidateSummary.textContent =
+    `${candidates.length} document-level candidates from ${timDealCollection.auditedFolders.length} fully audited PDFs, ordered by document date. ` +
+    `The chronology includes ${candidates.filter((record) => record.releaseStatus === "Withheld").length} separately identified records that were not declassified.`;
+  renderNscCandidates(candidates);
+  renderNscFileUnits(timDealCollection.fileUnits);
+}
+
+function renderNscCandidates(records) {
+  elements.nscCandidatesRoot.replaceChildren();
+  const groups = groupBy(records, (record) => record.date.slice(0, 4));
+  for (const [year, yearRecords] of groups) {
+    const section = document.createElement("section");
+    section.className = "record-chapter year-group";
+    section.setAttribute("aria-labelledby", `nsc-year-${year}`);
+    const header = document.createElement("div");
+    header.className = "record-chapter-header";
+    header.innerHTML = `<h3 id="nsc-year-${year}">${year}</h3><p class="record-count">${yearRecords.length} ${plural(yearRecords.length, "candidate")}</p>`;
+    const list = document.createElement("div");
+    list.className = "record-list";
+    yearRecords.forEach((record) => list.append(createRecordRow(record, "nsc-copy-")));
+    section.append(header, list);
+    elements.nscCandidatesRoot.append(section);
+  }
+}
+
+function updateNscFileUnits() {
+  if (!timDealCollection) return;
+  const query = elements.nscSearch.value.trim().toLowerCase();
+  filteredNscFileUnits = timDealCollection.fileUnits.filter((row) => {
+    return (
+      (!query || nscFileSearchText(row).includes(query)) &&
+      (!elements.nscChapter.value || row.chapter === elements.nscChapter.value) &&
+      (!elements.nscRouting.value || row.routing === elements.nscRouting.value) &&
+      (!elements.nscMarker.value || row.markerStatus === elements.nscMarker.value) &&
+      (!elements.nscSignal.value || fileUnitHasSignal(row, elements.nscSignal.value))
+    );
+  });
+  renderNscFileUnits(filteredNscFileUnits);
+}
+
+function nscFileSearchText(row) {
+  return [
+    row.title,
+    row.localId,
+    row.naid,
+    row.chapter,
+    row.routing,
+    row.dateBasis,
+    row.markerStatus,
+    row.archivalLocator,
+  ]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+}
+
+function fileUnitHasSignal(row, signal) {
+  const signals = row.reviewSignals;
+  if (signal === "high-level") {
+    return signals.memosToPresident + signals.memosToScowcroft + signals.memorandaOfConversation + signals.meetingRecords > 0;
+  }
+  return {
+    president: signals.memosToPresident,
+    scowcroft: signals.memosToScowcroft,
+    conversation: signals.memorandaOfConversation,
+    meeting: signals.meetingRecords,
+    withdrawal: signals.withdrawalSheets,
+  }[signal] > 0;
+}
+
+function renderNscFileUnits(rows) {
+  elements.nscFileRoot.replaceChildren();
+  const markerCount = rows.filter((row) => row.markerStatus === "verified").length;
+  const highLevelCount = rows.filter((row) => fileUnitHasSignal(row, "high-level")).length;
+  elements.nscFileSummary.textContent =
+    `${rows.length} of ${timDealCollection.fileUnits.length} file units shown; ${markerCount} opening ${plural(markerCount, "marker")} verified; ${highLevelCount} ${plural(highLevelCount, "file unit")} with high-level document signals.`;
+
+  if (!rows.length) {
+    const empty = document.createElement("p");
+    empty.className = "empty-chapter";
+    empty.textContent = "No file units match the current filters.";
+    elements.nscFileRoot.append(empty);
+    return;
+  }
+
+  const groups = groupBy(rows, (row) => (row.workingStartDate.startsWith("9999") ? "Date not established" : row.workingStartDate.slice(0, 4)));
+  for (const [year, yearRows] of groups) {
+    const section = document.createElement("section");
+    section.className = "nsc-file-year";
+    const header = document.createElement("div");
+    header.className = "record-chapter-header";
+    const heading = document.createElement("h4");
+    heading.textContent = year;
+    const count = document.createElement("p");
+    count.className = "record-count";
+    count.textContent = `${yearRows.length} ${plural(yearRows.length, "file unit")}`;
+    header.append(heading, count);
+    const list = document.createElement("div");
+    list.className = "nsc-file-list";
+    yearRows.forEach((row) => list.append(createNscFileUnitRow(row)));
+    section.append(header, list);
+    elements.nscFileRoot.append(section);
+  }
+}
+
+function createNscFileUnitRow(row) {
+  const item = document.createElement("article");
+  item.className = `nsc-file-row marker-${row.markerStatus.replaceAll(" ", "-")}`;
+
+  const date = document.createElement("div");
+  date.className = "nsc-file-date";
+  const range = document.createElement("strong");
+  range.textContent = workingDateRange(row);
+  const basis = document.createElement("span");
+  basis.textContent = row.dateBasis;
+  date.append(range, basis);
+
+  const body = document.createElement("div");
+  body.className = "nsc-file-body";
+  const title = document.createElement("h4");
+  const titleLink = document.createElement("a");
+  titleLink.href = row.pdfUrl;
+  titleLink.target = "_blank";
+  titleLink.rel = "noreferrer";
+  titleLink.textContent = row.title;
+  title.append(titleLink);
+  const meta = document.createElement("div");
+  meta.className = "record-meta";
+  [row.chapter, row.routing, markerLabel(row.markerStatus), formatByteSize(row.pdfBytes)].forEach((value) => meta.append(badge(value)));
+  const signals = document.createElement("div");
+  signals.className = "nsc-signals";
+  reviewSignalPairs(row).forEach(([labelText, value]) => {
+    if (value) signals.append(badge(`${value} ${labelText}`));
+  });
+  if (!signals.childElementCount) signals.append(badge("No high-level OCR signal"));
+
+  const details = document.createElement("details");
+  details.className = "record-source-note nsc-file-details";
+  const summary = document.createElement("summary");
+  summary.textContent = "Provenance and review signals";
+  const sourceLabel = label(row.markerStatus === "verified" ? "Provenance stem - classification still required" : "Catalog-derived archival locator");
+  const sourceText = row.provenanceStem || row.archivalLocator;
+  const source = paragraph(sourceText, "record-frus-source-note");
+  const signalNote = paragraph(
+    `OCR review signals: ${reviewSignalPairs(row).map(([name, value]) => `${name} ${value}`).join("; ")}. These are search hits, not deduplicated document counts.`,
+    "record-notes",
+  );
+  const actions = document.createElement("div");
+  actions.className = "record-copy-actions";
+  actions.append(copyButton(row.markerStatus === "verified" ? "Copy Provenance Stem" : "Copy Locator", sourceText));
+  details.append(summary, sourceLabel, source, signalNote, actions);
+  body.append(title, meta, signals, details);
+
+  const links = document.createElement("div");
+  links.className = "record-links";
+  links.append(link("Catalog", row.catalogUrl), link("PDF", row.pdfUrl), badge(`NAID ${row.naid}`), badge(`OA/ID ${row.localId}`));
+  item.append(date, body, links);
+  return item;
+}
+
+function reviewSignalPairs(row) {
+  return [
+    ["memos to President", row.reviewSignals.memosToPresident],
+    ["memos to Scowcroft", row.reviewSignals.memosToScowcroft],
+    ["memcon hits", row.reviewSignals.memorandaOfConversation],
+    ["meeting-record hits", row.reviewSignals.meetingRecords],
+    ["withdrawal-sheet hits", row.reviewSignals.withdrawalSheets],
+  ];
+}
+
+function workingDateRange(row) {
+  if (row.workingStartDate.startsWith("9999")) return "Date not established";
+  const start = formatShortDate(row.workingStartDate);
+  const end = formatShortDate(row.workingEndDate);
+  return start === end ? start : `${start} to ${end}`;
+}
+
+function formatShortDate(value) {
+  return new Date(`${value}T12:00:00Z`).toLocaleDateString("en-US", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+    timeZone: "UTC",
+  });
+}
+
+function formatByteSize(bytes) {
+  if (bytes >= 1_073_741_824) return `${(bytes / 1_073_741_824).toFixed(2)} GiB`;
+  return `${(bytes / 1_048_576).toFixed(1)} MiB`;
+}
+
 function renderSources() {
   elements.sourceGrid.replaceChildren();
   data.sourceCollections.forEach((source) => {
@@ -543,11 +810,49 @@ function downloadFilteredCsv() {
     fields.map(csvCell).join(","),
     ...filteredRecords.map((record) => fields.map((field) => csvCell(record[field])).join(",")),
   ].join("\n");
+  triggerCsvDownload(csv, "frus1989-92v30-filtered-register.csv");
+}
+
+function downloadFilteredNscCsv() {
+  const fields = [
+    "naid",
+    "workingStartDate",
+    "workingEndDate",
+    "dateBasis",
+    "title",
+    "localId",
+    "chapter",
+    "routing",
+    "markerStatus",
+    "accessStatus",
+    "pdfBytes",
+    "memosToPresident",
+    "memosToScowcroft",
+    "memorandaOfConversation",
+    "meetingRecords",
+    "withdrawalSheets",
+    "archivalLocator",
+    "provenanceStem",
+    "catalogUrl",
+    "pdfUrl",
+  ];
+  const rows = filteredNscFileUnits.map((row) => ({
+    ...row,
+    ...row.reviewSignals,
+  }));
+  const csv = [
+    fields.map(csvCell).join(","),
+    ...rows.map((row) => fields.map((field) => csvCell(row[field])).join(",")),
+  ].join("\n");
+  triggerCsvDownload(csv, "frus1989-92v30-tim-deal-filtered-file-units.csv");
+}
+
+function triggerCsvDownload(csv, filename) {
   const blob = new Blob([csv], { type: "text/csv;charset=utf-8" });
   const url = URL.createObjectURL(blob);
   const anchor = document.createElement("a");
   anchor.href = url;
-  anchor.download = "frus1989-92v30-filtered-register.csv";
+  anchor.download = filename;
   document.body.append(anchor);
   anchor.click();
   anchor.remove();

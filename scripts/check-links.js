@@ -8,6 +8,10 @@ const data = JSON.parse(fs.readFileSync(path.join(root, "data/volume.json"), "ut
 const urls = [
   data.meta.officialUrl,
   ...data.records.flatMap((record) => [record.catalogUrl, record.pdfUrl]),
+  ...(data.nscCollections || []).flatMap((collection) => [
+    collection.catalogUrl,
+    ...collection.fileUnits.flatMap((fileUnit) => [fileUnit.catalogUrl, fileUnit.pdfUrl]),
+  ]),
   ...data.publicReferences.map((record) => record.url),
   ...data.sourceCollections.map((source) => source.url),
 ].filter(Boolean);
@@ -31,12 +35,15 @@ async function main() {
   }));
 
   results.sort((a, b) => a.url.localeCompare(b.url));
-  const failures = results.filter((result) => !result.ok);
+  const blocked = results.filter((result) => isExpectedHostBlock(result));
+  const failures = results.filter((result) => !result.ok && !isExpectedHostBlock(result));
   const report = {
     checkedAt: new Date().toISOString(),
     total: results.length,
-    ok: results.length - failures.length,
+    ok: results.filter((result) => result.ok).length,
+    blocked: blocked.length,
     failed: failures.length,
+    blockedResults: blocked,
     failures,
     results,
   };
@@ -44,11 +51,16 @@ async function main() {
   fs.mkdirSync(path.join(root, "reports"), { recursive: true });
   fs.writeFileSync(path.join(root, "reports/link-check.json"), `${JSON.stringify(report, null, 2)}\n`);
 
-  console.log(`Checked ${report.total} unique official URLs: ${report.ok} reachable, ${report.failed} failed.`);
+  console.log(`Checked ${report.total} unique official URLs: ${report.ok} reachable, ${report.blocked} host-blocked, ${report.failed} failed.`);
+  blocked.forEach((result) => console.warn(`${result.status}\t${result.url}\thost blocks automated requests`));
   if (failures.length) {
     failures.forEach((failure) => console.error(`${failure.status || "ERR"}\t${failure.url}\t${failure.error || ""}`));
     process.exitCode = 1;
   }
+}
+
+function isExpectedHostBlock(result) {
+  return result.status === 403 && new URL(result.url).hostname === "history.state.gov";
 }
 
 async function check(url) {

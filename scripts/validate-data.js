@@ -28,14 +28,14 @@ for (const record of data.records) {
   } else {
     if (!record.sourceNote?.startsWith("Source: George H.W. Bush Library,")) errors.push(`${record.id}: Source Note does not begin in project FRUS style`);
     if (/https?:|NARA Catalog ID|Digital object:/i.test(record.sourceNote)) errors.push(`${record.id}: URL or catalog metadata leaked into Source Note prose`);
-    if (!/(Top Secret|Secret|Confidential|Unclassified|No classification marking|the attachment is Confidential)\.$/i.test(record.sourceNote)) {
+    if (!/(?:Top Secret|Secret|Confidential|Unclassified|No classification marking)(?:; (?:Exdis|Nodis|Limited Access))?\.$|the attachment is Confidential\.$/i.test(record.sourceNote)) {
       errors.push(`${record.id}: Source Note lacks terminal classification sentence`);
     }
     if (/OA\/ID [A-Z0-9]+-[A-Z0-9]+/.test(record.sourceNote)) errors.push(`${record.id}: OA/ID uses a hyphen instead of an en dash`);
   }
 
   if (record.releaseStatus === "Withheld" && !Number.isInteger(record.pageCount)) errors.push(`${record.id}: withheld item lacks exact page extent`);
-  if (record.releaseStatus === "Withheld" && !/withheld/i.test(record.extentLabel || "")) warnings.push(`${record.id}: withheld extent label is unclear`);
+  if (record.releaseStatus === "Withheld" && !/(?:withheld|not declassified)/i.test(record.extentLabel || "")) warnings.push(`${record.id}: withheld extent label is unclear`);
   if (record.sourceNoteStatus === "verified" && !/checked/i.test(record.sourceNoteBasis || "")) errors.push(`${record.id}: verified Source Note lacks evidence statement`);
 }
 
@@ -46,6 +46,29 @@ if (data.meta.status !== "Being Researched") warnings.push(`Unexpected official 
 if (data.publicReferences.length < 5) errors.push("Public reference register is too small for an initial release");
 if (data.gaps.length < 5) errors.push("Compiler gap ledger is too small");
 
+const timDeal = data.nscCollections?.find((collection) => collection.id === "tim-deal");
+if (!timDeal) {
+  errors.push("Tim Deal NSC collection is missing");
+} else {
+  if (timDeal.fileUnits.length !== 134 || timDeal.fileUnitCount !== 134) errors.push("Tim Deal file-unit count is not 134");
+  if (timDeal.markerVerified !== 133 || timDeal.markerExceptionCount !== 1) errors.push("Tim Deal provenance-marker totals changed");
+  if (timDeal.candidateCount !== 15 || timDeal.candidateIds.length !== 15) errors.push("Tim Deal item-level candidate count is not 15");
+  const markerExceptions = timDeal.fileUnits.filter((row) => row.markerStatus !== "verified");
+  if (markerExceptions.length !== 1 || markerExceptions[0].naid !== "452050635" || markerExceptions[0].localId !== "CF00973-013") {
+    errors.push("Tim Deal provenance-marker exception changed");
+  }
+  if (new Set(timDeal.fileUnits.map((row) => row.naid)).size !== timDeal.fileUnits.length) errors.push("Duplicate Tim Deal NAID");
+  if (new Set(timDeal.fileUnits.map((row) => row.localId)).size !== timDeal.fileUnits.length) errors.push("Duplicate Tim Deal OA/ID");
+  if (timDeal.fileUnits.some((row) => !row.catalogUrl.startsWith("https://catalog.archives.gov/id/") || !row.pdfUrl.startsWith("https://catalog.archives.gov/medialz/"))) {
+    errors.push("Tim Deal ledger contains a nonofficial link");
+  }
+  const sortedUnits = [...timDeal.fileUnits].sort((a, b) => a.workingStartDate.localeCompare(b.workingStartDate) || a.workingEndDate.localeCompare(b.workingEndDate) || a.localId.localeCompare(b.localId));
+  if (sortedUnits.some((row, index) => row.naid !== timDeal.fileUnits[index].naid)) errors.push("Tim Deal file units are not stored in working chronological order");
+  if (timDeal.candidateIds.some((id) => !ids.has(id))) errors.push("Tim Deal candidate ID is missing from the master chronology");
+  const candidateRecords = timDeal.candidateIds.map((id) => data.records.find((record) => record.id === id)).filter(Boolean);
+  if (candidateRecords.some((record) => record.sourceNoteStatus !== "verified")) errors.push("Tim Deal candidate lacks a verified Source Note");
+}
+
 const report = {
   checkedAt: new Date().toISOString(),
   records: data.records.length,
@@ -53,6 +76,8 @@ const report = {
   draftSourceNotes: data.records.filter((record) => record.sourceNoteStatus === "draft").length,
   locators: data.records.filter((record) => record.sourceNoteStatus === "locator").length,
   withheldItems: data.records.filter((record) => record.releaseStatus === "Withheld").length,
+  nscCollections: data.nscCollections?.length || 0,
+  timDealFileUnits: timDeal?.fileUnits.length || 0,
   errors,
   warnings,
 };
