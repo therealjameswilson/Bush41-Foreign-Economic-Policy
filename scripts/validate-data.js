@@ -476,8 +476,8 @@ const dealSummit = data.nscCollections?.find((collection) => collection.id === "
 if (!dealSummit) {
   errors.push("Timothy E. Deal Summit Briefing Books collection is missing");
 } else {
-  if (data.nscCollections[7]?.id !== "deal-summit" || data.nscCollections[8]?.id !== "deal-reiss" || data.nscCollections[9]?.id !== "tim-deal") {
-    errors.push("Deal Summit collection is not placed immediately before the Deal Subject Files tab");
+  if (data.nscCollections[7]?.id !== "deal-summit" || data.nscCollections[8]?.id !== "deal-reiss" || data.nscCollections[9]?.id !== "deal-chron" || data.nscCollections[10]?.id !== "tim-deal") {
+    errors.push("Deal collection tabs are not in the expected order before the Deal Subject Files tab");
   }
   if (dealSummit.naid !== "2554817" || dealSummit.fileUnits.length !== 17 || dealSummit.fileUnitCount !== 17) {
     errors.push("Deal Summit collection identity or file-unit count changed");
@@ -553,8 +553,8 @@ const dealReiss = data.nscCollections?.find((collection) => collection.id === "d
 if (!dealReiss) {
   errors.push("Timothy E. Deal and Mitchell B. Reiss Economic Summit collection is missing");
 } else {
-  if (data.nscCollections[8]?.id !== "deal-reiss" || data.nscCollections[9]?.id !== "tim-deal") {
-    errors.push("Deal-Reiss collection is not placed immediately before the Deal Subject Files tab");
+  if (data.nscCollections[8]?.id !== "deal-reiss" || data.nscCollections[9]?.id !== "deal-chron" || data.nscCollections[10]?.id !== "tim-deal") {
+    errors.push("Deal-Reiss and Deal Chronological collections are not placed before the Deal Subject Files tab");
   }
   if (dealReiss.naid !== "2554819" || dealReiss.fileUnits.length !== 25 || dealReiss.fileUnitCount !== 25) {
     errors.push("Deal-Reiss collection identity or file-unit count changed");
@@ -647,7 +647,171 @@ if (!dealReiss) {
   if (sortedCandidates.some((record, index) => record.id !== candidateRecords[index].id)) errors.push("Deal-Reiss candidates are not stored in working chronological order");
 }
 
-if (data.nscCollections?.length !== 10) errors.push("NSC collection tab count is not 10");
+const dealChron = data.nscCollections?.find((collection) => collection.id === "deal-chron");
+if (!dealChron) {
+  errors.push("Timothy E. Deal Chronological Files collection is missing");
+} else {
+  if (data.nscCollections[9]?.id !== "deal-chron" || data.nscCollections[10]?.id !== "tim-deal") {
+    errors.push("Deal Chronological collection is not placed immediately before the Deal Subject Files tab");
+  }
+  if (dealChron.naid !== "2554807" || dealChron.fileUnits.length !== 96 || dealChron.fileUnitCount !== 96) {
+    errors.push("Deal Chronological collection identity or file-unit count changed");
+  }
+  if (dealChron.onlinePdfCount !== 96 || dealChron.catalogOnlyCount !== 0 || dealChron.fileUnits.some((row) => !row.hasOnlinePdf)) {
+    errors.push("Deal Chronological online/catalog-only totals changed");
+  }
+  if (dealChron.totalPdfPages !== 9093 || dealChron.fileUnits.reduce((total, row) => total + row.pdfPages, 0) !== 9093) {
+    errors.push("Deal Chronological served-PDF page total is not 9,093");
+  }
+  const servedOrFallbackBytes = dealChron.fileUnits.reduce((total, row) => total + row.pdfBytes, 0);
+  const catalogBytes = dealChron.fileUnits.reduce((total, row) => total + row.catalogPdfBytes, 0);
+  if (
+    dealChron.totalPdfBytes !== 4149236610 ||
+    dealChron.totalPdfByteBasis !== "Catalog objectFileSize" ||
+    dealChron.totalCatalogPdfBytes !== 4149236610 ||
+    catalogBytes !== 4149236610 ||
+    servedOrFallbackBytes !== 4149236608 ||
+    dealChron.totalMeasuredServedPdfBytes !== 4132695338 ||
+    dealChron.servedPdfSizeAvailableCount !== 94 ||
+    dealChron.pdfSizeUnavailableCount !== 2 ||
+    dealChron.pdfSizeMetadataMismatchCount !== 66
+  ) {
+    errors.push("Deal Chronological Catalog or measured PDF byte accounting changed");
+  }
+  if (
+    dealChron.markerVerified !== 96 ||
+    dealChron.markerMismatchCount !== 0 ||
+    dealChron.markerExceptionCount !== 0 ||
+    dealChron.fileUnits.some((row) =>
+      row.markerStatus !== "verified" ||
+      row.markerSeries !== "Deal, Timothy E., Files" ||
+      row.markerSubseries !== "Chronological Files" ||
+      row.markerChecks?.markerFolderId !== row.localId
+    )
+  ) {
+    errors.push("Deal Chronological opening-marker accounting changed");
+  }
+  if (new Set(dealChron.fileUnits.map((row) => row.naid)).size !== 96) errors.push("Duplicate Deal Chronological file-unit NAID");
+  if (new Set(dealChron.fileUnits.map((row) => row.localId)).size !== 96) errors.push("Duplicate Deal Chronological OA/ID");
+  if (dealChron.fileUnits.some((row) => !row.catalogUrl.startsWith("https://catalog.archives.gov/id/") || !row.pdfUrl.startsWith("https://catalog.archives.gov/medialz/"))) {
+    errors.push("Deal Chronological ledger contains a nonofficial link");
+  }
+  if (
+    dealChron.totalOcrCharacters !== 12917675 ||
+    dealChron.fileUnits.reduce((total, row) => total + row.ocrCharacterCount, 0) !== 12917675 ||
+    dealChron.fileUnits.some((row) => !Number.isInteger(row.pdfPages) || row.pdfPages <= 0 || !Number.isInteger(row.economicSignals?.total))
+  ) {
+    errors.push("Deal Chronological page or OCR accounting is incomplete");
+  }
+  const sortedUnits = [...dealChron.fileUnits].sort((a, b) =>
+    a.workingStartDate.localeCompare(b.workingStartDate) ||
+    a.workingEndDate.localeCompare(b.workingEndDate) ||
+    a.localId.localeCompare(b.localId),
+  );
+  if (sortedUnits.some((row, index) => row.naid !== dealChron.fileUnits[index].naid)) errors.push("Deal Chronological file units are not stored in month chronology");
+  if (
+    dealChron.fileUnits[0]?.workingDateLabel !== "March 1989 [1]" ||
+    dealChron.fileUnits.at(-1)?.workingDateLabel !== "May 1992" ||
+    dealChron.fileUnits.some((row) =>
+      !/^\d{4}-\d{2}-01$/.test(row.workingStartDate) ||
+      !row.workingDateLabel ||
+      row.dateBasis !== "Catalog folder coverage dates and title; the first-of-month value is a sorting key only"
+    )
+  ) {
+    errors.push("Deal Chronological month-level date evidence or boundary labels changed");
+  }
+  if (dealChron.fileUnits.some((row) => !row.reviewTopics?.length || !row.reviewFocus || !row.reviewKeyExtent || !["Volume XXX review", "Selective review"].includes(row.routing))) {
+    errors.push("Deal Chronological file unit lacks routing or compiler annotation");
+  }
+  if (dealChron.fileUnits.filter((row) => row.routing === "Volume XXX review").length !== 76 || dealChron.fileUnits.filter((row) => row.routing === "Selective review").length !== 20) {
+    errors.push("Deal Chronological file-level routing counts changed");
+  }
+  const chapterCounts = Object.fromEntries(data.chapters.map((chapter) => [chapter.name, dealChron.fileUnits.filter((row) => row.chapter === chapter.name).length]));
+  if (
+    chapterCounts["Trade Policy and Market Access"] !== 36 ||
+    chapterCounts["Monetary Policy, Debt, and International Institutions"] !== 28 ||
+    chapterCounts["Economic Summits and Industrialized-Country Cooperation"] !== 13 ||
+    chapterCounts["Transition Economies and International Economic Strategy"] !== 15 ||
+    chapterCounts["Strategic Trade, Technology, and Investment Controls"] !== 4
+  ) {
+    errors.push("Deal Chronological chapter routing counts changed");
+  }
+  const rawHeaders = dealChron.fileUnits.reduce((total, row) => total + row.rawWithdrawalSheetHeaderCount, 0);
+  const inventoryHeaders = dealChron.fileUnits.reduce((total, row) => total + row.withdrawalInventoryHeaderCount, 0);
+  const sheetItems = dealChron.fileUnits.reduce((total, row) => total + row.withdrawalSheetItemCount, 0);
+  const sheetPages = dealChron.fileUnits.reduce((total, row) => total + row.withdrawalSheetPages, 0);
+  const releasedInPartSheets = dealChron.fileUnits.reduce((total, row) => total + row.releasedInPartSheetCount, 0);
+  const noCopyIndicatedSheets = dealChron.fileUnits.reduce((total, row) => total + row.noCopyIndicatedSheetCount, 0);
+  if (
+    dealChron.totalRawWithdrawalSheetHeaders !== 813 || rawHeaders !== 813 ||
+    dealChron.withdrawalInventoryHeaderCount !== 116 || inventoryHeaders !== 116 ||
+    dealChron.totalWithdrawalSheetItems !== 697 || sheetItems !== 697 ||
+    dealChron.totalWithdrawalSheetPages !== 2121 || sheetPages !== 2121 ||
+    dealChron.releasedInPartSheetCount !== 0 || releasedInPartSheets !== 0 ||
+    dealChron.noCopyIndicatedSheetCount !== 697 || noCopyIndicatedSheets !== 697 ||
+    rawHeaders !== inventoryHeaders + sheetItems
+  ) {
+    errors.push("Deal Chronological withdrawal/redaction header and disposition accounting does not reconcile");
+  }
+  const subjectLeads = dealChron.fileUnits.reduce((total, row) => total + (row.economicSubjectLeads?.length || 0), 0);
+  const pertinentSheetLeads = dealChron.fileUnits.reduce((total, row) => total + row.relevantWithdrawalSheetCount, 0);
+  if (dealChron.totalEconomicSubjectLeads !== 708 || subjectLeads !== 708 || dealChron.totalRelevantWithdrawalSheetLeads !== 275 || pertinentSheetLeads !== 275) {
+    errors.push("Deal Chronological economic lead accounting changed");
+  }
+  if (dealChron.candidateCount !== 96 || dealChron.candidateIds.length !== 96 || dealChron.auditedFolders.length !== 96) {
+    errors.push("Deal Chronological candidate or audited-folder count is not 96");
+  }
+  if (dealChron.candidateIds.some((id) => !ids.has(id))) errors.push("Deal Chronological candidate ID is missing from the master chronology");
+  const candidateRecords = dealChron.candidateIds.map((id) => data.records.find((record) => record.id === id)).filter(Boolean);
+  if (candidateRecords.some((record) => record.collectionId !== "deal-chron" || record.sourceNoteStatus !== "locator" || record.sourceNote || !/file-unit locator only/i.test(record.sourceNoteBasis || ""))) {
+    errors.push("Deal Chronological file-level lead incorrectly asserts a document Source Note or lacks its collection ID");
+  }
+  if (candidateRecords.some((record) =>
+    !record.archivalLocator.startsWith("George H.W. Bush Library, Bush Presidential Records, National Security Council, Timothy E. Deal Files, Chronological Files, OA/ID CF") ||
+    !/OA\/ID CF\d{5}–\d{3}, Chron File:/.test(record.archivalLocator) ||
+    /OA\/ID CF\d{5}-\d{3}/.test(record.archivalLocator)
+  )) {
+    errors.push("Deal Chronological archival locator does not follow the provenance-marker form");
+  }
+  if (candidateRecords.reduce((total, record) => total + record.pageCount, 0) !== 9093) errors.push("Deal Chronological candidate page total is not 9,093");
+  if (candidateRecords.filter((record) => record.selection === "Core").length !== 76 || candidateRecords.filter((record) => record.selection === "Consider").length !== 20 || candidateRecords.some((record) => !["Core", "Consider"].includes(record.selection))) {
+    errors.push("Deal Chronological Core or Consider candidate counts changed");
+  }
+  if (candidateRecords.some((record) => record.datePrecision !== "month" || record.sortDate !== record.date || !/^\d{4}-\d{2}-01$/.test(record.date) || !/folder-level chronology/i.test(record.displayDateLabel || ""))) {
+    errors.push("Deal Chronological candidates no longer preserve month precision");
+  }
+  if (
+    candidateRecords.reduce((total, record) => total + record.rawWithdrawalSheetHeaderCount, 0) !== 813 ||
+    candidateRecords.reduce((total, record) => total + record.withdrawalInventoryHeaderCount, 0) !== 116 ||
+    candidateRecords.reduce((total, record) => total + record.withdrawalSheetItemCount, 0) !== 697 ||
+    candidateRecords.reduce((total, record) => total + record.withdrawalSheetPages, 0) !== 2121 ||
+    candidateRecords.reduce((total, record) => total + record.economicSubjectLeadCount, 0) !== 708 ||
+    candidateRecords.reduce((total, record) => total + record.relevantWithdrawalSheetCount, 0) !== 275
+  ) {
+    errors.push("Deal Chronological candidate evidence totals do not reconcile to the file ledger");
+  }
+  const withdrawalItems = candidateRecords.flatMap((record) => record.withdrawalItems || []);
+  if (
+    withdrawalItems.length !== 697 ||
+    withdrawalItems.reduce((total, item) => total + item.pages, 0) !== 2121 ||
+    withdrawalItems.some((item) => item.sheetDisposition !== "No released copy indicated on the sheet")
+  ) {
+    errors.push("Deal Chronological individual withdrawal/redaction descriptions are incomplete");
+  }
+  const classificationCounts = Object.fromEntries(["Top Secret", "Secret", "Confidential", "Not stated"].map((marking) => [marking, withdrawalItems.filter((item) => item.classification === marking).length]));
+  if (classificationCounts["Top Secret"] !== 33 || classificationCounts.Secret !== 392 || classificationCounts.Confidential !== 173 || classificationCounts["Not stated"] !== 99) {
+    errors.push("Deal Chronological sheet-classification accounting changed");
+  }
+  const duplicateWarnings = withdrawalItems.filter((item) => item.possibleDuplicateMatch);
+  const crossCollectionWarnings = withdrawalItems.filter((item) => item.crossCollectionMatch);
+  if (dealChron.probableDuplicateGroupCount !== 69 || dealChron.probableDuplicateSheetEntryCount !== 152 || duplicateWarnings.length !== 152 || dealChron.crossCollectionTitleMatchCount !== 7 || crossCollectionWarnings.length !== 7) {
+    errors.push("Deal Chronological duplicate or cross-collection comparison warnings changed");
+  }
+  const sortedCandidates = [...candidateRecords].sort((a, b) => a.sortDate.localeCompare(b.sortDate) || a.localId.localeCompare(b.localId));
+  if (sortedCandidates.some((record, index) => record.id !== candidateRecords[index].id)) errors.push("Deal Chronological candidates are not stored in month chronology");
+}
+
+if (data.nscCollections?.length !== 11) errors.push("NSC collection tab count is not 11");
 
 const report = {
   checkedAt: new Date().toISOString(),
@@ -660,6 +824,7 @@ const report = {
   scowcroftFileUnits: scowcroft?.fileUnits.length || 0,
   dealSummitFileUnits: dealSummit?.fileUnits.length || 0,
   dealReissFileUnits: dealReiss?.fileUnits.length || 0,
+  dealChronFileUnits: dealChron?.fileUnits.length || 0,
   ifTransitionFileUnits: ifTransition?.fileUnits.length || 0,
   nsdFileUnits: nsd?.fileUnits.length || 0,
   nsrFileUnits: nsr?.fileUnits.length || 0,

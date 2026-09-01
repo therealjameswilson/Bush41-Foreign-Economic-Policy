@@ -201,7 +201,14 @@ function recordSearchText(record) {
     record.archivalLocator,
     record.notes,
     ...(record.topics || []),
-    ...(record.withdrawalItems || []).flatMap((item) => [item.title, item.sheetDisposition, item.canonicalMatch]),
+    ...(record.economicSubjectLeads || []),
+    ...(record.withdrawalItems || []).flatMap((item) => [
+      item.title,
+      item.sheetDisposition,
+      item.canonicalMatch,
+      item.possibleDuplicateMatch,
+      item.crossCollectionMatch,
+    ]),
   ]
     .filter(Boolean)
     .join(" ")
@@ -314,6 +321,7 @@ function createRecordRow(record, idPrefix = "") {
   }
 
   body.append(createProvenance(record));
+  if (record.economicSubjectLeads?.length) body.append(createSubjectLeadLedger(record));
   if (record.withdrawalItems?.length) body.append(createWithdrawalLedger(record));
 
   const links = document.createElement("div");
@@ -365,7 +373,9 @@ function createWithdrawalLedger(record) {
   const table = document.createElement("table");
   const showDate = record.withdrawalItems.some((item) => item.date);
   const showRestriction = record.withdrawalItems.some((item) => item.restriction);
-  const showDisposition = record.withdrawalItems.some((item) => item.sheetDisposition || item.canonicalMatch);
+  const showDisposition = record.withdrawalItems.some(
+    (item) => item.sheetDisposition || item.canonicalMatch || item.possibleDuplicateMatch || item.crossCollectionMatch,
+  );
   const headings = ["Item", "Description"];
   if (showDate) headings.push("Date");
   if (showRestriction) headings.push("Restriction");
@@ -379,7 +389,11 @@ function createWithdrawalLedger(record) {
     if (showDate) cells.push(item.date || "Not stated");
     if (showRestriction) cells.push(item.restriction || "Not stated");
     if (showDisposition) {
-      cells.push([item.sheetDisposition, item.canonicalMatch].filter(Boolean).join("; ") || "Not stated");
+      cells.push(
+        [item.sheetDisposition, item.canonicalMatch, item.possibleDuplicateMatch, item.crossCollectionMatch]
+          .filter(Boolean)
+          .join("; ") || "Not stated",
+      );
     }
     cells.push(item.classification, item.pages);
     tr.innerHTML = cells.map((value) => `<td>${escapeHtml(value)}</td>`).join("");
@@ -388,6 +402,21 @@ function createWithdrawalLedger(record) {
   table.append(tbody);
   tableWrap.append(table);
   details.append(summary, tableWrap);
+  return details;
+}
+
+function createSubjectLeadLedger(record) {
+  const details = document.createElement("details");
+  details.className = "subject-lead-ledger";
+  const summary = document.createElement("summary");
+  summary.textContent = `${record.economicSubjectLeads.length} economic-policy subject-line ${plural(record.economicSubjectLeads.length, "lead")}`;
+  const list = document.createElement("ol");
+  record.economicSubjectLeads.forEach((subject) => {
+    const item = document.createElement("li");
+    item.textContent = subject;
+    list.append(item);
+  });
+  details.append(summary, list);
   return details;
 }
 
@@ -727,7 +756,14 @@ function nscFileSearchText(row) {
     row.reviewFocus,
     row.reviewKeyExtent,
     row.withdrawalMetadataNote,
-    ...(row.withdrawalItems || []).flatMap((item) => [item.title, item.sheetDisposition, item.canonicalMatch]),
+    ...(row.economicSubjectLeads || []),
+    ...(row.withdrawalItems || []).flatMap((item) => [
+      item.title,
+      item.sheetDisposition,
+      item.canonicalMatch,
+      item.possibleDuplicateMatch,
+      item.crossCollectionMatch,
+    ]),
     row.economicSignals?.total >= 20 ? "economic policy OCR signal" : "",
   ]
     .filter(Boolean)
@@ -854,6 +890,7 @@ function createNscFileUnitRow(row) {
   if (markerNote) details.append(label("Provenance note"), paragraph(markerNote, "record-notes"));
   details.append(signalNote, actions);
   body.append(title, meta, signals, details);
+  if (row.economicSubjectLeads?.length) body.append(createSubjectLeadLedger(row));
 
   const links = document.createElement("div");
   links.className = "record-links";
@@ -995,12 +1032,14 @@ function downloadFilteredNscCsv() {
     "naid",
     "workingStartDate",
     "workingEndDate",
+    "workingDateLabel",
     "dateBasis",
     "title",
     "localId",
     "seriesNaid",
     "seriesTitle",
     "chapter",
+    "selection",
     "routing",
     "markerStatus",
     "markerRecordGroup",
@@ -1027,10 +1066,15 @@ function downloadFilteredNscCsv() {
     "treasurySignals",
     "withheldItemCount",
     "withheldPages",
+    "rawWithdrawalSheetHeaderCount",
+    "withdrawalInventoryHeaderCount",
     "withdrawalSheetItemCount",
     "withdrawalSheetPages",
     "releasedInPartSheetCount",
     "noCopyIndicatedSheetCount",
+    "economicSubjectLeadCount",
+    "relevantWithdrawalSheetCount",
+    "economicSubjectLeads",
     "withdrawalMetadataNote",
     "withdrawalInventory",
     "archivalLocator",
@@ -1049,6 +1093,8 @@ function downloadFilteredNscCsv() {
     energySignals: row.economicSignals?.energy ?? "",
     agricultureSignals: row.economicSignals?.agriculture ?? "",
     treasurySignals: row.economicSignals?.treasury ?? "",
+    economicSubjectLeadCount: row.economicSubjectLeads?.length || 0,
+    economicSubjectLeads: JSON.stringify(row.economicSubjectLeads || []),
     withdrawalInventory: JSON.stringify(row.withdrawalItems || []),
   }));
   const csv = [

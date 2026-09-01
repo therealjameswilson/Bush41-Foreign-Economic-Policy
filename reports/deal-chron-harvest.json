@@ -1,0 +1,2544 @@
+{
+  "generatedAt": "2026-09-01T06:10:43.360Z",
+  "seriesNaId": "2554807",
+  "expectedFileUnits": 96,
+  "harvestedFileUnits": 96,
+  "onlinePdfCount": 96,
+  "catalogOnlyCount": 0,
+  "coreCandidateCount": 76,
+  "considerCandidateCount": 20,
+  "chapterCounts": [
+    {
+      "name": "Monetary Policy, Debt, and International Institutions",
+      "fileUnitCount": 28
+    },
+    {
+      "name": "Trade Policy and Market Access",
+      "fileUnitCount": 36
+    },
+    {
+      "name": "Transition Economies and International Economic Strategy",
+      "fileUnitCount": 15
+    },
+    {
+      "name": "Strategic Trade, Technology, and Investment Controls",
+      "fileUnitCount": 4
+    },
+    {
+      "name": "Economic Summits and Industrialized-Country Cooperation",
+      "fileUnitCount": 13
+    }
+  ],
+  "totalCatalogPdfBytes": 4149236610,
+  "totalMeasuredServedPdfBytes": 4132695338,
+  "servedPdfSizeAvailableCount": 94,
+  "pdfSizeUnavailableCount": 2,
+  "pdfSizeMetadataMismatches": [
+    {
+      "naid": "452050414",
+      "catalogPdfBytes": 44232996,
+      "servedPdfBytes": 44232997
+    },
+    {
+      "naid": "452050415",
+      "catalogPdfBytes": 30589228,
+      "servedPdfBytes": 30589229
+    },
+    {
+      "naid": "452050416",
+      "catalogPdfBytes": 25908448,
+      "servedPdfBytes": 25908447
+    },
+    {
+      "naid": "452050418",
+      "catalogPdfBytes": 50977892,
+      "servedPdfBytes": 50977891
+    },
+    {
+      "naid": "452050419",
+      "catalogPdfBytes": 55327136,
+      "servedPdfBytes": 55327137
+    },
+    {
+      "naid": "452050421",
+      "catalogPdfBytes": 39445736,
+      "servedPdfBytes": 39445737
+    },
+    {
+      "naid": "452050423",
+      "catalogPdfBytes": 39498144,
+      "servedPdfBytes": 39498143
+    },
+    {
+      "naid": "452050424",
+      "catalogPdfBytes": 60338388,
+      "servedPdfBytes": 60338387
+    },
+    {
+      "naid": "452050425",
+      "catalogPdfBytes": 48060016,
+      "servedPdfBytes": 48060018
+    },
+    {
+      "naid": "452050427",
+      "catalogPdfBytes": 55459372,
+      "servedPdfBytes": 55459373
+    },
+    {
+      "naid": "452050428",
+      "catalogPdfBytes": 50424520,
+      "servedPdfBytes": 50424521
+    },
+    {
+      "naid": "452050429",
+      "catalogPdfBytes": 25904660,
+      "servedPdfBytes": 25904659
+    },
+    {
+      "naid": "452050431",
+      "catalogPdfBytes": 48301436,
+      "servedPdfBytes": 48301435
+    },
+    {
+      "naid": "452050432",
+      "catalogPdfBytes": 43523576,
+      "servedPdfBytes": 43523577
+    },
+    {
+      "naid": "452050433",
+      "catalogPdfBytes": 27932208,
+      "servedPdfBytes": 27932209
+    },
+    {
+      "naid": "452050434",
+      "catalogPdfBytes": 42157928,
+      "servedPdfBytes": 42157926
+    },
+    {
+      "naid": "452050435",
+      "catalogPdfBytes": 44489656,
+      "servedPdfBytes": 44489655
+    },
+    {
+      "naid": "452050437",
+      "catalogPdfBytes": 25586124,
+      "servedPdfBytes": 25586125
+    },
+    {
+      "naid": "452050439",
+      "catalogPdfBytes": 67214544,
+      "servedPdfBytes": 67214548
+    },
+    {
+      "naid": "452050440",
+      "catalogPdfBytes": 55010836,
+      "servedPdfBytes": 55010835
+    },
+    {
+      "naid": "452050441",
+      "catalogPdfBytes": 41805776,
+      "servedPdfBytes": 41805775
+    },
+    {
+      "naid": "452050443",
+      "catalogPdfBytes": 23756332,
+      "servedPdfBytes": 23756333
+    },
+    {
+      "naid": "452050444",
+      "catalogPdfBytes": 53618576,
+      "servedPdfBytes": 53618574
+    },
+    {
+      "naid": "452050445",
+      "catalogPdfBytes": 31329132,
+      "servedPdfBytes": 31329131
+    },
+    {
+      "naid": "452050446",
+      "catalogPdfBytes": 44803000,
+      "servedPdfBytes": 44802999
+    },
+    {
+      "naid": "452050447",
+      "catalogPdfBytes": 30058888,
+      "servedPdfBytes": 30058889
+    },
+    {
+      "naid": "452050448",
+      "catalogPdfBytes": 92856288,
+      "servedPdfBytes": 92856289
+    },
+    {
+      "naid": "452050449",
+      "catalogPdfBytes": 62520232,
+      "servedPdfBytes": 62520231
+    },
+    {
+      "naid": "452050450",
+      "catalogPdfBytes": 88460688,
+      "servedPdfBytes": 88460691
+    },
+    {
+      "naid": "452050451",
+      "catalogPdfBytes": 52559900,
+      "servedPdfBytes": 52559901
+    },
+    {
+      "naid": "452050452",
+      "catalogPdfBytes": 39516896,
+      "servedPdfBytes": 39516895
+    },
+    {
+      "naid": "452050453",
+      "catalogPdfBytes": 45291576,
+      "servedPdfBytes": 45291574
+    },
+    {
+      "naid": "452050455",
+      "catalogPdfBytes": 38803424,
+      "servedPdfBytes": 38803422
+    },
+    {
+      "naid": "452050456",
+      "catalogPdfBytes": 42585332,
+      "servedPdfBytes": 42585333
+    },
+    {
+      "naid": "452050460",
+      "catalogPdfBytes": 48117712,
+      "servedPdfBytes": 48117711
+    },
+    {
+      "naid": "452050463",
+      "catalogPdfBytes": 39867808,
+      "servedPdfBytes": 39867807
+    },
+    {
+      "naid": "452050464",
+      "catalogPdfBytes": 44649592,
+      "servedPdfBytes": 44649591
+    },
+    {
+      "naid": "452050468",
+      "catalogPdfBytes": 43846196,
+      "servedPdfBytes": 43846197
+    },
+    {
+      "naid": "452050470",
+      "catalogPdfBytes": 32429252,
+      "servedPdfBytes": 32429251
+    },
+    {
+      "naid": "452050471",
+      "catalogPdfBytes": 37692688,
+      "servedPdfBytes": 37692690
+    },
+    {
+      "naid": "452050473",
+      "catalogPdfBytes": 30346476,
+      "servedPdfBytes": 30346477
+    },
+    {
+      "naid": "452050474",
+      "catalogPdfBytes": 39067824,
+      "servedPdfBytes": 39067823
+    },
+    {
+      "naid": "452050475",
+      "catalogPdfBytes": 42698364,
+      "servedPdfBytes": 42698363
+    },
+    {
+      "naid": "452050478",
+      "catalogPdfBytes": 19868464,
+      "servedPdfBytes": 19868463
+    },
+    {
+      "naid": "452050479",
+      "catalogPdfBytes": 28524144,
+      "servedPdfBytes": 28524145
+    },
+    {
+      "naid": "452050480",
+      "catalogPdfBytes": 31283740,
+      "servedPdfBytes": 31283739
+    },
+    {
+      "naid": "452050483",
+      "catalogPdfBytes": 41555568,
+      "servedPdfBytes": 41555567
+    },
+    {
+      "naid": "452050484",
+      "catalogPdfBytes": 38786360,
+      "servedPdfBytes": 38786359
+    },
+    {
+      "naid": "452050486",
+      "catalogPdfBytes": 66971036,
+      "servedPdfBytes": 66971037
+    },
+    {
+      "naid": "452050487",
+      "catalogPdfBytes": 51295620,
+      "servedPdfBytes": 51295621
+    },
+    {
+      "naid": "452050488",
+      "catalogPdfBytes": 45001676,
+      "servedPdfBytes": 45001677
+    },
+    {
+      "naid": "452050489",
+      "catalogPdfBytes": 18426112,
+      "servedPdfBytes": 18426111
+    },
+    {
+      "naid": "452050490",
+      "catalogPdfBytes": 36757052,
+      "servedPdfBytes": 36757051
+    },
+    {
+      "naid": "452050491",
+      "catalogPdfBytes": 34751748,
+      "servedPdfBytes": 34751749
+    },
+    {
+      "naid": "452050492",
+      "catalogPdfBytes": 26789280,
+      "servedPdfBytes": 26789279
+    },
+    {
+      "naid": "452050493",
+      "catalogPdfBytes": 61603792,
+      "servedPdfBytes": 61603791
+    },
+    {
+      "naid": "452050494",
+      "catalogPdfBytes": 57942344,
+      "servedPdfBytes": 57942346
+    },
+    {
+      "naid": "452050495",
+      "catalogPdfBytes": 69230928,
+      "servedPdfBytes": 69230924
+    },
+    {
+      "naid": "452050496",
+      "catalogPdfBytes": 73222440,
+      "servedPdfBytes": 73222438
+    },
+    {
+      "naid": "452050497",
+      "catalogPdfBytes": 73420576,
+      "servedPdfBytes": 73420578
+    },
+    {
+      "naid": "452050499",
+      "catalogPdfBytes": 59966512,
+      "servedPdfBytes": 59966513
+    },
+    {
+      "naid": "452050500",
+      "catalogPdfBytes": 46444972,
+      "servedPdfBytes": 46444971
+    },
+    {
+      "naid": "452050503",
+      "catalogPdfBytes": 61236848,
+      "servedPdfBytes": 61236847
+    },
+    {
+      "naid": "452050504",
+      "catalogPdfBytes": 52462100,
+      "servedPdfBytes": 52462101
+    },
+    {
+      "naid": "452050505",
+      "catalogPdfBytes": 64286720,
+      "servedPdfBytes": 64286722
+    },
+    {
+      "naid": "452050507",
+      "catalogPdfBytes": 50409768,
+      "servedPdfBytes": 50409769
+    }
+  ],
+  "totalPdfPages": 9093,
+  "totalRawWithdrawalSheetHeaders": 813,
+  "withdrawalInventoryHeaderCount": 116,
+  "totalWithdrawalSheetItems": 697,
+  "totalWithdrawalSheetPages": 2121,
+  "releasedInPartSheetCount": 0,
+  "noCopyIndicatedSheetCount": 697,
+  "totalEconomicSubjectLeads": 708,
+  "totalRelevantWithdrawalSheetLeads": 275,
+  "totalOcrCharacters": 12917675,
+  "markerVerified": 96,
+  "markerExceptions": [],
+  "probableDuplicateGroups": [
+    {
+      "key": "from charles powell to brent scowcroft|5/3/90",
+      "title": "From Charles Powell to Brent Scowcroft",
+      "date": "5/3/90",
+      "locations": [
+        {
+          "naid": "452050452",
+          "localId": "CF00696-016",
+          "itemNumber": "10"
+        },
+        {
+          "naid": "452050452",
+          "localId": "CF00696-016",
+          "itemNumber": "21"
+        },
+        {
+          "naid": "452050452",
+          "localId": "CF00696-016",
+          "itemNumber": "32"
+        },
+        {
+          "naid": "452050453",
+          "localId": "CF00696-017",
+          "itemNumber": "14"
+        }
+      ]
+    },
+    {
+      "key": "national security council meeting|3/14/89",
+      "title": "Re: National Security Council Meeting",
+      "date": "3/14/89",
+      "locations": [
+        {
+          "naid": "452050413",
+          "localId": "CF00695-002",
+          "itemNumber": "06"
+        },
+        {
+          "naid": "452050414",
+          "localId": "CF00695-003",
+          "itemNumber": "02"
+        },
+        {
+          "naid": "452050414",
+          "localId": "CF00695-003",
+          "itemNumber": "04"
+        },
+        {
+          "naid": "452050414",
+          "localId": "CF00695-003",
+          "itemNumber": "07"
+        }
+      ]
+    },
+    {
+      "key": "from brent scowcroft to potus re fiber optics line|n.d.",
+      "title": "From Brent Scowcroft to POTUS Re: Fiber Optics Line",
+      "date": "n.d.",
+      "locations": [
+        {
+          "naid": "452050452",
+          "localId": "CF00696-016",
+          "itemNumber": "26"
+        },
+        {
+          "naid": "452050452",
+          "localId": "CF00696-016",
+          "itemNumber": "31"
+        },
+        {
+          "naid": "452050453",
+          "localId": "CF00696-017",
+          "itemNumber": "13"
+        }
+      ]
+    },
+    {
+      "key": "from prime minister gonzalez to potus|5/3/90",
+      "title": "From Prime Minister Gonzalez to POTUS",
+      "date": "5/3/90",
+      "locations": [
+        {
+          "naid": "452050454",
+          "localId": "CF00696-018",
+          "itemNumber": "02"
+        },
+        {
+          "naid": "452050454",
+          "localId": "CF00696-018",
+          "itemNumber": "03"
+        },
+        {
+          "naid": "452050454",
+          "localId": "CF00696-018",
+          "itemNumber": "04"
+        }
+      ]
+    },
+    {
+      "key": "from timothy deal adrian basora to brent scowcroft re eastern europe proposed letter to jacques delors|7/10/89",
+      "title": "From Timothy Deal/Adrian Basora to Brent Scowcroft Re: Eastern Europe: Proposed Letter to Jacques Delors",
+      "date": "7/10/89",
+      "locations": [
+        {
+          "naid": "452050425",
+          "localId": "CF00695-014",
+          "itemNumber": "03"
+        },
+        {
+          "naid": "452050425",
+          "localId": "CF00695-014",
+          "itemNumber": "05"
+        },
+        {
+          "naid": "452050425",
+          "localId": "CF00695-014",
+          "itemNumber": "08"
+        }
+      ]
+    },
+    {
+      "key": "from timothy deal to brent scowcroft re pcc meeting on international debt|4/20/89",
+      "title": "From Timothy Deal to Brent Scowcroft Re: PCC Meeting on International Debt",
+      "date": "4/20/89",
+      "locations": [
+        {
+          "naid": "452050415",
+          "localId": "CF00695-004",
+          "itemNumber": "01"
+        },
+        {
+          "naid": "452050415",
+          "localId": "CF00695-004",
+          "itemNumber": "07"
+        },
+        {
+          "naid": "452050415",
+          "localId": "CF00695-004",
+          "itemNumber": "09"
+        }
+      ]
+    },
+    {
+      "key": "international economic cooperation with the ussr|n.d.",
+      "title": "Re: International Economic Cooperation with the USSR",
+      "date": "n.d.",
+      "locations": [
+        {
+          "naid": "452050482",
+          "localId": "CF00958-010",
+          "itemNumber": "07"
+        },
+        {
+          "naid": "452050482",
+          "localId": "CF00958-010",
+          "itemNumber": "09"
+        },
+        {
+          "naid": "452050482",
+          "localId": "CF00958-010",
+          "itemNumber": "11"
+        }
+      ]
+    },
+    {
+      "key": "letter to jacques delors|n.d.",
+      "title": "Letter to Jacques Delors",
+      "date": "n.d.",
+      "locations": [
+        {
+          "naid": "452050425",
+          "localId": "CF00695-014",
+          "itemNumber": "04"
+        },
+        {
+          "naid": "452050425",
+          "localId": "CF00695-014",
+          "itemNumber": "06"
+        },
+        {
+          "naid": "452050425",
+          "localId": "CF00695-014",
+          "itemNumber": "07"
+        }
+      ]
+    },
+    {
+      "key": "memorandum for record re international economics policy coordination committee pcc meeting|n.d.",
+      "title": "Memorandum for Record Re: International Economics Policy Coordination Committee (PCC) Meeting",
+      "date": "n.d.",
+      "locations": [
+        {
+          "naid": "452050415",
+          "localId": "CF00695-004",
+          "itemNumber": "02"
+        },
+        {
+          "naid": "452050415",
+          "localId": "CF00695-004",
+          "itemNumber": "08"
+        },
+        {
+          "naid": "452050415",
+          "localId": "CF00695-004",
+          "itemNumber": "10"
+        }
+      ]
+    },
+    {
+      "key": "next steps in the recovery program for poland|n.d.",
+      "title": "Re: Next Steps in the Recovery Program for Poland",
+      "date": "n.d.",
+      "locations": [
+        {
+          "naid": "452050429",
+          "localId": "CF00695-018",
+          "itemNumber": "14"
+        },
+        {
+          "naid": "452050429",
+          "localId": "CF00695-018",
+          "itemNumber": "15"
+        },
+        {
+          "naid": "452050429",
+          "localId": "CF00695-018",
+          "itemNumber": "17"
+        }
+      ]
+    },
+    {
+      "key": "poland s economic plight|n.d.",
+      "title": "Re: Poland's Economic Plight",
+      "date": "n.d.",
+      "locations": [
+        {
+          "naid": "452050429",
+          "localId": "CF00695-018",
+          "itemNumber": "07"
+        },
+        {
+          "naid": "452050429",
+          "localId": "CF00695-018",
+          "itemNumber": "10"
+        },
+        {
+          "naid": "452050429",
+          "localId": "CF00695-018",
+          "itemNumber": "11"
+        }
+      ]
+    },
+    {
+      "key": "william sittmann for distribution re nsc deputies committee meeting|n.d.",
+      "title": "William Sittmann for Distribution Re: NSC Deputies Committee Meeting",
+      "date": "n.d.",
+      "locations": [
+        {
+          "naid": "452050476",
+          "localId": "CF00958-004",
+          "itemNumber": "02"
+        },
+        {
+          "naid": "452050482",
+          "localId": "CF00958-010",
+          "itemNumber": "08"
+        },
+        {
+          "naid": "452050505",
+          "localId": "CF00959-013",
+          "itemNumber": "05"
+        }
+      ]
+    },
+    {
+      "key": "a strategy for obtaining financial contribution to key countries in the gulf crisis|8/22/90",
+      "title": "Re: A Strategy for Obtaining Financial Contribution to Key Countries in the Gulf Crisis",
+      "date": "8/22/90",
+      "locations": [
+        {
+          "naid": "452050459",
+          "localId": "CF00697-002",
+          "itemNumber": "10"
+        },
+        {
+          "naid": "452050459",
+          "localId": "CF00697-002",
+          "itemNumber": "13"
+        }
+      ]
+    },
+    {
+      "key": "annex to letter from prime minister major to potus|n.d.",
+      "title": "Re: Annex to Letter from Prime Minister Major to POTUS",
+      "date": "n.d.",
+      "locations": [
+        {
+          "naid": "452050485",
+          "localId": "CF00958-013",
+          "itemNumber": "06"
+        },
+        {
+          "naid": "452050485",
+          "localId": "CF00958-013",
+          "itemNumber": "10"
+        }
+      ]
+    },
+    {
+      "key": "clarification on issuance of computer licenses|12/27/90",
+      "title": "Re: Clarification on Issuance of Computer Licenses",
+      "date": "12/27/90",
+      "locations": [
+        {
+          "naid": "452050467",
+          "localId": "CF00697-010",
+          "itemNumber": "01"
+        },
+        {
+          "naid": "452050470",
+          "localId": "CF00697-013",
+          "itemNumber": "10"
+        }
+      ]
+    },
+    {
+      "key": "communique mandate to finance and foreign ministers|n.d.",
+      "title": "Re: Communique Mandate to Finance and Foreign Ministers",
+      "date": "n.d.",
+      "locations": [
+        {
+          "naid": "452050455",
+          "localId": "CF00696-019",
+          "itemNumber": "01"
+        },
+        {
+          "naid": "452050455",
+          "localId": "CF00696-019",
+          "itemNumber": "06"
+        }
+      ]
+    },
+    {
+      "key": "draft presidential message on polish debt rescheduling|n.d.",
+      "title": "Re: Draft Presidential Message on Polish Debt Rescheduling",
+      "date": "n.d.",
+      "locations": [
+        {
+          "naid": "452050420",
+          "localId": "CF00695-009",
+          "itemNumber": "02"
+        },
+        {
+          "naid": "452050420",
+          "localId": "CF00695-009",
+          "itemNumber": "04"
+        }
+      ]
+    },
+    {
+      "key": "economic intelligence and the policy community|n.d.",
+      "title": "Re: Economic Intelligence and the Policy Community",
+      "date": "n.d.",
+      "locations": [
+        {
+          "naid": "452050453",
+          "localId": "CF00696-017",
+          "itemNumber": "04"
+        },
+        {
+          "naid": "452050453",
+          "localId": "CF00696-017",
+          "itemNumber": "06"
+        }
+      ]
+    },
+    {
+      "key": "export licensing policy for iran|n.d.",
+      "title": "Re: Export Licensing Policy for Iran",
+      "date": "n.d.",
+      "locations": [
+        {
+          "naid": "452050488",
+          "localId": "CF00958-016",
+          "itemNumber": "03"
+        },
+        {
+          "naid": "452050489",
+          "localId": "CF00958-017",
+          "itemNumber": "02"
+        }
+      ]
+    },
+    {
+      "key": "from allan wendt to timothy deal re usg interim draft proposals for cocom and eastern europe|n.d.",
+      "title": "From Allan Wendt to Timothy Deal Re: USG Interim Draft Proposals for COCOM and Eastern Europe",
+      "date": "n.d.",
+      "locations": [
+        {
+          "naid": "452050447",
+          "localId": "CF00696-011",
+          "itemNumber": "11"
+        },
+        {
+          "naid": "452050447",
+          "localId": "CF00696-011",
+          "itemNumber": "13"
+        }
+      ]
+    },
+    {
+      "key": "from brent scowcroft to potus re fiber optics line|5/27/90",
+      "title": "From Brent Scowcroft to POTUS Re: Fiber Optics Line",
+      "date": "5/27/90",
+      "locations": [
+        {
+          "naid": "452050452",
+          "localId": "CF00696-016",
+          "itemNumber": "09"
+        },
+        {
+          "naid": "452050452",
+          "localId": "CF00696-016",
+          "itemNumber": "20"
+        }
+      ]
+    },
+    {
+      "key": "from brent scowcroft to potus re international debt|n.d.",
+      "title": "From Brent Scowcroft to POTUS Re: International Debt",
+      "date": "n.d.",
+      "locations": [
+        {
+          "naid": "452050415",
+          "localId": "CF00695-004",
+          "itemNumber": "06"
+        },
+        {
+          "naid": "452050419",
+          "localId": "CF00695-008",
+          "itemNumber": "06"
+        }
+      ]
+    },
+    {
+      "key": "from brent scowcroft to potus re jackson vanik waiver|n.d.",
+      "title": "From Brent Scowcroft to POTUS Re: Jackson-Vanik Waiver",
+      "date": "n.d.",
+      "locations": [
+        {
+          "naid": "452050465",
+          "localId": "CF00697-008",
+          "itemNumber": "02"
+        },
+        {
+          "naid": "452050465",
+          "localId": "CF00697-008",
+          "itemNumber": "06"
+        }
+      ]
+    },
+    {
+      "key": "from chancellor kohl to potus|11/89",
+      "title": "From Chancellor Kohl to POTUS",
+      "date": "11/89",
+      "locations": [
+        {
+          "naid": "452050437",
+          "localId": "CF00696-001",
+          "itemNumber": "04"
+        },
+        {
+          "naid": "452050437",
+          "localId": "CF00696-001",
+          "itemNumber": "05"
+        }
+      ]
+    },
+    {
+      "key": "from chancellor kohl to potus|12/2/91",
+      "title": "From Chancellor Kohl to POTUS",
+      "date": "12/2/91",
+      "locations": [
+        {
+          "naid": "452050498",
+          "localId": "CF00959-006",
+          "itemNumber": "04"
+        },
+        {
+          "naid": "452050498",
+          "localId": "CF00959-006",
+          "itemNumber": "05"
+        }
+      ]
+    },
+    {
+      "key": "from condoleezza rice et al to brent scowcroft re initiatives for the president s trip to poland and hungary|6/14/89",
+      "title": "From Condoleezza Rice, et al. to Brent Scowcroft Re: Initiatives for the President's Trip to Poland and Hungary",
+      "date": "6/14/89",
+      "locations": [
+        {
+          "naid": "452050420",
+          "localId": "CF00695-009",
+          "itemNumber": "01"
+        },
+        {
+          "naid": "452050420",
+          "localId": "CF00695-009",
+          "itemNumber": "03"
+        }
+      ]
+    },
+    {
+      "key": "from condoleezza rice et al to brent scowcroft re initiatives for the president s trip to poland and hungary|6/8/89",
+      "title": "From Condoleezza Rice, et al. to Brent Scowcroft Re: Initiatives for the President's Trip to Poland and Hungary",
+      "date": "6/8/89",
+      "locations": [
+        {
+          "naid": "452050422",
+          "localId": "CF00695-011",
+          "itemNumber": "01"
+        },
+        {
+          "naid": "452050422",
+          "localId": "CF00695-011",
+          "itemNumber": "03"
+        }
+      ]
+    },
+    {
+      "key": "from condoleezza rice timothy deal to brent scowcroft re jackson vanik waiver|11/29/90",
+      "title": "From Condoleezza Rice/Timothy Deal to Brent Scowcroft Re: Jackson-Vanik Waiver",
+      "date": "11/29/90",
+      "locations": [
+        {
+          "naid": "452050465",
+          "localId": "CF00697-008",
+          "itemNumber": "01"
+        },
+        {
+          "naid": "452050465",
+          "localId": "CF00697-008",
+          "itemNumber": "05"
+        }
+      ]
+    },
+    {
+      "key": "from dick cheney to brent scowcroft re fiber optics link|5/24/90",
+      "title": "From Dick Cheney to Brent Scowcroft Re: Fiber Optics Link",
+      "date": "5/24/90",
+      "locations": [
+        {
+          "naid": "452050452",
+          "localId": "CF00696-016",
+          "itemNumber": "13"
+        },
+        {
+          "naid": "452050452",
+          "localId": "CF00696-016",
+          "itemNumber": "23"
+        }
+      ]
+    },
+    {
+      "key": "from henry rowen to george folsom et al re discussion paper for deputies meeting|8/22/90",
+      "title": "From Henry Rowen to George Folsom, et al. Re: Discussion Paper for Deputies Meeting",
+      "date": "8/22/90",
+      "locations": [
+        {
+          "naid": "452050459",
+          "localId": "CF00697-002",
+          "itemNumber": "09"
+        },
+        {
+          "naid": "452050459",
+          "localId": "CF00697-002",
+          "itemNumber": "12"
+        }
+      ]
+    },
+    {
+      "key": "from j stapleton roy to brent scowcroft re fiber optics link|n.d.",
+      "title": "From J. Stapleton Roy to Brent Scowcroft Re: Fiber Optics Link",
+      "date": "n.d.",
+      "locations": [
+        {
+          "naid": "452050452",
+          "localId": "CF00696-016",
+          "itemNumber": "12"
+        },
+        {
+          "naid": "452050452",
+          "localId": "CF00696-016",
+          "itemNumber": "22"
+        }
+      ]
+    },
+    {
+      "key": "from potus to chancellor kohl|n.d.",
+      "title": "From POTUS to Chancellor Kohl",
+      "date": "n.d.",
+      "locations": [
+        {
+          "naid": "452050452",
+          "localId": "CF00696-016",
+          "itemNumber": "07"
+        },
+        {
+          "naid": "452050481",
+          "localId": "CF00958-009",
+          "itemNumber": "06"
+        }
+      ]
+    },
+    {
+      "key": "from potus to president mitterrand|n.d.",
+      "title": "From POTUS to President Mitterrand",
+      "date": "n.d.",
+      "locations": [
+        {
+          "naid": "452050452",
+          "localId": "CF00696-016",
+          "itemNumber": "08"
+        },
+        {
+          "naid": "452050481",
+          "localId": "CF00958-009",
+          "itemNumber": "07"
+        }
+      ]
+    },
+    {
+      "key": "from potus to prime minister kaifu|n.d.",
+      "title": "From POTUS to Prime Minister Kaifu",
+      "date": "n.d.",
+      "locations": [
+        {
+          "naid": "452050452",
+          "localId": "CF00696-016",
+          "itemNumber": "06"
+        },
+        {
+          "naid": "452050481",
+          "localId": "CF00958-009",
+          "itemNumber": "09"
+        }
+      ]
+    },
+    {
+      "key": "from potus to prime minister mulroney|8/28/91",
+      "title": "From POTUS to Prime Minister Mulroney",
+      "date": "8/28/91",
+      "locations": [
+        {
+          "naid": "452050482",
+          "localId": "CF00958-010",
+          "itemNumber": "05"
+        },
+        {
+          "naid": "452050485",
+          "localId": "CF00958-013",
+          "itemNumber": "11"
+        }
+      ]
+    },
+    {
+      "key": "from president menem to potus|11/10/89",
+      "title": "From President Menem to POTUS",
+      "date": "11/10/89",
+      "locations": [
+        {
+          "naid": "452050437",
+          "localId": "CF00696-001",
+          "itemNumber": "01"
+        },
+        {
+          "naid": "452050437",
+          "localId": "CF00696-001",
+          "itemNumber": "02"
+        }
+      ]
+    },
+    {
+      "key": "from prime minister andreotti to potus|12/6/91",
+      "title": "From Prime Minister Andreotti to POTUS",
+      "date": "12/6/91",
+      "locations": [
+        {
+          "naid": "452050498",
+          "localId": "CF00959-006",
+          "itemNumber": "02"
+        },
+        {
+          "naid": "452050498",
+          "localId": "CF00959-006",
+          "itemNumber": "03"
+        }
+      ]
+    },
+    {
+      "key": "from prime minister major to potus|9/4/91",
+      "title": "From Prime Minister Major to POTUS",
+      "date": "9/4/91",
+      "locations": [
+        {
+          "naid": "452050485",
+          "localId": "CF00958-013",
+          "itemNumber": "05"
+        },
+        {
+          "naid": "452050485",
+          "localId": "CF00958-013",
+          "itemNumber": "09"
+        }
+      ]
+    },
+    {
+      "key": "from robin renwick to brent scowcroft|9/4/91",
+      "title": "From Robin Renwick to Brent Scowcroft",
+      "date": "9/4/91",
+      "locations": [
+        {
+          "naid": "452050485",
+          "localId": "CF00958-013",
+          "itemNumber": "04"
+        },
+        {
+          "naid": "452050485",
+          "localId": "CF00958-013",
+          "itemNumber": "08"
+        }
+      ]
+    },
+    {
+      "key": "from timothy deal condoleezza rice to brent scowcroft re economic assistance for poland|9/28/89",
+      "title": "From Timothy Deal /Condoleezza Rice to Brent Scowcroft Re: Economic Assistance for Poland",
+      "date": "9/28/89",
+      "locations": [
+        {
+          "naid": "452050429",
+          "localId": "CF00695-018",
+          "itemNumber": "05"
+        },
+        {
+          "naid": "452050429",
+          "localId": "CF00695-018",
+          "itemNumber": "08"
+        }
+      ]
+    },
+    {
+      "key": "from timothy deal to brent scowcroft re fiber optics line|5/25/90",
+      "title": "From Timothy Deal to Brent Scowcroft Re: Fiber Optics Line",
+      "date": "5/25/90",
+      "locations": [
+        {
+          "naid": "452050452",
+          "localId": "CF00696-016",
+          "itemNumber": "11"
+        },
+        {
+          "naid": "452050452",
+          "localId": "CF00696-016",
+          "itemNumber": "19"
+        }
+      ]
+    },
+    {
+      "key": "from timothy deal to brent scowcroft re fiber optics line|5/4/90",
+      "title": "From Timothy Deal to Brent Scowcroft Re: Fiber Optics Line",
+      "date": "5/4/90",
+      "locations": [
+        {
+          "naid": "452050452",
+          "localId": "CF00696-016",
+          "itemNumber": "29"
+        },
+        {
+          "naid": "452050453",
+          "localId": "CF00696-017",
+          "itemNumber": "11"
+        }
+      ]
+    },
+    {
+      "key": "from timothy deal to brent scowcroft re international debt president s meeting with secretary brady|6/8/89",
+      "title": "From Timothy Deal to Brent Scowcroft Re: International Debt: President's Meeting with Secretary Brady",
+      "date": "6/8/89",
+      "locations": [
+        {
+          "naid": "452050421",
+          "localId": "CF00695-010",
+          "itemNumber": "03"
+        },
+        {
+          "naid": "452050421",
+          "localId": "CF00695-010",
+          "itemNumber": "07"
+        }
+      ]
+    },
+    {
+      "key": "from timothy deal to brent scowcroft re international debt|7/21/89",
+      "title": "From Timothy Deal to Brent Scowcroft Re: International Debt",
+      "date": "7/21/89",
+      "locations": [
+        {
+          "naid": "452050423",
+          "localId": "CF00695-012",
+          "itemNumber": "02"
+        },
+        {
+          "naid": "452050423",
+          "localId": "CF00695-012",
+          "itemNumber": "03"
+        }
+      ]
+    },
+    {
+      "key": "from timothy deal to robin uhl re cocom export controls ussr|8/19/91",
+      "title": "From Timothy Deal to Robin Uhl Re: COCOM/Export Controls: USSR",
+      "date": "8/19/91",
+      "locations": [
+        {
+          "naid": "452050482",
+          "localId": "CF00958-010",
+          "itemNumber": "06"
+        },
+        {
+          "naid": "452050483",
+          "localId": "CF00958-011",
+          "itemNumber": "01"
+        }
+      ]
+    },
+    {
+      "key": "from wilma hall to brenda hilliard et al re fiber optics|5/21/90",
+      "title": "From Wilma Hall to Brenda Hilliard, et al. Re: Fiber Optics",
+      "date": "5/21/90",
+      "locations": [
+        {
+          "naid": "452050452",
+          "localId": "CF00696-016",
+          "itemNumber": "14"
+        },
+        {
+          "naid": "452050452",
+          "localId": "CF00696-016",
+          "itemNumber": "24"
+        }
+      ]
+    },
+    {
+      "key": "houston declaration on securing democracy and prosperity|n.d.",
+      "title": "Re: Houston Declaration on Securing Democracy and Prosperity",
+      "date": "n.d.",
+      "locations": [
+        {
+          "naid": "452050455",
+          "localId": "CF00696-019",
+          "itemNumber": "02"
+        },
+        {
+          "naid": "452050455",
+          "localId": "CF00696-019",
+          "itemNumber": "05"
+        }
+      ]
+    },
+    {
+      "key": "informal steering group meeting on gulf crisis|12/19/90",
+      "title": "Re: Informal Steering Group Meeting on Gulf Crisis",
+      "date": "12/19/90",
+      "locations": [
+        {
+          "naid": "452050467",
+          "localId": "CF00697-010",
+          "itemNumber": "19"
+        },
+        {
+          "naid": "452050467",
+          "localId": "CF00697-010",
+          "itemNumber": "22"
+        }
+      ]
+    },
+    {
+      "key": "informal steering group meeting on the gulf crisis|1/2/91",
+      "title": "Re: Informal Steering Group Meeting on the Gulf Crisis",
+      "date": "1/2/91",
+      "locations": [
+        {
+          "naid": "452050467",
+          "localId": "CF00697-010",
+          "itemNumber": "04"
+        },
+        {
+          "naid": "452050467",
+          "localId": "CF00697-010",
+          "itemNumber": "10"
+        }
+      ]
+    },
+    {
+      "key": "international economic cooperation with the soviet union draft chairman s note on the agenda|n.d.",
+      "title": "Re: International Economic Cooperation with the Soviet Union: Draft Chairman's Note on the Agenda",
+      "date": "n.d.",
+      "locations": [
+        {
+          "naid": "452050482",
+          "localId": "CF00958-010",
+          "itemNumber": "10"
+        },
+        {
+          "naid": "452050482",
+          "localId": "CF00958-010",
+          "itemNumber": "12"
+        }
+      ]
+    },
+    {
+      "key": "jackson vanik options|n.d.",
+      "title": "Re: Jackson-Vanik Options",
+      "date": "n.d.",
+      "locations": [
+        {
+          "naid": "452050464",
+          "localId": "CF00697-007",
+          "itemNumber": "01"
+        },
+        {
+          "naid": "452050465",
+          "localId": "CF00697-008",
+          "itemNumber": "07"
+        }
+      ]
+    },
+    {
+      "key": "meeting of the nsc deputies committee|1/14/91",
+      "title": "Re: Meeting of the NSC Deputies Committee [War Risk Insurance]",
+      "date": "1/14/91",
+      "locations": [
+        {
+          "naid": "452050469",
+          "localId": "CF00697-012",
+          "itemNumber": "12"
+        },
+        {
+          "naid": "452050469",
+          "localId": "CF00697-012",
+          "itemNumber": "13"
+        }
+      ]
+    },
+    {
+      "key": "meeting of the nsc deputies committee|5/31/91",
+      "title": "Re: Meeting of the NSC Deputies Committee",
+      "date": "5/31/91",
+      "locations": [
+        {
+          "naid": "452050479",
+          "localId": "CF00958-007",
+          "itemNumber": "10"
+        },
+        {
+          "naid": "452050479",
+          "localId": "CF00958-007",
+          "itemNumber": "11"
+        }
+      ]
+    },
+    {
+      "key": "meeting with secretary brady|6/8/89",
+      "title": "Re: Meeting with Secretary Brady",
+      "date": "6/8/89",
+      "locations": [
+        {
+          "naid": "452050421",
+          "localId": "CF00695-010",
+          "itemNumber": "01"
+        },
+        {
+          "naid": "452050421",
+          "localId": "CF00695-010",
+          "itemNumber": "08"
+        }
+      ]
+    },
+    {
+      "key": "meeting with the national security council|3/13/89",
+      "title": "Re: Meeting with the National Security Council",
+      "date": "3/13/89",
+      "locations": [
+        {
+          "naid": "452050414",
+          "localId": "CF00695-003",
+          "itemNumber": "01"
+        },
+        {
+          "naid": "452050414",
+          "localId": "CF00695-003",
+          "itemNumber": "05"
+        }
+      ]
+    },
+    {
+      "key": "memorandum for record re policy coordinating committee on latin america|5/4/89",
+      "title": "Memorandum for Record Re: Policy Coordinating Committee on Latin America",
+      "date": "5/4/89",
+      "locations": [
+        {
+          "naid": "452050419",
+          "localId": "CF00695-008",
+          "itemNumber": "01"
+        },
+        {
+          "naid": "452050419",
+          "localId": "CF00695-008",
+          "itemNumber": "03"
+        }
+      ]
+    },
+    {
+      "key": "nsc dc meeting on war risk insurance|n.d.",
+      "title": "Re: NSC DC Meeting on War Risk Insurance",
+      "date": "n.d.",
+      "locations": [
+        {
+          "naid": "452050470",
+          "localId": "CF00697-013",
+          "itemNumber": "03"
+        },
+        {
+          "naid": "452050470",
+          "localId": "CF00697-013",
+          "itemNumber": "06"
+        }
+      ]
+    },
+    {
+      "key": "paris summit additional talking points|7/12/89",
+      "title": "Re: Paris Summit: Additional Talking Points",
+      "date": "7/12/89",
+      "locations": [
+        {
+          "naid": "452050425",
+          "localId": "CF00695-014",
+          "itemNumber": "01"
+        },
+        {
+          "naid": "452050425",
+          "localId": "CF00695-014",
+          "itemNumber": "02"
+        }
+      ]
+    },
+    {
+      "key": "points to be made for meeting with secretary brady|n.d.",
+      "title": "Re: Points to be Made for Meeting with Secretary Brady",
+      "date": "n.d.",
+      "locations": [
+        {
+          "naid": "452050421",
+          "localId": "CF00695-010",
+          "itemNumber": "02"
+        },
+        {
+          "naid": "452050421",
+          "localId": "CF00695-010",
+          "itemNumber": "09"
+        }
+      ]
+    },
+    {
+      "key": "presentation on soviet membership in international economic institutions|n.d.",
+      "title": "Re: Presentation on Soviet Membership in International Economic Institutions",
+      "date": "n.d.",
+      "locations": [
+        {
+          "naid": "452050435",
+          "localId": "CF00695-024",
+          "itemNumber": "02"
+        },
+        {
+          "naid": "452050435",
+          "localId": "CF00695-024",
+          "itemNumber": "04"
+        }
+      ]
+    },
+    {
+      "key": "presidential letter to prime minister kaifu|n.d.",
+      "title": "Re: Presidential Letter to Prime Minister Kaifu",
+      "date": "n.d.",
+      "locations": [
+        {
+          "naid": "452050458",
+          "localId": "CF00697-001",
+          "itemNumber": "02"
+        },
+        {
+          "naid": "452050458",
+          "localId": "CF00697-001",
+          "itemNumber": "04"
+        }
+      ]
+    },
+    {
+      "key": "prime minister major for president bush|12/8/91",
+      "title": "Prime Minister Major for President Bush",
+      "date": "12/8/91",
+      "locations": [
+        {
+          "naid": "452050491",
+          "localId": "CF00958-019",
+          "itemNumber": "08"
+        },
+        {
+          "naid": "452050491",
+          "localId": "CF00958-019",
+          "itemNumber": "09"
+        }
+      ]
+    },
+    {
+      "key": "principles of a settlement|5/6/92",
+      "title": "Re: Principles of a Settlement",
+      "date": "5/6/92",
+      "locations": [
+        {
+          "naid": "452050507",
+          "localId": "CF00959-015",
+          "itemNumber": "08"
+        },
+        {
+          "naid": "452050507",
+          "localId": "CF00959-015",
+          "itemNumber": "10"
+        }
+      ]
+    },
+    {
+      "key": "proposed message to kohl mitterrand mulroney major and andreotti|n.d.",
+      "title": "Re: Proposed Message to Kohl, Mitterrand, Mulroney, Major and Andreotti",
+      "date": "n.d.",
+      "locations": [
+        {
+          "naid": "452050482",
+          "localId": "CF00958-010",
+          "itemNumber": "03"
+        },
+        {
+          "naid": "452050482",
+          "localId": "CF00958-010",
+          "itemNumber": "04"
+        }
+      ]
+    },
+    {
+      "key": "secretary brady s meeting with hungarian prime minister antal|n.d.",
+      "title": "Re: Secretary Brady's Meeting with Hungarian Prime Minister Antal",
+      "date": "n.d.",
+      "locations": [
+        {
+          "naid": "452050474",
+          "localId": "CF00958-002",
+          "itemNumber": "05"
+        },
+        {
+          "naid": "452050474",
+          "localId": "CF00958-002",
+          "itemNumber": "09"
+        }
+      ]
+    },
+    {
+      "key": "secretary brady s meeting with klaus|n.d.",
+      "title": "Re: Secretary Brady's Meeting with Klaus",
+      "date": "n.d.",
+      "locations": [
+        {
+          "naid": "452050474",
+          "localId": "CF00958-002",
+          "itemNumber": "08"
+        },
+        {
+          "naid": "452050474",
+          "localId": "CF00958-002",
+          "itemNumber": "12"
+        }
+      ]
+    },
+    {
+      "key": "secretary brady s meeting with prime minister bielecki|n.d.",
+      "title": "Re: Secretary Brady's Meeting with Prime Minister Bielecki",
+      "date": "n.d.",
+      "locations": [
+        {
+          "naid": "452050474",
+          "localId": "CF00958-002",
+          "itemNumber": "07"
+        },
+        {
+          "naid": "452050474",
+          "localId": "CF00958-002",
+          "itemNumber": "11"
+        }
+      ]
+    },
+    {
+      "key": "secretary brady s meeting with soviet prime minister pavlov|n.d.",
+      "title": "Re: Secretary Brady's Meeting with Soviet Prime Minister Pavlov",
+      "date": "n.d.",
+      "locations": [
+        {
+          "naid": "452050474",
+          "localId": "CF00958-002",
+          "itemNumber": "06"
+        },
+        {
+          "naid": "452050474",
+          "localId": "CF00958-002",
+          "itemNumber": "10"
+        }
+      ]
+    },
+    {
+      "key": "strategy for implementation of option d|n.d.",
+      "title": "Re: Strategy for Implementation of Option D",
+      "date": "n.d.",
+      "locations": [
+        {
+          "naid": "452050418",
+          "localId": "CF00695-007",
+          "itemNumber": "04"
+        },
+        {
+          "naid": "452050418",
+          "localId": "CF00695-007",
+          "itemNumber": "07"
+        }
+      ]
+    }
+  ],
+  "crossCollectionTitleMatches": [
+    {
+      "naid": "452050434",
+      "localId": "CF00695-023",
+      "itemNumber": "07",
+      "title": "Re: Informal Translation of Gorbachev Letter",
+      "match": "Possible title match to Deal-Reiss CF00186–010 item 03a; compare source images before selecting a controlling copy."
+    },
+    {
+      "naid": "452050478",
+      "localId": "CF00958-006",
+      "itemNumber": "05",
+      "title": "Re: Soviet Economic Reform: U.S. Response",
+      "match": "Possible title match to Deal Summit CF00960–011 item 01; dates differ or are incomplete, so compare source images."
+    },
+    {
+      "naid": "452050480",
+      "localId": "CF00958-008",
+      "itemNumber": "02",
+      "title": "Re: Points to be Made on Soviet Union",
+      "match": "Possible title match to Deal Summit CF00960–015 item 01; compare source images before selecting a controlling copy."
+    },
+    {
+      "naid": "452050480",
+      "localId": "CF00958-008",
+      "itemNumber": "03",
+      "title": "Re: Soviet Economic Reform: U.S. Response",
+      "match": "Possible title match to Deal Summit CF00960–011 item 01; dates differ or are incomplete, so compare source images."
+    },
+    {
+      "naid": "452050485",
+      "localId": "CF00958-013",
+      "itemNumber": "05",
+      "title": "From Prime Minister Major to POTUS",
+      "match": "Possible title match to Deal Summit CF00960–010 and CF00960–011; generic letter description requires source-image comparison."
+    },
+    {
+      "naid": "452050485",
+      "localId": "CF00958-013",
+      "itemNumber": "09",
+      "title": "From Prime Minister Major to POTUS",
+      "match": "Possible title match to Deal Summit CF00960–010 and CF00960–011; generic letter description requires source-image comparison."
+    },
+    {
+      "naid": "452050498",
+      "localId": "CF00959-006",
+      "itemNumber": "01",
+      "title": "From Prime Minister Major to POTUS",
+      "match": "Possible title match to Deal Summit CF00960–010 and CF00960–011; generic letter description requires source-image comparison."
+    }
+  ],
+  "perFileWithdrawalStats": [
+    {
+      "naid": "452050412",
+      "localId": "CF00695-001",
+      "rawWithdrawalSheetHeaderCount": 11,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 10,
+      "withdrawalSheetPages": 28,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050413",
+      "localId": "CF00695-002",
+      "rawWithdrawalSheetHeaderCount": 7,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 6,
+      "withdrawalSheetPages": 21,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050414",
+      "localId": "CF00695-003",
+      "rawWithdrawalSheetHeaderCount": 8,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 7,
+      "withdrawalSheetPages": 9,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050415",
+      "localId": "CF00695-004",
+      "rawWithdrawalSheetHeaderCount": 12,
+      "withdrawalInventoryHeaderCount": 2,
+      "withdrawalSheetItemCount": 10,
+      "withdrawalSheetPages": 15,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050416",
+      "localId": "CF00695-005",
+      "rawWithdrawalSheetHeaderCount": 5,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 4,
+      "withdrawalSheetPages": 14,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050417",
+      "localId": "CF00695-006",
+      "rawWithdrawalSheetHeaderCount": 0,
+      "withdrawalInventoryHeaderCount": 0,
+      "withdrawalSheetItemCount": 0,
+      "withdrawalSheetPages": 0,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050418",
+      "localId": "CF00695-007",
+      "rawWithdrawalSheetHeaderCount": 9,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 8,
+      "withdrawalSheetPages": 23,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050419",
+      "localId": "CF00695-008",
+      "rawWithdrawalSheetHeaderCount": 8,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 7,
+      "withdrawalSheetPages": 13,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050420",
+      "localId": "CF00695-009",
+      "rawWithdrawalSheetHeaderCount": 5,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 4,
+      "withdrawalSheetPages": 12,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050421",
+      "localId": "CF00695-010",
+      "rawWithdrawalSheetHeaderCount": 10,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 9,
+      "withdrawalSheetPages": 16,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050422",
+      "localId": "CF00695-011",
+      "rawWithdrawalSheetHeaderCount": 6,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 5,
+      "withdrawalSheetPages": 11,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050423",
+      "localId": "CF00695-012",
+      "rawWithdrawalSheetHeaderCount": 4,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 3,
+      "withdrawalSheetPages": 6,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050424",
+      "localId": "CF00695-013",
+      "rawWithdrawalSheetHeaderCount": 2,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 1,
+      "withdrawalSheetPages": 1,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050425",
+      "localId": "CF00695-014",
+      "rawWithdrawalSheetHeaderCount": 9,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 8,
+      "withdrawalSheetPages": 22,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050426",
+      "localId": "CF00695-015",
+      "rawWithdrawalSheetHeaderCount": 4,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 3,
+      "withdrawalSheetPages": 25,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050427",
+      "localId": "CF00695-016",
+      "rawWithdrawalSheetHeaderCount": 4,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 3,
+      "withdrawalSheetPages": 7,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050428",
+      "localId": "CF00695-017",
+      "rawWithdrawalSheetHeaderCount": 0,
+      "withdrawalInventoryHeaderCount": 0,
+      "withdrawalSheetItemCount": 0,
+      "withdrawalSheetPages": 0,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050429",
+      "localId": "CF00695-018",
+      "rawWithdrawalSheetHeaderCount": 19,
+      "withdrawalInventoryHeaderCount": 2,
+      "withdrawalSheetItemCount": 17,
+      "withdrawalSheetPages": 49,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050430",
+      "localId": "CF00695-019",
+      "rawWithdrawalSheetHeaderCount": 4,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 3,
+      "withdrawalSheetPages": 8,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050431",
+      "localId": "CF00695-020",
+      "rawWithdrawalSheetHeaderCount": 2,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 1,
+      "withdrawalSheetPages": 3,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050432",
+      "localId": "CF00695-021",
+      "rawWithdrawalSheetHeaderCount": 5,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 4,
+      "withdrawalSheetPages": 8,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050433",
+      "localId": "CF00695-022",
+      "rawWithdrawalSheetHeaderCount": 10,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 9,
+      "withdrawalSheetPages": 23,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050434",
+      "localId": "CF00695-023",
+      "rawWithdrawalSheetHeaderCount": 8,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 7,
+      "withdrawalSheetPages": 16,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050435",
+      "localId": "CF00695-024",
+      "rawWithdrawalSheetHeaderCount": 5,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 4,
+      "withdrawalSheetPages": 13,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050436",
+      "localId": "CF00695-025",
+      "rawWithdrawalSheetHeaderCount": 8,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 7,
+      "withdrawalSheetPages": 18,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050437",
+      "localId": "CF00696-001",
+      "rawWithdrawalSheetHeaderCount": 6,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 5,
+      "withdrawalSheetPages": 9,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050438",
+      "localId": "CF00696-002",
+      "rawWithdrawalSheetHeaderCount": 0,
+      "withdrawalInventoryHeaderCount": 0,
+      "withdrawalSheetItemCount": 0,
+      "withdrawalSheetPages": 0,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050439",
+      "localId": "CF00696-003",
+      "rawWithdrawalSheetHeaderCount": 3,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 2,
+      "withdrawalSheetPages": 3,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050440",
+      "localId": "CF00696-004",
+      "rawWithdrawalSheetHeaderCount": 0,
+      "withdrawalInventoryHeaderCount": 0,
+      "withdrawalSheetItemCount": 0,
+      "withdrawalSheetPages": 0,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050441",
+      "localId": "CF00696-005",
+      "rawWithdrawalSheetHeaderCount": 7,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 6,
+      "withdrawalSheetPages": 9,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050442",
+      "localId": "CF00696-006",
+      "rawWithdrawalSheetHeaderCount": 8,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 7,
+      "withdrawalSheetPages": 45,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050443",
+      "localId": "CF00696-007",
+      "rawWithdrawalSheetHeaderCount": 16,
+      "withdrawalInventoryHeaderCount": 2,
+      "withdrawalSheetItemCount": 14,
+      "withdrawalSheetPages": 45,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050444",
+      "localId": "CF00696-008",
+      "rawWithdrawalSheetHeaderCount": 9,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 8,
+      "withdrawalSheetPages": 28,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050445",
+      "localId": "CF00696-009",
+      "rawWithdrawalSheetHeaderCount": 10,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 9,
+      "withdrawalSheetPages": 28,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050446",
+      "localId": "CF00696-010",
+      "rawWithdrawalSheetHeaderCount": 4,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 3,
+      "withdrawalSheetPages": 13,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050447",
+      "localId": "CF00696-011",
+      "rawWithdrawalSheetHeaderCount": 15,
+      "withdrawalInventoryHeaderCount": 2,
+      "withdrawalSheetItemCount": 13,
+      "withdrawalSheetPages": 69,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050448",
+      "localId": "CF00696-012",
+      "rawWithdrawalSheetHeaderCount": 6,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 5,
+      "withdrawalSheetPages": 9,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050449",
+      "localId": "CF00696-013",
+      "rawWithdrawalSheetHeaderCount": 4,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 3,
+      "withdrawalSheetPages": 10,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050450",
+      "localId": "CF00696-014",
+      "rawWithdrawalSheetHeaderCount": 2,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 1,
+      "withdrawalSheetPages": 9,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050451",
+      "localId": "CF00696-015",
+      "rawWithdrawalSheetHeaderCount": 14,
+      "withdrawalInventoryHeaderCount": 2,
+      "withdrawalSheetItemCount": 12,
+      "withdrawalSheetPages": 36,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050452",
+      "localId": "CF00696-016",
+      "rawWithdrawalSheetHeaderCount": 37,
+      "withdrawalInventoryHeaderCount": 4,
+      "withdrawalSheetItemCount": 33,
+      "withdrawalSheetPages": 64,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050453",
+      "localId": "CF00696-017",
+      "rawWithdrawalSheetHeaderCount": 17,
+      "withdrawalInventoryHeaderCount": 2,
+      "withdrawalSheetItemCount": 15,
+      "withdrawalSheetPages": 40,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050454",
+      "localId": "CF00696-018",
+      "rawWithdrawalSheetHeaderCount": 15,
+      "withdrawalInventoryHeaderCount": 2,
+      "withdrawalSheetItemCount": 13,
+      "withdrawalSheetPages": 54,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050455",
+      "localId": "CF00696-019",
+      "rawWithdrawalSheetHeaderCount": 21,
+      "withdrawalInventoryHeaderCount": 2,
+      "withdrawalSheetItemCount": 19,
+      "withdrawalSheetPages": 38,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050456",
+      "localId": "CF00696-020",
+      "rawWithdrawalSheetHeaderCount": 12,
+      "withdrawalInventoryHeaderCount": 2,
+      "withdrawalSheetItemCount": 10,
+      "withdrawalSheetPages": 13,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050457",
+      "localId": "CF00696-021",
+      "rawWithdrawalSheetHeaderCount": 2,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 1,
+      "withdrawalSheetPages": 7,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050458",
+      "localId": "CF00697-001",
+      "rawWithdrawalSheetHeaderCount": 28,
+      "withdrawalInventoryHeaderCount": 3,
+      "withdrawalSheetItemCount": 25,
+      "withdrawalSheetPages": 65,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050459",
+      "localId": "CF00697-002",
+      "rawWithdrawalSheetHeaderCount": 15,
+      "withdrawalInventoryHeaderCount": 2,
+      "withdrawalSheetItemCount": 13,
+      "withdrawalSheetPages": 110,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050460",
+      "localId": "CF00697-003",
+      "rawWithdrawalSheetHeaderCount": 6,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 5,
+      "withdrawalSheetPages": 57,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050461",
+      "localId": "CF00697-004",
+      "rawWithdrawalSheetHeaderCount": 5,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 4,
+      "withdrawalSheetPages": 12,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050462",
+      "localId": "CF00697-005",
+      "rawWithdrawalSheetHeaderCount": 9,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 8,
+      "withdrawalSheetPages": 24,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050463",
+      "localId": "CF00697-006",
+      "rawWithdrawalSheetHeaderCount": 10,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 9,
+      "withdrawalSheetPages": 20,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050464",
+      "localId": "CF00697-007",
+      "rawWithdrawalSheetHeaderCount": 11,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 10,
+      "withdrawalSheetPages": 22,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050465",
+      "localId": "CF00697-008",
+      "rawWithdrawalSheetHeaderCount": 9,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 8,
+      "withdrawalSheetPages": 25,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050466",
+      "localId": "CF00697-009",
+      "rawWithdrawalSheetHeaderCount": 2,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 1,
+      "withdrawalSheetPages": 4,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050467",
+      "localId": "CF00697-010",
+      "rawWithdrawalSheetHeaderCount": 26,
+      "withdrawalInventoryHeaderCount": 3,
+      "withdrawalSheetItemCount": 23,
+      "withdrawalSheetPages": 39,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050468",
+      "localId": "CF00697-011",
+      "rawWithdrawalSheetHeaderCount": 8,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 7,
+      "withdrawalSheetPages": 20,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050469",
+      "localId": "CF00697-012",
+      "rawWithdrawalSheetHeaderCount": 16,
+      "withdrawalInventoryHeaderCount": 2,
+      "withdrawalSheetItemCount": 14,
+      "withdrawalSheetPages": 30,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050470",
+      "localId": "CF00697-013",
+      "rawWithdrawalSheetHeaderCount": 13,
+      "withdrawalInventoryHeaderCount": 2,
+      "withdrawalSheetItemCount": 11,
+      "withdrawalSheetPages": 16,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050471",
+      "localId": "CF00697-014",
+      "rawWithdrawalSheetHeaderCount": 5,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 4,
+      "withdrawalSheetPages": 5,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050472",
+      "localId": "CF00697-015",
+      "rawWithdrawalSheetHeaderCount": 2,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 1,
+      "withdrawalSheetPages": 7,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050473",
+      "localId": "CF00958-001",
+      "rawWithdrawalSheetHeaderCount": 13,
+      "withdrawalInventoryHeaderCount": 2,
+      "withdrawalSheetItemCount": 11,
+      "withdrawalSheetPages": 27,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050474",
+      "localId": "CF00958-002",
+      "rawWithdrawalSheetHeaderCount": 15,
+      "withdrawalInventoryHeaderCount": 2,
+      "withdrawalSheetItemCount": 13,
+      "withdrawalSheetPages": 38,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050475",
+      "localId": "CF00958-003",
+      "rawWithdrawalSheetHeaderCount": 4,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 3,
+      "withdrawalSheetPages": 11,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050476",
+      "localId": "CF00958-004",
+      "rawWithdrawalSheetHeaderCount": 8,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 7,
+      "withdrawalSheetPages": 17,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050477",
+      "localId": "CF00958-005",
+      "rawWithdrawalSheetHeaderCount": 4,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 3,
+      "withdrawalSheetPages": 32,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050478",
+      "localId": "CF00958-006",
+      "rawWithdrawalSheetHeaderCount": 9,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 8,
+      "withdrawalSheetPages": 67,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050479",
+      "localId": "CF00958-007",
+      "rawWithdrawalSheetHeaderCount": 13,
+      "withdrawalInventoryHeaderCount": 2,
+      "withdrawalSheetItemCount": 11,
+      "withdrawalSheetPages": 60,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050480",
+      "localId": "CF00958-008",
+      "rawWithdrawalSheetHeaderCount": 4,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 3,
+      "withdrawalSheetPages": 15,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050481",
+      "localId": "CF00958-009",
+      "rawWithdrawalSheetHeaderCount": 16,
+      "withdrawalInventoryHeaderCount": 2,
+      "withdrawalSheetItemCount": 14,
+      "withdrawalSheetPages": 66,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050482",
+      "localId": "CF00958-010",
+      "rawWithdrawalSheetHeaderCount": 14,
+      "withdrawalInventoryHeaderCount": 2,
+      "withdrawalSheetItemCount": 12,
+      "withdrawalSheetPages": 28,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050483",
+      "localId": "CF00958-011",
+      "rawWithdrawalSheetHeaderCount": 2,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 1,
+      "withdrawalSheetPages": 2,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050484",
+      "localId": "CF00958-012",
+      "rawWithdrawalSheetHeaderCount": 12,
+      "withdrawalInventoryHeaderCount": 2,
+      "withdrawalSheetItemCount": 10,
+      "withdrawalSheetPages": 28,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050485",
+      "localId": "CF00958-013",
+      "rawWithdrawalSheetHeaderCount": 16,
+      "withdrawalInventoryHeaderCount": 2,
+      "withdrawalSheetItemCount": 14,
+      "withdrawalSheetPages": 30,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050486",
+      "localId": "CF00958-014",
+      "rawWithdrawalSheetHeaderCount": 9,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 8,
+      "withdrawalSheetPages": 23,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050487",
+      "localId": "CF00958-015",
+      "rawWithdrawalSheetHeaderCount": 10,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 9,
+      "withdrawalSheetPages": 33,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050488",
+      "localId": "CF00958-016",
+      "rawWithdrawalSheetHeaderCount": 7,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 6,
+      "withdrawalSheetPages": 23,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050489",
+      "localId": "CF00958-017",
+      "rawWithdrawalSheetHeaderCount": 12,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 11,
+      "withdrawalSheetPages": 32,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050490",
+      "localId": "CF00958-018",
+      "rawWithdrawalSheetHeaderCount": 10,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 9,
+      "withdrawalSheetPages": 27,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050491",
+      "localId": "CF00958-019",
+      "rawWithdrawalSheetHeaderCount": 10,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 9,
+      "withdrawalSheetPages": 28,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050492",
+      "localId": "CF00958-020",
+      "rawWithdrawalSheetHeaderCount": 8,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 7,
+      "withdrawalSheetPages": 20,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050493",
+      "localId": "CF00959-001",
+      "rawWithdrawalSheetHeaderCount": 2,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 1,
+      "withdrawalSheetPages": 1,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050494",
+      "localId": "CF00959-002",
+      "rawWithdrawalSheetHeaderCount": 0,
+      "withdrawalInventoryHeaderCount": 0,
+      "withdrawalSheetItemCount": 0,
+      "withdrawalSheetPages": 0,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050495",
+      "localId": "CF00959-003",
+      "rawWithdrawalSheetHeaderCount": 0,
+      "withdrawalInventoryHeaderCount": 0,
+      "withdrawalSheetItemCount": 0,
+      "withdrawalSheetPages": 0,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050496",
+      "localId": "CF00959-004",
+      "rawWithdrawalSheetHeaderCount": 2,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 1,
+      "withdrawalSheetPages": 1,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050497",
+      "localId": "CF00959-005",
+      "rawWithdrawalSheetHeaderCount": 0,
+      "withdrawalInventoryHeaderCount": 0,
+      "withdrawalSheetItemCount": 0,
+      "withdrawalSheetPages": 0,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050498",
+      "localId": "CF00959-006",
+      "rawWithdrawalSheetHeaderCount": 6,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 5,
+      "withdrawalSheetPages": 8,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050499",
+      "localId": "CF00959-007",
+      "rawWithdrawalSheetHeaderCount": 3,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 2,
+      "withdrawalSheetPages": 7,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050500",
+      "localId": "CF00959-008",
+      "rawWithdrawalSheetHeaderCount": 0,
+      "withdrawalInventoryHeaderCount": 0,
+      "withdrawalSheetItemCount": 0,
+      "withdrawalSheetPages": 0,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050501",
+      "localId": "CF00959-009",
+      "rawWithdrawalSheetHeaderCount": 10,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 9,
+      "withdrawalSheetPages": 26,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050502",
+      "localId": "CF00959-010",
+      "rawWithdrawalSheetHeaderCount": 14,
+      "withdrawalInventoryHeaderCount": 2,
+      "withdrawalSheetItemCount": 12,
+      "withdrawalSheetPages": 43,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050503",
+      "localId": "CF00959-011",
+      "rawWithdrawalSheetHeaderCount": 10,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 9,
+      "withdrawalSheetPages": 26,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050504",
+      "localId": "CF00959-012",
+      "rawWithdrawalSheetHeaderCount": 2,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 1,
+      "withdrawalSheetPages": 1,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050505",
+      "localId": "CF00959-013",
+      "rawWithdrawalSheetHeaderCount": 8,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 7,
+      "withdrawalSheetPages": 14,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050506",
+      "localId": "CF00959-014",
+      "rawWithdrawalSheetHeaderCount": 10,
+      "withdrawalInventoryHeaderCount": 1,
+      "withdrawalSheetItemCount": 9,
+      "withdrawalSheetPages": 25,
+      "releasedInPartSheetCount": 0
+    },
+    {
+      "naid": "452050507",
+      "localId": "CF00959-015",
+      "rawWithdrawalSheetHeaderCount": 12,
+      "withdrawalInventoryHeaderCount": 2,
+      "withdrawalSheetItemCount": 10,
+      "withdrawalSheetPages": 16,
+      "releasedInPartSheetCount": 0
+    }
+  ],
+  "duplicateNaids": [],
+  "duplicateLocalIds": []
+}

@@ -1416,6 +1416,33 @@ h1 {
   cursor: pointer;
 }
 
+.subject-lead-ledger {
+  min-width: 0;
+  max-width: 100%;
+  margin-top: 12px;
+  padding: 12px 14px;
+  background: #f5f8fa;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+
+.subject-lead-ledger summary {
+  color: var(--navy);
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.subject-lead-ledger ol {
+  margin: 12px 0 0;
+  padding-left: 22px;
+}
+
+.subject-lead-ledger li {
+  margin-top: 7px;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
 .table-wrap {
   width: 100%;
   max-width: 100%;
@@ -1644,7 +1671,7 @@ th {
 
 .nsc-collection-tabs {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 4px;
   margin: 20px 0 18px;
   border-bottom: 1px solid var(--line);
