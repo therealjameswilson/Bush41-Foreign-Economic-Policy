@@ -396,7 +396,16 @@ function displayDate(record) {
 }
 
 function markerLabel(status) {
-  return status === "verified" ? "Opening marker verified" : "Opening marker not present";
+  return {
+    verified: "Opening marker verified",
+    "verified with handwritten correction": "Marker verified; ID corrected by hand",
+    "not online": "No online PDF",
+    "not present": "Opening marker not present",
+  }[status] || status;
+}
+
+function isVerifiedMarker(status) {
+  return status?.startsWith("verified");
 }
 
 function signalLabel(signal) {
@@ -561,7 +570,11 @@ function renderNscCollection() {
   elements.nscIntro.textContent = activeNscCollection.intro;
   elements.nscMetrics.setAttribute("aria-label", `${activeNscCollection.shortTitle || activeNscCollection.title} collection metrics`);
   const metrics = [
-    [activeNscCollection.fileUnits.length, "Online file units", "Complete NARA series hierarchy"],
+    [
+      activeNscCollection.fileUnits.length,
+      "Catalog file units",
+      `${activeNscCollection.onlinePdfCount ?? activeNscCollection.fileUnits.filter((row) => row.pdfUrl).length} online PDFs`,
+    ],
     [
       activeNscCollection.candidateCount,
       activeNscCollection.candidateLabel,
@@ -570,19 +583,36 @@ function renderNscCollection() {
     [
       activeNscCollection.markerVerified,
       "Opening markers verified",
-      `${activeNscCollection.markerExceptionCount} documented ${plural(activeNscCollection.markerExceptionCount, "exception")}`,
+      `${activeNscCollection.markerCorrectedCount || 0} corrected by hand; ${activeNscCollection.markerExceptionCount} unavailable or incomplete`,
     ],
     [formatByteSize(activeNscCollection.totalPdfBytes), "Online PDF corpus", "Official NARA digital objects"],
   ];
   elements.nscMetrics.replaceChildren(...metrics.map(([value, title, detail]) => metric(value, title, detail)));
 
-  const exceptions = activeNscCollection.fileUnits.filter((row) => row.markerStatus !== "verified");
-  const exceptionSummary = exceptions.length
-    ? `${exceptions.map((row) => `${row.localId}, ${row.title}`).join("; ")} ${exceptions.length === 1 ? "opens" : "open"} without the complete opening marker; the affected locator is catalog-derived and is not presented as a Source Note.`
+  const onlineRows = activeNscCollection.fileUnits.filter((row) => row.pdfUrl);
+  const correctedRows = onlineRows.filter((row) => row.markerStatus === "verified with handwritten correction");
+  const unverifiedRows = onlineRows.filter((row) => !isVerifiedMarker(row.markerStatus));
+  const catalogOnlyRows = activeNscCollection.fileUnits.filter((row) => !row.pdfUrl);
+  const exceptionParts = [];
+  if (correctedRows.length) {
+    exceptionParts.push(
+      `${correctedRows.map((row) => row.localId).join(" and ")} carry handwritten Folder ID corrections on the opening sheet`,
+    );
+  }
+  if (unverifiedRows.length) {
+    exceptionParts.push(
+      `${unverifiedRows.map((row) => row.localId).join(", ")} ${unverifiedRows.length === 1 ? "does" : "do"} not contain a complete opening marker`,
+    );
+  }
+  if (catalogOnlyRows.length) {
+    exceptionParts.push(`${catalogOnlyRows.length} catalog file units have no online PDF`);
+  }
+  const exceptionSummary = exceptionParts.length
+    ? `${exceptionParts.join("; ")}. Any file without a complete online marker remains a catalog-derived locator and is not presented as a document-level Source Note.`
     : "No opening-sheet exceptions were found in this online series.";
   elements.nscProvenanceTitle.textContent = activeNscCollection.provenanceTitle;
   elements.nscProvenanceSummary.textContent =
-    `${activeNscCollection.markerVerified} of ${activeNscCollection.fileUnits.length} PDFs open with Bush Library provenance naming the record group, office, series, subseries, OA/ID, and folder. ${exceptionSummary}`;
+    `${activeNscCollection.markerVerified} of ${onlineRows.length} online PDFs open with Bush Library provenance naming the record group, office, series, subseries, OA/ID, and folder. ${exceptionSummary}`;
   elements.nscSeriesLink.href = activeNscCollection.catalogUrl;
 
   const candidates = activeNscCollection.candidateIds
@@ -674,7 +704,7 @@ function fileUnitHasSignal(row, signal) {
 
 function renderNscFileUnits(rows) {
   elements.nscFileRoot.replaceChildren();
-  const markerCount = rows.filter((row) => row.markerStatus === "verified").length;
+  const markerCount = rows.filter((row) => isVerifiedMarker(row.markerStatus)).length;
   const highLevelCount = rows.filter((row) => fileUnitHasSignal(row, "high-level")).length;
   elements.nscFileSummary.textContent =
     `${rows.length} of ${activeNscCollection.fileUnits.length} file units shown; ${markerCount} opening ${plural(markerCount, "marker")} verified; ${highLevelCount} ${plural(highLevelCount, "file unit")} with high-level document signals.`;
@@ -723,14 +753,19 @@ function createNscFileUnitRow(row) {
   body.className = "nsc-file-body";
   const title = document.createElement("h4");
   const titleLink = document.createElement("a");
-  titleLink.href = row.pdfUrl;
+  titleLink.href = row.pdfUrl || row.catalogUrl;
   titleLink.target = "_blank";
   titleLink.rel = "noreferrer";
   titleLink.textContent = row.title;
   title.append(titleLink);
   const meta = document.createElement("div");
   meta.className = "record-meta";
-  [row.chapter, row.routing, markerLabel(row.markerStatus), formatByteSize(row.pdfBytes)].forEach((value) => meta.append(badge(value)));
+  [
+    row.chapter,
+    row.routing,
+    markerLabel(row.markerStatus),
+    row.pdfUrl ? formatByteSize(row.pdfBytes) : "Catalog only",
+  ].forEach((value) => meta.append(badge(value)));
   const signals = document.createElement("div");
   signals.className = "nsc-signals";
   reviewSignalPairs(row).forEach(([labelText, value]) => {
@@ -742,7 +777,7 @@ function createNscFileUnitRow(row) {
   details.className = "record-source-note nsc-file-details";
   const summary = document.createElement("summary");
   summary.textContent = "Provenance and review signals";
-  const sourceLabel = label(row.markerStatus === "verified" ? "Provenance stem - not a Source Note" : "Catalog-derived archival locator");
+  const sourceLabel = label(isVerifiedMarker(row.markerStatus) ? "Provenance stem - not a Source Note" : "Catalog-derived archival locator");
   const sourceText = row.provenanceStem || row.archivalLocator;
   const source = paragraph(sourceText, "record-frus-source-note");
   const signalNote = paragraph(
@@ -751,13 +786,15 @@ function createNscFileUnitRow(row) {
   );
   const actions = document.createElement("div");
   actions.className = "record-copy-actions";
-  actions.append(copyButton(row.markerStatus === "verified" ? "Copy Provenance Stem" : "Copy Locator", sourceText));
+  actions.append(copyButton(isVerifiedMarker(row.markerStatus) ? "Copy Provenance Stem" : "Copy Locator", sourceText));
   details.append(summary, sourceLabel, source, signalNote, actions);
   body.append(title, meta, signals, details);
 
   const links = document.createElement("div");
   links.className = "record-links";
-  links.append(link("Catalog", row.catalogUrl), link("PDF", row.pdfUrl), badge(`NAID ${row.naid}`), badge(`OA/ID ${row.localId}`));
+  links.append(link("Catalog", row.catalogUrl));
+  if (row.pdfUrl) links.append(link("PDF", row.pdfUrl));
+  links.append(badge(`NAID ${row.naid}`), badge(`OA/ID ${row.localId}`));
   item.append(date, body, links);
   return item;
 }
@@ -897,6 +934,7 @@ function downloadFilteredNscCsv() {
     "chapter",
     "routing",
     "markerStatus",
+    "hasOnlinePdf",
     "accessStatus",
     "pdfBytes",
     "catalogPdfBytes",
@@ -912,6 +950,7 @@ function downloadFilteredNscCsv() {
     "tradeSignals",
     "assistanceSanctionsSignals",
     "energySignals",
+    "agricultureSignals",
     "treasurySignals",
     "archivalLocator",
     "provenanceStem",
@@ -927,6 +966,7 @@ function downloadFilteredNscCsv() {
     tradeSignals: row.economicSignals?.trade ?? "",
     assistanceSanctionsSignals: row.economicSignals?.assistanceSanctions ?? "",
     energySignals: row.economicSignals?.energy ?? "",
+    agricultureSignals: row.economicSignals?.agriculture ?? "",
     treasurySignals: row.economicSignals?.treasury ?? "",
   }));
   const csv = [

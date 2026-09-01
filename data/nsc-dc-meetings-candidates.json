@@ -1,0 +1,1190 @@
+{
+  "auditScope": "Complete series inventory with economic-policy screening",
+  "auditedFolders": [
+    "90009-002",
+    "90009-007",
+    "90009-008",
+    "90009-010",
+    "90009-014",
+    "90009-015",
+    "90009-017",
+    "90009-020",
+    "90010-022",
+    "90010-025",
+    "90011-003",
+    "90011-010",
+    "90011-012",
+    "90011-013",
+    "90011-014",
+    "90011-023",
+    "90012-004",
+    "90012-007",
+    "90012-021",
+    "90013-003",
+    "90013-008",
+    "90013-009",
+    "90013-010",
+    "90013-020",
+    "90014-003",
+    "90014-004",
+    "90014-008",
+    "90014-009",
+    "90014-022",
+    "90015-017",
+    "90017-002",
+    "90017-003",
+    "90017-008",
+    "90017-010",
+    "90017-011",
+    "90017-013",
+    "90017-016",
+    "90017-018",
+    "90018-007",
+    "90018-036",
+    "90018-038",
+    "90018-039",
+    "90019-008",
+    "90019-009",
+    "90019-010",
+    "90019-011",
+    "90019-012",
+    "90019-028",
+    "90020-003",
+    "90020-030",
+    "90021-001",
+    "90021-004",
+    "90021-005",
+    "90021-011",
+    "90021-012",
+    "90021-013",
+    "90021-018",
+    "90021-020",
+    "90021-021",
+    "90021-024",
+    "90021-025",
+    "90021-027",
+    "90021-028",
+    "90022-001",
+    "90022-002",
+    "90022-004",
+    "90022-006",
+    "90022-007",
+    "90022-011",
+    "90022-012",
+    "90022-016",
+    "90022-018",
+    "90023-020",
+    "90023-024",
+    "90023-029",
+    "90023-032",
+    "90023-033",
+    "90023-034",
+    "90023-036"
+  ],
+  "methodology": "All 492 file units were enumerated from the complete official NARA Catalog hierarchy. NARA provides 479 online PDFs; every online opening provenance sheet and every full NARA OCR transcript were checked. The 79 entries below were selected after title review and a full-series sweep for trade, finance, debt, assistance, sanctions, energy, technology transfer, export controls, Treasury, and related economic-policy evidence. Page counts were read from the served official PDFs with Poppler pdfinfo; they are file-unit extents, not document extents. These records remain archival locators until individual document headings, datelines, terminal markings, and release or withdrawal status are checked in the source images.",
+  "documents": [
+    {
+      "naid": "470760976",
+      "date": "1989-02-14",
+      "pageCount": 58,
+      "extentLabel": "58 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "FSX",
+        "Japan",
+        "Technology transfer",
+        "Industrial policy"
+      ],
+      "notes": "Boundary review. The packet frames the FSX co-development decision as an international-trade, industrial-base, and technology-transfer question; adjudicate it against the Japan and security volumes. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470760981",
+      "date": "1989-03-10",
+      "pageCount": 59,
+      "extentLabel": "59 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "FSX",
+        "Japan",
+        "Technology transfer",
+        "Trade"
+      ],
+      "notes": "Boundary review. The folder includes the March 10 Deputies Committee memcon and decision papers on technology, procurement, production share, and trade implications; compare it with the February FSX review. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470760982",
+      "date": "1989-03-17",
+      "pageCount": 72,
+      "extentLabel": "72 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Eastern Europe",
+        "Poland",
+        "Debt",
+        "IMF and World Bank"
+      ],
+      "notes": "Direct Volume XXX review. The minutes and NSR-4 papers address reform-linked assistance, Polish debt, Paris Club leverage, trade tools, and possible IMF and World Bank action. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470760984",
+      "date": "1989-03-22",
+      "pageCount": 65,
+      "extentLabel": "65 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Western Europe",
+        "European integration",
+        "Trade",
+        "NSR-5"
+      ],
+      "notes": "Direct Volume XXX review. The meeting record is explicitly the economic-aspects review of NSR-5 and covers European integration, the 1992 program, trade disputes, and related U.S. strategy. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470760988",
+      "date": "1989-03-29",
+      "pageCount": 22,
+      "extentLabel": "22 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Soviet Union",
+        "Economic relations",
+        "Trade",
+        "Credits"
+      ],
+      "notes": "Direct Volume XXX review. The released minutes and summary treat U.S.-Soviet economic relations, reform, trade, credits, joint ventures, and possible liberalization as a distinct policy track. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470760989",
+      "date": "1989-03-30",
+      "pageCount": 78,
+      "extentLabel": "78 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Poland",
+        "Round Table",
+        "Economic assistance",
+        "Presidential decision"
+      ],
+      "notes": "Direct Volume XXX review. The packet includes a memorandum from Scowcroft to the President and interagency options for responding to a successful Polish Round Table, including economic support. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470760991",
+      "date": "1989-04-07",
+      "pageCount": 102,
+      "extentLabel": "102 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "South Asia",
+        "Pakistan",
+        "Economic assistance",
+        "Trade"
+      ],
+      "notes": "Boundary review. The South Asia review weighs aid levels to Pakistan, nuclear-certification consequences, trade and nonmilitary technology with India, and regional development; route against the South Asia volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470760994",
+      "date": "1989-04-13",
+      "pageCount": 60,
+      "extentLabel": "60 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "Persian Gulf",
+        "Oil",
+        "Energy security",
+        "Economic strategy"
+      ],
+      "notes": "Boundary review. The minutes examine dependence on Gulf oil, prices, infrastructure, and the economic rationale for regional policy; primary placement may remain in the Gulf volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761017",
+      "date": "1989-08-09",
+      "pageCount": 94,
+      "extentLabel": "94 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "Panama",
+        "Economic sanctions",
+        "Blocked assets",
+        "DC minutes"
+      ],
+      "notes": "Boundary review. The file contains minutes, a summary of conclusions, and options on Panama sanctions and blocked government assets; route against the Latin America volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761020",
+      "date": "1989-08-30",
+      "pageCount": 35,
+      "extentLabel": "35 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Poland",
+        "Democracy",
+        "Economic support",
+        "Presidential talking points"
+      ],
+      "notes": "Direct Volume XXX review. The meeting preparation and presidential talking points concern signaling U.S. support for democratic change in Poland and the accompanying support package. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761024",
+      "date": "1989-09-06",
+      "pageCount": 132,
+      "extentLabel": "132 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Poland",
+        "Economic assistance",
+        "Food aid",
+        "Presidential decision"
+      ],
+      "notes": "Direct Volume XXX review. The packet includes Scowcroft's decision memorandum to the President, Deputies Committee recommendations, and repeated versions of the additional-support paper; deduplicate the copies. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761031",
+      "date": "1989-09-18",
+      "pageCount": 56,
+      "extentLabel": "56 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "South Africa",
+        "Sanctions",
+        "Investment",
+        "Nuclear trade"
+      ],
+      "notes": "Boundary review. NSR-15 considers sanctions, incentives, investment in black-owned firms, and nuclear-trade restrictions; route against the Africa and nonproliferation volumes. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761033",
+      "date": "1989-09-20",
+      "pageCount": 49,
+      "extentLabel": "49 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Machine tools",
+        "COCOM",
+        "Export controls",
+        "Negotiations"
+      ],
+      "notes": "Direct Volume XXX review. The file contains options and meeting preparation for machine-tool negotiations in COCOM, including control-list streamlining. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761034",
+      "date": "1989-09-21",
+      "pageCount": 28,
+      "extentLabel": "28 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Poland",
+        "Economic assistance",
+        "Recovery program",
+        "Policy options"
+      ],
+      "notes": "Direct Volume XXX review. The packet centers on options and memoranda for the next steps in Poland's recovery program. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761035",
+      "date": "1989-09-25",
+      "pageCount": 20,
+      "extentLabel": "20 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Poland",
+        "Economic assistance",
+        "Recovery program"
+      ],
+      "notes": "Direct Volume XXX review. This follow-on file contains the concept paper and related memorandum on economic assistance for Poland; compare it with NSC/DC 060. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761044",
+      "date": "1989-10-19",
+      "pageCount": 86,
+      "extentLabel": "86 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Machine tools",
+        "COCOM",
+        "Export controls",
+        "DC minutes"
+      ],
+      "notes": "Direct Volume XXX review. The minutes and summary record the Deputies Committee decisions on machine tools, COCOM list review, and streamlining. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761050",
+      "date": "1989-11-03",
+      "pageCount": 168,
+      "extentLabel": "168 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "Philippines",
+        "Debt reduction",
+        "Military bases",
+        "Trade and investment"
+      ],
+      "notes": "Boundary review. The packet develops debt-for-bases, economic-development, Japanese-financing, trade, and investment options around the Philippine base negotiation; route against the East Asia volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761053",
+      "date": "1989-11-17",
+      "pageCount": 118,
+      "extentLabel": "118 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "Panama",
+        "Economic sanctions",
+        "Blocked assets",
+        "DC minutes"
+      ],
+      "notes": "Boundary review. The file documents a further Deputies Committee review of Panama economic sanctions and options for financial pressure; compare it with NSC/DC 043. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761067",
+      "date": "1989-12-19",
+      "pageCount": 58,
+      "extentLabel": "58 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "Philippines",
+        "Economic reform",
+        "Foreign assistance",
+        "Investment"
+      ],
+      "notes": "Boundary review. The minutes and briefing tie additional U.S. assistance to Philippine economic and military reforms intended to improve investment conditions. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761080",
+      "date": "1990-01-12",
+      "pageCount": 138,
+      "extentLabel": "138 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "Panama",
+        "Economic recovery",
+        "Foreign assistance",
+        "Post-Noriega policy"
+      ],
+      "notes": "Boundary review. The post-Noriega policy papers include recovery, aid, and economic-reconstruction questions; route the principal record against the Latin America volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761085",
+      "date": "1990-01-27",
+      "pageCount": 67,
+      "extentLabel": "67 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "COCOM",
+        "Eastern Europe",
+        "Computers",
+        "Machine tools"
+      ],
+      "notes": "Direct Volume XXX review. The minutes and summary cover the COCOM core list, differentiation, telecommunications, computers, and machine-tool negotiations. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761086",
+      "date": "1990-01-31",
+      "pageCount": 79,
+      "extentLabel": "79 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "Philippines",
+        "Debt reduction",
+        "Japanese assistance",
+        "Trade compensation"
+      ],
+      "notes": "Boundary review. The military-bases packet contains detailed debt-reduction, long-term financing, Japanese participation, and nontraditional trade-compensation options. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761087",
+      "date": "1990-02-02",
+      "pageCount": 84,
+      "extentLabel": "84 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Fiber optics",
+        "Soviet Union",
+        "Technology transfer",
+        "COCOM"
+      ],
+      "notes": "Direct Volume XXX review. The meeting preparation addresses trans-Soviet fiber-optic proposals, COCOM policy, and technology-transfer controls. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761097",
+      "date": "1990-03-21",
+      "pageCount": 59,
+      "extentLabel": "59 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Technology transfer",
+        "Fiber optics",
+        "COCOM",
+        "NSR-22"
+      ],
+      "notes": "Direct Volume XXX review. The minutes and background papers address fiber optics, NSR-22, and the national-security implications of technology transfer. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761106",
+      "date": "1990-04-11",
+      "pageCount": 31,
+      "extentLabel": "31 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Technology transfer",
+        "COCOM",
+        "DC minutes"
+      ],
+      "notes": "Direct Volume XXX review. Part 1 preserves the minutes and summary of the April 11 technology-transfer meeting; review it with part 2. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761107",
+      "date": "1990-04-11",
+      "pageCount": 80,
+      "extentLabel": "80 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Technology transfer",
+        "Eastern Europe",
+        "COCOM",
+        "Critical technologies"
+      ],
+      "notes": "Direct Volume XXX review. Part 2 adds policy papers on technology transfer to Eastern Europe, COCOM, information systems, and military-critical technologies. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761111",
+      "date": "1990-04-20",
+      "pageCount": 72,
+      "extentLabel": "72 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Technology transfer",
+        "COCOM",
+        "Core list",
+        "China"
+      ],
+      "notes": "Direct Volume XXX review. The file records the April 20 review of the COCOM core list, industrial-list eliminations, telecommunications, China, and differentiation. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761112",
+      "date": "1990-05-01",
+      "pageCount": 69,
+      "extentLabel": "69 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "Philippines",
+        "Military bases",
+        "Economic compensation",
+        "Debt"
+      ],
+      "notes": "Boundary review. The base-negotiation packet continues the interagency financing, assistance, and compensation record; route against the East Asia volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761125",
+      "date": "1990-05-29",
+      "pageCount": 44,
+      "extentLabel": "44 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "COCOM",
+        "Core list",
+        "Export controls",
+        "DC minutes"
+      ],
+      "notes": "Direct Volume XXX review. The minutes and summary record the May 29 Deputies Committee review of the COCOM core-list approach. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761151",
+      "date": "1990-07-19",
+      "pageCount": 45,
+      "extentLabel": "45 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Soviet Union",
+        "Commercial presence",
+        "Trade",
+        "Legal policy"
+      ],
+      "notes": "Direct Volume XXX review. The meeting papers address Soviet commercial operations in the United States and the legal and policy framework governing them. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761208",
+      "date": "1990-10-09",
+      "pageCount": 42,
+      "extentLabel": "42 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "Philippines",
+        "Foreign assistance",
+        "Economic reform",
+        "Regional policy"
+      ],
+      "notes": "Boundary review. The Philippine policy review contains assistance and reform questions that may supplement the debt-and-bases files; route against the East Asia volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761209",
+      "date": "1990-10-09",
+      "pageCount": 44,
+      "extentLabel": "44 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Supercomputers",
+        "Export licenses",
+        "COCOM",
+        "Nonproliferation"
+      ],
+      "notes": "Direct Volume XXX review. The packet presents decisions on supercomputer export licenses to high-risk non-OECD destinations. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761214",
+      "date": "1990-10-19",
+      "pageCount": 129,
+      "extentLabel": "129 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Israel",
+        "Machine tools",
+        "Technology transfer",
+        "Export controls"
+      ],
+      "notes": "Direct Volume XXX review. The file concerns Israeli machine-tool capabilities and technology-transfer controls; retain a cross-reference to the Middle East volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761216",
+      "date": "1990-10-24",
+      "pageCount": 103,
+      "extentLabel": "103 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Computers",
+        "COCOM",
+        "Export controls",
+        "DC minutes"
+      ],
+      "notes": "Direct Volume XXX review. Part 1 includes minutes, a summary, and policy papers on computer export licenses and negotiating positions. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761217",
+      "date": "1990-10-24",
+      "pageCount": 49,
+      "extentLabel": "49 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Computers",
+        "China",
+        "COCOM",
+        "Export controls"
+      ],
+      "notes": "Direct Volume XXX review. Part 2 continues the computer-control review, including China and high-risk non-OECD licensing issues; deduplicate repeated papers with part 1. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761219",
+      "date": "1990-11-07",
+      "pageCount": 105,
+      "extentLabel": "105 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Computers",
+        "Export licenses",
+        "China",
+        "Brazil"
+      ],
+      "notes": "Direct Volume XXX review. The November 7 meeting record addresses computer export applications and policy questions involving China, Brazil, and other destinations. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761222",
+      "date": "1990-11-08",
+      "pageCount": 39,
+      "extentLabel": "39 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Computers",
+        "COCOM",
+        "Technology transfer",
+        "DC minutes"
+      ],
+      "notes": "Direct Volume XXX review. The folder includes the November 8 minutes and summary of conclusions on computer controls. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761224",
+      "date": "1990-11-13",
+      "pageCount": 15,
+      "extentLabel": "15 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Computers",
+        "Korea",
+        "Export controls",
+        "DC minutes"
+      ],
+      "notes": "Direct Volume XXX review. The compact file preserves duplicate copies of the November 13 computer-control minutes and the summary of conclusions; deduplicate before item-level promotion. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761236",
+      "date": "1990-12-20",
+      "pageCount": 75,
+      "extentLabel": "75 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Export Administration Act",
+        "Chemical and biological weapons",
+        "Export controls",
+        "DC minutes"
+      ],
+      "notes": "Direct Volume XXX review. The minutes and summary document decisions on the Export Administration Act and chemical and biological weapons controls. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761265",
+      "date": "1991-02-13",
+      "pageCount": 205,
+      "extentLabel": "205 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "Persian Gulf",
+        "Postwar economics",
+        "Reconstruction",
+        "Presidential memorandum"
+      ],
+      "notes": "Boundary review. The postwar Gulf packet contains an eight-page economic-issues outline, reconstruction material, and memoranda to Scowcroft and the President; route against the Gulf volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761267",
+      "date": "1991-02-14",
+      "pageCount": 112,
+      "extentLabel": "112 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Computers",
+        "Export controls",
+        "COCOM",
+        "DC minutes"
+      ],
+      "notes": "Direct Volume XXX review. The file preserves the February 14 minutes and extensive background on computer and export-control policy. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761268",
+      "date": "1991-02-19",
+      "pageCount": 28,
+      "extentLabel": "28 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Computers",
+        "Export controls",
+        "COCOM",
+        "Negotiating position"
+      ],
+      "notes": "Direct Volume XXX review. The February 19 folder contains minutes, a summary, and options for computer-control negotiations in COCOM. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761277",
+      "date": "1991-04-04",
+      "pageCount": 60,
+      "extentLabel": "60 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "Philippines",
+        "Economic assistance",
+        "Debt reduction",
+        "PACT"
+      ],
+      "notes": "Boundary review. Part 1 of the Philippine-American Cooperation Treaty packet includes debt-reduction, financing, Japanese-assistance, and trade-compensation options. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761278",
+      "date": "1991-04-04",
+      "pageCount": 60,
+      "extentLabel": "60 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "Philippines",
+        "Economic assistance",
+        "Debt service",
+        "PACT"
+      ],
+      "notes": "Boundary review. Part 2 adds proposals for ESF and FMF use, debt service, and the Multilateral Assistance Initiative; compare all five parts. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761279",
+      "date": "1991-04-04",
+      "pageCount": 90,
+      "extentLabel": "90 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "Philippines",
+        "Economic assistance",
+        "Debt reduction",
+        "Trade"
+      ],
+      "notes": "Boundary review. Part 3 repeats and extends the debt-reduction, financing, Japanese-participation, and trade-compensation record. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761280",
+      "date": "1991-04-04",
+      "pageCount": 48,
+      "extentLabel": "48 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "Philippines",
+        "Economic assistance",
+        "PACT",
+        "Parallel copy"
+      ],
+      "notes": "Boundary review. Part 4 is a parallel packet for the April 4 meeting; retain only distinct decision records or materially different drafts. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761281",
+      "date": "1991-04-04",
+      "pageCount": 59,
+      "extentLabel": "59 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "Philippines",
+        "Economic assistance",
+        "FMS debt",
+        "Multilateral aid"
+      ],
+      "notes": "Boundary review. Part 5 includes FMS debt projections and Multilateral Assistance Initiative material; deduplicate against parts 1 through 4. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "352356450",
+      "date": "1991-05-08",
+      "pageCount": 65,
+      "extentLabel": "65 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Strategic Petroleum Reserve",
+        "Oil",
+        "Energy policy",
+        "DC minutes"
+      ],
+      "notes": "Direct Volume XXX review. The released minutes, summary, and decision papers address Strategic Petroleum Reserve acquisition choices and their fiscal and energy-policy effects. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761303",
+      "date": "1991-05-31",
+      "pageCount": 68,
+      "extentLabel": "68 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Middle East",
+        "Export controls",
+        "Technology transfer",
+        "DC summary"
+      ],
+      "notes": "Direct Volume XXX review. The folder contains the summary and policy papers for a review of Middle East export-control policy; retain regional cross-references. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761329",
+      "date": "1991-08-28",
+      "pageCount": 65,
+      "extentLabel": "65 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Soviet Union",
+        "Economic cooperation",
+        "Humanitarian assistance",
+        "Sherpa process"
+      ],
+      "notes": "Direct Volume XXX review. The packet combines humanitarian-assistance planning with papers on international economic cooperation with the Soviet Union and a Sherpa meeting. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761336",
+      "date": "1991-09-27",
+      "pageCount": 11,
+      "extentLabel": "11 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Soviet Union",
+        "Humanitarian assistance",
+        "International coordination"
+      ],
+      "notes": "Direct Volume XXX review. This short follow-up file concerns international coordination of humanitarian assistance to the Soviet Union. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761339",
+      "date": "1991-10-25",
+      "pageCount": 69,
+      "extentLabel": "69 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "Haiti",
+        "Trade sanctions",
+        "Financial sanctions",
+        "Executive order"
+      ],
+      "notes": "Boundary review. The Haiti meeting file includes trade-sanctions papers and a proposed executive order imposing financial sanctions; route against the Latin America volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761340",
+      "date": "1991-10-29",
+      "pageCount": 41,
+      "extentLabel": "41 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "COCOM",
+        "MTCR",
+        "Intra-COCOM trade",
+        "DC minutes"
+      ],
+      "notes": "Direct Volume XXX review. The file contains minutes, a summary, and a decision paper on intra-COCOM trade in MTCR Annex items. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761346",
+      "date": "1991-12-02",
+      "pageCount": 55,
+      "extentLabel": "55 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "Libya",
+        "Pan Am 103",
+        "Sanctions",
+        "Allied coordination"
+      ],
+      "notes": "Boundary review. The Deputies Committee packet develops a sanctions menu and allied consultation strategy after the Pan Am 103 indictments; route against the terrorism and regional volumes. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761347",
+      "date": "1991-12-05",
+      "pageCount": 53,
+      "extentLabel": "53 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Machine tools",
+        "Voluntary restraint agreements",
+        "International trade",
+        "Japan"
+      ],
+      "notes": "Direct Volume XXX review. The file presents machine-tool voluntary-restraint options and the Deputies Committee briefing record. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761348",
+      "date": "1991-12-13",
+      "pageCount": 122,
+      "extentLabel": "122 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "Yugoslavia",
+        "Oil embargo",
+        "Trade sanctions",
+        "DC summary"
+      ],
+      "notes": "Boundary review. The Yugoslavia packet weighs selective sanctions, a trade embargo, and the impact of an oil embargo; route against the Western Europe volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761353",
+      "date": "1991-12-23",
+      "pageCount": 83,
+      "extentLabel": "83 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "Yugoslavia",
+        "Selective sanctions",
+        "Recognition",
+        "DC summary"
+      ],
+      "notes": "Boundary review. The December 23 review links recognition policy to selective sanctions and possible relief or escalation; compare it with the December 13 packet. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761355",
+      "date": "1992-01-17",
+      "pageCount": 74,
+      "extentLabel": "74 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Former Soviet Union",
+        "Technology transfer",
+        "Nonproliferation",
+        "DC minutes"
+      ],
+      "notes": "Direct Volume XXX review. The minutes and issue papers address the spread of militarily useful technology from the former Soviet Union. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761356",
+      "date": "1992-01-31",
+      "pageCount": 102,
+      "extentLabel": "102 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Iran",
+        "Export controls",
+        "Unilateral controls",
+        "Allied coordination"
+      ],
+      "notes": "Direct Volume XXX review. The Iran packet contains political-response and export-control papers; compare it with NSC/DC 336 and the November COCOM Cooperation Forum review. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761359",
+      "date": "1992-02-13",
+      "pageCount": 134,
+      "extentLabel": "134 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Iran",
+        "Export controls",
+        "Licensing",
+        "Multilateral controls"
+      ],
+      "notes": "Direct Volume XXX review. The folder centers on export-control and licensing policy toward Iran and options for multilateral implementation. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761360",
+      "date": "1992-02-14",
+      "pageCount": 123,
+      "extentLabel": "123 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "San Antonio Summit",
+        "Counternarcotics",
+        "Economic assistance",
+        "Financial strategy"
+      ],
+      "notes": "Boundary review. The summit packet includes strategies in the economic and financial areas and a review of U.S. economic assistance; route against the Latin America and counternarcotics volumes. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761362",
+      "date": "1992-03-11",
+      "pageCount": 166,
+      "extentLabel": "166 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "Iraq",
+        "Frozen assets",
+        "Oil proceeds",
+        "UN financing"
+      ],
+      "notes": "Boundary review. The Iraq meeting includes options for financing UN operations and using frozen Iraqi oil proceeds; route against the Gulf volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761363",
+      "date": "1992-03-17",
+      "pageCount": 55,
+      "extentLabel": "55 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Former Soviet Union",
+        "Technology transfer",
+        "Nonproliferation",
+        "DC summary"
+      ],
+      "notes": "Direct Volume XXX review. This follow-up meeting records decisions on limiting the spread of militarily useful technology from the former Soviet Union. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761366",
+      "date": "1992-03-25",
+      "pageCount": 145,
+      "extentLabel": "145 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "Nonproliferation",
+        "Export controls",
+        "Missile systems",
+        "Policy initiative"
+      ],
+      "notes": "Boundary review. The broad nonproliferation initiative includes export-control measures but may belong primarily in a security volume; retain it for item-level cross-volume review. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761367",
+      "date": "1992-03-26",
+      "pageCount": 105,
+      "extentLabel": "105 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Machine tools",
+        "Voluntary restraint arrangements",
+        "Japan",
+        "International trade"
+      ],
+      "notes": "Direct Volume XXX review. The meeting record reviews machine-tool VRAs, including Scowcroft and Treasury correspondence. Catalog coverage and the documents establish March 26, 1992; the folder title incorrectly says May 26. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761369",
+      "date": "1992-04-09",
+      "pageCount": 60,
+      "extentLabel": "60 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Export controls",
+        "Regulatory reform",
+        "Licensing",
+        "DC summary"
+      ],
+      "notes": "Direct Volume XXX review. The packet includes a summary of conclusions and issues papers for export-control regulatory reform. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761371",
+      "date": "1992-04-22",
+      "pageCount": 87,
+      "extentLabel": "87 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Export controls",
+        "Regulatory reform",
+        "Defense trade",
+        "Industry"
+      ],
+      "notes": "Direct Volume XXX review. Part 1 contains the April 22 briefing and reform papers on defense trade, industry concerns, and regulatory review. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761372",
+      "date": "1992-04-22",
+      "pageCount": 92,
+      "extentLabel": "92 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Export controls",
+        "Regulatory reform",
+        "Implementation",
+        "Parallel copy"
+      ],
+      "notes": "Direct Volume XXX review. Part 2 contains implementation and follow-up records for the April 22 decisions; deduplicate repeated reform papers with part 1. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761376",
+      "date": "1992-05-05",
+      "pageCount": 92,
+      "extentLabel": "92 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "Nonproliferation",
+        "Export controls",
+        "Commerce Department",
+        "Policy review"
+      ],
+      "notes": "Boundary review. The nonproliferation-policy packet includes agency export-control achievements and proposed initiatives; route principal security documents to the appropriate volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761377",
+      "date": "1992-05-13",
+      "pageCount": 71,
+      "extentLabel": "71 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Former Soviet Union",
+        "Nuclear safety",
+        "Economic assistance",
+        "DC minutes"
+      ],
+      "notes": "Direct Volume XXX review. The minutes and working papers address financing and coordinating U.S. action on Soviet-designed reactor safety. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761381",
+      "date": "1992-05-27",
+      "pageCount": 62,
+      "extentLabel": "62 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "Bosnia",
+        "Serbia",
+        "Economic sanctions",
+        "Trade embargo"
+      ],
+      "notes": "Boundary review. The meeting weighs EC sanctions, asset freezes, export-credit and license restrictions, and oil or trade embargoes; route against the Western Europe volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761383",
+      "date": "1992-06-03",
+      "pageCount": 73,
+      "extentLabel": "73 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Russia",
+        "INMARSAT",
+        "Satellite launch",
+        "Technology policy"
+      ],
+      "notes": "Direct Volume XXX review. The minutes address a Russian commercial bid to launch an INMARSAT satellite and the remaining technology and policy issues. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761411",
+      "date": "1992-09-11",
+      "pageCount": 82,
+      "extentLabel": "82 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "Yugoslavia",
+        "Sanctions enforcement",
+        "Oil and gas",
+        "Humanitarian aid"
+      ],
+      "notes": "Boundary review. The September work program combines sanctions enforcement, oil and gas controls, and humanitarian priorities; route against the Western Europe volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761415",
+      "date": "1992-10-01",
+      "pageCount": 108,
+      "extentLabel": "108 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "Yugoslavia",
+        "Serbia sanctions",
+        "Trade embargo",
+        "Asset freeze"
+      ],
+      "notes": "Boundary review. The October 1 packet evaluates the effectiveness and enforcement of UN sanctions, including trade, asset, financial, aviation, and transit controls. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761420",
+      "date": "1992-10-21",
+      "pageCount": 93,
+      "extentLabel": "93 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "Somalia",
+        "Food aid",
+        "Monetization",
+        "Airlift financing"
+      ],
+      "notes": "Boundary review. The Somalia packet considers monetization of relief food, commercial airlift, and AID and Defense financing; route against the Africa volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761423",
+      "date": "1992-11-05",
+      "pageCount": 53,
+      "extentLabel": "53 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Iran",
+        "COCOM Cooperation Forum",
+        "G-7",
+        "Export controls"
+      ],
+      "notes": "Direct Volume XXX review. Part 1 contains follow-up records and a draft cable to G-7 partners on Iran export controls and the COCOM Cooperation Forum. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761424",
+      "date": "1992-11-05",
+      "pageCount": 50,
+      "extentLabel": "50 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Iran",
+        "COCOM Cooperation Forum",
+        "G-7",
+        "Export-control assistance"
+      ],
+      "notes": "Direct Volume XXX review. Part 2 includes the G-7 export-control initiative, unilateral Iran controls, and an export-control assistance plan; compare it with part 1. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761425",
+      "date": "1992-11-06",
+      "pageCount": 43,
+      "extentLabel": "43 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Core",
+      "topics": [
+        "Russia",
+        "IMF",
+        "Economic reform",
+        "U.S. assistance"
+      ],
+      "notes": "Direct Volume XXX review. The meeting packet includes papers on the IMF and Russian reform and the U.S. response to Russia's economic and political situation. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    },
+    {
+      "naid": "470761427",
+      "date": "1992-11-10",
+      "pageCount": 102,
+      "extentLabel": "102 PDF pages; document-level release and withdrawal audit pending",
+      "selection": "Boundary",
+      "topics": [
+        "Yugoslavia",
+        "Serbia sanctions",
+        "Sanctions assistance",
+        "Kosovo"
+      ],
+      "notes": "Boundary review. The small-group packet combines Serbia-sanctions enforcement, a sanctions-assistance mission, and Kosovo policy; route against the Western Europe volume. Promote individual documents only after the heading, dateline, terminal marking, and release or withdrawal status are checked in the source images."
+    }
+  ]
+}

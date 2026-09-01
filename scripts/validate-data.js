@@ -102,6 +102,59 @@ if (!nscMeetings) {
   if (sortedCandidates.some((record, index) => record.id !== candidateRecords[index].id)) errors.push("NSC Meetings candidates are not stored in chronological order");
 }
 
+const nscDcMeetings = data.nscCollections?.find((collection) => collection.id === "nsc-dc-meetings");
+if (!nscDcMeetings) {
+  errors.push("NSC/DC Meetings collection is missing");
+} else {
+  if (nscDcMeetings.fileUnits.length !== 492 || nscDcMeetings.fileUnitCount !== 492) errors.push("NSC/DC Meetings file-unit count is not 492");
+  if (nscDcMeetings.onlinePdfCount !== 479 || nscDcMeetings.catalogOnlyCount !== 13) errors.push("NSC/DC Meetings online/catalog-only totals changed");
+  if (nscDcMeetings.markerVerified !== 479 || nscDcMeetings.markerCorrectedCount !== 2 || nscDcMeetings.markerExceptionCount !== 13) {
+    errors.push("NSC/DC Meetings provenance-marker totals changed");
+  }
+  if (nscDcMeetings.candidateCount !== 79 || nscDcMeetings.candidateIds.length !== 79) errors.push("NSC/DC Meetings review-candidate count is not 79");
+  if (nscDcMeetings.auditedFolders.length !== 79) errors.push("NSC/DC Meetings screened-folder count is not 79");
+  if (nscDcMeetings.fileUnits.some((row) => !Number.isInteger(row.economicSignals?.total))) errors.push("NSC/DC Meetings ledger lacks economic OCR signals");
+  if (new Set(nscDcMeetings.fileUnits.map((row) => row.naid)).size !== nscDcMeetings.fileUnits.length) errors.push("Duplicate NSC/DC Meetings NAID");
+  if (new Set(nscDcMeetings.fileUnits.map((row) => row.localId)).size !== nscDcMeetings.fileUnits.length) errors.push("Duplicate NSC/DC Meetings OA/ID");
+  if (nscDcMeetings.fileUnits.some((row) => !row.catalogUrl.startsWith("https://catalog.archives.gov/id/"))) {
+    errors.push("NSC/DC Meetings ledger contains a nonofficial Catalog link");
+  }
+  if (nscDcMeetings.fileUnits.some((row) => row.hasOnlinePdf !== Boolean(row.pdfUrl) || (row.pdfUrl && !row.pdfUrl.startsWith("https://catalog.archives.gov/medialz/")))) {
+    errors.push("NSC/DC Meetings ledger contains inconsistent or nonofficial PDF metadata");
+  }
+  const markerStatuses = nscDcMeetings.fileUnits.reduce((counts, row) => {
+    counts[row.markerStatus] = (counts[row.markerStatus] || 0) + 1;
+    return counts;
+  }, {});
+  if (markerStatuses.verified !== 477 || markerStatuses["verified with handwritten correction"] !== 2 || markerStatuses["not online"] !== 13) {
+    errors.push("NSC/DC Meetings marker-state distribution changed");
+  }
+  const correctedMarkers = nscDcMeetings.fileUnits.filter((row) => row.markerStatus === "verified with handwritten correction");
+  if (correctedMarkers.map((row) => row.naid).join(",") !== "470761226,470761228") errors.push("NSC/DC handwritten Folder ID corrections changed");
+  const sortedUnits = [...nscDcMeetings.fileUnits].sort((a, b) => a.workingStartDate.localeCompare(b.workingStartDate) || a.workingEndDate.localeCompare(b.workingEndDate) || a.localId.localeCompare(b.localId));
+  if (sortedUnits.some((row, index) => row.naid !== nscDcMeetings.fileUnits[index].naid)) errors.push("NSC/DC Meetings file units are not stored in chronological order");
+  if (nscDcMeetings.fileUnits.filter((row) => row.routing === "Volume XXX review").length !== 47) errors.push("NSC/DC Meetings direct-review routing count is not 47");
+  if (nscDcMeetings.fileUnits.filter((row) => row.routing === "Boundary review").length !== 32) errors.push("NSC/DC Meetings boundary-review routing count is not 32");
+  const titleDateFallbacks = nscDcMeetings.fileUnits.filter((row) => row.dateBasis === "Folder title date").map((row) => row.naid).sort();
+  if (titleDateFallbacks.join(",") !== ["352220592", "352356448", "352356450"].join(",")) errors.push("NSC/DC title-date fallback set changed");
+  const machineToolVra = nscDcMeetings.fileUnits.find((row) => row.naid === "470761367");
+  if (machineToolVra?.workingStartDate !== "1992-03-26") errors.push("NSC/DC 343 chronology no longer preserves the March 26 source date");
+  if (nscDcMeetings.candidateIds.some((id) => !ids.has(id))) errors.push("NSC/DC Meetings candidate ID is missing from the master chronology");
+  const candidateRecords = nscDcMeetings.candidateIds.map((id) => data.records.find((record) => record.id === id)).filter(Boolean);
+  const routedNaids = new Set(nscDcMeetings.fileUnits.filter((row) => row.routing !== "Series context").map((row) => row.naid));
+  const candidateNaids = new Set(candidateRecords.map((record) => record.naid));
+  if (routedNaids.size !== candidateNaids.size || [...routedNaids].some((naid) => !candidateNaids.has(naid))) errors.push("NSC/DC Meetings routed file units and chronology candidates do not match");
+  if (candidateRecords.some((record) => record.sourceNoteStatus !== "locator" || record.sourceNote)) errors.push("NSC/DC Meetings file-unit lead incorrectly asserts a document-level Source Note");
+  if (candidateRecords.some((record) => record.collectionId !== "nsc-dc-meetings")) errors.push("NSC/DC Meetings candidate lacks its collection ID");
+  if (candidateRecords.reduce((total, record) => total + record.pageCount, 0) !== 5995) errors.push("NSC/DC Meetings review-file page total is not 5,995");
+  if (candidateRecords.filter((record) => record.selection === "Core").length !== 47) errors.push("NSC/DC Meetings candidate direct-review count is not 47");
+  if (candidateRecords.filter((record) => record.selection === "Boundary").length !== 32) errors.push("NSC/DC Meetings candidate boundary count is not 32");
+  if (candidateRecords.filter((record) => record.selection === "Core").reduce((total, record) => total + record.pageCount, 0) !== 3070) errors.push("NSC/DC Meetings direct-review page total is not 3,070");
+  if (candidateRecords.filter((record) => record.selection === "Boundary").reduce((total, record) => total + record.pageCount, 0) !== 2925) errors.push("NSC/DC Meetings boundary-review page total is not 2,925");
+  const sortedCandidates = [...candidateRecords].sort((a, b) => a.sortDate.localeCompare(b.sortDate) || a.title.localeCompare(b.title));
+  if (sortedCandidates.some((record, index) => record.id !== candidateRecords[index].id)) errors.push("NSC/DC Meetings candidates are not stored in chronological order");
+}
+
 const report = {
   checkedAt: new Date().toISOString(),
   records: data.records.length,
@@ -110,6 +163,7 @@ const report = {
   locators: data.records.filter((record) => record.sourceNoteStatus === "locator").length,
   withheldItems: data.records.filter((record) => record.releaseStatus === "Withheld").length,
   nscCollections: data.nscCollections?.length || 0,
+  nscDcMeetingFileUnits: nscDcMeetings?.fileUnits.length || 0,
   nscMeetingFileUnits: nscMeetings?.fileUnits.length || 0,
   timDealFileUnits: timDeal?.fileUnits.length || 0,
   errors,

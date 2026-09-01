@@ -9,6 +9,8 @@ const timDealCandidatesPath = path.join(root, "data", "tim-deal-candidates.json"
 const timDealFileUnitsPath = path.join(root, "data", "tim-deal-file-units.json");
 const nscMeetingsCandidatesPath = path.join(root, "data", "nsc-meetings-candidates.json");
 const nscMeetingsFileUnitsPath = path.join(root, "data", "nsc-meetings-file-units.json");
+const nscDcMeetingsCandidatesPath = path.join(root, "data", "nsc-dc-meetings-candidates.json");
+const nscDcMeetingsFileUnitsPath = path.join(root, "data", "nsc-dc-meetings-file-units.json");
 
 if (!fs.existsSync(westernEuropePath)) {
   throw new Error(`Missing source register: ${westernEuropePath}`);
@@ -17,7 +19,9 @@ if (
   !fs.existsSync(timDealCandidatesPath) ||
   !fs.existsSync(timDealFileUnitsPath) ||
   !fs.existsSync(nscMeetingsCandidatesPath) ||
-  !fs.existsSync(nscMeetingsFileUnitsPath)
+  !fs.existsSync(nscMeetingsFileUnitsPath) ||
+  !fs.existsSync(nscDcMeetingsCandidatesPath) ||
+  !fs.existsSync(nscDcMeetingsFileUnitsPath)
 ) {
   throw new Error("Missing NSC candidate or file-unit source data");
 }
@@ -27,6 +31,8 @@ const timDealCandidates = JSON.parse(fs.readFileSync(timDealCandidatesPath, "utf
 const timDealFileUnits = JSON.parse(fs.readFileSync(timDealFileUnitsPath, "utf8"));
 const nscMeetingsCandidates = JSON.parse(fs.readFileSync(nscMeetingsCandidatesPath, "utf8"));
 const nscMeetingsFileUnits = JSON.parse(fs.readFileSync(nscMeetingsFileUnitsPath, "utf8"));
+const nscDcMeetingsCandidates = JSON.parse(fs.readFileSync(nscDcMeetingsCandidatesPath, "utf8"));
+const nscDcMeetingsFileUnits = JSON.parse(fs.readFileSync(nscDcMeetingsFileUnitsPath, "utf8"));
 
 const meta = {
   id: "frus1989-92v30",
@@ -787,7 +793,7 @@ const gaps = [
     priority: "High",
     title: "Most online file units still lack document-boundary audits",
     scope: "Online NARA PDFs",
-    action: "Audit the 35 NSC Meetings leads document by document and continue the Tim Deal workflow across the remaining 131 file units: split documents, verify markings, deduplicate parallel copies, and retain exact withdrawal extents.",
+    action: "Audit the 79 NSC/Deputies Committee and 35 NSC Meetings leads document by document, then continue the Tim Deal workflow across the remaining 131 file units: split documents, verify markings, deduplicate parallel copies, and retain exact withdrawal extents.",
   },
   {
     id: "gap-memcons",
@@ -865,7 +871,48 @@ const nscMeetingsDocumentRecords = nscMeetingsCandidates.documents.map((candidat
   };
 });
 
-const supersededLeadIds = new Set(nscMeetingsDocumentRecords.map((record) => record.id));
+const nscDcMeetingUnitByNaid = new Map(nscDcMeetingsFileUnits.fileUnits.map((fileUnit) => [fileUnit.naid, fileUnit]));
+const nscDcMeetingsDocumentRecords = nscDcMeetingsCandidates.documents.map((candidate) => {
+  const fileUnit = nscDcMeetingUnitByNaid.get(candidate.naid);
+  if (!fileUnit) throw new Error(`NSC/DC Meetings candidate ${candidate.naid} is missing from the full file-unit ledger`);
+  const existing = existingLeadByNaid.get(candidate.naid) || {};
+  const title = fileUnit.title.replaceAll(" - ", "—");
+  return {
+    ...existing,
+    id: `lead-${candidate.naid}`,
+    date: candidate.date,
+    sortDate: candidate.date,
+    title,
+    heading: `National Security Council Deputies Committee Meeting File: ${title}`,
+    dateline: formatDateline(candidate.date),
+    type: "NSC/Deputies Committee file",
+    chapter: fileUnit.chapter,
+    selection: candidate.selection,
+    releaseStatus: "Online file unit; item audit pending",
+    pageCount: candidate.pageCount,
+    withheldPages: candidate.withheldPages ?? existing.withheldPages ?? null,
+    extentLabel:
+      candidate.extentLabel || `${candidate.pageCount} PDF pages; document-level release and withdrawal audit pending`,
+    classification: "Mixed; document-level audit required",
+    naid: candidate.naid,
+    localId: fileUnit.localId.replaceAll("-", "–"),
+    catalogUrl: fileUnit.catalogUrl,
+    pdfUrl: fileUnit.pdfUrl,
+    sourceNoteStatus: "locator",
+    sourceNoteBasis:
+      "Opening provenance sheet checked in the official NARA PDF; file-unit locator only pending document-level source-image review.",
+    sourceNote: undefined,
+    archivalLocator: fileUnit.archivalLocator,
+    topics: candidate.topics,
+    notes: candidate.notes,
+    collectionId: "nsc-dc-meetings",
+    provenanceMethod: "Opening PDF provenance sheet",
+  };
+});
+
+const supersededLeadIds = new Set(
+  [...nscMeetingsDocumentRecords, ...nscDcMeetingsDocumentRecords].map((record) => record.id),
+);
 const remainingLeadRecords = leadRecords.filter((record) => !supersededLeadIds.has(record.id));
 
 const allRecords = [
@@ -873,6 +920,7 @@ const allRecords = [
   ...itemRecords,
   ...timDealDocumentRecords,
   ...nscMeetingsDocumentRecords,
+  ...nscDcMeetingsDocumentRecords,
   ...remainingLeadRecords,
 ]
   .map((record) => {
@@ -886,6 +934,25 @@ const data = {
   chapters,
   records: allRecords,
   nscCollections: [
+    {
+      id: "nsc-dc-meetings",
+      ...nscDcMeetingsFileUnits.collection,
+      statusLabel: "H-Files Deputies Committee series",
+      intro:
+        `${nscDcMeetingsDocumentRecords.length} of the 492 NSC/Deputies Committee file units are surfaced after complete title review and a full-series economic OCR sweep: 47 for direct Volume XXX review and 32 for cross-volume adjudication. NARA supplies 479 online PDFs; 13 catalog-only folders remain visible in the ledger.`,
+      provenanceTitle: "Opening PDF provenance sheet",
+      candidateLabel: "Files for review",
+      candidateTitle: "Volume XXX Deputies Committee Review Chronology",
+      auditScope: nscDcMeetingsCandidates.auditScope,
+      auditedFolders: nscDcMeetingsCandidates.auditedFolders,
+      candidateCount: nscDcMeetingsDocumentRecords.length,
+      candidateIds: nscDcMeetingsDocumentRecords.map((record) => record.id),
+      fileUnits: nscDcMeetingsFileUnits.fileUnits,
+      candidateMethodology: nscDcMeetingsCandidates.methodology,
+      candidateCsvUrl: "data/nsc-dc-meetings-candidates.csv",
+      fileUnitsCsvUrl: "data/nsc-dc-meetings-file-units.csv",
+      reportUrl: "reports/nsc-dc-meetings-harvest.json",
+    },
     {
       id: "nsc-meetings",
       ...nscMeetingsFileUnits.collection,
@@ -965,6 +1032,60 @@ fs.writeFileSync(path.join(dataDir, "public-references.csv"), toCsv(publicRefere
   "topics",
   "selection",
   "url",
+]));
+fs.writeFileSync(path.join(dataDir, "nsc-dc-meetings-candidates.csv"), toCsv(nscDcMeetingsDocumentRecords, [
+  "id",
+  "date",
+  "title",
+  "heading",
+  "dateline",
+  "type",
+  "chapter",
+  "selection",
+  "releaseStatus",
+  "pageCount",
+  "withheldPages",
+  "extentLabel",
+  "classification",
+  "naid",
+  "localId",
+  "sourceNoteStatus",
+  "archivalLocator",
+  "notes",
+  "catalogUrl",
+  "pdfUrl",
+]));
+fs.writeFileSync(path.join(dataDir, "nsc-dc-meetings-file-units.csv"), toCsv(nscDcMeetingsFileUnits.fileUnits.map(flattenFileUnit), [
+  "naid",
+  "workingStartDate",
+  "workingEndDate",
+  "dateBasis",
+  "title",
+  "localId",
+  "chapter",
+  "routing",
+  "markerStatus",
+  "hasOnlinePdf",
+  "pdfBytes",
+  "catalogPdfBytes",
+  "pdfByteBasis",
+  "accessStatus",
+  "memosToPresident",
+  "memosToScowcroft",
+  "memorandaOfConversation",
+  "meetingRecords",
+  "withdrawalSheets",
+  "economicSignalTotal",
+  "economySignals",
+  "financeSignals",
+  "tradeSignals",
+  "assistanceSanctionsSignals",
+  "energySignals",
+  "agricultureSignals",
+  "treasurySignals",
+  "archivalLocator",
+  "catalogUrl",
+  "pdfUrl",
 ]));
 fs.writeFileSync(path.join(dataDir, "nsc-meetings-candidates.csv"), toCsv(nscMeetingsDocumentRecords, [
   "id",
@@ -1061,7 +1182,7 @@ fs.writeFileSync(path.join(dataDir, "tim-deal-file-units.csv"), toCsv(timDealFil
 ]));
 
 console.log(
-  `Built ${allRecords.length} candidate records, ${nscMeetingsFileUnits.fileUnits.length} NSC Meeting file units, ${timDealFileUnits.fileUnits.length} Tim Deal file units, ${publicReferences.length} public references, and ${gaps.length} gap entries.`,
+  `Built ${allRecords.length} candidate records, ${nscDcMeetingsFileUnits.fileUnits.length} NSC/DC file units, ${nscMeetingsFileUnits.fileUnits.length} NSC Meeting file units, ${timDealFileUnits.fileUnits.length} Tim Deal file units, ${publicReferences.length} public references, and ${gaps.length} gap entries.`,
 );
 
 function toCsv(rows, fields) {
@@ -1075,6 +1196,7 @@ function toCsv(rows, fields) {
 function flattenFileUnit(row) {
   return {
     ...row,
+    hasOnlinePdf: row.hasOnlinePdf ?? Boolean(row.pdfUrl),
     ...(row.reviewSignals || {}),
     economicSignalTotal: row.economicSignals?.total ?? "",
     economySignals: row.economicSignals?.economy ?? "",
@@ -1082,6 +1204,7 @@ function flattenFileUnit(row) {
     tradeSignals: row.economicSignals?.trade ?? "",
     assistanceSanctionsSignals: row.economicSignals?.assistanceSanctions ?? "",
     energySignals: row.economicSignals?.energy ?? "",
+    agricultureSignals: row.economicSignals?.agriculture ?? "",
     treasurySignals: row.economicSignals?.treasury ?? "",
   };
 }

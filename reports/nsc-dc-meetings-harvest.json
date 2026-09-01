@@ -1,0 +1,412 @@
+{
+  "generatedAt": "2026-09-01T02:03:05.354Z",
+  "seriesNaId": "312294079",
+  "expectedFileUnits": 492,
+  "harvestedFileUnits": 492,
+  "onlinePdfCount": 479,
+  "catalogOnlyCount": 13,
+  "volumeReviewFileUnits": 47,
+  "boundaryReviewFileUnits": 32,
+  "volumeReviewNaids": [
+    "470760982",
+    "470760984",
+    "470760988",
+    "470760989",
+    "470761020",
+    "470761024",
+    "470761033",
+    "470761034",
+    "470761035",
+    "470761044",
+    "470761085",
+    "470761087",
+    "470761097",
+    "470761106",
+    "470761107",
+    "470761111",
+    "470761125",
+    "470761151",
+    "470761209",
+    "470761214",
+    "470761216",
+    "470761217",
+    "470761219",
+    "470761222",
+    "470761224",
+    "470761236",
+    "470761267",
+    "470761268",
+    "352356450",
+    "470761303",
+    "470761329",
+    "470761336",
+    "470761340",
+    "470761347",
+    "470761355",
+    "470761356",
+    "470761359",
+    "470761363",
+    "470761367",
+    "470761369",
+    "470761371",
+    "470761372",
+    "470761377",
+    "470761383",
+    "470761423",
+    "470761424",
+    "470761425"
+  ],
+  "boundaryReviewNaids": [
+    "470760976",
+    "470760981",
+    "470760991",
+    "470760994",
+    "470761017",
+    "470761031",
+    "470761050",
+    "470761053",
+    "470761067",
+    "470761080",
+    "470761086",
+    "470761112",
+    "470761208",
+    "470761265",
+    "470761277",
+    "470761278",
+    "470761279",
+    "470761280",
+    "470761281",
+    "470761339",
+    "470761346",
+    "470761348",
+    "470761353",
+    "470761360",
+    "470761362",
+    "470761366",
+    "470761376",
+    "470761381",
+    "470761411",
+    "470761415",
+    "470761420",
+    "470761427"
+  ],
+  "candidatePdfPages": 5995,
+  "volumeReviewPdfPages": 3070,
+  "boundaryReviewPdfPages": 2925,
+  "economicSignalThreshold": 20,
+  "economicSignalFileUnits": 211,
+  "markerVerified": 479,
+  "markerCorrectedCount": 2,
+  "markerCorrections": [
+    {
+      "naid": "470761226",
+      "localId": "90017-020",
+      "title": "NSC/DC 223 - November 23, 1990 - NSC/DC Meeting on Persian Gulf via SVTS, Keywords: Persian Gulf, Iraq, Kuwait",
+      "markerChecks": {
+        "marker": true,
+        "recordGroup": true,
+        "office": true,
+        "series": true,
+        "subseries": true,
+        "folderId": false,
+        "folderIdCorrection": true
+      }
+    },
+    {
+      "naid": "470761228",
+      "localId": "90017-022",
+      "title": "NSC/DC 225 - November 27, 1990 - NSC/DC Meeting on Persian Gulf via SVTS, Keywords: Persian Gulf, Iraq, Kuwait",
+      "markerChecks": {
+        "marker": true,
+        "recordGroup": true,
+        "office": true,
+        "series": true,
+        "subseries": true,
+        "folderId": false,
+        "folderIdCorrection": true
+      }
+    }
+  ],
+  "markerExceptions": [
+    {
+      "naid": "470761010",
+      "localId": "90010-015",
+      "title": "NSC/DC 036 - June 14, 1989 - NSC/DC Meeting on Annual Review of Covert Action Programs Part III, Keywords: [...] (File located @ LM)",
+      "hasOnlinePdf": false,
+      "markerStatus": "not online",
+      "markerChecks": {}
+    },
+    {
+      "naid": "470761004",
+      "localId": "90010-009",
+      "title": "NSC/DC 030 - June 15, 1989 - NSC/DC Meeting on Annual Review of Covert Action Programs Part I, Keywords: Covert Action (File located @ LM)",
+      "hasOnlinePdf": false,
+      "markerStatus": "not online",
+      "markerChecks": {}
+    },
+    {
+      "naid": "470761005",
+      "localId": "90010-010",
+      "title": "NSC/DC 031 - June 16, 1989 - NSC/DC Meeting on Annual Review of Covert Action Program s Part II, Keywords: Covert Action (File located @ LM)",
+      "hasOnlinePdf": false,
+      "markerStatus": "not online",
+      "markerChecks": {}
+    },
+    {
+      "naid": "470761013",
+      "localId": "90010-018",
+      "title": "NSC/DC 039 - July 07, 1989 - NSC/DC Meeting on Countercocaine Strategy for Latin America, Keywords: Latin America, Counternarcotics (File located @ LM)",
+      "hasOnlinePdf": false,
+      "markerStatus": "not online",
+      "markerChecks": {}
+    },
+    {
+      "naid": "470761016",
+      "localId": "90010-021",
+      "title": "NSC/DC 042 - August 03, 1989 - NSC/DC Meeting on Countercocaine Strategy, Keywords: Counternarcotics (File located @ LM)",
+      "hasOnlinePdf": false,
+      "markerStatus": "not online",
+      "markerChecks": {}
+    },
+    {
+      "naid": "470761038",
+      "localId": "90011-017",
+      "title": "NSC/DC 063A - October 11, 1989 - NSC/DC Meeting on Strategic Cooperation with France, Keywords: France, Great Britain",
+      "hasOnlinePdf": false,
+      "markerStatus": "not online",
+      "markerChecks": {}
+    },
+    {
+      "naid": "470761061",
+      "localId": "90012-015",
+      "title": "NSC/DC 078D - December 07, 1989 - NSC/DC Meeting on Lebanon, Keywords: Lebanon (File located @ LM)",
+      "hasOnlinePdf": false,
+      "markerStatus": "not online",
+      "markerChecks": {}
+    },
+    {
+      "naid": "470761064",
+      "localId": "90012-018",
+      "title": "NSC/DC 081 - December 19, 1989 - NSC/DC Meeting on Lebanon via SVTS, Keywords: Lebanon (File located @ LM)",
+      "hasOnlinePdf": false,
+      "markerStatus": "not online",
+      "markerChecks": {}
+    },
+    {
+      "naid": "470761091",
+      "localId": "90013-014",
+      "title": "NSC/DC 106A - February 26, 1990 - NSC/DC Meeting on [...], Keywords: (File located @ NLMS)",
+      "hasOnlinePdf": false,
+      "markerStatus": "not online",
+      "markerChecks": {}
+    },
+    {
+      "naid": "470761094",
+      "localId": "90013-017",
+      "title": "NSC/DC 107B - February 27, 1990 - NSC/DC Meeting on [...], Keywords: (File located @ LM)",
+      "hasOnlinePdf": false,
+      "markerStatus": "not online",
+      "markerChecks": {}
+    },
+    {
+      "naid": "470761115",
+      "localId": "90014-012",
+      "title": "NSC/DC 123 - May 01, 1990 - NSC/DC Meeting on Jordan, Keywords: Jordan (File located @ LM)",
+      "hasOnlinePdf": false,
+      "markerStatus": "not online",
+      "markerChecks": {}
+    },
+    {
+      "naid": "470761227",
+      "localId": "90017-021",
+      "title": "NSC/DC 224 - November 30, 1990 - NSC/DC Meeting on Intelligence Authorization Bill, Keywords: Intelligence, Authorization Congressional (File located @ LM)",
+      "hasOnlinePdf": false,
+      "markerStatus": "not online",
+      "markerChecks": {}
+    },
+    {
+      "naid": "470761233",
+      "localId": "90018-004",
+      "title": "NSC/DC 230 - December 14, 1990 - [...], Keywords: (File located @ NLMS)",
+      "hasOnlinePdf": false,
+      "markerStatus": "not online",
+      "markerChecks": {}
+    }
+  ],
+  "totalPdfBytes": 3618744472,
+  "pdfSizeMetadataMismatches": [
+    {
+      "naid": "470760990",
+      "catalogPdfBytes": 16852940,
+      "servedPdfBytes": 16852939
+    },
+    {
+      "naid": "470760991",
+      "catalogPdfBytes": 23938100,
+      "servedPdfBytes": 23938099
+    },
+    {
+      "naid": "470761024",
+      "catalogPdfBytes": 33393524,
+      "servedPdfBytes": 33393525
+    },
+    {
+      "naid": "470761046",
+      "catalogPdfBytes": 22012620,
+      "servedPdfBytes": 22012621
+    },
+    {
+      "naid": "470761048",
+      "catalogPdfBytes": 25890068,
+      "servedPdfBytes": 25890067
+    },
+    {
+      "naid": "470761050",
+      "catalogPdfBytes": 37065072,
+      "servedPdfBytes": 37065071
+    },
+    {
+      "naid": "470761052",
+      "catalogPdfBytes": 20919496,
+      "servedPdfBytes": 20919497
+    },
+    {
+      "naid": "470761053",
+      "catalogPdfBytes": 23779616,
+      "servedPdfBytes": 23779615
+    },
+    {
+      "naid": "470761074",
+      "catalogPdfBytes": 18536580,
+      "servedPdfBytes": 18536581
+    },
+    {
+      "naid": "470761076",
+      "catalogPdfBytes": 21711624,
+      "servedPdfBytes": 21711625
+    },
+    {
+      "naid": "470761077",
+      "catalogPdfBytes": 18009408,
+      "servedPdfBytes": 18009409
+    },
+    {
+      "naid": "470761078",
+      "catalogPdfBytes": 19510684,
+      "servedPdfBytes": 19510685
+    },
+    {
+      "naid": "470761080",
+      "catalogPdfBytes": 18742896,
+      "servedPdfBytes": 18742897
+    },
+    {
+      "naid": "470761092",
+      "catalogPdfBytes": 28068072,
+      "servedPdfBytes": 28068073
+    },
+    {
+      "naid": "470761133",
+      "catalogPdfBytes": 30718716,
+      "servedPdfBytes": 30718717
+    },
+    {
+      "naid": "470761212",
+      "catalogPdfBytes": 17153736,
+      "servedPdfBytes": 17153735
+    },
+    {
+      "naid": "470761220",
+      "catalogPdfBytes": 17043108,
+      "servedPdfBytes": 17043107
+    },
+    {
+      "naid": "470761229",
+      "catalogPdfBytes": 17025612,
+      "servedPdfBytes": 17025613
+    },
+    {
+      "naid": "470761295",
+      "catalogPdfBytes": 18604072,
+      "servedPdfBytes": 18604073
+    },
+    {
+      "naid": "470761315",
+      "catalogPdfBytes": 18022848,
+      "servedPdfBytes": 18022849
+    },
+    {
+      "naid": "470761335",
+      "catalogPdfBytes": 30032604,
+      "servedPdfBytes": 30032603
+    },
+    {
+      "naid": "470761339",
+      "catalogPdfBytes": 9621529,
+      "servedPdfBytes": 9482377
+    },
+    {
+      "naid": "470761348",
+      "catalogPdfBytes": 18693884,
+      "servedPdfBytes": 18693885
+    },
+    {
+      "naid": "470761359",
+      "catalogPdfBytes": 20994660,
+      "servedPdfBytes": 20994661
+    },
+    {
+      "naid": "470761360",
+      "catalogPdfBytes": 18963580,
+      "servedPdfBytes": 18963579
+    },
+    {
+      "naid": "470761364",
+      "catalogPdfBytes": 17057944,
+      "servedPdfBytes": 17057943
+    },
+    {
+      "naid": "470761366",
+      "catalogPdfBytes": 30827704,
+      "servedPdfBytes": 30827703
+    },
+    {
+      "naid": "470761386",
+      "catalogPdfBytes": 26474848,
+      "servedPdfBytes": 26474849
+    },
+    {
+      "naid": "470761393",
+      "catalogPdfBytes": 18759808,
+      "servedPdfBytes": 18759807
+    },
+    {
+      "naid": "470761404",
+      "catalogPdfBytes": 18523612,
+      "servedPdfBytes": 18523613
+    },
+    {
+      "naid": "470761409",
+      "catalogPdfBytes": 22735204,
+      "servedPdfBytes": 22735205
+    },
+    {
+      "naid": "470761414",
+      "catalogPdfBytes": 19024832,
+      "servedPdfBytes": 19024831
+    },
+    {
+      "naid": "470761431",
+      "catalogPdfBytes": 19496420,
+      "servedPdfBytes": 19496419
+    }
+  ],
+  "totalOcrCharacters": 27248222,
+  "titleDateFallbackNaids": [
+    "352356448",
+    "352356450",
+    "352220592"
+  ],
+  "duplicateNaids": [],
+  "duplicateLocalIds": []
+}

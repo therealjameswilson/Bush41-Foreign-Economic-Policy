@@ -1803,6 +1803,16 @@ th {
   background: #fff8f7;
 }
 
+.nsc-file-row.marker-verified-with-handwritten-correction {
+  border-left-color: #a66a00;
+  background: #fffaf0;
+}
+
+.nsc-file-row.marker-not-online {
+  border-left-color: #6c7782;
+  background: #f7f8f9;
+}
+
 .nsc-file-date {
   display: grid;
   gap: 6px;
