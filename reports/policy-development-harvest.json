@@ -1,0 +1,95 @@
+{
+  "generatedAt": "2026-09-01T21:02:34.694Z",
+  "collectionNaid": "2163585",
+  "findingAidUrl": "https://www.bush41library.gov/digital-research-room/finding-aid/records-white-house-office-policy-development-george-h-w-bush",
+  "findingAidPdfUrl": "https://www.bush41library.gov/download/file/5911",
+  "expectedDescendants": 3302,
+  "harvestedDescendants": 3302,
+  "seriesCount": 62,
+  "fileUnitCount": 3239,
+  "onlinePdfCount": 98,
+  "reviewFileUnitCount": 396,
+  "chronologyCandidateCount": 69,
+  "markerVerified": 91,
+  "markerExceptions": [
+    {
+      "naid": "285790853",
+      "localId": "07307-006",
+      "title": "Science and Technology [3]",
+      "markerStatus": "not present"
+    },
+    {
+      "naid": "285790855",
+      "localId": "07307-007",
+      "title": "Science and Technology [4]",
+      "markerStatus": "not present"
+    },
+    {
+      "naid": "285790863",
+      "localId": "07668-008",
+      "title": "Bromley Global Change Group [1]",
+      "markerStatus": "not present"
+    },
+    {
+      "naid": "285790865",
+      "localId": "07668-009",
+      "title": "Bromley Global Change Group [2]",
+      "markerStatus": "not present"
+    },
+    {
+      "naid": "285790867",
+      "localId": "07668-010",
+      "title": "Bromley Global Change Group [3]",
+      "markerStatus": "not present"
+    },
+    {
+      "naid": "286185959",
+      "localId": "04017-026",
+      "title": "Department of Justice - Hate Crimes Bill",
+      "markerStatus": "not present"
+    },
+    {
+      "naid": "286185961",
+      "localId": "04712-001",
+      "title": "Abortion - Webster [1]",
+      "markerStatus": "not present"
+    }
+  ],
+  "placeholderSizeCount": 72,
+  "routingCounts": {
+    "Out of scope": 2843,
+    "Volume XXX review": 264,
+    "Selective review": 91,
+    "Boundary review": 41
+  },
+  "reviewSeriesCounts": {
+    "Warren Maruyama Subject Files": 100,
+    "Stephen P. Farrar Trade Files": 88,
+    "Teresa Gorman Subject Files": 46,
+    "Stephen P. Farrar Subject Files": 30,
+    "Roger Porter's Chronological Files": 26,
+    "J. French Hill Files": 15,
+    "Roger Porter Files": 14,
+    "Nancy Maloley Subject Files": 13,
+    "Ed Goldstein Subject Files": 12,
+    "Todd Buchholz' Subject Files": 8,
+    "Stephen P. Farrar Country Files": 7,
+    "Emily Mead Subject Files": 5,
+    "Roger Porter Subject Files": 5,
+    "Tim Adam Subject Files": 5,
+    "Michael Froman Subject Files": 4,
+    "Diana Furchtgott - Roth Subject Files": 3,
+    "Robert Pekkanen Subject Files": 3,
+    "Betsy Anderson Subject Files": 2,
+    "Bradley Mitchell Subject Files": 2,
+    "Charles E. M. Kolb Subject Files": 2,
+    "Michael Klausner Subject Files": 2,
+    "J. French Hill 1990 EPC Meetings Files": 1,
+    "James Pinkerton Chronological Files": 1,
+    "James Pinkerton Files": 1,
+    "John Herrmann Subject Files": 1
+  },
+  "duplicateNaids": [],
+  "duplicateLocalIds": [],
+  "methodology": "Every descendant in the NARA Catalog hierarchy was enumerated. All file-unit titles, series, local identifiers, access status, container identifiers, and online-object metadata were retained in the full ledger. Transparent title rules identify foreign-economic review rows; all online PDFs were separately screened through NARA extracted text for opening-marker fields and high-level document signals. Only candidates with a source-supported working date enter the volume chronology."
+}

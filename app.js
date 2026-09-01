@@ -96,6 +96,7 @@ function populateFilters() {
 function populateNscFilters() {
   if (!activeNscCollection) return;
   const signalOptions = ["high-level", "president", "scowcroft", "conversation", "meeting", "withdrawal"];
+  if (activeNscCollection.fileUnits.some((row) => row.reviewSignals?.memosToPorter)) signalOptions.splice(3, 0, "porter");
   if (activeNscCollection.fileUnits.some((row) => row.economicSignals?.total >= 20)) signalOptions.unshift("economic");
   addOptions(elements.nscChapter, unique(activeNscCollection.fileUnits.map((row) => row.chapter)), "All subject areas");
   addOptions(elements.nscRouting, unique(activeNscCollection.fileUnits.map((row) => row.routing)), "All routing states");
@@ -440,6 +441,7 @@ function markerLabel(status) {
     "verified with catalog ID mismatch": "Marker verified; Catalog ID mismatch retained",
     "verified with record-group exception": "Marker verified; donated-materials exception retained",
     "verified with OCR normalization": "Marker verified; NARA OCR normalization retained",
+    "verified in OCR": "Opening marker text verified in NARA OCR",
     "not online": "No online PDF",
     "not present": "Opening marker not present",
   }[status] || status;
@@ -455,6 +457,7 @@ function signalLabel(signal) {
     "high-level": "Any high-level document signal",
     president: "Memorandum to the President",
     scowcroft: "Memorandum to Scowcroft",
+    porter: "Memorandum to Roger Porter",
     conversation: "Memorandum of conversation",
     meeting: "Minutes or meeting record",
     withdrawal: "Withdrawal sheet",
@@ -587,19 +590,22 @@ function renderNscCollection() {
   elements.nscStatus.textContent = activeNscCollection.statusLabel;
   elements.nscIntro.textContent = activeNscCollection.intro;
   elements.nscMetrics.setAttribute("aria-label", `${activeNscCollection.shortTitle || activeNscCollection.title} collection metrics`);
+  const provenanceMarkerVerified = activeNscCollection.provenanceMarkerVerified ?? activeNscCollection.markerVerified;
+  const provenanceOnlinePdfCount = activeNscCollection.provenanceOnlinePdfCount
+    ?? activeNscCollection.fileUnits.filter((row) => row.pdfUrl).length;
   const metrics = [
     [
-      activeNscCollection.fileUnits.length,
-      "Catalog file units",
-      `${activeNscCollection.seriesCount ? `${activeNscCollection.seriesCount} component series; ` : ""}${activeNscCollection.onlinePdfCount ?? activeNscCollection.fileUnits.filter((row) => row.pdfUrl).length} online PDFs`,
+      activeNscCollection.sourceFileUnitCount || activeNscCollection.fileUnits.length,
+      activeNscCollection.fileUnitMetricLabel || "Catalog file units",
+      activeNscCollection.fileUnitMetricDetail || `${activeNscCollection.seriesCount ? `${activeNscCollection.seriesCount} component series; ` : ""}${activeNscCollection.onlinePdfCount ?? activeNscCollection.fileUnits.filter((row) => row.pdfUrl).length} online PDFs`,
     ],
     [
       activeNscCollection.candidateCount,
       activeNscCollection.candidateLabel,
-      `${activeNscCollection.auditedFolders.length} priority ${plural(activeNscCollection.auditedFolders.length, "folder")} screened`,
+      activeNscCollection.candidateMetricDetail || `${activeNscCollection.auditedFolders.length} priority ${plural(activeNscCollection.auditedFolders.length, "folder")} screened`,
     ],
     [
-      activeNscCollection.markerVerified,
+      provenanceMarkerVerified,
       "Opening markers verified",
       activeNscCollection.markerMetricDetail || `${activeNscCollection.markerCorrectedCount || 0} corrected by hand; ${activeNscCollection.markerMismatchCount || 0} marker/Catalog mismatches; ${activeNscCollection.markerExceptionCount} unavailable or incomplete`,
     ],
@@ -650,7 +656,7 @@ function renderNscCollection() {
     : "No opening-sheet exceptions were found in this online series.";
   elements.nscProvenanceTitle.textContent = activeNscCollection.provenanceTitle;
   elements.nscProvenanceSummary.textContent =
-    `${activeNscCollection.markerVerified} of ${onlineRows.length} online PDFs open with Bush Library provenance naming ${activeNscCollection.markerFieldSummary || "the record group, office, series, subseries, and folder"}. ${exceptionSummary}${activeNscCollection.provenanceQualifier ? ` ${activeNscCollection.provenanceQualifier}` : ""}`;
+    `${provenanceMarkerVerified} of ${provenanceOnlinePdfCount} online PDFs open with Bush Library provenance naming ${activeNscCollection.markerFieldSummary || "the record group, office, series, subseries, and folder"}. ${exceptionSummary}${activeNscCollection.provenanceQualifier ? ` ${activeNscCollection.provenanceQualifier}` : ""}`;
   elements.nscSeriesLink.href = activeNscCollection.catalogUrl;
 
   const candidates = activeNscCollection.candidateIds
@@ -668,7 +674,7 @@ function renderNscCollection() {
   renderNscCandidates(candidates);
 
   elements.nscFileDownload.href = activeNscCollection.fileUnitsCsvUrl;
-  elements.nscFileDownload.textContent = `Download all ${activeNscCollection.fileUnits.length} file units`;
+  elements.nscFileDownload.textContent = activeNscCollection.fileUnitsDownloadLabel || `Download all ${activeNscCollection.fileUnits.length} file units`;
   elements.nscReportLink.href = activeNscCollection.reportUrl;
   elements.nscReportLink.textContent = "Open harvest report";
   filteredNscFileUnits = [...activeNscCollection.fileUnits];
@@ -745,11 +751,12 @@ function fileUnitHasSignal(row, signal) {
   const signals = row.reviewSignals || {};
   if (signal === "economic") return (row.economicSignals?.total || 0) >= 20;
   if (signal === "high-level") {
-    return (signals.memosToPresident || 0) + (signals.memosToScowcroft || 0) + (signals.memorandaOfConversation || 0) + (signals.meetingRecords || 0) > 0;
+    return (signals.memosToPresident || 0) + (signals.memosToScowcroft || 0) + (signals.memosToPorter || 0) + (signals.memorandaOfConversation || 0) + (signals.meetingRecords || 0) > 0;
   }
   return {
     president: signals.memosToPresident || 0,
     scowcroft: signals.memosToScowcroft || 0,
+    porter: signals.memosToPorter || 0,
     conversation: signals.memorandaOfConversation || 0,
     meeting: signals.meetingRecords || 0,
     withdrawal: signals.withdrawalSheets || 0,
@@ -877,6 +884,7 @@ function reviewSignalPairs(row) {
     ["economic-policy hits", row.economicSignals?.total || 0],
     ["memos to President", row.reviewSignals?.memosToPresident || 0],
     ["memos to Scowcroft", row.reviewSignals?.memosToScowcroft || 0],
+    ["memos to Roger Porter", row.reviewSignals?.memosToPorter || 0],
     ["memcon hits", row.reviewSignals?.memorandaOfConversation || 0],
     ["meeting-record hits", row.reviewSignals?.meetingRecords || 0],
     ["withdrawal-sheet hits", row.reviewSignals?.withdrawalSheets || 0],

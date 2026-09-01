@@ -13,9 +13,9 @@ The official volume is currently [Being Researched](https://history.state.gov/hi
 - Direct NARA Catalog/PDF links, a selective Public Papers register, official source map, and compiler gap ledger.
 - CSV and JSON exports.
 
-## NSC staff files
+## Archival collection files
 
-The collection workbench currently includes eleven complete Catalog collections or series:
+The collection workbench currently includes twelve complete Catalog collections or series, plus a selected two-folder Gates audit:
 
 - [National Security Council Institutional Files Transition Files](https://catalog.archives.gov/id/348937136): all 30 file units, all 30 official PDFs, and all 3,612 served-PDF pages. Every opening provenance marker, full OCR transcript, and withdrawal-sheet description was checked. The audit surfaces four deduplicated leads totaling 304 PDF pages: two direct Volume XXX leads and two boundary or compiler-context leads. The ledger preserves source-supported month and season labels instead of inventing day dates, and it records repeated copies of the retained-files memorandum without promoting them as separate candidates.
 - [Brent Scowcroft Papers](https://catalog.archives.gov/id/4522156): all 20 component series, all 676 file units, and all 676 official PDFs in working chronological order. The complete hierarchy, 67.5 million characters of NARA OCR, and every opening provenance marker were screened. The audit surfaces 95 file-level leads: 66 for direct Volume XXX review and 29 for cross-volume adjudication. Served sizes total at least 15.7 GB across 660 PDFs; 16 sizes were unavailable, so no complete page or byte extent is asserted. Duplicate meeting, special-separate, schedule, call-log, and communication-channel copies remain in the ledger without being promoted as separate candidates.
@@ -28,6 +28,8 @@ The collection workbench currently includes eleven complete Catalog collections 
 - [Timothy E. Deal and Mitchell B. Reiss' Economic Summit Files](https://catalog.archives.gov/id/2554819): all 25 file units, all 25 official PDFs, and all 1,683 served-PDF pages in working chronology. The audit surfaces six Core, nine Consider, and ten Boundary leads and extracts 142 withdrawal/redaction sheet descriptions totaling 540 pages. Eight sheets explicitly say a released-in-part copy follows; 134 do not indicate a copy, which is not treated as proof of current nonrelease. Three opening-marker Folder IDs differ from the Catalog paths, and every discrepancy remains explicit. The First Plenary Paris memcon is matched to its released canonical record rather than promoted as a duplicate.
 - [Timothy E. Deal Chronological Files](https://catalog.archives.gov/id/2554807): all 96 monthly file units, all 96 official PDFs, and all 9,093 served-PDF pages in month-level chronology. Every opening marker, the complete NARA OCR corpus, and every individual withdrawal/redaction sheet was checked. The screen surfaces 76 Core and 20 Consider file leads, 708 economic-policy subject lines, and 275 pertinent descriptions among 697 individual sheets covering 2,121 pages. The 813 raw withdrawal headers are explicitly separated into 116 inventory-sheet headers and those 697 individual sheets; none says that a released-in-part copy follows, which is not treated as proof of current nonrelease. Sixty-nine same-title/date groups involving 152 sheet entries and seven cross-collection title matches remain flagged for source-image and controlling-copy comparison. The 3.86 GiB corpus size follows Catalog objectFileSize metadata because live HTTP sizes were measurable for 94 PDFs and unavailable for two.
 - [Timothy E. Deal Subject Files](https://catalog.archives.gov/id/2554810): all 134 file units in working chronological order, plus a document-level chronology for the PDFs audited to date.
+- [White House Office of Policy Development records](https://catalog.archives.gov/id/2163585): all 62 component series and all 3,239 file units are retained in a complete downloadable ledger. A transparent title screen surfaces 396 foreign-economic or cross-volume review rows, and 69 file-unit leads with source-supported dates enter the single volume chronology. NARA supplies 98 online PDFs; extracted text verifies 91 opening file markers and retains seven OCR exceptions. Page 1 of the [Bush Library finding aid](https://www.bush41library.gov/digital-research-room/finding-aid/records-white-house-office-policy-development-george-h-w-bush) controls collection-level provenance. Every chronology entry remains a locator pending document-level source-image review.
+- Robert M. Gates Files, Middle East - Economic Strategy [1] and [2]: a selected two-folder, 250-page audit with 21 document candidates and source-image-checked Source Notes. This is not represented as complete coverage of the Gates series.
 
 Collection tabs keep each series' candidate chronology, provenance accounting, filterable full-series ledger, official links, and CSV exports together. The same interface can accept additional NSC collections without collapsing their archival identities.
 
@@ -55,6 +57,7 @@ npm run harvest:nsc-dc-follow-up
 npm run harvest:nsc-dc-meetings
 npm run harvest:nsc-meetings
 npm run harvest:tim-deal
+npm run harvest:policy-development
 npm run build:data
 npm run check
 ```

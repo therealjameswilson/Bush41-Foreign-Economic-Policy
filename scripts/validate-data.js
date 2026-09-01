@@ -50,6 +50,7 @@ if (chronological.some((record, index) => record.id !== data.records[index].id))
 if (data.meta.status !== "Being Researched") warnings.push(`Unexpected official status: ${data.meta.status}`);
 if (data.publicReferences.length < 5) errors.push("Public reference register is too small for an initial release");
 if (data.gaps.length < 5) errors.push("Compiler gap ledger is too small");
+if (!data.gaps.some((gap) => gap.id === "gap-policy-development-document-audit")) errors.push("Policy Development document-audit gap is missing");
 
 const timDeal = data.nscCollections?.find((collection) => collection.id === "tim-deal");
 if (!timDeal) {
@@ -816,6 +817,134 @@ if (!dealChron) {
   if (sortedCandidates.some((record, index) => record.id !== candidateRecords[index].id)) errors.push("Deal Chronological candidates are not stored in month chronology");
 }
 
+const policyDevelopment = data.nscCollections?.find((collection) => collection.id === "policy-development");
+if (!policyDevelopment) {
+  errors.push("White House Office of Policy Development collection is missing");
+} else {
+  if (data.nscCollections[11]?.id !== "policy-development") {
+    errors.push("Policy Development tab is not immediately before the selected Gates audit");
+  }
+  if (
+    policyDevelopment.naid !== "2163585" ||
+    policyDevelopment.seriesCount !== 62 ||
+    policyDevelopment.sourceFileUnitCount !== 3239 ||
+    policyDevelopment.fileUnits.length !== 396
+  ) {
+    errors.push("Policy Development hierarchy or review-ledger counts changed");
+  }
+  if (
+    policyDevelopment.onlinePdfCount !== 98 ||
+    policyDevelopment.provenanceOnlinePdfCount !== 98 ||
+    policyDevelopment.provenanceMarkerVerified !== 91 ||
+    policyDevelopment.screening?.markerExceptions !== 7 ||
+    policyDevelopment.screening?.placeholderSizeCount !== 72
+  ) {
+    errors.push("Policy Development online-PDF provenance accounting changed");
+  }
+  const policyRoutingCounts = Object.fromEntries(
+    ["Volume XXX review", "Selective review", "Boundary review"].map((routing) => [
+      routing,
+      policyDevelopment.fileUnits.filter((row) => row.routing === routing).length,
+    ]),
+  );
+  if (
+    policyRoutingCounts["Volume XXX review"] !== 264 ||
+    policyRoutingCounts["Selective review"] !== 91 ||
+    policyRoutingCounts["Boundary review"] !== 41
+  ) {
+    errors.push("Policy Development review-routing counts changed");
+  }
+  if (
+    new Set(policyDevelopment.fileUnits.map((row) => row.naid)).size !== 396 ||
+    new Set(policyDevelopment.fileUnits.map((row) => row.localId)).size !== 396
+  ) {
+    errors.push("Policy Development review ledger contains duplicate NAIDs or OA/IDs");
+  }
+  if (policyDevelopment.fileUnits.some((row) => !subjectAreaNames.has(row.chapter))) {
+    errors.push("Policy Development review ledger contains an unknown subject area");
+  }
+  const sortedPolicyUnits = [...policyDevelopment.fileUnits].sort((a, b) =>
+    a.workingStartDate.localeCompare(b.workingStartDate) ||
+    a.seriesTitle.localeCompare(b.seriesTitle) ||
+    a.localId.localeCompare(b.localId));
+  if (sortedPolicyUnits.some((row, index) => row.naid !== policyDevelopment.fileUnits[index].naid)) {
+    errors.push("Policy Development review ledger is not stored in working chronology");
+  }
+  const porterChronological = policyDevelopment.fileUnits.filter((row) => row.seriesTitle === "Roger Porter's Chronological Files");
+  if (
+    porterChronological.length !== 26 ||
+    porterChronological.some((row) => !row.pdfUrl || row.markerStatus !== "verified in OCR")
+  ) {
+    errors.push("Roger Porter chronological-file coverage or provenance state changed");
+  }
+  if (policyDevelopment.candidateCount !== 69 || policyDevelopment.candidateIds.length !== 69) {
+    errors.push("Policy Development chronology candidate count is not 69");
+  }
+  if (policyDevelopment.candidateIds.some((id) => !ids.has(id))) {
+    errors.push("Policy Development candidate ID is missing from the master chronology");
+  }
+  const candidateRecords = policyDevelopment.candidateIds
+    .map((id) => data.records.find((record) => record.id === id))
+    .filter(Boolean);
+  if (candidateRecords.some((record) =>
+    record.collectionId !== "policy-development" ||
+    record.sourceNoteStatus !== "locator" ||
+    record.sourceNote ||
+    !record.archivalLocator?.startsWith("George H.W. Bush Library, Bush Presidential Records, White House Office of Policy Development,") ||
+    !record.sourceNoteBasis?.includes("file-unit locator") && !record.sourceNoteBasis?.includes("archival locator"))) {
+    errors.push("Policy Development file-level lead asserts unsupported document provenance or lacks its collection identity");
+  }
+  if (
+    candidateRecords.filter((record) => record.selection === "Core").length !== 4 ||
+    candidateRecords.filter((record) => record.selection === "Consider").length !== 59 ||
+    candidateRecords.filter((record) => record.selection === "Boundary").length !== 6
+  ) {
+    errors.push("Policy Development Core, Consider, or Boundary candidate counts changed");
+  }
+  if (candidateRecords.some((record) =>
+    !["day", "month", "range", "year"].includes(record.datePrecision) ||
+    record.date < "1989-01-01" ||
+    record.date > "1992-12-31")) {
+    errors.push("Policy Development chronology contains an unsupported or out-of-range working date");
+  }
+  const sortedPolicyCandidates = [...candidateRecords].sort((a, b) =>
+    a.sortDate.localeCompare(b.sortDate) || a.localId.localeCompare(b.localId));
+  if (sortedPolicyCandidates.some((record, index) => record.id !== candidateRecords[index].id)) {
+    errors.push("Policy Development candidates are not stored in working chronology");
+  }
+  const policyReport = JSON.parse(fs.readFileSync(path.join(root, "reports", "policy-development-harvest.json"), "utf8"));
+  if (
+    policyReport.harvestedDescendants !== 3302 ||
+    policyReport.seriesCount !== 62 ||
+    policyReport.fileUnitCount !== 3239 ||
+    policyReport.reviewFileUnitCount !== 396 ||
+    policyReport.chronologyCandidateCount !== 69 ||
+    policyReport.duplicateNaids.length ||
+    policyReport.duplicateLocalIds.length
+  ) {
+    errors.push("Policy Development complete-hierarchy harvest report does not reconcile");
+  }
+  const policyLedgerHeader = fs.readFileSync(path.join(root, "data", "policy-development-full-ledger.csv"), "utf8").split("\n", 1)[0].split(",");
+  const requiredPolicyLedgerFields = [
+    "accessRestrictionNote",
+    "useStatus",
+    "markerOffice",
+    "markerFolderId",
+    "memosToPresident",
+    "memosToScowcroft",
+    "memosToPorter",
+    "memorandaOfConversation",
+    "meetingRecords",
+    "withdrawalSheets",
+    "economicSignalTotal",
+    "economicSubjectLeads",
+    "archivalLocator",
+  ];
+  if (requiredPolicyLedgerFields.some((field) => !policyLedgerHeader.includes(field))) {
+    errors.push("Policy Development full ledger omits required provenance, restriction, or OCR-screening fields");
+  }
+}
+
 const gatesMiddleEast = data.nscCollections?.find((collection) => collection.id === "gates-middle-east");
 if (!gatesMiddleEast) {
   errors.push("Gates Middle East selected-file audit is missing");
@@ -893,7 +1022,7 @@ if (!gatesMiddleEast) {
   }
 }
 
-if (data.nscCollections?.length !== 12) errors.push("NSC collection tab count is not 12");
+if (data.nscCollections?.length !== 13) errors.push("Archival collection tab count is not 13");
 
 const report = {
   checkedAt: new Date().toISOString(),
@@ -914,6 +1043,8 @@ const report = {
   nscDcMeetingFileUnits: nscDcMeetings?.fileUnits.length || 0,
   nscMeetingFileUnits: nscMeetings?.fileUnits.length || 0,
   timDealFileUnits: timDeal?.fileUnits.length || 0,
+  policyDevelopmentReviewFileUnits: policyDevelopment?.fileUnits.length || 0,
+  policyDevelopmentSourceFileUnits: policyDevelopment?.sourceFileUnitCount || 0,
   gatesMiddleEastFileUnits: gatesMiddleEast?.fileUnits.length || 0,
   errors,
   warnings,

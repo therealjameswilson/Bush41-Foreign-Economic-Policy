@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-09-01T07:37:50.897Z",
-  "total": 3782,
-  "ok": 3782,
+  "checkedAt": "2026-09-01T21:06:49.105Z",
+  "total": 4216,
+  "ok": 4216,
   "blocked": 0,
   "failed": 0,
   "blockedResults": [],
@@ -12,6 +12,12 @@
       "ok": true,
       "status": 200,
       "finalUrl": "https://catalog.archives.gov/id/2163561"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/2163585",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/2163585"
     },
     {
       "url": "https://catalog.archives.gov/id/2554807",
@@ -42,6 +48,66 @@
       "ok": true,
       "status": 200,
       "finalUrl": "https://catalog.archives.gov/id/2554843"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/285411043",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/285411043"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/285411045",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/285411045"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/285411047",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/285411047"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/285411049",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/285411049"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/285411051",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/285411051"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/285411053",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/285411053"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/285411055",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/285411055"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/285411057",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/285411057"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/285411059",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/285411059"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/285411061",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/285411061"
     },
     {
       "url": "https://catalog.archives.gov/id/312293887",
@@ -126,6 +192,18 @@
       "ok": true,
       "status": 200,
       "finalUrl": "https://catalog.archives.gov/id/352793404"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/352793411",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/352793411"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/352794417",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/352794417"
     },
     {
       "url": "https://catalog.archives.gov/id/366551660",
@@ -11390,6 +11468,2370 @@
       "finalUrl": "https://catalog.archives.gov/id/492062480"
     },
     {
+      "url": "https://catalog.archives.gov/id/509545306",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545306"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545310",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545310"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545329",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545329"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545334",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545334"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545335",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545335"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545336",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545336"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545337",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545337"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545338",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545338"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545339",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545339"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545340",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545340"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545341",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545341"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545350",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545350"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545351",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545351"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545352",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545352"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545353",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545353"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545457",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545457"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545498",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545498"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545577",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545577"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545765",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545765"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545766",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545766"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545771",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545771"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545772",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545772"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545773",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545773"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545774",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545774"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545775",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545775"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545776",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545776"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545777",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545777"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545778",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545778"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545779",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545779"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545780",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545780"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545781",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545781"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545792",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545792"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545796",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545796"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545809",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545809"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545823",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545823"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545824",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545824"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545835",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545835"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545836",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545836"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545837",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545837"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545838",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545838"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545839",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545839"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545840",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545840"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545910",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545910"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545912",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545912"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545915",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545915"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509545918",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509545918"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546012",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546012"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546018",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546018"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546051",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546051"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546074",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546074"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546080",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546080"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546119",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546119"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546120",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546120"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546127",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546127"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546128",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546128"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546134",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546134"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546414",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546414"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546415",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546415"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546416",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546416"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546417",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546417"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546418",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546418"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546420",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546420"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546520",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546520"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546521",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546521"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546522",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546522"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546523",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546523"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546641",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546641"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546642",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546642"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546643",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546643"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546644",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546644"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546645",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546645"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546646",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546646"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546647",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546647"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546648",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546648"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546649",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546649"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546650",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546650"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546651",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546651"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546652",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546652"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546653",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546653"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546654",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546654"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546655",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546655"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546656",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546656"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546657",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546657"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546658",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546658"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546659",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546659"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546660",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546660"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546661",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546661"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546662",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546662"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546663",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546663"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546664",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546664"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546665",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546665"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546666",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546666"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546667",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546667"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546668",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546668"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546669",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546669"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546670",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546670"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546671",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546671"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546672",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546672"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546673",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546673"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546674",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546674"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546675",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546675"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546676",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546676"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546677",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546677"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546678",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546678"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546679",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546679"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546680",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546680"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546681",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546681"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546682",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546682"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546683",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546683"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546684",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546684"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546685",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546685"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546686",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546686"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546687",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546687"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546688",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546688"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546689",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546689"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546690",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546690"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546691",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546691"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546692",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546692"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546693",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546693"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546694",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546694"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546695",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546695"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546711",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546711"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546712",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546712"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546713",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546713"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546773",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546773"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546774",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546774"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546804",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546804"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546836",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546836"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546839",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546839"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546840",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546840"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546841",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546841"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546842",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546842"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546843",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546843"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546844",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546844"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546845",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546845"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546846",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546846"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546847",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546847"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546848",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546848"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546849",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546849"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546850",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546850"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546851",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546851"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546853",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546853"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546854",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546854"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546855",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546855"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546856",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546856"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546857",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546857"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546858",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546858"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546859",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546859"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546860",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546860"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546861",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546861"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546862",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546862"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546863",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546863"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546864",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546864"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546865",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546865"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546866",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546866"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546867",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546867"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546868",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546868"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546869",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546869"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546870",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546870"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546871",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546871"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546872",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546872"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546873",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546873"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546895",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546895"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546896",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546896"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546897",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546897"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546898",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546898"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546899",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546899"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546900",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546900"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546901",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546901"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546902",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546902"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546903",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546903"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509546904",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509546904"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509547075",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509547075"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509547417",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509547417"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509547426",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509547426"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509547431",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509547431"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509547432",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509547432"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509547437",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509547437"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509547438",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509547438"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509547439",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509547439"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509547516",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509547516"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509547568",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509547568"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509547586",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509547586"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509547851",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509547851"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509547864",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509547864"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509547866",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509547866"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509547877",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509547877"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509547881",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509547881"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509547888",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509547888"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509547894",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509547894"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509547904",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509547904"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509547906",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509547906"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509547913",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509547913"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509547915",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509547915"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509547921",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509547921"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548056",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548056"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548120",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548120"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548121",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548121"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548122",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548122"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548123",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548123"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548124",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548124"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548125",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548125"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548126",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548126"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548127",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548127"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548128",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548128"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548129",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548129"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548130",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548130"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548131",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548131"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548132",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548132"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548133",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548133"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548134",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548134"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548135",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548135"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548136",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548136"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548137",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548137"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548138",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548138"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548139",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548139"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548140",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548140"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548141",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548141"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548142",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548142"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548143",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548143"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548144",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548144"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548145",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548145"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548146",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548146"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548147",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548147"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548148",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548148"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548149",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548149"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548150",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548150"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548151",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548151"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548152",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548152"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548153",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548153"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548154",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548154"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548155",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548155"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548156",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548156"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548157",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548157"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548158",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548158"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548159",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548159"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548160",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548160"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548161",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548161"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548162",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548162"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548163",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548163"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548164",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548164"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548165",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548165"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548166",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548166"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548167",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548167"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548168",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548168"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548169",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548169"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548170",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548170"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548171",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548171"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548172",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548172"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548173",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548173"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548174",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548174"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548175",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548175"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548176",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548176"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548177",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548177"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548178",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548178"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548179",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548179"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548180",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548180"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548181",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548181"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548182",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548182"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548183",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548183"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548184",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548184"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548185",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548185"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548186",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548186"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548187",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548187"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548188",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548188"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548189",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548189"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548190",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548190"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548191",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548191"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548192",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548192"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548193",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548193"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548194",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548194"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548195",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548195"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548196",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548196"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548197",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548197"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548198",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548198"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548199",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548199"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548200",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548200"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548201",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548201"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548202",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548202"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548203",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548203"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548204",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548204"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548205",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548205"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548206",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548206"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548207",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548207"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548208",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548208"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548209",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548209"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548210",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548210"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548211",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548211"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548212",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548212"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548213",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548213"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548214",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548214"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548215",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548215"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548216",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548216"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548217",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548217"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548218",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548218"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548219",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548219"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548220",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548220"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548221",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548221"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548222",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548222"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548223",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548223"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548224",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548224"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548225",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548225"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548226",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548226"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548227",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548227"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548228",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548228"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548229",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548229"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548230",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548230"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548231",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548231"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548232",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548232"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548233",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548233"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548234",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548234"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548235",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548235"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548236",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548236"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548237",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548237"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548238",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548238"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548239",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548239"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548240",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548240"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548241",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548241"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548242",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548242"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548243",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548243"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548244",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548244"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548245",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548245"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548246",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548246"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548247",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548247"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548248",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548248"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548249",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548249"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548250",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548250"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548251",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548251"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548252",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548252"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548253",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548253"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548254",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548254"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548255",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548255"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548256",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548256"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548257",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548257"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548258",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548258"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548259",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548259"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548260",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548260"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548261",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548261"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548262",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548262"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548263",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548263"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548264",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548264"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548265",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548265"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548266",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548266"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548267",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548267"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548268",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548268"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548269",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548269"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548270",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548270"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548271",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548271"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548272",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548272"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548273",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548273"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548274",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548274"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548275",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548275"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548276",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548276"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548277",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548277"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548278",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548278"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548279",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548279"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548280",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548280"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/509548281",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/509548281"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/653628639",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/653628639"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/653628641",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/653628641"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/653628643",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/653628643"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/653628645",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/653628645"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/653628647",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/653628647"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/653628649",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/653628649"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/653628651",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/653628651"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/653628653",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/653628653"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/653628655",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/653628655"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/653628657",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/653628657"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/653628659",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/653628659"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/653628661",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/653628661"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/653628663",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/653628663"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/653628665",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/653628665"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/653628667",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/653628667"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/653628669",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/653628669"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/653628671",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/653628671"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/653628673",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/653628673"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/653628675",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/653628675"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/653628677",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/653628677"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/653628679",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/653628679"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/653628681",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/653628681"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/653628683",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/653628683"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/653628685",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/653628685"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/653628687",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/653628687"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/653628689",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/653628689"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/foia/2017/41-bpr-poldev-furchtgott-roth-06778-013.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/foia/2017/41-bpr-poldev-furchtgott-roth-06778-013.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/foia/2017/41-bpr-poldev-goldstein-06681-010.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/foia/2017/41-bpr-poldev-goldstein-06681-010.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/foia/2017/41-bpr-poldev-goldstein-06681-011.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/foia/2017/41-bpr-poldev-goldstein-06681-011.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/foia/2017/41-bpr-poldev-goldstein-06682-006.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/foia/2017/41-bpr-poldev-goldstein-06682-006.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/foia/2017/41-bpr-poldev-goldstein-06682-007.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/foia/2017/41-bpr-poldev-goldstein-06682-007.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/foia/2017/41-bpr-poldev-goldstein-06682-021.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/foia/2017/41-bpr-poldev-goldstein-06682-021.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/foia/2017/41-bpr-poldev-goldstein-06683-004.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/foia/2017/41-bpr-poldev-goldstein-06683-004.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/foia/2017/41-bpr-poldev-goldstein-06683-017.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/foia/2017/41-bpr-poldev-goldstein-06683-017.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/foia/2017/41-bpr-poldev-mead-23371-001.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/foia/2017/41-bpr-poldev-mead-23371-001.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/foia/2017/41-bpr-poldev-mead-23392-005.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/foia/2017/41-bpr-poldev-mead-23392-005.pdf"
+    },
+    {
       "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-cea/boskin/nsc_mtg_473987122/41-bpr-cea-boskin_nsc_meetng-01113-004.pdf",
       "ok": true,
       "status": 200,
@@ -22598,6 +25040,162 @@
       "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSRs_313189297/41-bpr-nsc-hfiles-nsr-9-90006-012.pdf"
     },
     {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-03861-001.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-03861-001.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-03861-002.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-03861-002.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-03861-003.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-03861-003.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-03861-004.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-03861-004.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-001.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-001.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-002.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-002.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-003.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-003.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-004.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-004.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-005.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-005.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-006.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-006.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-007.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-007.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-008.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-008.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-009.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-009.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-010.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-010.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-011.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-011.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-012.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-012.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-013.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-013.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-014.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-014.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-015.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-015.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-016.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-016.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-017.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-017.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-018.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-018.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-019.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-019.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-020.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-020.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-021.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-021.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-022.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-pod/porter/chron_633663627/41-bpr-poldev-porter-chron-05841-022.pdf"
+    },
+    {
       "url": "https://history.state.gov/historicaldocuments/frus1989-92v30",
       "ok": true,
       "status": 200,
@@ -22692,6 +25290,12 @@
       "ok": true,
       "status": 200,
       "finalUrl": "https://www.bush41library.gov/digital-research-room/finding-aid/records-national-security-council-george-h-w-bush-administration"
+    },
+    {
+      "url": "https://www.bush41library.gov/digital-research-room/finding-aid/records-white-house-office-policy-development-george-h-w-bush",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.bush41library.gov/digital-research-room/finding-aid/records-white-house-office-policy-development-george-h-w-bush"
     },
     {
       "url": "https://www.govinfo.gov/app/collection/ppp/president-41_Bush,%20George%20H.%20W.",

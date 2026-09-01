@@ -29,6 +29,8 @@ const dealReissCandidatesPath = path.join(root, "data", "deal-reiss-candidates.j
 const dealReissFileUnitsPath = path.join(root, "data", "deal-reiss-file-units.json");
 const dealChronCandidatesPath = path.join(root, "data", "deal-chron-candidates.json");
 const dealChronFileUnitsPath = path.join(root, "data", "deal-chron-file-units.json");
+const policyDevelopmentCandidatesPath = path.join(root, "data", "policy-development-candidates.json");
+const policyDevelopmentFileUnitsPath = path.join(root, "data", "policy-development-file-units.json");
 const gatesMiddleEastAudit = require("./gates-middle-east-file-audit");
 const gatesMiddleEastAudit2 = require("./gates-middle-east-file-2-audit");
 
@@ -57,7 +59,9 @@ if (
   !fs.existsSync(dealReissCandidatesPath) ||
   !fs.existsSync(dealReissFileUnitsPath) ||
   !fs.existsSync(dealChronCandidatesPath) ||
-  !fs.existsSync(dealChronFileUnitsPath)
+  !fs.existsSync(dealChronFileUnitsPath) ||
+  !fs.existsSync(policyDevelopmentCandidatesPath) ||
+  !fs.existsSync(policyDevelopmentFileUnitsPath)
 ) {
   throw new Error("Missing NSC candidate or file-unit source data");
 }
@@ -85,6 +89,8 @@ const dealReissCandidates = JSON.parse(fs.readFileSync(dealReissCandidatesPath, 
 const dealReissFileUnits = JSON.parse(fs.readFileSync(dealReissFileUnitsPath, "utf8"));
 const dealChronCandidates = JSON.parse(fs.readFileSync(dealChronCandidatesPath, "utf8"));
 const dealChronFileUnits = JSON.parse(fs.readFileSync(dealChronFileUnitsPath, "utf8"));
+const policyDevelopmentCandidates = JSON.parse(fs.readFileSync(policyDevelopmentCandidatesPath, "utf8"));
+const policyDevelopmentFileUnits = JSON.parse(fs.readFileSync(policyDevelopmentFileUnitsPath, "utf8"));
 
 const meta = {
   id: "frus1989-92v30",
@@ -732,6 +738,12 @@ const sourceCollections = [
     url: "https://www.bush41library.gov/digital-research-room/finding-aid/records-national-security-council-george-h-w-bush-administration",
   },
   {
+    name: "White House Office of Policy Development records",
+    owner: "George H.W. Bush Presidential Library",
+    role: "Complete 62-series, 3,239-file-unit hierarchy screen for trade, international economic policy, economic summits, transition economies, controls, and cross-volume leads",
+    url: "https://www.bush41library.gov/digital-research-room/finding-aid/records-white-house-office-policy-development-george-h-w-bush",
+  },
+  {
     name: "Brent Scowcroft Papers",
     owner: "National Archives Catalog",
     role: "Complete 20-series, 676-file collection audit for presidential correspondence, conversations, chronological files, meeting copies, and foreign-economic-policy leads",
@@ -895,6 +907,13 @@ const gaps = [
     title: "Most online file units still lack document-boundary audits",
     scope: "Online NARA PDFs",
     action: "Audit the 95 Scowcroft, 4 IF Transition, 33 NSD, 21 NSR, 79 NSC/Deputies Committee, 29 DC follow-up, 35 NSC Meetings, 17 Deal Summit Briefing Books, 25 Deal-Reiss Economic Summit, and 96 Deal Chronological leads document by document, then continue the Tim Deal Subject Files workflow across the remaining 131 file units and the Gates Subject Files beyond the completed CF00946-002 and CF00946-003 audits: split documents, verify markings, deduplicate companion and parallel copies, and retain exact withdrawal extents.",
+  },
+  {
+    id: "gap-policy-development-document-audit",
+    priority: "High",
+    title: "Policy Development leads remain file-unit locators",
+    scope: "White House Office of Policy Development",
+    action: "Split and check the documents in the 29 online dated leads, arrange on-site review for 40 dated Catalog-only leads, and retain the other 327 undated review rows in the collection queue without assigning inferred dates. Formulate a Source Note only after the selected document's heading, dateline, extent, terminal markings, release state, and controlling copy have been checked in the source images.",
   },
   {
     id: "gap-gates-subject-files",
@@ -1391,6 +1410,57 @@ const dealChronDocumentRecords = dealChronCandidates.documents.map((candidate) =
   };
 }).sort((a, b) => a.sortDate.localeCompare(b.sortDate) || a.localId.localeCompare(b.localId));
 
+const policyDevelopmentUnitByNaid = new Map(
+  policyDevelopmentFileUnits.fileUnits.map((fileUnit) => [fileUnit.naid, fileUnit]),
+);
+const policyDevelopmentDocumentRecords = policyDevelopmentCandidates.documents.map((candidate) => {
+  const fileUnit = policyDevelopmentUnitByNaid.get(candidate.naid);
+  if (!fileUnit) {
+    throw new Error(`Policy Development candidate ${candidate.naid} is missing from the review file-unit ledger`);
+  }
+  const title = fileUnit.title;
+  const online = Boolean(fileUnit.pdfUrl);
+  const markerVerifiedInOcr = fileUnit.markerStatus === "verified in OCR";
+  return {
+    id: `policy-development-${candidate.naid}`,
+    date: candidate.date,
+    sortDate: candidate.sortDate || candidate.date,
+    datePrecision: candidate.datePrecision,
+    displayDateLabel: candidate.displayDateLabel,
+    title,
+    heading: `White House Office of Policy Development File: ${title}`,
+    dateline: candidate.displayDateLabel || formatDateline(candidate.date),
+    type: "White House Office of Policy Development file",
+    chapter: candidate.chapter,
+    selection: candidate.selection,
+    releaseStatus: online
+      ? "Online file unit; document boundaries not yet split"
+      : "Catalog file unit; on-site document review required",
+    pageCount: null,
+    extentLabel: online
+      ? "Online PDF; page extent and document boundaries not yet verified"
+      : "On-site file unit; document and page extents not established",
+    classification: "Not determined at document level",
+    naid: candidate.naid,
+    localId: fileUnit.localId.replace(/-(?=\d{3}$)/, "–"),
+    catalogUrl: fileUnit.catalogUrl,
+    pdfUrl: fileUnit.pdfUrl,
+    sourceNoteStatus: "locator",
+    sourceNoteBasis: online
+      ? `Collection provenance checked on page 1 of the Bush Library finding aid; ${markerVerifiedInOcr ? "opening file-marker text checked in NARA OCR" : "the online file lacks a complete OCR-readable opening marker"}. This remains a file-unit locator pending document identity, heading, dateline, extent, release state, terminal markings, and controlling-copy review in the source images.`
+      : "Collection provenance checked on page 1 of the Bush Library finding aid and the file-unit hierarchy checked in the NARA Catalog. No online PDF is available; this remains an archival locator pending on-site document review.",
+    sourceNote: undefined,
+    archivalLocator: fileUnit.archivalLocator,
+    topics: candidate.topics,
+    notes: `${candidate.notes} Access status in the Catalog: ${fileUnit.accessStatus}.`,
+    seriesTitle: fileUnit.seriesTitle,
+    collectionId: "policy-development",
+    provenanceMethod: online
+      ? "Bush Library finding aid, NARA Catalog hierarchy, and opening-marker OCR"
+      : "Bush Library finding aid and NARA Catalog hierarchy",
+  };
+}).sort((a, b) => a.sortDate.localeCompare(b.sortDate) || a.localId.localeCompare(b.localId));
+
 const supersededLeadIds = new Set(
   [
     ...nscMeetingsDocumentRecords,
@@ -1417,6 +1487,7 @@ const allRecords = [
   ...dealSummitDocumentRecords,
   ...dealReissDocumentRecords,
   ...dealChronDocumentRecords,
+  ...policyDevelopmentDocumentRecords,
   ...gatesMiddleEastDocumentRecords,
   ...remainingLeadRecords,
 ]
@@ -1661,6 +1732,41 @@ const data = {
       candidateCsvUrl: "data/tim-deal-candidates.csv",
       fileUnitsCsvUrl: "data/tim-deal-file-units.csv",
       reportUrl: "reports/tim-deal-harvest.json",
+    },
+    {
+      id: "policy-development",
+      ...policyDevelopmentFileUnits.collection,
+      shortTitle: "Policy Development",
+      statusLabel: "Complete White House Office of Policy Development hierarchy screen",
+      intro:
+        `${policyDevelopmentFileUnits.screening.reviewFileUnits} of 3,239 file units across all 62 component series are surfaced for foreign-economic or cross-volume review after a complete Catalog hierarchy and title screen. The downloadable full ledger retains all 3,239 file units, including 2,843 titles screened outside the present scope. NARA supplies 98 online PDFs; their extracted text was checked separately for opening-marker fields and high-level document signals.`,
+      provenanceTitle: "Bush Library finding aid and opening file markers",
+      markerFieldSummary: "the Bush Presidential Records, White House Office of Policy Development, series or subseries, and folder ID",
+      markerMetricDetail: `${policyDevelopmentFileUnits.screening.markerVerified} of 98 source-hierarchy online markers verified in NARA extracted text; 7 OCR exceptions retained`,
+      provenanceMarkerVerified: policyDevelopmentFileUnits.screening.markerVerified,
+      provenanceOnlinePdfCount: policyDevelopmentFileUnits.screening.onlinePdfCount,
+      screening: policyDevelopmentFileUnits.screening,
+      totalPdfBytes: policyDevelopmentFileUnits.collection.sourceTotalPdfBytes,
+      corpusSizeNote: "Catalog object sizes include 72 known placeholder values; no complete byte or page total is asserted",
+      provenanceQualifier:
+        "Page 1 of the downloadable Bush Library finding aid supplies the collection title, collection identifier GB-POD, NAID 2163585, inclusive dates, and partial-online status. File-level locators preserve the NARA series title and OA/ID. OCR-readable opening markers are supporting evidence, not substitutes for source-image review of a selected document.",
+      candidateLabel: "Dated Policy Development files for review",
+      candidateTitle: "Policy Development File Chronology",
+      candidateSummary:
+        `${policyDevelopmentDocumentRecords.length} date-supported file-unit leads are integrated into the single volume chronology. Undated foreign-economic folders remain searchable in this collection ledger and are not assigned invented dates. Every entry remains an archival locator until a compiler selects and checks an individual document in the source images.`,
+      candidateMetricDetail: "3,239 file units title-screened; 98 online PDFs OCR-screened",
+      fileUnitMetricLabel: "Finding-aid file units",
+      fileUnitMetricDetail: `${policyDevelopmentFileUnits.fileUnits.length} foreign-economic review rows shown; complete 3,239-row ledger available below`,
+      fileUnitsDownloadLabel: "Download complete 3,239-file-unit ledger",
+      auditScope: policyDevelopmentCandidates.auditScope,
+      auditedFolders: policyDevelopmentCandidates.auditedFolders,
+      candidateCount: policyDevelopmentDocumentRecords.length,
+      candidateIds: policyDevelopmentDocumentRecords.map((record) => record.id),
+      fileUnits: policyDevelopmentFileUnits.fileUnits,
+      candidateMethodology: policyDevelopmentCandidates.methodology,
+      candidateCsvUrl: "data/policy-development-candidates.csv",
+      fileUnitsCsvUrl: "data/policy-development-full-ledger.csv",
+      reportUrl: "reports/policy-development-harvest.json",
     },
     {
       id: "gates-middle-east",
@@ -2491,6 +2597,34 @@ fs.writeFileSync(path.join(dataDir, "tim-deal-file-units.csv"), toCsv(timDealFil
   "catalogUrl",
   "pdfUrl",
 ]));
+fs.writeFileSync(path.join(dataDir, "policy-development-candidates.csv"), toCsv(policyDevelopmentDocumentRecords.map((record) => ({
+  ...record,
+  subjectArea: record.chapter,
+})), [
+  "id",
+  "date",
+  "displayDateLabel",
+  "datePrecision",
+  "title",
+  "seriesTitle",
+  "heading",
+  "dateline",
+  "type",
+  "subjectArea",
+  "selection",
+  "releaseStatus",
+  "extentLabel",
+  "classification",
+  "naid",
+  "localId",
+  "sourceNoteStatus",
+  "sourceNoteBasis",
+  "archivalLocator",
+  "topics",
+  "notes",
+  "catalogUrl",
+  "pdfUrl",
+]));
 
 fs.writeFileSync(path.join(dataDir, "gates-middle-east-candidates.csv"), toCsv(gatesMiddleEastDocumentRecords, [
   "id",
@@ -2572,7 +2706,7 @@ fs.writeFileSync(path.join(dataDir, "gates-middle-east-file-units.csv"), toCsv(g
 ]));
 
 console.log(
-  `Built ${allRecords.length} candidate records, ${scowcroftFileUnits.fileUnits.length} Scowcroft file units, ${dealSummitFileUnits.fileUnits.length} Deal Summit file units, ${dealReissFileUnits.fileUnits.length} Deal-Reiss file units, ${dealChronFileUnits.fileUnits.length} Deal Chronological file units, ${ifTransitionFileUnits.fileUnits.length} IF Transition file units, ${nsdFileUnits.fileUnits.length} NSD file units, ${nsrFileUnits.fileUnits.length} NSR file units, ${nscDcFollowUpFileUnits.fileUnits.length} NSC/DC follow-up file units, ${nscDcMeetingsFileUnits.fileUnits.length} NSC/DC file units, ${nscMeetingsFileUnits.fileUnits.length} NSC Meeting file units, ${timDealFileUnits.fileUnits.length} Tim Deal file units, ${gatesMiddleEastDocumentRecords.length} Gates Middle East document candidates, ${publicReferences.length} public references, and ${gaps.length} gap entries.`,
+  `Built ${allRecords.length} candidate records, ${scowcroftFileUnits.fileUnits.length} Scowcroft file units, ${dealSummitFileUnits.fileUnits.length} Deal Summit file units, ${dealReissFileUnits.fileUnits.length} Deal-Reiss file units, ${dealChronFileUnits.fileUnits.length} Deal Chronological file units, ${ifTransitionFileUnits.fileUnits.length} IF Transition file units, ${nsdFileUnits.fileUnits.length} NSD file units, ${nsrFileUnits.fileUnits.length} NSR file units, ${nscDcFollowUpFileUnits.fileUnits.length} NSC/DC follow-up file units, ${nscDcMeetingsFileUnits.fileUnits.length} NSC/DC file units, ${nscMeetingsFileUnits.fileUnits.length} NSC Meeting file units, ${timDealFileUnits.fileUnits.length} Tim Deal file units, ${policyDevelopmentDocumentRecords.length} Policy Development chronology candidates, ${gatesMiddleEastDocumentRecords.length} Gates Middle East document candidates, ${publicReferences.length} public references, and ${gaps.length} gap entries.`,
 );
 
 function toCsv(rows, fields) {

@@ -1,0 +1,1117 @@
+{
+  "auditScope": "Complete hierarchy screen of 62 series and 3239 file units",
+  "auditedFolders": [
+    "06778-013",
+    "06681-010",
+    "06681-011",
+    "06682-006",
+    "06682-007",
+    "06682-021",
+    "06683-004",
+    "06683-017",
+    "23371-001",
+    "23392-005",
+    "06873-022",
+    "07429-007",
+    "07429-008",
+    "07430-001",
+    "07307-004",
+    "07307-005",
+    "07307-006",
+    "07307-007",
+    "06672-009",
+    "06672-016",
+    "06673-005",
+    "07668-008",
+    "07668-009",
+    "07668-010",
+    "06830-018",
+    "06830-019",
+    "06834-004",
+    "06834-007",
+    "05628-007",
+    "05628-008",
+    "05630-005",
+    "23351-055",
+    "23383-003",
+    "05807-055",
+    "08852-043",
+    "07346-021",
+    "06981-005",
+    "07306-015",
+    "08597-011",
+    "08597-012",
+    "04017-026",
+    "04712-001",
+    "04712-009",
+    "04712-010",
+    "04712-011",
+    "06968-019",
+    "06969-005",
+    "06969-006",
+    "06970-004",
+    "06970-008",
+    "06971-011",
+    "06971-014",
+    "08187-015",
+    "08195-023",
+    "08195-024",
+    "08799-009",
+    "08799-010",
+    "08799-011",
+    "08799-013",
+    "08799-014",
+    "08799-018",
+    "04153-002",
+    "08160-016",
+    "08161-045",
+    "23351-024",
+    "23376-005",
+    "05808-012",
+    "04944-012",
+    "04951-056",
+    "08855-048",
+    "08861-058",
+    "04150-008",
+    "03861-001",
+    "03861-002",
+    "03861-003",
+    "03861-004",
+    "05841-001",
+    "05841-002",
+    "05841-003",
+    "05841-004",
+    "05841-005",
+    "05841-006",
+    "05841-007",
+    "05841-008",
+    "05841-009",
+    "05841-010",
+    "05841-011",
+    "05841-012",
+    "05841-013",
+    "05841-014",
+    "05841-015",
+    "05841-016",
+    "05841-017",
+    "05841-018",
+    "05841-019",
+    "05841-020",
+    "05841-021",
+    "05841-022"
+  ],
+  "methodology": "Chronology candidates require direct, selective, or boundary relevance plus a Catalog or title-supported date between 1989 and 1992. Folder-level candidates remain archival locators until a document is selected and its heading, dateline, extent, release state, terminal markings, and controlling copy are checked in the source images.",
+  "documents": [
+    {
+      "naid": "653628647",
+      "date": "1989-01-01",
+      "sortDate": "1989-01-01",
+      "datePrecision": "range",
+      "displayDateLabel": "January-February 1989",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Roger Porter's Chronological Files"
+      ],
+      "notes": "Finding-aid lead retained because of online Roger Porter chronological file requiring document-level screening. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509548133",
+      "date": "1989-01-01",
+      "sortDate": "1989-01-01",
+      "datePrecision": "range",
+      "displayDateLabel": "January 1, 1989-December 31, 1989",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Stephen P. Farrar Trade Files",
+        "Trade policy"
+      ],
+      "notes": "Finding-aid lead retained because of functional trade or international-economic series, foreign-economic title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509546686",
+      "date": "1989-01-01",
+      "sortDate": "1989-01-01",
+      "datePrecision": "range",
+      "displayDateLabel": "January 1, 1989-December 31, 1989",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Core",
+      "topics": [
+        "White House Office of Policy Development",
+        "Warren Maruyama Subject Files"
+      ],
+      "notes": "Finding-aid lead retained because of functional trade or international-economic series, foreign-economic title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "653628649",
+      "date": "1989-03-01",
+      "sortDate": "1989-03-01",
+      "datePrecision": "month",
+      "displayDateLabel": "March 1989",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Roger Porter's Chronological Files"
+      ],
+      "notes": "Finding-aid lead retained because of online Roger Porter chronological file requiring document-level screening. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "653628651",
+      "date": "1989-04-01",
+      "sortDate": "1989-04-01",
+      "datePrecision": "month",
+      "displayDateLabel": "April 1989",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Roger Porter's Chronological Files"
+      ],
+      "notes": "Finding-aid lead retained because of online Roger Porter chronological file requiring document-level screening. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "653628653",
+      "date": "1989-05-01",
+      "sortDate": "1989-05-01",
+      "datePrecision": "range",
+      "displayDateLabel": "May-June 1989",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Roger Porter's Chronological Files"
+      ],
+      "notes": "Finding-aid lead retained because of online Roger Porter chronological file requiring document-level screening. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "285411053",
+      "date": "1989-07-01",
+      "sortDate": "1989-07-01",
+      "datePrecision": "month",
+      "displayDateLabel": "July 1989",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Ed Goldstein Subject Files"
+      ],
+      "notes": "Finding-aid lead retained because of global climate or summit-environment title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "653628655",
+      "date": "1989-07-01",
+      "sortDate": "1989-07-01",
+      "datePrecision": "month",
+      "displayDateLabel": "July 1989",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Roger Porter's Chronological Files"
+      ],
+      "notes": "Finding-aid lead retained because of online Roger Porter chronological file requiring document-level screening. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "653628657",
+      "date": "1989-08-01",
+      "sortDate": "1989-08-01",
+      "datePrecision": "month",
+      "displayDateLabel": "August 1989",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Roger Porter's Chronological Files"
+      ],
+      "notes": "Finding-aid lead retained because of online Roger Porter chronological file requiring document-level screening. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "653628659",
+      "date": "1989-09-01",
+      "sortDate": "1989-09-01",
+      "datePrecision": "month",
+      "displayDateLabel": "September 1989",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Roger Porter's Chronological Files"
+      ],
+      "notes": "Finding-aid lead retained because of online Roger Porter chronological file requiring document-level screening. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "653628661",
+      "date": "1989-10-01",
+      "sortDate": "1989-10-01",
+      "datePrecision": "month",
+      "displayDateLabel": "October 1989",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Roger Porter's Chronological Files"
+      ],
+      "notes": "Finding-aid lead retained because of online Roger Porter chronological file requiring document-level screening. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509545336",
+      "date": "1989-10-20",
+      "sortDate": "1989-10-20",
+      "datePrecision": "day",
+      "displayDateLabel": "October 20, 1989",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Nancy Maloley Subject Files",
+        "Global environment"
+      ],
+      "notes": "Finding-aid lead retained because of global climate or summit-environment title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "653628663",
+      "date": "1989-11-01",
+      "sortDate": "1989-11-01",
+      "datePrecision": "month",
+      "displayDateLabel": "November 1989",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Roger Porter's Chronological Files"
+      ],
+      "notes": "Finding-aid lead retained because of online Roger Porter chronological file requiring document-level screening. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509545457",
+      "date": "1989-11-28",
+      "sortDate": "1989-11-28",
+      "datePrecision": "day",
+      "displayDateLabel": "November 28, 1989",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Core",
+      "topics": [
+        "White House Office of Policy Development",
+        "J. French Hill 1990 EPC Meetings Files"
+      ],
+      "notes": "Finding-aid lead retained because of foreign-economic title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "285411055",
+      "date": "1989-12-01",
+      "sortDate": "1989-12-01",
+      "datePrecision": "month",
+      "displayDateLabel": "December 1989",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Ed Goldstein Subject Files",
+        "Global environment"
+      ],
+      "notes": "Finding-aid lead retained because of global climate or summit-environment title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "653628665",
+      "date": "1989-12-01",
+      "sortDate": "1989-12-01",
+      "datePrecision": "month",
+      "displayDateLabel": "December 1989",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Roger Porter's Chronological Files"
+      ],
+      "notes": "Finding-aid lead retained because of online Roger Porter chronological file requiring document-level screening. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "653628667",
+      "date": "1990-01-01",
+      "sortDate": "1990-01-01",
+      "datePrecision": "month",
+      "displayDateLabel": "January 1990",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Roger Porter's Chronological Files"
+      ],
+      "notes": "Finding-aid lead retained because of online Roger Porter chronological file requiring document-level screening. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509548134",
+      "date": "1990-01-01",
+      "sortDate": "1990-01-01",
+      "datePrecision": "range",
+      "displayDateLabel": "January 1, 1990-December 31, 1990",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Stephen P. Farrar Trade Files",
+        "Trade policy"
+      ],
+      "notes": "Finding-aid lead retained because of functional trade or international-economic series, foreign-economic title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "653628669",
+      "date": "1990-02-01",
+      "sortDate": "1990-02-01",
+      "datePrecision": "month",
+      "displayDateLabel": "February 1990",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Roger Porter's Chronological Files"
+      ],
+      "notes": "Finding-aid lead retained because of online Roger Porter chronological file requiring document-level screening. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509545498",
+      "date": "1990-02-05",
+      "sortDate": "1990-02-05",
+      "datePrecision": "day",
+      "displayDateLabel": "February 5, 1990",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "James Pinkerton Chronological Files",
+        "Global environment"
+      ],
+      "notes": "Finding-aid lead retained because of global climate or summit-environment title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "653628671",
+      "date": "1990-03-01",
+      "sortDate": "1990-03-01",
+      "datePrecision": "month",
+      "displayDateLabel": "March 1990",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Roger Porter's Chronological Files"
+      ],
+      "notes": "Finding-aid lead retained because of online Roger Porter chronological file requiring document-level screening. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "653628673",
+      "date": "1990-04-01",
+      "sortDate": "1990-04-01",
+      "datePrecision": "month",
+      "displayDateLabel": "April 1990",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Roger Porter's Chronological Files"
+      ],
+      "notes": "Finding-aid lead retained because of online Roger Porter chronological file requiring document-level screening. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "653628675",
+      "date": "1990-05-01",
+      "sortDate": "1990-05-01",
+      "datePrecision": "month",
+      "displayDateLabel": "May 1990",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Roger Porter's Chronological Files"
+      ],
+      "notes": "Finding-aid lead retained because of online Roger Porter chronological file requiring document-level screening. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "653628677",
+      "date": "1990-06-01",
+      "sortDate": "1990-06-01",
+      "datePrecision": "month",
+      "displayDateLabel": "June 1990",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Roger Porter's Chronological Files"
+      ],
+      "notes": "Finding-aid lead retained because of online Roger Porter chronological file requiring document-level screening. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "653628679",
+      "date": "1990-07-01",
+      "sortDate": "1990-07-01",
+      "datePrecision": "month",
+      "displayDateLabel": "July 1990",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Roger Porter's Chronological Files"
+      ],
+      "notes": "Finding-aid lead retained because of online Roger Porter chronological file requiring document-level screening. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509545577",
+      "date": "1990-07-09",
+      "sortDate": "1990-07-09",
+      "datePrecision": "day",
+      "displayDateLabel": "July 9, 1990",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "selection": "Core",
+      "topics": [
+        "White House Office of Policy Development",
+        "James Pinkerton Files",
+        "Economic summits"
+      ],
+      "notes": "Finding-aid lead retained because of foreign-economic title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "653628681",
+      "date": "1990-08-01",
+      "sortDate": "1990-08-01",
+      "datePrecision": "month",
+      "displayDateLabel": "August 1990",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Roger Porter's Chronological Files"
+      ],
+      "notes": "Finding-aid lead retained because of online Roger Porter chronological file requiring document-level screening. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "653628683",
+      "date": "1990-09-01",
+      "sortDate": "1990-09-01",
+      "datePrecision": "month",
+      "displayDateLabel": "September 1990",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Roger Porter's Chronological Files"
+      ],
+      "notes": "Finding-aid lead retained because of online Roger Porter chronological file requiring document-level screening. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "653628685",
+      "date": "1990-10-01",
+      "sortDate": "1990-10-01",
+      "datePrecision": "month",
+      "displayDateLabel": "October 1990",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Roger Porter's Chronological Files"
+      ],
+      "notes": "Finding-aid lead retained because of online Roger Porter chronological file requiring document-level screening. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "653628687",
+      "date": "1990-11-01",
+      "sortDate": "1990-11-01",
+      "datePrecision": "month",
+      "displayDateLabel": "November 1990",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Roger Porter's Chronological Files"
+      ],
+      "notes": "Finding-aid lead retained because of online Roger Porter chronological file requiring document-level screening. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "653628689",
+      "date": "1990-12-01",
+      "sortDate": "1990-12-01",
+      "datePrecision": "month",
+      "displayDateLabel": "December 1990",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Roger Porter's Chronological Files"
+      ],
+      "notes": "Finding-aid lead retained because of online Roger Porter chronological file requiring document-level screening. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509548135",
+      "date": "1991-01-01",
+      "sortDate": "1991-01-01",
+      "datePrecision": "range",
+      "displayDateLabel": "January 1, 1991-December 31, 1991",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Stephen P. Farrar Trade Files",
+        "Trade policy"
+      ],
+      "notes": "Finding-aid lead retained because of functional trade or international-economic series, foreign-economic title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509546902",
+      "date": "1991-01-01",
+      "sortDate": "1991-01-01",
+      "datePrecision": "month",
+      "displayDateLabel": "January 1991",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Teresa Gorman Subject Files",
+        "Global environment"
+      ],
+      "notes": "Finding-aid lead retained because of global climate or summit-environment title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509546903",
+      "date": "1991-01-01",
+      "sortDate": "1991-01-01",
+      "datePrecision": "month",
+      "displayDateLabel": "January 1991",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Teresa Gorman Subject Files",
+        "Global environment"
+      ],
+      "notes": "Finding-aid lead retained because of global climate or summit-environment title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509546904",
+      "date": "1991-01-01",
+      "sortDate": "1991-01-01",
+      "datePrecision": "month",
+      "displayDateLabel": "January 1991",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Teresa Gorman Subject Files",
+        "Global environment"
+      ],
+      "notes": "Finding-aid lead retained because of global climate or summit-environment title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "653628639",
+      "date": "1991-04-01",
+      "sortDate": "1991-04-01",
+      "datePrecision": "range",
+      "displayDateLabel": "April-May 1991",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Roger Porter's Chronological Files"
+      ],
+      "notes": "Finding-aid lead retained because of online Roger Porter chronological file requiring document-level screening. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "653628641",
+      "date": "1991-04-01",
+      "sortDate": "1991-04-01",
+      "datePrecision": "range",
+      "displayDateLabel": "April-May 1991",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Roger Porter's Chronological Files"
+      ],
+      "notes": "Finding-aid lead retained because of online Roger Porter chronological file requiring document-level screening. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "653628643",
+      "date": "1991-06-01",
+      "sortDate": "1991-06-01",
+      "datePrecision": "range",
+      "displayDateLabel": "June-July 1991",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Roger Porter's Chronological Files"
+      ],
+      "notes": "Finding-aid lead retained because of online Roger Porter chronological file requiring document-level screening. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "653628645",
+      "date": "1991-06-01",
+      "sortDate": "1991-06-01",
+      "datePrecision": "range",
+      "displayDateLabel": "June-July 1991",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Roger Porter's Chronological Files"
+      ],
+      "notes": "Finding-aid lead retained because of online Roger Porter chronological file requiring document-level screening. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509546661",
+      "date": "1991-11-18",
+      "sortDate": "1991-11-18",
+      "datePrecision": "day",
+      "displayDateLabel": "November 18, 1991",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Warren Maruyama Subject Files",
+        "Trade policy"
+      ],
+      "notes": "Finding-aid lead retained because of functional trade or international-economic series, foreign-economic title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "285411057",
+      "date": "1992-01-01",
+      "sortDate": "1992-01-01",
+      "datePrecision": "year",
+      "displayDateLabel": "1992",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Ed Goldstein Subject Files",
+        "Global environment"
+      ],
+      "notes": "Finding-aid lead retained because of global climate or summit-environment title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509545840",
+      "date": "1992-01-01",
+      "sortDate": "1992-01-01",
+      "datePrecision": "month",
+      "displayDateLabel": "January 1992",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Core",
+      "topics": [
+        "White House Office of Policy Development",
+        "J. French Hill Files",
+        "Trade policy"
+      ],
+      "notes": "Finding-aid lead retained because of foreign-economic title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509548136",
+      "date": "1992-01-01",
+      "sortDate": "1992-01-01",
+      "datePrecision": "range",
+      "displayDateLabel": "January 1, 1992-December 31, 1992",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Stephen P. Farrar Trade Files",
+        "Trade policy"
+      ],
+      "notes": "Finding-aid lead retained because of functional trade or international-economic series, foreign-economic title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509548140",
+      "date": "1992-01-01",
+      "sortDate": "1992-01-01",
+      "datePrecision": "range",
+      "displayDateLabel": "January 1, 1992-December 31, 1992",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Stephen P. Farrar Trade Files",
+        "Trade policy"
+      ],
+      "notes": "Finding-aid lead retained because of functional trade or international-economic series, foreign-economic title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509548141",
+      "date": "1992-01-01",
+      "sortDate": "1992-01-01",
+      "datePrecision": "range",
+      "displayDateLabel": "January 1, 1992-December 31, 1992",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Stephen P. Farrar Trade Files",
+        "Trade policy"
+      ],
+      "notes": "Finding-aid lead retained because of functional trade or international-economic series, foreign-economic title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509546897",
+      "date": "1992-01-01",
+      "sortDate": "1992-01-01",
+      "datePrecision": "range",
+      "displayDateLabel": "January 1, 1992-December 31, 1992",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Teresa Gorman Subject Files",
+        "Global environment"
+      ],
+      "notes": "Finding-aid lead retained because of global climate or summit-environment title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509546898",
+      "date": "1992-01-01",
+      "sortDate": "1992-01-01",
+      "datePrecision": "range",
+      "displayDateLabel": "January 1, 1992-December 31, 1992",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Teresa Gorman Subject Files",
+        "Global environment"
+      ],
+      "notes": "Finding-aid lead retained because of global climate or summit-environment title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509546899",
+      "date": "1992-01-01",
+      "sortDate": "1992-01-01",
+      "datePrecision": "range",
+      "displayDateLabel": "January 1, 1992-December 31, 1992",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Teresa Gorman Subject Files",
+        "Global environment"
+      ],
+      "notes": "Finding-aid lead retained because of global climate or summit-environment title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509548244",
+      "date": "1992-01-01",
+      "sortDate": "1992-01-01",
+      "datePrecision": "range",
+      "displayDateLabel": "January 1, 1992-December 31, 1992",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Warren Maruyama Subject Files"
+      ],
+      "notes": "Finding-aid lead retained because of functional trade or international-economic series, foreign-economic title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509548212",
+      "date": "1992-04-06",
+      "sortDate": "1992-04-06",
+      "datePrecision": "day",
+      "displayDateLabel": "April 6, 1992",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Boundary",
+      "topics": [
+        "White House Office of Policy Development",
+        "Stephen P. Farrar Trade Files",
+        "Trade policy",
+        "NAFTA boundary"
+      ],
+      "notes": "Finding-aid lead retained because of functional trade or international-economic series, foreign-economic title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509548217",
+      "date": "1992-04-06",
+      "sortDate": "1992-04-06",
+      "datePrecision": "day",
+      "displayDateLabel": "April 6, 1992",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Boundary",
+      "topics": [
+        "White House Office of Policy Development",
+        "Stephen P. Farrar Trade Files",
+        "Trade policy",
+        "NAFTA boundary"
+      ],
+      "notes": "Finding-aid lead retained because of functional trade or international-economic series, foreign-economic title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509548218",
+      "date": "1992-04-06",
+      "sortDate": "1992-04-06",
+      "datePrecision": "day",
+      "displayDateLabel": "April 6, 1992",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Boundary",
+      "topics": [
+        "White House Office of Policy Development",
+        "Stephen P. Farrar Trade Files",
+        "Trade policy",
+        "NAFTA boundary"
+      ],
+      "notes": "Finding-aid lead retained because of functional trade or international-economic series, foreign-economic title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509548219",
+      "date": "1992-05-13",
+      "sortDate": "1992-05-13",
+      "datePrecision": "day",
+      "displayDateLabel": "May 13, 1992",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Boundary",
+      "topics": [
+        "White House Office of Policy Development",
+        "Stephen P. Farrar Trade Files",
+        "Trade policy",
+        "NAFTA boundary"
+      ],
+      "notes": "Finding-aid lead retained because of functional trade or international-economic series, foreign-economic title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509548220",
+      "date": "1992-05-13",
+      "sortDate": "1992-05-13",
+      "datePrecision": "day",
+      "displayDateLabel": "May 13, 1992",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Boundary",
+      "topics": [
+        "White House Office of Policy Development",
+        "Stephen P. Farrar Trade Files",
+        "Trade policy",
+        "NAFTA boundary"
+      ],
+      "notes": "Finding-aid lead retained because of functional trade or international-economic series, foreign-economic title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509548207",
+      "date": "1992-05-27",
+      "sortDate": "1992-05-27",
+      "datePrecision": "day",
+      "displayDateLabel": "May 27, 1992",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Stephen P. Farrar Trade Files",
+        "Trade policy"
+      ],
+      "notes": "Finding-aid lead retained because of functional trade or international-economic series, foreign-economic title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509546074",
+      "date": "1992-06-11",
+      "sortDate": "1992-06-11",
+      "datePrecision": "day",
+      "displayDateLabel": "June 11, 1992",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Charles E. M. Kolb Subject Files",
+        "Global environment"
+      ],
+      "notes": "Finding-aid lead retained because of foreign-economic title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509546420",
+      "date": "1992-06-11",
+      "sortDate": "1992-06-11",
+      "datePrecision": "day",
+      "displayDateLabel": "June 11, 1992",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "J. French Hill Files",
+        "Global environment"
+      ],
+      "notes": "Finding-aid lead retained because of foreign-economic title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509547877",
+      "date": "1992-06-11",
+      "sortDate": "1992-06-11",
+      "datePrecision": "day",
+      "displayDateLabel": "June 11, 1992",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Roger Porter Files",
+        "Global environment"
+      ],
+      "notes": "Finding-aid lead retained because of foreign-economic title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509546845",
+      "date": "1992-06-11",
+      "sortDate": "1992-06-11",
+      "datePrecision": "day",
+      "displayDateLabel": "June 11, 1992",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Teresa Gorman Subject Files",
+        "Global environment"
+      ],
+      "notes": "Finding-aid lead retained because of foreign-economic title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509546846",
+      "date": "1992-06-11",
+      "sortDate": "1992-06-11",
+      "datePrecision": "day",
+      "displayDateLabel": "June 11, 1992",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Teresa Gorman Subject Files",
+        "Global environment"
+      ],
+      "notes": "Finding-aid lead retained because of foreign-economic title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509546847",
+      "date": "1992-06-11",
+      "sortDate": "1992-06-11",
+      "datePrecision": "day",
+      "displayDateLabel": "June 11, 1992",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Teresa Gorman Subject Files",
+        "Global environment"
+      ],
+      "notes": "Finding-aid lead retained because of foreign-economic title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509546848",
+      "date": "1992-06-11",
+      "sortDate": "1992-06-11",
+      "datePrecision": "day",
+      "displayDateLabel": "June 11, 1992",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Teresa Gorman Subject Files",
+        "Global environment"
+      ],
+      "notes": "Finding-aid lead retained because of foreign-economic title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509546849",
+      "date": "1992-06-11",
+      "sortDate": "1992-06-11",
+      "datePrecision": "day",
+      "displayDateLabel": "June 11, 1992",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Teresa Gorman Subject Files",
+        "Global environment"
+      ],
+      "notes": "Finding-aid lead retained because of foreign-economic title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509546850",
+      "date": "1992-06-11",
+      "sortDate": "1992-06-11",
+      "datePrecision": "day",
+      "displayDateLabel": "June 11, 1992",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Teresa Gorman Subject Files",
+        "Global environment"
+      ],
+      "notes": "Finding-aid lead retained because of foreign-economic title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509546851",
+      "date": "1992-06-11",
+      "sortDate": "1992-06-11",
+      "datePrecision": "day",
+      "displayDateLabel": "June 11, 1992",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Teresa Gorman Subject Files",
+        "Global environment"
+      ],
+      "notes": "Finding-aid lead retained because of foreign-economic title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509546901",
+      "date": "1992-06-11",
+      "sortDate": "1992-06-11",
+      "datePrecision": "day",
+      "displayDateLabel": "June 11, 1992",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Teresa Gorman Subject Files",
+        "Global environment"
+      ],
+      "notes": "Finding-aid lead retained because of foreign-economic title terms, global climate or summit-environment title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509546080",
+      "date": "1992-08-31",
+      "sortDate": "1992-08-31",
+      "datePrecision": "day",
+      "displayDateLabel": "August 31, 1992",
+      "chapter": "Economic Summits and Industrialized-Country Cooperation",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Todd Buchholz' Subject Files",
+        "Global environment"
+      ],
+      "notes": "Finding-aid lead retained because of foreign-economic title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509548211",
+      "date": "1992-10-17",
+      "sortDate": "1992-10-17",
+      "datePrecision": "day",
+      "displayDateLabel": "October 17, 1992",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Boundary",
+      "topics": [
+        "White House Office of Policy Development",
+        "Stephen P. Farrar Trade Files",
+        "Trade policy",
+        "NAFTA boundary"
+      ],
+      "notes": "Finding-aid lead retained because of functional trade or international-economic series, foreign-economic title terms. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    },
+    {
+      "naid": "509548197",
+      "date": "1992-11-23",
+      "sortDate": "1992-11-23",
+      "datePrecision": "day",
+      "displayDateLabel": "November 23, 1992",
+      "chapter": "Trade Policy and Market Access",
+      "selection": "Consider",
+      "topics": [
+        "White House Office of Policy Development",
+        "Stephen P. Farrar Trade Files"
+      ],
+      "notes": "Finding-aid lead retained because of functional trade or international-economic series. Review the folder document by document; the title does not establish document identity, selection value, or release completeness."
+    }
+  ],
+  "generatedAt": "2026-09-01T21:02:34.694Z"
+}
