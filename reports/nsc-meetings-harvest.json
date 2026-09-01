@@ -1,0 +1,82 @@
+{
+  "generatedAt": "2026-09-01T01:31:47.179Z",
+  "seriesNaId": "312293887",
+  "expectedFileUnits": 90,
+  "harvestedFileUnits": 90,
+  "volumeReviewFileUnits": 13,
+  "boundaryReviewFileUnits": 22,
+  "volumeReviewNaids": [
+    "470760887",
+    "470760892",
+    "470760893",
+    "470760894",
+    "470760921",
+    "470760926",
+    "470760927",
+    "470760935",
+    "470760936",
+    "470760942",
+    "470760944",
+    "470760948",
+    "470760949"
+  ],
+  "boundaryReviewNaids": [
+    "470760889",
+    "470760890",
+    "470760932",
+    "470760933",
+    "470760934",
+    "470760939",
+    "470760940",
+    "470760941",
+    "470760945",
+    "470760946",
+    "470760947",
+    "470760952",
+    "470760953",
+    "470760954",
+    "470760955",
+    "470760957",
+    "470760959",
+    "470760960",
+    "470760961",
+    "470760962",
+    "470760967",
+    "470760971"
+  ],
+  "economicSignalThreshold": 20,
+  "economicSignalFileUnits": 58,
+  "markerVerified": 90,
+  "markerExceptions": [],
+  "totalPdfBytes": 586366324,
+  "pdfSizeMetadataMismatches": [
+    {
+      "naid": "470760899",
+      "catalogPdfBytes": 8022981,
+      "servedPdfBytes": 20249891
+    },
+    {
+      "naid": "470760900",
+      "catalogPdfBytes": 18475396,
+      "servedPdfBytes": 18475397
+    },
+    {
+      "naid": "470760921",
+      "catalogPdfBytes": 32592164,
+      "servedPdfBytes": 32592165
+    },
+    {
+      "naid": "470760922",
+      "catalogPdfBytes": 1963276,
+      "servedPdfBytes": 10928925
+    },
+    {
+      "naid": "470760927",
+      "catalogPdfBytes": 10465461,
+      "servedPdfBytes": 19456868
+    }
+  ],
+  "totalOcrCharacters": 4730514,
+  "duplicateNaids": [],
+  "duplicateLocalIds": []
+}

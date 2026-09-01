@@ -1,11 +1,12 @@
 {
-  "checkedAt": "2026-09-01T00:26:39.944Z",
-  "records": 76,
+  "checkedAt": "2026-09-01T01:32:30.224Z",
+  "records": 109,
   "verifiedSourceNotes": 34,
   "draftSourceNotes": 1,
-  "locators": 41,
+  "locators": 74,
   "withheldItems": 13,
-  "nscCollections": 1,
+  "nscCollections": 2,
+  "nscMeetingFileUnits": 90,
   "timDealFileUnits": 134,
   "errors": [],
   "warnings": []

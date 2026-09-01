@@ -24,11 +24,19 @@ const elements = {
   publicType: document.querySelector("#public-type-filter"),
   publicClear: document.querySelector("#public-clear"),
   publicSummary: document.querySelector("#public-summary"),
+  nscCollectionTabs: document.querySelector("#nsc-collection-tabs"),
+  nscStatus: document.querySelector("#nsc-status"),
+  nscIntro: document.querySelector("#nsc-intro"),
   nscMetrics: document.querySelector("#nsc-metrics"),
+  nscProvenanceTitle: document.querySelector("#nsc-provenance-title"),
   nscProvenanceSummary: document.querySelector("#nsc-provenance-summary"),
   nscSeriesLink: document.querySelector("#nsc-series-link"),
+  nscCandidateTitle: document.querySelector("#nsc-candidate-title"),
+  nscCandidateDownload: document.querySelector("#nsc-candidate-download"),
   nscCandidateSummary: document.querySelector("#nsc-candidate-summary"),
   nscCandidatesRoot: document.querySelector("#nsc-candidates-root"),
+  nscFileDownload: document.querySelector("#nsc-file-download"),
+  nscReportLink: document.querySelector("#nsc-report-link"),
   nscFileRoot: document.querySelector("#nsc-file-root"),
   nscFileSummary: document.querySelector("#nsc-file-summary"),
   nscSearch: document.querySelector("#nsc-search"),
@@ -42,8 +50,9 @@ const elements = {
 };
 
 let filteredRecords = [...data.records];
-const timDealCollection = data.nscCollections?.find((collection) => collection.id === "tim-deal");
-let filteredNscFileUnits = [...(timDealCollection?.fileUnits || [])];
+const nscCollections = data.nscCollections || [];
+let activeNscCollection = nscCollections[0] || null;
+let filteredNscFileUnits = [...(activeNscCollection?.fileUnits || [])];
 
 initialize();
 
@@ -52,6 +61,7 @@ function initialize() {
   populateFilters();
   renderChapters();
   renderCompilerMetrics();
+  renderNscCollectionTabs();
   renderNscCollection();
   renderSources();
   renderGaps();
@@ -86,17 +96,22 @@ function populateFilters() {
   addOptions(elements.sourceNote, ["verified", "draft", "locator"], "All Source Note states", sourceNoteLabel);
   addOptions(elements.selection, ["Core", "Consider", "Boundary"], "All selection states");
   addOptions(elements.publicType, unique(data.publicReferences.map((record) => record.type)), "All types");
-  if (timDealCollection) {
-    addOptions(elements.nscChapter, unique(timDealCollection.fileUnits.map((row) => row.chapter)), "All chapters");
-    addOptions(elements.nscRouting, unique(timDealCollection.fileUnits.map((row) => row.routing)), "All routing states");
-    addOptions(elements.nscMarker, unique(timDealCollection.fileUnits.map((row) => row.markerStatus)), "All marker states", markerLabel);
-    addOptions(
-      elements.nscSignal,
-      ["high-level", "president", "scowcroft", "conversation", "meeting", "withdrawal"],
-      "All file units",
-      signalLabel,
-    );
-  }
+  populateNscFilters();
+}
+
+function populateNscFilters() {
+  if (!activeNscCollection) return;
+  const signalOptions = ["high-level", "president", "scowcroft", "conversation", "meeting", "withdrawal"];
+  if (activeNscCollection.fileUnits.some((row) => row.economicSignals?.total >= 20)) signalOptions.unshift("economic");
+  addOptions(elements.nscChapter, unique(activeNscCollection.fileUnits.map((row) => row.chapter)), "All chapters");
+  addOptions(elements.nscRouting, unique(activeNscCollection.fileUnits.map((row) => row.routing)), "All routing states");
+  addOptions(elements.nscMarker, unique(activeNscCollection.fileUnits.map((row) => row.markerStatus)), "All marker states", markerLabel);
+  addOptions(
+    elements.nscSignal,
+    signalOptions,
+    "All file units",
+    signalLabel,
+  );
 }
 
 function addOptions(select, values, allLabel, labeler = (value) => value) {
@@ -386,6 +401,7 @@ function markerLabel(status) {
 
 function signalLabel(signal) {
   return {
+    economic: "20+ economic-policy OCR hits",
     "high-level": "Any high-level document signal",
     president: "Memorandum to the President",
     scowcroft: "Memorandum to Scowcroft",
@@ -510,31 +526,85 @@ function metric(value, title, detail) {
   return card;
 }
 
-function renderNscCollection() {
-  if (!timDealCollection) return;
+function renderNscCollectionTabs() {
+  if (!elements.nscCollectionTabs) return;
+  elements.nscCollectionTabs.replaceChildren();
+  nscCollections.forEach((collection) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "nsc-collection-tab";
+    button.setAttribute("role", "tab");
+    button.setAttribute("aria-selected", String(collection.id === activeNscCollection?.id));
+    button.textContent = collection.shortTitle || collection.title;
+    button.addEventListener("click", () => selectNscCollection(collection.id));
+    elements.nscCollectionTabs.append(button);
+  });
+}
 
+function selectNscCollection(collectionId) {
+  const collection = nscCollections.find((item) => item.id === collectionId);
+  if (!collection || collection.id === activeNscCollection?.id) return;
+  activeNscCollection = collection;
+  [elements.nscSearch, elements.nscChapter, elements.nscRouting, elements.nscMarker, elements.nscSignal].forEach((control) => {
+    control.value = "";
+  });
+  filteredNscFileUnits = [...collection.fileUnits];
+  populateNscFilters();
+  renderNscCollectionTabs();
+  renderNscCollection();
+}
+
+function renderNscCollection() {
+  if (!activeNscCollection) return;
+
+  elements.nscStatus.textContent = activeNscCollection.statusLabel;
+  elements.nscIntro.textContent = activeNscCollection.intro;
+  elements.nscMetrics.setAttribute("aria-label", `${activeNscCollection.shortTitle || activeNscCollection.title} collection metrics`);
   const metrics = [
-    [timDealCollection.fileUnits.length, "Online file units", "Complete NARA series hierarchy"],
-    [timDealCollection.candidateCount, "Item-level candidates", `${timDealCollection.auditedFolders.length} source-image-audited folders`],
-    [timDealCollection.markerVerified, "Opening markers verified", `${timDealCollection.markerExceptionCount} documented exception`],
-    [formatByteSize(timDealCollection.totalPdfBytes), "Online PDF corpus", "Official NARA digital objects"],
+    [activeNscCollection.fileUnits.length, "Online file units", "Complete NARA series hierarchy"],
+    [
+      activeNscCollection.candidateCount,
+      activeNscCollection.candidateLabel,
+      `${activeNscCollection.auditedFolders.length} priority ${plural(activeNscCollection.auditedFolders.length, "folder")} screened`,
+    ],
+    [
+      activeNscCollection.markerVerified,
+      "Opening markers verified",
+      `${activeNscCollection.markerExceptionCount} documented ${plural(activeNscCollection.markerExceptionCount, "exception")}`,
+    ],
+    [formatByteSize(activeNscCollection.totalPdfBytes), "Online PDF corpus", "Official NARA digital objects"],
   ];
   elements.nscMetrics.replaceChildren(...metrics.map(([value, title, detail]) => metric(value, title, detail)));
 
-  const exception = timDealCollection.fileUnits.find((row) => row.markerStatus !== "verified");
+  const exceptions = activeNscCollection.fileUnits.filter((row) => row.markerStatus !== "verified");
+  const exceptionSummary = exceptions.length
+    ? `${exceptions.map((row) => `${row.localId}, ${row.title}`).join("; ")} ${exceptions.length === 1 ? "opens" : "open"} without the complete opening marker; the affected locator is catalog-derived and is not presented as a Source Note.`
+    : "No opening-sheet exceptions were found in this online series.";
+  elements.nscProvenanceTitle.textContent = activeNscCollection.provenanceTitle;
   elements.nscProvenanceSummary.textContent =
-    `${timDealCollection.markerVerified} of ${timDealCollection.fileUnits.length} PDFs open with the Bush Library marker naming the record group, office, series, subseries, OA/ID, and folder. ` +
-    `${exception.localId}, ${exception.title}, opens directly on briefing material; its locator is therefore catalog-derived and is not presented as a Source Note.`;
-  elements.nscSeriesLink.href = timDealCollection.catalogUrl;
+    `${activeNscCollection.markerVerified} of ${activeNscCollection.fileUnits.length} PDFs open with Bush Library provenance naming the record group, office, series, subseries, OA/ID, and folder. ${exceptionSummary}`;
+  elements.nscSeriesLink.href = activeNscCollection.catalogUrl;
 
-  const candidates = timDealCollection.candidateIds
+  const candidates = activeNscCollection.candidateIds
     .map((id) => data.records.find((record) => record.id === id))
     .filter(Boolean);
-  elements.nscCandidateSummary.textContent =
-    `${candidates.length} document-level candidates from ${timDealCollection.auditedFolders.length} fully audited PDFs, ordered by document date. ` +
-    `The chronology includes ${candidates.filter((record) => record.releaseStatus === "Withheld").length} separately identified records that were not declassified.`;
+  const locatorCount = candidates.filter((record) => record.sourceNoteStatus === "locator").length;
+  const boundaryCount = candidates.filter((record) => record.selection === "Boundary").length;
+  const withheldCount = candidates.filter((record) => record.releaseStatus === "Withheld").length;
+  elements.nscCandidateTitle.textContent = activeNscCollection.candidateTitle;
+  elements.nscCandidateDownload.href = activeNscCollection.candidateCsvUrl;
+  elements.nscCandidateDownload.textContent = `Download ${activeNscCollection.candidateLabel.toLowerCase()} CSV`;
+  elements.nscCandidateSummary.textContent = locatorCount
+    ? `${candidates.length} file-unit leads, ordered by meeting date: ${candidates.length - boundaryCount} for direct Volume XXX review and ${boundaryCount} for cross-volume adjudication. All ${locatorCount} remain archival locators until individual documents are checked in the source images.`
+    : `${candidates.length} document-level candidates from ${activeNscCollection.auditedFolders.length} fully audited PDFs, ordered by document date. The chronology includes ${withheldCount} separately identified ${plural(withheldCount, "record")} that were not declassified.`;
   renderNscCandidates(candidates);
-  renderNscFileUnits(timDealCollection.fileUnits);
+
+  elements.nscFileDownload.href = activeNscCollection.fileUnitsCsvUrl;
+  elements.nscFileDownload.textContent = `Download all ${activeNscCollection.fileUnits.length} file units`;
+  elements.nscReportLink.href = activeNscCollection.reportUrl;
+  elements.nscReportLink.textContent = "Open harvest report";
+  filteredNscFileUnits = [...activeNscCollection.fileUnits];
+  renderNscFileUnits(filteredNscFileUnits);
 }
 
 function renderNscCandidates(records) {
@@ -556,9 +626,9 @@ function renderNscCandidates(records) {
 }
 
 function updateNscFileUnits() {
-  if (!timDealCollection) return;
+  if (!activeNscCollection) return;
   const query = elements.nscSearch.value.trim().toLowerCase();
-  filteredNscFileUnits = timDealCollection.fileUnits.filter((row) => {
+  filteredNscFileUnits = activeNscCollection.fileUnits.filter((row) => {
     return (
       (!query || nscFileSearchText(row).includes(query)) &&
       (!elements.nscChapter.value || row.chapter === elements.nscChapter.value) &&
@@ -580,6 +650,7 @@ function nscFileSearchText(row) {
     row.dateBasis,
     row.markerStatus,
     row.archivalLocator,
+    row.economicSignals?.total >= 20 ? "economic policy OCR signal" : "",
   ]
     .filter(Boolean)
     .join(" ")
@@ -587,16 +658,17 @@ function nscFileSearchText(row) {
 }
 
 function fileUnitHasSignal(row, signal) {
-  const signals = row.reviewSignals;
+  const signals = row.reviewSignals || {};
+  if (signal === "economic") return (row.economicSignals?.total || 0) >= 20;
   if (signal === "high-level") {
-    return signals.memosToPresident + signals.memosToScowcroft + signals.memorandaOfConversation + signals.meetingRecords > 0;
+    return (signals.memosToPresident || 0) + (signals.memosToScowcroft || 0) + (signals.memorandaOfConversation || 0) + (signals.meetingRecords || 0) > 0;
   }
   return {
-    president: signals.memosToPresident,
-    scowcroft: signals.memosToScowcroft,
-    conversation: signals.memorandaOfConversation,
-    meeting: signals.meetingRecords,
-    withdrawal: signals.withdrawalSheets,
+    president: signals.memosToPresident || 0,
+    scowcroft: signals.memosToScowcroft || 0,
+    conversation: signals.memorandaOfConversation || 0,
+    meeting: signals.meetingRecords || 0,
+    withdrawal: signals.withdrawalSheets || 0,
   }[signal] > 0;
 }
 
@@ -605,7 +677,7 @@ function renderNscFileUnits(rows) {
   const markerCount = rows.filter((row) => row.markerStatus === "verified").length;
   const highLevelCount = rows.filter((row) => fileUnitHasSignal(row, "high-level")).length;
   elements.nscFileSummary.textContent =
-    `${rows.length} of ${timDealCollection.fileUnits.length} file units shown; ${markerCount} opening ${plural(markerCount, "marker")} verified; ${highLevelCount} ${plural(highLevelCount, "file unit")} with high-level document signals.`;
+    `${rows.length} of ${activeNscCollection.fileUnits.length} file units shown; ${markerCount} opening ${plural(markerCount, "marker")} verified; ${highLevelCount} ${plural(highLevelCount, "file unit")} with high-level document signals.`;
 
   if (!rows.length) {
     const empty = document.createElement("p");
@@ -670,7 +742,7 @@ function createNscFileUnitRow(row) {
   details.className = "record-source-note nsc-file-details";
   const summary = document.createElement("summary");
   summary.textContent = "Provenance and review signals";
-  const sourceLabel = label(row.markerStatus === "verified" ? "Provenance stem - classification still required" : "Catalog-derived archival locator");
+  const sourceLabel = label(row.markerStatus === "verified" ? "Provenance stem - not a Source Note" : "Catalog-derived archival locator");
   const sourceText = row.provenanceStem || row.archivalLocator;
   const source = paragraph(sourceText, "record-frus-source-note");
   const signalNote = paragraph(
@@ -692,11 +764,12 @@ function createNscFileUnitRow(row) {
 
 function reviewSignalPairs(row) {
   return [
-    ["memos to President", row.reviewSignals.memosToPresident],
-    ["memos to Scowcroft", row.reviewSignals.memosToScowcroft],
-    ["memcon hits", row.reviewSignals.memorandaOfConversation],
-    ["meeting-record hits", row.reviewSignals.meetingRecords],
-    ["withdrawal-sheet hits", row.reviewSignals.withdrawalSheets],
+    ["economic-policy hits", row.economicSignals?.total || 0],
+    ["memos to President", row.reviewSignals?.memosToPresident || 0],
+    ["memos to Scowcroft", row.reviewSignals?.memosToScowcroft || 0],
+    ["memcon hits", row.reviewSignals?.memorandaOfConversation || 0],
+    ["meeting-record hits", row.reviewSignals?.meetingRecords || 0],
+    ["withdrawal-sheet hits", row.reviewSignals?.withdrawalSheets || 0],
   ];
 }
 
@@ -826,11 +899,20 @@ function downloadFilteredNscCsv() {
     "markerStatus",
     "accessStatus",
     "pdfBytes",
+    "catalogPdfBytes",
+    "pdfByteBasis",
     "memosToPresident",
     "memosToScowcroft",
     "memorandaOfConversation",
     "meetingRecords",
     "withdrawalSheets",
+    "economicSignalTotal",
+    "economySignals",
+    "financeSignals",
+    "tradeSignals",
+    "assistanceSanctionsSignals",
+    "energySignals",
+    "treasurySignals",
     "archivalLocator",
     "provenanceStem",
     "catalogUrl",
@@ -839,12 +921,19 @@ function downloadFilteredNscCsv() {
   const rows = filteredNscFileUnits.map((row) => ({
     ...row,
     ...row.reviewSignals,
+    economicSignalTotal: row.economicSignals?.total ?? "",
+    economySignals: row.economicSignals?.economy ?? "",
+    financeSignals: row.economicSignals?.finance ?? "",
+    tradeSignals: row.economicSignals?.trade ?? "",
+    assistanceSanctionsSignals: row.economicSignals?.assistanceSanctions ?? "",
+    energySignals: row.economicSignals?.energy ?? "",
+    treasurySignals: row.economicSignals?.treasury ?? "",
   }));
   const csv = [
     fields.map(csvCell).join(","),
     ...rows.map((row) => fields.map((field) => csvCell(row[field])).join(",")),
   ].join("\n");
-  triggerCsvDownload(csv, "frus1989-92v30-tim-deal-filtered-file-units.csv");
+  triggerCsvDownload(csv, `frus1989-92v30-${activeNscCollection.id}-filtered-file-units.csv`);
 }
 
 function triggerCsvDownload(csv, filename) {

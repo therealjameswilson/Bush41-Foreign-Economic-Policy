@@ -69,6 +69,39 @@ if (!timDeal) {
   if (candidateRecords.some((record) => record.sourceNoteStatus !== "verified")) errors.push("Tim Deal candidate lacks a verified Source Note");
 }
 
+const nscMeetings = data.nscCollections?.find((collection) => collection.id === "nsc-meetings");
+if (!nscMeetings) {
+  errors.push("NSC Meetings collection is missing");
+} else {
+  if (nscMeetings.fileUnits.length !== 90 || nscMeetings.fileUnitCount !== 90) errors.push("NSC Meetings file-unit count is not 90");
+  if (nscMeetings.markerVerified !== 90 || nscMeetings.markerExceptionCount !== 0) errors.push("NSC Meetings provenance-marker totals changed");
+  if (nscMeetings.candidateCount !== 35 || nscMeetings.candidateIds.length !== 35) errors.push("NSC Meetings review-candidate count is not 35");
+  if (nscMeetings.auditedFolders.length !== 35) errors.push("NSC Meetings screened-folder count is not 35");
+  if (nscMeetings.fileUnits.some((row) => row.markerStatus !== "verified")) errors.push("NSC Meetings ledger contains an opening-marker exception");
+  if (nscMeetings.fileUnits.some((row) => !Number.isInteger(row.economicSignals?.total))) errors.push("NSC Meetings ledger lacks economic OCR signals");
+  if (new Set(nscMeetings.fileUnits.map((row) => row.naid)).size !== nscMeetings.fileUnits.length) errors.push("Duplicate NSC Meetings NAID");
+  if (new Set(nscMeetings.fileUnits.map((row) => row.localId)).size !== nscMeetings.fileUnits.length) errors.push("Duplicate NSC Meetings OA/ID");
+  if (nscMeetings.fileUnits.some((row) => !row.catalogUrl.startsWith("https://catalog.archives.gov/id/") || !row.pdfUrl.startsWith("https://catalog.archives.gov/medialz/"))) {
+    errors.push("NSC Meetings ledger contains a nonofficial link");
+  }
+  const sortedUnits = [...nscMeetings.fileUnits].sort((a, b) => a.workingStartDate.localeCompare(b.workingStartDate) || a.workingEndDate.localeCompare(b.workingEndDate) || a.localId.localeCompare(b.localId));
+  if (sortedUnits.some((row, index) => row.naid !== nscMeetings.fileUnits[index].naid)) errors.push("NSC Meetings file units are not stored in chronological order");
+  if (nscMeetings.fileUnits.filter((row) => row.routing === "Volume XXX review").length !== 13) errors.push("NSC Meetings direct-review routing count is not 13");
+  if (nscMeetings.fileUnits.filter((row) => row.routing === "Boundary review").length !== 22) errors.push("NSC Meetings boundary-review routing count is not 22");
+  if (nscMeetings.candidateIds.some((id) => !ids.has(id))) errors.push("NSC Meetings candidate ID is missing from the master chronology");
+  const candidateRecords = nscMeetings.candidateIds.map((id) => data.records.find((record) => record.id === id)).filter(Boolean);
+  const routedNaids = new Set(nscMeetings.fileUnits.filter((row) => row.routing !== "Series context").map((row) => row.naid));
+  const candidateNaids = new Set(candidateRecords.map((record) => record.naid));
+  if (routedNaids.size !== candidateNaids.size || [...routedNaids].some((naid) => !candidateNaids.has(naid))) errors.push("NSC Meetings routed file units and chronology candidates do not match");
+  if (candidateRecords.some((record) => record.sourceNoteStatus !== "locator" || record.sourceNote)) errors.push("NSC Meetings file-unit lead incorrectly asserts a document-level Source Note");
+  if (candidateRecords.some((record) => record.collectionId !== "nsc-meetings")) errors.push("NSC Meetings candidate lacks its collection ID");
+  if (candidateRecords.reduce((total, record) => total + record.pageCount, 0) !== 1854) errors.push("NSC Meetings review-file page total is not 1,854");
+  if (candidateRecords.filter((record) => record.selection === "Core").length !== 13) errors.push("NSC Meetings candidate direct-review count is not 13");
+  if (candidateRecords.filter((record) => record.selection === "Boundary").length !== 22) errors.push("NSC Meetings candidate boundary count is not 22");
+  const sortedCandidates = [...candidateRecords].sort((a, b) => a.sortDate.localeCompare(b.sortDate) || a.title.localeCompare(b.title));
+  if (sortedCandidates.some((record, index) => record.id !== candidateRecords[index].id)) errors.push("NSC Meetings candidates are not stored in chronological order");
+}
+
 const report = {
   checkedAt: new Date().toISOString(),
   records: data.records.length,
@@ -77,6 +110,7 @@ const report = {
   locators: data.records.filter((record) => record.sourceNoteStatus === "locator").length,
   withheldItems: data.records.filter((record) => record.releaseStatus === "Withheld").length,
   nscCollections: data.nscCollections?.length || 0,
+  nscMeetingFileUnits: nscMeetings?.fileUnits.length || 0,
   timDealFileUnits: timDeal?.fileUnits.length || 0,
   errors,
   warnings,

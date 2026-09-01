@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-09-01T00:25:20.652Z",
-  "total": 388,
-  "ok": 388,
+  "checkedAt": "2026-09-01T01:29:29.114Z",
+  "total": 564,
+  "ok": 564,
   "blocked": 0,
   "failed": 0,
   "blockedResults": [],
@@ -986,16 +986,544 @@
       "finalUrl": "https://catalog.archives.gov/id/470429205"
     },
     {
+      "url": "https://catalog.archives.gov/id/470760885",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760885"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760886",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760886"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760887",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760887"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760888",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760888"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760889",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760889"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760890",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760890"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760891",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760891"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760892",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760892"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760893",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760893"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760894",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760894"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760895",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760895"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760896",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760896"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760897",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760897"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760898",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760898"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760899",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760899"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760900",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760900"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760901",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760901"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760902",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760902"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760903",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760903"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760904",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760904"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760905",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760905"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760906",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760906"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760907",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760907"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760908",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760908"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760909",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760909"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760910",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760910"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760911",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760911"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760912",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760912"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760913",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760913"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760914",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760914"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760915",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760915"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760916",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760916"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760917",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760917"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760918",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760918"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760919",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760919"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760920",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760920"
+    },
+    {
       "url": "https://catalog.archives.gov/id/470760921",
       "ok": true,
       "status": 200,
       "finalUrl": "https://catalog.archives.gov/id/470760921"
     },
     {
+      "url": "https://catalog.archives.gov/id/470760922",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760922"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760923",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760923"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760924",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760924"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760925",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760925"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760926",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760926"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760927",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760927"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760928",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760928"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760929",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760929"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760930",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760930"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760931",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760931"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760932",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760932"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760933",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760933"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760934",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760934"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760935",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760935"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760936",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760936"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760937",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760937"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760938",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760938"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760939",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760939"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760940",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760940"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760941",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760941"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760942",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760942"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760943",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760943"
+    },
+    {
       "url": "https://catalog.archives.gov/id/470760944",
       "ok": true,
       "status": 200,
       "finalUrl": "https://catalog.archives.gov/id/470760944"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760945",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760945"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760946",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760946"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760947",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760947"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760948",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760948"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760949",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760949"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760950",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760950"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760951",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760951"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760952",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760952"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760953",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760953"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760954",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760954"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760955",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760955"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760956",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760956"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760957",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760957"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760958",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760958"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760959",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760959"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760960",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760960"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760961",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760961"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760962",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760962"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760963",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760963"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760964",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760964"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760965",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760965"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760966",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760966"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760967",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760967"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760968",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760968"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760969",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760969"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760970",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760970"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760971",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760971"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760972",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760972"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760973",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760973"
+    },
+    {
+      "url": "https://catalog.archives.gov/id/470760974",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/id/470760974"
     },
     {
       "url": "https://catalog.archives.gov/id/470761340",
@@ -2168,16 +2696,544 @@
       "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/summit_brief_books_2554817/41-bpr-nsc-deal-sumit_bref_bks-cf00960-016.pdf"
     },
     {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-1-90000-001.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-1-90000-001.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-10-90000-011.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-10-90000-011.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-11_1-90000-012.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-11_1-90000-012.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-11_2-90000-013.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-11_2-90000-013.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-12_1-90000-014.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-12_1-90000-014.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-12_2-90000-015.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-12_2-90000-015.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-13-90000-016.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-13-90000-016.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-14-90000-017.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-14-90000-017.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-15-90000-018.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-15-90000-018.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-16-90000-019.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-16-90000-019.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-17-90001-001.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-17-90001-001.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-18-90001-002.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-18-90001-002.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-19-90001-003.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-19-90001-003.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-2-90000-002.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-2-90000-002.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-20_1-90001-004.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-20_1-90001-004.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-20_2-90001-005.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-20_2-90001-005.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-21-90001-006.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-21-90001-006.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-22-90001-007.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-22-90001-007.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-23_1-90001-008.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-23_1-90001-008.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-23_2-90001-009.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-23_2-90001-009.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-24-90001-010.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-24-90001-010.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-24a-90001-011.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-24a-90001-011.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-25-90001-012.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-25-90001-012.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-26-90001-013.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-26-90001-013.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-27-90001-014.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-27-90001-014.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-28-90001-015.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-28-90001-015.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-28a-90001-016.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-28a-90001-016.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-29-90001-017.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-29-90001-017.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-3-90000-003.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-3-90000-003.pdf"
+    },
+    {
       "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-30-90001-018.pdf",
       "ok": true,
       "status": 200,
       "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-30-90001-018.pdf"
     },
     {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-31-90001-019.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-31-90001-019.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-31a-90001-020.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-31a-90001-020.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-32_1-90001-021.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-32_1-90001-021.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-32_2-90001-022.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-32_2-90001-022.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-32a-90001-023.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-32a-90001-023.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-33-90001-024.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-33-90001-024.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-34-90001-025.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-34-90001-025.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-34a-90001-026.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-34a-90001-026.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-35-90001-027.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-35-90001-027.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-35a-90001-028.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-35a-90001-028.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-36_1-90001-029.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-36_1-90001-029.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-36_2-90001-030.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-36_2-90001-030.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-36_3-90001-031.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-36_3-90001-031.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-37_1-90001-032.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-37_1-90001-032.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-37_2-90001-033.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-37_2-90001-033.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-37a-90001-034.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-37a-90001-034.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-38-90001-035.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-38-90001-035.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-39_1-90002-001.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-39_1-90002-001.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-39_2-90002-002.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-39_2-90002-002.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-39_3-90002-003.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-39_3-90002-003.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-4-90000-004.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-4-90000-004.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-40-90002-004.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-40-90002-004.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-41-90002-005.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-41-90002-005.pdf"
+    },
+    {
       "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-42-90002-006.pdf",
       "ok": true,
       "status": 200,
       "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-42-90002-006.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-43_1-90002-007.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-43_1-90002-007.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-43_2-90002-008.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-43_2-90002-008.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-43a-90002-009.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-43a-90002-009.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-44-90002-010.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-44-90002-010.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-45-90002-011.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-45-90002-011.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-46-90002-012.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-46-90002-012.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-47-90002-013.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-47-90002-013.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-48-90002-014.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-48-90002-014.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-49-90002-015.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-49-90002-015.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-49a-90002-016.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-49a-90002-016.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-5-90000-005.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-5-90000-005.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-50-90002-017.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-50-90002-017.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-51-90002-018.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-51-90002-018.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-52-90002-019.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-52-90002-019.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-53-90002-020.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-53-90002-020.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-54_1-90002-021.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-54_1-90002-021.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-54_2-90002-022.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-54_2-90002-022.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-55_1-90002-023.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-55_1-90002-023.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-55_2-90002-024.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-55_2-90002-024.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-56_1-90002-025.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-56_1-90002-025.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-56_2-90002-026.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-56_2-90002-026.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-57-90002-027.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-57-90002-027.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-58-90002-028.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-58-90002-028.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-59-90002-029.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-59-90002-029.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-6-90000-006.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-6-90000-006.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-60-90002-030.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-60-90002-030.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-61-90002-031.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-61-90002-031.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-62-90002-032.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-62-90002-032.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-63-90002-033.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-63-90002-033.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-64-90002-034.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-64-90002-034.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-65-90002-035.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-65-90002-035.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-66-90002-036.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-66-90002-036.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-7-90000-007.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-7-90000-007.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-8-90000-008.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-8-90000-008.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-8a-90000-009.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-8a-90000-009.pdf"
+    },
+    {
+      "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-9-90000-010.pdf",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC_Mtgs_312293887/41-bpr-nsc-hfiles-nsc_mtgs-9-90000-010.pdf"
     },
     {
       "url": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/H-Files/NSC-DC_Mtgs_312294079/41-bpr-nsc-hfiles-dc_mtgs-317-90021-005.pdf",

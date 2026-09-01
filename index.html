@@ -182,32 +182,32 @@
             <p class="kicker">Collection Audit</p>
             <h2 id="nsc-files-title">National Security Council Files</h2>
           </div>
-          <span class="status-stamp">Timothy E. Deal first pass</span>
+          <span class="status-stamp" id="nsc-status">H-Files meeting series</span>
         </div>
-        <p class="records-intro">
-          The Timothy E. Deal Subject Files are the first complete staff series in this section. The document
-          chronology contains item-level candidates only where heading, date, classification, and provenance
-          have been checked; the full ledger keeps every online file unit visible for further selection work.
+        <div id="nsc-collection-tabs" class="nsc-collection-tabs" role="tablist" aria-label="NSC collections"></div>
+        <p class="records-intro" id="nsc-intro">
+          The complete NSC Meetings series is inventoried here, with title and OCR screening used to surface
+          economically pertinent file units for direct or cross-volume review.
         </p>
 
-        <div id="nsc-metrics" class="compiler-metrics" role="group" aria-label="Tim Deal collection metrics"></div>
+        <div id="nsc-metrics" class="compiler-metrics" role="group" aria-label="NSC collection metrics"></div>
 
         <div class="provenance-band" id="nsc-provenance-band">
           <div>
             <p class="kicker">Provenance Authority</p>
-            <h3>Opening PDF marker</h3>
+            <h3 id="nsc-provenance-title">Opening PDF provenance sheet</h3>
           </div>
           <p id="nsc-provenance-summary"></p>
-          <a id="nsc-series-link" href="https://catalog.archives.gov/id/2554810" target="_blank" rel="noreferrer">Open series record</a>
+          <a id="nsc-series-link" href="https://catalog.archives.gov/id/312293887" target="_blank" rel="noreferrer">Open series record</a>
         </div>
 
         <div class="subsection-heading">
           <div>
             <p class="kicker">FRUS Possible Inclusion</p>
-            <h3>Document Chronology</h3>
+            <h3 id="nsc-candidate-title">Volume XXX File Review Chronology</h3>
           </div>
           <div class="subsection-actions">
-            <a href="data/tim-deal-candidates.csv" download>Download candidate CSV</a>
+            <a id="nsc-candidate-download" href="data/nsc-meetings-candidates.csv" download>Download files for review CSV</a>
           </div>
         </div>
         <p id="nsc-candidate-summary" class="records-intro"></p>
@@ -219,15 +219,15 @@
             <h3>File-Unit Ledger</h3>
           </div>
           <div class="subsection-actions">
-            <a href="data/tim-deal-file-units.csv" download>Download all 134 file units</a>
-            <a href="reports/tim-deal-harvest.json">Open harvest report</a>
+            <a id="nsc-file-download" href="data/nsc-meetings-file-units.csv" download>Download all 90 file units</a>
+            <a id="nsc-report-link" href="reports/nsc-meetings-harvest.json">Open harvest report</a>
           </div>
         </div>
         <p class="records-intro nsc-ledger-note">
           File units are ordered by Catalog coverage dates when supplied, otherwise by an OCR-derived working
           span. Those spans support triage only and do not establish the date of any individual document.
         </p>
-        <div class="records-tools nsc-tools" role="search" aria-label="Tim Deal file-unit filters">
+        <div class="records-tools nsc-tools" role="search" aria-label="NSC file-unit filters">
           <label class="search-field">
             <span>Search</span>
             <input id="nsc-search" type="search" placeholder="Folder title, OA/ID, topic, NAID">
@@ -252,7 +252,7 @@
             <button id="nsc-clear" type="button">Reset</button>
             <button id="nsc-download-filtered" class="download-filtered" type="button">Download Filtered CSV</button>
           </div>
-          <p id="nsc-file-summary" class="records-summary" aria-live="polite">Loading Tim Deal ledger...</p>
+          <p id="nsc-file-summary" class="records-summary" aria-live="polite">Loading NSC file-unit ledger...</p>
         </div>
         <div id="nsc-file-root" class="nsc-file-root" aria-live="polite"></div>
       </section>
@@ -369,6 +369,14 @@
           <a href="data/public-references.csv" download>
             <strong>Public references</strong>
             <span>CSV of the initial Public Papers register</span>
+          </a>
+          <a href="data/nsc-meetings-candidates.csv" download>
+            <strong>NSC Meetings files for review</strong>
+            <span>Thirty-five chronological file-unit leads with routing, page extent, locators, and official links</span>
+          </a>
+          <a href="data/nsc-meetings-file-units.csv" download>
+            <strong>NSC Meetings full-series ledger</strong>
+            <span>All 90 file units with chronology, review signals, provenance status, and official links</span>
           </a>
           <a href="data/tim-deal-candidates.csv" download>
             <strong>Tim Deal document candidates</strong>

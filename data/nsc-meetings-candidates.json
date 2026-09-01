@@ -1,0 +1,325 @@
+{
+  "auditScope": "Complete series inventory with economic-policy screening",
+  "auditedFolders": [
+    "90000-003",
+    "90000-005",
+    "90000-006",
+    "90000-008",
+    "90000-009",
+    "90000-010",
+    "90001-018",
+    "90001-023",
+    "90001-024",
+    "90001-029",
+    "90001-030",
+    "90001-031",
+    "90001-032",
+    "90001-033",
+    "90002-001",
+    "90002-002",
+    "90002-003",
+    "90002-004",
+    "90002-006",
+    "90002-007",
+    "90002-008",
+    "90002-009",
+    "90002-010",
+    "90002-011",
+    "90002-014",
+    "90002-015",
+    "90002-016",
+    "90002-017",
+    "90002-019",
+    "90002-021",
+    "90002-022",
+    "90002-023",
+    "90002-024",
+    "90002-029",
+    "90002-033"
+  ],
+  "methodology": "All 90 file units were enumerated from the official NARA Catalog hierarchy and their opening provenance sheets were checked. The entries below were selected after title review and a second full-series NARA OCR sweep for debt, trade, finance, aid, sanctions, energy, Treasury, and related economic-policy signals. Page counts were read from the official PDFs with pdfinfo; they are file-unit extents, not document extents. These records remain archival locators until individual document headings, datelines, terminal markings, and release or withdrawal status are checked in the source images.",
+  "documents": [
+    {
+      "naid": "470760887",
+      "date": "1989-03-14",
+      "pageCount": 102,
+      "selection": "Core",
+      "topics": ["International debt", "International finance", "NSC meeting"],
+      "notes": "Direct Volume XXX review. The file includes an 8-page Secret NSC meeting record identified on the withdrawal/citation sheet, together with agenda, briefing, and follow-up material. Promote individual documents only after source-image review."
+    },
+    {
+      "naid": "470760889",
+      "date": "1989-03-15",
+      "pageCount": 45,
+      "selection": "Boundary",
+      "topics": ["FSX", "Japan", "Technology transfer", "Cross-volume routing"],
+      "notes": "Boundary review. The file concerns the FSX project and includes minutes, draft minutes, an agenda, talking points, and a memorandum from Karl Jackson to Brent Scowcroft. Its primary placement may be a Japan or security volume, but the technology-transfer and industrial-policy record warrants Volume XXX review."
+    },
+    {
+      "naid": "470760890",
+      "date": "1989-03-18",
+      "pageCount": 7,
+      "selection": "Boundary",
+      "topics": ["FSX", "Japan", "Technology transfer", "Cross-volume routing"],
+      "notes": "Boundary review. The file contains a memorandum for the record and NSC meeting minutes on the FSX project. Adjudicate against the Japan and security volumes before inclusion."
+    },
+    {
+      "naid": "470760892",
+      "date": "1989-03-30",
+      "pageCount": 40,
+      "selection": "Core",
+      "topics": ["Western Europe", "Eastern Europe", "Trade", "Economic assistance"],
+      "notes": "Direct Volume XXX review. This meeting-preparation file includes a Secret outline, agendas, presidential talking points, and a March 28 memorandum from Philip Zelikow to Brent Scowcroft. NARA OCR identifies EC trade disputes, Polish and Hungarian debt, and Western economic assistance. Compare with the April 4 meeting file and deduplicate repeated briefing material."
+    },
+    {
+      "naid": "470760893",
+      "date": "1989-04-04",
+      "pageCount": 59,
+      "selection": "Core",
+      "topics": ["Western Europe", "Eastern Europe", "Trade", "Transition assistance"],
+      "notes": "Direct Volume XXX review. The opening inventory identifies a 10-page Top Secret NSC meeting record on relations with Western and Eastern Europe. The packet addresses European integration, U.S.-EC trade disputes, debt, and assistance and refers to a Deputies Committee review of the economic aspects of U.S.-West European relations."
+    },
+    {
+      "naid": "470760894",
+      "date": "1989-04-05",
+      "pageCount": 74,
+      "selection": "Core",
+      "topics": ["Soviet Union", "Trade", "Export credits", "International institutions", "Parallel copy"],
+      "notes": "Direct Volume XXX review. The file identifies an 8-page Top Secret NSC meeting record and the 31-page Secret NSR 3 report. The discussion explicitly covers U.S.-Soviet trade, export credits, COCOM, GATT, and IMF questions. Compare with NSR 3 copies in the Tim Deal files, including NARA Catalog ID 452050608, before creating document-level entries."
+    },
+    {
+      "naid": "470760921",
+      "date": "1989-10-03",
+      "pageCount": 134,
+      "withheldPages": 69,
+      "extentLabel": "134 PDF pages; withdrawal sheets identify 69 Secret pages withheld",
+      "selection": "Core",
+      "topics": ["Poland", "Economic assistance", "NSC meeting", "Declassification queue"],
+      "notes": "Direct Volume XXX review. This supersedes the earlier standalone locator for the same NAID. The existing 22-item withdrawal ledger is retained; released and duplicate copies still require document-level adjudication."
+    },
+    {
+      "naid": "470760926",
+      "date": "1989-11-30",
+      "pageCount": 22,
+      "selection": "Core",
+      "topics": ["Malta Summit", "Soviet Union", "Trade agreement", "Investment", "Technical assistance"],
+      "notes": "Direct Volume XXX review. The file contains two Secret memoranda from Brent Scowcroft to the President and presidential talking points for the Malta discussion. Its economic section addresses a trade agreement, private investment, joint ventures, technical assistance, market reform, and possible IMF or World Bank membership."
+    },
+    {
+      "naid": "470760927",
+      "date": "1989-12-05",
+      "pageCount": 55,
+      "selection": "Core",
+      "topics": ["Malta follow-up", "Soviet Union", "Trade agreement", "Investment", "Export credits"],
+      "notes": "Direct Volume XXX review. The Malta follow-up packet begins with a handwritten note on economic points and includes Secret and Confidential NSC meeting material. NARA OCR identifies trade-agreement negotiations, a bilateral investment treaty, technical economic cooperation, finance and agriculture projects, and export credits and guarantees."
+    },
+    {
+      "naid": "470760932",
+      "date": "1990-01-17",
+      "pageCount": 77,
+      "selection": "Boundary",
+      "topics": ["Panama", "Economic recovery", "Foreign assistance", "International financial institutions"],
+      "notes": "Boundary review. The first Panama packet includes a 14-page economic recovery report, President Endara's request for assistance, and material on arrears to international financial institutions, loans, guarantees, export opportunities, and aid. The Latin America volume may control placement, but the recovery and financing record warrants Volume XXX review."
+    },
+    {
+      "naid": "470760933",
+      "date": "1990-01-17",
+      "pageCount": 71,
+      "selection": "Boundary",
+      "topics": ["Panama", "Economic recovery", "Foreign assistance", "International financial institutions", "Parallel copy"],
+      "notes": "Boundary review. The second Panama packet repeats the economic recovery report and related policy papers, correspondence, and meeting material. Compare with parts 1 and 3 and deduplicate the repeated report and cables at the intellectual-document level."
+    },
+    {
+      "naid": "470760934",
+      "date": "1990-01-17",
+      "pageCount": 35,
+      "selection": "Boundary",
+      "topics": ["Panama", "Economic recovery", "OMB", "Foreign assistance", "Parallel copy"],
+      "notes": "Boundary review. The third Panama packet centers on the OMB recovery paper and its interagency circulation. Review with parts 1 and 2; retain only distinct decision records or materially different versions."
+    },
+    {
+      "naid": "470760935",
+      "date": "1990-01-18",
+      "pageCount": 44,
+      "selection": "Core",
+      "topics": ["International economic policy", "International finance", "NSC meeting", "Parallel copy"],
+      "notes": "Direct Volume XXX review. The first part identifies an 8-page Secret NSC meeting record, a January 17 memorandum from Nicholas Brady to the President, and a policy report. Some material appears to be a parallel copy of records in Michael J. Boskin's NSC Meeting Files, including NARA Catalog ID 492062327; deduplicate at the intellectual-document level."
+    },
+    {
+      "naid": "470760936",
+      "date": "1990-01-18",
+      "pageCount": 43,
+      "selection": "Core",
+      "topics": ["International economic policy", "International finance", "NSC meeting", "Parallel copy"],
+      "notes": "Direct Volume XXX review. The second part continues the January 18 international-economic-policy meeting file. Compare every item with the Boskin NSC Meeting Files before creating document-level entries."
+    },
+    {
+      "naid": "470760939",
+      "date": "1990-02-09",
+      "pageCount": 24,
+      "selection": "Boundary",
+      "topics": ["Philippines", "Military base access", "Debt reduction", "Economic assistance", "Trade"],
+      "notes": "Boundary review. The first East Asia packet identifies an 8-page Secret NSC meeting record and supporting strategy papers. Parts 2 and 3 contain explicit debt-reduction, assistance, and trade-compensation options tied to Philippine base access; adjudicate the packet against the East Asia and security volumes."
+    },
+    {
+      "naid": "470760940",
+      "date": "1990-02-09",
+      "pageCount": 58,
+      "selection": "Boundary",
+      "topics": ["Philippines", "Military base access", "Debt reduction", "Japanese assistance", "Trade"],
+      "notes": "Boundary review. The second East Asia packet includes options for debt reduction, Japanese financial participation, long-term assistance, and non-traditional trade compensation. Review item by item for records that illuminate U.S. debt strategy rather than only the base negotiation."
+    },
+    {
+      "naid": "470760941",
+      "date": "1990-02-09",
+      "pageCount": 55,
+      "selection": "Boundary",
+      "topics": ["Philippines", "Military base access", "Debt reduction", "Japanese assistance", "Trade", "Parallel copy"],
+      "notes": "Boundary review. The third East Asia packet repeats many part 2 papers and adds interagency records. Deduplicate debt-reduction and compensation options across all three parts before promoting any document."
+    },
+    {
+      "naid": "470760942",
+      "date": "1990-02-12",
+      "pageCount": 69,
+      "selection": "Core",
+      "topics": ["COCOM", "Eastern Europe", "Export controls", "NSC meeting"],
+      "notes": "Direct Volume XXX review. The file identifies a 5-page Secret NSC meeting record, duplicate copies, and background material on COCOM policy toward Eastern Europe. Compare with NSR-22 and later directive files before selection."
+    },
+    {
+      "naid": "470760944",
+      "date": "1990-03-29",
+      "pageCount": 57,
+      "selection": "Core",
+      "topics": ["Fiber optics", "Soviet Union", "Technology transfer", "NSC meeting"],
+      "notes": "Direct Volume XXX review. This supersedes the earlier standalone locator for the same NAID. The file identifies a 6-page Secret NSC meeting record and related preparation and follow-up material."
+    },
+    {
+      "naid": "470760945",
+      "date": "1990-04-17",
+      "pageCount": 32,
+      "selection": "Boundary",
+      "topics": ["Lithuania", "Soviet Union", "Economic pressure", "Trade agreement", "Energy"],
+      "notes": "Boundary review. The first Lithuania packet identifies a 7-page Secret NSC meeting record and presidential briefing material. The meeting weighs suspension of the trade, tax, investment, and technical-cooperation agenda and possible energy assistance to Lithuania. Primary placement likely lies in a Soviet or regional volume."
+    },
+    {
+      "naid": "470760946",
+      "date": "1990-04-17",
+      "pageCount": 57,
+      "selection": "Boundary",
+      "topics": ["Lithuania", "Soviet Union", "Economic sanctions", "Oil and gas", "Parallel copy"],
+      "notes": "Boundary review. The second Lithuania packet contains economic-options analysis, energy reporting, and material on possible oil deliveries and suspension of the bilateral economic agenda. Review with part 1 and the April 23 sanctions packet, removing repeated talking points and options papers."
+    },
+    {
+      "naid": "470760947",
+      "date": "1990-04-23",
+      "pageCount": 15,
+      "selection": "Boundary",
+      "topics": ["Lithuania", "Soviet Union", "Sanctions", "Cross-volume routing"],
+      "notes": "Boundary review. The file includes presidential talking points and a memorandum to Brent Scowcroft concerning Lithuania and possible sanctions. Economic-instrument content may support selection, but primary placement likely lies in a regional or Soviet volume."
+    },
+    {
+      "naid": "470760948",
+      "date": "1990-04-30",
+      "pageCount": 72,
+      "selection": "Core",
+      "topics": ["Cape York", "COCOM", "Technology transfer", "NSC meeting"],
+      "notes": "Direct Volume XXX review. The file identifies a 5-page Secret NSC meeting record and follow-up material on Cape York and COCOM. Review alongside NSC0045 and the related directive record."
+    },
+    {
+      "naid": "470760949",
+      "date": "1990-04-30",
+      "pageCount": 73,
+      "selection": "Core",
+      "topics": ["COCOM", "Export controls", "Presidential talking points", "NSC meeting"],
+      "notes": "Direct Volume XXX review. The file contains COCOM notification, agenda and background papers, presidential talking points, and additional briefing points. Check for overlap with NSC0044 and NSD-39."
+    },
+    {
+      "naid": "470760952",
+      "date": "1990-07-25",
+      "pageCount": 85,
+      "selection": "Boundary",
+      "topics": ["Cape York", "Space policy", "Soviet Union", "Technology transfer"],
+      "notes": "Boundary review. The file identifies a 10-page NSC meeting record and agency positions on Cape York, space policy, and the Soviet Union. Retain for strategic-trade review while adjudicating the principal space-policy placement."
+    },
+    {
+      "naid": "470760953",
+      "date": "1990-08-02",
+      "pageCount": 15,
+      "selection": "Boundary",
+      "topics": ["Persian Gulf crisis", "Iraq", "Kuwait", "Economic initiatives", "Treasury"],
+      "notes": "Boundary review. The August 2 agenda assigns Secretary Brady the economic initiatives and calls for diplomatic, economic, and military next steps. The online file is short and may not preserve a complete meeting record, but its economic component should remain visible for Gulf-volume adjudication."
+    },
+    {
+      "naid": "470760954",
+      "date": "1990-08-03",
+      "pageCount": 38,
+      "selection": "Boundary",
+      "topics": ["Persian Gulf crisis", "Iraq", "Kuwait", "Economic sanctions", "Export controls"],
+      "notes": "Boundary review. The file identifies a 12-page Secret NSC meeting record and presidential briefing material. NARA OCR describes economic and energy options, export controls, and sanctions; primary placement likely lies in the Gulf volume."
+    },
+    {
+      "naid": "470760955",
+      "date": "1990-08-04",
+      "pageCount": 16,
+      "selection": "Boundary",
+      "topics": ["Iraqi invasion of Kuwait", "Economic sanctions", "Oil", "NSC meeting"],
+      "notes": "Boundary review. The file contains an 8-page Secret NSC meeting record discussing Iraq's export capacity, sanctions enforcement, and oil. Retain as a compact cross-volume lead."
+    },
+    {
+      "naid": "470760957",
+      "date": "1990-08-06",
+      "pageCount": 20,
+      "selection": "Boundary",
+      "topics": ["Iraqi invasion of Kuwait", "Oil supply", "Financial markets", "Inflation", "Sanctions"],
+      "notes": "Boundary review. The file identifies a 7-page Secret NSC meeting record with discussion by Nicholas Brady and Michael Boskin of oil prices, financial markets, inflation, GNP, import costs, sanctions, and strategic petroleum options. This is the strongest early Gulf-crisis economic meeting lead."
+    },
+    {
+      "naid": "470760959",
+      "date": "1990-08-29",
+      "pageCount": 71,
+      "selection": "Boundary",
+      "topics": ["Persian Gulf crisis", "Economic action plan", "Iraq", "Sanctions"],
+      "notes": "Boundary review. The first part includes records of the August 29 NSC discussion of economic action in the Persian Gulf crisis. Primary placement likely lies in the Gulf volume, but sanctions and burden-sharing content may warrant a Volume XXX document or cross-reference."
+    },
+    {
+      "naid": "470760960",
+      "date": "1990-08-29",
+      "pageCount": 41,
+      "selection": "Boundary",
+      "topics": ["Persian Gulf crisis", "Economic action plan", "Iraq", "Sanctions"],
+      "notes": "Boundary review. The second part contains Gulf economic-action background material and a memorandum involving Brent Scowcroft. Review with part 1 and deduplicate repeated briefing papers."
+    },
+    {
+      "naid": "470760961",
+      "date": "1990-09-20",
+      "pageCount": 47,
+      "selection": "Boundary",
+      "topics": ["Oil supply", "Energy", "Persian Gulf crisis", "NSC meeting"],
+      "notes": "Boundary review. The first part includes a September 20 meeting record, talking points, a proposed Deputies Committee meeting, and a memorandum from Robert Gates. Its energy-market content is pertinent, although the Gulf crisis may control placement."
+    },
+    {
+      "naid": "470760962",
+      "date": "1990-09-20",
+      "pageCount": 62,
+      "selection": "Boundary",
+      "topics": ["Oil supply", "Energy", "Persian Gulf crisis", "Presidential briefing"],
+      "notes": "Boundary review. The second part includes presidential briefing material and memoranda involving Brent Scowcroft and John Sununu. Review with part 1 and route any selected records against the Gulf volume."
+    },
+    {
+      "naid": "470760967",
+      "date": "1991-10-18",
+      "pageCount": 75,
+      "selection": "Boundary",
+      "topics": ["Pan Am 103", "Libya", "Economic sanctions", "Oil", "Cross-volume routing"],
+      "notes": "Boundary review. The file identifies a 14-page Top Secret NSC meeting record and separate papers on current and possible sanctions against Libya, including oil and financial measures. The packet also contains older unrelated material, so document boundaries and provenance must be checked especially carefully."
+    },
+    {
+      "naid": "470760971",
+      "date": "1992-05-28",
+      "pageCount": 64,
+      "selection": "Boundary",
+      "topics": ["Haiti", "Economic sanctions", "Oil resupply", "NSC meeting", "Cross-volume routing"],
+      "notes": "Boundary review. The file identifies an 11-page Secret NSC meeting record, an options paper, and a report on oil resupply after the Haitian coup. Review for sanctions-policy content while routing the principal record to the appropriate regional volume."
+    }
+  ]
+}

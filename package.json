@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "harvest:nsc-meetings": "node scripts/harvest-nsc-meetings.js",
     "harvest:tim-deal": "node scripts/harvest-tim-deal.js",
     "build:data": "node scripts/build-data.js",
     "validate": "node scripts/validate-data.js",
