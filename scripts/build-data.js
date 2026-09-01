@@ -29,6 +29,7 @@ const dealReissCandidatesPath = path.join(root, "data", "deal-reiss-candidates.j
 const dealReissFileUnitsPath = path.join(root, "data", "deal-reiss-file-units.json");
 const dealChronCandidatesPath = path.join(root, "data", "deal-chron-candidates.json");
 const dealChronFileUnitsPath = path.join(root, "data", "deal-chron-file-units.json");
+const gatesMiddleEastAudit = require("./gates-middle-east-file-audit");
 
 if (!fs.existsSync(westernEuropePath)) {
   throw new Error(`Missing source register: ${westernEuropePath}`);
@@ -765,6 +766,12 @@ const sourceCollections = [
     url: "https://catalog.archives.gov/id/2554807",
   },
   {
+    name: "Robert M. Gates Subject Files",
+    owner: "National Archives Catalog",
+    role: "Selected 125-page Middle East - Economic Strategy [1] file audit with complete page accounting, item-level release evidence, and cross-collection duplicate review; not a full-series survey",
+    url: "https://catalog.archives.gov/id/2554843",
+  },
+  {
     name: "Bush Memcons and Telcons index",
     owner: "George H.W. Bush Presidential Library",
     role: "Official presidential-conversation discovery table",
@@ -863,7 +870,7 @@ const gaps = [
     priority: "Critical",
     title: "Treasury and Secretary Brady international files remain underrepresented",
     scope: "Monetary, debt, and institutions chapter",
-    action: "Build an item-level register for debt strategy, exchange rates, G-5/G-7 finance, IMF, World Bank, and transition-finance decisions.",
+    action: "Use the Brady burden-sharing memorandum and Robson Egypt-debt transmittal now recovered in CF00946-002 as anchors, then build an item-level register for debt strategy, exchange rates, G-5/G-7 finance, IMF, World Bank, and transition-finance decisions.",
   },
   {
     id: "gap-fed",
@@ -891,7 +898,14 @@ const gaps = [
     priority: "High",
     title: "Most online file units still lack document-boundary audits",
     scope: "Online NARA PDFs",
-    action: "Audit the 95 Scowcroft, 4 IF Transition, 33 NSD, 21 NSR, 79 NSC/Deputies Committee, 29 DC follow-up, 35 NSC Meetings, 17 Deal Summit Briefing Books, 25 Deal-Reiss Economic Summit, and 96 Deal Chronological leads document by document, then continue the Tim Deal Subject Files workflow across the remaining 131 file units: split documents, verify markings, deduplicate companion and parallel copies, and retain exact withdrawal extents.",
+    action: "Audit the 95 Scowcroft, 4 IF Transition, 33 NSD, 21 NSR, 79 NSC/Deputies Committee, 29 DC follow-up, 35 NSC Meetings, 17 Deal Summit Briefing Books, 25 Deal-Reiss Economic Summit, and 96 Deal Chronological leads document by document, then continue the Tim Deal Subject Files workflow across the remaining 131 file units and the Gates Subject Files beyond the completed CF00946-002 audit: split documents, verify markings, deduplicate companion and parallel copies, and retain exact withdrawal extents.",
+  },
+  {
+    id: "gap-gates-subject-files",
+    priority: "High",
+    title: "Robert M. Gates Subject Files coverage is currently a selected-file audit",
+    scope: "NSC staff files",
+    action: "Enumerate the full NAID 2554843 series, prioritize neighboring Middle East - Economic Strategy files and international-economic subject folders, and apply the same page accounting and controlling-copy review used for CF00946-002.",
   },
   {
     id: "gap-memcons",
@@ -928,6 +942,8 @@ const timDealDocumentRecords = timDealCandidates.documents.map((record) => ({
   collectionId: "tim-deal",
   provenanceMethod: "Opening PDF provenance marker",
 }));
+
+const gatesMiddleEastDocumentRecords = gatesMiddleEastAudit.documents;
 
 const nscMeetingUnitByNaid = new Map(nscMeetingsFileUnits.fileUnits.map((fileUnit) => [fileUnit.naid, fileUnit]));
 const existingLeadByNaid = new Map(leadRecords.map((record) => [record.naid, record]));
@@ -1387,6 +1403,7 @@ const allRecords = [
   ...dealSummitDocumentRecords,
   ...dealReissDocumentRecords,
   ...dealChronDocumentRecords,
+  ...gatesMiddleEastDocumentRecords,
   ...remainingLeadRecords,
 ]
   .map((record) => {
@@ -1630,6 +1647,32 @@ const data = {
       fileUnitsCsvUrl: "data/tim-deal-file-units.csv",
       reportUrl: "reports/tim-deal-harvest.json",
     },
+    {
+      id: "gates-middle-east",
+      ...gatesMiddleEastAudit.collection,
+      statusLabel: "Selected Robert M. Gates Subject Files audit",
+      intro:
+        "One 125-page Gates Subject Files folder has been audited page by page as a compiler-ready test case. Eleven dated documents are promoted with verified FRUS-style Source Notes; the complete 23-item opening inventory remains visible with page ranges, release disposition, and duplicate-copy warnings. This tab does not imply full coverage of the Gates series.",
+      provenanceTitle: "Opening PDF provenance marker and complete page accounting",
+      markerMetricDetail: "1 complete; 0 opening-marker exceptions; every served-PDF page assigned",
+      corpusSizeNote: "125 served-PDF pages; Catalog metadata is one byte larger than the measured file",
+      provenanceQualifier:
+        "The opening marker identifies Gates, Robert M., Files; Subject Files; and Folder ID CF00946-002. Published FRUS form is used in the document Source Notes as Robert M. Gates Files, Subject Files. The 23 listed items account for 113 document pages; three later release sheets, one three-page unlisted Treasury set, and two unlisted NSC administrative pages are separately disclosed.",
+      markerFieldSummary: "the record group, office, Gates series, Subject Files subseries, and folder ID",
+      candidateLabel: "Gates document candidates",
+      candidateTitle: "Middle East Economic Strategy Document Chronology",
+      candidateSummary:
+        "11 dated document candidates totaling 56 pages, ordered by document date: 6 Core and 5 Consider. All 11 headings, datelines, document boundaries, terminal markings, and Source Notes have been checked against the source images. The duplicate August 29 NSC packet remains in the file ledger and points to the H-Files instead of appearing here a second time.",
+      auditScope: "Complete page-level audit of NAID 470437043 only",
+      auditedFolders: ["CF00946-002"],
+      candidateCount: gatesMiddleEastDocumentRecords.length,
+      candidateIds: gatesMiddleEastDocumentRecords.map((record) => record.id),
+      fileUnits: [gatesMiddleEastAudit.fileUnit],
+      candidateMethodology: gatesMiddleEastAudit.collection.methodology,
+      candidateCsvUrl: "data/gates-middle-east-candidates.csv",
+      fileUnitsCsvUrl: "data/gates-middle-east-file-units.csv",
+      reportUrl: "reports/gates-middle-east-470437043-audit.json",
+    },
   ],
   publicReferences: publicReferences.sort((a, b) => a.date.localeCompare(b.date)),
   sourceCollections,
@@ -1641,6 +1684,23 @@ const dataDir = path.join(root, "data");
 fs.mkdirSync(dataDir, { recursive: true });
 fs.writeFileSync(path.join(dataDir, "volume.json"), `${JSON.stringify(data, null, 2)}\n`);
 fs.writeFileSync(path.join(dataDir, "volume.js"), `window.VOLUME_DATA = ${JSON.stringify(data, null, 2)};\n`);
+fs.writeFileSync(
+  path.join(dataDir, "gates-middle-east-candidates.json"),
+  `${JSON.stringify({
+    auditScope: "Complete page-level audit of NAID 470437043 only",
+    auditedFolders: ["CF00946-002"],
+    methodology: gatesMiddleEastAudit.collection.methodology,
+    documents: gatesMiddleEastDocumentRecords,
+  }, null, 2)}\n`,
+);
+fs.writeFileSync(
+  path.join(dataDir, "gates-middle-east-file-units.json"),
+  `${JSON.stringify({ collection: gatesMiddleEastAudit.collection, fileUnits: [gatesMiddleEastAudit.fileUnit] }, null, 2)}\n`,
+);
+fs.writeFileSync(
+  path.join(root, "reports", "gates-middle-east-470437043-audit.json"),
+  `${JSON.stringify(gatesMiddleEastAudit.audit, null, 2)}\n`,
+);
 fs.writeFileSync(path.join(dataDir, "records.csv"), toCsv(allRecords, [
   "id",
   "date",
@@ -2395,8 +2455,87 @@ fs.writeFileSync(path.join(dataDir, "tim-deal-file-units.csv"), toCsv(timDealFil
   "pdfUrl",
 ]));
 
+fs.writeFileSync(path.join(dataDir, "gates-middle-east-candidates.csv"), toCsv(gatesMiddleEastDocumentRecords, [
+  "id",
+  "item",
+  "date",
+  "sortDate",
+  "title",
+  "heading",
+  "dateline",
+  "type",
+  "chapter",
+  "selection",
+  "releaseStatus",
+  "pageCount",
+  "extentLabel",
+  "classification",
+  "naid",
+  "localId",
+  "sourceNoteStatus",
+  "sourceNoteBasis",
+  "sourceNote",
+  "topics",
+  "notes",
+  "catalogUrl",
+  "pdfUrl",
+]));
+fs.writeFileSync(path.join(dataDir, "gates-middle-east-file-units.csv"), toCsv([{
+  ...flattenFileUnit(gatesMiddleEastAudit.fileUnit),
+  pageAccounting: JSON.stringify(gatesMiddleEastAudit.fileUnit.pageAccounting),
+  withdrawalInventory: JSON.stringify(gatesMiddleEastAudit.fileUnit.withdrawalItems),
+}], [
+  "naid",
+  "workingStartDate",
+  "workingEndDate",
+  "workingDateLabel",
+  "dateBasis",
+  "title",
+  "localId",
+  "seriesNaid",
+  "seriesTitle",
+  "chapter",
+  "selection",
+  "routing",
+  "reviewTopics",
+  "reviewFocus",
+  "reviewKeyExtent",
+  "markerStatus",
+  "markerSeries",
+  "markerSubseries",
+  "hasOnlinePdf",
+  "pdfPages",
+  "pdfBytes",
+  "catalogPdfBytes",
+  "pdfByteBasis",
+  "accessStatus",
+  "ocrCharacterCount",
+  "memosToPresident",
+  "memosToScowcroft",
+  "memorandaOfConversation",
+  "meetingRecords",
+  "withdrawalSheets",
+  "economicSignalTotal",
+  "economySignals",
+  "financeSignals",
+  "tradeSignals",
+  "assistanceSanctionsSignals",
+  "energySignals",
+  "agricultureSignals",
+  "treasurySignals",
+  "withdrawalSheetItemCount",
+  "withdrawalSheetPages",
+  "releasedInPartSheetCount",
+  "pageAccounting",
+  "withdrawalInventory",
+  "archivalLocator",
+  "provenanceStem",
+  "catalogUrl",
+  "pdfUrl",
+]));
+
 console.log(
-  `Built ${allRecords.length} candidate records, ${scowcroftFileUnits.fileUnits.length} Scowcroft file units, ${dealSummitFileUnits.fileUnits.length} Deal Summit file units, ${dealReissFileUnits.fileUnits.length} Deal-Reiss file units, ${dealChronFileUnits.fileUnits.length} Deal Chronological file units, ${ifTransitionFileUnits.fileUnits.length} IF Transition file units, ${nsdFileUnits.fileUnits.length} NSD file units, ${nsrFileUnits.fileUnits.length} NSR file units, ${nscDcFollowUpFileUnits.fileUnits.length} NSC/DC follow-up file units, ${nscDcMeetingsFileUnits.fileUnits.length} NSC/DC file units, ${nscMeetingsFileUnits.fileUnits.length} NSC Meeting file units, ${timDealFileUnits.fileUnits.length} Tim Deal file units, ${publicReferences.length} public references, and ${gaps.length} gap entries.`,
+  `Built ${allRecords.length} candidate records, ${scowcroftFileUnits.fileUnits.length} Scowcroft file units, ${dealSummitFileUnits.fileUnits.length} Deal Summit file units, ${dealReissFileUnits.fileUnits.length} Deal-Reiss file units, ${dealChronFileUnits.fileUnits.length} Deal Chronological file units, ${ifTransitionFileUnits.fileUnits.length} IF Transition file units, ${nsdFileUnits.fileUnits.length} NSD file units, ${nsrFileUnits.fileUnits.length} NSR file units, ${nscDcFollowUpFileUnits.fileUnits.length} NSC/DC follow-up file units, ${nscDcMeetingsFileUnits.fileUnits.length} NSC/DC file units, ${nscMeetingsFileUnits.fileUnits.length} NSC Meeting file units, ${timDealFileUnits.fileUnits.length} Tim Deal file units, ${gatesMiddleEastDocumentRecords.length} Gates Middle East document candidates, ${publicReferences.length} public references, and ${gaps.length} gap entries.`,
 );
 
 function toCsv(rows, fields) {

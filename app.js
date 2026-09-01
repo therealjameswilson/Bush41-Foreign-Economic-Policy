@@ -367,16 +367,18 @@ function createWithdrawalLedger(record) {
   details.className = "withdrawal-ledger";
   const summary = document.createElement("summary");
   const total = record.withdrawalItems.reduce((sum, item) => sum + item.pages, 0);
-  summary.textContent = `${record.withdrawalItems.length}-item withdrawal ledger (${total} pages)`;
+  summary.textContent = `${record.withdrawalItems.length}-item ${record.ledgerLabel || "withdrawal ledger"} (${total} pages)`;
   const tableWrap = document.createElement("div");
   tableWrap.className = "table-wrap";
   const table = document.createElement("table");
   const showDate = record.withdrawalItems.some((item) => item.date);
+  const showPdfPages = record.withdrawalItems.some((item) => item.pdfPageRange);
   const showRestriction = record.withdrawalItems.some((item) => item.restriction);
   const showDisposition = record.withdrawalItems.some(
     (item) => item.sheetDisposition || item.canonicalMatch || item.possibleDuplicateMatch || item.crossCollectionMatch,
   );
   const headings = ["Item", "Description"];
+  if (showPdfPages) headings.push("PDF pages");
   if (showDate) headings.push("Date");
   if (showRestriction) headings.push("Restriction");
   if (showDisposition) headings.push("Sheet disposition and duplicate check");
@@ -386,6 +388,7 @@ function createWithdrawalLedger(record) {
   record.withdrawalItems.forEach((item) => {
     const tr = document.createElement("tr");
     const cells = [item.item || item.itemNumber, item.title];
+    if (showPdfPages) cells.push(item.pdfPageRange || "Not stated");
     if (showDate) cells.push(item.date || "Not stated");
     if (showRestriction) cells.push(item.restriction || "Not stated");
     if (showDisposition) {
@@ -891,6 +894,7 @@ function createNscFileUnitRow(row) {
   details.append(signalNote, actions);
   body.append(title, meta, signals, details);
   if (row.economicSubjectLeads?.length) body.append(createSubjectLeadLedger(row));
+  if (row.withdrawalItems?.length) body.append(createWithdrawalLedger(row));
 
   const links = document.createElement("div");
   links.className = "record-links";
