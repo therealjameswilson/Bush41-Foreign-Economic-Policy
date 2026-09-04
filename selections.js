@@ -1,6 +1,7 @@
 (() => {
   const volume = window.VOLUME_DATA;
   const selection = volume.proposedSelections;
+  const model = selection.editorialModel;
   const records = selection.recordIds.map(id => volume.records.find(record => record.id === id));
   const root = document.querySelector('#proposals-root');
   const search = document.querySelector('#proposal-search');
@@ -24,14 +25,57 @@
     return element;
   };
   const pageLabel = record => record.pdfPageStart === record.pdfPageEnd ? `PDF page ${record.pdfPageStart}` : `PDF pages ${record.pdfPageStart}–${record.pdfPageEnd}`;
+  const exampleFor = id => model.examples.find(example => example.id === id);
+  const modelReferences = ids => {
+    const references = node('p', '', 'model-references');
+    references.append(node('span', 'Carter volume examples: '));
+    ids.forEach((id, index) => {
+      const example = exampleFor(id);
+      if (index) references.append(document.createTextNode(' · '));
+      references.append(anchor(`Document ${example.number}`, example.url));
+    });
+    return references;
+  };
   const packet = record => [record.heading, record.dateline, record.sourceNote,
     `Proposed treatment: ${record.proposalKind}. ${record.scowcroftRole}.`,
     `Release status: ${record.releaseStatus}.`,
     ...(record.institutions?.length ? [`Institutions and mechanisms: ${record.institutions.join('; ')}.`] : []),
     `Why select: ${record.selectionRationale}`, `Evidence: ${record.evidenceNotes}`,
+    `Decision role: ${record.editorialAssessment.role}.`,
+    `Model-based assessment: ${record.editorialAssessment.assessment}`,
+    `Next evidence to seek: ${record.editorialAssessment.followUp}`,
+    `Editorial models: ${record.editorialAssessment.exampleIds.map(id => { const example = exampleFor(id); return `Carter volume, Document ${example.number}: ${example.url}`; }).join('; ')}`,
     `Editorial review: ${record.editorialReview}`, `Date basis: ${record.dateBasis}`,
     `Extent: ${record.extentLabel}`, `Provenance, PDF page 1: ${record.provenanceUrl}`,
     `Document, ${pageLabel(record)}: ${record.documentUrl}`, `Catalog: ${record.catalogUrl}`].join('\n\n');
+
+  const modelRoot = document.querySelector('#editorial-model-root');
+  modelRoot.append(node('p', model.intro), node('p', model.adaptation, 'model-boundary'));
+  const basis = node('p', '', 'model-references');
+  basis.append(anchor('Volume preface', model.prefaceUrl), document.createTextNode(' · '), anchor('Volume sources', model.sourcesUrl));
+  modelRoot.append(basis);
+  const principles = node('div', '', 'model-principles');
+  model.principles.forEach(item => {
+    const section = node('section');
+    section.append(node('h4', item.title), node('p', item.text), anchor('Model reference', item.sourceUrl));
+    principles.append(section);
+  });
+  modelRoot.append(principles, node('h4', 'Examples from the model volume'));
+  const examples = node('div', '', 'model-examples');
+  model.examples.forEach(item => {
+    const example = node('article', '', 'model-example');
+    example.id = `model-${item.id}`;
+    const heading = node('h5'); heading.append(anchor(`${item.number}. ${item.label}`, item.url));
+    const application = node('p'); application.append(node('strong', 'For the Bush compilation: '), document.createTextNode(item.application));
+    example.append(heading, node('p', item.date, 'model-date'), node('p', item.lesson), application);
+    examples.append(example);
+  });
+  modelRoot.append(examples, node('h4', 'Next research priorities'));
+  const priorities = node('ul', '', 'model-priorities');
+  model.researchPriorities.forEach(item => {
+    const row = node('li'); row.append(node('strong', `${item.title}. `), document.createTextNode(item.text), modelReferences(item.exampleIds)); priorities.append(row);
+  });
+  modelRoot.append(priorities);
 
   const overview = document.querySelector('#proposal-overview');
   [[records.filter(record => record.proposalKind === 'Document').length, 'proposed documents'],
@@ -54,6 +98,11 @@
     article.append(meta, heading, node('p', `${record.sender} → ${record.recipient}`, 'proposal-correspondents'));
     if (record.institutions?.length) article.append(node('p', record.institutions.join(' · '), 'proposal-institutions'));
     article.append(node('p', record.selectionRationale, 'proposal-rationale'));
+    const assessment = record.editorialAssessment;
+    const review = node('details', '', 'proposal-model-review');
+    const followUp = node('p'); followUp.append(node('strong', 'Next evidence to seek: '), document.createTextNode(assessment.followUp));
+    review.append(node('summary', `Editorial assessment · ${assessment.role}`), node('p', assessment.assessment), followUp, modelReferences(assessment.exampleIds));
+    article.append(review);
 
     const citation = node('div', '', 'proposal-citation');
     citation.append(node('p', 'Proposed FRUS heading and Source Note', 'proposal-label'),
@@ -99,7 +148,7 @@
   function render() {
     const terms = search.value.toLowerCase().trim().split(/\s+/).filter(Boolean);
     const filtered = records.filter(record => {
-      const haystack = [record.title, record.heading, record.sender, record.recipient, record.dateline, record.displayDateLabel, record.sourceNote, record.selectionRationale, record.evidenceNotes, record.institutions?.join(' '), record.naid, record.localId].join(' ').toLowerCase();
+      const haystack = [record.title, record.heading, record.sender, record.recipient, record.dateline, record.displayDateLabel, record.sourceNote, record.selectionRationale, record.evidenceNotes, record.institutions?.join(' '), record.editorialAssessment.role, record.editorialAssessment.assessment, record.editorialAssessment.followUp, record.naid, record.localId].join(' ').toLowerCase();
       return (!pass.value || (record.selectionPass || 'initial') === pass.value) && (!person.value || record.scowcroftRole === person.value) && (!treatment.value || record.proposalKind === treatment.value) && terms.every(term => haystack.includes(term));
     });
     root.replaceChildren(...filtered.map(card));

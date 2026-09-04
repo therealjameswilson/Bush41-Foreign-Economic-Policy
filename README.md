@@ -16,6 +16,11 @@ The institutions pass adds 30 item-level records, with 24 directly to or from Sc
 
 - Editorial input: `data/frus-selections-source.json`; enrichment and exports: `scripts/frus-selections.js` through `npm run build:data`.
 - Downloads: `data/frus-selections.md`, `data/frus-selections.csv`, and `data/frus-selections.json`.
+
+The selection model is [FRUS, 1977–1980, Volume III, Foreign Economic Policy](https://history.state.gov/historicaldocuments/frus1977-80v03). A visible, downloadable guide draws on its preface, source discussion, and seven documents (146, 163, 233, 258, 262, 273, and 304). All 41 proposals now identify their role in a policy decision, an individual editorial assessment, and the next evidence to seek. The guide favors consequential choices, comparison across economic agencies, and connections between advice, negotiation, and disposition; it also identifies where extracts or annotation may suffice. These are working judgments, not changes to source verification or final selection decisions. Carter examples are editorial models, not provenance for Bush documents. The single Bush chronology and NARA first-page provenance remain controlling.
+
+- Editorial model and assessments: `data/frus-editorial-model.json`; downloadable guide: `data/frus-editorial-model.md`.
+- Proposal JSON, CSV, Markdown, and copy actions include the individual assessments and links to their Carter-volume examples.
 - Audit: `reports/frus-selections-source-audit.json`, including Catalog-to-object matches, downloaded-PDF hashes, and exact visual-review scope. Thumbnail images are rendered from official PDF first pages; originals remain at NARA.
 - Validation: `npm run validate:selections` checks provenance chains, page bounds, chronology/export agreement, undated status, authorship, and the documented classification exceptions.
 

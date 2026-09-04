@@ -1506,6 +1506,7 @@ const data = {
     reviewedOn: frusSelections.source.reviewedOn,
     scope: frusSelections.source.scope,
     method: frusSelections.source.method,
+    editorialModel: frusSelections.editorialModel,
     sources: frusSelections.source.sources,
     recordIds: allRecords.filter(record => record.proposalId).map(record => record.id),
   },
@@ -1815,10 +1816,17 @@ fs.writeFileSync(path.join(dataDir, "volume.json"), `${JSON.stringify(data, null
 fs.writeFileSync(path.join(dataDir, "volume.js"), `window.VOLUME_DATA = ${JSON.stringify(data, null, 2)};\n`);
 const proposedRecords = allRecords.filter(record => record.proposalId);
 fs.writeFileSync(path.join(dataDir, "frus-selections.json"), `${JSON.stringify({ ...data.proposedSelections, records: proposedRecords }, null, 2)}\n`);
-fs.writeFileSync(path.join(dataDir, "frus-selections.csv"), toCsv(proposedRecords, [
-  "id", "title", "heading", "dateline", "datePrecision", "dateBasis", "sortDate", "sender", "recipient", "scowcroftRole", "selectionPass", "institutions", "type", "displayDateLabel", "proposalKind", "priority", "selectionRationale", "sourceNote", "classification", "markingNote", "releaseStatus", "pdfPageStart", "pdfPageEnd", "extentLabel", "evidenceNotes", "editorialReview", "relatedIds", "naid", "localId", "catalogUrl", "provenanceUrl", "documentUrl",
+fs.writeFileSync(path.join(dataDir, "frus-selections.csv"), toCsv(proposedRecords.map(record => ({
+  ...record,
+  decisionRole: record.editorialAssessment.role,
+  modelAssessment: record.editorialAssessment.assessment,
+  modelFollowUp: record.editorialAssessment.followUp,
+  modelDocumentUrls: record.editorialAssessment.exampleIds.map(id => frusSelections.editorialModel.examples.find(example => example.id === id).url),
+})), [
+  "id", "title", "heading", "dateline", "datePrecision", "dateBasis", "sortDate", "sender", "recipient", "scowcroftRole", "selectionPass", "institutions", "type", "displayDateLabel", "proposalKind", "priority", "selectionRationale", "sourceNote", "classification", "markingNote", "releaseStatus", "pdfPageStart", "pdfPageEnd", "extentLabel", "evidenceNotes", "editorialReview", "relatedIds", "naid", "localId", "catalogUrl", "provenanceUrl", "documentUrl", "decisionRole", "modelAssessment", "modelFollowUp", "modelDocumentUrls",
 ]));
 fs.writeFileSync(path.join(dataDir, "frus-selections.md"), `${frusSelections.selectionPacket(proposedRecords)}\n`);
+fs.writeFileSync(path.join(dataDir, "frus-editorial-model.md"), `${frusSelections.modelGuide()}\n`);
 fs.writeFileSync(
   path.join(dataDir, "gates-middle-east-candidates.json"),
   `${JSON.stringify({

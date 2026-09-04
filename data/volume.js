@@ -41,6 +41,138 @@ window.VOLUME_DATA = {
     "reviewedOn": "2026-09-04",
     "scope": "41 document-level proposals from 16 official file-unit PDFs, January 1989–March 1992: 37 for document treatment and four for annotation. The latest 30 emphasize U.S. policy toward international financial institutions, including IMF resources, development-bank voting, EBRD design, and development-finance coordination. This selective set does not claim complete coverage of the administration or any collection.",
     "method": "Read the official PDF’s first page for archival provenance, then inspect each selected document and its final page for authorship, date, boundaries, classification, and release evidence. Preserve redactions, draft and uncertain-date status, and distinguish proposed excerpts from complete documents. Editorial proposals remain subject to compiler judgment and comparison of controlling copies.",
+    "editorialModel": {
+      "id": "frus1977-80v03",
+      "title": "Foreign Relations, 1977–1980, Volume III, Foreign Economic Policy",
+      "url": "https://history.state.gov/historicaldocuments/frus1977-80v03",
+      "prefaceUrl": "https://history.state.gov/historicaldocuments/frus1977-80v03/preface",
+      "sourcesUrl": "https://history.state.gov/historicaldocuments/frus1977-80v03/sources",
+      "reviewedOn": "2026-09-04",
+      "intro": "Use the Carter foreign economic policy volume as an editorial model for explaining U.S. choices about the international economic system. The current emphasis is on financial institutions: their resources, lending rules, governance, and the U.S. decisions that shaped them.",
+      "adaptation": "These are working editorial judgments for the Bush compilation. The Carter examples illustrate selection and annotation methods; they are not evidence for events in 1989–1992. The Bush proposals retain one continuous chronology and their own first-page NARA PDF provenance.",
+      "principles": [
+        {
+          "title": "Select a consequential choice",
+          "text": "Ask what options were available, who advocated them, what was at stake, and what the President or responsible principal decided. A Scowcroft memorandum merits space when it explains that process.",
+          "sourceUrl": "https://history.state.gov/historicaldocuments/frus1977-80v03/preface"
+        },
+        {
+          "title": "Read across the economic agencies",
+          "text": "Pursue Treasury, State, USTR, CEA, OMB, and, for monetary issues, Federal Reserve and U.S. executive-director records alongside NSC papers. Compare the responsible agency’s case with Scowcroft’s advice.",
+          "sourceUrl": "https://history.state.gov/historicaldocuments/frus1977-80v03/sources"
+        },
+        {
+          "title": "Connect advice to negotiation and disposition",
+          "text": "Build a sequence from the originating proposal through interagency disagreement, instructions, and a record of bargaining or disposition. Use annotation to connect supporting papers and public outcomes; identify a missing meeting record or unmarked decision explicitly.",
+          "sourceUrl": "https://history.state.gov/historicaldocuments/frus1977-80v03/d233"
+        },
+        {
+          "title": "Keep the institutional question in view",
+          "text": "Select country-specific material when it explains a wider lending rule, voting precedent, debt strategy, or division of responsibility. Use clearly marked extracts where the rest belongs in a regional volume. Preserve the broader monetary, trade, summit, and development-policy remit.",
+          "sourceUrl": "https://history.state.gov/historicaldocuments/frus1977-80v03/preface"
+        }
+      ],
+      "examples": [
+        {
+          "id": "d146",
+          "number": 146,
+          "label": "Bonn summit minutes",
+          "date": "July 16, 1978",
+          "lesson": "The minutes preserve exchanges among leaders about monetary arrangements. The edition marks omissions and routes the energy discussion to the energy volume.",
+          "application": "For Paris and Houston, pair briefing papers with the actual economic discussions and identify the institutional passages to retain.",
+          "url": "https://history.state.gov/historicaldocuments/frus1977-80v03/d146"
+        },
+        {
+          "id": "d163",
+          "number": 163,
+          "label": "Strauss to Carter: Tokyo Round assessment",
+          "date": "September 22, 1978",
+          "lesson": "A trade negotiator explains the bargain abroad and the coalition needed for congressional approval at home.",
+          "application": "Seek equivalent Uruguay Round choices, including agriculture, subsidies, concessions, and domestic authority; summit references alone do not complete the trade record.",
+          "url": "https://history.state.gov/historicaldocuments/frus1977-80v03/d163"
+        },
+        {
+          "id": "d233",
+          "number": 233,
+          "label": "Miller: proposed IMF substitution account",
+          "date": "February 28, 1980",
+          "lesson": "The paper specifies U.S. exposure, safeguards, and negotiating conditions. Annotation reports that no meeting record was found and follows the proposal to suspension.",
+          "application": "For IMF quotas and EBRD design, retain financial terms and political authority; distinguish a recommended position from a concluded agreement.",
+          "url": "https://history.state.gov/historicaldocuments/frus1977-80v03/d233"
+        },
+        {
+          "id": "d258",
+          "number": 258,
+          "label": "Bergsten to Blumenthal: IDA V negotiations",
+          "date": "February 28, 1977",
+          "lesson": "A Treasury negotiating report connects donor commitments to congressional appropriations. Notes supply the earlier instructions and later agreement.",
+          "application": "For IDA, IMF resources, and the Multilateral Investment Fund, trace pledges, appropriations, other donors’ conditions, and the eventual disposition.",
+          "url": "https://history.state.gov/historicaldocuments/frus1977-80v03/d258"
+        },
+        {
+          "id": "d262",
+          "number": 262,
+          "label": "Christopher to Carter: IFI voting and human rights",
+          "date": "April 1, 1977",
+          "lesson": "An extract isolates the institutional voting issue from an evening report. Annotation records presidential marginalia and the subsequent legislative result.",
+          "application": "For China, Brazil, and the Philippines, make the general lending or voting principle explicit and retain omission markers in any proposed extract.",
+          "url": "https://history.state.gov/historicaldocuments/frus1977-80v03/d262"
+        },
+        {
+          "id": "d273",
+          "number": 273,
+          "label": "PRC conclusions on North–South strategy",
+          "date": "July 27, 1977",
+          "lesson": "The record identifies participants, policy questions, conclusions, and assigned work. Its source note separately establishes presidential approval of the summary.",
+          "application": "For U.S. loan-review procedures, look for agreed instructions and later adjudication; an administrative meeting arrangement is supporting evidence.",
+          "url": "https://history.state.gov/historicaldocuments/frus1977-80v03/d273"
+        },
+        {
+          "id": "d304",
+          "number": 304,
+          "label": "Blumenthal to Carter: development-bank strategy",
+          "date": "May 19, 1978",
+          "lesson": "A Treasury decision paper compares IDA, IBRD, and IDB commitments, State’s alternative, and budget costs. Editorial notes state where Carter left recommendations unmarked.",
+          "application": "Favor papers that connect institutions and explain alternatives, funding, and U.S. influence. Blank approval lines must remain unresolved.",
+          "url": "https://history.state.gov/historicaldocuments/frus1977-80v03/d304"
+        }
+      ],
+      "researchPriorities": [
+        {
+          "title": "Complete the institutional decision sequences",
+          "text": "Find Treasury instructions, executive-director positions, board votes, and signed presidential or principals’ dispositions for the IMF, EBRD, and development-bank episodes already proposed. These are follow-up targets, not additional verified selections.",
+          "exampleIds": [
+            "d233",
+            "d258",
+            "d273"
+          ]
+        },
+        {
+          "title": "Compare the financial agencies’ own records",
+          "text": "Use Scowcroft’s files to locate disagreements, then seek the originating Treasury and State analyses and relevant OMB, CEA, Federal Reserve, or executive-director material. Do not infer that a parallel record exists or is released.",
+          "exampleIds": [
+            "d233",
+            "d304"
+          ]
+        },
+        {
+          "title": "Give trade and monetary policy their own decision records",
+          "text": "Extend the current institution-heavy proposal set with verified papers on Uruguay Round negotiating choices, exchange-rate coordination, and international monetary arrangements. Retain the project’s established cross-volume routing for Canada and Mexico.",
+          "exampleIds": [
+            "d146",
+            "d163"
+          ]
+        },
+        {
+          "title": "Connect debt and development to system-wide policy",
+          "text": "Seek choices over concessional resources, creditor burden-sharing, development-bank mandates, and commodity mechanisms where the Bush record establishes their importance. A counterpart to every Carter topic is not required.",
+          "exampleIds": [
+            "d258",
+            "d304"
+          ]
+        }
+      ]
+    },
     "sources": [
       {
         "id": "91139-001",
@@ -1459,6 +1591,14 @@ window.VOLUME_DATA = {
       "provenanceMethod": "Opening PDF provenance marker and document source images",
       "notes": "Three-page action memorandum, initialed by Farrar and stamped as seen by the National Security Adviser. The approval and disapproval lines on PDF page 7 are blank. No classification marking appears on the selected pages.",
       "proposalId": "ifi-1989-01-31-g7",
+      "editorialAssessment": {
+        "role": "Negotiating position",
+        "exampleIds": [
+          "d233"
+        ],
+        "assessment": "Use as an opening statement of U.S. preferences on Fund resources, debt guarantees, and surveillance. It shows proposed resistance and alternatives before the strategy matured.",
+        "followUp": "Find Treasury’s position and the instructions or decisions adopted after this recommendation."
+      },
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
@@ -2411,6 +2551,15 @@ window.VOLUME_DATA = {
       "documentUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-002.pdf#page=24",
       "provenanceUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-002.pdf#page=1",
       "proposalId": "deal-1989-03-08-melby-paris-preparatory",
+      "editorialAssessment": {
+        "role": "Negotiating report",
+        "exampleIds": [
+          "d146",
+          "d258"
+        ],
+        "assessment": "Retain the NSC assessment if it adds policy judgment beyond the underlying Sherpa report; otherwise use it to annotate that fuller record.",
+        "followUp": "Compare McCormack’s report with the U.S. instructions and the subsequent summit discussion."
+      },
       "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
@@ -2616,6 +2765,14 @@ window.VOLUME_DATA = {
       "documentUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-002.pdf#page=8",
       "provenanceUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-002.pdf#page=1",
       "proposalId": "deal-1989-03-15-melby-white-house-summit-group",
+      "editorialAssessment": {
+        "role": "Supporting context",
+        "exampleIds": [
+          "d273"
+        ],
+        "assessment": "Use the action copy to explain preparation and routing of the March 20 paper. Meeting organization alone is insufficient for a separate policy document.",
+        "followUp": "Locate the substantive discussion or conclusions of the proposed White House Summit Group meeting."
+      },
       "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
@@ -2760,6 +2917,14 @@ window.VOLUME_DATA = {
       "documentUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-002.pdf#page=3",
       "provenanceUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-002.pdf#page=1",
       "proposalId": "deal-1989-03-20-scowcroft-sununu-paris",
+      "editorialAssessment": {
+        "role": "Coordination proposal",
+        "exampleIds": [
+          "d273"
+        ],
+        "assessment": "Select if the allocation of authority materially explains how summit objectives were settled; pair it with the substantive objectives.",
+        "followUp": "Find the principals’ discussion and the President’s guidance for the next Sherpa meeting."
+      },
       "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
@@ -2870,6 +3035,15 @@ window.VOLUME_DATA = {
       "documentUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-018.pdf#page=10",
       "provenanceUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-018.pdf#page=1",
       "proposalId": "deal-1989-03-24-melby-economic-policy-directive",
+      "editorialAssessment": {
+        "role": "Policy alternatives",
+        "exampleIds": [
+          "d163",
+          "d273"
+        ],
+        "assessment": "The selection value lies in the proposed NSC role in trade strategy and the reason for it. Establish the recommendation before describing any resulting directive.",
+        "followUp": "Find the signed or sent reply and the economic-policy directive or review record to which it responded."
+      },
       "subjectArea": "Trade Policy and Market Access"
     },
     {
@@ -3505,6 +3679,15 @@ window.VOLUME_DATA = {
       "provenanceMethod": "Opening PDF provenance marker and document source images",
       "notes": "Treasury draft circulated for interagency clearance. Title page dated April 1989; ten numbered text pages and five tables follow, ending on PDF page 28. April 7 transmission papers and an April 10 NSC concurrence surround the report. No classification marking appears on the selected report pages.",
       "proposalId": "ifi-1989-04-esaf-report",
+      "editorialAssessment": {
+        "role": "Institutional strategy",
+        "exampleIds": [
+          "d304",
+          "d258"
+        ],
+        "assessment": "The draft makes the policy and funding case for ESAF. Prefer the decisive internal recommendation or final transmitted report if available, using this draft to document any significant change.",
+        "followUp": "Locate the final report and the decision on the U.S. contribution; compare the draft before treating its language as an adopted position."
+      },
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
@@ -5049,6 +5232,15 @@ window.VOLUME_DATA = {
       "provenanceMethod": "Opening PDF provenance marker and document source images",
       "notes": "Two-page presidential briefing dated June 20 for the June 21 luncheon, initialed by Porter. Separate talking-point cards follow on PDF pages 14–15. No classification marking appears on the two briefing pages.",
       "proposalId": "ifi-1989-06-20-conable",
+      "editorialAssessment": {
+        "role": "Presidential briefing",
+        "exampleIds": [
+          "d304",
+          "d258"
+        ],
+        "assessment": "Select if this is the clearest record of the World Bank resource and debt-financing choices put before Bush; read it with Deal’s corrections.",
+        "followUp": "Seek the June 21 lunch record and subsequent IDA and debt-financing instructions."
+      },
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
@@ -5100,6 +5292,15 @@ window.VOLUME_DATA = {
       "provenanceMethod": "Opening PDF provenance marker and document source images",
       "notes": "Two-page memorandum routed through Deane Hoffmann, initialed by Deal and stamped “APNSA Has Seen.” The selected copy on PDF pages 19–20 repeats the memorandum on pages 10–11; it is counted once.",
       "proposalId": "ifi-1989-06-21-conable",
+      "editorialAssessment": {
+        "role": "Policy assessment",
+        "exampleIds": [
+          "d304",
+          "d258"
+        ],
+        "assessment": "Retain the points that alter the President’s understanding of the institutional choices. Consider annotating Porter’s briefing if the corrections can be conveyed concisely.",
+        "followUp": "Compare the lunch record, corrected loan information, and the positions actually conveyed to Conable."
+      },
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
@@ -5144,6 +5345,14 @@ window.VOLUME_DATA = {
       "collectionId": "scowcroft",
       "notes": "The one-page action memorandum is routed through Deane E. Hoffmann and asks Scowcroft to sign the attached presidential memorandum. It supplies June 21 as the staff-paper date; June 26 is the scheduled meeting date. The attached presidential memorandum appears separately on pages 3–5.",
       "proposalId": "scowcroft-1989-06-21-melby-summit-briefing",
+      "editorialAssessment": {
+        "role": "Supporting context",
+        "exampleIds": [
+          "d146"
+        ],
+        "assessment": "Annotate the preparation of the June 24 briefing; avoid giving staff routing the same weight as presidential objectives.",
+        "followUp": "Find a record of the June 26 briefing and subsequent Paris bargaining."
+      },
       "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
@@ -5193,6 +5402,15 @@ window.VOLUME_DATA = {
       "provenanceMethod": "Opening PDF provenance marker and document source images",
       "notes": "Signed one-page memorandum dated June 22 with a State declassification notation. A duplicate is filed on PDF page 78; the attached State analysis and executive-order extracts are separate documents.",
       "proposalId": "ifi-1989-06-22-baker-votes",
+      "editorialAssessment": {
+        "role": "Coordination proposal",
+        "exampleIds": [
+          "d273",
+          "d262"
+        ],
+        "assessment": "A strong opening to the loan-vote sequence: a principal identifies the conflict between financial review and foreign-policy consultation.",
+        "followUp": "Follow through the alternatives and July 25 instruction, then compare how the appeals process operated."
+      },
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
@@ -5235,6 +5453,15 @@ window.VOLUME_DATA = {
       "collectionId": "scowcroft",
       "notes": "The initialed three-page briefing is dated June 24; June 26 is the meeting it prepares. Its location in Latin American Files does not limit its substantive coverage to that region. The opening withdrawal inventory lists it, but the three released pages and declassification stamp are present. Page 12 still represents a withheld one-page biography. Agendas and talking points are separate attachments.",
       "proposalId": "scowcroft-1989-06-24-paris-briefing",
+      "editorialAssessment": {
+        "role": "Negotiating position",
+        "exampleIds": [
+          "d146",
+          "d233"
+        ],
+        "assessment": "A strong statement of U.S. objectives across monetary coordination, debt, and trade. Preserve the relationships among those choices.",
+        "followUp": "Compare with Treasury and State instructions, presidential guidance, and the summit conversation record."
+      },
       "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
@@ -5285,6 +5512,14 @@ window.VOLUME_DATA = {
       "provenanceMethod": "Opening PDF provenance marker and document source images",
       "notes": "Two-page State memorandum stamped June 29, 1989. The first page identifies Milam and McAllister; the final-page drafting line gives June 28. No classification marking appears on the memorandum pages.",
       "proposalId": "ifi-1989-06-29-loan-review",
+      "editorialAssessment": {
+        "role": "Policy alternatives",
+        "exampleIds": [
+          "d273"
+        ],
+        "assessment": "Useful for the actual procedural alternatives considered. If the July 12 assessment adequately preserves them, this paper may serve in annotation.",
+        "followUp": "Compare the options with Scowcroft’s July 25 instruction and any agreed operating procedure."
+      },
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
@@ -7523,6 +7758,14 @@ window.VOLUME_DATA = {
       "provenanceMethod": "Opening PDF provenance marker and document source images",
       "notes": "Two-page action memorandum, initialed by Deal, with Paal and Rostow concurrences and a handwritten concurrence notation. The memorandum is duplicated on PDF pages 82–83 and counted once. An undated version of the proposed Scowcroft response follows on pages 62–63.",
       "proposalId": "ifi-1989-07-12-mdb-votes",
+      "editorialAssessment": {
+        "role": "Policy alternatives",
+        "exampleIds": [
+          "d273"
+        ],
+        "assessment": "A strong analytical companion to the signed instruction because it explains the failure in consultation and the proposed remedy.",
+        "followUp": "Compare the final instruction and Treasury’s response, including any change to the proposed appeal route."
+      },
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
@@ -8165,6 +8408,15 @@ window.VOLUME_DATA = {
       "provenanceMethod": "Opening PDF provenance marker and document source images",
       "notes": "Two-page memorandum dated July 21, initialed by Deal and stamped as seen. The selected copy carries a handwritten “Good memo” comment. The Negroponte cable is an attachment outside the two-page extent.",
       "proposalId": "ifi-1989-07-21-debt",
+      "editorialAssessment": {
+        "role": "Policy assessment",
+        "exampleIds": [
+          "d304",
+          "d258"
+        ],
+        "assessment": "Select for the allocation of debt-reduction costs between commercial creditors and multilateral institutions. Country cases should illustrate that general strategy.",
+        "followUp": "Compare Treasury’s Brady-strategy instructions with the relevant institutional financing decisions."
+      },
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
@@ -8215,6 +8467,14 @@ window.VOLUME_DATA = {
       "provenanceMethod": "Opening PDF provenance marker and document source images",
       "notes": "Two-page memorandum dated July 25, with Scowcroft’s signature on the second page and staff annotations. It specifies an August 25 target for the review. The undated copy on PDF pages 62–63 is not counted separately.",
       "proposalId": "ifi-1989-07-25-mdb-votes",
+      "editorialAssessment": {
+        "role": "Signed instruction",
+        "exampleIds": [
+          "d273"
+        ],
+        "assessment": "An anchor for the sequence: it directs advance notice and review of an appeals mechanism. Do not equate the instruction to review arrangements with proof that all resulting procedures were settled.",
+        "followUp": "Find the PCC review and resulting procedure, then connect it to the June 1991 Philippine-loan appeal."
+      },
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
@@ -11713,6 +11973,15 @@ window.VOLUME_DATA = {
       "provenanceMethod": "Opening PDF provenance marker and document source images",
       "notes": "One-page action memorandum dated December 28, 1989, initialed by Scowcroft and stamped “The President Has Seen” and “Signed.” No classification marking appears on this selected memorandum; the signed outgoing January 2 letter follows on PDF page 42.",
       "proposalId": "ifi-1989-12-28-imf-quotas",
+      "editorialAssessment": {
+        "role": "Presidential recommendation",
+        "exampleIds": [
+          "d233",
+          "d258"
+        ],
+        "assessment": "Select for the distinction between the public bargaining position and the negotiating authority reported in the paper.",
+        "followUp": "Compare the outgoing correspondence, Treasury instructions, international agreement, and later U.S. authorization."
+      },
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
@@ -12564,6 +12833,15 @@ window.VOLUME_DATA = {
       "provenanceMethod": "Opening PDF provenance marker and document source images",
       "notes": "Two-page information memorandum, initialed by Deal, with a seen stamp and declassification notation. Records the January 6 telephone conversation and Key West Sherpa discussions as antecedents.",
       "proposalId": "ifi-1990-01-08-ebrd",
+      "editorialAssessment": {
+        "role": "Policy alternatives",
+        "exampleIds": [
+          "d233",
+          "d304"
+        ],
+        "assessment": "Useful for the early institutional choices. Compare with the January 9 briefing and January 16 report before deciding how much preliminary explanation requires full text.",
+        "followUp": "Identify which membership, capital, and lending conditions entered the U.S. negotiating instructions."
+      },
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
@@ -12616,6 +12894,15 @@ window.VOLUME_DATA = {
       "provenanceMethod": "Opening PDF provenance marker and document source images",
       "notes": "Two-page memorandum headed “Summary of Conclusions of Meeting with Secretaries Baker and Brady on January 9: China and EBRD.” Initialed by Deal and stamped as seen; the profile on PDF page 8 records “Noted by Scowcroft.”",
       "proposalId": "ifi-1990-01-09-conclusions",
+      "editorialAssessment": {
+        "role": "Reported principals’ conclusions",
+        "exampleIds": [
+          "d273",
+          "d262"
+        ],
+        "assessment": "A strong link between proposed policy and agreed instructions. Preserve the distinction between Deal’s report of conclusions and any separately approved meeting record.",
+        "followUp": "Seek the underlying conclusions or implementing instructions on World Bank China loans and EBRD participation."
+      },
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
@@ -12666,6 +12953,14 @@ window.VOLUME_DATA = {
       "provenanceMethod": "Opening PDF provenance marker and document source images",
       "notes": "Two-page joint memorandum, routed through Blackwill and Deal, with initials and a seen stamp. The printed sender line spells Rice’s first name “Condoleeza”; the heading uses her standard name. The Mulford attachment begins on PDF page 13 and is outside this item’s extent.",
       "proposalId": "ifi-1990-01-09-ebrd-brief",
+      "editorialAssessment": {
+        "role": "Negotiating position",
+        "exampleIds": [
+          "d233"
+        ],
+        "assessment": "Retain the proposed eligibility and mandate rules if they establish the position taken into negotiations; use overlapping background in annotation.",
+        "followUp": "Compare the principals’ conclusions and the delegation’s instructions with the January 16 negotiating report."
+      },
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
@@ -12852,6 +13147,15 @@ window.VOLUME_DATA = {
       "provenanceMethod": "Opening PDF provenance marker and document source images",
       "notes": "Three-page Treasury memorandum dated January 16, naming all three officials as senders and all three principals as recipients. Filed as the attachment to Deal’s January 22 report. The final page promises a later paper with recommended positions.",
       "proposalId": "ifi-1990-01-16-ebrd-negotiations",
+      "editorialAssessment": {
+        "role": "Negotiating report",
+        "exampleIds": [
+          "d258",
+          "d233"
+        ],
+        "assessment": "A strong candidate because the negotiating team reports concrete obstacles and disagreements over institutional design.",
+        "followUp": "Compare with the agreed U.S. instructions and the later terms recommended to the President."
+      },
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
@@ -13236,6 +13540,14 @@ window.VOLUME_DATA = {
       "provenanceMethod": "Opening PDF provenance marker and document source images",
       "notes": "Three-page information memorandum with initials and a seen stamp. Its attachment is the separately proposed January 16 joint memorandum on PDF pages 30–32.",
       "proposalId": "ifi-1990-01-22-ebrd",
+      "editorialAssessment": {
+        "role": "Policy alternatives",
+        "exampleIds": [
+          "d233"
+        ],
+        "assessment": "Retain if Deal’s assessment explains a consequential choice between participation and withdrawal that is not adequately captured in the joint report.",
+        "followUp": "Find the principals’ response; compare the January 16 report to avoid repeating its negotiation narrative."
+      },
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
@@ -13380,6 +13692,15 @@ window.VOLUME_DATA = {
       "provenanceMethod": "Opening PDF provenance marker and document source images",
       "notes": "Three-page memorandum dated January 25 for the January 26 breakfast. Marked “Declassified in Part”; substantial blocks on PDF pages 36 and 37 remain redacted. The visible text supports the institutional proposals summarized here.",
       "proposalId": "ifi-1990-01-25-iepr",
+      "editorialAssessment": {
+        "role": "Options for principals",
+        "exampleIds": [
+          "d262",
+          "d233"
+        ],
+        "assessment": "Propose an institutional-policy extract if the released passages add distinctive choices on the EBRD, IMF, or World Bank. Preserve redactions and identify omitted unrelated material.",
+        "followUp": "Find conclusions of the breakfast and fuller released copies of the relevant institutional papers."
+      },
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
@@ -13786,6 +14107,14 @@ window.VOLUME_DATA = {
       "provenanceMethod": "Opening PDF provenance marker and document source images",
       "notes": "Two-page action memorandum. A handwritten mark appears on the approval line on PDF page 48. The attached presidential memorandum on PDF pages 49–52 is a draft revised by State; it is not treated as a signed presidential decision.",
       "proposalId": "ifi-1990-02-01-ebrd",
+      "editorialAssessment": {
+        "role": "Negotiating position",
+        "exampleIds": [
+          "d233"
+        ],
+        "assessment": "The currency-denomination and financial-exposure problem gives this paper broader significance than a routine progress report.",
+        "followUp": "Trace the approval to inform Mulford into the instructions sent and the final capital arrangements."
+      },
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
@@ -14588,6 +14917,15 @@ window.VOLUME_DATA = {
       "provenanceMethod": "Opening PDF provenance marker and document source images",
       "notes": "Two-page briefing memorandum headed “Meeting with Secretary of the Treasury Nicholas Brady,” dated March 8, with the President-has-seen stamp. The meeting is listed for 1:30–1:50 p.m. in the Oval Office; this is the preparatory brief, not minutes.",
       "proposalId": "ifi-1990-03-08-brady-meeting",
+      "editorialAssessment": {
+        "role": "Presidential recommendation",
+        "exampleIds": [
+          "d233",
+          "d304"
+        ],
+        "assessment": "A strong decision-stage paper: Scowcroft recommends joining and specifies governance and lending terms. It remains a briefing, not minutes of the meeting.",
+        "followUp": "Find the President’s disposition and compare the charter and U.S. participation authority with the recommended terms."
+      },
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
@@ -14638,6 +14976,14 @@ window.VOLUME_DATA = {
       "provenanceMethod": "Opening PDF provenance marker and document source images",
       "notes": "Two-page information memorandum, initialed by Deal, with Robert Blackwill’s concurrence on the final page. The printed memorandum is addressed to Scowcroft; the seen stamp identifies the Deputy National Security Adviser.",
       "proposalId": "ifi-1990-03-14-ebrd",
+      "editorialAssessment": {
+        "role": "Negotiating report",
+        "exampleIds": [
+          "d258"
+        ],
+        "assessment": "Use the changed lending and membership terms to document movement toward agreement. Consider annotation if a later report captures these changes and their causes more fully.",
+        "followUp": "Locate resolution of the remaining capital, shareholding, board, and leadership questions."
+      },
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
@@ -14976,6 +15322,15 @@ window.VOLUME_DATA = {
       "provenanceMethod": "Opening PDF provenance marker and document source images",
       "notes": "Three-page memorandum dated March 28 for the March 29 breakfast, with a seen stamp and staff concurrences. The institutional and country-financing recommendations are visible on PDF pages 13–15.",
       "proposalId": "ifi-1990-03-28-iepr",
+      "editorialAssessment": {
+        "role": "Options for principals",
+        "exampleIds": [
+          "d262",
+          "d304"
+        ],
+        "assessment": "Select the institutional passages on arrears, conditionality, and EBRD governance; their value is the relationship between financial rules and diplomatic priorities.",
+        "followUp": "Find the principals’ conclusions and subsequent IMF, World Bank, or IDB action; mark any omitted bilateral material."
+      },
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
@@ -17520,6 +17875,15 @@ window.VOLUME_DATA = {
       "collectionId": "scowcroft",
       "notes": "The eight-page document names both Baker and Brady on page 16. The withdrawal inventory describes Baker alone; the document heading supplies the fuller authorship. The release stamp and all eight document pages are present, ending with Secret on page 23. It is attached to the Houston briefing sequence in the Scowcroft chronological file.",
       "proposalId": "scowcroft-1990-06-25-baker-brady-houston",
+      "editorialAssessment": {
+        "role": "Negotiating position",
+        "exampleIds": [
+          "d146",
+          "d163"
+        ],
+        "assessment": "Use the joint State–Treasury assessment to establish the agencies’ proposed bargain, then compare Scowcroft’s response.",
+        "followUp": "Find summit exchanges and subsequent instructions that establish which proposed positions became U.S. policy."
+      },
       "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
@@ -17829,6 +18193,15 @@ window.VOLUME_DATA = {
       "collectionId": "scowcroft",
       "notes": "One-page action memorandum dated July 1, routed through Timothy E. Deal and stamped “Natl Sec Advisor has seen.” It asks for Scowcroft’s signature on the attached memorandum. Neither this request nor the seen stamp establishes presidential approval.",
       "proposalId": "scowcroft-1990-07-01-lundsager-china",
+      "editorialAssessment": {
+        "role": "Supporting context",
+        "exampleIds": [
+          "d262",
+          "d304"
+        ],
+        "assessment": "Use for the association and timing of the undated China-lending attachment. The cover cannot supply a signed presidential decision.",
+        "followUp": "Seek a controlling signed or annotated copy and the resulting U.S. voting instructions."
+      },
       "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
@@ -17984,6 +18357,14 @@ window.VOLUME_DATA = {
       "collectionId": "scowcroft",
       "notes": "The dated one-page action memorandum is routed through Deal. It requests signature of the President’s memorandum and identifies the Baker–Brady paper as Tab II. Terminal marking: “Confidential with Secret Attachment”; the eight-page attachment is separately proposed and marked Secret.",
       "proposalId": "scowcroft-1990-07-01-melby-houston",
+      "editorialAssessment": {
+        "role": "Supporting context",
+        "exampleIds": [
+          "d146"
+        ],
+        "assessment": "Use to reconstruct the briefing packet and distinguish its substantive attachments; count each attachment once.",
+        "followUp": "Compare the President’s briefing-book copy and the actual Houston discussions."
+      },
       "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
@@ -18106,6 +18487,15 @@ window.VOLUME_DATA = {
       "collectionId": "scowcroft",
       "notes": "The three-page memorandum is undated and has a typed FROM line. Lundsager’s July 1 covering memorandum (page 5) prepared it for the July 2 briefing. The approval and disapproval lines on page 8 are blank. Page 7 prints “$700 billion,” while the conclusion on page 8 and talking points on page 9 say “$700 million”; preserve and flag this discrepancy in any transcription. The document is released despite its listing on the earlier withdrawal inventory.",
       "proposalId": "scowcroft-undated-1990-china-lending",
+      "editorialAssessment": {
+        "role": "Presidential recommendation",
+        "exampleIds": [
+          "d262",
+          "d304"
+        ],
+        "assessment": "Select for the interaction of World Bank lending policy, G-7 coordination, and U.S. legal constraints. The blank decision lines remain unresolved.",
+        "followUp": "Locate the presidential disposition and U.S. board instructions; coordinate any China-specific narrative with the regional volume."
+      },
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
@@ -18151,6 +18541,15 @@ window.VOLUME_DATA = {
       "collectionId": "scowcroft",
       "notes": "The dated, initialed memorandum occupies pages 12–14. Its first page refers to the Baker–Brady paper, and the July 1 Melby cover on page 15 identifies the two-paper package. All three pages are released and the terminal marking is Confidential. These recommendations do not by themselves establish the President’s decisions or summit outcomes.",
       "proposalId": "scowcroft-1990-07-02-houston",
+      "editorialAssessment": {
+        "role": "Negotiating position",
+        "exampleIds": [
+          "d146",
+          "d163"
+        ],
+        "assessment": "Select the distinct NSC judgment on the multilateral economic bargain, especially agriculture and assistance conditions; assess regional passages for cross-volume treatment.",
+        "followUp": "Compare Baker–Brady’s recommendations with summit discussions and the agreed economic text."
+      },
       "subjectArea": "Economic Summits and Industrialized-Country Cooperation"
     },
     {
@@ -20631,6 +21030,15 @@ window.VOLUME_DATA = {
       "provenanceMethod": "Opening PDF provenance marker and document source images",
       "notes": "Two-page copy marked “Re-Do,” dated September 11, with both authors named, staff initials, a seen stamp, and a mark on the approval line. The folder title is October 1990; the document date controls its place in the chronology.",
       "proposalId": "ifi-1990-09-11-central-america",
+      "editorialAssessment": {
+        "role": "Coordination proposal",
+        "exampleIds": [
+          "d273",
+          "d304"
+        ],
+        "assessment": "Useful if it explains why a new donor mechanism was disputed and how it would relate to existing institutions. Compare later, fuller assessments for annotation alternatives.",
+        "followUp": "Find State’s proposed design, Treasury’s response, and a decision on the donor mechanism."
+      },
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
@@ -21438,6 +21846,14 @@ window.VOLUME_DATA = {
       "provenanceMethod": "Opening PDF provenance marker and document source images",
       "notes": "Two-page memorandum; the second page lists attachments. Initials reading “RG for” appear beside Scowcroft’s typed name, and the copy is stamped “Signed.” The proposed presidential reply is an attachment, not part of this extent.",
       "proposalId": "ifi-1990-10-11-oas-fund",
+      "editorialAssessment": {
+        "role": "Presidential recommendation",
+        "exampleIds": [
+          "d304"
+        ],
+        "assessment": "The choice between a new fund and existing IDB/AID programs is the institutional question to retain, together with its resource implications.",
+        "followUp": "Locate the President’s response and the ensuing U.S. position on the proposed fund."
+      },
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
@@ -21526,6 +21942,15 @@ window.VOLUME_DATA = {
       "provenanceMethod": "Opening PDF provenance marker and document source images",
       "notes": "Four-page action memorandum dated October 12, routed through Pryce and Deal. The copy contains marginal comments and a mark on the approval line. Attachments include the earlier G-24 package, a Tokyo cable, and a Rockefeller letter.",
       "proposalId": "ifi-1990-10-12-eai",
+      "editorialAssessment": {
+        "role": "Policy alternatives",
+        "exampleIds": [
+          "d304",
+          "d273"
+        ],
+        "assessment": "Retain the competing institutional designs and donor-funding consequences. This supplies substantive disagreement behind the coordination papers.",
+        "followUp": "Seek Treasury and State originals and the agreed division of responsibilities between their initiatives."
+      },
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
@@ -21671,6 +22096,15 @@ window.VOLUME_DATA = {
       "provenanceMethod": "Opening PDF provenance marker and document source images",
       "notes": "Two-page joint action memorandum dated October 29, routed through Pryce and Deal. The final page has an approval mark and handwritten comments; attached cable and State–Treasury memorandum lie outside this item’s extent.",
       "proposalId": "ifi-1990-10-29-pdd",
+      "editorialAssessment": {
+        "role": "Coordination proposal",
+        "exampleIds": [
+          "d304",
+          "d258"
+        ],
+        "assessment": "Select for the allocation of scarce U.S. and donor resources if it explains a consequential funding choice; distinguish the marked action from later commitments.",
+        "followUp": "Trace the approved staff action into OMB clearance, donor commitments, and the final funding arrangement."
+      },
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
@@ -23756,6 +24190,14 @@ window.VOLUME_DATA = {
       "provenanceMethod": "Opening PDF provenance marker and document source images",
       "notes": "Two-page memorandum titled “Report on Follow Up Actions to South America Trip,” dated February 8, 1991, with handwritten annotations and “RG for” beside Scowcroft’s name. The first-page archival marker says February 1991, although the Catalog/earlier ledger title says February 1990.",
       "proposalId": "ifi-1991-02-08-brazil-lending",
+      "editorialAssessment": {
+        "role": "Policy follow-up",
+        "exampleIds": [
+          "d262"
+        ],
+        "assessment": "Propose the identified paragraphs as an extract on collective lending pressure and donor coordination. Retain enough context to explain the policy rule.",
+        "followUp": "Find the original decision, U.S. board instructions, and subsequent disposition of World Bank and IDB lending."
+      },
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
@@ -25754,6 +26196,14 @@ window.VOLUME_DATA = {
       "provenanceMethod": "Opening PDF provenance marker and document source images",
       "notes": "One-page electronic memorandum dated June 20, 1991, at 16:18 EDT, addressed to Hall and Proctor with an explicit instruction to pass the background to the General. It describes the proposed loan as $220 million; the later Scowcroft paper gives $224 million.",
       "proposalId": "ifi-1991-06-20-philippines-appeal",
+      "editorialAssessment": {
+        "role": "Procedural follow-up",
+        "exampleIds": [
+          "d273"
+        ],
+        "assessment": "Use to connect the 1989 process with a concrete appeal. It can annotate the substantive presidential papers if its procedural significance is preserved.",
+        "followUp": "Verify how the dispute reached Scowcroft and compare the recommendation, opposing case, and eventual voting instruction."
+      },
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
@@ -25833,6 +26283,15 @@ window.VOLUME_DATA = {
       "provenanceMethod": "Opening PDF provenance marker and document source images",
       "notes": "Two-page memorandum dated June 24, signed by Baker. The second page concludes by asking the President to direct a yes vote. No classification marking appears on the selected pages.",
       "proposalId": "ifi-1991-06-24-baker-philippines",
+      "editorialAssessment": {
+        "role": "Competing recommendation",
+        "exampleIds": [
+          "d262",
+          "d304"
+        ],
+        "assessment": "Retain the principal-level alternative so the reader can assess the choice placed before the President, including the comparisons with other lenders.",
+        "followUp": "Pair with Scowcroft’s recommendation and locate the presidential response and board outcome."
+      },
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
@@ -25885,6 +26344,15 @@ window.VOLUME_DATA = {
       "provenanceMethod": "Opening PDF provenance marker and document source images",
       "notes": "Undated one-page memorandum attached to Deal’s dated June 24 action memorandum on PDF page 35. The text reports the June 24 meeting; a handwritten marginal note bears “6-25.” The marginal note’s author is not assigned here.",
       "proposalId": "ifi-1991-undated-philippines-loan",
+      "editorialAssessment": {
+        "role": "Presidential recommendation",
+        "exampleIds": [
+          "d262",
+          "d304"
+        ],
+        "assessment": "A strong candidate when paired with Baker’s opposing recommendation: the institutional issue is environmental lending standards and their diplomatic cost.",
+        "followUp": "Seek a clearly attributable presidential disposition and the resulting U.S. vote; retain the undated dateline and unresolved handwriting."
+      },
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
@@ -31398,6 +31866,15 @@ window.VOLUME_DATA = {
       "provenanceMethod": "Opening PDF provenance marker and document source images",
       "notes": "One-page information memorandum addressed to Howe, dated March 14, 1992. The copy carries handwritten explanatory notes below the text; their author is not identified. No classification marking appears on the page.",
       "proposalId": "ifi-1992-03-14-imf-quotas",
+      "editorialAssessment": {
+        "role": "Funding and authority",
+        "exampleIds": [
+          "d233",
+          "d258"
+        ],
+        "assessment": "Select if the distinction among quota commitments, authorization, appropriation, and budget outlays explains the administration’s legislative choices.",
+        "followUp": "Find Treasury’s legislative strategy, the President’s decisions, and the authorization and appropriation outcome."
+      },
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
@@ -31449,6 +31926,15 @@ window.VOLUME_DATA = {
       "provenanceMethod": "Opening PDF provenance marker and document source images",
       "notes": "One-page memorandum dated March 17, initialed by Brady. It refers to a prior presidential meeting on EAI and IMF priorities and to the March 31 expiration of the continuing resolution. No classification marking appears on the page.",
       "proposalId": "ifi-1992-03-17-mif-funding",
+      "editorialAssessment": {
+        "role": "Funding and authority",
+        "exampleIds": [
+          "d258",
+          "d304"
+        ],
+        "assessment": "A strong Treasury intervention linking the U.S. appropriation to other donors’ commitments and competing international priorities.",
+        "followUp": "Find Scowcroft’s response, the budget decision, and the conditions under which donor pledges became effective."
+      },
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
@@ -174286,5 +174772,5 @@ window.VOLUME_DATA = {
       "action": "Use the 104-item Deal Summit inventory, the 142-entry Deal-Reiss disposition ledger, and the 697-item Deal Chronological ledger as structured baselines. Preserve exemption, extent, review status, and whether a released-in-part copy follows; do not infer current nonrelease from a historical withdrawal/redaction sheet alone."
     }
   ],
-  "generatedAt": "2026-09-04T10:12:10.850Z"
+  "generatedAt": "2026-09-04T10:26:37.178Z"
 };

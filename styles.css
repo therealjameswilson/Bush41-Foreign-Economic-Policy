@@ -17,6 +17,20 @@
 
 .proposals-section { background: #f7f6ef; border-top: 4px solid var(--gold); }
 .proposals-intro { max-width: 960px; font-size: 1.08rem; line-height: 1.7; }
+.editorial-model { padding: 22px 26px; margin: 24px 0; background: #fff; border: 1px solid var(--line); border-left: 4px solid var(--gold); scroll-margin-top: 150px; }
+.editorial-model h3 { font: 700 1.25rem/1.5 Georgia, serif; margin: 6px 0 12px; }
+.editorial-model p, .model-priorities { line-height: 1.7; }
+.editorial-model summary, .proposal-model-review summary { cursor: pointer; font-weight: 700; color: var(--navy); line-height: 1.6; }
+.editorial-model h4 { font-size: 1rem; color: var(--navy); margin: 22px 0 12px; }
+.model-principles, .model-examples { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.model-principles section, .model-example { border-top: 1px solid var(--line); padding-top: 12px; }
+.model-example h5 { font-size: 1rem; line-height: 1.5; margin: 8px 0; }
+.model-boundary, .model-date, .model-references { font-size: .86rem; color: var(--muted); }
+.model-priorities { padding-left: 20px; }
+.model-priorities li { margin-bottom: 18px; }
+.model-download { display: inline-block; font-size: .88rem; margin-top: 16px; }
+.proposal-model-review { background: #f7f6ef; padding: 12px 16px; margin: 18px 0; }
+.proposal-model-review p { line-height: 1.7; }
 .proposal-overview { display: grid; grid-template-columns: repeat(4, 1fr); border: 1px solid var(--line); margin: 24px 0 16px; background: white; }
 .proposal-overview > div { padding: 20px; display: grid; gap: 5px; }
 .proposal-overview strong { font-family: Georgia, serif; font-size: 2rem; color: var(--navy); }
@@ -60,6 +74,8 @@
 .proposal-related { display: grid; gap: 8px; margin-bottom: 20px; font-size: .9rem; }
 .proposal-empty { padding: 30px; background: white; border: 1px solid var(--line); }
 @media (max-width: 760px) {
+  .editorial-model { padding: 18px; }
+  .model-principles, .model-examples { grid-template-columns: 1fr; }
   .proposal-overview { grid-template-columns: repeat(2, 1fr); }
   .proposal-tools { grid-template-columns: 1fr 1fr; }
   .proposal-tools .search-field { grid-column: 1 / -1; }

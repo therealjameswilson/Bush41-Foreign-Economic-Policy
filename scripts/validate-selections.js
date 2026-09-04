@@ -6,11 +6,20 @@ const source = require('../data/frus-selections-source.json');
 const volume = JSON.parse(fs.readFileSync(path.join(root, 'data/volume.json'), 'utf8'));
 const exported = JSON.parse(fs.readFileSync(path.join(root, 'data/frus-selections.json'), 'utf8'));
 const audit = require('../reports/frus-selections-source-audit.json');
+const model = require('../data/frus-editorial-model.json');
 const records = volume.records.filter(record => record.proposalId);
 assert.equal(records.length, source.documents.length, 'Every source proposal must reach the chronology');
 assert.equal(new Set(records.map(record => record.id)).size, records.length);
 assert.deepEqual(records, exported.records, 'Proposal export and master chronology must agree');
 assert.deepEqual(volume.proposedSelections.recordIds, records.map(record => record.id));
+assert.deepEqual(exported.editorialModel, volume.proposedSelections.editorialModel);
+assert.equal(new Set(model.assessments.map(row => row.recordId)).size, records.length, 'Every proposal needs one editorial assessment');
+assert.deepEqual(new Set(model.assessments.map(row => row.recordId)), new Set(records.map(row => row.id)));
+assert.equal(new Set(model.examples.map(row => row.id)).size, model.examples.length);
+for (const example of model.examples) {
+  assert.equal(example.url, `${model.url}/d${example.number}`);
+  assert.equal(example.id, `d${example.number}`);
+}
 assert.equal(records.filter(record => record.proposalKind === 'Document').length, 37);
 assert.equal(records.filter(record => record.proposalKind === 'Annotation').length, 4);
 const expansion = records.filter(record => record.selectionPass === 'ifi-expansion');
@@ -31,6 +40,11 @@ for (const file of source.sources) {
   assert.equal(checked.catalogObjectMatched, true);
 }
 for (const record of records) {
+  const { recordId, ...assessment } = model.assessments.find(row => row.recordId === record.id);
+  assert.deepEqual(record.editorialAssessment, assessment, 'Assessment must survive the data build');
+  for (const field of ['role', 'assessment', 'followUp']) assert.ok(assessment[field], `Missing ${field}: ${record.id}`);
+  assert.ok(assessment.exampleIds.length);
+  assessment.exampleIds.forEach(id => assert.ok(model.examples.some(example => example.id === id), `Unknown model example: ${id}`));
   const file = source.sources.find(row => row.id === record.sourceId);
   assert.ok(Number.isInteger(record.pdfPageStart) && record.pdfPageStart > 1);
   assert.ok(Number.isInteger(record.pdfPageEnd) && record.pdfPageEnd >= record.pdfPageStart && record.pdfPageEnd <= file.pdfPages);
@@ -62,4 +76,4 @@ assert.equal(records.find(row => row.id === 'ifi-1990-01-25-iepr').releaseStatus
 assert.equal(records.find(row => row.id === 'ifi-1991-undated-philippines-loan').datePrecision, 'undated');
 assert.equal(records.find(row => row.id === 'ifi-1989-04-esaf-report').datePrecision, 'month');
 assert.match(source.sources.find(row => row.id === '91139-013').marker.folderTitle, /February 1991/);
-console.log(`Validated ${records.length} proposals, ${source.sources.length} first-page provenance chains, thirty new institutional selections, page bounds, exports, and documented source exceptions.`);
+console.log(`Validated ${records.length} proposals and editorial assessments, ${model.examples.length} model examples, ${source.sources.length} first-page provenance chains, page bounds, exports, and documented source exceptions.`);
