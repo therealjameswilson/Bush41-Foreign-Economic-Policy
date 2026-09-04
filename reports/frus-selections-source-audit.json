@@ -1,7 +1,7 @@
 {
   "reviewedOn": "2026-09-04",
-  "scope": "Initial document-level selection pass: 11 memoranda from four official file-unit PDFs, dated March 1989–July 1990 (including one undated attachment). Seven are proposed for document treatment and four for annotation. This is a selective starting set, not a complete review of 1989–1992 or of the Scowcroft collection.",
-  "method": "Read the official PDF’s first page for archival provenance, then inspect the selected memorandum and its final page for authorship, date, boundaries, classification, and release evidence. Editorial proposals remain subject to compiler judgment and comparison of controlling copies.",
+  "scope": "41 document-level proposals from 16 official file-unit PDFs, January 1989–March 1992: 37 for document treatment and four for annotation. The latest 30 emphasize U.S. policy toward international financial institutions, including IMF resources, development-bank voting, EBRD design, and development-finance coordination. This selective set does not claim complete coverage of the administration or any collection.",
+  "method": "Read the official PDF’s first page for archival provenance, then inspect each selected document and its final page for authorship, date, boundaries, classification, and release evidence. Preserve redactions, draft and uncertain-date status, and distinguish proposed excerpts from complete documents. Editorial proposals remain subject to compiler judgment and comparison of controlling copies.",
   "sources": [
     {
       "id": "91139-001",
@@ -98,9 +98,298 @@
       "preview": "assets/provenance/CF00972-002.jpg",
       "imageReviewScope": "PDF pages 1–25",
       "catalogObjectMatched": true
+    },
+    {
+      "id": "91139-002",
+      "naid": "366551911",
+      "objectId": "506682393",
+      "catalogUrl": "https://catalog.archives.gov/id/366551911",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4545957/41-bpr-scow-la-econchr-91139-002.pdf",
+      "pdfPages": 158,
+      "sha256": "693f3319a5a21f1f2eedb2663c1fa2dd470431007ae77ad79859f67f56b7c559",
+      "checkedOn": "2026-09-04",
+      "provenancePage": 1,
+      "marker": {
+        "recordGroup": "George H.W. Bush Presidential Records",
+        "office": "Scowcroft, Brent, Collection",
+        "series": "Latin American Files",
+        "subseries": "Economic Chronological Files",
+        "oaId": "91139",
+        "folderId": "91139-002",
+        "folderTitle": "Latin America - Economics (July - October 1989)"
+      },
+      "provenanceStem": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Latin American Files, Economic Chronological Files, OA/ID 91139–002, Latin America - Economics (July - October 1989).",
+      "preview": "assets/provenance/91139-002.jpg",
+      "imageReviewScope": "PDF pages 1, 14–15; other pages screened with OCR as needed and are outside the document-image review claim",
+      "catalogObjectMatched": true
+    },
+    {
+      "id": "91139-011",
+      "naid": "366551920",
+      "objectId": "506682402",
+      "catalogUrl": "https://catalog.archives.gov/id/366551920",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4545957/41-bpr-scow-la-econchr-91139-011.pdf",
+      "pdfPages": 141,
+      "sha256": "e83608e49c23343a669f8be216a1c4419c3b414fcbef2329e0b361160d2fc035",
+      "checkedOn": "2026-09-04",
+      "provenancePage": 1,
+      "marker": {
+        "recordGroup": "George H.W. Bush Presidential Records",
+        "office": "Scowcroft, Brent, Collection",
+        "series": "Latin American Files",
+        "subseries": "Economic Chronological Files",
+        "oaId": "91139",
+        "folderId": "91139-011",
+        "folderTitle": "Latin America - Economics (October 1990)"
+      },
+      "provenanceStem": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Latin American Files, Economic Chronological Files, OA/ID 91139–011, Latin America - Economics (October 1990).",
+      "preview": "assets/provenance/91139-011.jpg",
+      "imageReviewScope": "PDF pages 1, 32–33, 56–59, 61–62, 117–118; other pages screened with OCR as needed and are outside the document-image review claim",
+      "catalogObjectMatched": true
+    },
+    {
+      "id": "91139-013",
+      "naid": "366551922",
+      "objectId": "506682404",
+      "catalogUrl": "https://catalog.archives.gov/id/366551922",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4545957/41-bpr-scow-la-econchr-91139-013.pdf",
+      "pdfPages": 35,
+      "sha256": "9331cdcdd6d432c279308cece90214dc9503a21dd02dad5e05a3aa437450ab3a",
+      "checkedOn": "2026-09-04",
+      "provenancePage": 1,
+      "marker": {
+        "recordGroup": "George H.W. Bush Presidential Records",
+        "office": "Scowcroft, Brent, Collection",
+        "series": "Latin American Files",
+        "subseries": "Economic Chronological Files",
+        "oaId": "91139",
+        "folderId": "91139-013",
+        "folderTitle": "Latin America - Economics (February 1991)"
+      },
+      "provenanceStem": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Latin American Files, Economic Chronological Files, OA/ID 91139–013, Latin America - Economics (February 1991).",
+      "preview": "assets/provenance/91139-013.jpg",
+      "imageReviewScope": "PDF pages 1, 24–25; other pages screened with OCR as needed and are outside the document-image review claim",
+      "catalogTitleNote": "The Catalog/earlier ledger title says February 1990; the opening PDF marker and selected document say February 1991. The marker controls this provenance.",
+      "catalogObjectMatched": true
+    },
+    {
+      "id": "91148-001",
+      "naid": "366551990",
+      "objectId": "506682477",
+      "catalogUrl": "https://catalog.archives.gov/id/366551990",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4708326/41-bpr-scow-chron-91148-001.pdf",
+      "pdfPages": 95,
+      "sha256": "c129039e000e0c3668f3b91c3788e00bd544bd3592d401cf9ee720a28a8061d0",
+      "checkedOn": "2026-09-04",
+      "provenancePage": 1,
+      "marker": {
+        "recordGroup": "George H.W. Bush Presidential Records",
+        "office": "Scowcroft, Brent, Collection",
+        "series": "Chronological Files",
+        "subseries": "",
+        "oaId": "91148",
+        "folderId": "91148-001",
+        "folderTitle": "Other (January - March 1989)"
+      },
+      "provenanceStem": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Chronological Files, OA/ID 91148–001, Other (January - March 1989).",
+      "preview": "assets/provenance/91148-001.jpg",
+      "imageReviewScope": "PDF pages 1, 5–7; other pages screened with OCR as needed and are outside the document-image review claim",
+      "catalogObjectMatched": true
+    },
+    {
+      "id": "91148-008",
+      "naid": "366551997",
+      "objectId": "506682484",
+      "catalogUrl": "https://catalog.archives.gov/id/366551997",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4708326/41-bpr-scow-chron-91148-008.pdf",
+      "pdfPages": 89,
+      "sha256": "b9a0e81631ec5ad8c55c684c72077354cb059a4bdfa99a239e958daf03a4fd45",
+      "checkedOn": "2026-09-04",
+      "provenancePage": 1,
+      "marker": {
+        "recordGroup": "George H.W. Bush Presidential Records",
+        "office": "Scowcroft, Brent, Collection",
+        "series": "Chronological Files",
+        "subseries": "",
+        "oaId": "91148",
+        "folderId": "91148-008",
+        "folderTitle": "Other (January - May 1990) [1]"
+      },
+      "provenanceStem": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Chronological Files, OA/ID 91148–008, Other (January - May 1990) [1].",
+      "preview": "assets/provenance/91148-008.jpg",
+      "imageReviewScope": "PDF pages 1, 6–12, 27–32, 35–37, 47–48; other pages screened with OCR as needed and are outside the document-image review claim",
+      "catalogObjectMatched": true
+    },
+    {
+      "id": "91148-010",
+      "naid": "366551999",
+      "objectId": "506682486",
+      "catalogUrl": "https://catalog.archives.gov/id/366551999",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4708326/41-bpr-scow-chron-91148-010.pdf",
+      "pdfPages": 15,
+      "sha256": "523f5928aed9778dba68f5a6949cf45d8852cffeb6a0a256464b79a4cb55dede",
+      "checkedOn": "2026-09-04",
+      "provenancePage": 1,
+      "marker": {
+        "recordGroup": "George H.W. Bush Presidential Records",
+        "office": "Scowcroft, Brent, Collection",
+        "series": "Chronological Files",
+        "subseries": "",
+        "oaId": "91148",
+        "folderId": "91148-010",
+        "folderTitle": "Other (March 1990)"
+      },
+      "provenanceStem": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Chronological Files, OA/ID 91148–010, Other (March 1990).",
+      "preview": "assets/provenance/91148-010.jpg",
+      "imageReviewScope": "PDF pages 1, 4–5, 10–11, 13–15; other pages screened with OCR as needed and are outside the document-image review claim",
+      "catalogObjectMatched": true
+    },
+    {
+      "id": "CF00695-004",
+      "naid": "452050415",
+      "objectId": "652474916",
+      "catalogUrl": "https://catalog.archives.gov/id/452050415",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/chron_2554807/41-bpr-nsc-deal-chron-cf00695-004.pdf",
+      "pdfPages": 67,
+      "sha256": "f7a8cf4fb66ea9810f9a3c2e8eaea91b038ecc90f3955aefae98a3fc59fc2f1a",
+      "checkedOn": "2026-09-04",
+      "provenancePage": 1,
+      "marker": {
+        "recordGroup": "George H.W. Bush Presidential Records",
+        "office": "National Security Council",
+        "series": "Deal, Timothy E., Files",
+        "subseries": "Chronological Files",
+        "oaId": "CF00695",
+        "folderId": "CF00695-004",
+        "folderTitle": "Chron File: April 1989 [1]"
+      },
+      "provenanceStem": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Timothy E. Deal Files, Chronological Files, OA/ID CF00695–004, Chron File: April 1989 [1].",
+      "preview": "assets/provenance/CF00695-004.jpg",
+      "imageReviewScope": "PDF pages 1, 9–28; other pages screened with OCR as needed and are outside the document-image review claim",
+      "catalogObjectMatched": true
+    },
+    {
+      "id": "CF00695-009",
+      "naid": "452050420",
+      "objectId": "652474921",
+      "catalogUrl": "https://catalog.archives.gov/id/452050420",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/chron_2554807/41-bpr-nsc-deal-chron-cf00695-009.pdf",
+      "pdfPages": 56,
+      "sha256": "e7c904432c9aaefc220500356688cc21de886e4f28c90819c11bbe47a6e496a4",
+      "checkedOn": "2026-09-04",
+      "provenancePage": 1,
+      "marker": {
+        "recordGroup": "George H.W. Bush Presidential Records",
+        "office": "National Security Council",
+        "series": "Deal, Timothy E., Files",
+        "subseries": "Chronological Files",
+        "oaId": "CF00695",
+        "folderId": "CF00695-009",
+        "folderTitle": "Chron File: June 1989 [1]"
+      },
+      "provenanceStem": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Timothy E. Deal Files, Chronological Files, OA/ID CF00695–009, Chron File: June 1989 [1].",
+      "preview": "assets/provenance/CF00695-009.jpg",
+      "imageReviewScope": "PDF pages 1, 12–13, 19–20; other pages screened with OCR as needed and are outside the document-image review claim",
+      "catalogObjectMatched": true
+    },
+    {
+      "id": "CF00695-014",
+      "naid": "452050425",
+      "objectId": "652474926",
+      "catalogUrl": "https://catalog.archives.gov/id/452050425",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/chron_2554807/41-bpr-nsc-deal-chron-cf00695-014.pdf",
+      "pdfPages": 102,
+      "sha256": "82ff623c91863219db2b9a217a5c10861ae2e86d1ba5e943a2cd2bdef38eab98",
+      "checkedOn": "2026-09-04",
+      "provenancePage": 1,
+      "marker": {
+        "recordGroup": "George H.W. Bush Presidential Records",
+        "office": "National Security Council",
+        "series": "Deal, Timothy E., Files",
+        "subseries": "Chronological Files",
+        "oaId": "CF00695",
+        "folderId": "CF00695-014",
+        "folderTitle": "Chron File: July 1989 [3]"
+      },
+      "provenanceStem": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Timothy E. Deal Files, Chronological Files, OA/ID CF00695–014, Chron File: July 1989 [3].",
+      "preview": "assets/provenance/CF00695-014.jpg",
+      "imageReviewScope": "PDF pages 1, 60–61, 64, 69–70, 76–77; other pages screened with OCR as needed and are outside the document-image review claim",
+      "catalogObjectMatched": true
+    },
+    {
+      "id": "CF00696-001",
+      "naid": "452050437",
+      "objectId": "652474938",
+      "catalogUrl": "https://catalog.archives.gov/id/452050437",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/chron_2554807/41-bpr-nsc-deal-chron-cf00696-001.pdf",
+      "pdfPages": 73,
+      "sha256": "13f0b0c0f1cb17bfd7f8c68a0de2f6107738228d36844e766ebac95c1a2f7c9f",
+      "checkedOn": "2026-09-04",
+      "provenancePage": 1,
+      "marker": {
+        "recordGroup": "George H.W. Bush Presidential Records",
+        "office": "National Security Council",
+        "series": "Deal, Timothy E., Files",
+        "subseries": "Chronological Files",
+        "oaId": "CF00696",
+        "folderId": "CF00696-001",
+        "folderTitle": "Chron File: December 1989 [1]"
+      },
+      "provenanceStem": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Timothy E. Deal Files, Chronological Files, OA/ID CF00696–001, Chron File: December 1989 [1].",
+      "preview": "assets/provenance/CF00696-001.jpg",
+      "imageReviewScope": "PDF pages 1, 39; other pages screened with OCR as needed and are outside the document-image review claim",
+      "catalogObjectMatched": true
+    },
+    {
+      "id": "CF00958-006",
+      "naid": "452050478",
+      "objectId": "652474979",
+      "catalogUrl": "https://catalog.archives.gov/id/452050478",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/chron_2554807/41-bpr-nsc-deal-chron-cf00958-006.pdf",
+      "pdfPages": 47,
+      "sha256": "bd7496526673f10827023f0b28fdacc9e4329c7026a0bbd88fcf01cf71028ef5",
+      "checkedOn": "2026-09-04",
+      "provenancePage": 1,
+      "marker": {
+        "recordGroup": "George H.W. Bush Presidential Records",
+        "office": "National Security Council",
+        "series": "Deal, Timothy E., Files",
+        "subseries": "Chronological Files",
+        "oaId": "CF00958",
+        "folderId": "CF00958-006",
+        "folderTitle": "Chron File: June 1991 [1]"
+      },
+      "provenanceStem": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Timothy E. Deal Files, Chronological Files, OA/ID CF00958–006, Chron File: June 1991 [1].",
+      "preview": "assets/provenance/CF00958-006.jpg",
+      "imageReviewScope": "PDF pages 1, 20, 35–38; other pages screened with OCR as needed and are outside the document-image review claim",
+      "catalogObjectMatched": true
+    },
+    {
+      "id": "CF00959-010",
+      "naid": "452050502",
+      "objectId": "652475003",
+      "catalogUrl": "https://catalog.archives.gov/id/452050502",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/chron_2554807/41-bpr-nsc-deal-chron-cf00959-010.pdf",
+      "pdfPages": 109,
+      "sha256": "ce9bf67fe5bdbfc31991497d8d9c92af34eadf214be54b750aa137285cb8ea73",
+      "checkedOn": "2026-09-04",
+      "provenancePage": 1,
+      "marker": {
+        "recordGroup": "George H.W. Bush Presidential Records",
+        "office": "National Security Council",
+        "series": "Deal, Timothy E., Files",
+        "subseries": "Chronological Files",
+        "oaId": "CF00959",
+        "folderId": "CF00959-010",
+        "folderTitle": "Chron File: March 1992 [1]"
+      },
+      "provenanceStem": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Timothy E. Deal Files, Chronological Files, OA/ID CF00959–010, Chron File: March 1992 [1].",
+      "preview": "assets/provenance/CF00959-010.jpg",
+      "imageReviewScope": "PDF pages 1, 17, 46; other pages screened with OCR as needed and are outside the document-image review claim",
+      "catalogObjectMatched": true
     }
   ],
-  "proposals": [
+  "documents": [
     {
       "id": "deal-1989-03-08-melby-paris-preparatory",
       "sourceId": "CF00972-002",
@@ -110,6 +399,8 @@
       ],
       "classification": "Confidential",
       "proposalKind": "Document",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
       "evidenceNotes": "The one-page memorandum is at PDF page 24, routed through Timothy E. Deal and stamped “Natl Sec Advisor has seen.” The attached six-page Sherpa report is represented by a withdrawal sheet on page 25; its contents are not reconstructed here."
     },
     {
@@ -121,6 +412,8 @@
       ],
       "classification": "Confidential",
       "proposalKind": "Annotation",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
       "evidenceNotes": "Use the annotated copy on page 8; page 10 is a parallel copy with a blank approval line. Page 8 bears a “SIGNED” stamp, an approval check, and a handwritten organizational instruction. It has added Confidential stamps alongside printed “Unclassified with Confidential Attachment” markings. The selected copy’s terminal Confidential stamp controls this Source Note."
     },
     {
@@ -132,6 +425,8 @@
       ],
       "classification": "Confidential",
       "proposalKind": "Document",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
       "evidenceNotes": "The dated, initialed copy is on page 3. The undated copy on page 11 is not a second proposal. The selected copy has added Confidential stamps at top and bottom alongside printed “Unclassified with Confidential Attachment” markings; the Source Note reflects the terminal stamp. The Sherpa report remains withdrawn (page 4); agenda, participants, and organization chart follow on pages 5–7."
     },
     {
@@ -143,6 +438,8 @@
       ],
       "classification": "No classification marking",
       "proposalKind": "Document",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
       "evidenceNotes": "Page 10 is the dated, initialed Melby memorandum, routed through Deal; its approval lines are blank. Page 11 is an undated memorandum prepared for Scowcroft to send to Brady, with a typed name and no visible signature. Brady’s March 21 directive is on pages 12–13. None of these pages should be assigned the date of another document."
     },
     {
@@ -154,6 +451,8 @@
       ],
       "classification": "No classification marking",
       "proposalKind": "Annotation",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
       "evidenceNotes": "The one-page action memorandum is routed through Deane E. Hoffmann and asks Scowcroft to sign the attached presidential memorandum. It supplies June 21 as the staff-paper date; June 26 is the scheduled meeting date. The attached presidential memorandum appears separately on pages 3–5."
     },
     {
@@ -165,6 +464,8 @@
       ],
       "classification": "Secret",
       "proposalKind": "Document",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
       "evidenceNotes": "The initialed three-page briefing is dated June 24; June 26 is the meeting it prepares. Its location in Latin American Files does not limit its substantive coverage to that region. The opening withdrawal inventory lists it, but the three released pages and declassification stamp are present. Page 12 still represents a withheld one-page biography. Agendas and talking points are separate attachments."
     },
     {
@@ -176,6 +477,8 @@
       ],
       "classification": "Secret",
       "proposalKind": "Document",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
       "evidenceNotes": "The eight-page document names both Baker and Brady on page 16. The withdrawal inventory describes Baker alone; the document heading supplies the fuller authorship. The release stamp and all eight document pages are present, ending with Secret on page 23. It is attached to the Houston briefing sequence in the Scowcroft chronological file."
     },
     {
@@ -187,6 +490,8 @@
       ],
       "classification": "Confidential",
       "proposalKind": "Annotation",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
       "evidenceNotes": "One-page action memorandum dated July 1, routed through Timothy E. Deal and stamped “Natl Sec Advisor has seen.” It asks for Scowcroft’s signature on the attached memorandum. Neither this request nor the seen stamp establishes presidential approval."
     },
     {
@@ -198,6 +503,8 @@
       ],
       "classification": "Confidential",
       "proposalKind": "Annotation",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
       "evidenceNotes": "The dated one-page action memorandum is routed through Deal. It requests signature of the President’s memorandum and identifies the Baker–Brady paper as Tab II. Terminal marking: “Confidential with Secret Attachment”; the eight-page attachment is separately proposed and marked Secret."
     },
     {
@@ -209,6 +516,8 @@
       ],
       "classification": "Confidential",
       "proposalKind": "Document",
+      "releaseStatus": "Released",
+      "datePrecision": "undated",
       "evidenceNotes": "The three-page memorandum is undated and has a typed FROM line. Lundsager’s July 1 covering memorandum (page 5) prepared it for the July 2 briefing. The approval and disapproval lines on page 8 are blank. Page 7 prints “$700 billion,” while the conclusion on page 8 and talking points on page 9 say “$700 million”; preserve and flag this discrepancy in any transcription. The document is released despite its listing on the earlier withdrawal inventory."
     },
     {
@@ -220,7 +529,399 @@
       ],
       "classification": "Confidential",
       "proposalKind": "Document",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
       "evidenceNotes": "The dated, initialed memorandum occupies pages 12–14. Its first page refers to the Baker–Brady paper, and the July 1 Melby cover on page 15 identifies the two-paper package. All three pages are released and the terminal marking is Confidential. These recommendations do not by themselves establish the President’s decisions or summit outcomes."
+    },
+    {
+      "id": "ifi-1989-01-31-g7",
+      "sourceId": "91148-001",
+      "pages": [
+        5,
+        7
+      ],
+      "classification": "No classification marking",
+      "proposalKind": "Document",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
+      "evidenceNotes": "Three-page action memorandum, initialed by Farrar and stamped as seen by the National Security Adviser. The approval and disapproval lines on PDF page 7 are blank. No classification marking appears on the selected pages."
+    },
+    {
+      "id": "ifi-1990-01-08-ebrd",
+      "sourceId": "91148-008",
+      "pages": [
+        6,
+        7
+      ],
+      "classification": "Confidential",
+      "proposalKind": "Document",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
+      "evidenceNotes": "Two-page information memorandum, initialed by Deal, with a seen stamp and declassification notation. Records the January 6 telephone conversation and Key West Sherpa discussions as antecedents."
+    },
+    {
+      "id": "ifi-1990-01-09-ebrd-brief",
+      "sourceId": "91148-008",
+      "pages": [
+        11,
+        12
+      ],
+      "classification": "Confidential",
+      "proposalKind": "Document",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
+      "evidenceNotes": "Two-page joint memorandum, routed through Blackwill and Deal, with initials and a seen stamp. The printed sender line spells Rice’s first name “Condoleeza”; the heading uses her standard name. The Mulford attachment begins on PDF page 13 and is outside this item’s extent."
+    },
+    {
+      "id": "ifi-1990-01-09-conclusions",
+      "sourceId": "91148-008",
+      "pages": [
+        9,
+        10
+      ],
+      "classification": "Confidential",
+      "proposalKind": "Document",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
+      "evidenceNotes": "Two-page memorandum headed “Summary of Conclusions of Meeting with Secretaries Baker and Brady on January 9: China and EBRD.” Initialed by Deal and stamped as seen; the profile on PDF page 8 records “Noted by Scowcroft.”"
+    },
+    {
+      "id": "ifi-1990-01-16-ebrd-negotiations",
+      "sourceId": "91148-008",
+      "pages": [
+        30,
+        32
+      ],
+      "classification": "Confidential",
+      "proposalKind": "Document",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
+      "evidenceNotes": "Three-page Treasury memorandum dated January 16, naming all three officials as senders and all three principals as recipients. Filed as the attachment to Deal’s January 22 report. The final page promises a later paper with recommended positions."
+    },
+    {
+      "id": "ifi-1990-01-22-ebrd",
+      "sourceId": "91148-008",
+      "pages": [
+        27,
+        29
+      ],
+      "classification": "Confidential",
+      "proposalKind": "Document",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
+      "evidenceNotes": "Three-page information memorandum with initials and a seen stamp. Its attachment is the separately proposed January 16 joint memorandum on PDF pages 30–32."
+    },
+    {
+      "id": "ifi-1990-01-25-iepr",
+      "sourceId": "91148-008",
+      "pages": [
+        35,
+        37
+      ],
+      "classification": "Secret",
+      "proposalKind": "Document",
+      "releaseStatus": "Released in part",
+      "datePrecision": "day",
+      "evidenceNotes": "Three-page memorandum dated January 25 for the January 26 breakfast. Marked “Declassified in Part”; substantial blocks on PDF pages 36 and 37 remain redacted. The visible text supports the institutional proposals summarized here."
+    },
+    {
+      "id": "ifi-1990-02-01-ebrd",
+      "sourceId": "91148-008",
+      "pages": [
+        47,
+        48
+      ],
+      "classification": "Confidential",
+      "proposalKind": "Document",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
+      "evidenceNotes": "Two-page action memorandum. A handwritten mark appears on the approval line on PDF page 48. The attached presidential memorandum on PDF pages 49–52 is a draft revised by State; it is not treated as a signed presidential decision."
+    },
+    {
+      "id": "ifi-1990-03-08-brady-meeting",
+      "sourceId": "91148-010",
+      "pages": [
+        4,
+        5
+      ],
+      "classification": "Confidential",
+      "proposalKind": "Document",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
+      "evidenceNotes": "Two-page briefing memorandum headed “Meeting with Secretary of the Treasury Nicholas Brady,” dated March 8, with the President-has-seen stamp. The meeting is listed for 1:30–1:50 p.m. in the Oval Office; this is the preparatory brief, not minutes."
+    },
+    {
+      "id": "ifi-1990-03-14-ebrd",
+      "sourceId": "91148-010",
+      "pages": [
+        10,
+        11
+      ],
+      "classification": "Confidential",
+      "proposalKind": "Document",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
+      "evidenceNotes": "Two-page information memorandum, initialed by Deal, with Robert Blackwill’s concurrence on the final page. The printed memorandum is addressed to Scowcroft; the seen stamp identifies the Deputy National Security Adviser."
+    },
+    {
+      "id": "ifi-1990-03-28-iepr",
+      "sourceId": "91148-010",
+      "pages": [
+        13,
+        15
+      ],
+      "classification": "Confidential",
+      "proposalKind": "Document",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
+      "evidenceNotes": "Three-page memorandum dated March 28 for the March 29 breakfast, with a seen stamp and staff concurrences. The institutional and country-financing recommendations are visible on PDF pages 13–15."
+    },
+    {
+      "id": "ifi-1989-07-21-debt",
+      "sourceId": "91139-002",
+      "pages": [
+        14,
+        15
+      ],
+      "classification": "Confidential",
+      "proposalKind": "Document",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
+      "evidenceNotes": "Two-page memorandum dated July 21, initialed by Deal and stamped as seen. The selected copy carries a handwritten “Good memo” comment. The Negroponte cable is an attachment outside the two-page extent."
+    },
+    {
+      "id": "ifi-1990-09-11-central-america",
+      "sourceId": "91139-011",
+      "pages": [
+        61,
+        62
+      ],
+      "classification": "Confidential",
+      "proposalKind": "Document",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
+      "evidenceNotes": "Two-page copy marked “Re-Do,” dated September 11, with both authors named, staff initials, a seen stamp, and a mark on the approval line. The folder title is October 1990; the document date controls its place in the chronology."
+    },
+    {
+      "id": "ifi-1990-10-11-oas-fund",
+      "sourceId": "91139-011",
+      "pages": [
+        32,
+        33
+      ],
+      "classification": "Confidential",
+      "proposalKind": "Document",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
+      "evidenceNotes": "Two-page memorandum; the second page lists attachments. Initials reading “RG for” appear beside Scowcroft’s typed name, and the copy is stamped “Signed.” The proposed presidential reply is an attachment, not part of this extent."
+    },
+    {
+      "id": "ifi-1990-10-12-eai",
+      "sourceId": "91139-011",
+      "pages": [
+        56,
+        59
+      ],
+      "classification": "Confidential",
+      "proposalKind": "Document",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
+      "evidenceNotes": "Four-page action memorandum dated October 12, routed through Pryce and Deal. The copy contains marginal comments and a mark on the approval line. Attachments include the earlier G-24 package, a Tokyo cable, and a Rockefeller letter."
+    },
+    {
+      "id": "ifi-1990-10-29-pdd",
+      "sourceId": "91139-011",
+      "pages": [
+        117,
+        118
+      ],
+      "classification": "Confidential",
+      "proposalKind": "Document",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
+      "evidenceNotes": "Two-page joint action memorandum dated October 29, routed through Pryce and Deal. The final page has an approval mark and handwritten comments; attached cable and State–Treasury memorandum lie outside this item’s extent."
+    },
+    {
+      "id": "ifi-1991-02-08-brazil-lending",
+      "sourceId": "91139-013",
+      "pages": [
+        24,
+        25
+      ],
+      "classification": "Confidential",
+      "proposalKind": "Document",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
+      "evidenceNotes": "Two-page memorandum titled “Report on Follow Up Actions to South America Trip,” dated February 8, 1991, with handwritten annotations and “RG for” beside Scowcroft’s name. The first-page archival marker says February 1991, although the Catalog/earlier ledger title says February 1990."
+    },
+    {
+      "id": "ifi-1989-04-esaf-report",
+      "sourceId": "CF00695-004",
+      "pages": [
+        13,
+        28
+      ],
+      "classification": "No classification marking",
+      "proposalKind": "Document",
+      "releaseStatus": "Released",
+      "datePrecision": "month",
+      "evidenceNotes": "Treasury draft circulated for interagency clearance. Title page dated April 1989; ten numbered text pages and five tables follow, ending on PDF page 28. April 7 transmission papers and an April 10 NSC concurrence surround the report. No classification marking appears on the selected report pages."
+    },
+    {
+      "id": "ifi-1989-06-20-conable",
+      "sourceId": "CF00695-009",
+      "pages": [
+        12,
+        13
+      ],
+      "classification": "No classification marking",
+      "proposalKind": "Document",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
+      "evidenceNotes": "Two-page presidential briefing dated June 20 for the June 21 luncheon, initialed by Porter. Separate talking-point cards follow on PDF pages 14–15. No classification marking appears on the two briefing pages."
+    },
+    {
+      "id": "ifi-1989-06-21-conable",
+      "sourceId": "CF00695-009",
+      "pages": [
+        19,
+        20
+      ],
+      "classification": "Confidential",
+      "proposalKind": "Document",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
+      "evidenceNotes": "Two-page memorandum routed through Deane Hoffmann, initialed by Deal and stamped “APNSA Has Seen.” The selected copy on PDF pages 19–20 repeats the memorandum on pages 10–11; it is counted once."
+    },
+    {
+      "id": "ifi-1989-06-22-baker-votes",
+      "sourceId": "CF00695-014",
+      "pages": [
+        64,
+        64
+      ],
+      "classification": "Confidential",
+      "proposalKind": "Document",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
+      "evidenceNotes": "Signed one-page memorandum dated June 22 with a State declassification notation. A duplicate is filed on PDF page 78; the attached State analysis and executive-order extracts are separate documents."
+    },
+    {
+      "id": "ifi-1989-06-29-loan-review",
+      "sourceId": "CF00695-014",
+      "pages": [
+        69,
+        70
+      ],
+      "classification": "No classification marking",
+      "proposalKind": "Document",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
+      "evidenceNotes": "Two-page State memorandum stamped June 29, 1989. The first page identifies Milam and McAllister; the final-page drafting line gives June 28. No classification marking appears on the memorandum pages."
+    },
+    {
+      "id": "ifi-1989-07-12-mdb-votes",
+      "sourceId": "CF00695-014",
+      "pages": [
+        60,
+        61
+      ],
+      "classification": "Confidential",
+      "proposalKind": "Document",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
+      "evidenceNotes": "Two-page action memorandum, initialed by Deal, with Paal and Rostow concurrences and a handwritten concurrence notation. The memorandum is duplicated on PDF pages 82–83 and counted once. An undated version of the proposed Scowcroft response follows on pages 62–63."
+    },
+    {
+      "id": "ifi-1989-07-25-mdb-votes",
+      "sourceId": "CF00695-014",
+      "pages": [
+        76,
+        77
+      ],
+      "classification": "Confidential",
+      "proposalKind": "Document",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
+      "evidenceNotes": "Two-page memorandum dated July 25, with Scowcroft’s signature on the second page and staff annotations. It specifies an August 25 target for the review. The undated copy on PDF pages 62–63 is not counted separately."
+    },
+    {
+      "id": "ifi-1989-12-28-imf-quotas",
+      "sourceId": "CF00696-001",
+      "pages": [
+        39,
+        39
+      ],
+      "classification": "No classification marking",
+      "proposalKind": "Document",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
+      "evidenceNotes": "One-page action memorandum dated December 28, 1989, initialed by Scowcroft and stamped “The President Has Seen” and “Signed.” No classification marking appears on this selected memorandum; the signed outgoing January 2 letter follows on PDF page 42."
+    },
+    {
+      "id": "ifi-1991-06-20-philippines-appeal",
+      "sourceId": "CF00958-006",
+      "pages": [
+        20,
+        20
+      ],
+      "classification": "Unclassified",
+      "proposalKind": "Document",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
+      "evidenceNotes": "One-page electronic memorandum dated June 20, 1991, at 16:18 EDT, addressed to Hall and Proctor with an explicit instruction to pass the background to the General. It describes the proposed loan as $220 million; the later Scowcroft paper gives $224 million."
+    },
+    {
+      "id": "ifi-1991-undated-philippines-loan",
+      "sourceId": "CF00958-006",
+      "pages": [
+        36,
+        36
+      ],
+      "classification": "Confidential",
+      "proposalKind": "Document",
+      "releaseStatus": "Released",
+      "datePrecision": "undated",
+      "evidenceNotes": "Undated one-page memorandum attached to Deal’s dated June 24 action memorandum on PDF page 35. The text reports the June 24 meeting; a handwritten marginal note bears “6-25.” The marginal note’s author is not assigned here."
+    },
+    {
+      "id": "ifi-1991-06-24-baker-philippines",
+      "sourceId": "CF00958-006",
+      "pages": [
+        37,
+        38
+      ],
+      "classification": "No classification marking",
+      "proposalKind": "Document",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
+      "evidenceNotes": "Two-page memorandum dated June 24, signed by Baker. The second page concludes by asking the President to direct a yes vote. No classification marking appears on the selected pages."
+    },
+    {
+      "id": "ifi-1992-03-14-imf-quotas",
+      "sourceId": "CF00959-010",
+      "pages": [
+        46,
+        46
+      ],
+      "classification": "No classification marking",
+      "proposalKind": "Document",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
+      "evidenceNotes": "One-page information memorandum addressed to Howe, dated March 14, 1992. The copy carries handwritten explanatory notes below the text; their author is not identified. No classification marking appears on the page."
+    },
+    {
+      "id": "ifi-1992-03-17-mif-funding",
+      "sourceId": "CF00959-010",
+      "pages": [
+        17,
+        17
+      ],
+      "classification": "No classification marking",
+      "proposalKind": "Document",
+      "releaseStatus": "Released",
+      "datePrecision": "day",
+      "evidenceNotes": "One-page memorandum dated March 17, initialed by Brady. It refers to a prior presidential meeting on EAI and IMF priorities and to the March 31 expiration of the continuing resolution. No classification marking appears on the page."
     }
   ]
 }

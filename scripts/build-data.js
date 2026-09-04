@@ -1816,7 +1816,7 @@ fs.writeFileSync(path.join(dataDir, "volume.js"), `window.VOLUME_DATA = ${JSON.s
 const proposedRecords = allRecords.filter(record => record.proposalId);
 fs.writeFileSync(path.join(dataDir, "frus-selections.json"), `${JSON.stringify({ ...data.proposedSelections, records: proposedRecords }, null, 2)}\n`);
 fs.writeFileSync(path.join(dataDir, "frus-selections.csv"), toCsv(proposedRecords, [
-  "id", "title", "heading", "dateline", "datePrecision", "dateBasis", "sortDate", "sender", "recipient", "scowcroftRole", "proposalKind", "priority", "selectionRationale", "sourceNote", "classification", "markingNote", "releaseStatus", "pdfPageStart", "pdfPageEnd", "extentLabel", "evidenceNotes", "editorialReview", "relatedIds", "naid", "localId", "catalogUrl", "provenanceUrl", "documentUrl",
+  "id", "title", "heading", "dateline", "datePrecision", "dateBasis", "sortDate", "sender", "recipient", "scowcroftRole", "selectionPass", "institutions", "type", "displayDateLabel", "proposalKind", "priority", "selectionRationale", "sourceNote", "classification", "markingNote", "releaseStatus", "pdfPageStart", "pdfPageEnd", "extentLabel", "evidenceNotes", "editorialReview", "relatedIds", "naid", "localId", "catalogUrl", "provenanceUrl", "documentUrl",
 ]));
 fs.writeFileSync(path.join(dataDir, "frus-selections.md"), `${frusSelections.selectionPacket(proposedRecords)}\n`);
 fs.writeFileSync(

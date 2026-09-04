@@ -21,7 +21,7 @@
 .proposal-overview > div { padding: 20px; display: grid; gap: 5px; }
 .proposal-overview strong { font-family: Georgia, serif; font-size: 2rem; color: var(--navy); }
 .proposal-overview span, .proposals-coverage { color: var(--muted); font-size: .91rem; line-height: 1.65; }
-.proposal-tools { display: grid; grid-template-columns: 2fr 1fr 1fr auto; align-items: end; gap: 14px; margin: 24px 0 16px; }
+.proposal-tools { display: grid; grid-template-columns: 2fr 1.4fr 1fr 1fr auto; align-items: end; gap: 14px; margin: 24px 0 16px; }
 .proposal-tools label { display: grid; gap: 7px; font-size: .85rem; font-weight: 700; }
 .proposal-tools input, .proposal-tools select { width: 100%; min-width: 0; min-height: 44px; border: 1px solid var(--line); border-radius: 6px; padding: 10px; background: white; font: inherit; color: var(--ink); }
 .proposal-downloads, .proposal-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
@@ -36,6 +36,7 @@
 .proposal-card h3 a { text-decoration: none; }
 .proposal-card h3 a:hover { text-decoration: underline; }
 .proposal-correspondents { color: var(--muted); margin: 0 0 16px; }
+.proposal-institutions { color: var(--navy); font-size: .85rem; font-weight: 650; line-height: 1.6; margin: 0 0 12px; }
 .proposal-rationale { max-width: 1000px; line-height: 1.75; }
 .proposal-citation { background: #f4f6f8; border: 1px solid var(--line); padding: 18px 22px; margin: 20px 0; line-height: 1.65; }
 .proposal-citation p { margin: 0 0 8px; }

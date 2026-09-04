@@ -251,7 +251,9 @@ function createRecordRow(record, idPrefix = "") {
   dateStack.className = "record-date-stack";
   const date = document.createElement("time");
   date.className = "record-date";
-  if (record.datePrecision !== "undated") date.dateTime = record.date;
+  if (record.datePrecision !== "undated") {
+    date.dateTime = record.datePrecision === "month" ? record.date.slice(0, 7) : record.date;
+  }
   date.textContent = displayDate(record);
   const number = document.createElement("span");
   number.className = "record-doc-number";
