@@ -251,7 +251,7 @@ function createRecordRow(record, idPrefix = "") {
   dateStack.className = "record-date-stack";
   const date = document.createElement("time");
   date.className = "record-date";
-  date.dateTime = record.date;
+  if (record.datePrecision !== "undated") date.dateTime = record.date;
   date.textContent = displayDate(record);
   const number = document.createElement("span");
   number.className = "record-doc-number";
@@ -265,7 +265,7 @@ function createRecordRow(record, idPrefix = "") {
   title.className = "record-title-heading";
   const titleLink = document.createElement("a");
   titleLink.className = "record-title";
-  titleLink.href = record.pdfUrl || record.catalogUrl;
+  titleLink.href = record.documentUrl || record.pdfUrl || record.catalogUrl;
   titleLink.target = "_blank";
   titleLink.rel = "noreferrer";
   titleLink.textContent = record.title;
@@ -316,7 +316,14 @@ function createRecordRow(record, idPrefix = "") {
   const links = document.createElement("div");
   links.className = "record-links";
   links.append(link("Catalog", record.catalogUrl));
-  if (record.pdfUrl) links.append(link("PDF", record.pdfUrl));
+  if (record.pdfUrl) links.append(link(record.documentUrl ? "Memorandum pages" : "PDF", record.documentUrl || record.pdfUrl));
+  if (record.provenanceUrl) links.append(link("Provenance: page 1", record.provenanceUrl));
+  if (record.proposalId) {
+    const proposalLink = document.createElement("a");
+    proposalLink.href = `#proposal-${record.proposalId}`;
+    proposalLink.textContent = "Selection rationale";
+    links.append(proposalLink);
+  }
   if (record.naid) links.append(badge(`NAID ${record.naid}`));
   if (record.localId) links.append(badge(`OA/ID ${record.localId}`));
 
@@ -998,7 +1005,7 @@ function renderPublicReferences(records) {
 }
 
 function downloadFilteredCsv() {
-  const fields = ["id", "date", "title", "heading", "dateline", "type", "subjectArea", "selection", "releaseStatus", "pageCount", "withheldPages", "classification", "naid", "localId", "sourceNoteStatus", "sourceNote", "archivalLocator", "catalogUrl", "pdfUrl"];
+  const fields = ["id", "date", "title", "heading", "dateline", "type", "subjectArea", "selection", "releaseStatus", "pageCount", "withheldPages", "classification", "naid", "localId", "sourceNoteStatus", "sourceNote", "archivalLocator", "catalogUrl", "pdfUrl", "datePrecision", "dateBasis", "displayDateLabel", "sortDate", "documentUrl", "provenanceUrl"];
   const csv = [
     fields.map(csvCell).join(","),
     ...filteredRecords.map((record) => fields.map((field) => csvCell(record[field])).join(",")),

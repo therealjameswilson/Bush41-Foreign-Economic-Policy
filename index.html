@@ -10,7 +10,7 @@
     <meta name="theme-color" content="#163a59">
     <title>Foreign Economic Policy, 1989-1992 | FRUS Compiler Workbench</title>
     <link rel="icon" href="assets/foreign-economic-policy-map.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css?v=20260901-policy-development">
+    <link rel="stylesheet" href="styles.css?v=20260904-frus-selections">
   </head>
   <body>
     <a class="skip-link" href="#chronology">Skip to chronology</a>
@@ -22,6 +22,7 @@
       </a>
       <nav aria-label="Primary navigation">
         <a href="#chronology">Chronology</a>
+        <a href="#frus-selections">Proposed Selections</a>
         <a href="#nsc-files">Collections</a>
         <a href="#compiler">Compiler Desk</a>
         <a href="#public-record">Public Record</a>
@@ -47,6 +48,7 @@
           </div>
           <div class="hero-actions" role="group" aria-label="Primary actions">
             <a class="button primary" href="#chronology">Open Chronology</a>
+            <a class="button secondary" href="#frus-selections">Review FRUS Proposals</a>
             <a class="button secondary" href="data/records.csv" download>Download CSV</a>
             <a class="button secondary" href="data/volume.json" download>Download JSON</a>
           </div>
@@ -152,11 +154,40 @@
         </div>
       </section>
 
+      <section class="section proposals-section" id="frus-selections" aria-labelledby="frus-selections-title">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">From archival evidence to selection</p>
+            <h2 id="frus-selections-title">Proposed FRUS Selections</h2>
+          </div>
+          <span class="status-stamp">For compiler consideration</span>
+        </div>
+        <p class="proposals-intro">Specific memoranda, with particular attention to Brent Scowcroft: why each merits consideration, what the source images establish, and the pages to open. The PDF’s first page supplies the archival provenance; the memorandum supplies its heading, date, and classification.</p>
+        <div class="proposal-overview" id="proposal-overview"></div>
+        <p class="proposals-coverage" id="proposals-coverage"></p>
+        <div class="proposal-tools" role="search" aria-label="Proposed selection filters">
+          <label class="search-field"><span>Search proposals</span><input type="search" id="proposal-search" placeholder="Person, subject, date, or archival reference"></label>
+          <label><span>Scowcroft relationship</span><select id="proposal-person"><option value="">All relationships</option><option value="From Scowcroft">From Scowcroft</option><option value="To Scowcroft">To Scowcroft</option><option value="Companion paper">Companion paper</option></select></label>
+          <label><span>Proposed treatment</span><select id="proposal-treatment"><option value="">Documents and annotation</option><option value="Document">Proposed documents</option><option value="Annotation">Supporting annotation</option></select></label>
+          <button type="button" class="button secondary" id="proposal-clear">Clear</button>
+        </div>
+        <div class="proposal-downloads">
+          <a class="button secondary" href="data/frus-selections.md" download>Download proposal packet</a>
+          <a class="button secondary" href="data/frus-selections.csv" download>Download CSV</a>
+          <a href="data/frus-selections.json" download>JSON</a>
+          <a href="reports/frus-selections-source-audit.json">Source audit</a>
+        </div>
+        <p class="records-summary" id="proposal-summary" aria-live="polite"></p>
+        <div id="proposals-root"></div>
+        <noscript><p>Read the <a href="data/frus-selections.md">proposal packet</a> for the full document list, citations, and source links.</p></noscript>
+      </section>
+
       <section class="section nsc-section" id="nsc-files" aria-labelledby="nsc-files-title">
         <div class="section-heading">
           <div>
             <p class="kicker">Collection Audit</p>
             <h2 id="nsc-files-title">Archival Collection Files</h2>
+            <p><a href="#frus-selections">Review document-level FRUS proposals drawn from these files →</a></p>
           </div>
           <span class="status-stamp" id="nsc-status">H-Files Institutional Files transition series</span>
         </div>
@@ -479,7 +510,8 @@
     </footer>
 
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
-    <script src="data/volume.js?v=20260901-policy-development"></script>
-    <script src="app.js?v=20260901-policy-development"></script>
+    <script src="data/volume.js?v=20260904-frus-selections"></script>
+    <script src="app.js?v=20260904-frus-selections"></script>
+    <script src="selections.js?v=20260904-frus-selections"></script>
   </body>
 </html>

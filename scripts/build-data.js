@@ -2,6 +2,7 @@
 
 const fs = require("node:fs");
 const path = require("node:path");
+const frusSelections = require("./frus-selections");
 
 const root = path.resolve(__dirname, "..");
 const westernEuropePath = process.env.WESTERN_EUROPE_MEMCONS_PATH
@@ -1473,7 +1474,7 @@ const supersededLeadIds = new Set(
 );
 const remainingLeadRecords = leadRecords.filter((record) => !supersededLeadIds.has(record.id));
 
-const allRecords = [
+const allRecords = frusSelections.applySelections([
   ...presidentialRecords,
   ...itemRecords,
   ...timDealDocumentRecords,
@@ -1490,7 +1491,7 @@ const allRecords = [
   ...policyDevelopmentDocumentRecords,
   ...gatesMiddleEastDocumentRecords,
   ...remainingLeadRecords,
-]
+])
   .map((record) => {
     if (!subjectAreaNames.has(record.chapter)) throw new Error(`Unknown subject area for ${record.id}: ${record.chapter}`);
     const { chapter, ...chronologyRecord } = record;
@@ -1501,6 +1502,13 @@ const allRecords = [
 const data = {
   meta,
   subjectAreas,
+  proposedSelections: {
+    reviewedOn: frusSelections.source.reviewedOn,
+    scope: frusSelections.source.scope,
+    method: frusSelections.source.method,
+    sources: frusSelections.source.sources,
+    recordIds: allRecords.filter(record => record.proposalId).map(record => record.id),
+  },
   records: allRecords,
   nscCollections: [
     {
@@ -1805,6 +1813,12 @@ const dataDir = path.join(root, "data");
 fs.mkdirSync(dataDir, { recursive: true });
 fs.writeFileSync(path.join(dataDir, "volume.json"), `${JSON.stringify(data, null, 2)}\n`);
 fs.writeFileSync(path.join(dataDir, "volume.js"), `window.VOLUME_DATA = ${JSON.stringify(data, null, 2)};\n`);
+const proposedRecords = allRecords.filter(record => record.proposalId);
+fs.writeFileSync(path.join(dataDir, "frus-selections.json"), `${JSON.stringify({ ...data.proposedSelections, records: proposedRecords }, null, 2)}\n`);
+fs.writeFileSync(path.join(dataDir, "frus-selections.csv"), toCsv(proposedRecords, [
+  "id", "title", "heading", "dateline", "datePrecision", "dateBasis", "sortDate", "sender", "recipient", "scowcroftRole", "proposalKind", "priority", "selectionRationale", "sourceNote", "classification", "markingNote", "releaseStatus", "pdfPageStart", "pdfPageEnd", "extentLabel", "evidenceNotes", "editorialReview", "relatedIds", "naid", "localId", "catalogUrl", "provenanceUrl", "documentUrl",
+]));
+fs.writeFileSync(path.join(dataDir, "frus-selections.md"), `${frusSelections.selectionPacket(proposedRecords)}\n`);
 fs.writeFileSync(
   path.join(dataDir, "gates-middle-east-candidates.json"),
   `${JSON.stringify({
@@ -1864,6 +1878,12 @@ fs.writeFileSync(path.join(dataDir, "records.csv"), toCsv(allRecords, [
   "archivalLocator",
   "catalogUrl",
   "pdfUrl",
+  "datePrecision",
+  "dateBasis",
+  "displayDateLabel",
+  "sortDate",
+  "documentUrl",
+  "provenanceUrl",
 ]));
 fs.writeFileSync(path.join(dataDir, "public-references.csv"), toCsv(publicReferences, [
   "id",

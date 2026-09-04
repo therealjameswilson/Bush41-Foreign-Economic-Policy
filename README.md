@@ -6,6 +6,21 @@ The official volume is currently [Being Researched](https://history.state.gov/hi
 
 ## What is in the workbench
 
+### Proposed FRUS selections
+
+The [Proposed Selections section](https://therealjameswilson.github.io/Bush41-Foreign-Economic-Policy/#frus-selections) begins with **seven proposed documents and four supporting memoranda for annotation**, ten to or from Brent Scowcroft. This selective pass covers March 1989–July 1990 and four official file-unit PDFs; it does not claim complete coverage of the administration or Scowcroft collection.
+
+Each proposal includes an editorial rationale, FRUS-style heading and Source Note, exact document-page links, a separate link to **PDF page 1**, a thumbnail and transcription of that page's provenance marker, and questions about dates, attachments, copy choice, or approval. Proposals remain in chronological order and can be filtered by Scowcroft's role or proposed treatment. The same document appears once in the master chronology; the proposal section adds a selection assessment to it.
+
+The initial pass adds seven item-level records and revisits four existing Tim Deal records. The marked March 15 and March 20 Paris copies have terminal Confidential stamps, which correct the earlier citation based only on the printed “Unclassified with Confidential Attachment” wording. The June 25 Houston paper names both Baker and Brady. The China-lending memorandum remains undated, with blank approval lines; its July 1 sorting reference comes from the covering memorandum. Its conflicting $700 billion / $700 million figures are explicitly flagged.
+
+- Editorial input: `data/frus-selections-source.json`; enrichment and exports: `scripts/frus-selections.js` through `npm run build:data`.
+- Downloads: `data/frus-selections.md`, `data/frus-selections.csv`, and `data/frus-selections.json`.
+- Audit: `reports/frus-selections-source-audit.json`, including Catalog-to-object matches, downloaded-PDF hashes, and exact visual-review scope. Thumbnail images are rendered from official PDF first pages; originals remain at NARA.
+- Validation: `npm run validate:selections` checks provenance chains, page bounds, chronology/export agreement, undated status, authorship, and the documented classification exceptions.
+
+### Existing register
+
 - A single global chronology of released documents, withdrawn items, meeting packets, and file-unit leads.
 - Source-image-checked FRUS-style Source Notes kept distinct from drafts and archival locators.
 - Copy-ready heading, dateline, and provenance blocks for each candidate.

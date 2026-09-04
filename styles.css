@@ -15,6 +15,61 @@
     sans-serif;
 }
 
+.proposals-section { background: #f7f6ef; border-top: 4px solid var(--gold); }
+.proposals-intro { max-width: 960px; font-size: 1.08rem; line-height: 1.7; }
+.proposal-overview { display: grid; grid-template-columns: repeat(4, 1fr); border: 1px solid var(--line); margin: 24px 0 16px; background: white; }
+.proposal-overview > div { padding: 20px; display: grid; gap: 5px; }
+.proposal-overview strong { font-family: Georgia, serif; font-size: 2rem; color: var(--navy); }
+.proposal-overview span, .proposals-coverage { color: var(--muted); font-size: .91rem; line-height: 1.65; }
+.proposal-tools { display: grid; grid-template-columns: 2fr 1fr 1fr auto; align-items: end; gap: 14px; margin: 24px 0 16px; }
+.proposal-tools label { display: grid; gap: 7px; font-size: .85rem; font-weight: 700; }
+.proposal-tools input, .proposal-tools select { width: 100%; min-width: 0; min-height: 44px; border: 1px solid var(--line); border-radius: 6px; padding: 10px; background: white; font: inherit; color: var(--ink); }
+.proposal-downloads, .proposal-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+.proposal-downloads { margin: 20px 0; }
+.proposal-card { background: white; border: 1px solid var(--line); border-left: 4px solid var(--navy); padding: clamp(20px, 3vw, 34px); margin: 0 0 22px; scroll-margin-top: 150px; }
+.proposal-annotation { border-left-color: var(--gold); }
+.proposal-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; font-size: .83rem; }
+.proposal-date { font-weight: 800; color: var(--navy); margin-right: 8px; }
+.proposal-role, .proposal-treatment { padding: 5px 9px; background: #edf2f5; border-radius: 4px; }
+.proposal-treatment { background: #f6eddb; color: #694600; }
+.proposal-card h3 { font-family: Georgia, serif; font-size: clamp(1.4rem, 2.2vw, 1.9rem); line-height: 1.3; margin: 20px 0 8px; }
+.proposal-card h3 a { text-decoration: none; }
+.proposal-card h3 a:hover { text-decoration: underline; }
+.proposal-correspondents { color: var(--muted); margin: 0 0 16px; }
+.proposal-rationale { max-width: 1000px; line-height: 1.75; }
+.proposal-citation { background: #f4f6f8; border: 1px solid var(--line); padding: 18px 22px; margin: 20px 0; line-height: 1.65; }
+.proposal-citation p { margin: 0 0 8px; }
+.proposal-citation p:last-child { margin: 0; }
+.proposal-label { font: 750 .76rem/1.5 system-ui, sans-serif; text-transform: uppercase; letter-spacing: .055em; color: var(--navy); }
+.proposal-source-text { font-family: Georgia, serif; }
+.proposal-extent { font-size: .83rem; color: var(--muted); line-height: 1.6; }
+.proposal-actions button { cursor: pointer; }
+.proposal-evidence { border-top: 1px solid var(--line); margin-top: 20px; padding-top: 14px; }
+.proposal-evidence summary { cursor: pointer; font-weight: 700; color: var(--navy); line-height: 1.6; }
+.proposal-evidence-grid { display: grid; grid-template-columns: 180px minmax(0, 1fr); gap: 28px; padding-top: 20px; }
+.proposal-evidence figure { margin: 0; }
+.proposal-evidence img { width: 100%; height: auto; border: 1px solid var(--line); }
+.proposal-evidence figcaption { font-size: .78rem; color: var(--muted); line-height: 1.6; margin-top: 8px; }
+.proposal-evidence h4 { margin: 0 0 8px; color: var(--navy); }
+.proposal-evidence p { margin: 0 0 20px; line-height: 1.75; }
+.proposal-marker { margin: 0 0 22px; }
+.proposal-marker > div { display: grid; grid-template-columns: 145px minmax(0, 1fr); gap: 14px; border-bottom: 1px solid var(--line); padding: 6px 0; font-size: .87rem; line-height: 1.6; }
+.proposal-marker dt { color: var(--muted); }
+.proposal-marker dd { margin: 0; overflow-wrap: anywhere; }
+.proposal-related { display: grid; gap: 8px; margin-bottom: 20px; font-size: .9rem; }
+.proposal-empty { padding: 30px; background: white; border: 1px solid var(--line); }
+@media (max-width: 760px) {
+  .proposal-overview { grid-template-columns: repeat(2, 1fr); }
+  .proposal-tools { grid-template-columns: 1fr 1fr; }
+  .proposal-tools .search-field { grid-column: 1 / -1; }
+  .proposal-evidence-grid { grid-template-columns: 1fr; }
+  .proposal-evidence figure { max-width: 180px; }
+  .proposal-card { scroll-margin-top: 165px; }
+  .proposal-actions .button { width: 100%; text-align: center; }
+  .proposal-marker > div { grid-template-columns: 110px minmax(0, 1fr); }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
 * {
   box-sizing: border-box;
 }

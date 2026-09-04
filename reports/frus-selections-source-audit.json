@@ -1,0 +1,226 @@
+{
+  "reviewedOn": "2026-09-04",
+  "scope": "Initial document-level selection pass: 11 memoranda from four official file-unit PDFs, dated March 1989–July 1990 (including one undated attachment). Seven are proposed for document treatment and four for annotation. This is a selective starting set, not a complete review of 1989–1992 or of the Scowcroft collection.",
+  "method": "Read the official PDF’s first page for archival provenance, then inspect the selected memorandum and its final page for authorship, date, boundaries, classification, and release evidence. Editorial proposals remain subject to compiler judgment and comparison of controlling copies.",
+  "sources": [
+    {
+      "id": "91139-001",
+      "naid": "366551910",
+      "objectId": "506682392",
+      "catalogUrl": "https://catalog.archives.gov/id/366551910",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4545957/41-bpr-scow-la-econchr-91139-001.pdf",
+      "pdfPages": 12,
+      "sha256": "9fefb7ca4f046cc64164f92e5693357e305f3693a0ccccd7d59b1df6d8d33e70",
+      "checkedOn": "2026-09-04",
+      "provenancePage": 1,
+      "marker": {
+        "recordGroup": "George H.W. Bush Presidential Records",
+        "office": "Scowcroft, Brent, Collection",
+        "series": "Latin American Files",
+        "subseries": "Economic Chronological Files",
+        "oaId": "91139",
+        "folderId": "91139-001",
+        "folderTitle": "Latin America - Economics (June 1989)"
+      },
+      "provenanceStem": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Latin American Files, Economic Chronological Files, OA/ID 91139–001, Latin America - Economics (June 1989).",
+      "preview": "assets/provenance/91139-001.jpg",
+      "imageReviewScope": "PDF pages 1–12",
+      "catalogObjectMatched": true
+    },
+    {
+      "id": "91149-006",
+      "naid": "366552005",
+      "objectId": "506682492",
+      "catalogUrl": "https://catalog.archives.gov/id/366552005",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4708326/41-bpr-scow-chron-91149-006.pdf",
+      "pdfPages": 66,
+      "sha256": "0a403c1f8c749776bafd08e5d467b9975b85ea816f658763d681d0e7a7d0cd48",
+      "checkedOn": "2026-09-04",
+      "provenancePage": 1,
+      "marker": {
+        "recordGroup": "George H.W. Bush Presidential Records",
+        "office": "Scowcroft, Brent, Collection",
+        "series": "Chronological Files",
+        "subseries": "",
+        "oaId": "91149",
+        "folderId": "91149-006",
+        "folderTitle": "Other (July 1990)"
+      },
+      "provenanceStem": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Chronological Files, OA/ID 91149–006, Other (July 1990).",
+      "preview": "assets/provenance/91149-006.jpg",
+      "imageReviewScope": "PDF pages 1–24; remaining pages are outside this selection pass",
+      "catalogObjectMatched": true
+    },
+    {
+      "id": "CF00972-018",
+      "naid": "452050609",
+      "objectId": "652475115",
+      "catalogUrl": "https://catalog.archives.gov/id/452050609",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-018.pdf",
+      "pdfPages": 13,
+      "sha256": "37d9738c38972f2e7f508978edadcad1cdc96214ead07527aa649159252f915a",
+      "checkedOn": "2026-09-04",
+      "provenancePage": 1,
+      "marker": {
+        "recordGroup": "George H.W. Bush Presidential Records",
+        "office": "National Security Council",
+        "series": "Deal, Timothy E., Files",
+        "subseries": "Subject Files",
+        "oaId": "CF00972",
+        "folderId": "CF00972-018",
+        "folderTitle": "Trade"
+      },
+      "provenanceStem": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Timothy E. Deal Files, Subject Files, OA/ID CF00972–018, Trade.",
+      "preview": "assets/provenance/CF00972-018.jpg",
+      "imageReviewScope": "PDF pages 1 and 10–13; other pages are outside this selection pass",
+      "catalogObjectMatched": true
+    },
+    {
+      "id": "CF00972-002",
+      "naid": "452050593",
+      "objectId": "652475099",
+      "catalogUrl": "https://catalog.archives.gov/id/452050593",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/subject_2554810/41-bpr-nsc-deal-subj-cf00972-002.pdf",
+      "pdfPages": 25,
+      "sha256": "e2caa523d51b47f314cc11481429a0cc217c82b809f2162b62267d8dd5e7292a",
+      "checkedOn": "2026-09-04",
+      "provenancePage": 1,
+      "marker": {
+        "recordGroup": "George H.W. Bush Presidential Records",
+        "office": "National Security Council",
+        "series": "Deal, Timothy E., Files",
+        "subseries": "Subject Files",
+        "oaId": "CF00972",
+        "folderId": "CF00972-002",
+        "folderTitle": "Paris Economic Summit [July 1989]"
+      },
+      "provenanceStem": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Timothy E. Deal Files, Subject Files, OA/ID CF00972–002, Paris Economic Summit [July 1989].",
+      "preview": "assets/provenance/CF00972-002.jpg",
+      "imageReviewScope": "PDF pages 1–25",
+      "catalogObjectMatched": true
+    }
+  ],
+  "proposals": [
+    {
+      "id": "deal-1989-03-08-melby-paris-preparatory",
+      "sourceId": "CF00972-002",
+      "pages": [
+        24,
+        24
+      ],
+      "classification": "Confidential",
+      "proposalKind": "Document",
+      "evidenceNotes": "The one-page memorandum is at PDF page 24, routed through Timothy E. Deal and stamped “Natl Sec Advisor has seen.” The attached six-page Sherpa report is represented by a withdrawal sheet on page 25; its contents are not reconstructed here."
+    },
+    {
+      "id": "deal-1989-03-15-melby-white-house-summit-group",
+      "sourceId": "CF00972-002",
+      "pages": [
+        8,
+        8
+      ],
+      "classification": "Confidential",
+      "proposalKind": "Annotation",
+      "evidenceNotes": "Use the annotated copy on page 8; page 10 is a parallel copy with a blank approval line. Page 8 bears a “SIGNED” stamp, an approval check, and a handwritten organizational instruction. It has added Confidential stamps alongside printed “Unclassified with Confidential Attachment” markings. The selected copy’s terminal Confidential stamp controls this Source Note."
+    },
+    {
+      "id": "deal-1989-03-20-scowcroft-sununu-paris",
+      "sourceId": "CF00972-002",
+      "pages": [
+        3,
+        3
+      ],
+      "classification": "Confidential",
+      "proposalKind": "Document",
+      "evidenceNotes": "The dated, initialed copy is on page 3. The undated copy on page 11 is not a second proposal. The selected copy has added Confidential stamps at top and bottom alongside printed “Unclassified with Confidential Attachment” markings; the Source Note reflects the terminal stamp. The Sherpa report remains withdrawn (page 4); agenda, participants, and organization chart follow on pages 5–7."
+    },
+    {
+      "id": "deal-1989-03-24-melby-economic-policy-directive",
+      "sourceId": "CF00972-018",
+      "pages": [
+        10,
+        10
+      ],
+      "classification": "No classification marking",
+      "proposalKind": "Document",
+      "evidenceNotes": "Page 10 is the dated, initialed Melby memorandum, routed through Deal; its approval lines are blank. Page 11 is an undated memorandum prepared for Scowcroft to send to Brady, with a typed name and no visible signature. Brady’s March 21 directive is on pages 12–13. None of these pages should be assigned the date of another document."
+    },
+    {
+      "id": "scowcroft-1989-06-21-melby-summit-briefing",
+      "sourceId": "91139-001",
+      "pages": [
+        9,
+        9
+      ],
+      "classification": "No classification marking",
+      "proposalKind": "Annotation",
+      "evidenceNotes": "The one-page action memorandum is routed through Deane E. Hoffmann and asks Scowcroft to sign the attached presidential memorandum. It supplies June 21 as the staff-paper date; June 26 is the scheduled meeting date. The attached presidential memorandum appears separately on pages 3–5."
+    },
+    {
+      "id": "scowcroft-1989-06-24-paris-briefing",
+      "sourceId": "91139-001",
+      "pages": [
+        3,
+        5
+      ],
+      "classification": "Secret",
+      "proposalKind": "Document",
+      "evidenceNotes": "The initialed three-page briefing is dated June 24; June 26 is the meeting it prepares. Its location in Latin American Files does not limit its substantive coverage to that region. The opening withdrawal inventory lists it, but the three released pages and declassification stamp are present. Page 12 still represents a withheld one-page biography. Agendas and talking points are separate attachments."
+    },
+    {
+      "id": "scowcroft-1990-06-25-baker-brady-houston",
+      "sourceId": "91149-006",
+      "pages": [
+        16,
+        23
+      ],
+      "classification": "Secret",
+      "proposalKind": "Document",
+      "evidenceNotes": "The eight-page document names both Baker and Brady on page 16. The withdrawal inventory describes Baker alone; the document heading supplies the fuller authorship. The release stamp and all eight document pages are present, ending with Secret on page 23. It is attached to the Houston briefing sequence in the Scowcroft chronological file."
+    },
+    {
+      "id": "scowcroft-1990-07-01-lundsager-china",
+      "sourceId": "91149-006",
+      "pages": [
+        5,
+        5
+      ],
+      "classification": "Confidential",
+      "proposalKind": "Annotation",
+      "evidenceNotes": "One-page action memorandum dated July 1, routed through Timothy E. Deal and stamped “Natl Sec Advisor has seen.” It asks for Scowcroft’s signature on the attached memorandum. Neither this request nor the seen stamp establishes presidential approval."
+    },
+    {
+      "id": "scowcroft-1990-07-01-melby-houston",
+      "sourceId": "91149-006",
+      "pages": [
+        15,
+        15
+      ],
+      "classification": "Confidential",
+      "proposalKind": "Annotation",
+      "evidenceNotes": "The dated one-page action memorandum is routed through Deal. It requests signature of the President’s memorandum and identifies the Baker–Brady paper as Tab II. Terminal marking: “Confidential with Secret Attachment”; the eight-page attachment is separately proposed and marked Secret."
+    },
+    {
+      "id": "scowcroft-undated-1990-china-lending",
+      "sourceId": "91149-006",
+      "pages": [
+        6,
+        8
+      ],
+      "classification": "Confidential",
+      "proposalKind": "Document",
+      "evidenceNotes": "The three-page memorandum is undated and has a typed FROM line. Lundsager’s July 1 covering memorandum (page 5) prepared it for the July 2 briefing. The approval and disapproval lines on page 8 are blank. Page 7 prints “$700 billion,” while the conclusion on page 8 and talking points on page 9 say “$700 million”; preserve and flag this discrepancy in any transcription. The document is released despite its listing on the earlier withdrawal inventory."
+    },
+    {
+      "id": "scowcroft-1990-07-02-houston",
+      "sourceId": "91149-006",
+      "pages": [
+        12,
+        14
+      ],
+      "classification": "Confidential",
+      "proposalKind": "Document",
+      "evidenceNotes": "The dated, initialed memorandum occupies pages 12–14. Its first page refers to the Baker–Brady paper, and the July 1 Melby cover on page 15 identifies the two-paper package. All three pages are released and the terminal marking is Confidential. These recommendations do not by themselves establish the President’s decisions or summit outcomes."
+    }
+  ]
+}
