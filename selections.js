@@ -10,7 +10,6 @@
   const pass = document.querySelector('#proposal-pass');
   const controls = [[search, 'p_q'], [person, 'p_role'], [treatment, 'p_treatment'], [pass, 'p_pass']];
   const params = new URLSearchParams(location.search);
-  controls.forEach(([control, key]) => { control.value = params.get(key) || ''; });
 
   const node = (tag, text, className) => {
     const element = document.createElement(tag);
@@ -18,6 +17,21 @@
     if (className) element.className = className;
     return element;
   };
+  const passLabels = new Map([
+    ['ifi-follow-up', 'Institutional follow-up'],
+    ['deal-standalone', 'Deal memoranda'],
+    ['ifi-expansion', 'International institutions'],
+    ['initial', 'Initial proposals']
+  ]);
+  const passCounts = new Map();
+  records.forEach(record => {
+    const id = record.selectionPass || 'initial';
+    passCounts.set(id, (passCounts.get(id) || 0) + 1);
+  });
+  const passIds = [...new Set([...passLabels.keys(), ...passCounts.keys()])].filter(id => passCounts.has(id));
+  pass.replaceChildren(new Option(`All ${records.length} proposals`, ''), ...passIds.map(id =>
+    new Option(`${passLabels.get(id) || id.replaceAll('-', ' ')} (${passCounts.get(id)})`, id)));
+  controls.forEach(([control, key]) => { control.value = params.get(key) || ''; });
   const anchor = (text, href, className = '') => {
     const element = node('a', text, className);
     element.href = href;

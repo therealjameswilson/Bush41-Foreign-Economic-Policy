@@ -1,6 +1,6 @@
 {
   "reviewedOn": "2026-09-04",
-  "scope": "45 document-level proposals from 19 official file-unit PDFs, January 1989–March 1992: 41 for document treatment and four for annotation. Four new Deal memoranda address the Brady debt strategy, a Philippine World Bank vote, and Polish debt and assistance options. The earlier 30-document institutions pass remains intact. This selective set does not claim complete coverage of the administration or any collection.",
+  "scope": "60 document-level proposals from 25 official file-unit PDFs, January 1989–March 1992: 55 for document treatment and 5 for annotation. The institutional follow-up adds 15 candidates on debt-financing alternatives, development-bank coordination, environmental finance, and multilateral trade-policy choices. Four separately reviewed Deal memoranda cover the Brady debt strategy, a Philippine World Bank vote, and Polish debt and assistance options. This selective set does not claim complete coverage of the administration or any collection.",
   "method": "Read the official PDF’s first page for archival provenance, then inspect each selected document and its final page for authorship, date, boundaries, classification, and release evidence. Preserve redactions, draft and uncertain-date status, and distinguish proposed excerpts from complete documents. Editorial proposals remain subject to compiler judgment and comparison of controlling copies.",
   "editorialModel": {
     "id": "frus1977-80v03",
@@ -271,7 +271,7 @@
       },
       "provenanceStem": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Latin American Files, Economic Chronological Files, OA/ID 91139–011, Latin America - Economics (October 1990).",
       "preview": "assets/provenance/91139-011.jpg",
-      "imageReviewScope": "PDF pages 1, 32–33, 56–59, 61–62, 117–118; other pages screened with OCR as needed and are outside the document-image review claim"
+      "imageReviewScope": "PDF pages 1, 32–33, 56–59, 61–62, 117–118; other pages screened with OCR as needed and are outside the document-image review claim; additional proposal review: PDF pages 1, 82, 131–135, and 139–141"
     },
     {
       "id": "91139-013",
@@ -410,7 +410,7 @@
       },
       "provenanceStem": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Timothy E. Deal Files, Chronological Files, OA/ID CF00695–009, Chron File: June 1989 [1].",
       "preview": "assets/provenance/CF00695-009.jpg",
-      "imageReviewScope": "PDF pages 1, 12–13, 19–20; other pages screened with OCR as needed and are outside the document-image review claim"
+      "imageReviewScope": "PDF pages 1, 12–13, 19–20; other pages screened with OCR as needed and are outside the document-image review claim; additional proposal review: PDF pages 1, 42, 43, 44, 45, 46"
     },
     {
       "id": "CF00695-014",
@@ -433,7 +433,7 @@
       },
       "provenanceStem": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Timothy E. Deal Files, Chronological Files, OA/ID CF00695–014, Chron File: July 1989 [3].",
       "preview": "assets/provenance/CF00695-014.jpg",
-      "imageReviewScope": "PDF pages 1, 60–61, 64, 69–70, 76–77; other pages screened with OCR as needed and are outside the document-image review claim"
+      "imageReviewScope": "PDF pages 1, 60–61, 64, 69–70, 76–77; other pages screened with OCR as needed and are outside the document-image review claim; additional proposal review: PDF pages 1, 65, 84"
     },
     {
       "id": "CF00696-001",
@@ -456,7 +456,7 @@
       },
       "provenanceStem": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Timothy E. Deal Files, Chronological Files, OA/ID CF00696–001, Chron File: December 1989 [1].",
       "preview": "assets/provenance/CF00696-001.jpg",
-      "imageReviewScope": "PDF pages 1, 39; other pages screened with OCR as needed and are outside the document-image review claim"
+      "imageReviewScope": "PDF pages 1, 39; other pages screened with OCR as needed and are outside the document-image review claim; additional proposal review: PDF pages 1, 40, 41, 42, 44, 45, 46, 47, 50"
     },
     {
       "id": "CF00958-006",
@@ -502,7 +502,145 @@
       },
       "provenanceStem": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Timothy E. Deal Files, Chronological Files, OA/ID CF00959–010, Chron File: March 1992 [1].",
       "preview": "assets/provenance/CF00959-010.jpg",
-      "imageReviewScope": "PDF pages 1, 17, 46; other pages screened with OCR as needed and are outside the document-image review claim"
+      "imageReviewScope": "PDF pages 1, 17, 46; other pages screened with OCR as needed and are outside the document-image review claim; additional proposal review: PDF pages 1, 5, 6, 7, 16"
+    },
+    {
+      "id": "91148-003",
+      "naid": "366551992",
+      "objectId": "506682479",
+      "catalogUrl": "https://catalog.archives.gov/id/366551992",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4708326/41-bpr-scow-chron-91148-003.pdf",
+      "pdfPages": 101,
+      "sha256": "8a56832ece0bebf4bcbe176ae7c33bd0ccc53537c13bf562ac00d0309dad8eaa",
+      "checkedOn": "2026-09-04",
+      "provenancePage": 1,
+      "marker": {
+        "recordGroup": "George H.W. Bush Presidential Records",
+        "office": "Scowcroft, Brent, Collection",
+        "series": "Chronological Files",
+        "subseries": "",
+        "oaId": "91148",
+        "folderId": "91148-003",
+        "folderTitle": "Other (April 1989) [2]"
+      },
+      "provenanceStem": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Chronological Files, OA/ID 91148–003, Other (April 1989) [2].",
+      "preview": "assets/provenance/91148-003.jpg",
+      "imageReviewScope": "PDF pages 1, 34, 37–38; pages 37–38 supply context for an already cataloged directive; other pages are outside this document-image review claim"
+    },
+    {
+      "id": "91149-003",
+      "naid": "366552002",
+      "objectId": "506682489",
+      "catalogUrl": "https://catalog.archives.gov/id/366552002",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4708326/41-bpr-scow-chron-91149-003.pdf",
+      "pdfPages": 93,
+      "sha256": "e7950d52673f9c5c2843ef68eafe513e128e39da254141df796bc59b612c36b6",
+      "checkedOn": "2026-09-04",
+      "provenancePage": 1,
+      "marker": {
+        "recordGroup": "George H.W. Bush Presidential Records",
+        "office": "Scowcroft, Brent, Collection",
+        "series": "Chronological Files",
+        "subseries": "",
+        "oaId": "91149",
+        "folderId": "91149-003",
+        "folderTitle": "Other (June 1990) [2]"
+      },
+      "provenanceStem": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Chronological Files, OA/ID 91149–003, Other (June 1990) [2].",
+      "preview": "assets/provenance/91149-003.jpg",
+      "imageReviewScope": "PDF pages 1, 53, 56–57, 74–76; other pages are outside this document-image review claim"
+    },
+    {
+      "id": "91149-004",
+      "naid": "366552003",
+      "objectId": "506682490",
+      "catalogUrl": "https://catalog.archives.gov/id/366552003",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4708326/41-bpr-scow-chron-91149-004.pdf",
+      "pdfPages": 112,
+      "sha256": "eefbde79166597971f31494599c07040d17f58c4c8857332b3bb45cd73501f01",
+      "checkedOn": "2026-09-04",
+      "provenancePage": 1,
+      "marker": {
+        "recordGroup": "George H.W. Bush Presidential Records",
+        "office": "Scowcroft, Brent, Collection",
+        "series": "Chronological Files",
+        "subseries": "",
+        "oaId": "91149",
+        "folderId": "91149-004",
+        "folderTitle": "Other (June 1990) [3]"
+      },
+      "provenanceStem": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Chronological Files, OA/ID 91149–004, Other (June 1990) [3].",
+      "preview": "assets/provenance/91149-004.jpg",
+      "imageReviewScope": "PDF pages 1, 21–27; other pages are outside this document-image review claim"
+    },
+    {
+      "id": "91139-003",
+      "naid": "366551912",
+      "objectId": "506682394",
+      "catalogUrl": "https://catalog.archives.gov/id/366551912",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4545957/41-bpr-scow-la-econchr-91139-003.pdf",
+      "pdfPages": 40,
+      "sha256": "97b3c4a04273e3fca458d60c0d95950fd51938c1607da32687955037af4b3f7b",
+      "checkedOn": "2026-09-04",
+      "provenancePage": 1,
+      "marker": {
+        "recordGroup": "George H.W. Bush Presidential Records",
+        "office": "Scowcroft, Brent, Collection",
+        "series": "Latin American Files",
+        "subseries": "Economic Chronological Files",
+        "oaId": "91139",
+        "folderId": "91139-003",
+        "folderTitle": "Latin America - Economics (October 1989)"
+      },
+      "provenanceStem": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Latin American Files, Economic Chronological Files, OA/ID 91139–003, Latin America - Economics (October 1989).",
+      "preview": "assets/provenance/91139-003.jpg",
+      "imageReviewScope": "PDF pages 1, 4–5, and 37–38; other pages are outside this document-image review claim"
+    },
+    {
+      "id": "91139-006",
+      "naid": "366551915",
+      "objectId": "506682397",
+      "catalogUrl": "https://catalog.archives.gov/id/366551915",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4545957/41-bpr-scow-la-econchr-91139-006.pdf",
+      "pdfPages": 33,
+      "sha256": "4a4c7b23902b90b4485637b8fbac81de69ae45cbc0169dfb3f3b935dab8e88a3",
+      "checkedOn": "2026-09-04",
+      "provenancePage": 1,
+      "marker": {
+        "recordGroup": "George H.W. Bush Presidential Records",
+        "office": "Scowcroft, Brent, Collection",
+        "series": "Latin American Files",
+        "subseries": "Economic Chronological Files",
+        "oaId": "91139",
+        "folderId": "91139-006",
+        "folderTitle": "Latin America - Economics (May - June 1990)"
+      },
+      "provenanceStem": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Latin American Files, Economic Chronological Files, OA/ID 91139–006, Latin America - Economics (May - June 1990).",
+      "preview": "assets/provenance/91139-006.jpg",
+      "imageReviewScope": "PDF pages 1 and 25; other pages are outside this document-image review claim"
+    },
+    {
+      "id": "91139-007",
+      "naid": "366551916",
+      "objectId": "506682398",
+      "catalogUrl": "https://catalog.archives.gov/id/366551916",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4545957/41-bpr-scow-la-econchr-91139-007.pdf",
+      "pdfPages": 98,
+      "sha256": "3de5ca6b3289b2db98f99765b5b548c24f48ab466c57a7120854ce296370b0e0",
+      "checkedOn": "2026-09-04",
+      "provenancePage": 1,
+      "marker": {
+        "recordGroup": "George H.W. Bush Presidential Records",
+        "office": "Scowcroft, Brent, Collection",
+        "series": "Latin American Files",
+        "subseries": "Economic Chronological Files",
+        "oaId": "91139",
+        "folderId": "91139-007",
+        "folderTitle": "Latin America - Economics (June 1990)"
+      },
+      "provenanceStem": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Latin American Files, Economic Chronological Files, OA/ID 91139–007, Latin America - Economics (June 1990).",
+      "preview": "assets/provenance/91139-007.jpg",
+      "imageReviewScope": "PDF pages 1 and 95; other pages are outside this document-image review claim"
     },
     {
       "id": "CF00695-003",
@@ -591,9 +729,12 @@
     "deal-1989-03-15-melby-white-house-summit-group",
     "deal-1989-03-20-scowcroft-sununu-paris",
     "deal-1989-03-24-melby-economic-policy-directive",
+    "ifi-1989-03-30-rockefeller-debt",
     "ifi-1989-04-esaf-report",
+    "ifi-followup-1989-04-17-scowcroft-epc",
     "deal-1989-05-03-philippines-world-bank",
     "deal-1989-05-25-poland-debt",
+    "ifi-1989-05-27-clark-loan-vote",
     "ifi-1989-06-20-conable",
     "ifi-1989-06-21-conable",
     "scowcroft-1989-06-21-melby-summit-briefing",
@@ -603,7 +744,9 @@
     "ifi-1989-07-12-mdb-votes",
     "ifi-1989-07-21-debt",
     "ifi-1989-07-25-mdb-votes",
+    "ifi-1989-10-31-andean-reform",
     "ifi-1989-12-28-imf-quotas",
+    "ifi-1990-01-02-bush-kohl-imf",
     "ifi-1990-01-08-ebrd",
     "ifi-1990-01-09-conclusions",
     "ifi-1990-01-09-ebrd-brief",
@@ -614,21 +757,31 @@
     "ifi-1990-03-08-brady-meeting",
     "ifi-1990-03-14-ebrd",
     "ifi-1990-03-28-iepr",
+    "ifi-1990-05-31-g24-design",
+    "ifi-followup-1990-06-12-taiwan-gatt",
+    "ifi-followup-1990-06-19-houston-choices",
+    "ifi-followup-1990-06-22-trade-issue-paper",
+    "ifi-1990-06-22-colombia-world-bank",
     "scowcroft-1990-06-25-baker-brady-houston",
     "scowcroft-1990-07-01-lundsager-china",
     "scowcroft-1990-07-01-melby-houston",
     "scowcroft-undated-1990-china-lending",
     "scowcroft-1990-07-02-houston",
     "ifi-1990-09-11-central-america",
+    "ifi-1990-10-11-sela-debt",
     "ifi-1990-10-11-oas-fund",
     "ifi-1990-10-12-eai",
+    "ifi-1990-10-16-debt-results",
+    "ifi-1990-10-24-robson-pdd",
     "ifi-1990-10-29-pdd",
     "ifi-1991-02-08-brazil-lending",
     "ifi-1991-06-20-philippines-appeal",
     "ifi-1991-06-24-baker-philippines",
     "ifi-1991-undated-philippines-loan",
     "ifi-1992-03-14-imf-quotas",
-    "ifi-1992-03-17-mif-funding"
+    "ifi-1992-03-17-mif-funding",
+    "ifi-1992-03-25-eai-lobbying",
+    "ifi-1992-undated-gef-schmidbauer"
   ],
   "records": [
     {
@@ -1011,8 +1164,10 @@
       "proposalKind": "Document",
       "selectionRationale": "Propose for the institutional origins of Bush trade policy. Melby recommends preserving NSC review of the EPC trade strategy because trade with Japan, Europe, and developing countries has national-security implications; he invokes the handling of debt as a precedent.",
       "evidenceNotes": "Page 10 is the dated, initialed Melby memorandum, routed through Deal; its approval lines are blank. Page 11 is an undated memorandum prepared for Scowcroft to send to Brady, with a typed name and no visible signature. Brady’s March 21 directive is on pages 12–13. None of these pages should be assigned the date of another document.",
-      "editorialReview": "Use the Melby action memorandum for the recommendation actually evidenced here. Check whether Scowcroft’s proposed reply was signed or sent before describing it as an executed instruction.",
-      "relatedIds": [],
+      "editorialReview": "Use the Melby action memorandum for the recommendation actually evidenced here. The signed April 17 reply is now separately proposed from Scowcroft’s chronological file; compare the two and seek delivery and implementation evidence before describing the proposed coordination as established practice.",
+      "relatedIds": [
+        "ifi-followup-1989-04-17-scowcroft-epc"
+      ],
       "priority": "Consider",
       "datePrecision": "day",
       "dateBasis": "Date printed on the selected memorandum; Washington is printed in its letterhead.",
@@ -1027,9 +1182,71 @@
           "d273"
         ],
         "assessment": "The selection value lies in the proposed NSC role in trade strategy and the reason for it. Establish the recommendation before describing any resulting directive.",
-        "followUp": "Find the signed or sent reply and the economic-policy directive or review record to which it responded."
+        "followUp": "Compare the newly proposed signed April 17 reply and the economic-policy directive, then locate the EPC report and evidence of the ensuing NSC review."
       },
       "subjectArea": "Trade Policy and Market Access"
+    },
+    {
+      "id": "ifi-1989-03-30-rockefeller-debt",
+      "sourceId": "CF00695-009",
+      "date": "1989-03-30",
+      "title": "Rockefeller to Scowcroft: A Larger Role for Financial Institutions in Debt Relief",
+      "sender": "David Rockefeller",
+      "recipient": "Brent Scowcroft",
+      "pdfPageStart": 42,
+      "pdfPageEnd": 46,
+      "classification": "No classification marking",
+      "proposalKind": "Document",
+      "selectionRationale": "Introduces a private-sector alternative to the administration’s debt strategy. The enclosed Ad Hoc Debt Group paper proposes additional IMF and World Bank resources, stronger cofinancing and guarantees, faster development-bank disbursements, and a larger Japanese contribution with a corresponding institutional role. Rockefeller reports presenting these proposals to Brady after the group’s meeting with Scowcroft.",
+      "evidenceNotes": "The signed March 30, 1989 letter on PDF page 42 explicitly identifies the attached memorandum as the paper left with Treasury Secretary Brady. The four-page attachment, “Further Steps on Third World Debt,” occupies PDF pages 43–46 (printed pages 1–4); it has no separate author or dateline. The letter and paper are proposed together as one selection. No classification marking is visible. The June 1989 folder title on PDF page 1 establishes archival location, not the document’s date.",
+      "editorialReview": "Preserve the distinction between Rockefeller’s account of the meetings and the group’s policy proposals. The attachment is not an agreed Treasury or NSC position. Retain the institution-wide financing proposals; assess Mexico-specific implementation passages for annotation or an explicitly marked extract.",
+      "relatedIds": [
+        "ifi-1989-07-21-debt",
+        "ifi-1989-06-20-conable"
+      ],
+      "heading": "Letter From David Rockefeller to Brent Scowcroft, With Attached Paper on Third World Debt",
+      "priority": "High",
+      "datePrecision": "day",
+      "sortDate": "1989-03-30",
+      "dateBasis": "March 30, 1989 is printed on Rockefeller’s signed letter; its explicitly identified attachment is undated and travels with the letter. The letterhead supplies the New York address.",
+      "scowcroftRole": "To Scowcroft",
+      "selectionPass": "ifi-follow-up",
+      "institutions": [
+        "IMF",
+        "World Bank",
+        "Inter-American Development Bank",
+        "Export-Import Bank",
+        "Debt strategy"
+      ],
+      "collectionId": "deal-chron",
+      "releaseStatus": "Released",
+      "type": "Letter with attached paper",
+      "dateline": "New York, March 30, 1989",
+      "extentLabel": "5 released document pages; PDF pages 42–46; signed letter and four-page attached debt proposal",
+      "selection": "Core",
+      "pageCount": 5,
+      "naid": "452050420",
+      "localId": "CF00695-009",
+      "catalogUrl": "https://catalog.archives.gov/id/452050420",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/chron_2554807/41-bpr-nsc-deal-chron-cf00695-009.pdf",
+      "documentUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/chron_2554807/41-bpr-nsc-deal-chron-cf00695-009.pdf#page=42",
+      "provenanceUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/chron_2554807/41-bpr-nsc-deal-chron-cf00695-009.pdf#page=1",
+      "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Timothy E. Deal Files, Chronological Files, OA/ID CF00695–009, Chron File: June 1989 [1]. No classification marking.",
+      "sourceNoteStatus": "verified",
+      "sourceNoteBasis": "Opening provenance marker (PDF page 1), selected document pages, and terminal markings checked in the official NARA PDF on 2026-09-04.",
+      "provenanceMethod": "Opening PDF provenance marker and document source images",
+      "notes": "The signed March 30, 1989 letter on PDF page 42 explicitly identifies the attached memorandum as the paper left with Treasury Secretary Brady. The four-page attachment, “Further Steps on Third World Debt,” occupies PDF pages 43–46 (printed pages 1–4); it has no separate author or dateline. The letter and paper are proposed together as one selection. No classification marking is visible. The June 1989 folder title on PDF page 1 establishes archival location, not the document’s date.",
+      "proposalId": "ifi-1989-03-30-rockefeller-debt",
+      "editorialAssessment": {
+        "role": "Outside policy alternative",
+        "exampleIds": [
+          "d233",
+          "d304"
+        ],
+        "assessment": "A strong candidate for the alternatives available to U.S. policymakers: it connects creditor participation, institutional resources, and conditions for new lending. The letter establishes access to Scowcroft and Brady; the attached paper supplies the substance.",
+        "followUp": "Find Treasury’s response to the group and the relevant NSC and Treasury meeting records; compare which proposed resource and cofinancing changes were accepted, rejected, or deferred."
+      },
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
       "id": "ifi-1989-04-esaf-report",
@@ -1088,6 +1305,66 @@
         "followUp": "Locate the final report and the decision on the U.S. contribution; compare the draft before treating its language as an adopted position."
       },
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
+    },
+    {
+      "id": "ifi-followup-1989-04-17-scowcroft-epc",
+      "sourceId": "91148-003",
+      "date": "1989-04-17",
+      "title": "NSC Participation in the Economic Policy Council Trade Review",
+      "sender": "Brent Scowcroft",
+      "recipient": "Nicholas F. Brady",
+      "pdfPageStart": 34,
+      "pdfPageEnd": 34,
+      "classification": "No classification marking",
+      "proposalKind": "Document",
+      "selectionRationale": "The signed reply supplies a later stage in the trade-review sequence already represented by Melby’s March 24 recommendation. Scowcroft accepts an active NSC role in the EPC study and asks the staffs to coordinate closely so issues with political or security implications can be considered by the NSC.",
+      "evidenceNotes": "One-page memorandum dated April 17, 1989, bearing a signature above Scowcroft’s typed name and a CHRON FILE stamp. No classification marking appears. The preceding proposal is a different intellectual document: Melby’s March 24 memorandum appears here on PDF page 35 and is already proposed from another file. Brady’s signed March 21 directive is on pages 37–38 and already has a record in the master chronology.",
+      "editorialReview": "Use as the signed reply missing from the earlier proposal’s follow-up. A signed file copy establishes the text and signature, not independent proof of delivery or subsequent EPC–NSC practice. Reference the March 21 directive and March 24 recommendation in annotation.",
+      "relatedIds": [
+        "deal-1989-03-24-melby-economic-policy-directive"
+      ],
+      "heading": "Memorandum From Brent Scowcroft to Nicholas F. Brady",
+      "priority": "High",
+      "datePrecision": "day",
+      "sortDate": "1989-04-17",
+      "dateBasis": "Date printed on the selected memorandum.",
+      "scowcroftRole": "From Scowcroft",
+      "selectionPass": "ifi-follow-up",
+      "institutions": [
+        "Economic Policy Council",
+        "NSC",
+        "USTR",
+        "GATT / Uruguay Round"
+      ],
+      "collectionId": "scowcroft",
+      "releaseStatus": "Released",
+      "dateline": "Washington, April 17, 1989",
+      "type": "Memorandum",
+      "selection": "Core",
+      "pageCount": 1,
+      "extentLabel": "1 released memorandum page; PDF page 34; attachments described separately",
+      "naid": "366551992",
+      "localId": "91148-003",
+      "catalogUrl": "https://catalog.archives.gov/id/366551992",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4708326/41-bpr-scow-chron-91148-003.pdf",
+      "documentUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4708326/41-bpr-scow-chron-91148-003.pdf#page=34",
+      "provenanceUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4708326/41-bpr-scow-chron-91148-003.pdf#page=1",
+      "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Chronological Files, OA/ID 91148–003, Other (April 1989) [2]. No classification marking.",
+      "sourceNoteStatus": "verified",
+      "sourceNoteBasis": "Opening provenance marker (PDF page 1), selected memorandum pages, and terminal markings checked in the official NARA PDF on 2026-09-04.",
+      "provenanceMethod": "Opening PDF provenance marker and document source images",
+      "notes": "One-page memorandum dated April 17, 1989, bearing a signature above Scowcroft’s typed name and a CHRON FILE stamp. No classification marking appears. The preceding proposal is a different intellectual document: Melby’s March 24 memorandum appears here on PDF page 35 and is already proposed from another file. Brady’s signed March 21 directive is on pages 37–38 and already has a record in the master chronology.",
+      "proposalId": "ifi-followup-1989-04-17-scowcroft-epc",
+      "editorialAssessment": {
+        "role": "Signed memorandum",
+        "exampleIds": [
+          "d163",
+          "d273"
+        ],
+        "assessment": "This concise paper completes a recommendation-to-signed-reply sequence. Its selection value is the working relationship between economic and national-security review, including multilateral trade strategy.",
+        "followUp": "Compare the EPC report, resulting presidential discussion, and any evidence that disputed trade issues were referred to the NSC."
+      },
+      "subjectArea": "Trade Policy and Market Access"
     },
     {
       "id": "deal-1989-05-03-philippines-world-bank",
@@ -1208,6 +1485,66 @@
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
+      "id": "ifi-1989-05-27-clark-loan-vote",
+      "sourceId": "CF00695-014",
+      "date": "1989-05-27",
+      "title": "State’s Objection to Treasury’s World Bank Voting Procedure",
+      "sender": "William Clark, Jr., Acting Assistant Secretary for East Asian and Pacific Affairs",
+      "recipient": "Secretary of State James A. Baker III",
+      "pdfPageStart": 65,
+      "pdfPageEnd": 65,
+      "classification": "Confidential",
+      "proposalKind": "Document",
+      "selectionRationale": "Explains the originating dispute behind the later review of U.S. development-bank voting procedures. Clark reports that Treasury initially instructed a no vote with less than one day’s notice, then changed to abstention after State and NSC appeals. His account exposes the conflict between conditionality signaling and wider foreign-policy judgments.",
+      "evidenceNotes": "One-page information memorandum bearing the date stamp May 27, 1989, with a later June 1 S/S receipt stamp. It is from “EAP – William Clark, Jr., Acting,” through Robert Kimmitt, to the Secretary. Confidential markings, underlining, initials, and a declassification stamp are visible. PDF page 84 contains another copy of the same memorandum; count the intellectual record once.",
+      "editorialReview": "Use the summary and first discussion paragraphs for the general voting and consultation issue, with marked omissions if the subsequent Philippine base-negotiation discussion is excluded. Attribute criticisms of Treasury’s economic analysis to State; obtain Treasury’s own rationale before presenting the dispute as resolved.",
+      "relatedIds": [
+        "ifi-1989-06-22-baker-votes",
+        "ifi-1989-06-29-loan-review",
+        "ifi-1989-07-25-mdb-votes"
+      ],
+      "heading": "Memorandum From William Clark, Jr., Acting Assistant Secretary for East Asian and Pacific Affairs to Secretary of State James A. Baker III",
+      "priority": "High",
+      "datePrecision": "day",
+      "sortDate": "1989-05-27",
+      "dateBasis": "May 27, 1989 is stamped on the memorandum; June 1 is the later Secretariat receipt stamp.",
+      "scowcroftRole": "Companion paper",
+      "selectionPass": "ifi-follow-up",
+      "institutions": [
+        "World Bank",
+        "Development-bank voting"
+      ],
+      "collectionId": "deal-chron",
+      "releaseStatus": "Released",
+      "dateline": "Washington, May 27, 1989",
+      "type": "Memorandum",
+      "selection": "Core",
+      "pageCount": 1,
+      "extentLabel": "1 released memorandum page; PDF page 65; attachments described separately",
+      "naid": "452050425",
+      "localId": "CF00695-014",
+      "catalogUrl": "https://catalog.archives.gov/id/452050425",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/chron_2554807/41-bpr-nsc-deal-chron-cf00695-014.pdf",
+      "documentUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/chron_2554807/41-bpr-nsc-deal-chron-cf00695-014.pdf#page=65",
+      "provenanceUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/chron_2554807/41-bpr-nsc-deal-chron-cf00695-014.pdf#page=1",
+      "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Timothy E. Deal Files, Chronological Files, OA/ID CF00695–014, Chron File: July 1989 [3]. Confidential.",
+      "sourceNoteStatus": "verified",
+      "sourceNoteBasis": "Opening provenance marker (PDF page 1), selected memorandum pages, and terminal markings checked in the official NARA PDF on 2026-09-04.",
+      "provenanceMethod": "Opening PDF provenance marker and document source images",
+      "notes": "One-page information memorandum bearing the date stamp May 27, 1989, with a later June 1 S/S receipt stamp. It is from “EAP – William Clark, Jr., Acting,” through Robert Kimmitt, to the Secretary. Confidential markings, underlining, initials, and a declassification stamp are visible. PDF page 84 contains another copy of the same memorandum; count the intellectual record once.",
+      "proposalId": "ifi-1989-05-27-clark-loan-vote",
+      "editorialAssessment": {
+        "role": "Originating interagency objection",
+        "exampleIds": [
+          "d262",
+          "d273"
+        ],
+        "assessment": "Retain if the account of Treasury’s notice and voting instructions establishes why Baker and Scowcroft revised the consultation process. Its value is the institutional conflict; use regional repercussions selectively.",
+        "followUp": "Find Treasury’s May 4 voting instruction and assessment of the loan, then connect this complaint to Baker’s June 22 request and Scowcroft’s July 25 instruction."
+      },
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
+    },
+    {
       "id": "ifi-1989-06-20-conable",
       "sourceId": "CF00695-009",
       "date": "1989-06-20",
@@ -1222,7 +1559,8 @@
       "evidenceNotes": "Two-page presidential briefing dated June 20 for the June 21 luncheon, initialed by Porter. Separate talking-point cards follow on PDF pages 14–15. No classification marking appears on the two briefing pages.",
       "editorialReview": "Use the June 20 preparation date rather than the June 21 meeting date. Pair with Deal’s June 21 corrections, especially on the number of China loans and the state of IDA negotiations.",
       "relatedIds": [
-        "ifi-1989-06-21-conable"
+        "ifi-1989-06-21-conable",
+        "ifi-1989-03-30-rockefeller-debt"
       ],
       "heading": "Memorandum From Roger B. Porter to President Bush",
       "priority": "High",
@@ -1393,7 +1731,8 @@
       "evidenceNotes": "Signed one-page memorandum dated June 22 with a State declassification notation. A duplicate is filed on PDF page 78; the attached State analysis and executive-order extracts are separate documents.",
       "editorialReview": "Select as the initiating principal-level intervention and pair with Scowcroft’s July 25 response. Distinguish Baker’s account of the Philippines vote from an independently checked World Bank voting record.",
       "relatedIds": [
-        "ifi-1989-06-29-loan-review"
+        "ifi-1989-06-29-loan-review",
+        "ifi-1989-05-27-clark-loan-vote"
       ],
       "heading": "Memorandum From James A. Baker III to Brent Scowcroft",
       "priority": "High",
@@ -1503,7 +1842,8 @@
       "editorialReview": "Use the June 29 memorandum date and preserve the separate drafting date. These are staff proposals, not adopted procedures; compare with Scowcroft’s later signed instruction.",
       "relatedIds": [
         "ifi-1989-06-22-baker-votes",
-        "ifi-1989-07-12-mdb-votes"
+        "ifi-1989-07-12-mdb-votes",
+        "ifi-1989-05-27-clark-loan-vote"
       ],
       "heading": "Memorandum From William Milam to Eugene J. McAllister",
       "priority": "High",
@@ -1618,7 +1958,10 @@
       "evidenceNotes": "Two-page memorandum dated July 21, initialed by Deal and stamped as seen. The selected copy carries a handwritten “Good memo” comment. The Negroponte cable is an attachment outside the two-page extent.",
       "editorialReview": "Attribute market assessments and predictions to Deal and his unnamed banking contacts. Use the comparative discussion to explain official/private burden sharing, not as proof that predicted moratoria occurred.",
       "relatedIds": [
-        "ifi-1989-06-21-conable"
+        "ifi-1989-06-21-conable",
+        "ifi-1989-03-30-rockefeller-debt",
+        "ifi-1990-10-11-sela-debt",
+        "ifi-1990-10-16-debt-results"
       ],
       "heading": "Memorandum From Timothy E. Deal to Brent Scowcroft",
       "priority": "High",
@@ -1677,7 +2020,8 @@
       "editorialReview": "Distinguish the instruction to develop procedures from evidence that the review was completed. Link to the June 1991 Philippines dispute, where Deal explicitly invokes the resulting appeals mechanism.",
       "relatedIds": [
         "ifi-1989-07-12-mdb-votes",
-        "ifi-1991-06-20-philippines-appeal"
+        "ifi-1991-06-20-philippines-appeal",
+        "ifi-1989-05-27-clark-loan-vote"
       ],
       "heading": "Memorandum From Brent Scowcroft to The Secretary of State, the Secretary of the Treasury, and the Acting Director of the International Development Cooperation Agency",
       "priority": "High",
@@ -1720,6 +2064,65 @@
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
+      "id": "ifi-1989-10-31-andean-reform",
+      "sourceId": "91139-003",
+      "date": "1989-10-31",
+      "title": "Andean Trade Initiative",
+      "sender": "Brent Scowcroft",
+      "recipient": "President Bush",
+      "pdfPageStart": 4,
+      "pdfPageEnd": 5,
+      "classification": "Confidential",
+      "proposalKind": "Document",
+      "selectionRationale": "Establishes how the White House combined expanded trade with development-bank support for market reform in the Andean region. Scowcroft reports interagency agreement, explains the move from a Colombia initiative to a regional program, and includes development-bank lending among the instruments selected to support economic alternatives to narcotics production.",
+      "evidenceNotes": "Two-page information memorandum, with Scowcroft initials beside the sender line. Both pages bear Confidential markings; page 4 carries a declassification stamp. The selected memorandum ends with its attachment listing on PDF page 5. It reports an agreed interagency package and a proposed November 1 announcement, rather than a separate signed presidential decision. The package includes the two-page Tab J, World Bank Efforts to Support Trade Reform, on PDF pages 37–38; those pages were also inspected and explain IMF review, Peru’s arrears, adjustment lending, and planned USTR consultations with U.S. executive directors. Tab J is undated and does not identify an individual author.",
+      "editorialReview": "Use the memorandum for the White House’s choice of economic instruments and annotate the institutional terms from Tab J (PDF pages 37–38). Compare the package with the eventual announcement and executive-director instructions. Route the wider counternarcotics narrative to the appropriate volume, and preserve omission markers if selecting an extract.",
+      "relatedIds": [
+        "ifi-1990-06-22-colombia-world-bank"
+      ],
+      "heading": "Memorandum From Brent Scowcroft to President Bush",
+      "priority": "Medium",
+      "datePrecision": "day",
+      "sortDate": "1989-10-31",
+      "dateBasis": "Date printed on the selected document.",
+      "scowcroftRole": "From Scowcroft",
+      "selectionPass": "ifi-follow-up",
+      "institutions": [
+        "World Bank",
+        "Multilateral development banks",
+        "USTR"
+      ],
+      "collectionId": "scowcroft",
+      "releaseStatus": "Released",
+      "dateline": "Washington, October 31, 1989",
+      "type": "Memorandum",
+      "selection": "Core",
+      "pageCount": 2,
+      "extentLabel": "2 released memorandum pages; PDF pages 4–5; attachments described separately",
+      "naid": "366551912",
+      "localId": "91139-003",
+      "catalogUrl": "https://catalog.archives.gov/id/366551912",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4545957/41-bpr-scow-la-econchr-91139-003.pdf",
+      "documentUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4545957/41-bpr-scow-la-econchr-91139-003.pdf#page=4",
+      "provenanceUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4545957/41-bpr-scow-la-econchr-91139-003.pdf#page=1",
+      "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Latin American Files, Economic Chronological Files, OA/ID 91139–003, Latin America - Economics (October 1989). Confidential.",
+      "sourceNoteStatus": "verified",
+      "sourceNoteBasis": "Opening provenance marker (PDF page 1), selected memorandum pages, and terminal markings checked in the official NARA PDF on 2026-09-04.",
+      "provenanceMethod": "Opening PDF provenance marker and document source images",
+      "notes": "Two-page information memorandum, with Scowcroft initials beside the sender line. Both pages bear Confidential markings; page 4 carries a declassification stamp. The selected memorandum ends with its attachment listing on PDF page 5. It reports an agreed interagency package and a proposed November 1 announcement, rather than a separate signed presidential decision. The package includes the two-page Tab J, World Bank Efforts to Support Trade Reform, on PDF pages 37–38; those pages were also inspected and explain IMF review, Peru’s arrears, adjustment lending, and planned USTR consultations with U.S. executive directors. Tab J is undated and does not identify an individual author.",
+      "proposalId": "ifi-1989-10-31-andean-reform",
+      "editorialAssessment": {
+        "role": "Interagency policy report",
+        "exampleIds": [
+          "d163",
+          "d262"
+        ],
+        "assessment": "The value is the connection between trade policy and multilateral lending as instruments of reform. The attached World Bank paper supplies the institutional constraints that the short presidential memorandum summarizes.",
+        "followUp": "Find the USTR consultations with U.S. executive directors and the subsequent Bank or Fund review decisions; compare the final public announcement with the interagency package."
+      },
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
+    },
+    {
       "id": "ifi-1989-12-28-imf-quotas",
       "sourceId": "CF00696-001",
       "date": "1989-12-28",
@@ -1734,7 +2137,8 @@
       "evidenceNotes": "One-page action memorandum dated December 28, 1989, initialed by Scowcroft and stamped “The President Has Seen” and “Signed.” No classification marking appears on this selected memorandum; the signed outgoing January 2 letter follows on PDF page 42.",
       "editorialReview": "Keep the December memorandum distinct from the January 2 presidential letter. Compare the final letter and Treasury drafts when annotating the public presentation of the quota decision.",
       "relatedIds": [
-        "ifi-1992-03-14-imf-quotas"
+        "ifi-1992-03-14-imf-quotas",
+        "ifi-1990-01-02-bush-kohl-imf"
       ],
       "heading": "Memorandum From Brent Scowcroft to President Bush",
       "priority": "High",
@@ -1773,6 +2177,66 @@
         ],
         "assessment": "Select for the distinction between the public bargaining position and the negotiating authority reported in the paper.",
         "followUp": "Compare the outgoing correspondence, Treasury instructions, international agreement, and later U.S. authorization."
+      },
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
+    },
+    {
+      "id": "ifi-1990-01-02-bush-kohl-imf",
+      "sourceId": "CF00696-001",
+      "date": "1990-01-02",
+      "title": "Bush to Kohl: Authorization to Negotiate an IMF Quota Increase",
+      "sender": "President George H.W. Bush",
+      "recipient": "Chancellor Helmut Kohl",
+      "pdfPageStart": 42,
+      "pdfPageEnd": 42,
+      "classification": "No classification marking",
+      "proposalKind": "Document",
+      "selectionRationale": "Supplies a signed presidential statement authorizing Treasury Secretary Brady to negotiate an IMF quota increase promptly. It links adequate Fund resources to the international monetary system, Eastern European adjustment, and the strengthened debt strategy, completing the recommendation-to-authorization sequence begun in Scowcroft’s December 28 paper.",
+      "evidenceNotes": "The one-page White House letter is dated January 2, 1990 and bears Bush’s signature. No classification marking appears on the letter itself. A January 2 electronic routing note on PDF page 50 says the President signed the letter but directs a hold until the close of business January 3 for State input. Pages 44–47 contain a January 3 Treasury cover and revised draft. January 4 referrals on pages 40–41 identify the January 2 presidential letter for dispatch and information; these routing records do not independently prove which wording was ultimately delivered.",
+      "editorialReview": "Identify this precisely as the signed January 2 copy. Compare the January 3 revision and the transmitted text before treating this copy as the final communication. Do not import a percentage quota increase into the letter: none is stated in it.",
+      "relatedIds": [
+        "ifi-1989-12-28-imf-quotas",
+        "ifi-1992-03-14-imf-quotas"
+      ],
+      "heading": "Letter From President Bush to Federal Chancellor Kohl",
+      "priority": "High",
+      "datePrecision": "day",
+      "sortDate": "1990-01-02",
+      "dateBasis": "Date printed on the selected document.",
+      "scowcroftRole": "Companion paper",
+      "selectionPass": "ifi-follow-up",
+      "institutions": [
+        "IMF",
+        "G-7 economic coordination",
+        "Debt strategy"
+      ],
+      "collectionId": "deal-chron",
+      "releaseStatus": "Released",
+      "type": "Letter",
+      "extentLabel": "1 released letter page; PDF page 42; later revision and dispatch records described separately",
+      "dateline": "Washington, January 2, 1990",
+      "selection": "Core",
+      "pageCount": 1,
+      "naid": "452050437",
+      "localId": "CF00696-001",
+      "catalogUrl": "https://catalog.archives.gov/id/452050437",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/chron_2554807/41-bpr-nsc-deal-chron-cf00696-001.pdf",
+      "documentUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/chron_2554807/41-bpr-nsc-deal-chron-cf00696-001.pdf#page=42",
+      "provenanceUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/chron_2554807/41-bpr-nsc-deal-chron-cf00696-001.pdf#page=1",
+      "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Timothy E. Deal Files, Chronological Files, OA/ID CF00696–001, Chron File: December 1989 [1]. No classification marking.",
+      "sourceNoteStatus": "verified",
+      "sourceNoteBasis": "Opening provenance marker (PDF page 1), selected document pages, and terminal markings checked in the official NARA PDF on 2026-09-04.",
+      "provenanceMethod": "Opening PDF provenance marker and document source images",
+      "notes": "The one-page White House letter is dated January 2, 1990 and bears Bush’s signature. No classification marking appears on the letter itself. A January 2 electronic routing note on PDF page 50 says the President signed the letter but directs a hold until the close of business January 3 for State input. Pages 44–47 contain a January 3 Treasury cover and revised draft. January 4 referrals on pages 40–41 identify the January 2 presidential letter for dispatch and information; these routing records do not independently prove which wording was ultimately delivered.",
+      "proposalId": "ifi-1990-01-02-bush-kohl-imf",
+      "editorialAssessment": {
+        "role": "Signed presidential authorization",
+        "exampleIds": [
+          "d233",
+          "d258"
+        ],
+        "assessment": "The signature and explicit authorization add evidence beyond Scowcroft’s recommendation. Annotation should explain the dispatch hold and subsequent Treasury revision instead of merging the versions.",
+        "followUp": "Find the final State transmission and Treasury negotiating instructions; compare the signed and revised wording and follow the authorization into the quota settlement."
       },
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
@@ -2367,6 +2831,310 @@
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
+      "id": "ifi-1990-05-31-g24-design",
+      "sourceId": "91139-006",
+      "date": "1990-05-31",
+      "title": "G-24 Coordinating Group for Central America and the Caribbean",
+      "sender": "Meg Lundsager",
+      "recipient": "Brent Scowcroft",
+      "pdfPageStart": 25,
+      "pdfPageEnd": 25,
+      "classification": "Confidential",
+      "proposalKind": "Document",
+      "selectionRationale": "Reveals early NSC objections to creating a new U.S.-led donor mechanism before financing and its relationship to the wider Latin American economic strategy had been settled. Lundsager challenges State’s proposed formal secretariat, its uncoordinated approaches abroad, and the absence of additional U.S. resources, identifying the institutional and budget choices that later shaped the Partnership for Democracy and Development.",
+      "evidenceNotes": "One-page information memorandum dated May 31, 1990, through Timothy E. Deal and William T. Pryce, with their routing initials and Lundsager’s initials visible. It bears a National Security Adviser has seen stamp and a handwritten Come see me beside initials near the top. The note is evidence of a request for discussion, not approval of the donor mechanism. Lundsager reports that Zoellick and Aronson claimed prior presidential approval; the selected page does not independently establish that approval. Confidential markings and a declassification stamp are visible. The G-24 here is a proposed industrialized-country donor arrangement for Central America and the Caribbean, not the IMF’s developing-country G-24 caucus.",
+      "editorialReview": "Retain for the disagreement over institutional design and funding. Link forward to the September 11 and October 29 papers and the Robson concept paper; seek the discussion requested in the marginal note before treating the dispute as resolved.",
+      "relatedIds": [
+        "ifi-1990-09-11-central-america",
+        "ifi-1990-10-12-eai",
+        "ifi-1990-10-29-pdd",
+        "ifi-1990-10-24-robson-pdd"
+      ],
+      "heading": "Memorandum From Meg Lundsager to Brent Scowcroft",
+      "priority": "High",
+      "datePrecision": "day",
+      "sortDate": "1990-05-31",
+      "dateBasis": "Date printed on the selected document.",
+      "scowcroftRole": "To Scowcroft",
+      "selectionPass": "ifi-follow-up",
+      "institutions": [
+        "G-24 donor coordination",
+        "European Commission",
+        "Economic Policy Council"
+      ],
+      "collectionId": "scowcroft",
+      "releaseStatus": "Released",
+      "dateline": "Washington, May 31, 1990",
+      "type": "Memorandum",
+      "selection": "Core",
+      "pageCount": 1,
+      "extentLabel": "1 released memorandum page; PDF page 25; attachments described separately",
+      "naid": "366551915",
+      "localId": "91139-006",
+      "catalogUrl": "https://catalog.archives.gov/id/366551915",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4545957/41-bpr-scow-la-econchr-91139-006.pdf",
+      "documentUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4545957/41-bpr-scow-la-econchr-91139-006.pdf#page=25",
+      "provenanceUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4545957/41-bpr-scow-la-econchr-91139-006.pdf#page=1",
+      "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Latin American Files, Economic Chronological Files, OA/ID 91139–006, Latin America - Economics (May - June 1990). Confidential.",
+      "sourceNoteStatus": "verified",
+      "sourceNoteBasis": "Opening provenance marker (PDF page 1), selected memorandum pages, and terminal markings checked in the official NARA PDF on 2026-09-04.",
+      "provenanceMethod": "Opening PDF provenance marker and document source images",
+      "notes": "One-page information memorandum dated May 31, 1990, through Timothy E. Deal and William T. Pryce, with their routing initials and Lundsager’s initials visible. It bears a National Security Adviser has seen stamp and a handwritten Come see me beside initials near the top. The note is evidence of a request for discussion, not approval of the donor mechanism. Lundsager reports that Zoellick and Aronson claimed prior presidential approval; the selected page does not independently establish that approval. Confidential markings and a declassification stamp are visible. The G-24 here is a proposed industrialized-country donor arrangement for Central America and the Caribbean, not the IMF’s developing-country G-24 caucus.",
+      "proposalId": "ifi-1990-05-31-g24-design",
+      "editorialAssessment": {
+        "role": "Institutional and funding alternatives",
+        "exampleIds": [
+          "d273",
+          "d304"
+        ],
+        "assessment": "A strong early statement of the NSC’s objection to a separate donor organization with uncertain resources. Select the substantive disagreement; the marginal meeting request alone is supporting evidence.",
+        "followUp": "Locate the discussion with Scowcroft, Baker’s original authorization, and the State–Treasury negotiations that defined the later PDD mechanism."
+      },
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
+    },
+    {
+      "id": "ifi-followup-1990-06-12-taiwan-gatt",
+      "sourceId": "91149-003",
+      "date": "1990-06-12",
+      "title": "Coordination of Administration Action on Taiwan and the GATT",
+      "sender": "Brent Scowcroft",
+      "recipient": "John H. Sununu",
+      "pdfPageStart": 57,
+      "pdfPageEnd": 57,
+      "classification": "No classification marking",
+      "proposalKind": "Document",
+      "selectionRationale": "Proposes a common clearance rule for U.S. actions and statements about Taiwan’s accession to GATT. The institutional issue is how the administration combined economic and political considerations when forming a position on membership in the trading system.",
+      "evidenceNotes": "One-page June 12 memorandum to the Chief of Staff with initials beside the typed FROM line. No classification marking appears on the memorandum, although the NSC profile on page 53 is marked Confidential. Sununu’s June 13 response on page 56 states that the text is acceptable and should circulate as appropriate; a handwritten note there records permission to send it to agencies, without a securely identified writer.",
+      "editorialReview": "Select for the proposed advance-coordination rule and annotate Sununu’s response. Coordinate Taiwan-specific background with the relevant regional volume. The response supports concurrence, but it does not by itself establish the eventual accession policy or actual circulation to every agency.",
+      "relatedIds": [],
+      "heading": "Memorandum From Brent Scowcroft to John H. Sununu",
+      "priority": "High",
+      "datePrecision": "day",
+      "sortDate": "1990-06-12",
+      "dateBasis": "Date printed on the selected memorandum.",
+      "scowcroftRole": "From Scowcroft",
+      "selectionPass": "ifi-follow-up",
+      "institutions": [
+        "GATT membership",
+        "NSC",
+        "USTR"
+      ],
+      "collectionId": "scowcroft",
+      "releaseStatus": "Released",
+      "dateline": "Washington, June 12, 1990",
+      "type": "Memorandum",
+      "selection": "Core",
+      "pageCount": 1,
+      "extentLabel": "1 released memorandum page; PDF page 57; attachments described separately",
+      "naid": "366552002",
+      "localId": "91149-003",
+      "catalogUrl": "https://catalog.archives.gov/id/366552002",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4708326/41-bpr-scow-chron-91149-003.pdf",
+      "documentUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4708326/41-bpr-scow-chron-91149-003.pdf#page=57",
+      "provenanceUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4708326/41-bpr-scow-chron-91149-003.pdf#page=1",
+      "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Chronological Files, OA/ID 91149–003, Other (June 1990) [2]. No classification marking.",
+      "sourceNoteStatus": "verified",
+      "sourceNoteBasis": "Opening provenance marker (PDF page 1), selected memorandum pages, and terminal markings checked in the official NARA PDF on 2026-09-04.",
+      "provenanceMethod": "Opening PDF provenance marker and document source images",
+      "notes": "One-page June 12 memorandum to the Chief of Staff with initials beside the typed FROM line. No classification marking appears on the memorandum, although the NSC profile on page 53 is marked Confidential. Sununu’s June 13 response on page 56 states that the text is acceptable and should circulate as appropriate; a handwritten note there records permission to send it to agencies, without a securely identified writer.",
+      "proposalId": "ifi-followup-1990-06-12-taiwan-gatt",
+      "editorialAssessment": {
+        "role": "Coordination proposal with concurrence",
+        "exampleIds": [
+          "d163",
+          "d273"
+        ],
+        "assessment": "The document identifies a consequential clearance requirement on institutional membership. Its adjacent response provides more than a bare meeting or routing lead.",
+        "followUp": "Find the circulated instruction and the substantive U.S. accession position; preserve the distinction between agreement on procedure and a membership decision."
+      },
+      "subjectArea": "Trade Policy and Market Access"
+    },
+    {
+      "id": "ifi-followup-1990-06-19-houston-choices",
+      "sourceId": "91149-003",
+      "date": "1990-06-19",
+      "title": "Decisions Needed for the White House Summit Group",
+      "sender": "Eric Melby",
+      "recipient": "Brent Scowcroft",
+      "pdfPageStart": 74,
+      "pdfPageEnd": 76,
+      "classification": "Confidential",
+      "proposalKind": "Document",
+      "selectionRationale": "Identifies decisions the principals had to make on the Houston economic bargain: agricultural trade reform, the proposed Central American donor group, China policy, and whether to seek a review of international institutions. Records Treasury opposition to the proposed democracy-and-prosperity charter and disagreement over who would conduct an institutional review.",
+      "evidenceNotes": "Three-page action memorandum, initialed by Melby, routed through Deal, with Robert Blackwill’s concurrence on page 76. Page 74 is marked Confidential with Secret Attachment; the memorandum’s terminal markings on pages 75–76 are Confidential. It is stamped as seen by the National Security Adviser. A handwritten word and initials near the stamp are not attributed. Attachments listed on the final page are outside this proposal’s three-page extent.",
+      "editorialReview": "Give priority to paragraphs 3, 5, 6, and the institutional-review discussion in paragraph 8 if proposing an extract; mark omitted logistical and bilateral material. This is advice for the June 20 meeting, not its minutes or agreed conclusions. The G-24 here is a proposed Central American donor arrangement.",
+      "relatedIds": [
+        "scowcroft-1990-06-25-baker-brady-houston",
+        "scowcroft-1990-07-02-houston",
+        "ifi-1990-09-11-central-america"
+      ],
+      "heading": "Memorandum From Eric Melby to Brent Scowcroft",
+      "priority": "High",
+      "datePrecision": "day",
+      "sortDate": "1990-06-19",
+      "dateBasis": "Date printed on the selected memorandum.",
+      "scowcroftRole": "To Scowcroft",
+      "selectionPass": "ifi-follow-up",
+      "institutions": [
+        "G-7",
+        "Central American donor coordination",
+        "International institutional review",
+        "GATT / Uruguay Round"
+      ],
+      "collectionId": "scowcroft",
+      "releaseStatus": "Released",
+      "markingNote": "Confidential memorandum with a Secret attachment identified on the opening page; attachments are not counted as part of the selected memorandum.",
+      "dateline": "Washington, June 19, 1990",
+      "type": "Memorandum",
+      "selection": "Core",
+      "pageCount": 3,
+      "extentLabel": "3 released memorandum pages; PDF pages 74–76; attachments described separately",
+      "naid": "366552002",
+      "localId": "91149-003",
+      "catalogUrl": "https://catalog.archives.gov/id/366552002",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4708326/41-bpr-scow-chron-91149-003.pdf",
+      "documentUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4708326/41-bpr-scow-chron-91149-003.pdf#page=74",
+      "provenanceUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4708326/41-bpr-scow-chron-91149-003.pdf#page=1",
+      "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Chronological Files, OA/ID 91149–003, Other (June 1990) [2]. Confidential.",
+      "sourceNoteStatus": "verified",
+      "sourceNoteBasis": "Opening provenance marker (PDF page 1), selected memorandum pages, and terminal markings checked in the official NARA PDF on 2026-09-04.",
+      "provenanceMethod": "Opening PDF provenance marker and document source images",
+      "notes": "Three-page action memorandum, initialed by Melby, routed through Deal, with Robert Blackwill’s concurrence on page 76. Page 74 is marked Confidential with Secret Attachment; the memorandum’s terminal markings on pages 75–76 are Confidential. It is stamped as seen by the National Security Adviser. A handwritten word and initials near the stamp are not attributed. Attachments listed on the final page are outside this proposal’s three-page extent.",
+      "proposalId": "ifi-followup-1990-06-19-houston-choices",
+      "editorialAssessment": {
+        "role": "Options for principals",
+        "exampleIds": [
+          "d146",
+          "d273",
+          "d304"
+        ],
+        "assessment": "The staff memorandum makes competing economic-agency preferences visible before the summit position was settled. Its institutional passages can bridge the substantive proposals and later principals’ decisions.",
+        "followUp": "Locate conclusions from June 20 and compare them with the joint Baker–Brady paper, the President’s briefing, and the final summit record."
+      },
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
+    },
+    {
+      "id": "ifi-followup-1990-06-22-trade-issue-paper",
+      "sourceId": "91149-004",
+      "date": "1990-06-22",
+      "title": "International Trade: Houston Summit Issue Paper",
+      "sender": "Office of the United States Trade Representative",
+      "recipient": "President Bush (briefing paper)",
+      "pdfPageStart": 21,
+      "pdfPageEnd": 27,
+      "classification": "No classification marking",
+      "proposalKind": "Document",
+      "selectionRationale": "Provides USTR’s detailed case for using the summit to settle Uruguay Round choices. Beyond agriculture, it addresses GATT dispute settlement, Section 301, a proposed World Trade Organization, developing-country obligations, and whether financial-services negotiations should form part of the general services agreement or a separate agreement.",
+      "evidenceNotes": "Seven-page issue paper comprising objectives, background, cautions, talking points, and a drafting/clearance sheet. The last page identifies G. Feketekuty, USTR, as drafter and gives June 22, 1990; the opening page has no date or named addressee. The clearance list names NSC, CEA, USDA, Treasury, State, Commerce, Labor, and USTR representatives, but contains no visible signatures proving each clearance. No classification marking appears on these seven pages. The adjacent China issue paper starts on page 28 and is separate.",
+      "editorialReview": "Retain the drafting date as the stated date basis and describe the copy as a briefing paper. The proposed WTO is a contemporary negotiating idea, not an institution already created. Compare a final presidential briefing copy and actual summit exchanges before attributing these talking points to Bush.",
+      "relatedIds": [
+        "scowcroft-1990-06-25-baker-brady-houston",
+        "scowcroft-1990-07-02-houston"
+      ],
+      "heading": "Paper Prepared in the Office of the United States Trade Representative",
+      "priority": "High",
+      "datePrecision": "day",
+      "sortDate": "1990-06-22",
+      "dateBasis": "June 22, 1990 is the drafting date printed on the terminal drafting/clearance sheet (PDF page 27); the opening page is undated.",
+      "scowcroftRole": "Companion paper",
+      "selectionPass": "ifi-follow-up",
+      "institutions": [
+        "GATT / Uruguay Round",
+        "Proposed World Trade Organization",
+        "Financial-services negotiations",
+        "OECD",
+        "Cairns Group"
+      ],
+      "collectionId": "scowcroft",
+      "releaseStatus": "Released",
+      "type": "Issue paper",
+      "extentLabel": "7 released issue-paper pages; PDF pages 21–27; includes talking points and the drafting/clearance sheet",
+      "dateline": "Washington, June 22, 1990",
+      "selection": "Core",
+      "pageCount": 7,
+      "naid": "366552003",
+      "localId": "91149-004",
+      "catalogUrl": "https://catalog.archives.gov/id/366552003",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4708326/41-bpr-scow-chron-91149-004.pdf",
+      "documentUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4708326/41-bpr-scow-chron-91149-004.pdf#page=21",
+      "provenanceUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4708326/41-bpr-scow-chron-91149-004.pdf#page=1",
+      "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Chronological Files, OA/ID 91149–004, Other (June 1990) [3]. No classification marking.",
+      "sourceNoteStatus": "verified",
+      "sourceNoteBasis": "Opening provenance marker (PDF page 1), selected document pages, and terminal markings checked in the official NARA PDF on 2026-09-04.",
+      "provenanceMethod": "Opening PDF provenance marker and document source images",
+      "notes": "Seven-page issue paper comprising objectives, background, cautions, talking points, and a drafting/clearance sheet. The last page identifies G. Feketekuty, USTR, as drafter and gives June 22, 1990; the opening page has no date or named addressee. The clearance list names NSC, CEA, USDA, Treasury, State, Commerce, Labor, and USTR representatives, but contains no visible signatures proving each clearance. No classification marking appears on these seven pages. The adjacent China issue paper starts on page 28 and is separate.",
+      "proposalId": "ifi-followup-1990-06-22-trade-issue-paper",
+      "editorialAssessment": {
+        "role": "Negotiating position",
+        "exampleIds": [
+          "d163",
+          "d146"
+        ],
+        "assessment": "This substantive agency paper supplies the trade negotiator’s position behind general summit recommendations. It identifies the institutional rules and domestic constraints that made the bargain difficult.",
+        "followUp": "Find the final cleared briefing, any USTR negotiating instructions, and the summit discussion resolving the disputed rules and agricultural commitments."
+      },
+      "subjectArea": "Trade Policy and Market Access"
+    },
+    {
+      "id": "ifi-1990-06-22-colombia-world-bank",
+      "sourceId": "91139-007",
+      "date": "1990-06-22",
+      "title": "Letter to President Barco",
+      "sender": "Brent Scowcroft",
+      "recipient": "President Bush",
+      "pdfPageStart": 95,
+      "pdfPageEnd": 95,
+      "classification": "Confidential",
+      "proposalKind": "Annotation",
+      "selectionRationale": "Provides a concise contemporary report of presidential intervention in development-bank policy: Scowcroft records that Bush instructed Under Secretary Kimmitt to work with Treasury on supporting Colombia’s efforts to obtain more World Bank lending. This is useful for tracing how regional political priorities entered interagency handling of Bank operations.",
+      "evidenceNotes": "One-page action memorandum dated June 22, 1990, bearing Confidential markings, a declassification stamp, SIGNED stamp, handwritten June 22 date, and RG for beside the typed Brent Scowcroft sender line. The initials are recorded without assigning the signer’s identity. The institutional evidence is the first Background paragraph; the recommendation concerns a separate letter to President Barco. The selected page reports Bush’s instruction following the June 5 meeting, but does not establish a subsequent U.S. board instruction or loan approval.",
+      "editorialReview": "Prefer annotation of the fuller World Bank lending or conditionality sequence, quoting or summarizing the reported Kimmitt instruction. Locate the June 5 conversation, Treasury response, and executive-director records before proposing a fuller document treatment. Do not treat the letter-signature stamp as approval of a particular Bank loan.",
+      "relatedIds": [
+        "ifi-1989-10-31-andean-reform"
+      ],
+      "heading": "Memorandum From Brent Scowcroft to President Bush",
+      "priority": "Medium",
+      "datePrecision": "day",
+      "sortDate": "1990-06-22",
+      "dateBasis": "Date printed on the selected document.",
+      "scowcroftRole": "From Scowcroft",
+      "selectionPass": "ifi-follow-up",
+      "institutions": [
+        "World Bank",
+        "Department of the Treasury",
+        "Department of State"
+      ],
+      "collectionId": "scowcroft",
+      "releaseStatus": "Released",
+      "dateline": "Washington, June 22, 1990",
+      "type": "Memorandum",
+      "selection": "Consider",
+      "pageCount": 1,
+      "extentLabel": "1 released memorandum page; PDF page 95; attachments described separately",
+      "naid": "366551916",
+      "localId": "91139-007",
+      "catalogUrl": "https://catalog.archives.gov/id/366551916",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4545957/41-bpr-scow-la-econchr-91139-007.pdf",
+      "documentUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4545957/41-bpr-scow-la-econchr-91139-007.pdf#page=95",
+      "provenanceUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4545957/41-bpr-scow-la-econchr-91139-007.pdf#page=1",
+      "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Latin American Files, Economic Chronological Files, OA/ID 91139–007, Latin America - Economics (June 1990). Confidential.",
+      "sourceNoteStatus": "verified",
+      "sourceNoteBasis": "Opening provenance marker (PDF page 1), selected memorandum pages, and terminal markings checked in the official NARA PDF on 2026-09-04.",
+      "provenanceMethod": "Opening PDF provenance marker and document source images",
+      "notes": "One-page action memorandum dated June 22, 1990, bearing Confidential markings, a declassification stamp, SIGNED stamp, handwritten June 22 date, and RG for beside the typed Brent Scowcroft sender line. The initials are recorded without assigning the signer’s identity. The institutional evidence is the first Background paragraph; the recommendation concerns a separate letter to President Barco. The selected page reports Bush’s instruction following the June 5 meeting, but does not establish a subsequent U.S. board instruction or loan approval.",
+      "proposalId": "ifi-1990-06-22-colombia-world-bank",
+      "editorialAssessment": {
+        "role": "Reported presidential instruction",
+        "exampleIds": [
+          "d262",
+          "d273"
+        ],
+        "assessment": "The institutional instruction merits inclusion in the record, but this transmittal provides little of the Bank-policy reasoning. Annotation can connect the political request to a fuller interagency or executive-director document.",
+        "followUp": "Find the June 5 Bush–Barco conversation and the resulting State–Treasury and U.S. executive-director actions on Colombian World Bank lending."
+      },
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
+    },
+    {
       "id": "scowcroft-1990-06-25-baker-brady-houston",
       "sourceId": "91149-006",
       "date": "1990-06-25",
@@ -2381,7 +3149,9 @@
       "evidenceNotes": "The eight-page document names both Baker and Brady on page 16. The withdrawal inventory describes Baker alone; the document heading supplies the fuller authorship. The release stamp and all eight document pages are present, ending with Secret on page 23. It is attached to the Houston briefing sequence in the Scowcroft chronological file.",
       "editorialReview": "Compare this citation copy with State and Treasury copies before final publication. The fact that it is in Scowcroft’s file does not make him an author or addressee. Coordinate regional passages with the relevant volumes.",
       "relatedIds": [
-        "scowcroft-1990-07-02-houston"
+        "scowcroft-1990-07-02-houston",
+        "ifi-followup-1990-06-19-houston-choices",
+        "ifi-followup-1990-06-22-trade-issue-paper"
       ],
       "heading": "Memorandum From Secretary of State Baker and Secretary of the Treasury Brady to President Bush",
       "priority": "Consider",
@@ -2596,7 +3366,9 @@
       "editorialReview": "Print as a distinct NSC assessment if space permits, with the Baker–Brady paper as a substantive companion. Compare the President’s briefing-book copy and subsequent summit conversations for annotations and outcome evidence.",
       "relatedIds": [
         "scowcroft-1990-06-25-baker-brady-houston",
-        "scowcroft-1990-07-01-melby-houston"
+        "scowcroft-1990-07-01-melby-houston",
+        "ifi-followup-1990-06-19-houston-choices",
+        "ifi-followup-1990-06-22-trade-issue-paper"
       ],
       "heading": "Memorandum From the President's Assistant for National Security Affairs (Scowcroft) to President Bush",
       "priority": "High",
@@ -2649,7 +3421,10 @@
       "evidenceNotes": "Two-page copy marked “Re-Do,” dated September 11, with both authors named, staff initials, a seen stamp, and a mark on the approval line. The folder title is October 1990; the document date controls its place in the chronology.",
       "editorialReview": "Keep the proposed Central American donor group distinct from the G-24 developing-country caucus at the IMF and World Bank. Pair with the October papers on competing funding mechanisms.",
       "relatedIds": [
-        "ifi-1990-10-11-oas-fund"
+        "ifi-1990-10-11-oas-fund",
+        "ifi-followup-1990-06-19-houston-choices",
+        "ifi-1990-05-31-g24-design",
+        "ifi-1990-10-24-robson-pdd"
       ],
       "heading": "Memorandum From David A. Pacelli and Meg Lundsager to Brent Scowcroft",
       "priority": "High",
@@ -2688,6 +3463,66 @@
         ],
         "assessment": "Useful if it explains why a new donor mechanism was disputed and how it would relate to existing institutions. Compare later, fuller assessments for annotation alternatives.",
         "followUp": "Find State’s proposed design, Treasury’s response, and a decision on the donor mechanism."
+      },
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
+    },
+    {
+      "id": "ifi-1990-10-11-sela-debt",
+      "sourceId": "91139-011",
+      "date": "1990-10-11",
+      "title": "Letter to President Perez on Debt",
+      "sender": "Brent Scowcroft",
+      "recipient": "President Bush",
+      "pdfPageStart": 82,
+      "pdfPageEnd": 82,
+      "classification": "Confidential",
+      "proposalKind": "Document",
+      "selectionRationale": "Shows the U.S. response to a coordinated debtor-country challenge to its debt strategy. Scowcroft explains why the administration rejected the SELA conference’s call for debt reduction without an economic-reform link and used a State–Treasury-cleared reply to reaffirm the conditions underlying the Brady approach.",
+      "evidenceNotes": "One-page action memorandum dated October 11, 1990, with Confidential markings, a declassification stamp, SIGNED stamp, and RG for beside the typed Brent Scowcroft sender line. The initials are not assigned to a named signer here. The document distinguishes Pérez’s neutral transmittal from the conference report and summarizes the intended reply. It does not by itself supply the text of the President’s eventual letter or prove a specific IFI board decision. The attached conference report is a separate intellectual record, not part of the selected page.",
+      "editorialReview": "Retain for the administration’s defense of conditional debt reduction against a regional alternative. Compare the SELA report and the final presidential reply; annotate the underlying June conference and later disposition. Preserve the distinction between Scowcroft’s assessment of the report and Pérez’s own stated position.",
+      "relatedIds": [
+        "ifi-1989-07-21-debt",
+        "ifi-1990-10-16-debt-results"
+      ],
+      "heading": "Memorandum From Brent Scowcroft to President Bush",
+      "priority": "High",
+      "datePrecision": "day",
+      "sortDate": "1990-10-11",
+      "dateBasis": "Date printed on the selected document.",
+      "scowcroftRole": "From Scowcroft",
+      "selectionPass": "ifi-follow-up",
+      "institutions": [
+        "Latin American Economic System (SELA)",
+        "Brady debt strategy",
+        "Commercial-bank creditors"
+      ],
+      "collectionId": "scowcroft",
+      "releaseStatus": "Released",
+      "dateline": "Washington, October 11, 1990",
+      "type": "Memorandum",
+      "selection": "Core",
+      "pageCount": 1,
+      "extentLabel": "1 released memorandum page; PDF page 82; attachments described separately",
+      "naid": "366551920",
+      "localId": "91139-011",
+      "catalogUrl": "https://catalog.archives.gov/id/366551920",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4545957/41-bpr-scow-la-econchr-91139-011.pdf",
+      "documentUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4545957/41-bpr-scow-la-econchr-91139-011.pdf#page=82",
+      "provenanceUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4545957/41-bpr-scow-la-econchr-91139-011.pdf#page=1",
+      "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Latin American Files, Economic Chronological Files, OA/ID 91139–011, Latin America - Economics (October 1990). Confidential.",
+      "sourceNoteStatus": "verified",
+      "sourceNoteBasis": "Opening provenance marker (PDF page 1), selected memorandum pages, and terminal markings checked in the official NARA PDF on 2026-09-04.",
+      "provenanceMethod": "Opening PDF provenance marker and document source images",
+      "notes": "One-page action memorandum dated October 11, 1990, with Confidential markings, a declassification stamp, SIGNED stamp, and RG for beside the typed Brent Scowcroft sender line. The initials are not assigned to a named signer here. The document distinguishes Pérez’s neutral transmittal from the conference report and summarizes the intended reply. It does not by itself supply the text of the President’s eventual letter or prove a specific IFI board decision. The attached conference report is a separate intellectual record, not part of the selected page.",
+      "proposalId": "ifi-1990-10-11-sela-debt",
+      "editorialAssessment": {
+        "role": "Presidential recommendation",
+        "exampleIds": [
+          "d304",
+          "d262"
+        ],
+        "assessment": "A useful policy statement because it explains a choice over the conditions attached to international debt relief, rather than merely forwarding correspondence. The signed routing copy establishes processing of the recommendation, not the text of the final reply.",
+        "followUp": "Locate the sent October 12 reply and Treasury’s substantive assessment of the SELA proposals, including their implications for Bank and Fund resources."
       },
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
@@ -2766,7 +3601,9 @@
       "editorialReview": "Select chiefly for fund design, donor coordination, and the proposed resolution of overlapping mechanisms. Attribute its favorable assessment of EAI and criticisms of State to Johnson.",
       "relatedIds": [
         "ifi-1990-10-11-oas-fund",
-        "ifi-1990-10-29-pdd"
+        "ifi-1990-10-29-pdd",
+        "ifi-1990-05-31-g24-design",
+        "ifi-1990-10-24-robson-pdd"
       ],
       "heading": "Memorandum From Donald C. Johnson to Brent Scowcroft",
       "priority": "High",
@@ -2810,6 +3647,131 @@
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     },
     {
+      "id": "ifi-1990-10-16-debt-results",
+      "sourceId": "91139-011",
+      "date": "1990-10-16",
+      "title": "Uruguay and Chile",
+      "sender": "Nicholas F. Brady",
+      "recipient": "President Bush",
+      "pdfPageStart": 141,
+      "pdfPageEnd": 141,
+      "classification": "No classification marking",
+      "proposalKind": "Document",
+      "selectionRationale": "Adds Treasury’s contemporary assessment of results to a selection set weighted toward proposals. Brady compares Uruguay’s combination of debt reduction and new money with Chile’s rescheduling and anticipated return to voluntary commercial-bank lending, setting both against the administration’s regional debt strategy.",
+      "evidenceNotes": "One-page memorandum dated October 16, 1990, initialed by Brady, with no classification marking on the selected page. The date belongs to Brady’s memorandum, not its later routing. Deal’s October 26 cover on PDF page 140 and Scowcroft’s November 5 cover on page 139 were also inspected; they concern how to convey presidential congratulations. The November 5 cover bears a President has seen stamp. Brady describes agreements in principle and expected results, not completed transactions or verified final lending outcomes.",
+      "editorialReview": "Use as a short outcome assessment or annotate a fuller debt-policy decision record if space is limited. Compare Treasury’s characterization with the completed agreements and financial terms; do not convert anticipated Chilean graduation or the Uruguayan agreement in principle into a completed outcome. The selected paper concerns commercial debt and does not itself document an IMF or World Bank decision.",
+      "relatedIds": [
+        "ifi-1989-07-21-debt",
+        "ifi-1990-10-11-sela-debt"
+      ],
+      "heading": "Memorandum From Nicholas F. Brady to President Bush",
+      "priority": "Medium",
+      "datePrecision": "day",
+      "sortDate": "1990-10-16",
+      "dateBasis": "Date printed on the selected document.",
+      "scowcroftRole": "Companion paper",
+      "selectionPass": "ifi-follow-up",
+      "institutions": [
+        "Brady debt strategy",
+        "Commercial-bank creditors"
+      ],
+      "collectionId": "scowcroft",
+      "releaseStatus": "Released",
+      "dateline": "Washington, October 16, 1990",
+      "type": "Memorandum",
+      "selection": "Core",
+      "pageCount": 1,
+      "extentLabel": "1 released memorandum page; PDF page 141; attachments described separately",
+      "naid": "366551920",
+      "localId": "91139-011",
+      "catalogUrl": "https://catalog.archives.gov/id/366551920",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4545957/41-bpr-scow-la-econchr-91139-011.pdf",
+      "documentUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4545957/41-bpr-scow-la-econchr-91139-011.pdf#page=141",
+      "provenanceUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4545957/41-bpr-scow-la-econchr-91139-011.pdf#page=1",
+      "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Latin American Files, Economic Chronological Files, OA/ID 91139–011, Latin America - Economics (October 1990). No classification marking.",
+      "sourceNoteStatus": "verified",
+      "sourceNoteBasis": "Opening provenance marker (PDF page 1), selected memorandum pages, and terminal markings checked in the official NARA PDF on 2026-09-04.",
+      "provenanceMethod": "Opening PDF provenance marker and document source images",
+      "notes": "One-page memorandum dated October 16, 1990, initialed by Brady, with no classification marking on the selected page. The date belongs to Brady’s memorandum, not its later routing. Deal’s October 26 cover on PDF page 140 and Scowcroft’s November 5 cover on page 139 were also inspected; they concern how to convey presidential congratulations. The November 5 cover bears a President has seen stamp. Brady describes agreements in principle and expected results, not completed transactions or verified final lending outcomes.",
+      "proposalId": "ifi-1990-10-16-debt-results",
+      "editorialAssessment": {
+        "role": "Treasury assessment of emerging results",
+        "exampleIds": [
+          "d258",
+          "d304"
+        ],
+        "assessment": "Useful as a later test of the administration’s claims about its debt strategy. Its comparative results are more substantive than the accompanying congratulatory routing papers, although final agreements are still needed.",
+        "followUp": "Find the final creditor agreements, supporting Treasury financial analysis, and any documented Bank or Fund financing role before completing the outcome annotation."
+      },
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
+    },
+    {
+      "id": "ifi-1990-10-24-robson-pdd",
+      "sourceId": "91139-011",
+      "date": "1990-10-24",
+      "title": "Support for Political and Economic Reform in Central America",
+      "sender": "John E. Robson",
+      "recipient": "Lawrence S. Eagleburger",
+      "pdfPageStart": 131,
+      "pdfPageEnd": 135,
+      "classification": "No classification marking",
+      "proposalKind": "Document",
+      "selectionRationale": "Supplies Treasury’s substantive institutional design and financing alternatives behind the PDD dispute. The enclosed paper preserves the original $500 million U.S. contribution and $1.5 billion multilateral investment-fund target, compares an IDB-led consultative group with separate funds, and specifies that U.S. World Bank, IDB, and IMF policy positions would continue through established channels. It directly connects donor mobilization, bank mandates, and U.S. control of economic-policy coordination.",
+      "evidenceNotes": "Signed October 24, 1990 letter from Deputy Treasury Secretary John E. Robson to Deputy Secretary of State Lawrence Eagleburger on PDF page 131, followed by a four-page concept paper on pages 132–135. The letter says the enclosure reflects their meeting the previous Thursday and further refinements of fundraising options. No classification marking appears on these five pages. The concept paper has no separate date or named individual author; October 24 is the date of its signed transmittal. Pages 132–135 are printed pages 1–4 and end with the dual-fund proposal. The paper presents alternatives, not a recorded acceptance by Eagleburger or Scowcroft.",
+      "editorialReview": "Select the substantive enclosure with a source note identifying Robson’s signed transmittal and date. Preserve the distinction between the consultative-group and dual-fund alternatives and their relationships to ordinary bank operations. Compare with the October 29 NSC paper and the eventual PDD arrangements before describing any option as adopted.",
+      "relatedIds": [
+        "ifi-1990-05-31-g24-design",
+        "ifi-1990-09-11-central-america",
+        "ifi-1990-10-12-eai",
+        "ifi-1990-10-29-pdd",
+        "ifi-1992-03-17-mif-funding"
+      ],
+      "heading": "Letter From Deputy Secretary of the Treasury John E. Robson to Deputy Secretary of State Lawrence S. Eagleburger, With Enclosed Concept Paper",
+      "priority": "High",
+      "datePrecision": "day",
+      "sortDate": "1990-10-24",
+      "dateBasis": "October 24, 1990 is printed on Robson’s signed covering letter; the enclosed concept paper has no separate date.",
+      "scowcroftRole": "Companion paper",
+      "selectionPass": "ifi-follow-up",
+      "institutions": [
+        "IDB",
+        "World Bank",
+        "IMF",
+        "Multilateral Investment Fund",
+        "Partnership for Democracy and Development"
+      ],
+      "collectionId": "scowcroft",
+      "releaseStatus": "Released",
+      "type": "Letter with enclosure",
+      "extentLabel": "5 released document pages; PDF pages 131–135; signed letter and four-page enclosed concept paper",
+      "dateline": "Washington, October 24, 1990",
+      "selection": "Core",
+      "pageCount": 5,
+      "naid": "366551920",
+      "localId": "91139-011",
+      "catalogUrl": "https://catalog.archives.gov/id/366551920",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4545957/41-bpr-scow-la-econchr-91139-011.pdf",
+      "documentUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4545957/41-bpr-scow-la-econchr-91139-011.pdf#page=131",
+      "provenanceUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4545957/41-bpr-scow-la-econchr-91139-011.pdf#page=1",
+      "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Latin American Files, Economic Chronological Files, OA/ID 91139–011, Latin America - Economics (October 1990). No classification marking.",
+      "sourceNoteStatus": "verified",
+      "sourceNoteBasis": "Opening provenance marker (PDF page 1), selected document pages, and terminal markings checked in the official NARA PDF on 2026-09-04.",
+      "provenanceMethod": "Opening PDF provenance marker and document source images",
+      "notes": "Signed October 24, 1990 letter from Deputy Treasury Secretary John E. Robson to Deputy Secretary of State Lawrence Eagleburger on PDF page 131, followed by a four-page concept paper on pages 132–135. The letter says the enclosure reflects their meeting the previous Thursday and further refinements of fundraising options. No classification marking appears on these five pages. The concept paper has no separate date or named individual author; October 24 is the date of its signed transmittal. Pages 132–135 are printed pages 1–4 and end with the dual-fund proposal. The paper presents alternatives, not a recorded acceptance by Eagleburger or Scowcroft.",
+      "proposalId": "ifi-1990-10-24-robson-pdd",
+      "editorialAssessment": {
+        "role": "Treasury institutional-design alternatives",
+        "exampleIds": [
+          "d304",
+          "d258",
+          "d273"
+        ],
+        "assessment": "A particularly strong match to the Carter model: the responsible financial agency compares institutional arrangements, donor contributions, budget commitments, and the division of policy authority. Retain these terms and use the short covering letter as provenance and negotiation context.",
+        "followUp": "Find Eagleburger’s response, the agreed State–Treasury text, and the final donor commitments and bank arrangements; compare the October 29 Scowcroft action paper with those dispositions."
+      },
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
+    },
+    {
       "id": "ifi-1990-10-29-pdd",
       "sourceId": "91139-011",
       "date": "1990-10-29",
@@ -2825,7 +3787,9 @@
       "editorialReview": "Use as the follow-through to the October 12 warning. The recommendation concerns clearance of proposed language; it does not itself prove that donors supplied additional money.",
       "relatedIds": [
         "ifi-1990-10-12-eai",
-        "ifi-1991-02-08-brazil-lending"
+        "ifi-1991-02-08-brazil-lending",
+        "ifi-1990-05-31-g24-design",
+        "ifi-1990-10-24-robson-pdd"
       ],
       "heading": "Memorandum From Donald C. Johnson and Eric D. Melby to Brent Scowcroft",
       "priority": "High",
@@ -3121,7 +4085,9 @@
       "editorialReview": "Attribute the numerical and budget-accounting explanation to Deal. Preserve the manuscript comments for editorial comparison, and check implementing legislation before describing the increase as effective.",
       "relatedIds": [
         "ifi-1989-12-28-imf-quotas",
-        "ifi-1992-03-17-mif-funding"
+        "ifi-1992-03-17-mif-funding",
+        "ifi-1990-01-02-bush-kohl-imf",
+        "ifi-1992-03-25-eai-lobbying"
       ],
       "heading": "Memorandum From Timothy E. Deal to Jonathan T. Howe",
       "priority": "High",
@@ -3179,7 +4145,9 @@
       "editorialReview": "Use for the relationship between U.S. budget choices and donor commitments. The memorandum reports pledges and funding risks, not completed contributions.",
       "relatedIds": [
         "ifi-1992-03-14-imf-quotas",
-        "ifi-1991-02-08-brazil-lending"
+        "ifi-1991-02-08-brazil-lending",
+        "ifi-1992-03-25-eai-lobbying",
+        "ifi-1990-10-24-robson-pdd"
       ],
       "heading": "Memorandum From Nicholas F. Brady to Brent Scowcroft",
       "priority": "High",
@@ -3220,6 +4188,123 @@
         ],
         "assessment": "A strong Treasury intervention linking the U.S. appropriation to other donors’ commitments and competing international priorities.",
         "followUp": "Find Scowcroft’s response, the budget decision, and the conditions under which donor pledges became effective."
+      },
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
+    },
+    {
+      "id": "ifi-1992-03-25-eai-lobbying",
+      "sourceId": "CF00959-010",
+      "date": "1992-03-25",
+      "title": "EAI Funding: Report of Presidential Lobbying and the Appropriations Impasse",
+      "sender": "Virginia A. Lampley",
+      "recipient": "Eric D. K. Melby",
+      "pdfPageStart": 16,
+      "pdfPageEnd": 16,
+      "classification": "Unclassified",
+      "proposalKind": "Document",
+      "selectionRationale": "Reports the President’s appeal to House leaders for Enterprise for the Americas funding and the difficulty of obtaining votes for the continuing resolution. It follows Brady’s March 17 warning that a missing U.S. contribution endangered other donors’ commitments, showing the domestic effort to secure multilateral financing.",
+      "evidenceNotes": "Electronic memorandum dated March 25, 1992 at 11:29 EDT, explicitly marked Unclassified, from Virginia A. Lampley to Eric D. K. Melby. Copies are addressed to William T. Pryce, Timothy E. Deal, and George M. Andricos. Lampley describes conversations involving Brady and Scowcroft and reports the President’s pitch to House leaders; this is her contemporaneous account, not a verbatim meeting record.",
+      "editorialReview": "Pair with Brady’s March 17 memorandum to connect the multilateral pledge problem to congressional action. The note reports lobbying and concern about the continuing resolution, not an appropriation or a final vote; verify the disposition separately.",
+      "relatedIds": [
+        "ifi-1992-03-17-mif-funding",
+        "ifi-1992-03-14-imf-quotas"
+      ],
+      "heading": "Electronic Memorandum From Virginia A. Lampley to Eric D. K. Melby",
+      "priority": "High",
+      "datePrecision": "day",
+      "sortDate": "1992-03-25",
+      "dateBasis": "Electronic memorandum timestamp: March 25, 1992, 11:29 EDT.",
+      "scowcroftRole": "Companion paper",
+      "selectionPass": "ifi-follow-up",
+      "institutions": [
+        "Multilateral Investment Fund",
+        "Development-finance coordination"
+      ],
+      "collectionId": "deal-chron",
+      "releaseStatus": "Released",
+      "type": "Electronic memorandum",
+      "dateline": "Washington, March 25, 1992",
+      "selection": "Core",
+      "pageCount": 1,
+      "extentLabel": "1 released memorandum page; PDF page 16; attachments described separately",
+      "naid": "452050502",
+      "localId": "CF00959-010",
+      "catalogUrl": "https://catalog.archives.gov/id/452050502",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/chron_2554807/41-bpr-nsc-deal-chron-cf00959-010.pdf",
+      "documentUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/chron_2554807/41-bpr-nsc-deal-chron-cf00959-010.pdf#page=16",
+      "provenanceUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/chron_2554807/41-bpr-nsc-deal-chron-cf00959-010.pdf#page=1",
+      "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Timothy E. Deal Files, Chronological Files, OA/ID CF00959–010, Chron File: March 1992 [1]. Unclassified.",
+      "sourceNoteStatus": "verified",
+      "sourceNoteBasis": "Opening provenance marker (PDF page 1), selected memorandum pages, and terminal markings checked in the official NARA PDF on 2026-09-04.",
+      "provenanceMethod": "Opening PDF provenance marker and document source images",
+      "notes": "Electronic memorandum dated March 25, 1992 at 11:29 EDT, explicitly marked Unclassified, from Virginia A. Lampley to Eric D. K. Melby. Copies are addressed to William T. Pryce, Timothy E. Deal, and George M. Andricos. Lampley describes conversations involving Brady and Scowcroft and reports the President’s pitch to House leaders; this is her contemporaneous account, not a verbatim meeting record.",
+      "proposalId": "ifi-1992-03-25-eai-lobbying",
+      "editorialAssessment": {
+        "role": "Reported implementation effort",
+        "exampleIds": [
+          "d258",
+          "d304"
+        ],
+        "assessment": "Useful evidence of the political effort required to turn an international funding pledge into appropriations. Consider annotation if a fuller presidential or congressional meeting record captures the same intervention.",
+        "followUp": "Find the record of the President’s House-leadership meeting and the subsequent appropriations disposition; establish the resulting U.S. contribution and other donors’ responses."
+      },
+      "subjectArea": "Monetary Policy, Debt, and International Institutions"
+    },
+    {
+      "id": "ifi-1992-undated-gef-schmidbauer",
+      "sourceId": "CF00959-010",
+      "date": "1992-03-31",
+      "title": "Rio Financing: Proposed Reliance on the World Bank’s Global Environment Facility",
+      "sender": "Author not identified on the paper",
+      "recipient": "Intended speaker not identified; prepared for a meeting with Schmidbauer",
+      "pdfPageStart": 6,
+      "pdfPageEnd": 7,
+      "classification": "No classification marking",
+      "proposalKind": "Document",
+      "selectionRationale": "Adds environmental finance to the institutional record. The talking points favor the World Bank’s GEF as the sole fund for global environmental projects and reject demands for large resource transfers under Agenda 21, placing financing architecture within preparations for the Rio conference.",
+      "evidenceNotes": "Three numbered talking-point cards are reproduced on two PDF pages: cards 1–2 on page 6 and card 3 on page 7. The heading identifies a meeting with German Chancellery Deputy Minister Schmidbauer. No author, intended speaker, or printed dateline appears. A handwritten chronology notation and the Deal chronology entry on PDF page 5 associate the paper with March 31, 1992. No classification marking appears on the selected cards; the classification of the chronology page is not transferred to them.",
+      "editorialReview": "Retain the paper as undated and unattributed pending comparison with the briefing packet or meeting record. Propose the financing passages of card 2 as an explicitly marked extract; identify omitted climate and conference-planning material. The wording is prepared advice and does not establish what was said or agreed at the meeting.",
+      "relatedIds": [],
+      "heading": "Talking Points for a Meeting With German Chancellery Deputy Minister Schmidbauer",
+      "priority": "Medium",
+      "datePrecision": "undated",
+      "sortDate": "1992-03-31",
+      "dateBasis": "No printed document date. The handwritten chronology notation and the file’s chronology entry associate the paper with March 31, 1992; this is a sorting key only.",
+      "scowcroftRole": "Companion paper",
+      "selectionPass": "ifi-follow-up",
+      "institutions": [
+        "World Bank",
+        "Global Environment Facility",
+        "Environmental finance"
+      ],
+      "collectionId": "deal-chron",
+      "releaseStatus": "Released",
+      "type": "Talking points",
+      "dateline": "Undated",
+      "displayDateLabel": "Undated (filed March 31, 1992)",
+      "extentLabel": "2 released PDF pages containing three talking-point cards; PDF pages 6–7; proposed financing extract on card 2",
+      "selection": "Core",
+      "pageCount": 2,
+      "naid": "452050502",
+      "localId": "CF00959-010",
+      "catalogUrl": "https://catalog.archives.gov/id/452050502",
+      "pdfUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/chron_2554807/41-bpr-nsc-deal-chron-cf00959-010.pdf",
+      "documentUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/chron_2554807/41-bpr-nsc-deal-chron-cf00959-010.pdf#page=6",
+      "provenanceUrl": "https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/chron_2554807/41-bpr-nsc-deal-chron-cf00959-010.pdf#page=1",
+      "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Timothy E. Deal Files, Chronological Files, OA/ID CF00959–010, Chron File: March 1992 [1]. No classification marking.",
+      "sourceNoteStatus": "verified",
+      "sourceNoteBasis": "Opening provenance marker (PDF page 1), selected document pages, and terminal markings checked in the official NARA PDF on 2026-09-04.",
+      "provenanceMethod": "Opening PDF provenance marker and document source images",
+      "notes": "Three numbered talking-point cards are reproduced on two PDF pages: cards 1–2 on page 6 and card 3 on page 7. The heading identifies a meeting with German Chancellery Deputy Minister Schmidbauer. No author, intended speaker, or printed dateline appears. A handwritten chronology notation and the Deal chronology entry on PDF page 5 associate the paper with March 31, 1992. No classification marking appears on the selected cards; the classification of the chronology page is not transferred to them.",
+      "proposalId": "ifi-1992-undated-gef-schmidbauer",
+      "editorialAssessment": {
+        "role": "Prepared negotiating position",
+        "exampleIds": [
+          "d233",
+          "d304"
+        ],
+        "assessment": "A useful candidate because it identifies a choice between using an existing financial institution and expanding resource-transfer commitments. Its selection depends on establishing the speaker and comparing it with the fuller U.S. financing position.",
+        "followUp": "Find the meeting brief and conversation record, Treasury’s GEF financing position, and the U.S. instructions for Rio; establish how the institutional funding preference was negotiated."
       },
       "subjectArea": "Monetary Policy, Debt, and International Institutions"
     }

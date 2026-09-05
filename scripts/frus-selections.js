@@ -18,6 +18,7 @@ function applySelections(records) {
     const editorialAssessment = assessmentsById.get(proposal.id);
     if (!editorialAssessment) throw new Error(`Missing editorial assessment: ${proposal.id}`);
     const pageCount = proposal.pdfPageEnd - proposal.pdfPageStart + 1;
+    const documentNoun = proposal.type === 'Draft report' ? 'report' : (!proposal.type || proposal.type.toLowerCase().includes('memorandum')) ? 'memorandum' : 'document';
     const dateline = proposal.dateline || `Washington, ${new Date(`${proposal.date}T12:00:00Z`).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}`;
     const record = {
       ...proposal,
@@ -27,7 +28,7 @@ function applySelections(records) {
       selection: proposal.proposalKind === 'Document' ? 'Core' : 'Consider',
       releaseStatus: proposal.releaseStatus || 'Released',
       pageCount,
-      extentLabel: `${pageCount} ${proposal.releaseStatus === 'Released in part' ? 'partly released' : 'released'} ${proposal.type === 'Draft report' ? 'report' : 'memorandum'} ${pageCount === 1 ? 'page' : 'pages'}; PDF ${proposal.pdfPageStart === proposal.pdfPageEnd ? `page ${proposal.pdfPageStart}` : `pages ${proposal.pdfPageStart}–${proposal.pdfPageEnd}`}; ${proposal.type === 'Draft report' ? 'includes title page and five tables' : 'attachments described separately'}`,
+      extentLabel: proposal.extentLabel || `${pageCount} ${proposal.releaseStatus === 'Released in part' ? 'partly released' : 'released'} ${documentNoun} ${pageCount === 1 ? 'page' : 'pages'}; PDF ${proposal.pdfPageStart === proposal.pdfPageEnd ? `page ${proposal.pdfPageStart}` : `pages ${proposal.pdfPageStart}–${proposal.pdfPageEnd}`}; ${proposal.type === 'Draft report' ? 'includes title page and five tables' : 'attachments described separately'}`,
       naid: file.naid,
       localId: file.id,
       catalogUrl: file.catalogUrl,
@@ -36,7 +37,7 @@ function applySelections(records) {
       provenanceUrl: `${file.pdfUrl}#page=1`,
       sourceNote: sourceNoteFor(file, proposal),
       sourceNoteStatus: 'verified',
-      sourceNoteBasis: `Opening provenance marker (PDF page 1), selected ${proposal.type === 'Draft report' ? 'report' : 'memorandum'} pages, and terminal markings checked in the official NARA PDF on ${source.reviewedOn}.`,
+      sourceNoteBasis: `Opening provenance marker (PDF page 1), selected ${documentNoun} pages, and terminal markings checked in the official NARA PDF on ${source.reviewedOn}.`,
       provenanceMethod: 'Opening PDF provenance marker and document source images',
       collectionId: existing?.collectionId || proposal.collectionId || 'scowcroft',
       notes: proposal.evidenceNotes,

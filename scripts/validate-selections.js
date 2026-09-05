@@ -20,13 +20,21 @@ for (const example of model.examples) {
   assert.equal(example.url, `${model.url}/d${example.number}`);
   assert.equal(example.id, `d${example.number}`);
 }
-assert.equal(records.filter(record => record.proposalKind === 'Document').length, 41);
-assert.equal(records.filter(record => record.proposalKind === 'Annotation').length, 4);
+for (const kind of ['Document', 'Annotation']) {
+  assert.equal(records.filter(record => record.proposalKind === kind).length,
+    source.documents.filter(record => record.proposalKind === kind).length,
+    `Every ${kind} proposal must retain its proposed treatment`);
+}
+const initial = records.filter(record => !record.selectionPass || record.selectionPass === 'initial');
+assert.equal(initial.length, 11, 'The initial eleven proposals must remain a distinct selection pass');
+assert.equal(initial.filter(record => record.proposalKind === 'Document').length, 7);
+assert.equal(initial.filter(record => record.proposalKind === 'Annotation').length, 4);
 const expansion = records.filter(record => record.selectionPass === 'ifi-expansion');
 assert.equal(expansion.length, 30, 'The institutions pass must add thirty distinct document proposals');
-expansion.forEach(record => {
-  assert.equal(record.proposalKind, 'Document');
-  assert.ok(record.institutions.length, 'Each new proposal identifies its institutional focus');
+expansion.forEach(record => assert.equal(record.proposalKind, 'Document'));
+const institutional = records.filter(record => ['ifi-expansion', 'ifi-follow-up'].includes(record.selectionPass));
+institutional.forEach(record => {
+  assert.ok(record.institutions?.length, 'Each institutional proposal identifies its institutional focus');
   assert.equal(record.collectionId, record.sourceId.startsWith('CF') ? 'deal-chron' : 'scowcroft');
 });
 for (const file of source.sources) {
@@ -40,6 +48,7 @@ for (const file of source.sources) {
   assert.equal(checked.catalogObjectMatched, true);
 }
 for (const record of records) {
+  assert.ok(['Document', 'Annotation'].includes(record.proposalKind), `Unknown proposed treatment: ${record.id}`);
   const { recordId, ...assessment } = model.assessments.find(row => row.recordId === record.id);
   assert.deepEqual(record.editorialAssessment, assessment, 'Assessment must survive the data build');
   for (const field of ['role', 'assessment', 'followUp']) assert.ok(assessment[field], `Missing ${field}: ${record.id}`);

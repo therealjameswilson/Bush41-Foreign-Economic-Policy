@@ -166,7 +166,7 @@
         "d273"
       ],
       "assessment": "The selection value lies in the proposed NSC role in trade strategy and the reason for it. Establish the recommendation before describing any resulting directive.",
-      "followUp": "Find the signed or sent reply and the economic-policy directive or review record to which it responded."
+      "followUp": "Compare the newly proposed signed April 17 reply and the economic-policy directive, then locate the EPC report and evidence of the ensuing NSC review."
     },
     {
       "recordId": "scowcroft-1989-06-21-melby-summit-briefing",
@@ -524,6 +524,158 @@
       ],
       "assessment": "A strong Treasury intervention linking the U.S. appropriation to other donors’ commitments and competing international priorities.",
       "followUp": "Find Scowcroft’s response, the budget decision, and the conditions under which donor pledges became effective."
+    },
+    {
+      "recordId": "ifi-followup-1989-04-17-scowcroft-epc",
+      "role": "Signed memorandum",
+      "exampleIds": [
+        "d163",
+        "d273"
+      ],
+      "assessment": "This concise paper completes a recommendation-to-signed-reply sequence. Its selection value is the working relationship between economic and national-security review, including multilateral trade strategy.",
+      "followUp": "Compare the EPC report, resulting presidential discussion, and any evidence that disputed trade issues were referred to the NSC."
+    },
+    {
+      "recordId": "ifi-followup-1990-06-12-taiwan-gatt",
+      "role": "Coordination proposal with concurrence",
+      "exampleIds": [
+        "d163",
+        "d273"
+      ],
+      "assessment": "The document identifies a consequential clearance requirement on institutional membership. Its adjacent response provides more than a bare meeting or routing lead.",
+      "followUp": "Find the circulated instruction and the substantive U.S. accession position; preserve the distinction between agreement on procedure and a membership decision."
+    },
+    {
+      "recordId": "ifi-followup-1990-06-19-houston-choices",
+      "role": "Options for principals",
+      "exampleIds": [
+        "d146",
+        "d273",
+        "d304"
+      ],
+      "assessment": "The staff memorandum makes competing economic-agency preferences visible before the summit position was settled. Its institutional passages can bridge the substantive proposals and later principals’ decisions.",
+      "followUp": "Locate conclusions from June 20 and compare them with the joint Baker–Brady paper, the President’s briefing, and the final summit record."
+    },
+    {
+      "recordId": "ifi-followup-1990-06-22-trade-issue-paper",
+      "role": "Negotiating position",
+      "exampleIds": [
+        "d163",
+        "d146"
+      ],
+      "assessment": "This substantive agency paper supplies the trade negotiator’s position behind general summit recommendations. It identifies the institutional rules and domestic constraints that made the bargain difficult.",
+      "followUp": "Find the final cleared briefing, any USTR negotiating instructions, and the summit discussion resolving the disputed rules and agricultural commitments."
+    },
+    {
+      "recordId": "ifi-1989-03-30-rockefeller-debt",
+      "role": "Outside policy alternative",
+      "exampleIds": [
+        "d233",
+        "d304"
+      ],
+      "assessment": "A strong candidate for the alternatives available to U.S. policymakers: it connects creditor participation, institutional resources, and conditions for new lending. The letter establishes access to Scowcroft and Brady; the attached paper supplies the substance.",
+      "followUp": "Find Treasury’s response to the group and the relevant NSC and Treasury meeting records; compare which proposed resource and cofinancing changes were accepted, rejected, or deferred."
+    },
+    {
+      "recordId": "ifi-1989-05-27-clark-loan-vote",
+      "role": "Originating interagency objection",
+      "exampleIds": [
+        "d262",
+        "d273"
+      ],
+      "assessment": "Retain if the account of Treasury’s notice and voting instructions establishes why Baker and Scowcroft revised the consultation process. Its value is the institutional conflict; use regional repercussions selectively.",
+      "followUp": "Find Treasury’s May 4 voting instruction and assessment of the loan, then connect this complaint to Baker’s June 22 request and Scowcroft’s July 25 instruction."
+    },
+    {
+      "recordId": "ifi-1990-01-02-bush-kohl-imf",
+      "role": "Signed presidential authorization",
+      "exampleIds": [
+        "d233",
+        "d258"
+      ],
+      "assessment": "The signature and explicit authorization add evidence beyond Scowcroft’s recommendation. Annotation should explain the dispatch hold and subsequent Treasury revision instead of merging the versions.",
+      "followUp": "Find the final State transmission and Treasury negotiating instructions; compare the signed and revised wording and follow the authorization into the quota settlement."
+    },
+    {
+      "recordId": "ifi-1992-03-25-eai-lobbying",
+      "role": "Reported implementation effort",
+      "exampleIds": [
+        "d258",
+        "d304"
+      ],
+      "assessment": "Useful evidence of the political effort required to turn an international funding pledge into appropriations. Consider annotation if a fuller presidential or congressional meeting record captures the same intervention.",
+      "followUp": "Find the record of the President’s House-leadership meeting and the subsequent appropriations disposition; establish the resulting U.S. contribution and other donors’ responses."
+    },
+    {
+      "recordId": "ifi-1992-undated-gef-schmidbauer",
+      "role": "Prepared negotiating position",
+      "exampleIds": [
+        "d233",
+        "d304"
+      ],
+      "assessment": "A useful candidate because it identifies a choice between using an existing financial institution and expanding resource-transfer commitments. Its selection depends on establishing the speaker and comparing it with the fuller U.S. financing position.",
+      "followUp": "Find the meeting brief and conversation record, Treasury’s GEF financing position, and the U.S. instructions for Rio; establish how the institutional funding preference was negotiated."
+    },
+    {
+      "recordId": "ifi-1989-10-31-andean-reform",
+      "role": "Interagency policy report",
+      "exampleIds": [
+        "d163",
+        "d262"
+      ],
+      "assessment": "The value is the connection between trade policy and multilateral lending as instruments of reform. The attached World Bank paper supplies the institutional constraints that the short presidential memorandum summarizes.",
+      "followUp": "Find the USTR consultations with U.S. executive directors and the subsequent Bank or Fund review decisions; compare the final public announcement with the interagency package."
+    },
+    {
+      "recordId": "ifi-1990-05-31-g24-design",
+      "role": "Institutional and funding alternatives",
+      "exampleIds": [
+        "d273",
+        "d304"
+      ],
+      "assessment": "A strong early statement of the NSC’s objection to a separate donor organization with uncertain resources. Select the substantive disagreement; the marginal meeting request alone is supporting evidence.",
+      "followUp": "Locate the discussion with Scowcroft, Baker’s original authorization, and the State–Treasury negotiations that defined the later PDD mechanism."
+    },
+    {
+      "recordId": "ifi-1990-06-22-colombia-world-bank",
+      "role": "Reported presidential instruction",
+      "exampleIds": [
+        "d262",
+        "d273"
+      ],
+      "assessment": "The institutional instruction merits inclusion in the record, but this transmittal provides little of the Bank-policy reasoning. Annotation can connect the political request to a fuller interagency or executive-director document.",
+      "followUp": "Find the June 5 Bush–Barco conversation and the resulting State–Treasury and U.S. executive-director actions on Colombian World Bank lending."
+    },
+    {
+      "recordId": "ifi-1990-10-11-sela-debt",
+      "role": "Presidential recommendation",
+      "exampleIds": [
+        "d304",
+        "d262"
+      ],
+      "assessment": "A useful policy statement because it explains a choice over the conditions attached to international debt relief, rather than merely forwarding correspondence. The signed routing copy establishes processing of the recommendation, not the text of the final reply.",
+      "followUp": "Locate the sent October 12 reply and Treasury’s substantive assessment of the SELA proposals, including their implications for Bank and Fund resources."
+    },
+    {
+      "recordId": "ifi-1990-10-16-debt-results",
+      "role": "Treasury assessment of emerging results",
+      "exampleIds": [
+        "d258",
+        "d304"
+      ],
+      "assessment": "Useful as a later test of the administration’s claims about its debt strategy. Its comparative results are more substantive than the accompanying congratulatory routing papers, although final agreements are still needed.",
+      "followUp": "Find the final creditor agreements, supporting Treasury financial analysis, and any documented Bank or Fund financing role before completing the outcome annotation."
+    },
+    {
+      "recordId": "ifi-1990-10-24-robson-pdd",
+      "role": "Treasury institutional-design alternatives",
+      "exampleIds": [
+        "d304",
+        "d258",
+        "d273"
+      ],
+      "assessment": "A particularly strong match to the Carter model: the responsible financial agency compares institutional arrangements, donor contributions, budget commitments, and the division of policy authority. Retain these terms and use the short covering letter as provenance and negotiation context.",
+      "followUp": "Find Eagleburger’s response, the agreed State–Treasury text, and the final donor commitments and bank arrangements; compare the October 29 Scowcroft action paper with those dispositions."
     },
     {
       "recordId": "deal-1989-03-07-brady-speech",
