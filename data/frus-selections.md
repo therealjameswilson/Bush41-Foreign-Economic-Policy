@@ -1,6 +1,6 @@
 # Proposed FRUS Selections
 
-41 document-level proposals from 16 official file-unit PDFs, January 1989–March 1992: 37 for document treatment and four for annotation. The latest 30 emphasize U.S. policy toward international financial institutions, including IMF resources, development-bank voting, EBRD design, and development-finance coordination. This selective set does not claim complete coverage of the administration or any collection.
+45 document-level proposals from 19 official file-unit PDFs, January 1989–March 1992: 41 for document treatment and four for annotation. Four new Deal memoranda address the Brady debt strategy, a Philippine World Bank vote, and Polish debt and assistance options. The earlier 30-document institutions pass remains intact. This selective set does not claim complete coverage of the administration or any collection.
 
 Read the official PDF’s first page for archival provenance, then inspect each selected document and its final page for authorship, date, boundaries, classification, and release evidence. Preserve redactions, draft and uncertain-date status, and distinguish proposed excerpts from complete documents. Editorial proposals remain subject to compiler judgment and comparison of controlling copies.
 
@@ -45,6 +45,82 @@ Provenance (PDF page 1): https://catalog.archives.gov/medialz/presidential-libra
 Document: https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-gbs/4708326/41-bpr-scow-chron-91148-001.pdf#page=5
 
 Catalog: https://catalog.archives.gov/id/366551990
+
+## Brady Speech
+
+Memorandum From Timothy E. Deal of the National Security Council Staff to the President's Assistant for National Security Affairs (Scowcroft)
+
+Washington, March 7, 1989
+
+Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Timothy E. Deal Files, Chronological Files, OA/ID CF00695–003, Chron File: March 1989 [3], 1475. Unclassified upon removal of classified attachments. The memorandum bears a Confidential Attachment marking and a stamp reading "Unclassified Upon Removal of Classified Attachments." It identifies an annotated draft speech as Tab A and a note by Pastorino as Tab B.
+
+Proposed treatment: Document. To Scowcroft.
+
+Release status: Released.
+
+Institutions and mechanisms: International debt strategy; Federal Reserve.
+
+Why select: A concise NSC critique of the emerging Brady debt strategy: debtor responsibility, industrial-country market access, creditor obligations, and the limits of capital repatriation. Deal recommends concrete changes to the policy presentation, rather than merely forwarding Treasury material.
+
+Source-image evidence: One-page information note, dated March 7, 1989, initialed by Deal and numbered 1475. The bottom bears an Unclassified Upon Removal of Classified Attachments stamp and a Confidential Attachment marking. The memorandum identifies an annotated speech as Tab A and a Pastorino note as Tab B. The selected extent excludes those attachments; the speech begins on PDF page 94.
+
+Decision role: Policy critique.
+
+Model-based assessment: Strong standalone candidate: the note isolates substantive objections and proposed changes before the new debt initiative was announced. Its independent analytical content distinguishes it from a transmittal.
+
+Next evidence to seek: Locate Treasury and Federal Reserve drafts and comments, then compare the delivered Brady speech and any Scowcroft response.
+
+Editorial models: [Carter volume, Document 163](https://history.state.gov/historicaldocuments/frus1977-80v03/d163); [Carter volume, Document 233](https://history.state.gov/historicaldocuments/frus1977-80v03/d233).
+
+Editorial review: Compare the annotated draft and Treasury and Federal Reserve comments before attributing changes in the final speech to Deal. Retain as a standalone analytical memorandum; consider treating the March 8 follow-up in annotation if space is limited.
+
+Date basis: March 7, 1989 is printed on the note; Washington, D.C., appears on its NSC letterhead.
+
+Extent: 1 released memorandum page; PDF page 93; attachments described separately
+
+Provenance (PDF page 1): https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/chron_2554807/41-bpr-nsc-deal-chron-cf00695-003.pdf#page=1
+
+Document: https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/chron_2554807/41-bpr-nsc-deal-chron-cf00695-003.pdf#page=93
+
+Catalog: https://catalog.archives.gov/id/452050414
+
+## Brady Speech to the Bretton Woods Conference
+
+Memorandum From Timothy E. Deal of the National Security Council Staff to the President's Assistant for National Security Affairs (Scowcroft)
+
+Washington, March 8, 1989
+
+Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Timothy E. Deal Files, Chronological Files, OA/ID CF00695–003, Chron File: March 1989 [3], 1531. No classification marking. The approval and disapproval lines are blank. The memorandum is dated March 8; the accompanying covering letter from Brady is dated March 9. A stamp indicates that the Deputy National Security Adviser had seen the memorandum.
+
+Proposed treatment: Document. To Scowcroft.
+
+Release status: Released.
+
+Institutions and mechanisms: International debt strategy; Federal Reserve.
+
+Why select: Records Deal’s qualified endorsement of the revised debt initiative and recommendation that Scowcroft call Brady to concur. It identifies improvements in burden sharing and open-market commitments while retaining reservations about flight capital and the absence of a new-lending figure.
+
+Source-image evidence: One-page action memorandum numbered 1531, initialed by Deal, with no classification marking. Approval and disapproval lines are blank. A routing stamp indicates that the Deputy National Security Adviser has seen it; a handwritten notation reads "Shown to B.S. NFAN." The printed March 8 date precedes the March 9 Brady covering letter on the next PDF page; neither date has been silently corrected. The speech attachment is outside the selected one-page extent.
+
+Decision role: Qualified concurrence.
+
+Model-based assessment: A useful follow-up recording both remaining reservations and a recommendation to concur. It can stand alone if the volume follows the development of the debt initiative closely; otherwise use it to annotate the March 7 critique.
+
+Next evidence to seek: Resolve the March 8/March 9 date discrepancy and seek evidence of the proposed Scowcroft-Brady call.
+
+Editorial models: [Carter volume, Document 163](https://history.state.gov/historicaldocuments/frus1977-80v03/d163).
+
+Editorial review: Resolve the dating discrepancy through a controlling copy or routing record. The recommendation and routing marks do not establish that Scowcroft called Brady or approved the speech. This is a distinct follow-up to the March 7 critique, but the compiler may prefer to describe it in annotation.
+
+Date basis: Sorted under the printed March 8, 1989 date, not the March 9 date on the adjacent Brady letter. Washington appears on the NSC letterhead. The discrepancy remains unresolved.
+
+Extent: 1 released memorandum page; PDF page 78; attachments described separately
+
+Provenance (PDF page 1): https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/chron_2554807/41-bpr-nsc-deal-chron-cf00695-003.pdf#page=1
+
+Document: https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/chron_2554807/41-bpr-nsc-deal-chron-cf00695-003.pdf#page=78
+
+Catalog: https://catalog.archives.gov/id/452050414
 
 ## Paris Economic Summit Preparatory Meeting
 
@@ -227,6 +303,82 @@ Provenance (PDF page 1): https://catalog.archives.gov/medialz/presidential-libra
 Document: https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/chron_2554807/41-bpr-nsc-deal-chron-cf00695-004.pdf#page=13
 
 Catalog: https://catalog.archives.gov/id/452050415
+
+## Philippines: Treasury to Veto World Bank Loan
+
+Memorandum From Timothy E. Deal of the National Security Council Staff to the President's Deputy Assistant for National Security Affairs (Gates)
+
+May 3, 1989, 6:51 p.m. EDT
+
+Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Timothy E. Deal Files, Chronological Files, OA/ID CF00695–008, Chron File: May 1989 [3]. Confidential. Sent electronically. Copies were sent to Diane L. Edwards, Douglas H. Paal, and Deane E. Hoffman.
+
+Proposed treatment: Document. Companion paper.
+
+Release status: Released.
+
+Institutions and mechanisms: World Bank; Development-finance coordination.
+
+Why select: An urgent request for Gates or Scowcroft to persuade Brady to reverse Treasury’s proposed negative World Bank vote. Deal sets Treasury’s conditionality argument against State, Federal Reserve, and AID assessments and the political costs of opposing Philippine financing. It exposes a specific interagency choice at the point of decision.
+
+Source-image evidence: Two-page electronic memorandum with a May 3, 1989, 18:51 EDT timestamp, addressed to Robert M. Gates from Timothy E. Deal. The first page carries a Confidential marking and an NSC-waiver declassification stamp dated July 16, 2021. The second page completes the recommendation and lists copies to Diane Edwards, Douglas Paal, and Deane Hoffman. PDF page 95 starts a separate Deal note to Jim Fall. No place is printed in the selected electronic memorandum.
+
+Decision role: Interagency decision appeal.
+
+Model-based assessment: Strong standalone candidate: a named decision-maker is asked to intervene in an imminent multilateral-bank vote. The memo exposes the tradeoff between conditionality and diplomatic objectives without requiring its reader to reconstruct an attachment.
+
+Next evidence to seek: Obtain the U.S. voting instruction, World Bank board minutes, and any Gates or Scowcroft contact with Brady.
+
+Editorial models: [Carter volume, Document 262](https://history.state.gov/historicaldocuments/frus1977-80v03/d262); [Carter volume, Document 304](https://history.state.gov/historicaldocuments/frus1977-80v03/d304).
+
+Editorial review: Preserve the original subject line, but do not call the contemplated U.S. negative vote a power to veto: Deal explicitly says the United States could not block the loan. Seek Treasury voting instructions and the World Bank board record before stating the disposition or repeating the memorandum’s loan description as an independently verified fact.
+
+Date basis: The electronic header prints 3-May-1989 18:51 EDT. Time is rendered as 6:51 p.m. EDT; place is omitted because it is not printed.
+
+Extent: 2 released memorandum pages; PDF pages 93–94; attachments described separately
+
+Provenance (PDF page 1): https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/chron_2554807/41-bpr-nsc-deal-chron-cf00695-008.pdf#page=1
+
+Document: https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/chron_2554807/41-bpr-nsc-deal-chron-cf00695-008.pdf#page=93
+
+Catalog: https://catalog.archives.gov/id/452050419
+
+## Poland
+
+Memorandum From Timothy E. Deal of the National Security Council Staff to Robert Blackwill of the National Security Council Staff
+
+May 25, 1989
+
+Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Timothy E. Deal Files, Chronological Files, OA/ID CF00695–006, Chron File: May 1989 [1]. Confidential.
+
+Proposed treatment: Document. Companion paper.
+
+Release status: Released.
+
+Institutions and mechanisms: IMF; Paris Club; International debt strategy.
+
+Why select: Substantive advice on the limits of a Polish debt moratorium and the risks to the wider Brady strategy and Paris Club principles. Deal proposes direct grants and technical debt advice as alternatives, linking political support for Poland to IMF conditionality and negotiations with other debtors.
+
+Source-image evidence: Two-page note dated May 25, 1989, addressed to Bob Blackwill and initialed by Tim Deal. The opening page bears a Confidential marking and an NSC-waiver declassification stamp dated July 16, 2021. The second page concludes the argument for a straightforward grant; page 45 starts a different memorandum. No place of origin is printed on either selected page.
+
+Decision role: Policy alternatives.
+
+Model-based assessment: Strong standalone candidate where the volume treats debt-policy exceptions and aid instruments. The memorandum compares options and explains constraints rather than supplying only bilateral political background.
+
+Next evidence to seek: Locate the proposals Deal criticized and the decisions on grants, debt rescheduling, and IMF support; reconcile treatment with the Eastern Europe volume.
+
+Editorial models: [Carter volume, Document 233](https://history.state.gov/historicaldocuments/frus1977-80v03/d233); [Carter volume, Document 304](https://history.state.gov/historicaldocuments/frus1977-80v03/d304).
+
+Editorial review: Treat the criticism of Soros, European creditor positions, and reported interest rates as Deal’s assessment, not independently established facts. Compare the Soros proposal, the referenced Adrian note, G-7 records, and subsequent U.S. assistance decisions. Coordinate with the Eastern Europe compilation to avoid duplicating the same document.
+
+Date basis: May 25, 1989 is printed at the top of the note. No place is supplied because the selected copy does not print one.
+
+Extent: 2 released memorandum pages; PDF pages 43–44; attachments described separately
+
+Provenance (PDF page 1): https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/chron_2554807/41-bpr-nsc-deal-chron-cf00695-006.pdf#page=1
+
+Document: https://catalog.archives.gov/medialz/presidential-libraries/bush/gb-nsc/deal/chron_2554807/41-bpr-nsc-deal-chron-cf00695-006.pdf#page=43
+
+Catalog: https://catalog.archives.gov/id/452050417
 
 ## Briefing for the President’s Lunch with World Bank President Conable
 

@@ -33,8 +33,11 @@ for (const record of data.records) {
   } else {
     if (!record.sourceNote?.startsWith("Source: George H.W. Bush Library,")) errors.push(`${record.id}: Source Note does not begin in project FRUS style`);
     if (/https?:|NARA Catalog ID|Digital object:/i.test(record.sourceNote)) errors.push(`${record.id}: URL or catalog metadata leaked into Source Note prose`);
-    if (!/(?:Top Secret|Secret|Confidential|Unclassified|No classification marking)(?:; (?:Exdis|Nodis|Limited Access|Noforn))?\.$|the attachment is Confidential\.$/i.test(record.sourceNote)) {
-      errors.push(`${record.id}: Source Note lacks terminal classification sentence`);
+    const detail = record.sourceNoteDetail ? ` ${record.sourceNoteDetail}` : '';
+    if (detail && !record.sourceNote.endsWith(detail)) errors.push(`${record.id}: Source Note detail does not match the documented copy evidence`);
+    const citationAndClassification = detail && record.sourceNote.endsWith(detail) ? record.sourceNote.slice(0, -detail.length) : record.sourceNote;
+    if (!/(?:Top Secret|Secret|Confidential|Unclassified(?: upon removal of classified attachments)?|No classification marking)(?:; (?:Exdis|Nodis|Limited Access|Noforn))?\.$|the attachment is Confidential\.$/i.test(citationAndClassification)) {
+      errors.push(`${record.id}: Source Note lacks classification sentence before optional copy evidence`);
     }
     if (/OA\/ID [A-Z0-9]+-[A-Z0-9]+/.test(record.sourceNote)) errors.push(`${record.id}: OA/ID uses a hyphen instead of an en dash`);
   }

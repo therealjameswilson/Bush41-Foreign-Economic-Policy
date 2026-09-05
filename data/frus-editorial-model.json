@@ -524,6 +524,45 @@
       ],
       "assessment": "A strong Treasury intervention linking the U.S. appropriation to other donors’ commitments and competing international priorities.",
       "followUp": "Find Scowcroft’s response, the budget decision, and the conditions under which donor pledges became effective."
+    },
+    {
+      "recordId": "deal-1989-03-07-brady-speech",
+      "role": "Policy critique",
+      "exampleIds": [
+        "d163",
+        "d233"
+      ],
+      "assessment": "Strong standalone candidate: the note isolates substantive objections and proposed changes before the new debt initiative was announced. Its independent analytical content distinguishes it from a transmittal.",
+      "followUp": "Locate Treasury and Federal Reserve drafts and comments, then compare the delivered Brady speech and any Scowcroft response."
+    },
+    {
+      "recordId": "deal-1989-03-08-brady-redraft",
+      "role": "Qualified concurrence",
+      "exampleIds": [
+        "d163"
+      ],
+      "assessment": "A useful follow-up recording both remaining reservations and a recommendation to concur. It can stand alone if the volume follows the development of the debt initiative closely; otherwise use it to annotate the March 7 critique.",
+      "followUp": "Resolve the March 8/March 9 date discrepancy and seek evidence of the proposed Scowcroft-Brady call."
+    },
+    {
+      "recordId": "deal-1989-05-03-philippines-world-bank",
+      "role": "Interagency decision appeal",
+      "exampleIds": [
+        "d262",
+        "d304"
+      ],
+      "assessment": "Strong standalone candidate: a named decision-maker is asked to intervene in an imminent multilateral-bank vote. The memo exposes the tradeoff between conditionality and diplomatic objectives without requiring its reader to reconstruct an attachment.",
+      "followUp": "Obtain the U.S. voting instruction, World Bank board minutes, and any Gates or Scowcroft contact with Brady."
+    },
+    {
+      "recordId": "deal-1989-05-25-poland-debt",
+      "role": "Policy alternatives",
+      "exampleIds": [
+        "d233",
+        "d304"
+      ],
+      "assessment": "Strong standalone candidate where the volume treats debt-policy exceptions and aid instruments. The memorandum compares options and explains constraints rather than supplying only bilateral political background.",
+      "followUp": "Locate the proposals Deal criticized and the decisions on grants, debt rescheduling, and IMF support; reconcile treatment with the Eastern Europe volume."
     }
   ]
 }

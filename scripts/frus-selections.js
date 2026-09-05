@@ -2,6 +2,13 @@ const source = require('../data/frus-selections-source.json');
 const { assessments, ...editorialModel } = require('../data/frus-editorial-model.json');
 const assessmentsById = new Map(assessments.map(({ recordId, ...assessment }) => [recordId, assessment]));
 
+function sourceNoteFor(file, proposal) {
+  const locator = proposal.documentNumber
+    ? `${file.provenanceStem.replace(/\.$/, '')}, ${proposal.documentNumber}.`
+    : file.provenanceStem;
+  return `${locator} ${proposal.classification}.${proposal.sourceNoteDetail ? ` ${proposal.sourceNoteDetail}` : ''}`;
+}
+
 function applySelections(records) {
   const byId = new Map(records.map(record => [record.id, record]));
   for (const proposal of source.documents) {
@@ -27,7 +34,7 @@ function applySelections(records) {
       pdfUrl: file.pdfUrl,
       documentUrl: `${file.pdfUrl}#page=${proposal.pdfPageStart}`,
       provenanceUrl: `${file.pdfUrl}#page=1`,
-      sourceNote: `${file.provenanceStem} ${proposal.classification}.`,
+      sourceNote: sourceNoteFor(file, proposal),
       sourceNoteStatus: 'verified',
       sourceNoteBasis: `Opening provenance marker (PDF page 1), selected ${proposal.type === 'Draft report' ? 'report' : 'memorandum'} pages, and terminal markings checked in the official NARA PDF on ${source.reviewedOn}.`,
       provenanceMethod: 'Opening PDF provenance marker and document source images',

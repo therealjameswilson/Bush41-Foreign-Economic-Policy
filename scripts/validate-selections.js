@@ -20,7 +20,7 @@ for (const example of model.examples) {
   assert.equal(example.url, `${model.url}/d${example.number}`);
   assert.equal(example.id, `d${example.number}`);
 }
-assert.equal(records.filter(record => record.proposalKind === 'Document').length, 37);
+assert.equal(records.filter(record => record.proposalKind === 'Document').length, 41);
 assert.equal(records.filter(record => record.proposalKind === 'Annotation').length, 4);
 const expansion = records.filter(record => record.selectionPass === 'ifi-expansion');
 assert.equal(expansion.length, 30, 'The institutions pass must add thirty distinct document proposals');
@@ -51,7 +51,8 @@ for (const record of records) {
   assert.equal(record.pageCount, record.pdfPageEnd - record.pdfPageStart + 1);
   assert.equal(record.provenanceUrl, `${file.pdfUrl}#page=1`);
   assert.equal(record.documentUrl, `${file.pdfUrl}#page=${record.pdfPageStart}`);
-  assert.equal(record.sourceNote, `${file.provenanceStem} ${record.classification}.`);
+  const locator = record.documentNumber ? `${file.provenanceStem.slice(0, -1)}, ${record.documentNumber}.` : file.provenanceStem;
+  assert.equal(record.sourceNote, `${locator} ${record.classification}.${record.sourceNoteDetail ? ` ${record.sourceNoteDetail}` : ''}`);
   assert.ok(['Released', 'Released in part'].includes(record.releaseStatus));
   const evidence = audit.documents.find(row => row.id === record.id);
   assert.deepEqual(evidence?.pages, [record.pdfPageStart, record.pdfPageEnd]);
@@ -76,4 +77,16 @@ assert.equal(records.find(row => row.id === 'ifi-1990-01-25-iepr').releaseStatus
 assert.equal(records.find(row => row.id === 'ifi-1991-undated-philippines-loan').datePrecision, 'undated');
 assert.equal(records.find(row => row.id === 'ifi-1989-04-esaf-report').datePrecision, 'month');
 assert.match(source.sources.find(row => row.id === '91139-013').marker.folderTitle, /February 1991/);
+const deal = records.filter(row => row.selectionPass === 'deal-standalone');
+assert.equal(deal.length, 4);
+assert.deepEqual(deal.map(row => row.date), [...deal.map(row => row.date)].sort(), 'Deal additions remain chronological');
+deal.forEach(row => {
+  assert.equal(row.sender, 'Timothy E. Deal');
+  assert.equal(row.proposalKind, 'Document');
+  assert.equal(row.collectionId, 'deal-chron');
+});
+assert.match(deal.find(row => row.id === 'deal-1989-03-07-brady-speech').sourceNote, /1475\. Unclassified upon removal/);
+assert.match(deal.find(row => row.id === 'deal-1989-03-08-brady-redraft').sourceNote, /1531\..*March 8.*March 9/);
+assert.equal(deal.find(row => row.id === 'deal-1989-05-03-philippines-world-bank').dateline, 'May 3, 1989, 6:51 p.m. EDT');
+assert.equal(deal.find(row => row.id === 'deal-1989-05-25-poland-debt').dateline, 'May 25, 1989');
 console.log(`Validated ${records.length} proposals and editorial assessments, ${model.examples.length} model examples, ${source.sources.length} first-page provenance chains, page bounds, exports, and documented source exceptions.`);
